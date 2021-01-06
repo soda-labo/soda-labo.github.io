@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "Soda Lab - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Soda Lab at Singapore Management University."
 sitemap: false
 permalink: /
 ---
