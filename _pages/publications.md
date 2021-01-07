@@ -11,7 +11,7 @@ permalink: /publications/
 
 ## Group highlights
 
-(For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=TqxYWZsAAAAJ), [ResearcherID](https://www.researcherid.com/rid/D-7763-2012))
+(For a full list see [below](#full-list) or go to Google Scholar ([Jisun An](https://scholar.google.com/citations?user=FYtw3zkAAAAJ&hl=en&oi=sra) and [Haewoon Kwak](https://scholar.google.com/citations?user=dcjrz5MAAAAJ&hl=en&oi=ao)).
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
