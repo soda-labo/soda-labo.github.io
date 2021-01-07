@@ -8,6 +8,20 @@ permalink: /research/
 
 # Research
 
+### Developing AI systems to monitor diversity and fairness in media (Tier-1)
+Singapore is well-known as a multiracial and multicultural society. Integration and cooperation in such a society depend on the perception of “self” and “the other.” Those perceptions, however, can be easily influenced. It is not surprising that media is one of the important sources that influence people’s perception of the other since people spend a considerable amount of time on media consumption. Their perception of, belief about, and attitudes toward the other are constantly shaped by the mediated images in the media. With the high penetration of smartphones, the term “media” not only refers to traditional mass media, but also extends to social media and online games with which people actively engage in their everyday life. Media’s influence thus becomes more powerful. Understanding the impact of media, for example, how media portrays each demographic group, is therefore a crucial step toward social integration. 
+
+While many social science scholars have studied diversity and fairness in media, most of the studies are conducted on a small scale and have not built working systems to illustrate the updated status of media practice. Consequently, these studies have not provided an easy-to-use tool to raise the public’s awareness of diversity and fairness in media and missed opportunities to transform the public into watchdogs on media. 
+
+![]({{ site.url }}{{ site.baseurl }}/images/respic/tier1_gender_diveresity.png){: style="width: 60%; margin: 10px 20% 10px 20%"}
+
+In this research, we aim to develop AI systems to monitor diversity and fairness in media. As diversity and fairness are big concepts and a Tier-1 research project provides a strong foundation for further research, we will mainly focus on a relatively well-formulated problem—modeling gender diversity and fairness. Furthermore, we will focus on social media platforms based on their popularity and impact. In other words, our AI systems aim to monitor gender diversity and fairness from text and images shared by influential social media accounts (e.g., those of government agencies and top commercial brands) in Singapore.  We will provide a transparent view of gender diversity and fairness in social media posts to the public and policy makers, raise their awareness, and help them understand the situation and improve it. 
+
+We will break down the computational modeling of gender diversity and fairness in social media posts into a series of multimodal machine learning tasks, such as gender detection, stereotype detection, and context inference. There have been many studies on some tasks (e.g., gender detection); however, other tasks (e.g., stereotype detection) are challenging. For the former, we will explore and utilize relevant libraries or training/testing data. For the latter, we will build a codebook, label the data, and train the multimodal machine learning models.
+
+### An's
+
+<!-- 
 Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.
 
 Our goal is to build instruments and develop techniques that enable us to address the questions we find most interesting. This is possible thanks also to Milan's broad background with different research themes and technologies: he learned his trade in [Seamus Davis’ SI-STM lab](http://davisgroup.lassp.cornell.edu/) and with [Felix Baumberger](http://dpmc.unige.ch/gr_baumberger/index.html), and later moved as an [ETH fellow](http://www.ethfellows.ethz.ch/) to [Andreas Wallraff’s qudev lab](http://www.qudev.ethz.ch/) where he investigated coupled cavity arrays in circuit QED. We further have group members with different background and interests, working together on physics and instrumentation.
@@ -41,6 +55,6 @@ We are part of the 'Strange Metal consortium NL' that includes the groups of Hus
 **Twisted bilayer graphene and other material with super-periodicities.**
 We have proposed that artificial super-periodicities can lead to improved superconductivity, both because of increased density of states and because of phase space arguments (see image from our SciPost publication below). Perhaps for different reasons, twisted bilayer graphene has been shown to superconduct! We are investigate this material with the groups of Efetov, Baumberger, and van der Molen.
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"} -->
 
 ### ... and more.
