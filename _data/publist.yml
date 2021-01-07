@@ -206,7 +206,37 @@
     url: https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17885
     display: Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018
   highlight: 1
-  news2:  
+  news2: 
+
+- title: "Identifying Regional Trends in Avatar Customization"
+  image: ieeegames18_peter.png
+  description: We manually label 5,143 hateful expressions posted to YouTube and Facebook videos among a dataset of 137,098 comments from an online news media. We then create a granular taxonomy of different types and targets of online hate and train machine learning models to automatically detect and classify the hateful comments in the full dataset.
+  authors: Peter Mawhorter, Sercan Şengün, Haewoon Kwak, D. Fox Harrell
+  link:
+    url: https://ink.library.smu.edu.sg/sis_research/5328/
+    display: IEEE Transactions on Games, 10(2), 2018
+  highlight: 1
+  news2: 
+
+- title: "SemAxis: A Lightweight Framework to Characterize Domain-Specific Word Semantics Beyond Sentiment"
+  image: acl18_an.png
+  description: We propose SemAxis, a simple yet powerful framework to characterize word semantics using many semantic axes in word-vector spaces beyond sentiment. We demonstrate that SemAxis can capture nuanced semantic representations in multiple online communities. We also show that, when the sentiment axis is examined, SemAxis outperforms the state-of-the-art approaches in building domain-specific sentiment lexicons.
+  authors: Jisun An, Haewoon Kwak, Yong-Yeol Ahn
+  link:
+    url: https://www.aclweb.org/anthology/P18-1228/
+    display: Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL), 2018
+  highlight: 1
+  news2: 
+
+- title: "What We Read, What We Search: Media Attention and Public Attention among 193 Countries"
+  image: www18_kwak.png
+  description: We investigate the alignment of international attention of news media organizations within 193 countries with the expressed international interests of the public within those same countries from March 7, 2016 to April 14, 2017. We collect fourteen months of longitudinal data of online news from Unfiltered News and web search volume data from Google Trends and build a multiplex network of media attention and public attention in order to study its structural and dynamic properties.
+  authors: Haewoon Kwak, Jisun An, Joni Salminen, Soon-Gyo Jung, Bernard J. Jansen.
+  link:
+    url: https://www.aclweb.org/anthology/P18-1228/
+    display: Proceedings of the 2018 World Wide Web Conference (WWW), 2018
+  highlight: 1
+  news2: 
 
 # - title: "Imaging doubled shot noise in a Josephson scanning tunneling microscope"
 #   image: PbSpub.png
