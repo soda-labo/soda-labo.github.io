@@ -508,7 +508,7 @@
     url: http://arxiv.org/abs/1503.07921
     display: Proceeding of the 9th International Conference on Web and Social Media (ICWSM), 2015
   highlight: 0
-  news1: Picked as [Other Interesting arXiv Papers (Week ending April 11, 2015) in MIT Technology Review](https://www.technologyreview.com/2015/04/13/11478/other-interesting-arxiv-papers-week-ending-april-11-2015/), and press coverage [O Globo](https://oglobo.globo.com/economia/tecnologia/pesquisadores-da-ufmg-publicam-estudo-sobre-sentimentos-gerados-por-manchetes-on-line-15858353)
+  news1: Picked as [Other Interesting arXiv Papers (Week ending April 11, 2015) in MIT Technology Review](https://www.technologyreview.com/2015/04/13/11478/other-interesting-arxiv-papers-week-ending-april-11-2015/), and [O Globo](https://oglobo.globo.com/economia/tecnologia/pesquisadores-da-ufmg-publicam-estudo-sobre-sentimentos-gerados-por-manchetes-on-line-15858353)
 
 
 - title: "Exploring Cyberbullying and Other Toxic Behavior in Team Competition Online Games"
@@ -519,7 +519,7 @@
     url: http://dl.acm.org/authorize?N05627
     display: Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI), 2015
   highlight: 0
-  news1: Cited by [139 times according to Google Scholar](https://scholar.google.com/scholar?rlz=1C5CHFA_enSG930SG930&um=1&ie=UTF-8&lr&cites=4756016450899538621)
+  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?rlz=1C5CHFA_enSG930SG930&um=1&ie=UTF-8&lr&cites=4756016450899538621">100+ papers citing this work (Google scholar)</a>
 
 - title: "From Cells to Streets: Estimating Mobile Paths with Cellular-Side Data"
   # image: icwsm16_an.png
@@ -549,7 +549,299 @@
     url: https://soda-labo.github.io/downloads/kwak2014first.pdf
     display: Proceedings of Social Informatics, 2014
   highlight: 0
+  news1: Press Coverage-[MIT Technology Review](https://www.technologyreview.com/2014/10/23/170630/data-mining-reveals-how-news-coverage-varies-around-the-world/), [ACM TechNews](https://cacm.acm.org/news/179842-data-mining-reveals-how-news-coverage-varies-around-the-world/fulltext)
+
+- title: "Linguistic Analysis of Toxic Behavior in an Online Video Game"
+  # image: icwsm16_an.png
+  # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  authors: Haewoon Kwak, Jeremy Blackburn
+  link:
+    url: https://arxiv.org/abs/1410.5185
+    display: SocInfo Workshop on Exploration on Games and Gamers (EGG), 2014
+  highlight: 0
   news1: 
+
+- title: "Searching for a Unique Style in Soccer"
+  image: kdd14_laszlo.png
+  description: We introduce the the concept of "flow motifs" to characterize the statistically significant pass sequence patterns. It extends the idea of the network motifs, highly significant subgraphs that usually consists of three or four nodes. The analysis of the motifs in the pass networks allows us to compare and differentiate the styles of different teams. Although most teams tend to apply homogenous style, surprisingly, a unique strategy of soccer exists. Specifically, FC Barcelona's famous tiki-taka does not consist of uncountable random passes but rather has a precise, finely constructed structure.
+  authors: Laszlo Gyarmati, Haewoon Kwak, Pablo Rodriguez
+  link:
+    url: https://arxiv.org/abs/1409.0308
+    display: KDD Workshop on Large-Scale Sports Analytics, 2014
+  highlight: 1
+  news1: Press coverage-[BBC](https://www.bbc.com/future/article/20141024-what-makes-barcelona-so-special?referer=http%3A%2F%2Fhaewoon.io%2F), [MIT Technology Review](https://www.technologyreview.com/2014/09/15/12542/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/), [The Times](https://www.thetimes.co.uk/article/proof-at-last-that-we-are-all-pass-masters-almost-8l8z7tc6fvg), [The Economist](https://www.economist.com/game-theory/2014/09/22/a-different-ball-game), [Slate](http://www.slate.fr/story/92245/graphiques-fc-barcelone-style-jeu-unique), [Pacific Standard](https://psmag.com/social-justice/football-sport-soccer-art-motifs-matter-90256#.ykqwk6ny8), and so on.
+
+- title: "Didn’t You See My Message? Predicting Attentiveness to Mobile Instant Messages"
+  # image: kdd14_laszlo.png
+  # description: We introduce the the concept of "flow motifs" to characterize the statistically significant pass sequence patterns. It extends the idea of the network motifs, highly significant subgraphs that usually consists of three or four nodes. The analysis of the motifs in the pass networks allows us to compare and differentiate the styles of different teams. Although most teams tend to apply homogenous style, surprisingly, a unique strategy of soccer exists. Specifically, FC Barcelona's famous tiki-taka does not consist of uncountable random passes but rather has a precise, finely constructed structure.
+  authors: Martin Pielot, Rodrigo de Oliveira, Haewoon Kwak, Nuria Oliver
+  link:
+    url: http://dl.acm.org/authorize?N87787
+    display: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2014
+  highlight: 0
+  # news1: Press coverage-[BBC](https://www.bbc.com/future/article/20141024-what-makes-barcelona-so-special?referer=http%3A%2F%2Fhaewoon.io%2F), [MIT Technology Review](https://www.technologyreview.com/2014/09/15/12542/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/), [The Times](https://www.thetimes.co.uk/article/proof-at-last-that-we-are-all-pass-masters-almost-8l8z7tc6fvg), [The Economist](https://www.economist.com/game-theory/2014/09/22/a-different-ball-game), [Slate](http://www.slate.fr/story/92245/graphiques-fc-barcelone-style-jeu-unique), [Pacific Standard](https://psmag.com/social-justice/football-sport-soccer-art-motifs-matter-90256#.ykqwk6ny8), and so on.
+
+- title: "STFU NOOB! Predicting Crowdsourced Decisions on Toxic Behavior in Online Games"
+  image: www14_jeremy.png
+  description: We propose a supervised learning approach for predicting crowdsourced decisions on toxic behavior with large-scale labeled data collections; over 10 million user reports involved in 1.46 million toxic players and corresponding crowdsourced decisions. Our result shows good performance in detecting overwhelmingly majority cases and predicting crowdsourced decisions on them. We demonstrate good portability of our classifier across regions.
+  authors: Jeremy Blackburn, Haewoon Kwak
+  link:
+    url: https://arxiv.org/abs/1404.5905
+    display: Proceedings of the 23rd international conference on World wide web (WWW), 2014
+  highlight: 1
+  news1: Press coverage-[Nature](https://www.nature.com/news/can-a-video-game-company-tame-toxic-behaviour-1.19647), [Scientific American](http://www.scientificamerican.com/article/can-a-video-game-company-tame-toxic-behavior/), [Chosun Ilbo](https://www.chosun.com/site/data/html_dir/2016/04/06/2016040603525.html)
+
+- title: "Has Much Potential but Biased: Exploring the Scholarly Landscape in Twitter"
+  # image: www14_jeremy.png
+  # description: We propose a supervised learning approach for predicting crowdsourced decisions on toxic behavior with large-scale labeled data collections; over 10 million user reports involved in 1.46 million toxic players and corresponding crowdsourced decisions. Our result shows good performance in detecting overwhelmingly majority cases and predicting crowdsourced decisions on them. We demonstrate good portability of our classifier across regions.
+  authors: Haewoon Kwak, Jonggun Lee (poster)
+  link:
+    url: https://archive.thewebconf.org/proceedings/www2014/companion/p563.pdf
+    display: Proceedings of the 23rd International Conference on World Wide Web Companion, 2014
+  highlight: 0
+  # news1: Press coverage-[Nature](https://www.nature.com/news/can-a-video-game-company-tame-toxic-behaviour-1.19647), [Scientific American](http://www.scientificamerican.com/article/can-a-video-game-company-tame-toxic-behavior/), [Chosun Ilbo](https://www.chosun.com/site/data/html_dir/2016/04/06/2016040603525.html)
+
+- title: "Sharing political news: the balancing act of intimacy and socialization in selective exposure"
+  # image: www14_jeremy.png
+  # description: We propose a supervised learning approach for predicting crowdsourced decisions on toxic behavior with large-scale labeled data collections; over 10 million user reports involved in 1.46 million toxic players and corresponding crowdsourced decisions. Our result shows good performance in detecting overwhelmingly majority cases and predicting crowdsourced decisions on them. We demonstrate good portability of our classifier across regions.
+  authors: Jisun An, Daniele Quercia, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft
+  link:
+    url: https://link.springer.com/article/10.1140/epjds/s13688-014-0012-2
+    display: EPJ Data Science volume 3, Article number 12, 2014
+  highlight: 0
+  # news1: Press coverage-[Nature](https://www.nature.com/news/can-a-video-game-company-tame-toxic-behaviour-1.19647), [Scientific American](http://www.scientificamerican.com/article/can-a-video-game-company-tame-toxic-behavior/), [Chosun Ilbo](https://www.chosun.com/site/data/html_dir/2016/04/06/2016040603525.html)
+
+- title: "Recommending investors for crowdfunding projects"
+  image: www14_an.png
+  description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Jisun An, Daniele Quercia, Jon Crowcroft
+  link:
+    url: https://dl.acm.org/doi/10.1145/2566486.2568005
+    display: Proceedings of the 23rd international conference on World wide web (WWW), 2014
+  highlight: 1
+  news1: Press coverage-[FastCompany](https://www.fastcompany.com/3037619/how-to-predict-who-will-donate-to-your-kickstarter)
+
+- title: "Partisan Sharing: Facebook Evidence and Societal Consequences"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Jisun An, Daniele Quercia, Jon Crowcroft
+  link:
+    url: https://dl.acm.org/doi/10.1145/2660460.2660469?cid=99659160512
+    display: Proceedings of the Second ACM Conference on Online Social Networks (COSN), 2014
+  highlight: 0
+  news1: 
+
+- title: "Tower of Babel: A Crowdsourcing Game Building Sentiment Lexicons for Resource-scarce Languages"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Yoonsung Hong, Haewoon Kwak, Youngmin Baek, Sue Moon
+  link:
+    url: https://soda-labo.github.io/downloads/hong2013tower.pdf
+    display: WWW Workshop on Multidisciplinary Approaches to Big Social Data Analysis, 2013
+  highlight: 0
+  news1:
+
+- title: "Structures of Broken Ties: Exploring Unfollow Behavior on Twitter"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Bo Xu, Yun Huang, Haewoon Kwak, Noshir S. Contractor
+  link:
+    url: http://dl.acm.org/authorize?6892114
+    display: Proceedings of the 16th ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW), 2013
+  highlight: 0
+  news1:
+
+- title: "Why Individuals Seek Diverse Opinions (or Why They Don't)"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Jisun An, Daniele Quercia, Jon Crowcroft
+  link:
+    url: https://dl.acm.org/doi/10.1145/2464464.2464493?cid=99659160512
+    display: Proceedings of the 5th Annual ACM Web Science Conference (WebSci), 2013
+  highlight: 0
+  news1:
+
+- title: "Why Do I Retweet It? An Information Propagation Model for Microblogs"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Fabio Pezzoni, Jisun An, Andrea Passarella, Jon Crowcroft, Marco Conti
+  link:
+    url: https://soda-labo.github.io/downloads/pezzoni2013why.pdf
+    display: Proceedings of the 5th International Conference on Social Informatics (SocInfo), 2013
+  highlight: 0
+  news1:
+
+- title: "Traditional Media Seen from Social Media"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Jisun An, Daniele Quercia, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft
+  link:
+    url: https://dl.acm.org/doi/10.1145/2464464.2464492?cid=99659160512
+    display: Proceedings of the 5th Annual ACM Web Science Conference (WebSci), 2013
+  highlight: 0
+  news1:  
+
+- title: "Fragmented Social Media: A Look into Selective Exposure to Political News"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Jisun An, Daniele Quercia, Jon Crowcroft (poster)
+  link:
+    url: https://dl.acm.org/doi/10.1145/2487788.2487807?cid=99659160512
+    display: Proceedings of the 22nd International Conference on World Wide Web (WWW) Companion, 2013
+  highlight: 0
+  news1:  
+
+- title: "More of a Receiver than a Giver: Why Do People Unfollow in Twitter?"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Haewoon Kwak, Sue Moon, Wonjae Lee (4 page poster)
+  link:
+    url: https://soda-labo.github.io/downloads/kwak2012more.pdf
+    display: Proceedings of the 6th International AAAI Conference on Weblogs and Social Media (ICWSM), 2012
+  highlight: 0
+  news1:  
+
+- title: "Visualizing Media Bias through Twitter"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Jisun An, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft, Daniele Quercia
+  link:
+    url: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/view/4775
+    display: ICWSM Workshop on the Potential of Social Media Tools and Data for Journalists, 2012
+  highlight: 0
+  news1:  
+
+- title: "Consistent Community Identification in Complex Networks"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Haewoon Kwak, Sue Moon, Young-Ho Eom, Yoonchan Choi, Hawoong Jeong
+  link:
+    url: https://soda-labo.github.io/downloads/kwak2011consistent.pdf
+    display: Journal of Korean Physical Society, Vol. 59, No. 5, November 2011.
+  highlight: 0
+  news1:  
+
+- title: "Fragile Online Relationship: a First Look at Unfollow Dynamics in Twitter"
+  # image: www14_an.png
+  # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  authors: Haewoon Kwak, Hyunwoo Chun, Sue Moon
+  link:
+    url: http://dl.acm.org/authorize?419779
+    display: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2011.
+  highlight: 0
+  news1: Press coverage - [Kyunghyang Shinmun](http://news.khan.co.kr/kh_news/khan_art_view.html?artid=201112132128435&code=960201)
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=5916615019466622068&as_sdt=2005&sciodt=0,5&hl=en">150+ papers citing this work (Google scholar)</a>
+
+
+- title: "What is Twitter, a Social Network or a News Media?"
+  image: www10_kwak.png
+  description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
+  authors: Haewoon Kwak, Changhyun Lee, Hosung Park, Sue Moon
+  link:
+    url: http://dl.acm.org/authorize?237581
+    display: Proceedings of the 19th international conference on World wide web (WWW), 2010.
+  highlight: 1
+  news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=420603684741729498">8000+ papers citing this work (Google scholar)</a>
+
+- title: "Finding Influentials based on the Temporal Order of Information Adoption in Twitter"
+  # image: www10_kwak.png
+  # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
+  authors: Changhyun Lee, Haewoon Kwak, Hosung Park, Sue Moon (poster)
+  link:
+    url: http://dl.acm.org/authorize?235691
+    display: Proceedings of the 19th international conference on World wide web (WWW), 2010.
+  highlight: 0
+  # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
+  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=ko&cites=12907911141919226818&as_sdt=5">100+ papers citing this work (Google scholar)</a>
+
+- title: "Understanding Topological Mesoscale Features in Community Mining"
+  # image: www10_kwak.png
+  # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
+  authors: Sue Moon, Jinyoung You, Haewoon Kwak, Daniel Kim, and Hawoong Jeong (invited paper)
+  link:
+    url: https://ieeexplore.ieee.org/document/5431994
+    display: Proceedings of the Second International Conference on COMmunication Systems and NETworks (COMSNETS), 2010.
+  highlight: 0
+  # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
+  news1: 
+
+- title: "Analyzing the Video Popularity Characteristics of Large-Scale User Generated Content Systems"
+  # image: www10_kwak.png
+  # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
+  authors: Meeyoung Cha, Haewoon Kwak, Pablo Rodriguez, Yong-Yeol Ahn, and Sue Moon
+  link:
+    url: https://ieeexplore.ieee.org/document/5431994
+    display: ACM/IEEE Transactions on Networking, Vol 17, Issue 5, 2009
+  highlight: 0
+  # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
+  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?rlz=1C5CHFA_enSG927SG927&um=1&ie=UTF-8&lr&cites=11215649147595324791">500+ papers citing this work (Google scholar)</a>
+
+- title: "Mining Communities in Networks: a Solution for Consistency and Its Evaluation"
+  # image: www10_kwak.png
+  # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
+  authors: Haewoon Kwak, Yoonchan Choi, Young-Ho Eom, Hawoong Jeong, Sue Moon
+  link:
+    url: http://dl.acm.org/authorize?256322
+    display: Proceedings of the 9th ACM SIGCOMM conference on Internet measurement (IMC), 2009
+  highlight: 0
+  # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
+  news1: 
+
+- title: "The Wisdom of the Few: A Collaborative Filtering Approach based on Expert Opinions from the Web "
+  # image: www10_kwak.png
+  # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
+  authors: Xavier Amatriaain, Neal Lathia, Josep M. Pujol, Haewoon Kwak, Nuria Oliver
+  link:
+    url: http://dl.acm.org/authorize?107602
+    display: Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval (SIGIR), 2009
+  highlight: 0
+  # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
+  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=ko&cites=12105950545188755091">150+ papers citing this work (Google scholar)</a>
+
+- title: "Connecting Users with Similar Interests Across Multiple Web Services"
+  # image: www10_kwak.png
+  # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
+  authors: Haewoon Kwak, Hwa-Yong Shin, Jong-Il Yoon, Sue Moon (poster)
+  link:
+    url: https://soda-labo.github.io/downloads/kwak2009connecting.pdf
+    display: Proceedings of the 3rd International AAAI Conference on Weblogs and Social Media (ICWSM), 2009
+  highlight: 0
+  # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
+  news1: 
+
+- title: "I Tube, You Tube, Everybody Tubes: Analyzing the World's Largest User Generated Content Video System"
+  # image: www10_kwak.png
+  # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
+  authors: Meeyoung Cha, Haewoon Kwak, Pablo Rodriguez, Yong-Yeol Ahn, Sue Moon
+  link:
+    url: http://dl.acm.org/authorize?916072
+    display: Proceedings of the 7th ACM SIGCOMM conference on Internet measurement (IMC), 2009
+  highlight: 0
+  # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
+  news1: Best paper award
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=10792240042294166454&as_sdt=2005&sciodt=0,5&hl=en">1,900+ papers citing this work (Google scholar)</a>
+
+- title: "Analysis of topological characteristics of huge online social networking services"
+  # image: www10_kwak.png
+  # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
+  authors: Yong-Yeol Ahn, Seungyeop Han, Haewoon Kwak, Sue Moon, Hawoong Jeong
+  link:
+    url: http://dl.acm.org/authorize?968490
+    display: Proceedings of the 16th international conference on World Wide Web (WWW), 2007
+  highlight: 0
+  # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
+  # news1: Best paper award
+  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=9872765684557150192&as_sdt=2005&sciodt=0,5&hl=en">1,200+ papers citing this work (Google scholar)</a>
+
+
+
+
+  
+
+
+
+
 
 
 # - title: "Imaging doubled shot noise in a Josephson scanning tunneling microscope"

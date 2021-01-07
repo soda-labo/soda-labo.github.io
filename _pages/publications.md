@@ -26,7 +26,7 @@ A list of selected papers in which research team members participated. <br/>
 
 <div class="col-sm-6 clearfix">
  <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
+  <a href="{{ publi.link.url }}"><pubtit>{{ publi.title }}</pubtit></a>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
@@ -59,6 +59,6 @@ A list of selected papers in which research team members participated. <br/>
 
   <a href="{{ publi.link.url }}"><b>{{ publi.title }} </b></a><br />
   <em>{{ publi.authors }} </em><br />{{ publi.link.display }}<br/>
-  {% if publi.news1 %}<i>{{ publi.news1 }}</i>{% endif %}
-
+  {% if publi.news1 %}<b>{{ publi.news1 }}</b><br/>{% endif %}
+  {% if publi.news2 %}{{ publi.news2 }}{% endif %}  
 {% endfor %}
