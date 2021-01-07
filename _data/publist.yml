@@ -521,7 +521,25 @@
   highlight: 0
   news1: Cited by [139 times according to Google Scholar](https://scholar.google.com/scholar?rlz=1C5CHFA_enSG930SG930&um=1&ie=UTF-8&lr&cites=4756016450899538621)
 
+- title: "From Cells to Streets: Estimating Mobile Paths with Cellular-Side Data"
+  # image: icwsm16_an.png
+  # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  authors: Ilias Leontiadis, Antonio Lima, Haewoon Kwak, Rade Stanojevic, David Wetherall, Konstantina Papagiannaki
+  link:
+    url: https://dl.acm.org/doi/10.1145/2674005.2674982
+    display: Proceedings of the 10th ACM International on Conference on emerging Networking Experiments and Technologies (CoNEXT), 2014
+  highlight: 0
+  news1: 
 
+- title: "A First Look at Global News Coverage of Disasters By Using the GDELT Dataset"
+  # image: icwsm16_an.png
+  # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  authors: Haewoon Kwak, Jisun An
+  link:
+    url: http://soda-labo.github.io/downloads/kwak2014first.pdf
+    display: Proceedings of Social Informatics, 2014
+  highlight: 0
+  news1: 
 
 
 # - title: "Imaging doubled shot noise in a Josephson scanning tunneling microscope"
