@@ -1,322 +1,443 @@
-- title: "Direct comparison of ARPES, STM, and quantum oscillation data for band structure determination in Sr2RhO4"
-  image: Direct.png
-  authors: I Battisti, WO Tromp, S Riccò, RS Perry, AP Mackenzie, A Tamai, F Baumberger, MP Allan
-  description: We directly test the consistency of results from these three techniques by comparing data from the correlated metal Sr2RhO4. Using ARPES, STM, and quantum oscillations, we find good agreement for the Fermi surface topography and carrier effective masses. Hence, the apparent absence of such an agreement in other quantum materials, including the cuprates, suggests that the electronic states in these materials are of different, non-Fermi liquid-like nature. Collaboration with the groups of <a href='https://dqmp.unige.ch/baumberger/'>Baumberger</a>, <a href='https://www.london-nano.com/our-people/our-people-bios/robin-perry'>Perry</a>,  and <a href='https://www.mpg.de/6812374/chem_physik_fester_stoffe_mackenzie'>Mackenzie</a>.
+- title: "Understanding Effects of Editing Tweets for News Sharing by Media Accounts through a Causal Inference Framework"
+  image: icwsm21_park.png
+  authors: Kunwoo Park, Haewoon Kwak, Jisun An, Sanjay Chawla
+  description: We first build a parallel corpus of original news articles and their corresponding tweets that were shared by eight media outlets. Then, we explore how those media edited tweets against original headlines, and the effects would be..
   link:
-    url: https://www.nature.com/articles/s41535-020-00292-4
-    display:  npj Quantum Materials 5, 91 (2020)
-  highlight: 1
-  news2:
-
-- title: "Fabrication of on-chip probes for double-tip scanning tunneling microscopy"
-  image: TBG_ARPES.png
-  authors: M Leeuwenhoek, F Groenewoud, K van Oosten, T Benschop, MP Allan, S Gröblacher
-  description:
-  link:
-    url: https://www.nature.com/articles/s41378-020-00209-y
-    display:  Microsyst Nanoeng 6, 99 (2020)
-  highlight: 0
-  news2:
-
-- title: "Modeling Green's functions measurements with two-tip scanning tunneling microscopy"
-  image: TBG_ARPES.png
-  description: A first paper from the TBG collaboration is online, with beautiful data from the Baumberger group in Geneva, and great devices from the Efetov group at ICFO. We measured STM on the device.
-  authors: M Leeuwenhoek, S Gröblacher, MP Allan, YaM Blanter
-  link:
-    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.115416
-    display:  PRB 102, 115416 (2020)
-  highlight: 0
-  news2:
-
-- title: "Mapping local heterogeneity in open twisted bilayer graphene devices"
-  image: TBG_SL.png
-  description: Why is there so much variation in TBG devices? And are open devices more disordered than encapsulated ones? We introduce a new method to continuously map inhomogeneities of a moiré lattice and apply it to open-device TBG to show that twist angle variation is small over areas of hundreds of nm.
-  authors: T Benschop*, TA de Jong*, P Stepanov*, Xiaobo Lu, V Stalman, SJ van der Molen, DK Efetov, MP Allan
-  link:
-    url: https://arxiv.org/abs/2008.13766
-    display:  arXiv:2008.13766 (2020)
-  highlight: 1
-  news2:
-
-- title: "Spatially dispersing Yu-Shiba-Rusinov states in the unconventional superconductor FeTe0.55Se0.45"
-  image: YSR.png
-  description: We report on a peculiar, spatially dispersing YSR state in Fe(Se,Te) that can be tuned by the tip.
-  authors: D Chatzopoulos, Doohee Cho, KM Bastiaans, GO Steffensen, D Bouwmeester, A Akbari, Genda Gu, J Paaske, BM Andersen, MP Allan
-  link:
-    url: https://arxiv.org/abs/2006.12840
-    display:  arXiv:2006.12840 (2020)
-  highlight: 1
-
-- title: "Multi-Atom Quasiparticle Scattering Interference for Superconductor Energy-Gap Symmetry Determination"
-  image: TBG_ARPES.png
-  description:
-  authors: R Sharma, A Kreisel, MA Sulangi, J Böker, A Kostin, MP Allan, H Eisaki, AE Böhmer, PC Canfield, I Eremin, JC Davis, PJ Hirschfeld, PO Sprau
-  link:
-    url: https://arxiv.org/abs/2005.05140
-    display:  arXiv:2005.05140 (2020)
-  highlight: 0
-  news2:
-
-- title: "Observation of flat bands in twisted bilayer graphene"
-  image: TBG_ARPES.png
-  description: A first paper from the TBG collaboration is online, with beautiful data from the Baumberger group in Geneva, and great devices from the Efetov group at ICFO. We measured STM on the device.
-  authors: S Lisi*, X Lu*, T Benschop*, TA de Jong*, Petr S, JR Duran, F Margot, I Cucchi, E Cappelli, A Hunter, A Tamai, V Kandyba, A Giampietri, A Barinov, J Jobst, V Stalman, M Leeuwenhoek, K Watanabe, T Taniguchi, L Rademaker, SJ van der Molen, MP Allan, DK Efetov, F Baumberger
-  link:
-    url: https://www.nature.com/articles/s41567-020-01041-x
-    display:  Nature Physics (2020)
-  highlight: 1
-  news2: News coverage by <a href="https://www.nrc.nl/nieuws/2020/09/28/slome-elektronen-maken-grafeen-supergeleidend-a4013840"> NRC </a>
-
-- title: "A strongly inhomogeneous superfluid in an iron-based superconductor"
-  image: STS_news.png
-  description: We succeeded in measuring the superfluid density with atomic resolution on an unconventional superconductor! In contrast to expectations for conventional superconductors, we find that the superfluid densisty is strongly inhomogeneous in FeTe0.55Se0.45.
-  authors: D Cho* & KM Bastiaans* & D Chatzopoulos*, GD Gu, MP Allan
-  link:
-    url: https://www.nature.com/articles/s41586-019-1408-8
-    display:  Nature 571, 541 (2019)
-  highlight: 1
-  news2:
-
-- title: "Nanofabricated tips as a platform for double-tip and device based scanning tunneling microscopy"
-  image: SmartPub.png
-  description: We introduce a platform for bringing new, device-based functionality to STM, with the goal of utilizing decades of progress in device engineering for the field of scanning probe.
-  authors: M Leeuwenhoek,  RA Norte, KM Bastiaans, Doohee Cho, I Battisti, YaM Blanter, S Gröblacher, MP Allan
-  link:
-    url: https://iopscience.iop.org/article/10.1088/1361-6528/ab1c7f/pdf
-    display: Nanotechnology 30, 335702 (2019)
-  highlight: 1
-  news2: See also our papers on the theoretical modeling of such measurements, and the paper about fabrication.
-
-- title: "Imaging doubled shot noise in a Josephson scanning tunneling microscope"
-  image: PbSpub.png
-  description: We have imaged the doubling of the current noise due to Andreev reflections in a Josephson scanning tunneling microscope.
-  authors: KM Bastiaans, D Cho, D Chatzopoulos, M Leeuwenhoek, C Koks, MP Allan
-  link:
-    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.104506
-    display:  Phys. Rev. B 100, 104506 (2019)
-  highlight: 1
-  news2:
-
-- title: "Definition of design guidelines, construction and performance of an ultra-stable scanning tunneling microscope for spectroscopic imaging"
-  image: DomePub.png
-  description: Our first completely home-built STM is alive! And it has the world’s highest resonance frequency.
-  authors: I Battisti, G Verdoes, K van Oosten, KM Bastiaans, and MP Allan
-  link:
-    url: https://aip.scitation.org/doi/10.1063/1.5064442
-    display:  Rev. Sci. Instrum. 89, 123705 (2018)
-  highlight: 1
-  news2:
-
-- title: "Charge trapping and super-Poissonian noise centres in a cuprate superconductor"
-  image: Pub_BCl.png
-  description: Using our newly developed noise-spectroscopy technique we discover charge trapping in a cuprate high-temperature superconductor.
-  authors: KM Bastiaans* & D Cho*, T Benschop, I Battisti, Y Huang, MS Golden, Q Dong, Y Jin, J Zaanen, MP Allan
-  link:
-    url: https://www.nature.com/articles/s41567-018-0300-z
-    display:  Nature Physics 14, 1183 (2018)
-  highlight: 1
-  news1: <a href="https://aip.scitation.org/doi/10.1063/1.5043267">Instrument details in Rev. Sci. Instrum. 89, 093709 (2018)</a>
-  news2: See also <a href="http://www.quantumuniverse.nl/een-isolerende-supergeleider"> quantum universe </a> (in dutch), <a href="https://phys.org/news/2018-10-mysterious-insulating-phenomenon-superconductor.html"> Phys.org </a>, <a href="https://www.universiteitleiden.nl/en/news/2018/10/insulating-phenomenon-in-superconductor"> Leiden University news</a>, <a href="http://iop.uva.nl/content/news/2018/10/noise-helps-physicists-discover-insulating-phenomenon-in-superconductor.html"> UvA news<a>.
-
-- title: "Amplifier for scanning tunneling microscopy at MHz frequencies"
-  image: Fano.png
-  description: We develop, build and test a novel amplifier circuit capable of measuring the tunneling current in the MHz regime while simultaneously performing conventional STM measurements. We are looking forward to performing scanning noise spectroscopy on quantum materials!
-  authors: KM Bastiaans, T Benschop, D Chatzopoulos, D Cho, Q Dong, Y Jin, MP Allan
-  link:
-    url: https://aip.scitation.org/doi/10.1063/1.5043267
-    display:  Rev. Sci. Instrum. 89, 093709 (2018)
-  highlight: 0
-  news2:
-
-- title: "Revisiting quasiparticle scattering interference in high-temperature superconductors: the problem of narrow peaks"
-  image: dummy.png
-  description: ""
-  authors: MA Sulangi, MP Allan, J Zaanen
-  link:
-    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.134507
-    display:  PRB 96, 134507 (2017)
-  highlight: 0
-  news2: Coverd in Superconductor Week, November 30, 2017 Vol. 31, No. 10
-
-- title: Robust procedure for creating and characterizing the atomic structure of scanning tunneling microscope tips
-  image: dummy.png
-  description: ""
-  authors: S Tewari, KM Bastiaans, MP Allan, JM van Ruitenbeek
-  link:
-    url: http://www.beilstein-journals.org/bjnano/content/pdf/2190-4286-8-238.pdf
-    display:  Beilstein J. Nanotechnol. 8, 2389 (2017)
-  highlight: 0
-  news2:
-
-- title: Creating better superconductors by periodic nanopatterning
-  image: SCAUweb.jpg
-  description:
-    We  propose  an approach to transform a ‘pristine’ material into a better (meta-) superconductor by making use of modern fabrication techniques -- designing and engineering the electronic properties of thin films via periodic patterning on the nanoscale.
-  authors:
-    MP Allan, MH Fischer, O Ostojic, A Andringa
-  link:
-    url: https://scipost.org/SciPostPhys.3.2.010/pdf
-    display: SciPost Phys. 3, 010 (2017)
-  highlight: 1
-
-- title: Poor electronic screening in lightly doped Mott insulators observed with scanning tunneling microscopy
-  image: TIBB.png
-  description:
-    We develop a simple model to interpret STM results on lightly doped Mott insulators, and find that the effective Mott gap measured by STM correspons to the one measured with other techniques when taking into account the poor electronic screeing.
-  authors:
-    I Battisti, V Fedoseev, KM Bastiaans, A de la Torre, RS Perry, F Baumberger, MP Allan
-  link:
-    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.235141
-    display: Phys. Rev. B 95, 235141, Editors' suggestion (2017)
-  highlight: 0
-
-- title: Universality of pseudo gap and emergent order in lightly doped Mott insulators
-  image: Mott_phase_sep.jpg
-  description:
-    We discover of electronic order, pseudo gap phase separation and an impurity-band Mott transition in an iridate compound, cuprate-style. Along the way, we gained unique knowledge on how a Mott state collapses.
-  authors:
-    I. Battisti* & K.M. Bastiaans*, V. Fedoseev, A. de la Torre, N. Iliopoulos, A. Tamai, E.C. Hunter, R.S. Perry, J. Zaanen, F. Baumberger, M.P. Allan
-  link:
-    url: http://www.nature.com/nphys/journal/vaop/ncurrent/full/nphys3894.html
-    display: Nature Physics 13, 21 (2017)
-  highlight: 1
-  news2: See also <a href="https://www.universiteitleiden.nl/en/news/2016/09/melting-of-frozen-electrons-visualized"> Leiden University news </a> by Erik Arends, <a href="http://phys.org/news/2016-09-frozen-electrons-visualized.html"> Phys.org </a>
-
-- title: Identifying the fingerprint of antiferromagnetic spin fluctuations in iron pnictide superconductors
-  image: Pub_FP.png
-  description:
-    Both the density of states and the QPI dispersion of LiFeAs shows signatures of electron-boson coupling. Comparing these with fingerprints of different boson couplings to conclude that these signatures stem from AF spin fluctuations.
-  authors:
-    MP Allan* & Kyungmin Lee* & AW Rost*, MH Fischer, F Massee, K Kihou, C-H Lee, A Iyo, H Eisaki, T-M Chuang, AP Mackenzie, JC Davis, DJ Scalapino, E-A Kim
-  link:
-    url: http://www.nature.com/nphys/journal/v11/n2/full/nphys3187.html
-    display: Nature Physics 11, 177 (2015)
+    url: https://arxiv.org/abs/2009.08100
+    display:  Proceedings of the 15th International AAAI Conference on Web and Social Media (ICWSM), 2021
   highlight: 1
   news1:
-  news2: See also <a href="http://www.news.cornell.edu/stories/2015/01/high-temperature-superconductor-fingerprint-found"> Cornell Chronicle </a> by Anne Ju, <a href="http://phys.org/news/2015-01-high-temperature-superconductor-fingerprint.html"> Phys.org </a>
 
-- title: Direct evidence for a magnetic f-electron mediated Cooper pairing mechanism of heavy fermion superconductivity in CeCoIn5
-  image: dummy.png
-  description: ""
-  authors:
-    J Van Dyke, F Massee, MP Allan, JC Davis, C Petrovic, and DK Morr
+- title: "A Systematic Media Frame Analysis of 1.5 Million New York Times Articles from 2000 to 2017"
+  image: websci20_haewoon.png
+  authors: Haewoon Kwak, Jisun An, Yong-Yeol Ahn
+  description: Framing is an indispensable narrative device for news media because even the same facts may lead to conflicting understandings if deliberate framing is employed. By developing a media frame classifier that achieves state-of-the-art performance, we systematically analyze the media frames of 1.5 million New York Times articles published from 2000 to 2017.
   link:
-    url: http://www.pnas.org/content/111/32/11663
-    display: PNAS 111, 11663 (2014)
-  highlight: 0
-  news1: <a style="color:#FF0000; text-decoration:underline" href="http://science.sciencemag.org/content/345/6203/twil">News item in Science</a>
+    url: https://arxiv.org/abs/2005.01803
+    display: Proceedings of the 12th ACM Conference on Web Science (WebSci), 2020
+  highlight: 1
+  news1:
+
+- title: "What Was Written vs. Who Read It: News Media Profiling Using Text Analysis and Social Media Context"
+  image: acl20_ramy.png
+  description: A first paper from the TBG collaboration is online, with beautiful data from the Baumberger group in Geneva, and great devices from the Efetov group at ICFO. We measured STM on the device.
+  authors: Ramy Baly, Georgi Karadzhov, Jisun An, Haewoon Kwak, Yoan Dinkov, Ahmed Ali, James Glass, Preslav Nakov
+  link:
+    url: https://www.aclweb.org/anthology/2020.acl-main.308/
+    display:  Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL) (2020)
+  highlight: 1
   news2:
 
-- title: Imaging Cooper pairing of heavy fermions in CeCoIn5
-  image: Pub_CeCoIn5.png
-  description:
-    The heavy Fermion superconductor CeCoIn5 has a d-wave gap with nodes along the (1,1) direction, as we find using QPI.
-  authors:
-    MP Allan* & F Massee*, DK Morr, J van Dyke, AW Rost, AP Mackenzie, C Petrovic, JC Davis
+- title: "Empirical Evaluation of Three Common Assumptions in Building Political Media Bias Datasets"
+  # image: icwsm20_park.png
+  description: We empirically validate three common assumptions in building political media bias datasets, which are (i) labelers' political leanings do not affect labeling tasks, (ii) news articles follow their source outlet's political leaning, and (iii) political leaning of a news outlet is stable across different topics.
+  authors: Soumen Ganguly, Juhi Kulshrestha, Jisun An, Haewoon Kwak
   link:
-    url: http://www.nature.com/nphys/journal/vaop/ncurrent/abs/nphys2671.html
-    display: Nature Physics 9, 468 (2013)
-  highlight: 1
-  news1: <a style="color:#FF0000; text-decoration:underline" href="http://www.nature.com/nphys/journal/v9/n8/full/nphys2708.html">Featured in 'News and Views' by L Taillefer</a>
-  news2: See also <a href="http://phys.org/news/2013-07-imaging-electron-pairing-simple-magnetic.html"> Phys.org</a>, <a href="http://davisgroup.lassp.cornell.edu/CeCoIn5_DoE.html">DoE headliner</a>
-
-- title: Formation of heavy d-electron quasiparticles in Sr3Ru2O7
-  image: Pub_327.png
-  description:
-    Using APRES, we find that the bands in Sr3Ru2O7 look more like in heavy fermion material than in a normal metal. We present a detailed investigation into the formation of this particular electronic  structure.
-  authors:
-    MP Allan, A Tamai, E Rozbicki, MH Fischer, J Voss, PDC King, W Meevasana, S Thirupathaiah, E Rienks, J Fink, A Tennant, RS Perry, JF Mercure, MA Wang, J Lee, CJ Fennie, E-A Kim, MJ Lawler, KM Shen, AP Mackenzie, Z-X Shen, F Baumberger
-  link:
-    url: http://iopscience.iop.org/1367-2630/15/6/063029
-    display: New Journal of Physics 15, 063029 (2013)
-  highlight: 1
-  news: <a style="color:#FF0000; text-decoration:underline" href="http://iopscience.iop.org/1367-2630/15/6/063029"> Video abstract available</a>
-
-- title: Anisotropic impurity states, quasiparticle scattering and nematic transport in underdoped Ca(Fe1−xCox)2As2
-  image: Pub_nemat2b.png
-  description:
-    We elucidate on the formation of the electronic nematic state in Co-CaFe2As2, finding that the Cobalt dopant atoms play a key role.
-  authors:
-    MP Allan, T-M Chuang, F Massee, Y Xie, N Ni, SL Bud’ko, GS Boebinger, Q Wang, DS Dessau, PC Canfield, MS Golden, JC Davis
-  highlight: 1
-  link:
-    url: http://www.nature.com/nphys/journal/v9/n4/full/nphys2544.html
-    display: Nature Physics 9, 220 (2013)
-  news2: See also <a href="http://www.techconnect.org/news/entry.html?id=243"> Tech Connect </a> by Jennifer Rocha, <a href="http://phys.org/news/2013-02-iron-based-superconductor-advances-theory.html"> Phys.org</a> by Bill Steele
-
-- title: Anisotropic energy gaps of iron-based superconductivity from intraband quasiparticle interference in LiFeAs
-  image: Pub_LiFeAs.png
-  description:
-    In contrast to earlier photoemission reports, we show that the gaps in iron based superconductors are not isotropic but modulated with angle.
-  authors:
-    MP Allan⋆ & AW Rost⋆, AP Mackenzie, Y Xie, JC Davis, K Kihou, CH Lee, A Iyo, H Eisaki, T-M Chuang
-  link:
-    url: http://www.sciencemag.org/content/336/6081/563
-    display: Science 336, 563 (2012)
-  highlight: 1
-  news2: See also <a href="http://www.news.cornell.edu/stories/2012/05/new-clues-how-iron-superconductors-work"> Cornell Cornincle </a> by Bill Steele, <a href="http://www.eurekalert.org/pub_releases/2012-05/dnl-avo050312.php"> Eureka Alert </a>
-
-- title: How Kondo-holes create intense nanoscale heavy-fermion hybridization disorder
-  image: dummy.png
-  description: ""
-  authors: MH Hamidian, AR Schmidt, IA Firmo, MP Allan, P Bradley, JD Garrett, TJ Williams, GM Luke, Y Dubi, AV Balatsky, JC Davis
-  link:
-    url: http://www.pnas.org/content/108/45/18233
-    display:  PNAS 108, 18233 (2011)
+    url: https://ojs.aaai.org//index.php/ICWSM/article/view/7362
+    display:  Proceedings of the 14th International AAAI Conference on Web and Social Media (ICWSM), 2020
   highlight: 0
   news2:
 
-- title: Nematic electronic structure in the “parent” state of the iron-based superconductor Ca(Fe1−xCox)2As2
-  image: Pub_nemat1.png
-  description:
-    We discovered an electronic nematic in the iron based superconductor Co-CaFe2As2! This state is by now confirmed and quite well characterized  by transport, photoemission, and more SI-STM experiments.
-  authors:
-    T-M Chuang* & MP Allan*, J Lee, Y Xie, N Ni, SL Bud’ko, GS Boebinger PC Canfield, JC Davis
+- title: "“Trust Me, I Have a Ph.D.”: A Propensity Score Analysis on the Halo Effect of Disclosing One's Offline Social Status in Online Communities"
+  image: icwsm20_park.png
+  description: We study two Reddit communities that adopted this scheme, whereby posts include tags identifying education status referred to as flairs, and we examine how the “transferred” social status affects the interactions among the users.
+  authors: Kunwoo Park, Haewoon Kwak, Hyunho Song, Meeyoung Cha
   link:
-    url: http://www.sciencemag.org/content/327/5962/181
-    display: Science 327, 181 (2010)
+    url: https://ojs.aaai.org//index.php/ICWSM/article/view/7321
+    display:  Proceedings of the 14th International AAAI Conference on Web and Social Media (ICWSM), 2020
   highlight: 1
-  news1: <a style="color:#FF0000" href="http://www.sciencemag.org/content/327/5962/155"> Featured in a ‘Perspective’ by E Fradkin &amp; SA Kivelson</a>
-  news2: See also <a  href="https://www.newscientist.com/article/dn18354-electron-spotting-could-explain-warm-superconductors/">Article on NewScientist</a> by Colin Barras
+  news2:
 
-- title: Heavy d-electron quasiparticle interference and real-space electronic structure of Sr3Ru2O7
-  image: Pub_hBN.png
-  description:
-    QPI in Sr327.
-  authors: Jinho Lee* & M. P. Allan*, M. A.Wang, J. Farrell, S. A. Grigera, F. Baumberger, J. C. Davis and A. P. Mackenzie
+- title: "Are These Comments Triggering? Predicting Triggers of Toxicity in Online Discussions"
+  image: www20_hind.png
+  description: We define toxicity triggers in online discussions as a non-toxic comment that lead to toxic replies. Then, we build a neural network-based prediction model for toxicity trigger. 
+  authors: Hind Almerekhi, Haewoon Kwak, Bernard Jim Jansen, Joni Salminen (short)
   link:
-    url: https://www.nature.com/nphys/journal/v5/n11/full/nphys1397.html
-    display: Nature Physics 5, 800 (2009)
-  highlight: 0
-
-- title: Fermi surface and van Hove singularities in the itinerant metamagnet Sr3Ru2O7
-  image: Pub_hBN.png
-  description:
-    We determine the Fermi surface of Sr327.
-  authors:
-    A Tamai, MP Allan, JF Mercure, W Meevasana, R Dunkel, DH Lu, RS Perry, AP Mackenzie, David J Singh, Z-X Shen, F Baumberger
-  link:
-    url: http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.101.026407
-    display: Phys. Rev. Lett. 101, 026407 (2008)
-  highlight: 0
-
-- title: Tunable  self-assembly of one-dimensional nanostructures with orthogonal directions
-  image: Pub_hBN.png
-  description:
-    Hexagonal boron nitride shows fancy superstructures on the Mo(111) surface.
-  authors:
-    MP Allan, S Berner, M Corso, T Greber, J Osterwalder
-  link:
-    url: http://www.nanoscalereslett.com/content/2/2/94
-    display: Nanoscale Research Letters 2, 94 (2007)
+    url: https://dl.acm.org/doi/10.1145/3366423.3380074?cid=81452618313
+    display:  Proceedings of The Web Conference (WWW),  2020
   highlight: 1
 
-- title: Photoelectron Diffraction for a Look inside Nanostructures
-  image: dummy.png
-  description: ""
-  authors:
-    J Osterwalder, A Tamai, W Auwärter; MP Allan, T Greber
+- title: "Going beyond accuracy: estimating homophily in social networks using predictions"
+  image: arxiv20_berry.png
+  description: We show that estimating homophily in a network can be viewed as a dyadic prediction problem, and that homophily estimates are unbiased when dyad-level residuals sum to zero in the network. Then, we propose a novel "ego-alter" modeling approach that outperforms standard node and dyad classification strategies.
+  authors: George Berry, Antonio Sirianni, Ingmar Weber, Jisun An, Michael Macy (preprint)
   link:
-    url: hhttp://www.ingentaconnect.com/content/scs/chimia/2006/00000060/00000011/art00013
-    display: CHIMIA 11, 759 (2006)
+    url: https://arxiv.org/abs/2001.11171
+    display:  arXiv preprint arXiv:2001.11171, 2020
+  highlight: 1
+  news2:
+
+- title: "Persona Perception Scale: Development and Exploratory Validation of an Instrument for Evaluating Individuals’ Perceptions of Personas"
+  # image: arxiv20_berry.png
+  description: We propose the Persona Perception Scale (PPS), a survey instrument for evaluating how individuals perceive personas. We develop the scale by reviewing relevant literature from social psychology, persona studies, and Human-Computer Interaction to find relevant constructs and items for measuring persona perceptions.
+  authors: Joni Salminen, Joao M. Santos, Haewoon Kwak, Jisun An, Soon-gyo Jung, Bernard J. Jansen
+  link:
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1071581920300392
+    display:  International Journal of Human-Computer Studies, 2020
   highlight: 0
+  news2:
+
+- title: "Tanbih: Get To Know What You Are Reading "
+  image: emnlp19_yifan.png
+  description: We introduce Tanbih, a news aggregator with intelligent analysis tools to help readers understanding what’s behind a news story. Our system displays news grouped into events and generates media profiles that show the general factuality of reporting, the degree of propagandistic content, hyper-partisanship, leading political ideology, general frame of reporting, and stance with respect to various claims and topics of a news outlet.
+  authors: Yifan Zhang, Giovanni Da San Martino, Alberto Barrón-Cedeño, Salvatore Romeo, Jisun An, Haewoon Kwak, Todor Staykovski, Israa Jaradat, Georgi Karadzhov, Ramy Baly, Kareem Darwish, James Glass, Preslav Nakov (demo)
+  link:
+    url: https://www.aclweb.org/anthology/D19-3038/
+    display:  Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 2019
+  highlight: 1
+  news2: 
+
+
+- title: "Gender and Racial Diversity in Commercial Brands' Advertising Images on Social Media"
+  image: socinfo19_an_2.png
+  description: Gender and racial diversity in the mediated images from the media shape our perception of different demographic groups. In this work, we investigate gender and racial diversity of 85,957 advertising images shared by the 73 top international brands on Instagram and Facebook.
+  authors: Jisun An, Haewoon Kwak
+  link:
+    url: https://arxiv.org/abs/1908.01352
+    display:  Proceedings of Social Informatics (SocInfo), 2019
+  highlight: 1
+  news1: Best Paper Award
+
+- title: "Stylistic Features Usage: Similarities and Differences Using Multiple Social Networks"
+  # image: chi_ea19_kholoud.png
+  description: We analyze ten common stylistic features indicative of user engagement for news postings on multiple social media platforms. We display the stylistic features usage differences of news posts from various news sources. Results show that there are differences in the usage of stylistic features across social media platforms (Facebook, Instagram, Twitter, and YouTube).
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-030-34971-4_22
+    display: Proceedings of Social Informatics (SocInfo), 2019
+  highlight: 0
+  news2: 
+
+- title: "Predicting Audience Engagement Across Social Media Platforms in the News Domain"
+  # image: chi_ea19_kholoud.png
+  description: Among other findings, results show that content with high engagement on one platform does not guarantee high engagement on another platform, even when news outlets use similar cross-platform posts; however, for some content, cross-sharing posts on a platform will increase overall audience engagement on another platform.
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-030-34971-4_12
+    display: Proceedings of Social Informatics (SocInfo), 2019
+  highlight: 0
+  news2:   
+
+- title: "Political Discussions in Homogeneous and Cross-Cutting Communication Spaces"
+  image: icwsm19_an.png
+  description: We use Reddit to explore the nature of political discussionsin homogeneous and cross-cutting communication spaces. Inparticular, we develop an analytical template to studyinter-actionandlinguistic patternswithin and between politicallyhomogeneous and heterogeneous communication spaces. Ouranalyses reveal different behavioral patterns in homogeneousand cross-cutting communications spaces. 
+  authors: Jisun An, Haewoon Kwak, Oliver Posegga, Andreas Jungherr
+  link:
+    url: https://www.aaai.org/ojs/index.php/ICWSM/article/view/3210/3078/
+    display: Proceedings of the 13th International AAAI Conference on Web and Social Media (ICWSM), 2019
+  highlight: 1
+  news2: 
+
+- title: "View, Like, Comment, Post: Analyzing User Engagement by Topic at 4 Levels across 5 Social Media Platforms for 53 News Organizations"
+  image: icwsm19_kholoud.png
+  description: We evaluate the effects of the topics of social media posts on audiences across five social media platforms (i.e., Facebook, Instagram, Twitter, YouTube, and Reddit) at four levels of user engagement. We collected 3,163,373 social posts from 53 news organizations across five platforms during an 8month period.
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
+  link:
+    url: https://www.aaai.org/ojs/index.php/ICWSM/article/view/3208
+    display: Proceedings of the 13th International AAAI Conference on Web and Social Media (ICWSM), 2019
+  highlight: 1
+  news2: 
+
+- title: "The Challenges of Creating Engaging Content: Results from a Focus Group Study of a Popular News Media Organization"
+  # image: chi_ea19_kholoud.png
+  description: We report findings from a group study that aimed to understand the process and challenges of creating engaging content across three social media platforms in a major news organization. The findings from the study indicate that creating engaging content is effort- and time-consuming, and they highlight the need to support the process of creating engaging content across multiple social media platforms.
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen (Extended Abstracts)
+  link:
+    url: https://dl.acm.org/doi/10.1145/3290607.3312810?cid=99659160512
+    display: Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (CHI), 2019
+  highlight: 0
+  news2: 
+
+- title: "Social media mining for journalism"
+  # image: chi_ea19_kholoud.png
+  description: We, the guest editors, would like to extend our appreciation to the authors who submitted to this special section, as well as the reviewers who dedicate their time to furthering the research of our contributors. 
+  authors: Arkaitz Zubiaga, Bahareh Heravi, Jisun An, Haewoon Kwak (Guest editorial)
+  link:
+    url: https://www.emerald.com/insight/content/doi/10.1108/OIR-02-2019-395/full/html
+    display: Online Information Review, 2019
+  highlight: 0
+  news2: 
+
+- title: "Discursive Power in Contemporary Media Systems: A Comparative Framework"
+  image: ijpp19_andrea.png
+  description: We propose the concept of discursive power. This describes the ability of contributors to communication spaces to introduce, amplify, and maintain topics, frames, and speakers, thus shaping public discourses and controversies that unfold in interconnected communication spaces.
+  authors: Andreas Jungherr, Oliver Posegga, Jisun An
+  link:
+    url: https://journals.sagepub.com/doi/10.1177/1940161219841543
+    display: The International Journal of Press/Politics, 24(4), 2019
+  highlight: 1
+  news2:   
+
+- title: "Reports of the Workshops Held at the 2018 International AAAI Conference on Web and Social Media"
+  # image: ijpp19_andrea.png
+  description: The Workshop Program of the Association for the Advancement of Artificial Intelligence’s 12th International Conference on Web and Social Media (AAAI-18) was held at Stanford University, Stanford, California USA, on Monday, June 25, 2018. 
+  authors: Jisun An, Rumi Chunara, David J. Crandall, Darian Frajberg, Megan French, Bernard J. Jansen, Juhi Kulshrestha, Yelena Mejova, Daniel M. Romero, Joni Salminen, Amit Sharma, Amit Sheth, Chenhao Tan, Samuel Hardman Taylor, Sanjaya Wijeratne
+  link:
+    url: https://ojs.aaai.org//index.php/aimagazine/article/view/2835
+    display: AI Magazine, 2018
+  highlight: 0
+  news2:
+
+- title: "Imaginary People Representing Real Numbers: Generating Personas from Online Social Media Data"
+  image: tweb18_an.png
+  description: We develop a methodology to automate creating imaginary people, referred to as personas, by processing complex behavioral and demographic data of social media audiences. From a popular social media account containing more than 30 million interactions by viewers from 198 countries engaging with more than 4,200 online videos produced by a global media corporation, we demonstrate that our methodology has several novel accomplishments.
+  authors: Jisun An, Haewoon Kwak, Soon-gyo Jung, Joni Salminen, M. Admad, Bernard J. Jansen
+  link:
+    url: https://dl.acm.org/doi/10.1145/3265986
+    display: ACM Transactions on the Web, 12(4), 2018
+  highlight: 1
+  news2:
+
+- title: "Assessing the Accuracy of Four Popular Face Recognition Tools for Inferring Gender, Age, and Race"
+  image: tweb18_an.png
+  description: We evaluate four widely used face detection tools, which are Face++, IBM Bluemix Visual Recognition, AWS Rekognition, and Microsoft Azure Face API, using multiple datasets to determine their accuracy in inferring user attributes, including gender, race, and age.
+  authors: Soon-gyo Jung, Jisun An, Haewoon Kwak, Joni Salminen, Bernard Jim Jansen
+  link:
+    url: https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17839
+    display: Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018
+  highlight: 0
+  news2:  
+
+- title: "Anatomy of Online Hate: Developing a Taxonomy and Machine Learning Models for Identifying and Classifying Hate in Online News Media"
+  image: icwsm18_joni.png
+  description: We manually label 5,143 hateful expressions posted to YouTube and Facebook videos among a dataset of 137,098 comments from an online news media. We then create a granular taxonomy of different types and targets of online hate and train machine learning models to automatically detect and classify the hateful comments in the full dataset.
+  authors: Joni Salminen, Hind Almerekhi, Milica Milenković, Soon-gyo Jung, Jisun An, Haewoon Kwak, Bernard J. Jansen
+  link:
+    url: https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17885
+    display: Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018
+  highlight: 1
+  news2:  
+
+# - title: "Imaging doubled shot noise in a Josephson scanning tunneling microscope"
+#   image: PbSpub.png
+#   description: We have imaged the doubling of the current noise due to Andreev reflections in a Josephson scanning tunneling microscope.
+#   authors: KM Bastiaans, D Cho, D Chatzopoulos, M Leeuwenhoek, C Koks, MP Allan
+#   link:
+#     url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.104506
+#     display:  Phys. Rev. B 100, 104506 (2019)
+#   highlight: 1
+#   news2:
+
+# - title: "Definition of design guidelines, construction and performance of an ultra-stable scanning tunneling microscope for spectroscopic imaging"
+#   image: DomePub.png
+#   description: Our first completely home-built STM is alive! And it has the world’s highest resonance frequency.
+#   authors: I Battisti, G Verdoes, K van Oosten, KM Bastiaans, and MP Allan
+#   link:
+#     url: https://aip.scitation.org/doi/10.1063/1.5064442
+#     display:  Rev. Sci. Instrum. 89, 123705 (2018)
+#   highlight: 1
+#   news2:
+
+# - title: "Charge trapping and super-Poissonian noise centres in a cuprate superconductor"
+#   image: Pub_BCl.png
+#   description: Using our newly developed noise-spectroscopy technique we discover charge trapping in a cuprate high-temperature superconductor.
+#   authors: KM Bastiaans* & D Cho*, T Benschop, I Battisti, Y Huang, MS Golden, Q Dong, Y Jin, J Zaanen, MP Allan
+#   link:
+#     url: https://www.nature.com/articles/s41567-018-0300-z
+#     display:  Nature Physics 14, 1183 (2018)
+#   highlight: 1
+#   news1: <a href="https://aip.scitation.org/doi/10.1063/1.5043267">Instrument details in Rev. Sci. Instrum. 89, 093709 (2018)</a>
+#   news2: See also <a href="http://www.quantumuniverse.nl/een-isolerende-supergeleider"> quantum universe </a> (in dutch), <a href="https://phys.org/news/2018-10-mysterious-insulating-phenomenon-superconductor.html"> Phys.org </a>, <a href="https://www.universiteitleiden.nl/en/news/2018/10/insulating-phenomenon-in-superconductor"> Leiden University news</a>, <a href="http://iop.uva.nl/content/news/2018/10/noise-helps-physicists-discover-insulating-phenomenon-in-superconductor.html"> UvA news<a>.
+
+# - title: "Amplifier for scanning tunneling microscopy at MHz frequencies"
+#   image: Fano.png
+#   description: We develop, build and test a novel amplifier circuit capable of measuring the tunneling current in the MHz regime while simultaneously performing conventional STM measurements. We are looking forward to performing scanning noise spectroscopy on quantum materials!
+#   authors: KM Bastiaans, T Benschop, D Chatzopoulos, D Cho, Q Dong, Y Jin, MP Allan
+#   link:
+#     url: https://aip.scitation.org/doi/10.1063/1.5043267
+#     display:  Rev. Sci. Instrum. 89, 093709 (2018)
+#   highlight: 0
+#   news2:
+
+# - title: "Revisiting quasiparticle scattering interference in high-temperature superconductors: the problem of narrow peaks"
+#   image: dummy.png
+#   description: ""
+#   authors: MA Sulangi, MP Allan, J Zaanen
+#   link:
+#     url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.134507
+#     display:  PRB 96, 134507 (2017)
+#   highlight: 0
+#   news2: Coverd in Superconductor Week, November 30, 2017 Vol. 31, No. 10
+
+# - title: Robust procedure for creating and characterizing the atomic structure of scanning tunneling microscope tips
+#   image: dummy.png
+#   description: ""
+#   authors: S Tewari, KM Bastiaans, MP Allan, JM van Ruitenbeek
+#   link:
+#     url: http://www.beilstein-journals.org/bjnano/content/pdf/2190-4286-8-238.pdf
+#     display:  Beilstein J. Nanotechnol. 8, 2389 (2017)
+#   highlight: 0
+#   news2:
+
+# - title: Creating better superconductors by periodic nanopatterning
+#   image: SCAUweb.jpg
+#   description:
+#     We  propose  an approach to transform a ‘pristine’ material into a better (meta-) superconductor by making use of modern fabrication techniques -- designing and engineering the electronic properties of thin films via periodic patterning on the nanoscale.
+#   authors:
+#     MP Allan, MH Fischer, O Ostojic, A Andringa
+#   link:
+#     url: https://scipost.org/SciPostPhys.3.2.010/pdf
+#     display: SciPost Phys. 3, 010 (2017)
+#   highlight: 1
+
+# - title: Poor electronic screening in lightly doped Mott insulators observed with scanning tunneling microscopy
+#   image: TIBB.png
+#   description:
+#     We develop a simple model to interpret STM results on lightly doped Mott insulators, and find that the effective Mott gap measured by STM correspons to the one measured with other techniques when taking into account the poor electronic screeing.
+#   authors:
+#     I Battisti, V Fedoseev, KM Bastiaans, A de la Torre, RS Perry, F Baumberger, MP Allan
+#   link:
+#     url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.235141
+#     display: Phys. Rev. B 95, 235141, Editors' suggestion (2017)
+#   highlight: 0
+
+# - title: Universality of pseudo gap and emergent order in lightly doped Mott insulators
+#   image: Mott_phase_sep.jpg
+#   description:
+#     We discover of electronic order, pseudo gap phase separation and an impurity-band Mott transition in an iridate compound, cuprate-style. Along the way, we gained unique knowledge on how a Mott state collapses.
+#   authors:
+#     I. Battisti* & K.M. Bastiaans*, V. Fedoseev, A. de la Torre, N. Iliopoulos, A. Tamai, E.C. Hunter, R.S. Perry, J. Zaanen, F. Baumberger, M.P. Allan
+#   link:
+#     url: http://www.nature.com/nphys/journal/vaop/ncurrent/full/nphys3894.html
+#     display: Nature Physics 13, 21 (2017)
+#   highlight: 1
+#   news2: See also <a href="https://www.universiteitleiden.nl/en/news/2016/09/melting-of-frozen-electrons-visualized"> Leiden University news </a> by Erik Arends, <a href="http://phys.org/news/2016-09-frozen-electrons-visualized.html"> Phys.org </a>
+
+# - title: Identifying the fingerprint of antiferromagnetic spin fluctuations in iron pnictide superconductors
+#   image: Pub_FP.png
+#   description:
+#     Both the density of states and the QPI dispersion of LiFeAs shows signatures of electron-boson coupling. Comparing these with fingerprints of different boson couplings to conclude that these signatures stem from AF spin fluctuations.
+#   authors:
+#     MP Allan* & Kyungmin Lee* & AW Rost*, MH Fischer, F Massee, K Kihou, C-H Lee, A Iyo, H Eisaki, T-M Chuang, AP Mackenzie, JC Davis, DJ Scalapino, E-A Kim
+#   link:
+#     url: http://www.nature.com/nphys/journal/v11/n2/full/nphys3187.html
+#     display: Nature Physics 11, 177 (2015)
+#   highlight: 1
+#   news1:
+#   news2: See also <a href="http://www.news.cornell.edu/stories/2015/01/high-temperature-superconductor-fingerprint-found"> Cornell Chronicle </a> by Anne Ju, <a href="http://phys.org/news/2015-01-high-temperature-superconductor-fingerprint.html"> Phys.org </a>
+
+# - title: Direct evidence for a magnetic f-electron mediated Cooper pairing mechanism of heavy fermion superconductivity in CeCoIn5
+#   image: dummy.png
+#   description: ""
+#   authors:
+#     J Van Dyke, F Massee, MP Allan, JC Davis, C Petrovic, and DK Morr
+#   link:
+#     url: http://www.pnas.org/content/111/32/11663
+#     display: PNAS 111, 11663 (2014)
+#   highlight: 0
+#   news1: <a style="color:#FF0000; text-decoration:underline" href="http://science.sciencemag.org/content/345/6203/twil">News item in Science</a>
+#   news2:
+
+# - title: Imaging Cooper pairing of heavy fermions in CeCoIn5
+#   image: Pub_CeCoIn5.png
+#   description:
+#     The heavy Fermion superconductor CeCoIn5 has a d-wave gap with nodes along the (1,1) direction, as we find using QPI.
+#   authors:
+#     MP Allan* & F Massee*, DK Morr, J van Dyke, AW Rost, AP Mackenzie, C Petrovic, JC Davis
+#   link:
+#     url: http://www.nature.com/nphys/journal/vaop/ncurrent/abs/nphys2671.html
+#     display: Nature Physics 9, 468 (2013)
+#   highlight: 1
+#   news1: <a style="color:#FF0000; text-decoration:underline" href="http://www.nature.com/nphys/journal/v9/n8/full/nphys2708.html">Featured in 'News and Views' by L Taillefer</a>
+#   news2: See also <a href="http://phys.org/news/2013-07-imaging-electron-pairing-simple-magnetic.html"> Phys.org</a>, <a href="http://davisgroup.lassp.cornell.edu/CeCoIn5_DoE.html">DoE headliner</a>
+
+# - title: Formation of heavy d-electron quasiparticles in Sr3Ru2O7
+#   image: Pub_327.png
+#   description:
+#     Using APRES, we find that the bands in Sr3Ru2O7 look more like in heavy fermion material than in a normal metal. We present a detailed investigation into the formation of this particular electronic  structure.
+#   authors:
+#     MP Allan, A Tamai, E Rozbicki, MH Fischer, J Voss, PDC King, W Meevasana, S Thirupathaiah, E Rienks, J Fink, A Tennant, RS Perry, JF Mercure, MA Wang, J Lee, CJ Fennie, E-A Kim, MJ Lawler, KM Shen, AP Mackenzie, Z-X Shen, F Baumberger
+#   link:
+#     url: http://iopscience.iop.org/1367-2630/15/6/063029
+#     display: New Journal of Physics 15, 063029 (2013)
+#   highlight: 1
+#   news: <a style="color:#FF0000; text-decoration:underline" href="http://iopscience.iop.org/1367-2630/15/6/063029"> Video abstract available</a>
+
+# - title: Anisotropic impurity states, quasiparticle scattering and nematic transport in underdoped Ca(Fe1−xCox)2As2
+#   image: Pub_nemat2b.png
+#   description:
+#     We elucidate on the formation of the electronic nematic state in Co-CaFe2As2, finding that the Cobalt dopant atoms play a key role.
+#   authors:
+#     MP Allan, T-M Chuang, F Massee, Y Xie, N Ni, SL Bud’ko, GS Boebinger, Q Wang, DS Dessau, PC Canfield, MS Golden, JC Davis
+#   highlight: 1
+#   link:
+#     url: http://www.nature.com/nphys/journal/v9/n4/full/nphys2544.html
+#     display: Nature Physics 9, 220 (2013)
+#   news2: See also <a href="http://www.techconnect.org/news/entry.html?id=243"> Tech Connect </a> by Jennifer Rocha, <a href="http://phys.org/news/2013-02-iron-based-superconductor-advances-theory.html"> Phys.org</a> by Bill Steele
+
+# - title: Anisotropic energy gaps of iron-based superconductivity from intraband quasiparticle interference in LiFeAs
+#   image: Pub_LiFeAs.png
+#   description:
+#     In contrast to earlier photoemission reports, we show that the gaps in iron based superconductors are not isotropic but modulated with angle.
+#   authors:
+#     MP Allan⋆ & AW Rost⋆, AP Mackenzie, Y Xie, JC Davis, K Kihou, CH Lee, A Iyo, H Eisaki, T-M Chuang
+#   link:
+#     url: http://www.sciencemag.org/content/336/6081/563
+#     display: Science 336, 563 (2012)
+#   highlight: 1
+#   news2: See also <a href="http://www.news.cornell.edu/stories/2012/05/new-clues-how-iron-superconductors-work"> Cornell Cornincle </a> by Bill Steele, <a href="http://www.eurekalert.org/pub_releases/2012-05/dnl-avo050312.php"> Eureka Alert </a>
+
+# - title: How Kondo-holes create intense nanoscale heavy-fermion hybridization disorder
+#   image: dummy.png
+#   description: ""
+#   authors: MH Hamidian, AR Schmidt, IA Firmo, MP Allan, P Bradley, JD Garrett, TJ Williams, GM Luke, Y Dubi, AV Balatsky, JC Davis
+#   link:
+#     url: http://www.pnas.org/content/108/45/18233
+#     display:  PNAS 108, 18233 (2011)
+#   highlight: 0
+#   news2:
+
+# - title: Nematic electronic structure in the “parent” state of the iron-based superconductor Ca(Fe1−xCox)2As2
+#   image: Pub_nemat1.png
+#   description:
+#     We discovered an electronic nematic in the iron based superconductor Co-CaFe2As2! This state is by now confirmed and quite well characterized  by transport, photoemission, and more SI-STM experiments.
+#   authors:
+#     T-M Chuang* & MP Allan*, J Lee, Y Xie, N Ni, SL Bud’ko, GS Boebinger PC Canfield, JC Davis
+#   link:
+#     url: http://www.sciencemag.org/content/327/5962/181
+#     display: Science 327, 181 (2010)
+#   highlight: 1
+#   news1: <a style="color:#FF0000" href="http://www.sciencemag.org/content/327/5962/155"> Featured in a ‘Perspective’ by E Fradkin &amp; SA Kivelson</a>
+#   news2: See also <a  href="https://www.newscientist.com/article/dn18354-electron-spotting-could-explain-warm-superconductors/">Article on NewScientist</a> by Colin Barras
+
+# - title: Heavy d-electron quasiparticle interference and real-space electronic structure of Sr3Ru2O7
+#   image: Pub_hBN.png
+#   description:
+#     QPI in Sr327.
+#   authors: Jinho Lee* & M. P. Allan*, M. A.Wang, J. Farrell, S. A. Grigera, F. Baumberger, J. C. Davis and A. P. Mackenzie
+#   link:
+#     url: https://www.nature.com/nphys/journal/v5/n11/full/nphys1397.html
+#     display: Nature Physics 5, 800 (2009)
+#   highlight: 0
+
+# - title: Fermi surface and van Hove singularities in the itinerant metamagnet Sr3Ru2O7
+#   image: Pub_hBN.png
+#   description:
+#     We determine the Fermi surface of Sr327.
+#   authors:
+#     A Tamai, MP Allan, JF Mercure, W Meevasana, R Dunkel, DH Lu, RS Perry, AP Mackenzie, David J Singh, Z-X Shen, F Baumberger
+#   link:
+#     url: http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.101.026407
+#     display: Phys. Rev. Lett. 101, 026407 (2008)
+#   highlight: 0
+
+# - title: Tunable  self-assembly of one-dimensional nanostructures with orthogonal directions
+#   image: Pub_hBN.png
+#   description:
+#     Hexagonal boron nitride shows fancy superstructures on the Mo(111) surface.
+#   authors:
+#     MP Allan, S Berner, M Corso, T Greber, J Osterwalder
+#   link:
+#     url: http://www.nanoscalereslett.com/content/2/2/94
+#     display: Nanoscale Research Letters 2, 94 (2007)
+#   highlight: 1
+
+# - title: Photoelectron Diffraction for a Look inside Nanostructures
+#   image: dummy.png
+#   description: ""
+#   authors:
+#     J Osterwalder, A Tamai, W Auwärter; MP Allan, T Greber
+#   link:
+#     url: hhttp://www.ingentaconnect.com/content/scs/chimia/2006/00000060/00000011/art00013
+#     display: CHIMIA 11, 759 (2006)
+#   highlight: 0

@@ -9,8 +9,9 @@ permalink: /publications/
 
 # Publications
 
-## Group highlights
+<!-- ## Group highlights -->
 
+A list of selected papers in which research team members participated. <br/>
 (For a full list see [below](#full-list) or go to Google Scholar ([Jisun An](https://scholar.google.com/citations?user=FYtw3zkAAAAJ&hl=en&oi=sra) and [Haewoon Kwak](https://scholar.google.com/citations?user=dcjrz5MAAAAJ&hl=en&oi=ao)).
 
 {% assign number_printed = 0 %}
@@ -56,7 +57,7 @@ permalink: /publications/
 
 {% for publi in site.data.publist %}
 
-  {{ publi.title }} <br />
+  <b>{{ publi.title }} </b><br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
