@@ -57,7 +57,8 @@ A list of selected papers in which research team members participated. <br/>
 
 {% for publi in site.data.publist %}
 
-  <b>{{ publi.title }} </b><br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  <a href="{{ publi.link.url }}"><b>{{ publi.title }} </b></a><br />
+  <em>{{ publi.authors }} </em><br />{{ publi.link.display }}<br/>
+  {% if publi.news1 %}<i>{{ publi.news1 }}</i>{% endif %}
 
 {% endfor %}

@@ -255,7 +255,7 @@
     url: https://dl.acm.org/doi/10.1145/3184558.3191531
     display: Companion Proceedings of the The Web Conference (WWW), 2018
   highlight: 1
-  news2: Press coverage-[New Scientist](https://www.newscientist.com/article/2161933-theres-an-alt-right-alt-twitter-and-its-filled-with-hate/), and [Vice](https://www.vice.com/en/article/ywxb95/gab-is-the-alt-right-social-network-racists-are-moving-to)
+  news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2161933-theres-an-alt-right-alt-twitter-and-its-filled-with-hate/), and [Vice](https://www.vice.com/en/article/ywxb95/gab-is-the-alt-right-social-network-racists-are-moving-to)
 
 - title: "Fixation and Confusion: Investigating Eye-tracking Participants' Exposure to Information in Personas"
   # image: www18_kwak.png
@@ -316,6 +316,212 @@
     display: Proceedings of the IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), 2017
   highlight: 0
   news2: 
+
+- title: "Demographics of News Sharing in Twitter"
+  # image: chi18_joni.png
+  description: We investigate their demographics, what kind of content they share, and the audience they reach. Among our main findings, we show that males and white users tend to be more active in terms of sharing news, biasing the news audience to the interests of these demographic groups. Our results also quantify differences in interests of news sharing across demographics, which has implications for personalized news digests.
+  authors: Julio Reis, Haewoon Kwak, and Jisun An, Johnnatan Messias, Fabrıcio Benevenuto
+  link:
+    url: https://dl.acm.org/doi/10.1145/3078714.3078734
+    display: Proceedings of the 28th ACM Conference on Hypertext and Social Media (HT), 2017
+  highlight: 0
+  news2: 
+
+- title: "Data-driven Approach to Measuring the Level of Press Freedom Using Media Attention Diversity from Unfiltered News"
+  image: neco17_an.png
+  description: Published by Reporters Without Borders every year, the Press Freedom Index (PFI) reflects the fear and tension in the newsroom pushed by the government and private sectors. While the PFI is invaluable in monitoring media environments worldwide, the current survey-based method has inherent limitations to updates in terms of cost and time. In this work, we introduce an alternative way to measure the level of press freedom using media attention diversity compiled from Unfiltered News.
+  authors: Jisun An, Haewoon Kwak
+  link:
+    url: https://arxiv.org/abs/1704.01422
+    display: Proceedings of the ICWSM Workshop on NEws and publiC Opinion (NECO), 2017
+  highlight: 1
+  news1: Picked as [The Best of the Physics arXiv (week ending April 15, 2017) in MIT Technology Review](https://www.technologyreview.com/2017/04/15/68625/the-best-of-the-physics-arxiv-week-ending-april-15-2017/)
+
+- title: "What Gets Media Attention and How Media Attention Evolves Over Time - Large-scale Empirical Evidence from 196 Countries"
+  # image: neco17_an.png
+  description: What gets media attention and how media attention evolves over time has been studied for decades in communication study. However, previous studies are confined to a few countries or a few topics, mainly due to lack of longitudinal global data. In this work, we use a large-scale news data compiled from 196 countries to provide empirical analyses of media attention dynamics.
+  authors: Jisun An, Haewoon Kwak (short)
+  link:
+    url: https://arxiv.org/abs/1704.01425
+    display: Proceedings of the 11th International AAAI Conference on Web and Social Media (ICWSM), 2017
+  highlight: 0
+  news2: 
+
+- title: "Persona Generation from Aggregated Social Media Data"
+  # image: neco17_an.png
+  # description: What gets media attention and how media attention evolves over time has been studied for decades in communication study. However, previous studies are confined to a few countries or a few topics, mainly due to lack of longitudinal global data. In this work, we use a large-scale news data compiled from 196 countries to provide empirical analyses of media attention dynamics.
+  authors: Soon-Gyo Jung, Jisun An, Haewoon Kwak, Moeed Ahmad, Lene Nielsen, Bernard J. Jansen (Extended Abstract)
+  link:
+    url: https://dl.acm.org/doi/10.1145/3027063.3053120
+    display: Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI), 2017
+  highlight: 0
+  news2: 
+
+- title: "I Would Not Plant Apple Trees If the World Will Be Wiped: Analyzing Hundreds of Millions of Behavioral Records of Players During an MMORPG Beta Test"
+  image: www17_kang.png
+  description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  authors: Ah Reum Kang, Jeremy Blackburn, Haewoon Kwak, Huy Kang Kim
+  link:
+    url: https://arxiv.org/abs/1703.01500
+    display: Proceedings of the 26th International Conference on World Wide Web (WWW) Companion, 2017
+  highlight: 1
+  news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
+
+- title: "Achievement and Friends: Key Factors of Player Retention Vary Across Player Levels in Online Multiplayer Games"
+  # image: www17_kang.png
+  # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  authors: Kunwoo Park, Meeyoung Cha, Haewoon Kwak, Kuan-Ta Chen
+  link:
+    url: https://arxiv.org/abs/1702.08005
+    display: Proceedings of the 26th International Conference on World Wide Web (WWW) Companion, 2017
+  highlight: 0
+  # news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
+
+- title: "Culturally-Grounded Analysis of Everyday Creativity in Social Media: A Case Study in Qatari Context"
+  # image: www17_kang.png
+  # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  authors: D. Fox Harrell, Sarah Vieweg, Haewoon Kwak, Chong-U Lim, Sercan Sengun, Ali Jahanian, Pablo Ortiz
+  link:
+    url: https://dl.acm.org/doi/10.1145/3059454.3059456
+    display: Proceedings of the 2017 ACM SIGCHI Conference on Creativity and Cognition (C&C), 2017
+  highlight: 0
+  # news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
+
+- title: "Who Are Your Users? Comparing Media Professionals' Preconception of Users to Data-Driven Personas"
+  # image: www17_kang.png
+  # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  authors: Lene Nielsen, Soon-Gyo Jung, Jisun An, Joni Salminen, Haewoon Kwak, Bernard J. Jansen
+  link:
+    url: https://dl.acm.org/doi/10.1145/3152771.3156178?cid=99659160512
+    display: Proceedings of the 29th Australian Conference on Computer-Human Interaction (OZCHI), 2017
+  highlight: 0
+  # news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
+
+
+- title: "Generating Cultural Personas from Social Data: A Perspective of Middle Eastern Users"
+  # image: www17_kang.png
+  # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  authors: J. Salminen, S. Sengün, H. Kwak, B. Jansen, J. An, S. Jung, S. Vieweg, D. F. Harrell
+  link:
+    url: https://ieeexplore.ieee.org/document/8113781
+    display: Proceedings of the 5th International Conference on Future Internet of Things and Cloud Workshops, 2017
+  highlight: 0
+  # news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
+
+- title: "Personas for Content Creators via Decomposed Aggregate Audience Statistics"
+  # image: www17_kang.png
+  # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  authors: Jisun An, Haewoon Kwak, Bernard J. Jansen (short)
+  link:
+    url: https://dl.acm.org/doi/10.1145/3110025.3110072?cid=99659160512
+    display: Proceedings of the 2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), 2017
+  highlight: 0
+  # news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
+
+- title: "High correlation of Middle East respiratory syndrome spread with Google search and Twitter trends in Korea"
+  # image: www17_kang.png
+  # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  authors: Soo-Yong Shin, Dong-Woo Seo, Jisun An, Haewoon Kwak, Sung-Han Kim, Jin Gwack, Min-Woo Jo
+  link:
+    url: https://www.nature.com/articles/srep32920?WT.feed_name=subjects_signs-and-symptoms
+    display: Scientific Reports 6, Article number 32920 (2016)
+  highlight: 0
+  # news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
+
+
+- title: "Multidimensional Analysis of Gender and Age Differences in News Consumption"
+  # image: www17_kang.png
+  # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  authors: Jisun An, Haewoon Kwak
+  link:
+    url: https://journalism.stanford.edu/cj2016/files/Multidimensional%20Analysis%20of%20Gender%20and%20Age%20Differences%20in%20News%20Consumption.pdf
+    display: Computation+Journalism (C+J) Symposium (2016)
+  highlight: 0
+  # news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
+
+
+- title: "Revealing the Hidden Patterns of News Photos: Analysis of Millions of News Photos Using GDELT and Deep Learning-based Vision APIs"
+  # image: www17_kang.png
+  # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  authors: Haewoon Kwak, Jisun An
+  link:
+    url: https://arxiv.org/abs/1603.04531
+    display: ICWSM Workshop on NEws and publiC Opinion (NECO), 2016
+  highlight: 0
+  news1: Picked as [The Best of the Physics arXiv (week ending March 26, 2016) in MIT Technology Review](https://www.technologyreview.com/2016/03/26/161392/the-best-of-the-physics-arxiv-week-ending-march-26-2016/)
+
+- title: "Two Tales of the World: Comparison of Widely Used World News Datasets: GDELT and EventRegistry"
+  # image: www17_kang.png
+  # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  authors: Haewoon Kwak, Jisun An (short)
+  link:
+    url: http://arxiv.org/abs/1603.01979
+    display: Proceeding of the 10th International Conference on Web and Social Media (ICWSM), 2016
+  highlight: 0
+  # news1: Picked as [The Best of the Physics arXiv (week ending March 26, 2016) in MIT Technology Review](https://www.technologyreview.com/2016/03/26/161392/the-best-of-the-physics-arxiv-week-ending-march-26-2016/)
+
+- title: "Are You Charlie or Ahmed? Cultural Pluralism in Charlie Hebdo Response on Twitter"
+  image: icwsm16_an.png
+  description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  authors: Jisun An, Haewoon Kwak, Yelena Mejova, Sonia Alonso Saenz De Oger, Braulio Gomez Fortes
+  link:
+    url: https://arxiv.org/abs/1603.00646
+    display: Proceeding of the 10th International Conference on Web and Social Media (ICWSM), 2016
+  highlight: 1
+  # news1: Picked as [The Best of the Physics arXiv (week ending March 26, 2016) in MIT Technology Review](https://www.technologyreview.com/2016/03/26/161392/the-best-of-the-physics-arxiv-week-ending-march-26-2016/)
+
+- title: "#greysanatomy vs. #yankees: Demographics and Hashtag Use on Twitter."
+  # image: icwsm16_an.png
+  # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  authors: Jisun An, Ingmar Weber (short)
+  link:
+    url: https://arxiv.org/abs/1603.01973
+    display: Proceeding of the 10th International Conference on Web and Social Media (ICWSM), 2016
+  highlight: 0
+  # news1: Picked as [The Best of the Physics arXiv (week ending March 26, 2016) in MIT Technology Review](https://www.technologyreview.com/2016/03/26/161392/the-best-of-the-physics-arxiv-week-ending-march-26-2016/)
+
+- title: "Whom should we sense in 'social sensing'-analyzing which users work best for social media now-casting"
+  # image: icwsm16_an.png
+  # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  authors: Jisun An, Ingmar Weber
+  link:
+    url: https://link.springer.com/article/10.1140/epjds/s13688-015-0058-9
+    display: EPJ Data Science, 4, Article number 22, 2015
+  highlight: 0
+  # news1: Picked as [The Best of the Physics arXiv (week ending March 26, 2016) in MIT Technology Review](https://www.technologyreview.com/2016/03/26/161392/the-best-of-the-physics-arxiv-week-ending-march-26-2016/)
+
+- title: "Consumers and Suppliers: Attention asymmetries. A Case Study of Aljazeera’s News Coverage and Comments"
+  # image: icwsm16_an.png
+  # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  authors: Sofiane Abbar, Jisun An, Haewoon Kwak, Yacine Messaoui, Javier Borge-Holthoefer
+  link:
+    url: http://cj2015.brown.columbia.edu/papers/consumers-and-suppliers.pdf
+    display: Computation+Journalsim (C+J) Symposium, 2015
+  highlight: 0
+  # news1: Picked as [The Best of the Physics arXiv (week ending March 26, 2016) in MIT Technology Review](https://www.technologyreview.com/2016/03/26/161392/the-best-of-the-physics-arxiv-week-ending-march-26-2016/)
+
+- title: "Breaking the News: First Impressions Matter on Online News"
+  # image: icwsm16_an.png
+  # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  authors: Julio Reis, Fabrıcio Benevenuto, Pedro Olmo, Raquel Prates, Haewoon Kwak, Jisun An
+  link:
+    url: http://arxiv.org/abs/1503.07921
+    display: Proceeding of the 9th International Conference on Web and Social Media (ICWSM), 2015
+  highlight: 0
+  news1: Picked as [Other Interesting arXiv Papers (Week ending April 11, 2015) in MIT Technology Review](https://www.technologyreview.com/2015/04/13/11478/other-interesting-arxiv-papers-week-ending-april-11-2015/), and press coverage [O Globo](https://oglobo.globo.com/economia/tecnologia/pesquisadores-da-ufmg-publicam-estudo-sobre-sentimentos-gerados-por-manchetes-on-line-15858353)
+
+
+- title: "Exploring Cyberbullying and Other Toxic Behavior in Team Competition Online Games"
+  # image: icwsm16_an.png
+  # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  authors: Haewoon Kwak, Jeremy Blackburn, Seungyeop Han
+  link:
+    url: http://dl.acm.org/authorize?N05627
+    display: Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI), 2015
+  highlight: 0
+  news1: Cited by [139 times according to Google Scholar](https://scholar.google.com/scholar?rlz=1C5CHFA_enSG930SG930&um=1&ie=UTF-8&lr&cites=4756016450899538621)
+
+
 
 
 # - title: "Imaging doubled shot noise in a Josephson scanning tunneling microscope"
