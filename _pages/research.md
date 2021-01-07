@@ -8,6 +8,18 @@ permalink: /research/
 
 # Research
 
+### Dynamic creation of nationwide virtual panels for collective behavior prediction (Tier-1)
+The ability to predict, explain, and change the behavior of other humans has long been of interest to both the scientific community and the business world. Decades of research has made great advances in improving our understanding of human behavior online and offline, especially with the advent of social media. Predicting how individuals will react to future social, political, and economic events can be challenging and complex, however. More importantly, providing an explanation as to why such behavior occurs and determining if it can be changed is even more challenging as this would require extensive and detailed profiling of individuals over time.
+
+![]({{ site.url }}{{ site.baseurl }}/images/respic/tier1_dynamic_creation_panel.png){: style="width: 60%; margin: 10px 20% 10px 20%"}
+
+The overall objective of this research is to develop a predictive system that enables stakeholders (e.g. policymakers, politicians, celebrities, and business organizations) to know how people will behave in the future and that provides a solid understanding of these behaviors to help stakeholders’ strategic planning. In particular, we will exploit past behaviors to predict future behaviors as the former are considered to be vital for personalization and recommendation systems but are yet to be explored in public opinion and human behavior studies.
+
+The specific aim of this research is to develop a system that predicts behaviors (i.e. sentiments and stances expressed by individuals on social media) regarding a future news event based on the individuals’ background factors and past behaviors and provides an explanation of the predicted behaviors with detailed user profiles.
+
+This research makes empirical contributions to both the social science and computer science fields. Specifically, it advances the state of knowledge regarding how individuals’ intrinsic and extrinsic characteristics and past behavior determine their future behaviors, how human behaviors are connected to each other, how to model news events and individual behaviors (sentiments and stance regarding a news event) on social media, and the extent to which individuals’ intrinsic and extrinsic characteristics and past behaviors can determine their future behaviors. The resulting system will enable us to have a precise understanding of what makes the public happy, concerned, angry, and prone to act so that better solutions can be provided for the stakeholders and the risk of a bad reputation can be reduced.
+
+
 ### Developing AI systems to monitor diversity and fairness in media (Tier-1)
 Singapore is well-known as a multiracial and multicultural society. Integration and cooperation in such a society depend on the perception of “self” and “the other.” Those perceptions, however, can be easily influenced. It is not surprising that media is one of the important sources that influence people’s perception of the other since people spend a considerable amount of time on media consumption. Their perception of, belief about, and attitudes toward the other are constantly shaped by the mediated images in the media. With the high penetration of smartphones, the term “media” not only refers to traditional mass media, but also extends to social media and online games with which people actively engage in their everyday life. Media’s influence thus becomes more powerful. Understanding the impact of media, for example, how media portrays each demographic group, is therefore a crucial step toward social integration. 
 
@@ -18,8 +30,6 @@ While many social science scholars have studied diversity and fairness in media,
 In this research, we aim to develop AI systems to monitor diversity and fairness in media. As diversity and fairness are big concepts and a Tier-1 research project provides a strong foundation for further research, we will mainly focus on a relatively well-formulated problem—modeling gender diversity and fairness. Furthermore, we will focus on social media platforms based on their popularity and impact. In other words, our AI systems aim to monitor gender diversity and fairness from text and images shared by influential social media accounts (e.g., those of government agencies and top commercial brands) in Singapore.  We will provide a transparent view of gender diversity and fairness in social media posts to the public and policy makers, raise their awareness, and help them understand the situation and improve it. 
 
 We will break down the computational modeling of gender diversity and fairness in social media posts into a series of multimodal machine learning tasks, such as gender detection, stereotype detection, and context inference. There have been many studies on some tasks (e.g., gender detection); however, other tasks (e.g., stereotype detection) are challenging. For the former, we will explore and utilize relevant libraries or training/testing data. For the latter, we will build a codebook, label the data, and train the multimodal machine learning models.
-
-### An's
 
 <!-- 
 Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.
