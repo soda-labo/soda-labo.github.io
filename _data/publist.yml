@@ -531,12 +531,22 @@
   highlight: 0
   news1: 
 
+- title: "Understanding News Geography and Major Determinants of Global News Coverage of Disasters"
+  # image: icwsm16_an.png
+  # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  authors: Haewoon Kwak, Jisun An (extension of SocInfo'14)
+  link:
+    url: https://arxiv.org/abs/1410.3710
+    display: Computation+Journalism (C+J) Symposium, 2014
+  highlight: 0
+  news1: 
+
 - title: "A First Look at Global News Coverage of Disasters By Using the GDELT Dataset"
   # image: icwsm16_an.png
   # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
   authors: Haewoon Kwak, Jisun An
   link:
-    url: http://soda-labo.github.io/downloads/kwak2014first.pdf
+    url: https://soda-labo.github.io/downloads/kwak2014first.pdf
     display: Proceedings of Social Informatics, 2014
   highlight: 0
   news1: 
