@@ -118,6 +118,15 @@
   highlight: 0
   news2:   
 
+- title: "Detecting Toxicity Triggers in Online Discussions "
+  # image: www20_hind.png
+  description: We first propose a formal definition of triggers of toxicity in online communities. We proceed to build an LSTM neural network model using textual features of comments, and then, based on a comprehensive review of previous literature, we incorporate topical and sentiment shift in interactions as features.
+  authors: Hind Almerekhi, Haewoon Kwak, Bernard Jim Jansen, Joni Salminen (poster)
+  link:
+    url: https://dl.acm.org/doi/10.1145/3342220.3344933?cid=81452618313
+    display:  Proceedings of the 30th ACM Conference on Hypertext and Social Media (HT),  2019
+  highlight: 0
+
 - title: "Political Discussions in Homogeneous and Cross-Cutting Communication Spaces"
   image: icwsm19_an.png
   description: We use Reddit to explore the nature of political discussionsin homogeneous and cross-cutting communication spaces. Inparticular, we develop an analytical template to studyinter-actionandlinguistic patternswithin and between politicallyhomogeneous and heterogeneous communication spaces. Ouranalyses reveal different behavioral patterns in homogeneousand cross-cutting communications spaces. 
@@ -191,7 +200,7 @@
 - title: "Assessing the Accuracy of Four Popular Face Recognition Tools for Inferring Gender, Age, and Race"
   image: tweb18_an.png
   description: We evaluate four widely used face detection tools, which are Face++, IBM Bluemix Visual Recognition, AWS Rekognition, and Microsoft Azure Face API, using multiple datasets to determine their accuracy in inferring user attributes, including gender, race, and age.
-  authors: Soon-gyo Jung, Jisun An, Haewoon Kwak, Joni Salminen, Bernard Jim Jansen
+  authors: Soon-gyo Jung, Jisun An, Haewoon Kwak, Joni Salminen, Bernard Jim Jansen (short)
   link:
     url: https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17839
     display: Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018
@@ -237,6 +246,77 @@
     display: Proceedings of the 2018 World Wide Web Conference (WWW), 2018
   highlight: 1
   news2: 
+
+- title: "What is Gab? A Bastion of Free Speech or an Alt-Right Echo Chamber?"
+  image: www18_savvas.png
+  description: We provide, to the best of our knowledge, the first characterization of Gab. We collect and analyze 22M posts produced by 336K users between August 2016 and January 2018, finding that Gab is predominantly used for the dissemination and discussion of news and world events, and that it attracts alt-right users, conspiracy theorists, and other trolls
+  authors: Savvas Zannettou, Barry Bradlyn, Emiliano De Cristofaro, Haewoon Kwak, Michael Sirivianos, Gianluca Stringhini, Jeremy Blackburn
+  link:
+    url: https://dl.acm.org/doi/10.1145/3184558.3191531
+    display: Companion Proceedings of the The Web Conference (WWW), 2018
+  highlight: 1
+  news2: Press coverage-[New Scientist](https://www.newscientist.com/article/2161933-theres-an-alt-right-alt-twitter-and-its-filled-with-hate/), and [Vice](https://www.vice.com/en/article/ywxb95/gab-is-the-alt-right-social-network-racists-are-moving-to)
+
+- title: "Fixation and Confusion: Investigating Eye-tracking Participants' Exposure to Information in Personas"
+  # image: www18_kwak.png
+  # description: We investigate the alignment of international attention of news media organizations within 193 countries with the expressed international interests of the public within those same countries from March 7, 2016 to April 14, 2017. We collect fourteen months of longitudinal data of online news from Unfiltered News and web search volume data from Google Trends and build a multiplex network of media attention and public attention in order to study its structural and dynamic properties.
+  authors: Joni Salminen, Bernard J. Jansen, Jisun An, Soon-Gyo Jung, Lene Nielsen, Haewoon Kwak
+  link:
+    url: https://dl.acm.org/doi/10.1145/3176349.3176391?cid=99659160512
+    display: Proceedings of the 2018 Conference on Human Information Interaction & Retrieval (CHIIR), 2018
+  highlight: 0
+  news2: 
+
+- title: "“Is More Better?”: Impact of Multiple Photos on Perception of Persona Profiles"
+  image: chi18_joni.png
+  description: We investigate if and how more photos than a single headshot can heighten the level of information provided by persona profiles. We conduct eye-tracking experiments and qualitative interviews with variations in the photos-a single headshot, a headshot and images of the persona in different contexts, and a headshot with pictures of different people representing key persona attributes.
+  authors: Joni Salminen, Lene Nielsen, Soon-Gyo Jung, Jisun An, Haewoon Kwak, Bernard J. Jansen
+  link:
+    url: https://dl.acm.org/doi/10.1145/3173574.3173891?cid=99659160512
+    display: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI), 2018
+  highlight: 1
+  news2: 
+
+- title: "Reports of the Workshops Held at the 2017 International AAAI Conference on Web and Social Media"
+  # image: chi18_joni.png
+  # description: We investigate if and how more photos than a single headshot can heighten the level of information provided by persona profiles. We conduct eye-tracking experiments and qualitative interviews with variations in the photos-a single headshot, a headshot and images of the persona in different contexts, and a headshot with pictures of different people representing key persona attributes.
+  authors: Jisun An, Giovanni Luca Ciampaglia, Nir Grinberg, Kenneth Joseph, Alexios Mantzarlis, Gregory Maus, Filippo Menczer, Nicholas Proferes, Brooke Foucault Welles
+  link:
+    url: https://www.aaai.org/ojs/index.php/aimagazine/article/view/2772
+    display: AI Magazine, 2017
+  highlight: 0
+  news2:   
+
+- title: "Convergence of Media Attention Across 129 Countries"
+  # image: chi18_joni.png
+  # description: We investigate if and how more photos than a single headshot can heighten the level of information provided by persona profiles. We conduct eye-tracking experiments and qualitative interviews with variations in the photos-a single headshot, a headshot and images of the persona in different contexts, and a headshot with pictures of different people representing key persona attributes.
+  authors: Jisun An, Hassan Aldarbesti,  Haewoon Kwak
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-319-67256-4_14
+    display: Proceedings of Social Informatics (SocInfo), 2017
+  highlight: 0
+  news2: 
+
+- title: "Multidimensional Analysis of the News Consumption of Different Demographic Groups on a Nationwide Scale"
+  # image: chi18_joni.png
+  # description: We investigate if and how more photos than a single headshot can heighten the level of information provided by persona profiles. We conduct eye-tracking experiments and qualitative interviews with variations in the photos-a single headshot, a headshot and images of the persona in different contexts, and a headshot with pictures of different people representing key persona attributes.
+  authors: Jisun An, Haewoon Kwak
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-319-67217-5_9
+    display: Proceedings of Social Informatics (SocInfo), 2017
+  highlight: 0
+  news2: 
+
+- title: "Multiplex Media Attention and Disregard Network among 129 Countries"
+  # image: chi18_joni.png
+  # description: We investigate if and how more photos than a single headshot can heighten the level of information provided by persona profiles. We conduct eye-tracking experiments and qualitative interviews with variations in the photos-a single headshot, a headshot and images of the persona in different contexts, and a headshot with pictures of different people representing key persona attributes.
+  authors: Haewoon Kwak, Jisun An
+  link:
+    url: https://arxiv.org/abs/1707.04941
+    display: Proceedings of the IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), 2017
+  highlight: 0
+  news2: 
+
 
 # - title: "Imaging doubled shot noise in a Josephson scanning tunneling microscope"
 #   image: PbSpub.png
