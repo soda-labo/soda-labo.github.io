@@ -8,6 +8,11 @@ permalink: /research/
 
 # Research
 
+### Research Statement
+[Prof. Jisun An](https://soda-labo.github.io/downloads/JisunAn_Research_Statement_Dec_2019)
+
+[Prof. Haewoon Kwak](https://soda-labo.github.io/downloads/HaewoonKwak_Research_Statement_Dec_2019.pdf)
+
 ### Dynamic creation of nationwide virtual panels for collective behavior prediction (Tier-1)
 The ability to predict, explain, and change the behavior of other humans has long been of interest to both the scientific community and the business world. Decades of research has made great advances in improving our understanding of human behavior online and offline, especially with the advent of social media. Predicting how individuals will react to future social, political, and economic events can be challenging and complex, however. More importantly, providing an explanation as to why such behavior occurs and determining if it can be changed is even more challenging as this would require extensive and detailed profiling of individuals over time.
 
