@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are the Soda (**So**cial **Da**ta Science) Lab at the [School of Computing and Information Systems, Singapore Management University](http://scis.smu.edu.sg). 
+We are the Soda (**So**cial **D**ata and **A**I) Lab at the [School of Computing and Information Systems, Singapore Management University](http://scis.smu.edu.sg). 
 We study social phenomena through large-scale data and computational tools, aiming to tackle big societal problems.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
