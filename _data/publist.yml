@@ -9,7 +9,7 @@
   news1:
 
 
-- title: "Understanding Effects of Editing Tweets for News Sharing by Media Accounts through a Causal Inference Framework"
+- title: "How-to Present News on Social Media: A Causal Analysis of Editing News Headlines for Boosting User Engagement"
   image: icwsm21_park.png
   authors: Kunwoo Park, Haewoon Kwak, Jisun An, Sanjay Chawla
   description: We first build a parallel corpus of original news articles and their corresponding tweets that were shared by eight media outlets. Then, we explore how those media edited tweets against original headlines, and the effects would be..
