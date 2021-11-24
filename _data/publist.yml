@@ -1,3 +1,14 @@
+- title: "FrameAxis: characterizing microframe bias and intensity with word embedding"
+  image: peerjcs21_kwak.png
+  authors: Haewoon Kwak, Jisun An, Elise Jing, Yong-Yeol Ahn
+  description: Framing is a process of emphasizing a certain aspect of an issue over the others, nudging readers or listeners towards different positions on the issue even without making a biased argument. Here, we propose FrameAxis, a method for characterizing documents by identifying the most relevant semantic axes (“microframes”) that are overrepresented in the text using word embedding. Our unsupervised approach can be readily applied to large datasets because it does not require manual annotations. ... 
+  link:
+    url: https://peerj.com/articles/cs-644/
+    display:  PeerJ Computer Science 7:e644.
+  highlight: 1
+  news2: <a href="https://github.com/haewoon/frameaxis">Code repo (github)</a>
+
+
 - title: "Populist Supporters on Reddit: A Comparison of Content and Behavioral Patterns Within Publics of Supporters of Donald Trump and Hillary Clinton"
   image: sscr20_andreas.png
   authors: Andreas Jungherr, Oliver Posegga, Jisun An
@@ -6,7 +17,7 @@
     url: https://journals.sagepub.com/doi/10.1177/0894439321996130
     display:  Social Science Computer Review. March 2021.
   highlight: 1
-  news1:
+  news1: 
 
 
 - title: "How-to Present News on Social Media: A Causal Analysis of Editing News Headlines for Boosting User Engagement"
@@ -29,6 +40,16 @@
   highlight: 1
   news1:
 
+- title: "Identifying and Characterizing Alternative News Media on Facebook"
+  image: asonam20_samuel.png
+  authors: Samuel S Guimarães, Julio CS Reis, Lucas Lima, Filipe N Ribeiro, Marisa Vasconcelos, Jisun An, Haewoon Kwak, Fabrício Benevenuto
+  description: In this work, we propose a graph-based semi-supervised method to measure the political bias of pages on most countries and show the political split of the alternative media, mainstream media, and public figures pages. We validate our method using the publicly available U.S. dataset and then apply it to Brazilian pages, where we found a larger number of right-wing pages in general, except for alternative news media.
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/9381424
+    display: IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), 2020
+  highlight: 1
+  news1:
+
 - title: "What Was Written vs. Who Read It: News Media Profiling Using Text Analysis and Social Media Context"
   image: acl20_ramy.png
   description: A first paper from the TBG collaboration is online, with beautiful data from the Baumberger group in Geneva, and great devices from the Efetov group at ICFO. We measured STM on the device.
@@ -40,13 +61,13 @@
   news2:
 
 - title: "Empirical Evaluation of Three Common Assumptions in Building Political Media Bias Datasets"
-  # image: icwsm20_park.png
+  image: icwsm20_soumen.png
   description: We empirically validate three common assumptions in building political media bias datasets, which are (i) labelers' political leanings do not affect labeling tasks, (ii) news articles follow their source outlet's political leaning, and (iii) political leaning of a news outlet is stable across different topics.
   authors: Soumen Ganguly, Juhi Kulshrestha, Jisun An, Haewoon Kwak
   link:
     url: https://ojs.aaai.org//index.php/ICWSM/article/view/7362
     display:  Proceedings of the 14th International AAAI Conference on Web and Social Media (ICWSM), 2020
-  highlight: 0
+  highlight: 1
   news2:
 
 - title: "“Trust Me, I Have a Ph.D.”: A Propensity Score Analysis on the Halo Effect of Disclosing One's Offline Social Status in Online Communities"
