@@ -52,7 +52,7 @@ We study social phenomena through large-scale data and computational tools, aimi
   </a>
 </div>
 
-We focus particularly on human behavior on online platforms—the measurement, understanding, design, and assessment of implications.
+We focus particularly on <ins>human behavior on online platforms—the measurement, understanding, design, and assessment of implications</ins>.
 We use mobile devices any time to access the internet, read the news, watch videos, search for nearby restaurants, chat with friends, and leave posts on social networking sites. Those electronic footprints enable us to understand individual or collective human behavior: what people like or hate, how people feel about various topics, and how people behave and engage. Thus, it has become crucial to understand human behavior on these online platforms.
 
 We develop new computational methods and tools for understanding, predicting, and changing human behavior on online platforms. One of the challenges posed by online data is the diversity and complexity of the datasets. We explore various types of large-scale data, investigate and compare existing tools to overcome its limitations and use them in the right way, and develop new measurements, machine learning models, and linguistic methods to understand human behaviors online and, furthermore, solve real-world problems.
