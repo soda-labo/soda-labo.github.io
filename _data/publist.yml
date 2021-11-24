@@ -1,3 +1,26 @@
+
+- title: "Predicting Anti-Asian Hateful Users on Twitter during COVID-19"
+  image: emnlp21_an.png
+  authors: Jisun An, Haewoon Kwak, Claire Seungeun Lee, Bogang Jun, Yong-Yeol Ahn
+  description: We investigate predictors of anti-Asian hate among Twitter users throughout COVID-19. With the rise of xenophobia and polarization that has accompanied widespread social media usage in many nations, online hate has become a major social issue, attracting many researchers. Here, we apply natural language processing techniques to characterize social media users who began to post anti-Asian hate messages during COVID-19. We compare two user groups -- those who posted anti-Asian slurs and those who did not -- with respect to a rich set of features measured with data prior to COVID-19 and show that it is possible to predict who later publicly posted anti-Asian slurs. ...
+  link:
+    url: https://aclanthology.org/2021.findings-emnlp.398/
+    display:  EMNLP 2021 Findings
+  highlight: 1
+  news2: <a href="https://github.com/anjisun221/anti-asian-slurs">Code repo (github)</a>
+
+
+- title: "Precision Public Health Campaign: Delivering Persuasive Messages to Relevant Segments Through Targeted Advertisements on Social Media"
+  image: jmir21_an.png
+  authors: Jisun An, Haewoon Kwak, Hanya M Qureshi, Ingmar Weber
+  description: We propose a novel precision public health campaign framework to structure and standardize the process of designing and delivering tailored health messages to target particular population segments using social media–targeted advertising tools. Our framework consists of five stages - defining a campaign goal, priority audience, and evaluation metrics; splitting the target audience into smaller segments; tailoring the message for each segment and conducting a pilot test; running the health campaign formally; and evaluating the performance of the campaigns. We have demonstrated how the framework works through 2 case studies. The precision public health campaign framework has the potential to support higher population uptake and engagement rates by encouraging a more standardized, concise, efficient, and targeted approach to public health campaign development.
+  link:
+    url: https://formative.jmir.org/2021/9/e22313/
+    display:  JMIR Form Res 2021;5(9):e22313
+  highlight: 1
+  news2: 
+
+
 - title: "FrameAxis: characterizing microframe bias and intensity with word embedding"
   image: peerjcs21_kwak.png
   authors: Haewoon Kwak, Jisun An, Elise Jing, Yong-Yeol Ahn
