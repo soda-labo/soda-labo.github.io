@@ -3,5 +3,3 @@ _site
 .jekyll-metadata
 .jekyll-cache
 ._*
-Gemfile
-Gemfile.lock
