@@ -42,3 +42,30 @@
 #   email: evert_3aug@hotmail.com
 #   number_educ: 0
 #   education1:
+
+- name: Huang FAN
+  photo: 
+  info: PhD student (January 2022-)
+  website: 
+
+- name: Shao Yi LIAW
+  photo: 
+  info: Master student (October 2021-)
+  website:
+
+- name: Juan CHEN
+  photo:
+  info: Master student (April 2021-)
+  website:
+
+- name: Hong ZHANG
+  photo: 
+  info: Master student (January 2021-)
+  website:
+
+
+- name: "This could be you !"
+  photo: rock.jpg
+  info: See <a href="http://soda-labo.github.io/vacancies">openings</a> for more info
+  email: soda.sci.lab@gmail_dot_com
+  number_educ: 0

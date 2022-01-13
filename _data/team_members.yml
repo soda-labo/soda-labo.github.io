@@ -81,13 +81,3 @@
 #   education2:
 #   education3:
 #   education4:
-
-- name: "This could be you !"
-  photo: rock.jpg
-  info: See <a href="http://soda-labo.github.io/vacancies">openings</a> for more info
-  email: soda.sci.lab@gmail_dot_com
-  number_educ: 0
-  education1:
-  education2:
-  education3:
-  education4:

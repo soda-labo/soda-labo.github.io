@@ -11,10 +11,10 @@ permalink: /team/
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [lab visitors](#lab-visitors).
+Jump to [Faculty](#faculty), [PhD and Master students](#phd-and-master-students), [Alumni](#alumni), [lab visitors](#lab-visitors).
 <!-- [administrative support](#administrative-support) -->
 
-## Staff
+## Faculty
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -80,7 +80,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-## Master and Bachelor Students
+## PhD and Master Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -91,8 +91,11 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  {% if member.photo %}<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />{% endif %}
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <i>{{ member.info }}
+  <br>{% if member.email %}email: <{{ member.email }}></i>{% endif %}<br/>
+  website: <a href="{{ member.website }}">{{member.website}}</a>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
