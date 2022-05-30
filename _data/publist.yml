@@ -1,3 +1,56 @@
+- title: "Modeling Political Activism around Gun Debate via Social Media"
+  image: tsc22_mejova.png
+  authors: Yelena Mejova, Jisun An, Gianmarco De Francisci Morales, Haewoon Kwak
+  description: The United States have some of the highest rates of gun violence among developed countries. Yet, there is a disagreement about the extent to which firearms should be regulated. In this study, we employ social media signals to examine the predictors of offline political activism, at both population and individual level. We show that it is possible to classify the stance of users on the gun issue, especially accurately when network information is available. Alongside socioeconomic variables, network information such as the relative size of the two sides of the debate is also predictive of state-level gun policy. On individual level, we build a statistical model using network, content, and psycho-linguistic features that predicts real-life political action, and explore the most predictive linguistic features. Thus, we argue that, alongside demographics and socioeconomic indicators, social media provides useful signals in the holistic modeling of political engagement around the gun debate.
+  link:
+    url: https://dl.acm.org/doi/10.1145/3532102
+    display:  ACM Transactions on Social Computing, 2022
+  highlight: 1
+
+- title: "Storm the Capitol: Linking Offline Political Speech and Online Twitter Extra-Representational Participation on QAnon and the January 6 Insurrection"
+  image: frontiers22_lee.png
+  authors: Claire Seungeun Lee, Juan Merizalde, John D. Colautti, Jisun An and Haewoon Kwak
+  description: The transfer of power stemming from the 2020 presidential election occurred during an unprecedented period in United States history. Uncertainty from the COVID-19 pandemic, ongoing societal tensions, and a fragile economy increased societal polarization, exacerbated by the outgoing president's offline rhetoric. As a result, online groups such as QAnon engaged in extra political participation beyond the traditional platforms. This research explores the link between offline political speech and online extra-representational participation by examining Twitter within the context of the January 6 insurrection. Using a mixed-methods approach of quantitative and qualitative thematic analyses, the study combines offline speech information with Twitter data during key speech addresses leading up to the date of the insurrection; exploring the link between Trump's offline speeches and QAnon's hashtags across a 3-day timeframe. We find that links between online extra-representational participation and offline political speech exist. This research illuminates this phenomenon and offers policy implications for the role of online messaging as a tool of political mobilization.
+  link:
+    url: https://www.frontiersin.org/articles/10.3389/fsoc.2022.876070/full
+    display:  Frontiers in Sociology, 2022
+  highlight: 1  
+
+- title: "Measuring 9 Emotions of News Posts from 8 News Organizations across 4 Social Media Platforms for 8 Months"
+  image: tsc22_aldous.png
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
+  description: Using Plutchik’s wheel of emotions framework, we identify the emotional content of 133,487 social media posts and the audience’s emotional engagement expressed in 2,824,162 comments on those posts. We measure nine emotions (anger, anticipation, anxiety, disgust, joy, fear, sadness, surprise, trust) and two sentiments (positive and negative) using two extraction resources (EmoLex, LIWC) for eight major news outlets across four social media platforms (Facebook, Instagram, Twitter, and YouTube) during eight months. We then apply two approaches (Logistic Regression, Long Short-Term Memory) to predict emotional audience reactions before and after publishing the posts. ...
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3516491
+    display:  ACM Transactions on Social Computing, 2022
+  highlight: 1
+
+- title: "Understanding Toxicity Triggers on Reddit in the Context of Singapore"
+  image: icwsm22_chong.png
+  authors: Yun Yu Chong, Haewoon Kwak
+  description: While the contagious nature of online toxicity sparked increasing interest in its early detection and prevention, most of the literature focuses on the Western world. In this work, we demonstrate that 1) it is possible to detect toxicity triggers in an Asian online community, and 2) toxicity triggers can be strikingly different between Western and Eastern contexts.
+  link:
+    url: https://arxiv.org/abs/2204.08806
+    display:  Proceedings of the 16th International AAAI Conference on Web and Social Media (ICWSM), 2022 (short)
+  highlight: 1
+
+- title: "Who Is Missing? Characterizing the Participation of Different Demographic Groups in a Korean Nationwide Daily Conversation Corpus"
+  image: icwsm22_kwak.png
+  authors: Haewoon Kwak, Jisun An, Kunwoo Park
+  description: A conversation corpus is essential to build interactive AI applications. However, the demographic information of the participants in such corpora is largely underexplored mainly due to the lack of individual data in many corpora. In this work, we analyze a Korean nationwide daily conversation corpus constructed by the National Institute of Korean Language (NIKL) to characterize the participation of different demographic (age and sex) groups in the corpus.
+  link:
+    url: https://arxiv.org/abs/2204.09209
+    display:  Proceedings of the 16th International AAAI Conference on Web and Social Media (ICWSM), 2022 (short)
+  highlight: 1
+
+- title: "What really matters?: characterising and predicting user engagement of news postings using multiple platforms, sentiments and topics"
+  image: behavior22_aldous.png
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
+  description: This research characterises user engagement of approximately 3,000,000 news postings of 53 news outlets and 50,000,000 associated user comments during 8 months on 5 social media platforms (i.e. Facebook, Instagram, Twitter, YouTube, and Reddit). We investigate the effect of sentiments and topics on user engagement across four levels of user engagement expressions (i.e. views, likes, comments, cross-platform posting). We find that sentiments and topics differ by both news outlets and social media platforms, and both sentiments and topics by the four levels of user engagement expression. ...
+  link:
+    url: https://www.tandfonline.com/doi/abs/10.1080/0144929X.2022.2030798
+    display:  Behaviour & Information Technology, 2022 
+  highlight: 1
 
 - title: "Predicting Anti-Asian Hateful Users on Twitter during COVID-19"
   image: emnlp21_an.png
@@ -5,7 +58,7 @@
   description: We investigate predictors of anti-Asian hate among Twitter users throughout COVID-19. With the rise of xenophobia and polarization that has accompanied widespread social media usage in many nations, online hate has become a major social issue, attracting many researchers. Here, we apply natural language processing techniques to characterize social media users who began to post anti-Asian hate messages during COVID-19. We compare two user groups -- those who posted anti-Asian slurs and those who did not -- with respect to a rich set of features measured with data prior to COVID-19 and show that it is possible to predict who later publicly posted anti-Asian slurs. ...
   link:
     url: https://aclanthology.org/2021.findings-emnlp.398/
-    display:  EMNLP 2021 Findings
+    display:  Findings of the Association for Computational Linguistics EMNLP 2021
   highlight: 1
   news2: <a href="https://github.com/anjisun221/anti-asian-slurs">Code repo (github)</a>
 
@@ -16,7 +69,7 @@
   description: We propose a novel precision public health campaign framework to structure and standardize the process of designing and delivering tailored health messages to target particular population segments using social media–targeted advertising tools. Our framework consists of five stages - defining a campaign goal, priority audience, and evaluation metrics; splitting the target audience into smaller segments; tailoring the message for each segment and conducting a pilot test; running the health campaign formally; and evaluating the performance of the campaigns. We have demonstrated how the framework works through 2 case studies. The precision public health campaign framework has the potential to support higher population uptake and engagement rates by encouraging a more standardized, concise, efficient, and targeted approach to public health campaign development.
   link:
     url: https://formative.jmir.org/2021/9/e22313/
-    display:  JMIR Form Res 2021;5(9):e22313
+    display:  JMIR Form Res 2021;5(9):e22313, 2021
   highlight: 1
   news2: 
 
@@ -27,7 +80,7 @@
   description: Framing is a process of emphasizing a certain aspect of an issue over the others, nudging readers or listeners towards different positions on the issue even without making a biased argument. Here, we propose FrameAxis, a method for characterizing documents by identifying the most relevant semantic axes (“microframes”) that are overrepresented in the text using word embedding. Our unsupervised approach can be readily applied to large datasets because it does not require manual annotations. ... 
   link:
     url: https://peerj.com/articles/cs-644/
-    display:  PeerJ Computer Science 7:e644.
+    display:  PeerJ Computer Science 7:e644, 2021
   highlight: 1
   news2: <a href="https://github.com/haewoon/frameaxis">Code repo (github)</a>
 
