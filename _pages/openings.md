@@ -8,7 +8,7 @@ permalink: /vacancies
 
 # Open positions
 
-**Note: We are currently looking for Ph.D. students in Computer Science or Information Systems.**
+**Note: We are currently looking for Ph.D. students in Computer Science or Informatics.**
 
 In Soda Lab, you will have a chance to study interesting problems in computational social science and social computing. 
 
