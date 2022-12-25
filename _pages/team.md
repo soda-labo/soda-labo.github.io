@@ -179,22 +179,26 @@ Jump to [Faculty](#faculty), [PhD and Master students](#phd-and-master-students)
 {{ member.name }}
 {% endfor %}
 </div>
+</div>
 
+<div class="row">
 <div class="col-sm-4 clearfix">
-<h4>Master students</h4>
-{% for member in site.data.alumni_msc %}
+<h4>Graduate students</h4>
+{% for member in site.data.alumni_grad %}
 {{ member.name }}
 {% endfor %}
 </div>
+</div>
 
+<div class="row">
 <div class="col-sm-4 clearfix">
-<h4>Bachelor Students</h4>
+<h4>Undergraduate Students</h4>
 {% for member in site.data.alumni_bsc %}
 {{ member.name }}
 {% endfor %}
 </div>
-
 </div>
+
 
 
 <!-- ## Administrative Support -->

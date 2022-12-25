@@ -1,12 +1,12 @@
 ---
 title: "Soda Lab - Home"
 layout: homelay
-excerpt: "Soda Lab at Singapore Management University."
+excerpt: "Soda Lab at Indiana University Bloomington."
 sitemap: false
 permalink: /
 ---
 
-We are the Soda (**So**cial **D**ata and **A**I) Lab at the [School of Computing and Information Systems, Singapore Management University](http://scis.smu.edu.sg). 
+We are the Soda (**So**cial **D**ata and **A**I) Lab at [the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington](https://luddy.indiana.edu/). 
 We study social phenomena through large-scale data and computational tools, aiming to tackle big societal problems.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
@@ -53,16 +53,16 @@ We study social phenomena through large-scale data and computational tools, aimi
 </div>
 
 We focus particularly on <ins>human behavior on online platforms—the measurement, understanding, design, and assessment of implications</ins>.
-We use mobile devices any time to access the internet, read the news, watch videos, search for nearby restaurants, chat with friends, and leave posts on social networking sites. Those electronic footprints enable us to understand individual or collective human behavior: what people like or hate, how people feel about various topics, and how people behave and engage. Thus, it has become crucial to understand human behavior on these online platforms.
+We use mobile devices at any time to access the internet, read the news, watch videos, search for nearby restaurants, chat with friends, and leave posts on social networking sites. Those electronic footprints enable us to understand individual or collective human behavior: what people like or hate, how people feel about various topics, and how people behave and engage. Thus, it has become crucial to understand human behavior on these online platforms.
 
-We develop new computational methods and tools for understanding, predicting, and changing human behavior on online platforms. One of the challenges posed by online data is the diversity and complexity of the datasets. We explore various types of large-scale data, investigate and compare existing tools to overcome its limitations and use them in the right way, and develop new measurements, machine learning models, and linguistic methods to understand human behaviors online and, furthermore, solve real-world problems.
+We develop new computational methods and tools for understanding, predicting, and changing human behavior on online platforms. One of the challenges posed by online data is the diversity and complexity of the datasets. We explore various types of large-scale data, investigate and compare existing tools to overcome their limitations and use them in the right way, and develop new measurements, machine learning models, and linguistic methods to understand human behaviors online and, furthermore, solve real-world problems.
 
 However, our goal does not only solve real-world problems but those in online spaces. 
-We are also interested in understanding obstacles to trusted public space online, developing methodologies to make them transparent, building frameworks to monitor them at large-scale in real-time, and transforming the public space online more credible.
+We are also interested in understanding obstacles to trusted public space online, developing methodologies to make them transparent, building frameworks to monitor them at a large-scale in real-time, and transforming the public space online more credible.
 
-We are located at Singapore Management University, School of Information Systems. Our university is in the heart of downtown Singapore.
+We are located at the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington, IN, USA.
 
- **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **We are looking for passionate new PhD students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 <!-- 
 We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).

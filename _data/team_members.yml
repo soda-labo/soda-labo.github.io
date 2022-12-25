@@ -1,22 +1,24 @@
 - name: Jisun AN
   photo: jisun.jpg
-  info: Assistant Professor, started Oct 2020
-  email: jisunan@smu_dot_edu_dot_sg
+  info: Assistant Professor
+  email: jisunan@iu_dot_edu
   website: http://jisun.me
-  number_educ: 3
-  education1: Scientist, Qatar Computing Research Institute
-  education2: Postdoc with <a href="https://ingmarweber.de/">Ingmar Weber</a>, Qatar Computing Research Institute
-  education3: Ph.D. with <a href="https://www.cl.cam.ac.uk/~jac22/">Jon Crowcroft</a>, Cambridge, UK  
+  number_educ: 4
+  education1: Assistant Professor, Singapore Management University
+  education2: Scientist, Qatar Computing Research Institute
+  education3: Postdoc with <a href="https://ingmarweber.de/">Ingmar Weber</a>, Qatar Computing Research Institute
+  education4: Ph.D. with <a href="https://www.cl.cam.ac.uk/~jac22/">Jon Crowcroft</a>, Cambridge, UK  
   
 - name: Haewoon KWAK
   photo: haewoon.jpg
-  info: Associate Professor, started Oct 2020<br/>D.S. Lee Foundation Fellow
-  email: hkwak@smu_dot_edu_dot_sg
+  info: Associate Professor
+  email: hwkwak@iu_dot_edu
   website: http://haewoon.io
-  number_educ: 3
-  education1: Senior Scientist, Qatar Computing Research Institute
-  education2: Researcher, Telefonica Research, Spain
-  education3: Ph.D. with <a href="http://an.kaist.ac.kr/~sbmoon/">Sue Moon</a>, KAIST, Korea  
+  number_educ: 4
+  education1: Associate Professor, Singapore Management University
+  education2: Senior Scientist, Qatar Computing Research Institute
+  education3: Researcher, Telefonica Research, Spain
+  education4: Ph.D. with <a href="http://an.kaist.ac.kr/~sbmoon/">Sue Moon</a>, KAIST, Korea  
   
 
 # - name: Koen M Bastiaans

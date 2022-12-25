@@ -8,7 +8,7 @@ permalink: /vacancies
 
 # Open positions
 
-**Note: We are currently looking for Ph.D. students in Computer Science or Informatics.**
+**Note: We are currently looking for Ph.D. students in Informatics.**
 
 In Soda Lab, you will have a chance to study interesting problems in computational social science and social computing. 
 
@@ -25,16 +25,16 @@ If you are interested in working with us as a PhD student, please send us an ema
 * CV
 * Brief introduction about yourself: your interests, goal, skillsets, etc.
 
-For more detail information about PhD program in SMU, please visit [Online Application](https://sis.smu.edu.sg/programmes/PhD/online-application) and [Admissions, Fees & Scholarships](https://sis.smu.edu.sg/programmes/PhD/admission-fees-scholarships). 
+For more detail information about PhD program in [the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington](https://luddy.indiana.edu/index.html), please see the offical [Admissions](https://luddy.indiana.edu/admissions/index.html) page of the school. 
 
 <!-- **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email. -->
 
 <!-- ### Master projects for Leiden University students
 If you are a Master student at Leiden University looking for a Master project, contact me (or any group member) per email or stop by my office. -->
 
-### Master students or Undergrads
+### Master or Undergrad students (IU)
 If you are interested in doing an independent research, please send us an email (soda.sci.lab@gmail_dot_com). 
-We are planning to take master or undergradudate students as summer interns to do a mini project.
+<!-- We are planning to take master or undergradudate students as summer interns to do a mini project. -->
 
 
 <!-- <figure>

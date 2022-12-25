@@ -45,23 +45,23 @@
 
 - name: Fan HUANG
   photo: 
-  info: PhD student (January 2022-)
+  info: PhD student
   website: 
 
-- name: Shao Yi LIAW
-  photo: 
-  info: Master student (October 2021-)
-  website:
+# - name: Shao Yi LIAW
+#   photo: 
+#   info: Master student (October 2021-)
+#   website:
 
-- name: Juan CHEN
-  photo:
-  info: Master student (April 2021-)
-  website:
+# - name: Juan CHEN
+#   photo:
+#   info: Master student (April 2021-)
+#   website:
 
-- name: Hong ZHANG
-  photo: 
-  info: Master student (January 2021-)
-  website:
+# - name: Hong ZHANG
+#   photo: 
+#   info: Master student (January 2021-)
+#   website:
 
 
 - name: "This could be you !"
