@@ -60,7 +60,7 @@ We develop new computational methods and tools for understanding, predicting, an
 However, our goal does not only solve real-world problems but those in online spaces. 
 We are also interested in understanding obstacles to trusted public space online, developing methodologies to make them transparent, building frameworks to monitor them at a large-scale in real-time, and transforming the public space online more credible.
 
-We are located at the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington, IN, USA.
+We are located at the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington, IN, USA. We are a member of [Complex Networks and Systems Research (CNetS)](https://cnets.indiana.edu/). 
 
  **We are looking for passionate new PhD students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
