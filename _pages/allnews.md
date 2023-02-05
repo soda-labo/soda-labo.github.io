@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Soda Lab at Singapore Management University"
+excerpt: "Soda Lab at Indiana University Bloomington"
 sitemap: false
 permalink: /allnews.html
 ---
