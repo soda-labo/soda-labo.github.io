@@ -3,7 +3,7 @@ title: "Soda Lab - Publications"
 layout: gridlay
 excerpt: "Soda Lab -- Publications."
 sitemap: false
-permalink: /publications/
+permalink: /publications/cj
 ---
 
 
@@ -15,7 +15,7 @@ A list of selected papers in which research team members participated. <br/>
 (For a full list see [below](#full-list) or go to Google Scholar ([Jisun An](https://scholar.google.com/citations?user=FYtw3zkAAAAJ&hl=en&oi=sra) and [Haewoon Kwak](https://scholar.google.com/citations?user=dcjrz5MAAAAJ&hl=en&oi=ao)).
 
 <a href="/publications/css"><span class="label label-computational-social-science">computational social science</span></a>
-<a href="/publications/cj"><span class="label label-computational-journalism">computational journalism</span></a>
+<a href="/publications/cj"><span class="label label-computational-journalism-selected">computational journalism</span></a>
 <a href="/publications/pol"><span class="label label-political-science">political science</span></a>
 <a href="/publications/net"><span class="label label-network-science">network science</span></a>
 <a href="/publications/game"><span class="label label-game-analytics">game analytics</span></a>
@@ -27,7 +27,7 @@ A list of selected papers in which research team members participated. <br/>
 {% for publi in site.data.publist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
+{% if publi.highlight == 1 and publi.tags contains 'computational journalism'%}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -71,9 +71,10 @@ A list of selected papers in which research team members participated. <br/>
 ## Full List
 
 {% for publi in site.data.publist %}
-
+  {%if publi.tags contains 'computational journalism'%}
   <a href="{{ publi.link.url }}"><b>{{ publi.title }} </b></a><br />
   <em>{{ publi.authors }} </em><br />{{ publi.link.display }}<br/>
   {% if publi.news1 %}<b>{{ publi.news1 }}</b><br/>{% endif %}
   {% if publi.news2 %}{{ publi.news2 }}{% endif %}  
+  {% endif %}
 {% endfor %}

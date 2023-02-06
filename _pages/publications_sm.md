@@ -3,7 +3,7 @@ title: "Soda Lab - Publications"
 layout: gridlay
 excerpt: "Soda Lab -- Publications."
 sitemap: false
-permalink: /publications/
+permalink: /publications/sm
 ---
 
 
@@ -20,14 +20,14 @@ A list of selected papers in which research team members participated. <br/>
 <a href="/publications/net"><span class="label label-network-science">network science</span></a>
 <a href="/publications/game"><span class="label label-game-analytics">game analytics</span></a>
 <a href="/publications/ai"><span class="label label-ai-ml-nlp">AI/ML/NLP</span></a>
-<a href="/publications/sm"><span class="label label-social-media">social media</span></a> 
+<a href="/publications/sm"><span class="label label-social-media-selected">social media</span></a> 
 <a href="/publications/hci"><span class="label label-hci">HCI</span></a>
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
+{% if publi.highlight == 1 and publi.tags contains 'social media'%}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -71,9 +71,10 @@ A list of selected papers in which research team members participated. <br/>
 ## Full List
 
 {% for publi in site.data.publist %}
-
+  {%if publi.tags contains 'social media'%}
   <a href="{{ publi.link.url }}"><b>{{ publi.title }} </b></a><br />
   <em>{{ publi.authors }} </em><br />{{ publi.link.display }}<br/>
   {% if publi.news1 %}<b>{{ publi.news1 }}</b><br/>{% endif %}
   {% if publi.news2 %}{{ publi.news2 }}{% endif %}  
+  {% endif %}
 {% endfor %}

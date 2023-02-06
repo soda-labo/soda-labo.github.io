@@ -1,5 +1,25 @@
-- title: "Modeling Political Activism around Gun Debate via Social Media"
+- title: "You Have Earned a Trophy: Characterize In-Game Achievements and Their Completions"
+  tags: game analytics, HCI
+  image: websci22_haewoon.png
+  authors: Haewoon Kwak
+  description: Achievement systems have been actively adopted in gaming platforms to maintain players' interests. Among them, trophies in PlayStation games are one of the most successful achievement systems. While the importance of trophy design has been casually discussed in many game developers' forums, there has been no systematic study of the historical dataset of trophies yet. In this work, we construct a complete dataset of PlayStation games and their trophies and investigate them from both the developers' and players' perspectives.
+  link:
+    url: https://arxiv.org/abs/2205.15163
+    display:  ACM WebSci, 2022
+  highlight: 1
+
+- title: "MAANG? MANGA? Characterizing Spontaneous Ideation Contest on Social Media"
   tags: computational social science, network science, social media
+  image: bigdata22_miyazaki.png
+  authors: Kunihiro Miyazaki, Takayuki Uchiba, Haewoon Kwak, Jisun An
+  description: Social media is not only a place for people to communicate on a daily matter but also a virtual venue to transmit and exchange various ideas. Such ideas are known as the raw voices of potential consumers, which come from a wide range of people who may not participate in consumer surveys, and therefore their opinions may contain high value to companies. However, how users share their ideas on social media is still underexplored. This study investigates a spontaneous ideation contest about a generic term for new Big Tech companies, which occurred when Facebook changed its name to Meta. We constructed a comprehensive dataset of tweets containing candidates and examined how they were suggested, spread, and exchanged by social media users. Our findings indicate that different ideas are better on different metrics. The ranking of ideas was not decided immediately after the idea contest started. The first people to post ideas have smaller followers than those who post secondarily or who only share the idea. We also confirmed that replies accumulate unique ideas, but most of them are added in the first depth in reply trees. This study would promote the use of social media as a part of open innovation and co-creation processes in the industry.
+  link:
+    url: https://arxiv.org/abs/2204.00910
+    display:  IEEE BigData, 2022 (short)
+  highlight: 1
+
+- title: "Modeling Political Activism around Gun Debate via Social Media"
+  tags: computational social science, political science, network science, social media
   image: tsc22_mejova.png
   authors: Yelena Mejova, Jisun An, Gianmarco De Francisci Morales, Haewoon Kwak
   description: The United States have some of the highest rates of gun violence among developed countries. Yet, there is a disagreement about the extent to which firearms should be regulated. In this study, we employ social media signals to examine the predictors of offline political activism, at both population and individual level. We show that it is possible to classify the stance of users on the gun issue, especially accurately when network information is available. Alongside socioeconomic variables, network information such as the relative size of the two sides of the debate is also predictive of state-level gun policy. On individual level, we build a statistical model using network, content, and psycho-linguistic features that predicts real-life political action, and explore the most predictive linguistic features. Thus, we argue that, alongside demographics and socioeconomic indicators, social media provides useful signals in the holistic modeling of political engagement around the gun debate.
@@ -69,7 +89,8 @@
     url: https://aclanthology.org/2021.findings-emnlp.398/
     display:  Findings of the Association for Computational Linguistics EMNLP 2021
   highlight: 1
-  news2: <a href="https://github.com/anjisun221/anti-asian-slurs">Code repo (github)</a>
+  news1: <a href="https://github.com/anjisun221/anti-asian-slurs">Code repo (github)</a>
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11140553844282277053&as_sdt=800005&sciodt=0,15&hl=en">10+ papers citing this work (Google scholar)</a>    
 
 
 - title: "Precision Public Health Campaign: Delivering Persuasive Messages to Relevant Segments Through Targeted Advertisements on Social Media"
@@ -93,7 +114,8 @@
     url: https://peerj.com/articles/cs-644/
     display:  PeerJ Computer Science 7:e644, 2021
   highlight: 1
-  news2: <a href="https://github.com/haewoon/frameaxis">Code repo (github)</a>
+  news1: <a href="https://github.com/haewoon/frameaxis">Code repo (github)</a>
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=16502768133789728719&as_sdt=800005&sciodt=0,15&hl=en">10+ papers citing this work (Google scholar)</a>    
 
 
 - title: "Populist Supporters on Reddit: A Comparison of Content and Behavioral Patterns Within Publics of Supporters of Donald Trump and Hillary Clinton"
@@ -128,10 +150,10 @@
     url: https://arxiv.org/abs/2005.01803
     display: Proceedings of the 12th ACM Conference on Web Science (WebSci), 2020
   highlight: 1
-  news1:
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=17777991708099251369&as_sdt=800005&sciodt=0,15&hl=en">5+ papers citing this work (Google scholar)</a>    
 
 - title: "Identifying and Characterizing Alternative News Media on Facebook"
-  tags: computational journalism, social media
+  tags: computational journalism, network science, social media
   image: asonam20_samuel.png
   authors: Samuel S Guimarães, Julio CS Reis, Lucas Lima, Filipe N Ribeiro, Marisa Vasconcelos, Jisun An, Haewoon Kwak, Fabrício Benevenuto
   description: In this work, we propose a graph-based semi-supervised method to measure the political bias of pages on most countries and show the political split of the alternative media, mainstream media, and public figures pages. We validate our method using the publicly available U.S. dataset and then apply it to Brazilian pages, where we found a larger number of right-wing pages in general, except for alternative news media.
@@ -144,13 +166,13 @@
 - title: "What Was Written vs. Who Read It: News Media Profiling Using Text Analysis and Social Media Context"
   tags: computational journalism, AI/ML/NLP, social media
   image: acl20_ramy.png
-  description: A first paper from the TBG collaboration is online, with beautiful data from the Baumberger group in Geneva, and great devices from the Efetov group at ICFO. We measured STM on the device.
+  description: Predicting the political bias and the factuality of reporting of entire news outlets are critical elements of media profiling, which is an understudied but an increasingly important research direction. The present level of proliferation of fake, biased, and propagandistic content online has made it impossible to fact-check every single suspicious claim, either manually or automatically. Thus, it has been proposed to profile entire news outlets and to look for those that are likely to publish fake or biased content. This makes it possible to detect likely “fake news” the moment they are published, by simply checking the reliability of their source. From a practical perspective, political bias and factuality of reporting have a linguistic aspect but also a social context.
   authors: Ramy Baly, Georgi Karadzhov, Jisun An, Haewoon Kwak, Yoan Dinkov, Ahmed Ali, James Glass, Preslav Nakov
   link:
     url: https://www.aclweb.org/anthology/2020.acl-main.308/
     display:  Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL) (2020)
   highlight: 1
-  news2:
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13804595910402473878&as_sdt=800005&sciodt=0,15&hl=en">20+ papers citing this work (Google scholar)</a>    
 
 - title: "Empirical Evaluation of Three Common Assumptions in Building Political Media Bias Datasets"
   tags: computational journalism, AI/ML/NLP
@@ -161,7 +183,7 @@
     url: https://ojs.aaai.org//index.php/ICWSM/article/view/7362
     display:  Proceedings of the 14th International AAAI Conference on Web and Social Media (ICWSM), 2020
   highlight: 1
-  news2:
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=14119564002231419883&as_sdt=800005&sciodt=0,15&hl=en">10+ papers citing this work (Google scholar)</a>    
 
 - title: "“Trust Me, I Have a Ph.D.”: A Propensity Score Analysis on the Halo Effect of Disclosing One's Offline Social Status in Online Communities"
   tags: computational social science, AI/ML/NLP, social media
@@ -172,7 +194,7 @@
     url: https://ojs.aaai.org//index.php/ICWSM/article/view/7321
     display:  Proceedings of the 14th International AAAI Conference on Web and Social Media (ICWSM), 2020
   highlight: 1
-  news2:
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11331595344723902053&as_sdt=800005&sciodt=0,15&hl=en">5+ papers citing this work (Google scholar)</a>    
 
 - title: "Are These Comments Triggering? Predicting Triggers of Toxicity in Online Discussions"
   tags: computational social science, AI/ML/NLP, social media
@@ -183,6 +205,7 @@
     url: https://dl.acm.org/doi/10.1145/3366423.3380074?cid=81452618313
     display:  Proceedings of The Web Conference (WWW),  2020
   highlight: 1
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=4074253856414814753&as_sdt=800005&sciodt=0,15&hl=en">25+ papers citing this work (Google scholar)</a>    
 
 - title: "Going beyond accuracy: estimating homophily in social networks using predictions"
   tags: computational social science
@@ -228,6 +251,7 @@
     display:  Proceedings of Social Informatics (SocInfo), 2019
   highlight: 1
   news1: Best Paper Award
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=1122163312563204392&as_sdt=800005&sciodt=0,15&hl=en">10+ papers citing this work (Google scholar)</a>    
 
 - title: "Stylistic Features Usage: Similarities and Differences Using Multiple Social Networks"
   # image: chi_ea19_kholoud.png
@@ -241,6 +265,7 @@
 
 - title: "Predicting Audience Engagement Across Social Media Platforms in the News Domain"
   # image: chi_ea19_kholoud.png
+  tags: computational journalism, AI/ML/NLP
   description: Among other findings, results show that content with high engagement on one platform does not guarantee high engagement on another platform, even when news outlets use similar cross-platform posts; however, for some content, cross-sharing posts on a platform will increase overall audience engagement on another platform.
   authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
   link:
@@ -249,8 +274,9 @@
   highlight: 0
   news2:   
 
-- title: "Detecting Toxicity Triggers in Online Discussions "
+- title: "Detecting Toxicity Triggers in Online Discussions"
   # image: www20_hind.png
+  tags: computational social science, social media
   description: We first propose a formal definition of triggers of toxicity in online communities. We proceed to build an LSTM neural network model using textual features of comments, and then, based on a comprehensive review of previous literature, we incorporate topical and sentiment shift in interactions as features.
   authors: Hind Almerekhi, Haewoon Kwak, Bernard Jim Jansen, Joni Salminen (poster)
   link:
@@ -267,7 +293,7 @@
     url: https://www.aaai.org/ojs/index.php/ICWSM/article/view/3210/3078/
     display: Proceedings of the 13th International AAAI Conference on Web and Social Media (ICWSM), 2019
   highlight: 1
-  news2: 
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=3311929175157727200&as_sdt=800005&sciodt=0,15&hl=en">50+ papers citing this work (Google scholar)</a>    
 
 - title: "View, Like, Comment, Post: Analyzing User Engagement by Topic at 4 Levels across 5 Social Media Platforms for 53 News Organizations"
   tags: computational journalism, social media
@@ -282,6 +308,7 @@
 
 - title: "The Challenges of Creating Engaging Content: Results from a Focus Group Study of a Popular News Media Organization"
   # image: chi_ea19_kholoud.png
+  tags: computational journalism
   description: We report findings from a group study that aimed to understand the process and challenges of creating engaging content across three social media platforms in a major news organization. The findings from the study indicate that creating engaging content is effort- and time-consuming, and they highlight the need to support the process of creating engaging content across multiple social media platforms.
   authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen (Extended Abstracts)
   link:
@@ -341,7 +368,7 @@
     url: https://ojs.aaai.org/index.php/ICWSM/article/view/15058
     display: Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018  (short)
   highlight: 1
-  news2:  
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13898048059462450046&as_sdt=800005&sciodt=0,15&hl=en">50+ papers citing this work (Google scholar)</a>    
 
 - title: "Anatomy of Online Hate: Developing a Taxonomy and Machine Learning Models for Identifying and Classifying Hate in Online News Media"
   tags: computational social science, social media
@@ -352,10 +379,10 @@
     url: https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17885
     display: Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018
   highlight: 1
-  news2: 
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=4481904402359775293&as_sdt=800005&sciodt=0,15&hl=en">100+ papers citing this work (Google scholar)</a>  
 
 - title: "Identifying Regional Trends in Avatar Customization"
-  tags: computational social science, game analytics
+  tags: computational social science, game analytics, HCI
   image: ieeegames18_peter.png
   description: We manually label 5,143 hateful expressions posted to YouTube and Facebook videos among a dataset of 137,098 comments from an online news media. We then create a granular taxonomy of different types and targets of online hate and train machine learning models to automatically detect and classify the hateful comments in the full dataset.
   authors: Peter Mawhorter, Sercan Şengün, Haewoon Kwak, D. Fox Harrell
@@ -397,10 +424,12 @@
     display: Companion Proceedings of the The Web Conference (WWW), 2018
   highlight: 1
   news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2161933-theres-an-alt-right-alt-twitter-and-its-filled-with-hate/), and [Vice](https://www.vice.com/en/article/ywxb95/gab-is-the-alt-right-social-network-racists-are-moving-to)
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=6824040863997767384&as_sdt=800005&sciodt=0,15&hl=en">200+ papers citing this work (Google scholar)</a>  
 
 - title: "Fixation and Confusion: Investigating Eye-tracking Participants' Exposure to Information in Personas"
   # image: www18_kwak.png
   # description: We investigate the alignment of international attention of news media organizations within 193 countries with the expressed international interests of the public within those same countries from March 7, 2016 to April 14, 2017. We collect fourteen months of longitudinal data of online news from Unfiltered News and web search volume data from Google Trends and build a multiplex network of media attention and public attention in order to study its structural and dynamic properties.
+  tags: HCI
   authors: Joni Salminen, Bernard J. Jansen, Jisun An, Soon-Gyo Jung, Lene Nielsen, Haewoon Kwak
   link:
     url: https://dl.acm.org/doi/10.1145/3176349.3176391?cid=99659160512
@@ -486,6 +515,7 @@
 
 - title: "What Gets Media Attention and How Media Attention Evolves Over Time - Large-scale Empirical Evidence from 196 Countries"
   # image: neco17_an.png
+  tags: computational journalism
   description: What gets media attention and how media attention evolves over time has been studied for decades in communication study. However, previous studies are confined to a few countries or a few topics, mainly due to lack of longitudinal global data. In this work, we use a large-scale news data compiled from 196 countries to provide empirical analyses of media attention dynamics.
   authors: Jisun An, Haewoon Kwak (short)
   link:
@@ -497,6 +527,7 @@
 - title: "Persona Generation from Aggregated Social Media Data"
   # image: neco17_an.png
   # description: What gets media attention and how media attention evolves over time has been studied for decades in communication study. However, previous studies are confined to a few countries or a few topics, mainly due to lack of longitudinal global data. In this work, we use a large-scale news data compiled from 196 countries to provide empirical analyses of media attention dynamics.
+  tags: HCI
   authors: Soon-Gyo Jung, Jisun An, Haewoon Kwak, Moeed Ahmad, Lene Nielsen, Bernard J. Jansen (Extended Abstract)
   link:
     url: https://dl.acm.org/doi/10.1145/3027063.3053120
@@ -530,6 +561,7 @@
 - title: "Culturally-Grounded Analysis of Everyday Creativity in Social Media: A Case Study in Qatari Context"
   # image: www17_kang.png
   # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  tags: HCI
   authors: D. Fox Harrell, Sarah Vieweg, Haewoon Kwak, Chong-U Lim, Sercan Sengun, Ali Jahanian, Pablo Ortiz
   link:
     url: https://dl.acm.org/doi/10.1145/3059454.3059456
@@ -540,6 +572,7 @@
 - title: "Who Are Your Users? Comparing Media Professionals' Preconception of Users to Data-Driven Personas"
   # image: www17_kang.png
   # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  tags: HCI
   authors: Lene Nielsen, Soon-Gyo Jung, Jisun An, Joni Salminen, Haewoon Kwak, Bernard J. Jansen
   link:
     url: https://dl.acm.org/doi/10.1145/3152771.3156178?cid=99659160512
@@ -551,6 +584,7 @@
 - title: "Generating Cultural Personas from Social Data: A Perspective of Middle Eastern Users"
   # image: www17_kang.png
   # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  tags: HCI
   authors: J. Salminen, S. Sengün, H. Kwak, B. Jansen, J. An, S. Jung, S. Vieweg, D. F. Harrell
   link:
     url: https://ieeexplore.ieee.org/document/8113781
@@ -561,6 +595,7 @@
 - title: "Personas for Content Creators via Decomposed Aggregate Audience Statistics"
   # image: www17_kang.png
   # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  tags: HCI
   authors: Jisun An, Haewoon Kwak, Bernard J. Jansen (short)
   link:
     url: https://dl.acm.org/doi/10.1145/3110025.3110072?cid=99659160512
@@ -584,6 +619,7 @@
 - title: "Multidimensional Analysis of Gender and Age Differences in News Consumption"
   # image: www17_kang.png
   # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  tags: computational journalism
   authors: Jisun An, Haewoon Kwak
   link:
     url: https://journalism.stanford.edu/cj2016/files/Multidimensional%20Analysis%20of%20Gender%20and%20Age%20Differences%20in%20News%20Consumption.pdf
@@ -607,6 +643,7 @@
 - title: "Two Tales of the World: Comparison of Widely Used World News Datasets: GDELT and EventRegistry"
   # image: www17_kang.png
   # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
+  tags: computational journalism, AI/ML/NLP
   authors: Haewoon Kwak, Jisun An 
   link:
     url: http://arxiv.org/abs/1603.01979
@@ -629,6 +666,7 @@
 - title: "#greysanatomy vs. #yankees: Demographics and Hashtag Use on Twitter."
   # image: icwsm16_an.png
   # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  tags: computational social science, social media
   authors: Jisun An, Ingmar Weber (short)
   link:
     url: https://arxiv.org/abs/1603.01973
@@ -639,6 +677,7 @@
 - title: "Whom should we sense in 'social sensing'-analyzing which users work best for social media now-casting"
   # image: icwsm16_an.png
   # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  tags: computational social science, social media
   authors: Jisun An, Ingmar Weber
   link:
     url: https://link.springer.com/article/10.1140/epjds/s13688-015-0058-9
@@ -649,6 +688,7 @@
 - title: "Consumers and Suppliers: Attention asymmetries. A Case Study of Aljazeera’s News Coverage and Comments"
   # image: icwsm16_an.png
   # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  tags: computational journalism
   authors: Sofiane Abbar, Jisun An, Haewoon Kwak, Yacine Messaoui, Javier Borge-Holthoefer
   link:
     url: http://cj2015.brown.columbia.edu/papers/consumers-and-suppliers.pdf
@@ -659,6 +699,7 @@
 - title: "Breaking the News: First Impressions Matter on Online News"
   # image: icwsm16_an.png
   # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  tags: computational journalism, social media
   authors: Julio Reis, Fabrıcio Benevenuto, Pedro Olmo, Raquel Prates, Haewoon Kwak, Jisun An
   link:
     url: http://arxiv.org/abs/1503.07921
@@ -669,7 +710,7 @@
 
 
 - title: "Exploring Cyberbullying and Other Toxic Behavior in Team Competition Online Games"
-  tags: game analytics
+  tags: game analytics, HCI
   image: chi15_kwak.png
   description: In this work we explore cyberbullying and other toxic behavior in team competition online games. Using a dataset of over 10 million player reports on 1.46 million toxic players along with corresponding crowdsourced decisions, we test several hypotheses drawn from theories explaining toxic behavior. Besides providing large-scale, empirical based understanding of toxic behavior, our work can be used as a basis for building systems to detect, prevent, and counter-act toxic behavior.
   authors: Haewoon Kwak, Jeremy Blackburn, Seungyeop Han
@@ -692,6 +733,7 @@
 - title: "Understanding News Geography and Major Determinants of Global News Coverage of Disasters"
   # image: icwsm16_an.png
   # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
+  tags: computational journalism
   authors: Haewoon Kwak, Jisun An (extension of SocInfo'14)
   link:
     url: https://arxiv.org/abs/1410.3710
@@ -737,6 +779,7 @@
 - title: "Didn’t You See My Message? Predicting Attentiveness to Mobile Instant Messages"
   # image: kdd14_laszlo.png
   # description: We introduce the the concept of "flow motifs" to characterize the statistically significant pass sequence patterns. It extends the idea of the network motifs, highly significant subgraphs that usually consists of three or four nodes. The analysis of the motifs in the pass networks allows us to compare and differentiate the styles of different teams. Although most teams tend to apply homogenous style, surprisingly, a unique strategy of soccer exists. Specifically, FC Barcelona's famous tiki-taka does not consist of uncountable random passes but rather has a precise, finely constructed structure.
+  tags: HCI
   authors: Martin Pielot, Rodrigo de Oliveira, Haewoon Kwak, Nuria Oliver
   link:
     url: http://dl.acm.org/authorize?N87787
@@ -761,6 +804,7 @@
 - title: "Has Much Potential but Biased: Exploring the Scholarly Landscape in Twitter"
   # image: www14_jeremy.png
   # description: We propose a supervised learning approach for predicting crowdsourced decisions on toxic behavior with large-scale labeled data collections; over 10 million user reports involved in 1.46 million toxic players and corresponding crowdsourced decisions. Our result shows good performance in detecting overwhelmingly majority cases and predicting crowdsourced decisions on them. We demonstrate good portability of our classifier across regions.
+  tags: computational social science
   authors: Haewoon Kwak, Jonggun Lee (poster)
   link:
     url: https://archive.thewebconf.org/proceedings/www2014/companion/p563.pdf
@@ -769,6 +813,7 @@
   # news1: Press coverage-[Nature](https://www.nature.com/news/can-a-video-game-company-tame-toxic-behaviour-1.19647), [Scientific American](http://www.scientificamerican.com/article/can-a-video-game-company-tame-toxic-behavior/), [Chosun Ilbo](https://www.chosun.com/site/data/html_dir/2016/04/06/2016040603525.html)
 
 - title: "Sharing political news: the balancing act of intimacy and socialization in selective exposure"
+  tags: political science
   # image: www14_jeremy.png
   # description: We propose a supervised learning approach for predicting crowdsourced decisions on toxic behavior with large-scale labeled data collections; over 10 million user reports involved in 1.46 million toxic players and corresponding crowdsourced decisions. Our result shows good performance in detecting overwhelmingly majority cases and predicting crowdsourced decisions on them. We demonstrate good portability of our classifier across regions.
   authors: Jisun An, Daniele Quercia, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft
@@ -793,6 +838,7 @@
 - title: "Partisan Sharing: Facebook Evidence and Societal Consequences"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  tags: political science
   authors: Jisun An, Daniele Quercia, Jon Crowcroft
   link:
     url: https://dl.acm.org/doi/10.1145/2660460.2660469?cid=99659160512
@@ -803,6 +849,7 @@
 - title: "Tower of Babel: A Crowdsourcing Game Building Sentiment Lexicons for Resource-scarce Languages"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  tags: HCI
   authors: Yoonsung Hong, Haewoon Kwak, Youngmin Baek, Sue Moon
   link:
     url: https://soda-labo.github.io/downloads/hong2013tower.pdf
@@ -813,6 +860,7 @@
 - title: "Structures of Broken Ties: Exploring Unfollow Behavior on Twitter"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  tags: computational social science, network science
   authors: Bo Xu, Yun Huang, Haewoon Kwak, Noshir S. Contractor
   link:
     url: http://dl.acm.org/authorize?6892114
@@ -823,6 +871,7 @@
 - title: "Why Individuals Seek Diverse Opinions (or Why They Don't)"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  tags: computational social science
   authors: Jisun An, Daniele Quercia, Jon Crowcroft
   link:
     url: https://dl.acm.org/doi/10.1145/2464464.2464493?cid=99659160512
@@ -833,6 +882,7 @@
 - title: "Why Do I Retweet It? An Information Propagation Model for Microblogs"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  tags: computational social science
   authors: Fabio Pezzoni, Jisun An, Andrea Passarella, Jon Crowcroft, Marco Conti
   link:
     url: https://soda-labo.github.io/downloads/pezzoni2013why.pdf
@@ -843,6 +893,7 @@
 - title: "Traditional Media Seen from Social Media"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  tags: computational journalism
   authors: Jisun An, Daniele Quercia, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft
   link:
     url: https://dl.acm.org/doi/10.1145/2464464.2464492?cid=99659160512
@@ -853,6 +904,7 @@
 - title: "Fragmented Social Media: A Look into Selective Exposure to Political News"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  tags: political science, social media
   authors: Jisun An, Daniele Quercia, Jon Crowcroft (poster)
   link:
     url: https://dl.acm.org/doi/10.1145/2487788.2487807?cid=99659160512
@@ -863,6 +915,7 @@
 - title: "More of a Receiver than a Giver: Why Do People Unfollow in Twitter?"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  tags: computational social science, network science
   authors: Haewoon Kwak, Sue Moon, Wonjae Lee (4 page poster)
   link:
     url: https://soda-labo.github.io/downloads/kwak2012more.pdf
@@ -873,6 +926,7 @@
 - title: "Visualizing Media Bias through Twitter"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  tags: HCI, social media
   authors: Jisun An, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft, Daniele Quercia
   link:
     url: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/view/4775
@@ -883,6 +937,7 @@
 - title: "Consistent Community Identification in Complex Networks"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
+  tags: network science
   authors: Haewoon Kwak, Sue Moon, Young-Ho Eom, Yoonchan Choi, Hawoong Jeong
   link:
     url: https://soda-labo.github.io/downloads/kwak2011consistent.pdf
@@ -891,7 +946,7 @@
   news1:  
 
 - title: "Fragile Online Relationship: a First Look at Unfollow Dynamics in Twitter"
-  tags: computational social science, network science, social media
+  tags: computational social science, network science, social media, HCI
   image: chi11_kwak.png
   description: We analyze the dynamics of the behavior known as 'unfollow' in Twitter. We collected daily snapshots of the online relationships of 1.2 million Korean-speaking users for 51 days as well as all of their tweets. We found that Twitter users frequently unfollow. We then discover the major factors, including the reciprocity of the relationships, the duration of a relationship, the followees' informativeness, and the overlap of the relationships, which affect the decision to unfollow. We conduct interview with 22 Korean respondents to supplement the quantitative results.
   authors: Haewoon Kwak, Hyunwoo Chun, Sue Moon
@@ -931,15 +986,17 @@
 - title: "Finding Influentials based on the Temporal Order of Information Adoption in Twitter"
   # image: www10_kwak.png
   # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
+  tags: network science, social media
   authors: Changhyun Lee, Haewoon Kwak, Hosung Park, Sue Moon (poster)
   link:
     url: http://dl.acm.org/authorize?235691
     display: Proceedings of the 19th international conference on World wide web (WWW), 2010.
   highlight: 0
   # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
-  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=ko&cites=12907911141919226818&as_sdt=5">100+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=ko&cites=12907911141919226818&as_sdt=5">100+ papers citing this work (Google scholar)</a>
 
 - title: "Understanding Topological Mesoscale Features in Community Mining"
+  tags: network science
   # image: www10_kwak.png
   # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
   authors: Sue Moon, Jinyoung You, Haewoon Kwak, Daniel Kim, and Hawoong Jeong (invited paper)
@@ -951,6 +1008,7 @@
   news1: 
 
 - title: "Analyzing the Video Popularity Characteristics of Large-Scale User Generated Content Systems"
+  tags: computational social science
   # image: www10_kwak.png
   # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
   authors: Meeyoung Cha, Haewoon Kwak, Pablo Rodriguez, Yong-Yeol Ahn, and Sue Moon
@@ -962,6 +1020,7 @@
   news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?rlz=1C5CHFA_enSG927SG927&um=1&ie=UTF-8&lr&cites=11215649147595324791">500+ papers citing this work (Google scholar)</a>
 
 - title: "Mining Communities in Networks: a Solution for Consistency and Its Evaluation"
+  tags: network science
   # image: www10_kwak.png
   # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
   authors: Haewoon Kwak, Yoonchan Choi, Young-Ho Eom, Hawoong Jeong, Sue Moon
@@ -984,6 +1043,7 @@
   news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=ko&cites=12105950545188755091">150+ papers citing this work (Google scholar)</a>
 
 - title: "Connecting Users with Similar Interests Across Multiple Web Services"
+  tags: HCI, network science
   # image: www10_kwak.png
   # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
   authors: Haewoon Kwak, Hwa-Yong Shin, Jong-Il Yoon, Sue Moon (poster)
@@ -995,6 +1055,7 @@
   news1: 
 
 - title: "Comparison of Online Social Relations in Volume vs Interaction: A Case Study of Cyworld"
+  tags: computational social science, network science
   # image: www10_kwak.png
   # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
   authors: Hyunwoo Chun, Haewoon Kwak, Young-Ho Eom, Yong-Yeol Ahn, Sue Moon, and Hawoong Jeong
@@ -1006,6 +1067,7 @@
   news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16920983580300166416">250+ papers citing this work (Google scholar)</a>
 
 - title: "I Tube, You Tube, Everybody Tubes: Analyzing the World's Largest User Generated Content Video System"
+  tags: computational social science, social media
   # image: www10_kwak.png
   # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
   authors: Meeyoung Cha, Haewoon Kwak, Pablo Rodriguez, Yong-Yeol Ahn, Sue Moon
@@ -1018,6 +1080,7 @@
   news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=10792240042294166454&as_sdt=2005&sciodt=0,5&hl=en">1,900+ papers citing this work (Google scholar)</a>
 
 - title: "Analysis of topological characteristics of huge online social networking services"
+  tags: computational social science, network science
   # image: www10_kwak.png
   # description: We have crawled the entire Twitter site and obtained 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. In its follower-following topology analysis we have found a non-power-law follower distribution, a short effective diameter, and low reciprocity, which all mark a deviation from known characteristics of human social networks [28]. In order to identify influentials on Twitter, we have ranked users by the number of followers and by PageRank and found two rankings to be similar. Ranking by retweets differs from the previous two rankings, indicating a gap in influence inferred from the number of followers and that from the popularity of one's tweets. 
   authors: Yong-Yeol Ahn, Seungyeop Han, Haewoon Kwak, Sue Moon, Hawoong Jeong
