@@ -14,6 +14,15 @@ permalink: /publications/
 A list of selected papers in which research team members participated. <br/>
 (For a full list see [below](#full-list) or go to Google Scholar ([Jisun An](https://scholar.google.com/citations?user=FYtw3zkAAAAJ&hl=en&oi=sra) and [Haewoon Kwak](https://scholar.google.com/citations?user=dcjrz5MAAAAJ&hl=en&oi=ao)).
 
+<span class="label label-computational-social-science">computational social science</span> 
+<span class="label label-computational-journalism">computational journalism</span>
+<span class="label label-political-science">political science</span> 
+<span class="label label-network-science">network science</span> 
+<span class="label label-game-analytics">game analytics</span>
+<span class="label label-ai-ml-nlp">AI/ML/NLP</span>
+<span class="label label-social-media">social media</span> 
+<span class="label label-hci">HCI</span>
+
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
@@ -27,6 +36,12 @@ A list of selected papers in which research team members participated. <br/>
 <div class="col-sm-6 clearfix">
  <div class="well">
   <a href="{{ publi.link.url }}"><pubtit>{{ publi.title }}</pubtit></a>
+  {% if publi.tags %}
+  {% assign tags = publi.tags | split: ',' %}
+  {%- for tag in tags -%}
+  <span class="label label-{{tag | downcase | strip | replace: ' ', '-' | replace: '/', '-'}}">{{tag}}</span>
+  {% endfor %}
+  {% endif %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
