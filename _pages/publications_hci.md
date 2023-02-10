@@ -20,8 +20,12 @@ A list of selected papers in which research team members participated. <br/>
 <a href="/publications/net"><span class="label label-network-science">network science</span></a>
 <a href="/publications/game"><span class="label label-game-analytics">game analytics</span></a>
 <a href="/publications/ai"><span class="label label-ai-ml-nlp">AI/ML/NLP</span></a>
+<a href="/publications/"><span class="label label-hci-selected">HCI</span></a><br/>
 <a href="/publications/sm"><span class="label label-social-media">social media</span></a> 
-<a href="/publications/"><span class="label label-hci-selected">HCI</span></a>
+<a href="/publications/hate"><span class="label label-online-hate">online hate</span></a> 
+<a href="/publications/data"><span class="label label-dataset-tool">dataset/tool</span></a> 
+<a href="/publications/bias"><span class="label label-bias-fairness">bias/fairness</span></a> 
+<a href="/publications/user"><span class="label label-user-engagement">user engagement</span></a> 
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
