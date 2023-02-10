@@ -16,7 +16,7 @@ A list of selected papers in which research team members participated. <br/>
 
 <a href="/publications/css"><span class="label label-computational-social-science">computational social science</span></a>
 <a href="/publications/cj"><span class="label label-computational-journalism">computational journalism</span></a>
-<a href="/publications/pol"><span class="label label-political-science-selected">political science</span></a>
+<a href="/publications/"><span class="label label-political-science-selected">political science</span></a>
 <a href="/publications/net"><span class="label label-network-science">network science</span></a>
 <a href="/publications/game"><span class="label label-game-analytics">game analytics</span></a>
 <a href="/publications/ai"><span class="label label-ai-ml-nlp">AI/ML/NLP</span></a>
