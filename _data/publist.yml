@@ -1,5 +1,5 @@
 - title: "You Have Earned a Trophy: Characterize In-Game Achievements and Their Completions"
-  tags: game analytics, HCI
+  tags: game analytics, HCI, user engagement
   image: websci22_haewoon.png
   authors: Haewoon Kwak
   description: Achievement systems have been actively adopted in gaming platforms to maintain players' interests. Among them, trophies in PlayStation games are one of the most successful achievement systems. While the importance of trophy design has been casually discussed in many game developers' forums, there has been no systematic study of the historical dataset of trophies yet. In this work, we construct a complete dataset of PlayStation games and their trophies and investigate them from both the developers' and players' perspectives.
@@ -29,7 +29,7 @@
   highlight: 1
 
 - title: "Storm the Capitol: Linking Offline Political Speech and Online Twitter Extra-Representational Participation on QAnon and the January 6 Insurrection"
-  tags: computational social science, AI/ML/NLP, political science, social media
+  tags: computational social science, AI/ML/NLP, political science, social media, online harm
   image: frontiers22_lee.png
   authors: Claire Seungeun Lee, Juan Merizalde, John D. Colautti, Jisun An and Haewoon Kwak
   description: The transfer of power stemming from the 2020 presidential election occurred during an unprecedented period in United States history. Uncertainty from the COVID-19 pandemic, ongoing societal tensions, and a fragile economy increased societal polarization, exacerbated by the outgoing president's offline rhetoric. As a result, online groups such as QAnon engaged in extra political participation beyond the traditional platforms. This research explores the link between offline political speech and online extra-representational participation by examining Twitter within the context of the January 6 insurrection. Using a mixed-methods approach of quantitative and qualitative thematic analyses, the study combines offline speech information with Twitter data during key speech addresses leading up to the date of the insurrection; exploring the link between Trump's offline speeches and QAnon's hashtags across a 3-day timeframe. We find that links between online extra-representational participation and offline political speech exist. This research illuminates this phenomenon and offers policy implications for the role of online messaging as a tool of political mobilization.
@@ -40,7 +40,7 @@
   news1:  Press coverage-[PsyPost](https://www.psypost.org/2022/06/new-study-examines-the-link-between-trumps-offline-speeches-and-qanon-related-twitter-discourse-on-january-6-63328)
 
 - title: "Measuring 9 Emotions of News Posts from 8 News Organizations across 4 Social Media Platforms for 8 Months"
-  tags: computational journalism, social media
+  tags: computational journalism, social media, user engagement
   image: tsc22_aldous.png
   authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
   description: Using Plutchik’s wheel of emotions framework, we identify the emotional content of 133,487 social media posts and the audience’s emotional engagement expressed in 2,824,162 comments on those posts. We measure nine emotions (anger, anticipation, anxiety, disgust, joy, fear, sadness, surprise, trust) and two sentiments (positive and negative) using two extraction resources (EmoLex, LIWC) for eight major news outlets across four social media platforms (Facebook, Instagram, Twitter, and YouTube) during eight months. We then apply two approaches (Logistic Regression, Long Short-Term Memory) to predict emotional audience reactions before and after publishing the posts. ...
@@ -50,7 +50,7 @@
   highlight: 1
 
 - title: "Understanding Toxicity Triggers on Reddit in the Context of Singapore"
-  tags: computational social science, AI/ML/NLP, social media
+  tags: computational social science, AI/ML/NLP, social media, online harm
   image: icwsm22_chong.png
   authors: Yun Yu Chong, Haewoon Kwak
   description: While the contagious nature of online toxicity sparked increasing interest in its early detection and prevention, most of the literature focuses on the Western world. In this work, we demonstrate that 1) it is possible to detect toxicity triggers in an Asian online community, and 2) toxicity triggers can be strikingly different between Western and Eastern contexts.
@@ -61,7 +61,7 @@
   news1: Press coverage-[AI Ethics Brief Newsletter by Montreal AI Ethics Institute](https://montrealethics.ai/understanding-toxicity-triggers-on-reddit-in-the-context-of-singapore/)
 
 - title: "Who Is Missing? Characterizing the Participation of Different Demographic Groups in a Korean Nationwide Daily Conversation Corpus"
-  tags: AI/ML/NLP
+  tags: AI/ML/NLP, dataset/tool, bias/fairness
   image: icwsm22_kwak.png
   authors: Haewoon Kwak, Jisun An, Kunwoo Park
   description: A conversation corpus is essential to build interactive AI applications. However, the demographic information of the participants in such corpora is largely underexplored mainly due to the lack of individual data in many corpora. In this work, we analyze a Korean nationwide daily conversation corpus constructed by the National Institute of Korean Language (NIKL) to characterize the participation of different demographic (age and sex) groups in the corpus.
@@ -71,7 +71,7 @@
   highlight: 1
 
 - title: "What really matters?: characterising and predicting user engagement of news postings using multiple platforms, sentiments and topics"
-  tags: computational journalism, social media
+  tags: computational journalism, social media, user engagement
   image: behavior22_aldous.png
   authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
   description: This research characterises user engagement of approximately 3,000,000 news postings of 53 news outlets and 50,000,000 associated user comments during 8 months on 5 social media platforms (i.e. Facebook, Instagram, Twitter, YouTube, and Reddit). We investigate the effect of sentiments and topics on user engagement across four levels of user engagement expressions (i.e. views, likes, comments, cross-platform posting). We find that sentiments and topics differ by both news outlets and social media platforms, and both sentiments and topics by the four levels of user engagement expression. ...
@@ -81,7 +81,7 @@
   highlight: 1
 
 - title: "Predicting Anti-Asian Hateful Users on Twitter during COVID-19"
-  tags: computational social science, AI/ML/NLP, social media
+  tags: computational social science, AI/ML/NLP, social media, online harm
   image: emnlp21_an.png
   authors: Jisun An, Haewoon Kwak, Claire Seungeun Lee, Bogang Jun, Yong-Yeol Ahn
   description: We investigate predictors of anti-Asian hate among Twitter users throughout COVID-19. With the rise of xenophobia and polarization that has accompanied widespread social media usage in many nations, online hate has become a major social issue, attracting many researchers. Here, we apply natural language processing techniques to characterize social media users who began to post anti-Asian hate messages during COVID-19. We compare two user groups -- those who posted anti-Asian slurs and those who did not -- with respect to a rich set of features measured with data prior to COVID-19 and show that it is possible to predict who later publicly posted anti-Asian slurs. ...
@@ -94,7 +94,7 @@
 
 
 - title: "Precision Public Health Campaign: Delivering Persuasive Messages to Relevant Segments Through Targeted Advertisements on Social Media"
-  tags: social media
+  tags: social media, user engagement
   image: jmir21_an.png
   authors: Jisun An, Haewoon Kwak, Hanya M Qureshi, Ingmar Weber
   description: We propose a novel precision public health campaign framework to structure and standardize the process of designing and delivering tailored health messages to target particular population segments using social media–targeted advertising tools. Our framework consists of five stages - defining a campaign goal, priority audience, and evaluation metrics; splitting the target audience into smaller segments; tailoring the message for each segment and conducting a pilot test; running the health campaign formally; and evaluating the performance of the campaigns. We have demonstrated how the framework works through 2 case studies. The precision public health campaign framework has the potential to support higher population uptake and engagement rates by encouraging a more standardized, concise, efficient, and targeted approach to public health campaign development.
@@ -106,7 +106,7 @@
 
 
 - title: "FrameAxis: characterizing microframe bias and intensity with word embedding"
-  tags: computational social science, AI/ML/NLP
+  tags: computational social science, AI/ML/NLP, dataset/tool, bias/fairness
   image: peerjcs21_kwak.png
   authors: Haewoon Kwak, Jisun An, Elise Jing, Yong-Yeol Ahn
   description: Framing is a process of emphasizing a certain aspect of an issue over the others, nudging readers or listeners towards different positions on the issue even without making a biased argument. Here, we propose FrameAxis, a method for characterizing documents by identifying the most relevant semantic axes (“microframes”) that are overrepresented in the text using word embedding. Our unsupervised approach can be readily applied to large datasets because it does not require manual annotations. ... 
@@ -119,7 +119,7 @@
 
 
 - title: "Populist Supporters on Reddit: A Comparison of Content and Behavioral Patterns Within Publics of Supporters of Donald Trump and Hillary Clinton"
-  tags: computational social science, social media
+  tags: computational social science, political science, social media
   image: sscr20_andreas.png
   authors: Andreas Jungherr, Oliver Posegga, Jisun An
   description: We investigate differences along these dimensions on the online forum Reddit by comparing linguistic patterns and content of comments in two subreddits focusing on a populist, Donald Trump (/r/The_Donald), and a center-left politician, Hillary Clinton (/r/hillaryclinton), during the 2016 U.S. presidential election campaign.
@@ -131,7 +131,7 @@
 
 
 - title: "How-to Present News on Social Media: A Causal Analysis of Editing News Headlines for Boosting User Engagement"
-  tags: computational journalism, AI/ML/NLP, social media
+  tags: computational journalism, AI/ML/NLP, social media, user engagement
   image: icwsm21_park.png
   authors: Kunwoo Park, Haewoon Kwak, Jisun An, Sanjay Chawla
   description: We first build a parallel corpus of original news articles and their corresponding tweets that were shared by eight media outlets. Then, we explore how those media edited tweets against original headlines, and the effects would be..
@@ -142,7 +142,7 @@
   news1:
 
 - title: "A Systematic Media Frame Analysis of 1.5 Million New York Times Articles from 2000 to 2017"
-  tags: computational journalism, AI/ML/NLP
+  tags: computational journalism, AI/ML/NLP, bias/fairness
   image: websci20_haewoon.png
   authors: Haewoon Kwak, Jisun An, Yong-Yeol Ahn
   description: Framing is an indispensable narrative device for news media because even the same facts may lead to conflicting understandings if deliberate framing is employed. By developing a media frame classifier that achieves state-of-the-art performance, we systematically analyze the media frames of 1.5 million New York Times articles published from 2000 to 2017.
@@ -153,7 +153,7 @@
   news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=17777991708099251369&as_sdt=800005&sciodt=0,15&hl=en">5+ papers citing this work (Google scholar)</a>    
 
 - title: "Identifying and Characterizing Alternative News Media on Facebook"
-  tags: computational journalism, network science, social media
+  tags: computational journalism, network science, social media, bias/fairness
   image: asonam20_samuel.png
   authors: Samuel S Guimarães, Julio CS Reis, Lucas Lima, Filipe N Ribeiro, Marisa Vasconcelos, Jisun An, Haewoon Kwak, Fabrício Benevenuto
   description: In this work, we propose a graph-based semi-supervised method to measure the political bias of pages on most countries and show the political split of the alternative media, mainstream media, and public figures pages. We validate our method using the publicly available U.S. dataset and then apply it to Brazilian pages, where we found a larger number of right-wing pages in general, except for alternative news media.
@@ -164,7 +164,7 @@
   news1:
 
 - title: "What Was Written vs. Who Read It: News Media Profiling Using Text Analysis and Social Media Context"
-  tags: computational journalism, AI/ML/NLP, social media
+  tags: computational journalism, AI/ML/NLP, social media, bias/fairness
   image: acl20_ramy.png
   description: Predicting the political bias and the factuality of reporting of entire news outlets are critical elements of media profiling, which is an understudied but an increasingly important research direction. The present level of proliferation of fake, biased, and propagandistic content online has made it impossible to fact-check every single suspicious claim, either manually or automatically. Thus, it has been proposed to profile entire news outlets and to look for those that are likely to publish fake or biased content. This makes it possible to detect likely “fake news” the moment they are published, by simply checking the reliability of their source. From a practical perspective, political bias and factuality of reporting have a linguistic aspect but also a social context.
   authors: Ramy Baly, Georgi Karadzhov, Jisun An, Haewoon Kwak, Yoan Dinkov, Ahmed Ali, James Glass, Preslav Nakov
@@ -175,7 +175,7 @@
   news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13804595910402473878&as_sdt=800005&sciodt=0,15&hl=en">20+ papers citing this work (Google scholar)</a>    
 
 - title: "Empirical Evaluation of Three Common Assumptions in Building Political Media Bias Datasets"
-  tags: computational journalism, AI/ML/NLP
+  tags: computational journalism, AI/ML/NLP, dataset/tool, bias/fairness
   image: icwsm20_soumen.png
   description: We empirically validate three common assumptions in building political media bias datasets, which are (i) labelers' political leanings do not affect labeling tasks, (ii) news articles follow their source outlet's political leaning, and (iii) political leaning of a news outlet is stable across different topics.
   authors: Soumen Ganguly, Juhi Kulshrestha, Jisun An, Haewoon Kwak
@@ -186,7 +186,7 @@
   news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=14119564002231419883&as_sdt=800005&sciodt=0,15&hl=en">10+ papers citing this work (Google scholar)</a>    
 
 - title: "“Trust Me, I Have a Ph.D.”: A Propensity Score Analysis on the Halo Effect of Disclosing One's Offline Social Status in Online Communities"
-  tags: computational social science, AI/ML/NLP, social media
+  tags: computational social science, AI/ML/NLP, social media, user engagement
   image: icwsm20_park.png
   description: We study two Reddit communities that adopted this scheme, whereby posts include tags identifying education status referred to as flairs, and we examine how the “transferred” social status affects the interactions among the users.
   authors: Kunwoo Park, Haewoon Kwak, Hyunho Song, Meeyoung Cha
@@ -197,7 +197,7 @@
   news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11331595344723902053&as_sdt=800005&sciodt=0,15&hl=en">5+ papers citing this work (Google scholar)</a>    
 
 - title: "Are These Comments Triggering? Predicting Triggers of Toxicity in Online Discussions"
-  tags: computational social science, AI/ML/NLP, social media
+  tags: computational social science, AI/ML/NLP, social media, online harm
   image: www20_hind.png
   description: We define toxicity triggers in online discussions as a non-toxic comment that lead to toxic replies. Then, we build a neural network-based prediction model for toxicity trigger. 
   authors: Hind Almerekhi, Haewoon Kwak, Bernard Jim Jansen, Joni Salminen (short)
@@ -230,7 +230,7 @@
   news2:
 
 - title: "Tanbih: Get To Know What You Are Reading "
-  tags: computational journalism, AI/ML/NLP
+  tags: computational journalism, AI/ML/NLP, bias/fairness, dataset/tool
   image: emnlp19_yifan.png
   description: We introduce Tanbih, a news aggregator with intelligent analysis tools to help readers understanding what’s behind a news story. Our system displays news grouped into events and generates media profiles that show the general factuality of reporting, the degree of propagandistic content, hyper-partisanship, leading political ideology, general frame of reporting, and stance with respect to various claims and topics of a news outlet.
   authors: Yifan Zhang, Giovanni Da San Martino, Alberto Barrón-Cedeño, Salvatore Romeo, Jisun An, Haewoon Kwak, Todor Staykovski, Israa Jaradat, Georgi Karadzhov, Ramy Baly, Kareem Darwish, James Glass, Preslav Nakov (demo)
@@ -242,7 +242,7 @@
 
 
 - title: "Gender and Racial Diversity in Commercial Brands' Advertising Images on Social Media"
-  tags: computational social science, social media
+  tags: computational social science, social media, bias/fairness
   image: socinfo19_an_2.png
   description: Gender and racial diversity in the mediated images from the media shape our perception of different demographic groups. In this work, we investigate gender and racial diversity of 85,957 advertising images shared by the 73 top international brands on Instagram and Facebook.
   authors: Jisun An, Haewoon Kwak
@@ -296,7 +296,7 @@
   news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=3311929175157727200&as_sdt=800005&sciodt=0,15&hl=en">50+ papers citing this work (Google scholar)</a>    
 
 - title: "View, Like, Comment, Post: Analyzing User Engagement by Topic at 4 Levels across 5 Social Media Platforms for 53 News Organizations"
-  tags: computational journalism, social media
+  tags: computational journalism, social media, user engagement
   image: icwsm19_kholoud.png
   description: We evaluate the effects of the topics of social media posts on audiences across five social media platforms (i.e., Facebook, Instagram, Twitter, YouTube, and Reddit) at four levels of user engagement. We collected 3,163,373 social posts from 53 news organizations across five platforms during an 8month period.
   authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
@@ -360,7 +360,7 @@
   news2:
 
 - title: "Assessing the Accuracy of Four Popular Face Recognition Tools for Inferring Gender, Age, and Race"
-  tags: AI/ML/NLP
+  tags: AI/ML/NLP, dataset/tool, bias/fairness
   image: icwsm18_jung.png
   description: We evaluate four widely used face detection tools, which are Face++, IBM Bluemix Visual Recognition, AWS Rekognition, and Microsoft Azure Face API, using multiple datasets to determine their accuracy in inferring user attributes, including gender, race, and age.
   authors: Soon-gyo Jung, Jisun An, Haewoon Kwak, Joni Salminen, Bernard Jim Jansen
@@ -371,7 +371,7 @@
   news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13898048059462450046&as_sdt=800005&sciodt=0,15&hl=en">50+ papers citing this work (Google scholar)</a>    
 
 - title: "Anatomy of Online Hate: Developing a Taxonomy and Machine Learning Models for Identifying and Classifying Hate in Online News Media"
-  tags: computational social science, social media
+  tags: computational social science, social media, online harm
   image: icwsm18_joni.png
   description: We manually label 5,143 hateful expressions posted to YouTube and Facebook videos among a dataset of 137,098 comments from an online news media. We then create a granular taxonomy of different types and targets of online hate and train machine learning models to automatically detect and classify the hateful comments in the full dataset.
   authors: Joni Salminen, Hind Almerekhi, Milica Milenković, Soon-gyo Jung, Jisun An, Haewoon Kwak, Bernard J. Jansen
@@ -393,7 +393,7 @@
   news2: 
 
 - title: "SemAxis: A Lightweight Framework to Characterize Domain-Specific Word Semantics Beyond Sentiment"
-  tags: computational social science, AI/ML/NLP
+  tags: computational social science, AI/ML/NLP, dataset/tool
   image: acl18_an.png
   description: We propose SemAxis, a simple yet powerful framework to characterize word semantics using many semantic axes in word-vector spaces beyond sentiment. We demonstrate that SemAxis can capture nuanced semantic representations in multiple online communities. We also show that, when the sentiment axis is examined, SemAxis outperforms the state-of-the-art approaches in building domain-specific sentiment lexicons.
   authors: Jisun An, Haewoon Kwak, Yong-Yeol Ahn
@@ -415,7 +415,7 @@
   news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=17215246929545301438&as_sdt=800005&sciodt=0,15&hl=en">15+ papers citing this work (Google scholar)</a>  
 
 - title: "What is Gab? A Bastion of Free Speech or an Alt-Right Echo Chamber?"
-  tags: computational social science, social media
+  tags: computational social science, social media, online harm
   image: www18_savvas.png
   description: We provide, to the best of our knowledge, the first characterization of Gab. We collect and analyze 22M posts produced by 336K users between August 2016 and January 2018, finding that Gab is predominantly used for the dissemination and discussion of news and world events, and that it attracts alt-right users, conspiracy theorists, and other trolls
   authors: Savvas Zannettou, Barry Bradlyn, Emiliano De Cristofaro, Haewoon Kwak, Michael Sirivianos, Gianluca Stringhini, Jeremy Blackburn
@@ -470,7 +470,7 @@
   news2: 
 
 - title: "Multidimensional Analysis of the News Consumption of Different Demographic Groups on a Nationwide Scale"
-  tags: computational journalism
+  tags: computational journalism, user engagement
   image: socinfo17_an_2.png
   description: Examining 103,133 news articles that are the most popular for different demographic groups in Daum News (the second most popular news portal in South Korea) during the whole year of 2015, we provided multi-level analyses of gender and age diﬀerences in news consumption. We measured such diﬀerences in four diﬀerent levels - (1) by actual news items, (2) by section, (3) by topic, and (4) by subtopic. We characterized the news items at the four levels by using the computational techniques, which are topic modeling and the vector representation of words and news items. We found that diﬀerences in news reading behavior across diﬀerent demographic groups are the most noticeable in subtopic level but neither section nor topic levels.
   authors: Jisun An, Haewoon Kwak
@@ -492,7 +492,7 @@
   news2: 
 
 - title: "Demographics of News Sharing in Twitter"
-  tags: computational journalism, social media
+  tags: computational journalism, social media, user engagement
   image: ht17_reis.png
   description: The widespread adoption and dissemination of online news through social media systems have been revolutionizing many segments of our society and ultimately our daily lives. In these systems, users can play a central role as they share content to their friends. Despite that, little is known about news spreaders in social media. In this paper, we provide the first of its kind in-depth characterization of news spreaders in social media. In particular, we investigate their demographics, what kind of content they share, and the audience they reach.
   authors: Julio Reis, Haewoon Kwak, and Jisun An, Johnnatan Messias, Fabrıcio Benevenuto
@@ -503,7 +503,7 @@
   news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13626524038588543208&as_sdt=800005&sciodt=0,15&hl=en">30+ papers citing this work (Google scholar)</a>  
 
 - title: "Data-driven Approach to Measuring the Level of Press Freedom Using Media Attention Diversity from Unfiltered News"
-  tags: computational journalism
+  tags: computational journalism, bias/fairness
   image: neco17_an.png
   description: Published by Reporters Without Borders every year, the Press Freedom Index (PFI) reflects the fear and tension in the newsroom pushed by the government and private sectors. While the PFI is invaluable in monitoring media environments worldwide, the current survey-based method has inherent limitations to updates in terms of cost and time. In this work, we introduce an alternative way to measure the level of press freedom using media attention diversity compiled from Unfiltered News.
   authors: Jisun An, Haewoon Kwak
@@ -547,7 +547,7 @@
   news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
 
 - title: "Achievement and Friends: Key Factors of Player Retention Vary Across Player Levels in Online Multiplayer Games"
-  tags: game analytics
+  tags: game analytics, user engagement
   image: www17_park.png
   description: Retaining players over an extended period of time is a long-standing challenge in game industry. Significant effort has been paid to understanding what motivates players enjoy games. While individuals may have varying reasons to play or abandon a game at different stages within the game, previous studies have looked at the retention problem from a snapshot view. This study, by analyzing in-game logs of 51,104 distinct individuals in an online multiplayer game, uniquely offers a multifaceted view of the retention problem over the players' virtual life phases.
   authors: Kunwoo Park, Meeyoung Cha, Haewoon Kwak, Kuan-Ta Chen
@@ -619,7 +619,7 @@
 - title: "Multidimensional Analysis of Gender and Age Differences in News Consumption"
   # image: www17_kang.png
   # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
-  tags: computational journalism
+  tags: computational journalism, bias/fairness
   authors: Jisun An, Haewoon Kwak
   link:
     url: https://journalism.stanford.edu/cj2016/files/Multidimensional%20Analysis%20of%20Gender%20and%20Age%20Differences%20in%20News%20Consumption.pdf
@@ -629,7 +629,7 @@
 
 
 - title: "Revealing the Hidden Patterns of News Photos: Analysis of Millions of News Photos Using GDELT and Deep Learning-based Vision APIs"
-  tags: computational journalism, AI/ML/NLP
+  tags: computational journalism, AI/ML/NLP, bias/fairness, dataset/tool
   image: neco16_kwak.png
   description: In this work, we analyze more than two million news photos published in January 2016. We demonstrate i) which objects appear the most in news photos; ii) what the sentiments of news photos are; iii) whether the sentiment of news photos is aligned with the tone of the text; iv) how gender is treated; and v) how differently political candidates are portrayed. To our best knowledge, this is the first large-scale study of news photo contents using deep learning-based vision APIs.
   authors: Haewoon Kwak, Jisun An
@@ -643,7 +643,7 @@
 - title: "Two Tales of the World: Comparison of Widely Used World News Datasets: GDELT and EventRegistry"
   # image: www17_kang.png
   # description: We use player behavior during the closed beta test of the MMORPG ArcheAge as a proxy for an extreme situation-at the end of the closed beta test, all user data is deleted, and thus, the outcome (or penalty) of players' in-game behaviors in the last few days loses its meaning. We analyzed 270 million records of player behavior in the 4th closed beta test of ArcheAge. 
-  tags: computational journalism, AI/ML/NLP
+  tags: computational journalism, AI/ML/NLP, dataset/tool
   authors: Haewoon Kwak, Jisun An 
   link:
     url: http://arxiv.org/abs/1603.01979
@@ -710,7 +710,7 @@
 
 
 - title: "Exploring Cyberbullying and Other Toxic Behavior in Team Competition Online Games"
-  tags: game analytics, HCI
+  tags: game analytics, HCI, online harm
   image: chi15_kwak.png
   description: In this work we explore cyberbullying and other toxic behavior in team competition online games. Using a dataset of over 10 million player reports on 1.46 million toxic players along with corresponding crowdsourced decisions, we test several hypotheses drawn from theories explaining toxic behavior. Besides providing large-scale, empirical based understanding of toxic behavior, our work can be used as a basis for building systems to detect, prevent, and counter-act toxic behavior.
   authors: Haewoon Kwak, Jeremy Blackburn, Seungyeop Han
@@ -733,7 +733,7 @@
 - title: "Understanding News Geography and Major Determinants of Global News Coverage of Disasters"
   # image: icwsm16_an.png
   # description: We study the response to the Charlie Hebdo shootings of January 7, 2015 on Twitter across the globe. We ask whether the stances on the issue of freedom of speech can be modeled using established sociological theories, including Huntington's culturalist Clash of Civilizations, and those taking into consideration social context, including Density and Interdependence theories. We find support for Huntington's culturalist explanation, in that the established traditions and norms of one's "civilization" predetermine some of one's opinion.
-  tags: computational journalism
+  tags: computational journalism, dataset/tool, bias/fairness
   authors: Haewoon Kwak, Jisun An (extension of SocInfo'14)
   link:
     url: https://arxiv.org/abs/1410.3710
@@ -742,7 +742,7 @@
   news1: 
 
 - title: "A First Look at Global News Coverage of Disasters By Using the GDELT Dataset"
-  tags: computational journalism
+  tags: computational journalism, dataset/tool, bias/fairness
   image: socinfo14_kwak.png
   description: In this work, we reveal the structure of global news coverage of disasters and its determinants by using a large-scale news coverage dataset collected by the GDELT (Global Data on Events, Location, and Tone) project that monitors news media in over 100 languages from the whole world. Significant variables in our hierarchical (mixed-effect) regression model, such as population, political stability, damage, and more, are well aligned with a series of previous research. However, we find strong regionalism in news geography, highlighting the necessity of comprehensive datasets for the study of global news coverage.
   authors: Haewoon Kwak, Jisun An
@@ -754,7 +754,7 @@
   news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=15874367282095552332&as_sdt=800005&sciodt=0,15&hl=en">50+ papers citing this work (Google scholar)</a>
 
 - title: "Linguistic Analysis of Toxic Behavior in an Online Video Game"
-  tags: game analytics
+  tags: game analytics, online harm
   image: egg14_kwak.png
   description: In this paper we explore the linguistic components of toxic behavior by using crowdsourced data from over 590 thousand cases of accused toxic players in a popular match-based competition game, League of Legends. We perform a series of linguistic analyses to gain a deeper understanding of the role communication plays in the expression of toxic behavior. We characterize linguistic behavior of toxic players and compare it with that of typical players in an online competition game. We also find empirical support describing how a player transitions from typical to toxic behavior. Our findings can be helpful to automatically detect and warn players who may become toxic and thus insulate potential victims from toxic playing in advance.
   authors: Haewoon Kwak, Jeremy Blackburn
@@ -790,7 +790,7 @@
 
 
 - title: "STFU NOOB! Predicting Crowdsourced Decisions on Toxic Behavior in Online Games"
-  tags: game analytics
+  tags: game analytics, online harm
   image: www14_jeremy.png
   description: We propose a supervised learning approach for predicting crowdsourced decisions on toxic behavior with large-scale labeled data collections; over 10 million user reports involved in 1.46 million toxic players and corresponding crowdsourced decisions. Our result shows good performance in detecting overwhelmingly majority cases and predicting crowdsourced decisions on them. We demonstrate good portability of our classifier across regions.
   authors: Jeremy Blackburn, Haewoon Kwak
@@ -813,7 +813,7 @@
   # news1: Press coverage-[Nature](https://www.nature.com/news/can-a-video-game-company-tame-toxic-behaviour-1.19647), [Scientific American](http://www.scientificamerican.com/article/can-a-video-game-company-tame-toxic-behavior/), [Chosun Ilbo](https://www.chosun.com/site/data/html_dir/2016/04/06/2016040603525.html)
 
 - title: "Sharing political news: the balancing act of intimacy and socialization in selective exposure"
-  tags: political science
+  tags: political science, social media
   # image: www14_jeremy.png
   # description: We propose a supervised learning approach for predicting crowdsourced decisions on toxic behavior with large-scale labeled data collections; over 10 million user reports involved in 1.46 million toxic players and corresponding crowdsourced decisions. Our result shows good performance in detecting overwhelmingly majority cases and predicting crowdsourced decisions on them. We demonstrate good portability of our classifier across regions.
   authors: Jisun An, Daniele Quercia, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft
@@ -838,7 +838,7 @@
 - title: "Partisan Sharing: Facebook Evidence and Societal Consequences"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
-  tags: political science
+  tags: political science, social media
   authors: Jisun An, Daniele Quercia, Jon Crowcroft
   link:
     url: https://dl.acm.org/doi/10.1145/2660460.2660469?cid=99659160512
@@ -893,7 +893,7 @@
 - title: "Traditional Media Seen from Social Media"
   # image: www14_an.png
   # description: One of the most popular crowdfunding sites is Kickstarter. In it, creators post descriptions of their projects and advertise them on social media sites (mainly Twitter), while investors look for projects to support. We set out to propose different ways of recommending investors found on Twitter for specific Kickstarter projects. We do so by conducting hypothesis-driven analyses of pledging behavior and translate the corresponding findings into different recommendation strategies. The best strategy achieves, on average, 84% of accuracy in predicting a list of potential investors' Twitter accounts for any given project. 
-  tags: computational journalism
+  tags: computational journalism, social media
   authors: Jisun An, Daniele Quercia, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft
   link:
     url: https://dl.acm.org/doi/10.1145/2464464.2464492?cid=99659160512
