@@ -27,8 +27,8 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdocs), [PhD and Mas
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i><br/>
-  {% if member.website %}website: <a href="{{ member.website }}">{{member.website}}</a>{% endif %}
+  <i>{{ member.info }}<br>Email: <{{ member.email }}></i><br/>
+  {% if member.website %}Website: <a href="{{ member.website }}">{{member.website}}</a>{% endif %}
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -92,7 +92,8 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdocs), [PhD and Mas
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}
   <br>{% if member.email %}email: <{{ member.email }}></i>{% endif %}<br/>
-  website: <a href="{{ member.website }}">{{member.website}}</a>
+  Website: <a href="{{ member.website }}">{{member.website}}</a><br/>
+  {% if member.research %}<p style="overflow: hidden">Research areas: {{ member.research }}</p>{% endif %}
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -150,7 +151,7 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdocs), [PhD and Mas
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}
   <br>{% if member.email %}email: <{{ member.email }}></i>{% endif %}<br/>
-  website: <a href="{{ member.website }}">{{member.website}}</a>
+  Website: <a href="{{ member.website }}">{{member.website}}</a>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
