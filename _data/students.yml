@@ -1,3 +1,8 @@
+- name: Fan HUANG
+  photo: fan.png
+  info: PhD student
+  website: https://sites.google.com/view/fanhuang/
+
 #- name:
 #  photo: rock.jpg
 #  info:
@@ -43,10 +48,6 @@
 #   number_educ: 0
 #   education1:
 
-- name: Fan HUANG
-  photo: 
-  info: PhD student
-  website: 
 
 # - name: Shao Yi LIAW
 #   photo: 
