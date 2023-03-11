@@ -12,7 +12,7 @@ permalink: /publications/net
 <!-- ## Group highlights -->
 
 A list of selected papers in which research team members participated. <br/>
-(For a full list see [below](#full-list) or go to Google Scholar ([Jisun An](https://scholar.google.com/citations?user=FYtw3zkAAAAJ&hl=en&oi=sra) and [Haewoon Kwak](https://scholar.google.com/citations?user=dcjrz5MAAAAJ&hl=en&oi=ao)).
+For a full list see [below](#full-list) or go to Google Scholar ([Jisun An](https://scholar.google.com/citations?user=FYtw3zkAAAAJ&hl=en&oi=sra) and [Haewoon Kwak](https://scholar.google.com/citations?user=dcjrz5MAAAAJ&hl=en&oi=ao)).
 
 <a href="/publications/css"><span class="label label-computational-social-science">computational social science</span></a>
 <a href="/publications/cj"><span class="label label-computational-journalism">computational journalism</span></a>
