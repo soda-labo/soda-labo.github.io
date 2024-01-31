@@ -8,7 +8,7 @@ permalink: /team/
 
 # Group Members
 
- **We are looking for new PhD students (Fall 2024) to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **We are looking for new PhD students (Fall 2024) to join the team -- Done** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
 Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdocs), [PhD and Master students](#phd-and-master-students), [Alumni](#alumni), [lab visitors](#lab-visitors).
