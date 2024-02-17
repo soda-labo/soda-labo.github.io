@@ -1,9 +1,21 @@
+- date: Jan 2024
+  headline: "Our work '<a href='https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00445-y'>'Public Perception of Generative AI on Twitter: An Empirical Study Based on Occupation and Usage'</a> has been published in EPJ DataScience."
+
+- date: Oct 2023
+  headline: "Our work '<a href='https://dl.acm.org/doi/abs/10.1145/3583780.3614867'>'Enhancing Spatio-temporal Traffic Prediction through Urban Human Activity Analysis'</a> has been published in ACM CIKM'23."
+
+- date: Aug 2023
+  headline: "Jisun serves as a workshop chair for <a href='https://www2024.thewebconf.org/organization/organizing-committee/'>the Web Conference 2024</a> and Haewoon serves as a PhD Symposium chair."
+
+- date: July 2023
+  headline: "Our work '<a href='https://arxiv.org/abs/2303.12767'>Can we trust the evaluation on ChatGPT?</a> has been presented in TrustNLP (Collocated with ACL) 2023."
+
 - date: 6 Mar 2023
-  headline: "Our work '<a href='https://arxiv.org/abs/2302.07736'>Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech</a>' and '<a href='https://arxiv.org/abs/2209.04889'>Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech
+  headline: "Our studies '<a href='https://arxiv.org/abs/2302.07736'>Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech</a>' and '<a href='https://arxiv.org/abs/2209.04889'>Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech
 </a>' got accepted for The Web 2023 Poster track"
 
 - date: 2 Feb 2023
-  headline: "Our work '<a href='https://arxiv.org/abs/2212.02827'>'Political Honeymoon Effect on Social Media: Characterizing Social Media Reaction to the Changes of Prime Minister in Japan'</a> and <a href='#'>'Wearing Masks Implies Refuting Trump?: Towards Target-specific User Stance Prediction across Events in COVID-19 and US Election 2020'</a> got accepted for <a href='https://websci23.webscience.org/'>ACM WebSci'23</a>."
+  headline: "Our studies '<a href='https://arxiv.org/abs/2212.02827'>'Political Honeymoon Effect on Social Media: Characterizing Social Media Reaction to the Changes of Prime Minister in Japan'</a> and <a href='#'>'Wearing Masks Implies Refuting Trump?: Towards Target-specific User Stance Prediction across Events in COVID-19 and US Election 2020'</a> got accepted for <a href='https://websci23.webscience.org/'>ACM WebSci'23</a>."
 
 - date: 9 Jan 2023
   headline: "After amazing two years in SMU, we moved to <a href='https://luddy.indiana.edu/'>Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington</a>."
@@ -12,7 +24,7 @@
   headline: "Our work <a href='https://arxiv.org/abs/2203.14242'>'\"This is Fake News\": Characterizing the Spontaneous Debunking from Twitter Users to COVID-19 False Information'</a> is accepted in ICWSM'23."
 
 - date: 1 June 2022
-  headline: "Jisun serves as a PC chair of <a href='https://asonam.cpsc.ucalgary.ca/2022/'>  ASONAM 2022</a>."
+  headline: "Jisun serves as a PC chair of <a href='https://asonam.cpsc.ucalgary.ca/2022/'>ASONAM 2022</a>."
 
 - date: 1 June 2022
   headline: "Haewoon serves as a best paper committee at <a href='https://websci22.webscience.org/'>WebSci'22</a>"

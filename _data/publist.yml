@@ -4,10 +4,20 @@
   authors: Kunihiro Miyazaki, Taichi Murayama, Takayuki Uchiba, Jisun An, Haewoon Kwak
   description: The emergence of generative AI has sparked substantial discussions, with the potential to have profound impacts on society in all aspects. As emerging technologies continue to advance, it is imperative to facilitate their proper integration into society, managing expectations and fear. This paper investigates users’ perceptions of generative AI using 3M posts on Twitter from January 2019 to March 2023, especially focusing on their occupation and usage. We find that people across various occupations, not just IT-related ones, show a strong interest in generative AI. The sentiment toward generative AI is generally positive, ...
   link:
-    url: https://epjds.epj.org/articles/epjdata/abs/2024/01/13688_2023_Article_445/13688_2023_Article_445.html
+    url: https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00445-y
     display: EPJ Data Science, 2024
   highlight: 1
   news1:  Press coverage-[Blockchain News](https://blockchain.news/analysis/surge-in-generative-ai-interest-insights-from-twitter-discussions)    
+
+- title: "Enhancing Spatiotemporal Traffic Prediction through Urban Human Activity Analysis"
+  tags: computational social science, AI/ML/NLP
+  image: cikm23_han.png
+  authors: Sumin Han, Youngjun Park, Minji Lee, Jisun An, Dongman Lee
+  description: Traffic prediction is one of the key elements to ensure the safety and convenience of citizens. Existing traffic prediction models primarily focus on deep learning architectures to capture spatial and temporal correlation. They often overlook the underlying nature of traffic. Specifically, the sensor networks in most traffic datasets do not accurately represent the actual road network exploited by vehicles, failing to provide insights into the traffic patterns in urban activities. To overcome these limitations, we propose an improved traffic prediction method based on graph convolution deep learning algorithms. ... 
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3583780.3614867
+    display: ACM CIKM, 2023
+  highlight: 1
 
 - title: "Can we trust the evaluation on ChatGPT?"
   tags: AI/ML/NLP
@@ -217,7 +227,7 @@
     display:  Social Science Computer Review. March 2021.
   highlight: 1
   news1: 
-
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5841728549128655445">15+ papers citing this work (Google scholar)</a>    
 
 - title: "How-to Present News on Social Media: A Causal Analysis of Editing News Headlines for Boosting User Engagement"
   tags: computational journalism, AI/ML/NLP, social media, user engagement
@@ -229,6 +239,7 @@
     display:  Proceedings of the 15th International AAAI Conference on Web and Social Media (ICWSM), 2021
   highlight: 1
   news1:
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4633206445371088214,16671239501329166635">5+ papers citing this work (Google scholar)</a>    
 
 - title: "A Systematic Media Frame Analysis of 1.5 Million New York Times Articles from 2000 to 2017"
   tags: computational journalism, AI/ML/NLP, bias/fairness
@@ -316,7 +327,7 @@
     url: https://www.sciencedirect.com/science/article/abs/pii/S1071581920300392
     display:  International Journal of Human-Computer Studies, 2020
   highlight: 0
-  news2:
+
 
 - title: "Tanbih: Get To Know What You Are Reading "
   tags: computational journalism, AI/ML/NLP, bias/fairness, dataset/tool
@@ -340,7 +351,7 @@
     display:  Proceedings of Social Informatics (SocInfo), 2019
   highlight: 1
   news1: Best Paper Award
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=1122163312563204392&as_sdt=800005&sciodt=0,15&hl=en">10+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=1122163312563204392&as_sdt=800005&sciodt=0,15&hl=en">15+ papers citing this work (Google scholar)</a>    
 
 - title: "Stylistic Features Usage: Similarities and Differences Using Multiple Social Networks"
   # image: chi_ea19_kholoud.png
@@ -372,6 +383,7 @@
     url: https://dl.acm.org/doi/10.1145/3342220.3344933?cid=81452618313
     display:  Proceedings of the 30th ACM Conference on Hypertext and Social Media (HT),  2019
   highlight: 0
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9046504524174795947">40+ papers citing this work (Google scholar)</a>      
 
 - title: "Political Discussions in Homogeneous and Cross-Cutting Communication Spaces"
   tags: computational social science, political science, social media
@@ -446,7 +458,7 @@
     url: https://dl.acm.org/doi/10.1145/3265986
     display: ACM Transactions on the Web, 12(4), 2018
   highlight: 1
-  news2:
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6706366699955654851">110+ papers citing this work (Google scholar)</a>    
 
 - title: "Assessing the Accuracy of Four Popular Face Recognition Tools for Inferring Gender, Age, and Race"
   tags: AI/ML/NLP, dataset/tool, bias/fairness
@@ -457,7 +469,7 @@
     url: https://ojs.aaai.org/index.php/ICWSM/article/view/15058
     display: Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018  (short)
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13898048059462450046&as_sdt=800005&sciodt=0,15&hl=en">50+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13898048059462450046&as_sdt=800005&sciodt=0,15&hl=en">60+ papers citing this work (Google scholar)</a>    
 
 - title: "Anatomy of Online Hate: Developing a Taxonomy and Machine Learning Models for Identifying and Classifying Hate in Online News Media"
   tags: computational social science, social media, online harm
@@ -580,7 +592,7 @@
   highlight: 1
   news2: 
 
-- title: "Demographics of News Sharing in Twitter"
+- title: "Demographics of News Sharing in the US Twittersphere"
   tags: computational journalism, social media, user engagement
   image: ht17_reis.png
   description: The widespread adoption and dissemination of online news through social media systems have been revolutionizing many segments of our society and ultimately our daily lives. In these systems, users can play a central role as they share content to their friends. Despite that, little is known about news spreaders in social media. In this paper, we provide the first of its kind in-depth characterization of news spreaders in social media. In particular, we investigate their demographics, what kind of content they share, and the audience they reach.
@@ -589,7 +601,7 @@
     url: https://dl.acm.org/doi/10.1145/3078714.3078734
     display: Proceedings of the 28th ACM Conference on Hypertext and Social Media (HT), 2017
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13626524038588543208&as_sdt=800005&sciodt=0,15&hl=en">30+ papers citing this work (Google scholar)</a>  
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13626524038588543208&as_sdt=800005&sciodt=0,15&hl=en">35+ papers citing this work (Google scholar)</a>  
 
 - title: "Data-driven Approach to Measuring the Level of Press Freedom Using Media Attention Diversity from Unfiltered News"
   tags: computational journalism, bias/fairness
@@ -634,6 +646,7 @@
     display: Proceedings of the 26th International Conference on World Wide Web (WWW) Companion, 2017
   highlight: 1
   news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11642816494490102127,2130483029932134873">10+ papers citing this work (Google scholar)</a>  
 
 - title: "Achievement and Friends: Key Factors of Player Retention Vary Across Player Levels in Online Multiplayer Games"
   tags: game analytics, user engagement
@@ -644,7 +657,7 @@
     url: https://arxiv.org/abs/1702.08005
     display: Proceedings of the 26th International Conference on World Wide Web (WWW) Companion, 2017
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11338149565653117533&as_sdt=800005&sciodt=0,15&hl=en">25+ papers citing this work (Google scholar)</a>  
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11338149565653117533&as_sdt=800005&sciodt=0,15&hl=en">35+ papers citing this work (Google scholar)</a>  
   # news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
 
 - title: "Culturally-Grounded Analysis of Everyday Creativity in Social Media: A Case Study in Qatari Context"
@@ -701,7 +714,7 @@
     url: https://www.nature.com/articles/srep32920?WT.feed_name=subjects_signs-and-symptoms
     display: Scientific Reports 6, Article number 32920 (2016)
   highlight: 1
-  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=779838285815792581&as_sdt=800005&sciodt=0,15&hl=en">100+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=779838285815792581&as_sdt=800005&sciodt=0,15&hl=en">130+ papers citing this work (Google scholar)</a>
   # news1: Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/), [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/), [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
 
 
@@ -738,6 +751,7 @@
     url: http://arxiv.org/abs/1603.01979
     display: Proceeding of the 10th International Conference on Web and Social Media (ICWSM), 2016 (short)
   highlight: 0
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2718189774630617878">30+ papers citing this work (Google scholar)</a>
   # news1: Picked as [The Best of the Physics arXiv (week ending March 26, 2016) in MIT Technology Review](https://www.technologyreview.com/2016/03/26/161392/the-best-of-the-physics-arxiv-week-ending-march-26-2016/)
 
 - title: "Are You Charlie or Ahmed? Cultural Pluralism in Charlie Hebdo Response on Twitter"
@@ -749,7 +763,7 @@
     url: https://arxiv.org/abs/1603.00646
     display: Proceeding of the 10th International Conference on Web and Social Media (ICWSM), 2016
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=14366398750224046048&as_sdt=800005&sciodt=0,15&hl=en">40+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=14366398750224046048&as_sdt=800005&sciodt=0,15&hl=en">45+ papers citing this work (Google scholar)</a>
   # news1: Picked as [The Best of the Physics arXiv (week ending March 26, 2016) in MIT Technology Review](https://www.technologyreview.com/2016/03/26/161392/the-best-of-the-physics-arxiv-week-ending-march-26-2016/)
 
 - title: "#greysanatomy vs. #yankees: Demographics and Hashtag Use on Twitter."
@@ -795,7 +809,7 @@
     display: Proceeding of the 9th International Conference on Web and Social Media (ICWSM), 2015
   highlight: 0
   news1: Picked as [Other Interesting arXiv Papers (Week ending April 11, 2015) in MIT Technology Review](https://www.technologyreview.com/2015/04/13/11478/other-interesting-arxiv-papers-week-ending-april-11-2015/), and [O Globo](https://oglobo.globo.com/economia/tecnologia/pesquisadores-da-ufmg-publicam-estudo-sobre-sentimentos-gerados-por-manchetes-on-line-15858353)
-  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6242019256705591099">100+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6242019256705591099">200+ papers citing this work (Google scholar)</a>
 
 
 - title: "Exploring Cyberbullying and Other Toxic Behavior in Team Competition Online Games"
@@ -807,7 +821,7 @@
     url: http://dl.acm.org/authorize?N05627
     display: Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI), 2015
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?rlz=1C5CHFA_enSG930SG930&um=1&ie=UTF-8&lr&cites=4756016450899538621">250+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?rlz=1C5CHFA_enSG930SG930&um=1&ie=UTF-8&lr&cites=4756016450899538621">310+ papers citing this work (Google scholar)</a>
 
 - title: "From Cells to Streets: Estimating Mobile Paths with Cellular-Side Data"
   # image: icwsm16_an.png
@@ -829,6 +843,7 @@
     display: Computation+Journalism (C+J) Symposium, 2014
   highlight: 0
   news1: 
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18047591007233343783">25+ papers citing this work (Google scholar)</a>
 
 - title: "A First Look at Global News Coverage of Disasters By Using the GDELT Dataset"
   tags: computational journalism, dataset/tool, bias/fairness
@@ -840,7 +855,7 @@
     display: Proceedings of Social Informatics, 2014
   highlight: 1
   news1: Press Coverage-[MIT Technology Review](https://www.technologyreview.com/2014/10/23/170630/data-mining-reveals-how-news-coverage-varies-around-the-world/), [ACM TechNews](https://cacm.acm.org/news/179842-data-mining-reveals-how-news-coverage-varies-around-the-world/fulltext)
-  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=15874367282095552332&as_sdt=800005&sciodt=0,15&hl=en">50+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=15874367282095552332&as_sdt=800005&sciodt=0,15&hl=en">60+ papers citing this work (Google scholar)</a>
 
 - title: "Linguistic Analysis of Toxic Behavior in an Online Video Game"
   tags: game analytics, online harm
@@ -851,7 +866,7 @@
     url: https://arxiv.org/abs/1410.5185
     display: SocInfo Workshop on Exploration on Games and Gamers (EGG), 2014
   highlight: 1
-  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11069551978211807412&as_sdt=800005&sciodt=0,15&hl=en">80+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11069551978211807412&as_sdt=800005&sciodt=0,15&hl=en">110+ papers citing this work (Google scholar)</a>
 
 - title: "Searching for a Unique Style in Soccer"
   tags: network science
@@ -863,7 +878,7 @@
     display: KDD Workshop on Large-Scale Sports Analytics, 2014
   highlight: 1
   news1: Press coverage-[BBC](https://www.bbc.com/future/article/20141024-what-makes-barcelona-so-special?referer=http%3A%2F%2Fhaewoon.io%2F), [MIT Technology Review](https://www.technologyreview.com/2014/09/15/12542/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/), [The Times](https://www.thetimes.co.uk/article/proof-at-last-that-we-are-all-pass-masters-almost-8l8z7tc6fvg), [The Economist](https://www.economist.com/game-theory/2014/09/22/a-different-ball-game), [Slate](http://www.slate.fr/story/92245/graphiques-fc-barcelone-style-jeu-unique), [Pacific Standard](https://psmag.com/social-justice/football-sport-soccer-art-motifs-matter-90256#.ykqwk6ny8), and so on.
-  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=1764394898914613341&as_sdt=800005&sciodt=0,15&hl=en">90+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=1764394898914613341&as_sdt=800005&sciodt=0,15&hl=en">110+ papers citing this work (Google scholar)</a>
 
 - title: "Didn’t You See My Message? Predicting Attentiveness to Mobile Instant Messages"
   # image: kdd14_laszlo.png
@@ -875,7 +890,7 @@
     display: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2014
   highlight: 0
   # news1: Press coverage-[BBC](https://www.bbc.com/future/article/20141024-what-makes-barcelona-so-special?referer=http%3A%2F%2Fhaewoon.io%2F), [MIT Technology Review](https://www.technologyreview.com/2014/09/15/12542/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/), [The Times](https://www.thetimes.co.uk/article/proof-at-last-that-we-are-all-pass-masters-almost-8l8z7tc6fvg), [The Economist](https://www.economist.com/game-theory/2014/09/22/a-different-ball-game), [Slate](http://www.slate.fr/story/92245/graphiques-fc-barcelone-style-jeu-unique), [Pacific Standard](https://psmag.com/social-justice/football-sport-soccer-art-motifs-matter-90256#.ykqwk6ny8), and so on.
-  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11472524438583510373">150+ papers citing this work (Google scholar)</a>
+  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11472524438583510373">240+ papers citing this work (Google scholar)</a>
 
 
 - title: "STFU NOOB! Predicting Crowdsourced Decisions on Toxic Behavior in Online Games"
@@ -888,7 +903,7 @@
     display: Proceedings of the 23rd international conference on World wide web (WWW), 2014
   highlight: 1
   news1: Press coverage-[Nature](https://www.nature.com/news/can-a-video-game-company-tame-toxic-behaviour-1.19647), [Scientific American](http://www.scientificamerican.com/article/can-a-video-game-company-tame-toxic-behavior/), [Chosun Ilbo](https://www.chosun.com/site/data/html_dir/2016/04/06/2016040603525.html)
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7342817784049546116">150+ papers citing this work (Google scholar)</a>  
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7342817784049546116">190+ papers citing this work (Google scholar)</a>  
 
 - title: "Has Much Potential but Biased: Exploring the Scholarly Landscape in Twitter"
   # image: www14_jeremy.png
@@ -934,6 +949,7 @@
     display: Proceedings of the Second ACM Conference on Online Social Networks (COSN), 2014
   highlight: 0
   news1: 
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14234114717665916389">110+ papers citing this work (Google scholar)</a>  
 
 - title: "Tower of Babel: A Crowdsourcing Game Building Sentiment Lexicons for Resource-scarce Languages"
   # image: www14_an.png
@@ -945,6 +961,7 @@
     display: WWW Workshop on Multidisciplinary Approaches to Big Social Data Analysis, 2013
   highlight: 0
   news1:
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dcjrz5MAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=dcjrz5MAAAAJ:WF5omc3nYNoC">25+ papers citing this work (Google scholar)</a>  
 
 - title: "Structures of Broken Ties: Exploring Unfollow Behavior on Twitter"
   # image: www14_an.png
@@ -956,6 +973,7 @@
     display: Proceedings of the 16th ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW), 2013
   highlight: 0
   news1:
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16570226745430044928">70+ papers citing this work (Google scholar)</a>  
 
 - title: "Why Individuals Seek Diverse Opinions (or Why They Don't)"
   # image: www14_an.png
@@ -1011,6 +1029,7 @@
     display: Proceedings of the 6th International AAAI Conference on Weblogs and Social Media (ICWSM), 2012
   highlight: 0
   news1:  
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12122812711251833820">50+ papers citing this work (Google scholar)</a>
 
 - title: "Visualizing Media Bias through Twitter"
   # image: www14_an.png
@@ -1070,7 +1089,7 @@
     display: Proceedings of the 19th international conference on World wide web (WWW), 2010.
   highlight: 1
   news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
-  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=420603684741729498">9000+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=420603684741729498">9900+ papers citing this work (Google scholar)</a>
 
 - title: "Finding Influentials based on the Temporal Order of Information Adoption in Twitter"
   # image: www10_kwak.png
@@ -1082,7 +1101,7 @@
     display: Proceedings of the 19th international conference on World wide web (WWW), 2010.
   highlight: 0
   # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=ko&cites=12907911141919226818&as_sdt=5">100+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=ko&cites=12907911141919226818&as_sdt=5">200+ papers citing this work (Google scholar)</a>
 
 - title: "Understanding Topological Mesoscale Features in Community Mining"
   tags: network science
@@ -1106,7 +1125,8 @@
     display: ACM/IEEE Transactions on Networking, Vol 17, Issue 5, 2009
   highlight: 0
   # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
-  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?rlz=1C5CHFA_enSG927SG927&um=1&ie=UTF-8&lr&cites=11215649147595324791">500+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?rlz=1C5CHFA_enSG927SG927&um=1&ie=UTF-8&lr&cites=11215649147595324791">600+ papers citing this work (Google scholar)</a>
+  
 
 - title: "Mining Communities in Networks: a Solution for Consistency and Its Evaluation"
   tags: network science
@@ -1118,7 +1138,7 @@
     display: Proceedings of the 9th ACM SIGCOMM conference on Internet measurement (IMC), 2009
   highlight: 0
   # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
-  news1: 
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10763467067488276654,16530488223529021728">90+ papers citing this work (Google scholar)</a>
 
 - title: "The Wisdom of the Few: A Collaborative Filtering Approach based on Expert Opinions from the Web "
   # image: www10_kwak.png
@@ -1153,7 +1173,7 @@
     display: Proceedings of the 8th ACM SIGCOMM conference on Internet measurement (IMC), 2008
   highlight: 0
   # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
-  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16920983580300166416">250+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16920983580300166416">250+ papers citing this work (Google scholar)</a>
 
 - title: "I Tube, You Tube, Everybody Tubes: Analyzing the World's Largest User Generated Content Video System"
   tags: computational social science, social media
@@ -1165,8 +1185,8 @@
     display: Proceedings of the 7th ACM SIGCOMM conference on Internet measurement (IMC), 2009
   highlight: 0
   # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
-  news1: Best paper award
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=10792240042294166454&as_sdt=2005&sciodt=0,5&hl=en">1,900+ papers citing this work (Google scholar)</a>
+  news1: Best paper award, [The IMC Test of Time Award](https://www.sigcomm.org/awards/IMC-test-of-time-award)
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=10792240042294166454&as_sdt=2005&sciodt=0,5&hl=en">2,200+ papers citing this work (Google scholar)</a>
 
 - title: "Analysis of topological characteristics of huge online social networking services"
   tags: computational social science, network science
@@ -1179,7 +1199,7 @@
   highlight: 0
   # news1: Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research), [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
   # news1: Best paper award
-  news1: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=9872765684557150192&as_sdt=2005&sciodt=0,5&hl=en">1,200+ papers citing this work (Google scholar)</a>
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=9872765684557150192&as_sdt=2005&sciodt=0,5&hl=en">1,400+ papers citing this work (Google scholar)</a>
 
 
 
