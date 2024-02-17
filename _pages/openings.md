@@ -8,9 +8,11 @@ permalink: /vacancies
 
 # Open positions
 
-**Note: We are currently looking for Ph.D. students (Fall 2024) who are interested in Soda Lab. -- Done**
+**~~Note: We are currently looking for PhD students (Fall 2024).~~** 
 
-In Soda Lab, you will have a chance to study interesting problems in computational social science and social computing. 
+**(2024/02/17) The Fall 2024 admissions process has closed. Thank you all for your interest in our lab.**
+
+In Soda Lab, you will look into interesting problems in computational social science and social computing through large-scale data and machine learning. 
 
 <!-- ### Current open positions
 
