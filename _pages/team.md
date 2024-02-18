@@ -28,7 +28,7 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdocs), [PhD and Mas
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>Email: <{{ member.email }}></i><br/>
-  <a href="{{ member.website }}">[Website]</a> <a href="{{ member.google_scholar }}">[Google Scholar]</a>
+  <a href="{{ member.website }}">[Website]</a> <a href="{{ member.google_scholar }}">[Google Scholar]</a><a href="{{ site.url }}{{ site.baseurl }}/downloads/{{member.cv}}">[CV]</a>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
