@@ -27,19 +27,19 @@ We study social phenomena through large-scale data and computational tools, aimi
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/sodalab_logo_1400.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/websci20_nytimes.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nature_news_2020_jisun_median.jpg" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/icwsm20_phd.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nature_news_2016_haewoon_median.jpg" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/socinfo19_diversity.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/epj_ds_2023_kuni_median.jpg" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/icwsm19_reddit.jpg" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/www_2023_fan_median.jpg" alt="Slide 5" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ijpp19.jpg" alt="Slide 6" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/websci_2023_hong_median.jpg" alt="Slide 6" />
         </div>       
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -62,7 +62,7 @@ We are also interested in understanding obstacles to trusted public space online
 
 We are located at the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington, IN, USA. We are a member of [Complex Networks and Systems Research (CNetS)](https://cnets.indiana.edu/). 
 
- **We are looking for passionate new PhD students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+**(2024/02/17) The Fall 2024 admissions process has closed. Thank you all for your interest in our lab. [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies)!**
 
 <!-- 
 We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).
