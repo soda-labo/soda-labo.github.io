@@ -28,7 +28,7 @@
     url: https://arxiv.org/abs/2303.12767
     display: TrustNLP (Collocated with ACL), 2023
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17922145343580473385&as_sdt=5">15+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://www.semanticscholar.org/paper/Can-we-trust-the-evaluation-on-ChatGPT-Aiyappa-An/7d40189f3fa56728b8d210628e98fc204961778f#citing-papers">40+ papers citing this work (Semantic scholar)</a>    
 
 - title: "Wearing Masks Implies Refuting Trump?: Towards Target-specific User Stance Prediction across Events in COVID-19 and US Election 2020"
   tags: computational social science, AI/ML/NLP, social media
