@@ -1,3 +1,14 @@
+- title: "The Impact of Toxic Trolling Comments on Anti-vaccine YouTube Videos"
+  tags: computational social science, AI/ML/NLP, social media
+  image: scirep24_kuni.png
+  authors: Kunihiro Miyazaki, Takayuki Uchiba, Haewoon Kwak, Jisun An, Kazutoshi Sasahara 
+  description: Anti-vaccine trolling on video-hosting websites hinders efforts to increase vaccination rates by using toxic language and threatening claims to intimidate people and promote vaccine hesitancy. However, there is a shortage of research investigating the effects of toxic messages on these platforms. This study focused on YouTube anti-vaccine videos and examined the relationship between toxicity and fear in the comment section of these videos. We discovered that highly liked toxic comments were associated with a significant level of fear in subsequent comments. Moreover, we found complex patterns of contagion between toxicity and fear in the comments. ...
+  link:
+    url: https://www.nature.com/articles/s41598-024-54925-w
+    display: Scientific Reports, 2024
+  highlight: 1
+
+
 - title: "Public Perception of Generative AI on Twitter: An Empirical Study Based on Occupation and Usage"
   tags: computational social science, AI/ML/NLP, social media
   image: epj24_miyazaki.png
@@ -19,7 +30,7 @@
     display: ACM CIKM, 2023
   highlight: 1
 
-- title: "Can we trust the evaluation on ChatGPT?"
+- title: "Can We Trust the Evaluation on ChatGPT?"
   tags: AI/ML/NLP
   image: trustnlp23_rachith.png
   authors: Rachith Aiyappa, Jisun An, Haewoon Kwak, Yong-Yeol Ahn
@@ -707,7 +718,7 @@
 
 - title: "High correlation of Middle East respiratory syndrome spread with Google search and Twitter trends in Korea"
   tags: computational social science, social media
-  image: sr16_shin.png
+  image: scirep16_shin.png
   description: The Middle East respiratory syndrome coronavirus (MERS-CoV) was exported to Korea in 2015, resulting in a threat to neighboring nations. We evaluated the possibility of using a digital surveillance system based on web searches and social media data to monitor this MERS outbreak. We collected the number of daily laboratory-confirmed MERS cases and quarantined cases from May 11, 2015 to June 26, 2015 using the Korean government MERS portal. The daily trends observed via Google search and Twitter during the same time period were also ascertained using Google Trends and Topsy. Correlations among the data were then examined using Spearman correlation analysis. 
   authors: Soo-Yong Shin, Dong-Woo Seo, Jisun An, Haewoon Kwak, Sung-Han Kim, Jin Gwack, Min-Woo Jo
   link:
