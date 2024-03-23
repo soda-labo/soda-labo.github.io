@@ -19,6 +19,7 @@
     display: EPJ Data Science, 2024
   highlight: 1
   news1:  Press coverage-[Blockchain News](https://blockchain.news/analysis/surge-in-generative-ai-interest-insights-from-twitter-discussions)    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7567748626766884591">5+ papers citing this work (Google scholar)</a>      
 
 - title: "Enhancing Spatiotemporal Traffic Prediction through Urban Human Activity Analysis"
   tags: computational social science, AI/ML/NLP
@@ -39,7 +40,7 @@
     url: https://arxiv.org/abs/2303.12767
     display: TrustNLP (Collocated with ACL), 2023
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://www.semanticscholar.org/paper/Can-we-trust-the-evaluation-on-ChatGPT-Aiyappa-An/7d40189f3fa56728b8d210628e98fc204961778f#citing-papers">40+ papers citing this work (Semantic scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17922145343580473385">45+ papers citing this work (Google scholar)</a>    
 
 - title: "Wearing Masks Implies Refuting Trump?: Towards Target-specific User Stance Prediction across Events in COVID-19 and US Election 2020"
   tags: computational social science, AI/ML/NLP, social media
@@ -71,7 +72,7 @@
     url: https://dl.acm.org/doi/abs/10.1145/3543873.3587368
     display: WWW Companion, 2023
   highlight: 1 
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15532512944885500208">120+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15532512944885500208">150+ papers citing this work (Google scholar)</a>    
   
 
 - title: "Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech"
@@ -83,7 +84,7 @@
     url: https://dl.acm.org/doi/abs/10.1145/3543873.3587320
     display: WWW Companion, 2023
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2357413359803665039">10+ papers citing this work (Google scholar)</a>      
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2357413359803665039">15+ papers citing this work (Google scholar)</a>      
 
 - title: "YouNICon: YouTube's CommuNIty of Conspiracy Videos"
   tags: computational social science, social media, online harm
@@ -135,6 +136,7 @@
     url: https://dl.acm.org/doi/10.1145/3532102
     display:  ACM Transactions on Social Computing, 2022
   highlight: 1
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7687364554053658216">5+ papers citing this work (Google scholar)</a>        
 
 - title: "Storm the Capitol: Linking Offline Political Speech and Online Twitter Extra-Representational Participation on QAnon and the January 6 Insurrection"
   tags: computational social science, AI/ML/NLP, political science, social media, online harm
@@ -146,7 +148,7 @@
     display:  Frontiers in Sociology, 2022
   highlight: 1 
   news1:  Press coverage-[PsyPost](https://www.psypost.org/2022/06/new-study-examines-the-link-between-trumps-offline-speeches-and-qanon-related-twitter-discourse-on-january-6-63328)
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7945857859537339749">10+ papers citing this work (Google scholar)</a>      
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7945857859537339749">15+ papers citing this work (Google scholar)</a>      
 
 - title: "Measuring 9 Emotions of News Posts from 8 News Organizations across 4 Social Media Platforms for 8 Months"
   tags: computational journalism, social media, user engagement
@@ -157,6 +159,7 @@
     url: https://dl.acm.org/doi/abs/10.1145/3516491
     display:  ACM Transactions on Social Computing, 2022
   highlight: 1
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3058342465085048885">10+ papers citing this work (Google scholar)</a>        
 
 - title: "Understanding Toxicity Triggers on Reddit in the Context of Singapore"
   tags: computational social science, AI/ML/NLP, social media, online harm
@@ -189,6 +192,7 @@
     url: https://www.tandfonline.com/doi/abs/10.1080/0144929X.2022.2030798
     display:  Behaviour & Information Technology, 2022 
   highlight: 1
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12740833460145816937">10+ papers citing this work (Google scholar)</a>        
 
 - title: "Predicting Anti-Asian Hateful Users on Twitter during COVID-19"
   tags: computational social science, AI/ML/NLP, social media, online harm
@@ -225,7 +229,7 @@
     display:  PeerJ Computer Science 7:e644, 2021
   highlight: 1
   news1: <a href="https://github.com/haewoon/frameaxis">Code repo (github)</a>
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=16502768133789728719&as_sdt=800005&sciodt=0,15&hl=en">20+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=16502768133789728719&as_sdt=800005&sciodt=0,15&hl=en">25+ papers citing this work (Google scholar)</a>    
 
 
 - title: "Populist Supporters on Reddit: A Comparison of Content and Behavioral Patterns Within Publics of Supporters of Donald Trump and Hillary Clinton"
@@ -261,7 +265,7 @@
     url: https://arxiv.org/abs/2005.01803
     display: Proceedings of the 12th ACM Conference on Web Science (WebSci), 2020
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=17777991708099251369&as_sdt=800005&sciodt=0,15&hl=en">15+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=17777991708099251369&as_sdt=800005&sciodt=0,15&hl=en">20+ papers citing this work (Google scholar)</a>    
 
 - title: "Identifying and Characterizing Alternative News Media on Facebook"
   tags: computational journalism, network science, social media, bias/fairness
@@ -283,7 +287,7 @@
     url: https://www.aclweb.org/anthology/2020.acl-main.308/
     display:  Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL) (2020)
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13804595910402473878&as_sdt=800005&sciodt=0,15&hl=en">40+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13804595910402473878&as_sdt=800005&sciodt=0,15&hl=en">35+ papers citing this work (Google scholar)</a>    
 
 - title: "Empirical Evaluation of Three Common Assumptions in Building Political Media Bias Datasets"
   tags: computational journalism, AI/ML/NLP, dataset/tool, bias/fairness
@@ -362,7 +366,7 @@
     display:  Proceedings of Social Informatics (SocInfo), 2019
   highlight: 1
   news1: Best Paper Award
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=1122163312563204392&as_sdt=800005&sciodt=0,15&hl=en">15+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=1122163312563204392&as_sdt=800005&sciodt=0,15&hl=en">20+ papers citing this work (Google scholar)</a>    
 
 - title: "Stylistic Features Usage: Similarities and Differences Using Multiple Social Networks"
   # image: chi_ea19_kholoud.png
@@ -405,7 +409,7 @@
     url: https://www.aaai.org/ojs/index.php/ICWSM/article/view/3210/3078/
     display: Proceedings of the 13th International AAAI Conference on Web and Social Media (ICWSM), 2019
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=3311929175157727200&as_sdt=800005&sciodt=0,15&hl=en">60+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=3311929175157727200&as_sdt=800005&sciodt=0,15&hl=en">65+ papers citing this work (Google scholar)</a>    
 
 - title: "View, Like, Comment, Post: Analyzing User Engagement by Topic at 4 Levels across 5 Social Media Platforms for 53 News Organizations"
   tags: computational journalism, social media, user engagement
@@ -416,7 +420,7 @@
     url: https://www.aaai.org/ojs/index.php/ICWSM/article/view/3208
     display: Proceedings of the 13th International AAAI Conference on Web and Social Media (ICWSM), 2019
   highlight: 1
-  news2: 
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2179764910340383755">85+ papers citing this work (Google scholar)</a>    
 
 - title: "The Challenges of Creating Engaging Content: Results from a Focus Group Study of a Popular News Media Organization"
   # image: chi_ea19_kholoud.png
@@ -448,7 +452,7 @@
     url: https://journals.sagepub.com/doi/10.1177/1940161219841543
     display: The International Journal of Press/Politics, 24(4), 2019
   highlight: 1
-  news2:   
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17948494310991387682">130+ papers citing this work (Google scholar)</a>       
 
 - title: "Reports of the Workshops Held at the 2018 International AAAI Conference on Web and Social Media"
   # image: ijpp19_andrea.png
@@ -480,7 +484,7 @@
     url: https://ojs.aaai.org/index.php/ICWSM/article/view/15058
     display: Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018  (short)
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13898048059462450046&as_sdt=800005&sciodt=0,15&hl=en">60+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13898048059462450046&as_sdt=800005&sciodt=0,15&hl=en">65+ papers citing this work (Google scholar)</a>    
 
 - title: "Anatomy of Online Hate: Developing a Taxonomy and Machine Learning Models for Identifying and Classifying Hate in Online News Media"
   tags: computational social science, social media, online harm
