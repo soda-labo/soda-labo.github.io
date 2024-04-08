@@ -1,3 +1,13 @@
+- title: "ChatGPT Rates Natural Language Explanation Quality Like Humans: But on Which Scales?"
+  tags: AI/ML/NLP
+  image: lreccoling24_fan.png
+  authors: Fan Huang, Haewoon Kwak, Kunwoo Park, Jisun An
+  description: As AI becomes more integral in our lives, the need for transparency and responsibility grows. While natural language explanations (NLEs) are vital for clarifying the reasoning behind AI decisions, evaluating them through human judgments is complex and resource-intensive due to subjectivity and the need for fine-grained ratings. This study explores the alignment between ChatGPT and human assessments across multiple scales (i.e., binary, ternary, and 7-Likert scale). We sample 300 data instances from three NLE datasets and collect 900 human annotations for both informativeness and clarity scores as the text quality measurement. ...
+  link: 
+    url: https://arxiv.org/abs/2403.17368
+    display: LREC-COLING, 2024
+  highlight: 1
+
 - title: "The Impact of Toxic Trolling Comments on Anti-vaccine YouTube Videos"
   tags: computational social science, AI/ML/NLP, social media
   image: scirep24_kuni.png
