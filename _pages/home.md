@@ -6,6 +6,8 @@ sitemap: false
 permalink: /
 ---
 
+**(2024/09/23) The Soda Lab is currently seeking PhD students for Fall 2025.** If you are interested, please check [here]({{ site.url }}{{ site.baseurl }}/vacancies) for more information!
+
 We are the Soda (**So**cial **D**ata and **A**I) Lab at [the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington](https://luddy.indiana.edu/). 
 We study social phenomena through large-scale data and computational tools, aiming to tackle big societal problems.
 
@@ -61,15 +63,3 @@ However, our goal does not only solve real-world problems but those in online sp
 We are also interested in understanding obstacles to trusted public space online, developing methodologies to make them transparent, building frameworks to monitor them at a large-scale in real-time, and transforming the public space online more credible.
 
 We are located at the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington, IN, USA. We are a member of [Complex Networks and Systems Research (CNetS)](https://cnets.indiana.edu/). 
-
-**(2024/02/17) The Fall 2024 admissions process has closed. Thank you all for your interest in our lab. [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies)!**
-
-<!-- 
-We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).
-
-<figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
-</figure> -->

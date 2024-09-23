@@ -8,10 +8,10 @@ permalink: /team/
 
 # Group Members
 
- **We are looking for new PhD students (Fall 2024) to join the team -- Done** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **(2024/09/23) The Soda Lab is currently seeking PhD students for Fall 2025.** If you are interested, please check [here]({{ site.url }}{{ site.baseurl }}/vacancies) for more information!
 
 
-Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdocs), [PhD and Master students](#phd-and-master-students), [Alumni](#alumni), [lab visitors](#lab-visitors).
+Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdoctoral-researchers), [PhD students](#phd-students), [visitors](#visitors), or [Alumni](#alumni), .
 <!-- [administrative support](#administrative-support) -->
 
 ## Faculty
@@ -135,7 +135,7 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdocs), [PhD and Mas
 
 
 
-## PhD and Master Students
+## PhD Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -191,6 +191,9 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdocs), [PhD and Mas
 </div>
 {% endif %}
 
+## Visitors
+
+
 
 ## Alumni
 
@@ -225,10 +228,20 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdocs), [PhD and Mas
 </div>
 {% endif %}
 
-## Former visitors, BSc/ MSc students
+
 <div class="row">
 
-<div class="col-sm-4 clearfix">
+<div class="col-sm-8 clearfix">
+<h4>Postdoctoral Researchers</h4>
+{% for member in site.data.alumni_postdoc %}
+<a href="{{ member.website }}">{{ member.name }}</a>
+{% endfor %}
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-sm-8 clearfix">
 <h4>Visitors</h4>
 {% for member in site.data.alumni_visitors %}
 {{ member.name }}
@@ -237,18 +250,18 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdocs), [PhD and Mas
 </div>
 
 <div class="row">
-<div class="col-sm-4 clearfix">
-<h4>Graduate students</h4>
-{% for member in site.data.alumni_grad %}
+<div class="col-sm-8 clearfix">
+<h4>Graduate students (SMU)</h4>
+{% for member in site.data.alumni_grad_smu %}
 {{ member.name }}
 {% endfor %}
 </div>
 </div>
 
 <div class="row">
-<div class="col-sm-4 clearfix">
-<h4>Undergraduate Students</h4>
-{% for member in site.data.alumni_bsc %}
+<div class="col-sm-8 clearfix">
+<h4>Undergraduate Students (SMU)</h4>
+{% for member in site.data.alumni_bsc_smu %}
 {{ member.name }}
 {% endfor %}
 </div>

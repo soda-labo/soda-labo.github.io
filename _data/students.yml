@@ -1,7 +1,17 @@
-- name: Fan HUANG
+- name: Fan Huang
   photo: fan.png
   info: PhD student
   website: https://sites.google.com/view/fanhuang/
+
+- name: Weihong Qi
+  info: PhD student
+
+- name: Andrea Chung
+  info: PhD student
+
+- name: Shintaro Sakai
+  info: PhD student
+
 
 #- name:
 #  photo: rock.jpg

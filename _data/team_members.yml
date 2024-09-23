@@ -1,4 +1,4 @@
-- name: Jisun AN
+- name: Jisun An
   photo: jisun.jpg
   info: Assistant Professor
   email: jisunan@iu_dot_edu
@@ -11,7 +11,7 @@
   education3: Postdoc with <a href="https://ingmarweber.de/">Ingmar Weber</a>, Qatar Computing Research Institute
   education4: Ph.D. with <a href="https://www.cl.cam.ac.uk/~jac22/">Jon Crowcroft</a>, Cambridge, UK  
   
-- name: Haewoon KWAK
+- name: Haewoon Kwak
   photo: haewoon.jpg
   info: Associate Professor
   email: hwkwak@iu_dot_edu
@@ -24,66 +24,3 @@
   education3: Researcher, Telefonica Research, Spain
   education4: Ph.D. with <a href="http://an.kaist.ac.kr/~sbmoon/">Sue Moon</a>, KAIST, Korea  
   
-
-# - name: Koen M Bastiaans
-#   photo: Koen.jpg
-#   info: Postdoc, started Sep 2015
-#   email: Bastiaans@Physics.LeidenUniv.nl
-#   number_educ: 2
-#   education1: PhD with Milan Allan, Leiden University
-#   education2: Master Leiden University with Milan Allan
-
-# - name: Jiasen Niu
-#   photo: Jiasen.png
-#   info: Postdoc, started Oct 2020
-#   email: niu@physics.leidenuniv.nl
-#   number_educ: 2
-#   education1: Ph.D. with <a href="http://www2.phy.pku.edu.cn/~xilin/group-members.html">Xi Lin</a> and <a href="http://faculty.pku.edu.cn/JianWangGroup/en/zhym/25393/list/index.htm">Jian Wei</a>, Peking University
-#   education2: BSc Jilin University
-
-# - name: Damianos Chatzopoulos
-#   photo: Damianos.jpg
-#   info: PhD Student, started December 2017
-#   email: chatzopoulos@Physics.LeidenUniv.nl
-#   number_educ: 2
-#   education1: Bachelor National and Kapodistrian University of Athens with D Syvridis
-#   education2: Master TU Delft with <a href="http://vanderzantlab.tudelft.nl/">Herre van der Zant</a>
-#   education3:
-
-# - name: Willem Tromp
-#   photo: website_pic_willem.jpg
-#   info: PhD Student, started September 2018
-#   email: WTromp@physics.leidenuniv.nl
-#   number_educ: 1
-#   education1: Master Leiden University with Felix Baumberger, Milan Allan
-#   education2:
-#   education3:
-#   education4:
-
-# - name: Tjerk Benschop
-#   photo: tjeruk.jpg
-#   info: PhD Student, started November 2018
-#   email: benschop@physics.leidenuniv.nl
-#   number_educ: 2
-#   education1: Master Leiden University with Milan Allan
-#   education2: Casimir PhD grant
-#   education3:
-#   education4:
-
-# - name: Kees van Oosten
-#   photo: DSC_1032.JPG
-#   info: FFine mechanical engineer (also associated with the FMD)
-#   email: Oosten@fmd.physics.leidenuniv.nl
-#   number_educ: 2
-#   education1: Leidse instrumentmakers School
-#   education2: Associate degree Mechanical Engineering, Hogeschool Arnhem Nijmegen
-
-# - name: Hugo van Bohemen
-#   photo: hugo.jpg
-#   info: Fine mechanical engineer (also associated with the FMD)
-#   email: h.s.m.van.bohemen@physics.leidenuniv.nl
-#   number_educ: 1
-#   education1: Leidse Instrumentmakers School
-#   education2:
-#   education3:
-#   education4:

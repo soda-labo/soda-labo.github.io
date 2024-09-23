@@ -1,42 +1,65 @@
 ---
-title: "Soda Lab - Vacancies"
+title: "Soda Lab - Openings"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
 permalink: /vacancies
 ---
 
-# Open positions
+# Open Positions: PhD Students (Fall 2025)
 
-**~~Note: We are currently looking for PhD students (Fall 2024).~~** 
+The Soda Lab is currently seeking PhD students for Fall 2025. Our research focuses on computational social science and social computing, leveraging large-scale data and machine learning techniques.
 
-**(2024/02/17) The Fall 2024 admissions process has closed. Thank you all for your interest in our lab.**
+## Research Directions
 
-In Soda Lab, you will look into interesting problems in computational social science and social computing through large-scale data and machine learning. 
+Our current areas of focus include:
 
-<!-- ### Current open positions
+1. Applying Large Language Models (LLMs) to simulate individual or group behavior through agents, enhancing our understanding of social dynamics.
+2. Developing novel algorithms to support these simulations more comprehensively.
+3. Improving AI alignment through a better understanding of human belief systems.
 
-You find the current job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf).
 
-It might be interesting to look at some past job advertisements. While the projects keep changing, the themes are still roughly the same. You can download them [here]({{ site.baseurl }}/downloads/PD.pdf), [here]({{ site.baseurl }}/downloads/PHD1.pdf), or [here]({{ site.baseurl }}/downloads/PHD2.pdf). -->
+## Application Process 
 
-### Applications for PhD
-If you are interested in working with us as a PhD student, please send us an email (soda.sci.lab@gmail_dot_com) with:
-* CV
-* Brief introduction about yourself: your interests, goal, skillsets, etc.
+If you're interested in our research directions, please send an email to soda.sci.lab@gmail_dot_com with the following:
 
-For more detail information about PhD program in [the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington](https://luddy.indiana.edu/index.html), please see the offical [Admissions](https://luddy.indiana.edu/admissions/index.html) page of the school. 
+- Your CV
+- A brief introduction about yourself, including:
+  - Your research interests
+  - Your academic and career goals
+  - Your relevant skillsets
+- An explanation of which research direction interests you most and why
+
+For detailed information about the PhD program in the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington, please visit the official [Admissions page](https://luddy.indiana.edu/admissions/index.html).
+
+**Note:** The official application deadline is typically around mid-December. So, please send your emails as early as possible so that we can arrange a one-to-one Zoom meeting if needed.
+
+
+
+## Frequently Asked Questions
+
+**Q: I'm interested in a CS PhD degree. Can I apply to Soda Lab?**
+
+A: The Soda Lab is officially affiliated with the Department of Informatics in the Luddy School. If you're specifically interested in a Computer Science major, we recommend exploring opportunities within the CS department.
+
+**Q: I'm interested in developing new AI systems or ML algorithms. Is this a good fit?**
+
+A: While these are interesting research directions with significant potential, our lab places a strong emphasis on human and societal aspects. If your main interests lie on the systems side, we recommend exploring other opportunities that align more closely with your goals.
+
+**Q: Will I receive an RA-ship or TA-ship?**
+
+A: New incoming students typically enter the school with a TA-ship. RA-ships may be available based on involvement in specific projects and the availability of funds.
+
+
+
 
 <!-- **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email. -->
 
 <!-- ### Master projects for Leiden University students
 If you are a Master student at Leiden University looking for a Master project, contact me (or any group member) per email or stop by my office. -->
 
-### Master or Undergrad students (IU)
-If you are interested in doing an independent research, please send us an email (soda.sci.lab@gmail_dot_com). 
-<!-- We are planning to take master or undergradudate students as summer interns to do a mini project. -->
+<!-- ### Master or Undergrad students (IU)
+If you are interested in doing an independent research, please send us an email (soda.sci.lab@gmail_dot_com).  -->
 
 
 <!-- <figure>
