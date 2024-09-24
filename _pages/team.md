@@ -191,9 +191,26 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdoctoral-researcher
 </div>
 {% endif %}
 
+## Other Student Collaborators
+<div class="row">
+<div class="col-sm-8 clearfix">
+{% for member in site.data.other_student_collaborators %}
+{{ member.name }}
+{% endfor %}
+</div>
+</div>
+
 ## Visitors
+<div class="row">
+<div class="col-sm-8 clearfix">
+{% for member in site.data.visitors %}
+{{ member.name }}
+{% endfor %}
+</div>
+</div>
 
-
+<div class="row">
+</div>
 
 ## Alumni
 
