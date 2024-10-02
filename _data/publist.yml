@@ -1,3 +1,14 @@
+- title: "Rematch: Robust and Efficient Matching of Local Knowledge Graphs to Improve Structural and Semantic Similarity"
+  tags: AI/ML/NLP
+  image: naacl24_zoher.gif
+  authors: Zoher Kachwala, Jisun An, Haewoon Kwak, Filippo Menczer
+  description: Knowledge graphs play a pivotal role in various applications, such as question-answering and fact-checking. Abstract Meaning Representation (AMR) represents text as knowledge graphs. Evaluating the quality of these graphs involves matching them structurally to each other and semantically to the source text. Existing AMR metrics are inefficient and struggle to capture semantic similarity. We also lack a systematic evaluation benchmark for assessing structural similarity between AMR graphs. To overcome these limitations, we introduce a novel AMR similarity metric, rematch, alongside a new evaluation for structural similarity called RARE. ...
+
+  link: 
+    url: https://arxiv.org/abs/2404.02126
+    display: NAACL Findings, 2024
+  highlight: 1
+
 - title: "ChatGPT Rates Natural Language Explanation Quality Like Humans: But on Which Scales?"
   tags: AI/ML/NLP
   image: lreccoling24_fan.png
