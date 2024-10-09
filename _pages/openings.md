@@ -12,11 +12,10 @@ The Soda Lab is currently seeking PhD students for Fall 2025. Our research focus
 
 ## Research Directions
 
-Our current areas of focus include:
+We study social phenomena through large-scale data and AI/computational tools, aiming to tackle big *societal problems*. Our current areas of focus include (but not limited to):
 
-1. Applying Large Language Models (LLMs) to simulate individual or group behavior through agents, enhancing our understanding of social dynamics.
-2. Developing novel algorithms to support these simulations more comprehensively.
-3. Improving AI alignment through a better understanding of human belief systems.
+1. Applying Large Language Models (LLMs) to simulate individual or group behavior through agents, enhancing our understanding of **social dynamics**.
+2. Improving AI alignment through a better understanding of **human belief systems**.
 
 
 ## Application Process 
