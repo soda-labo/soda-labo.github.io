@@ -6,7 +6,8 @@ sitemap: false
 permalink: /
 ---
 
-**(2024/09/23) The Soda Lab is currently seeking PhD students for Fall 2025.** If you are interested, please check [here]({{ site.url }}{{ site.baseurl }}/vacancies) for more information!
+**(2025/01/03) Thank you for applying to the IU PhD program and our Soda Lab! We look forward to meeting you in Bloomington.**
+<!-- ~~(2024/09/23) The Soda Lab is currently seeking PhD students for Fall 2025.** If you are interested, please check [here]({{ site.url }}{{ site.baseurl }}/vacancies) for more information!~~ -->
 
 We are the Soda (**So**cial **D**ata and **A**I) Lab at [the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington](https://luddy.indiana.edu/). 
 We study social phenomena through large-scale data and computational tools, aiming to tackle big societal problems.
