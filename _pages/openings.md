@@ -6,17 +6,12 @@ sitemap: false
 permalink: /vacancies
 ---
 
-# Open Positions: PhD Students (Fall 2025)
+# Open Positions: Currently, there are no open positions available in the Soda Lab. Please check back later for Fall 2026.
 
-The Soda Lab is currently seeking PhD students for Fall 2025. Our research focuses on computational social science and social computing, leveraging large-scale data and machine learning techniques.
 
 ## Research Directions
 
-We study social phenomena through large-scale data and AI/computational tools, aiming to tackle big *societal problems*. Our current areas of focus include (but not limited to):
-
-1. Applying Large Language Models (LLMs) to simulate individual or group behavior through agents, enhancing our understanding of **social dynamics**.
-2. Improving AI alignment through a better understanding of **human belief systems**.
-
+We study social phenomena through large-scale data and AI/computational tools, aiming to tackle big *societal problems*. 
 
 ## Application Process 
 
