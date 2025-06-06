@@ -1,3 +1,28 @@
+- title: "A semantic embedding space based on large language models for modelling human beliefs"
+  tags: computational social science, AI/ML/NLP
+  image: nhb25_lee.png
+  authors: Byunghwee Lee, Rachith Aiyappa, Yong-Yeol Ahn, Haewoon Kwak, Jisun An 
+  description: How are our beliefs formed and how do they influence each other? By combining large language models (LLMs) with collective online records of human belief, we created a "map" showing how thousands of beliefs relate to one another. This model allows us to predict a person's next belief, measure potential cognitive dissonance, and ultimately understand the core principles governing human cognition.
+
+  link: 
+    url: https://www.nature.com/articles/s41562-025-02228-z
+    display: Nature Human Behaviour, 2025
+  highlight: 1
+  news1: View-only without paywall - [rdcu.be/epoQJ](https://rdcu.be/epoQJ)
+
+
+- title: "A Survey on Predicting the Factuality and the Bias of News Media"
+  tags: computational journalism, AI/ML/NLP, online harm
+  image: acl24_preslav.png
+  authors: Preslav Nakov, Jisun An, Haewoon Kwak, Muhammad Arslan Manzoor, Zain Muhammad Mujahid, Husrev Taha Sencar 
+  description: How can we spot fake news? We go beyond single articles to evaluate the credibility of entire news outlets. Discover the present and future of new technologies that can rapidly identify sources of disinformation by jointly analyzing their factuality and political bias.
+
+  link: 
+    url: https://aclanthology.org/2024.findings-acl.944/
+    display: ACL Findings, 2024
+  highlight: 1
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6603934322056893180">15+ papers citing this work (Google scholar)</a>    
+
 - title: "Rematch: Robust and Efficient Matching of Local Knowledge Graphs to Improve Structural and Semantic Similarity"
   tags: AI/ML/NLP
   image: naacl24_zoher.gif
@@ -15,9 +40,10 @@
   authors: Fan Huang, Haewoon Kwak, Kunwoo Park, Jisun An
   description: As AI becomes more integral in our lives, the need for transparency and responsibility grows. While natural language explanations (NLEs) are vital for clarifying the reasoning behind AI decisions, evaluating them through human judgments is complex and resource-intensive due to subjectivity and the need for fine-grained ratings. This study explores the alignment between ChatGPT and human assessments across multiple scales (i.e., binary, ternary, and 7-Likert scale). We sample 300 data instances from three NLE datasets and collect 900 human annotations for both informativeness and clarity scores as the text quality measurement. ...
   link: 
-    url: https://arxiv.org/abs/2403.17368
+    url: https://aclanthology.org/2024.lrec-main.277/
     display: LREC-COLING, 2024
   highlight: 1
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1284858995869036652">15+ papers citing this work (Google scholar)</a>    
 
 - title: "The Impact of Toxic Trolling Comments on Anti-vaccine YouTube Videos"
   tags: computational social science, AI/ML/NLP, social media
@@ -40,7 +66,7 @@
     display: EPJ Data Science, 2024
   highlight: 1
   news1:  Press coverage-[Blockchain News](https://blockchain.news/analysis/surge-in-generative-ai-interest-insights-from-twitter-discussions)    
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7567748626766884591">5+ papers citing this work (Google scholar)</a>      
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7567748626766884591">35+ papers citing this work (Google scholar)</a>      
 
 - title: "Enhancing Spatiotemporal Traffic Prediction through Urban Human Activity Analysis"
   tags: computational social science, AI/ML/NLP
@@ -61,7 +87,7 @@
     url: https://arxiv.org/abs/2303.12767
     display: TrustNLP (Collocated with ACL), 2023
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17922145343580473385">45+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17922145343580473385">100+ papers citing this work (Google scholar)</a>    
 
 - title: "Wearing Masks Implies Refuting Trump?: Towards Target-specific User Stance Prediction across Events in COVID-19 and US Election 2020"
   tags: computational social science, AI/ML/NLP, social media
@@ -72,6 +98,7 @@
     url: https://dl.acm.org/doi/abs/10.1145/3578503.3583606
     display: ACM WebSci, 2023
   highlight: 1
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16341756351142058803">5+ papers citing this work (Google scholar)</a>    
 
 - title: "Political Honeymoon Effect on Social Media: Characterizing Social Media Reaction to the Changes of Prime Minister in Japan"
   tags: computational social science, social media
@@ -82,7 +109,7 @@
     url: https://dl.acm.org/doi/abs/10.1145/3578503.3583594
     display: ACM WebSci, 2023
   highlight: 1
-
+    news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4138073033257702108">5+ papers citing this work (Google scholar)</a>    
 
 - title: "Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech"
   tags: AI/ML/NLP, online harm
@@ -93,7 +120,7 @@
     url: https://dl.acm.org/doi/abs/10.1145/3543873.3587368
     display: WWW Companion, 2023
   highlight: 1 
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15532512944885500208">150+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15532512944885500208">340+ papers citing this work (Google scholar)</a>    
   
 
 - title: "Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech"
@@ -105,7 +132,7 @@
     url: https://dl.acm.org/doi/abs/10.1145/3543873.3587320
     display: WWW Companion, 2023
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2357413359803665039">15+ papers citing this work (Google scholar)</a>      
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2357413359803665039">35+ papers citing this work (Google scholar)</a>      
 
 - title: "YouNICon: YouTube's CommuNIty of Conspiracy Videos"
   tags: computational social science, social media, online harm
@@ -116,6 +143,7 @@
     url: https://ojs.aaai.org/index.php/ICWSM/article/view/22218
     display: ICWSM Dataset, 2023
   highlight: 0
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18310354359615027626">5+ papers citing this work (Google scholar)</a>
 
 
 - title: "'This is Fake News': Characterizing the Spontaneous Debunking from Twitter Users to COVID-19 False Information"
@@ -127,6 +155,7 @@
     url: https://ojs.aaai.org/index.php/ICWSM/article/view/22176
     display: AAAI ICWSM, 2023
   highlight: 1
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8947197691951002506">10+ papers citing this work (Google scholar)</a>
 
 - title: "You Have Earned a Trophy: Characterize In-Game Achievements and Their Completions"
   tags: game analytics, HCI, user engagement
@@ -169,7 +198,7 @@
     display:  Frontiers in Sociology, 2022
   highlight: 1 
   news1:  Press coverage-[PsyPost](https://www.psypost.org/2022/06/new-study-examines-the-link-between-trumps-offline-speeches-and-qanon-related-twitter-discourse-on-january-6-63328)
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7945857859537339749">15+ papers citing this work (Google scholar)</a>      
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7945857859537339749">35+ papers citing this work (Google scholar)</a>      
 
 - title: "Measuring 9 Emotions of News Posts from 8 News Organizations across 4 Social Media Platforms for 8 Months"
   tags: computational journalism, social media, user engagement
@@ -192,7 +221,7 @@
     display:  Proceedings of the 16th International AAAI Conference on Web and Social Media (ICWSM), 2022 (short)
   highlight: 1
   news1: Press coverage-[AI Ethics Brief Newsletter by Montreal AI Ethics Institute](https://montrealethics.ai/understanding-toxicity-triggers-on-reddit-in-the-context-of-singapore/)
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=727372458666163462">10+ papers citing this work (Google scholar)</a>      
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=727372458666163462">20+ papers citing this work (Google scholar)</a>      
 
 - title: "Who Is Missing? Characterizing the Participation of Different Demographic Groups in a Korean Nationwide Daily Conversation Corpus"
   tags: AI/ML/NLP, dataset/tool, bias/fairness
@@ -225,7 +254,7 @@
     display:  Findings of the Association for Computational Linguistics EMNLP 2021
   highlight: 1
   news1: <a href="https://github.com/anjisun221/anti-asian-slurs">Code repo (github)</a>
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11140553844282277053&as_sdt=800005&sciodt=0,15&hl=en">20+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11140553844282277053&as_sdt=800005&sciodt=0,15&hl=en">30+ papers citing this work (Google scholar)</a>    
 
 
 - title: "Precision Public Health Campaign: Delivering Persuasive Messages to Relevant Segments Through Targeted Advertisements on Social Media"
@@ -237,7 +266,7 @@
     url: https://formative.jmir.org/2021/9/e22313/
     display:  JMIR Form Res 2021;5(9):e22313, 2021
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6843634899065964255">10+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6843634899065964255">25+ papers citing this work (Google scholar)</a>    
 
 
 - title: "FrameAxis: characterizing microframe bias and intensity with word embedding"
@@ -250,7 +279,7 @@
     display:  PeerJ Computer Science 7:e644, 2021
   highlight: 1
   news1: <a href="https://github.com/haewoon/frameaxis">Code repo (github)</a>
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=16502768133789728719&as_sdt=800005&sciodt=0,15&hl=en">25+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=16502768133789728719&as_sdt=800005&sciodt=0,15&hl=en">35+ papers citing this work (Google scholar)</a>    
 
 
 - title: "Populist Supporters on Reddit: A Comparison of Content and Behavioral Patterns Within Publics of Supporters of Donald Trump and Hillary Clinton"
@@ -275,7 +304,7 @@
     display:  Proceedings of the 15th International AAAI Conference on Web and Social Media (ICWSM), 2021
   highlight: 1
   news1:
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4633206445371088214,16671239501329166635">5+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4633206445371088214,16671239501329166635">15+ papers citing this work (Google scholar)</a>    
 
 - title: "A Systematic Media Frame Analysis of 1.5 Million New York Times Articles from 2000 to 2017"
   tags: computational journalism, AI/ML/NLP, bias/fairness
@@ -286,7 +315,7 @@
     url: https://arxiv.org/abs/2005.01803
     display: Proceedings of the 12th ACM Conference on Web Science (WebSci), 2020
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=17777991708099251369&as_sdt=800005&sciodt=0,15&hl=en">20+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=17777991708099251369&as_sdt=800005&sciodt=0,15&hl=en">40+ papers citing this work (Google scholar)</a>    
 
 - title: "Identifying and Characterizing Alternative News Media on Facebook"
   tags: computational journalism, network science, social media, bias/fairness
@@ -308,7 +337,7 @@
     url: https://www.aclweb.org/anthology/2020.acl-main.308/
     display:  Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL) (2020)
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13804595910402473878&as_sdt=800005&sciodt=0,15&hl=en">35+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13804595910402473878&as_sdt=800005&sciodt=0,15&hl=en">55+ papers citing this work (Google scholar)</a>    
 
 - title: "Empirical Evaluation of Three Common Assumptions in Building Political Media Bias Datasets"
   tags: computational journalism, AI/ML/NLP, dataset/tool, bias/fairness
@@ -319,7 +348,7 @@
     url: https://ojs.aaai.org//index.php/ICWSM/article/view/7362
     display:  Proceedings of the 14th International AAAI Conference on Web and Social Media (ICWSM), 2020
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=14119564002231419883&as_sdt=800005&sciodt=0,15&hl=en">15+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=14119564002231419883&as_sdt=800005&sciodt=0,15&hl=en">25+ papers citing this work (Google scholar)</a>    
 
 - title: "“Trust Me, I Have a Ph.D.”: A Propensity Score Analysis on the Halo Effect of Disclosing One's Offline Social Status in Online Communities"
   tags: computational social science, AI/ML/NLP, social media, user engagement
@@ -330,7 +359,7 @@
     url: https://ojs.aaai.org//index.php/ICWSM/article/view/7321
     display:  Proceedings of the 14th International AAAI Conference on Web and Social Media (ICWSM), 2020
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11331595344723902053&as_sdt=800005&sciodt=0,15&hl=en">5+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11331595344723902053&as_sdt=800005&sciodt=0,15&hl=en">15+ papers citing this work (Google scholar)</a>    
 
 - title: "Are These Comments Triggering? Predicting Triggers of Toxicity in Online Discussions"
   tags: computational social science, AI/ML/NLP, social media, online harm
@@ -341,7 +370,7 @@
     url: https://dl.acm.org/doi/10.1145/3366423.3380074?cid=81452618313
     display:  Proceedings of The Web Conference (WWW),  2020
   highlight: 1
-  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=4074253856414814753&as_sdt=800005&sciodt=0,15&hl=en">35+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=4074253856414814753&as_sdt=800005&sciodt=0,15&hl=en">50+ papers citing this work (Google scholar)</a>    
 
 - title: "Going beyond accuracy: estimating homophily in social networks using predictions"
   tags: computational social science
