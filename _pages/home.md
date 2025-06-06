@@ -27,13 +27,16 @@ We study social phenomena through large-scale data and computational tools, aimi
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/sodalab_logo_1400.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/sodalab_logo_1400.jpg" alt="Soda Lab logo" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nature_news_2020_jisun_median.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nhb_2025_median.jpg" alt="Our work published in Nature Human Behaviour" />
+        </div>        
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nature_news_2020_jisun_median.jpg" alt="Jisun is featured in Nature News" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nature_news_2016_haewoon_median.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nature_news_2016_haewoon_median.jpg" alt="Haewoon's work is introduced in Nature News" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/epj_ds_2023_kuni_median.jpg" alt="Slide 4" />
