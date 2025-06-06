@@ -109,7 +109,7 @@
     url: https://dl.acm.org/doi/abs/10.1145/3578503.3583594
     display: ACM WebSci, 2023
   highlight: 1
-    news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4138073033257702108">5+ papers citing this work (Google scholar)</a>    
+  news2: <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4138073033257702108">5+ papers citing this work (Google scholar)</a>    
 
 - title: "Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech"
   tags: AI/ML/NLP, online harm
