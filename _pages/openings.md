@@ -6,9 +6,6 @@ sitemap: false
 permalink: /vacancies
 ---
 
-# Open Positions: Currently, there are no open positions available in the Soda Lab. Please check back later for Fall 2026.
-
-
 ## Research Directions
 
 We study social phenomena through large-scale data and AI/computational tools, aiming to tackle big *societal problems*. 
@@ -18,7 +15,7 @@ We study social phenomena through large-scale data and AI/computational tools, a
 If you're interested in our research directions, please send an email to soda.sci.lab@gmail_dot_com with the following:
 
 - Your CV
-- A brief introduction about yourself, including:
+- Your research statement including: 
   - Your research interests
   - Your academic and career goals
   - Your relevant skillsets
