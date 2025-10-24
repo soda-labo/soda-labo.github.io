@@ -8,7 +8,7 @@ permalink: /team/
 
 # Group Members
 
- **(2024/09/23) The Soda Lab is currently seeking PhD students for Fall 2025.** If you are interested, please check [here]({{ site.url }}{{ site.baseurl }}/vacancies) for more information!
+ **The Soda Lab is currently seeking PhD students for Fall 2026.** If you are interested, please check [here]({{ site.url }}{{ site.baseurl }}/vacancies) for more information!
 
 
 Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdoctoral-researchers), [PhD students](#phd-students), [visitors](#visitors), or [Alumni](#alumni), .
@@ -77,7 +77,7 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdoctoral-researcher
 </div>
 {% endif %}
 
-## Postdoctoral Researchers
+<!-- ## Postdoctoral Researchers
 {% assign number_printed = 0 %}
 {% for member in site.data.postdocs %}
 
@@ -131,7 +131,7 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdoctoral-researcher
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
-{% endif %}
+{% endif %} -->
 
 
 
@@ -191,14 +191,14 @@ Jump to [Faculty](#faculty), [Postdoctoral researchers](#postdoctoral-researcher
 </div>
 {% endif %}
 
-## Other Student Collaborators
+<!-- ## Other Student Collaborators
 <div class="row">
 <div class="col-sm-8 clearfix">
 {% for member in site.data.other_student_collaborators %}
 {{ member.name }}
 {% endfor %}
 </div>
-</div>
+</div> -->
 
 ## Visitors
 <div class="row">
