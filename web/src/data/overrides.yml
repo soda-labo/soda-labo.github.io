@@ -102,6 +102,7 @@ public-perception-of-generative-ai-on-twitter-an-empirical-study-based-on-occupa
   title: 'Public Perception of Generative AI on Twitter: An Empirical Study Based on Occupation and Usage'
   tags:
   - user-behavior
+  - llms-responsible-ai
   methods:
   - llm
   - nlp
@@ -2456,6 +2457,8 @@ when-behavior-is-not-enough-identity-biases-in-human-ai-creative-collaboration:
   tags:
   - llms-responsible-ai
   - bias-fairness
+  methods:
+  - user-study
   scholar_ids:
   - dcjrz5MAAAAJ:fEOibwPWpKIC
   - FYtw3zkAAAAJ:_B80troHkn4C
@@ -2465,6 +2468,8 @@ when-behavior-is-not-enough-identity-biases-in-human-ai-creative-collaboration:
   authors: Hyunseon Won, Haewoon Kwak, Jisun An, Jinyoung Han
   link:
     url: https://doi.org/10.1145/3772363.3799001
+    venue: CHI Poster, 2026
+  image: when-behavior-is-not-enough.webp
 if-i-change-your-eyes-are-you-still-you-identity-thresholds-in-deepfake-percepti:
   title: If I Change Your Eyes, Are You Still You? Identity Thresholds in Deepfake Perception
   tags:
@@ -2480,6 +2485,8 @@ if-i-change-your-eyes-are-you-still-you-identity-thresholds-in-deepfake-percepti
   authors: Chaewon Kang, Youjin Lee, Haewoon Kwak, Jisun An, Jinyoung Han
   link:
     url: https://doi.org/10.1145/3772363.3798341
+    venue: CHI Poster, 2026
+  image: if-i-change-your-eyes.webp
 understanding-moral-reasoning-trajectories-in-large-language-models-toward-probi:
   title: 'Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability'
   tags:
@@ -2527,6 +2534,7 @@ cross-cultural-differences-in-public-discourse-on-covid-19-vaccination-in-the-un
   link:
     url: https://doi.org/10.2196/84791
     venue: JMIR Formative Research
+  image: cross-cultural-differences-in-public-discourse.webp
 zero-shot-stance-detection-in-practice-insights-on-training-prompting-and-decodi:
   title: 'Zero-shot stance detection in practice: insights on training, prompting, and decoding with a capable lightweight LLM'
   tags:
@@ -2543,6 +2551,7 @@ zero-shot-stance-detection-in-practice-insights-on-training-prompting-and-decodi
   link:
     url: https://doi.org/10.7717/peerj-cs.3540
     venue: PeerJ Computer Science
+  image: zero-shot-stance-detection-in-practice.webp
 vulnerability-of-llms-belief-systems-llms-belief-resistance-check-through-strate:
   title: Vulnerability of LLMs' Belief Systems? LLMs Belief Resistance Check Through Strategic Persuasive Conversation Interventions
   tags:
@@ -2557,8 +2566,9 @@ vulnerability-of-llms-belief-systems-llms-belief-resistance-check-through-strate
     makes them more vulnerable.
   authors: Fan Huang, Haewoon Kwak, Jisun An
   link:
-    url: https://www.semanticscholar.org/paper/433bd18f35bca2159696aa47146bfbe1e24056ba
+    url: https://arxiv.org/abs/2601.13590
     venue: ACL Findings
+  image: vulnerability-of-llms-belief-systems.webp
 xchoice-explainable-evaluation-of-ai-human-alignment-in-llm-based-constrained-ch:
   title: 'XChoice: Explainable Evaluation of AI-Human Alignment in LLM-based Constrained Choice Decision Making'
   tags:
@@ -2595,8 +2605,7 @@ a-benchmark-for-zero-shot-belief-inference-in-large-language-models:
 can-lessons-from-human-teams-be-applied-to-multi-agent-systems-the-role-of-struc:
   title: Can Lessons From Human Teams Be Applied to Multi-Agent Systems? The Role of Structure, Diversity, and Interaction Dynamics
   tags:
-  - user-behavior
-  - bias-fairness
+  - llms-responsible-ai
   scholar_ids:
   - dcjrz5MAAAAJ:tKAzc9rXhukC
   - FYtw3zkAAAAJ:V3AGJWp-ZtQC
@@ -2639,6 +2648,7 @@ a-cross-cultural-comparison-of-llm-based-public-opinion-simulation-evaluating-ch
   link:
     url: https://doi.org/10.1109/ICDMW69685.2025.00023
     venue: 2025 IEEE International Conference on Data Mining Workshops (ICDMW)
+  image: a-cross-cultural-comparison-of-llm.webp
 scheduling-broadcasts-in-a-network-of-timelines:
   title: Scheduling Broadcasts in a Network of Timelines
   tags:
