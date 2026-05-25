@@ -24,13 +24,31 @@ const {
     <meta name="description" content={description} />
     <title>{title}</title>
     <link rel="preconnect" href="https://rsms.me/" />
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    {/* Load font CSS without render-blocking: preload as style, then swap rel
+        on load. System fonts paint first, then web fonts swap in (display=swap
+        in the URL guarantees no FOIT). The <noscript> fallback keeps things
+        working for crawlers and ancient browsers. */}
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="preload"
+      as="style"
+      href="https://rsms.me/inter/inter.css"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      />
+    </noscript>
   </head>
   <body class="min-h-screen antialiased">
     <Header />
