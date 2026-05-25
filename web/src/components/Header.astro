@@ -20,7 +20,30 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
         style="color: var(--color-ink-faint);"
       >Social Data &amp; AI</span>
     </a>
-    <nav>
+
+    {/* Hamburger button — only visible below md */}
+    <button
+      id="nav-toggle"
+      type="button"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+      aria-controls="primary-nav"
+      class="grid h-10 w-10 place-items-center rounded-md md:hidden"
+      style="color: var(--color-ink);"
+    >
+      <svg id="nav-icon-open" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+      <svg id="nav-icon-close" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+
+    {/* Desktop nav — inline from md up */}
+    <nav class="hidden md:block">
       <ul class="flex gap-1 font-mono text-xs uppercase tracking-wider">
         {navItems.map((item) => {
           const isActive = path === item.href || (item.href !== "/" && path.startsWith(item.href));
@@ -44,6 +67,31 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
       </ul>
     </nav>
   </div>
+
+  {/* Mobile dropdown — stacked, hidden by default, toggled by hamburger */}
+  <nav id="primary-nav" class="hidden border-t md:hidden" style="border-color: var(--color-rule);">
+    <ul class="mx-auto max-w-5xl px-6 py-2 font-mono text-sm uppercase tracking-wider">
+      {navItems.map((item) => {
+        const isActive = path === item.href || (item.href !== "/" && path.startsWith(item.href));
+        return (
+          <li>
+            <a
+              href={item.href}
+              class:list={[
+                "block rounded-sm px-3 py-3 transition",
+                isActive ? "is-active" : "nav-link",
+              ]}
+              style={isActive
+                ? "background-color: var(--color-ink); color: var(--color-paper);"
+                : "color: var(--color-ink-soft);"}
+            >
+              {item.label}
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </nav>
 </header>
 
 <style>
@@ -52,3 +100,27 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
     color: var(--color-ink);
   }
 </style>
+
+<script>
+  (() => {
+    const btn = document.getElementById("nav-toggle") as HTMLButtonElement | null;
+    const panel = document.getElementById("primary-nav") as HTMLElement | null;
+    const iOpen = document.getElementById("nav-icon-open") as HTMLElement | null;
+    const iClose = document.getElementById("nav-icon-close") as HTMLElement | null;
+    if (!btn || !panel) return;
+
+    function setOpen(open: boolean) {
+      panel!.classList.toggle("hidden", !open);
+      btn!.setAttribute("aria-expanded", String(open));
+      iOpen?.classList.toggle("hidden", open);
+      iClose?.classList.toggle("hidden", !open);
+    }
+    btn.addEventListener("click", () => {
+      const open = btn!.getAttribute("aria-expanded") !== "true";
+      setOpen(open);
+    });
+    // Close the menu if the viewport grows past mobile.
+    const mq = window.matchMedia("(min-width: 768px)");
+    mq.addEventListener("change", (e) => { if (e.matches) setOpen(false); });
+  })();
+</script>
