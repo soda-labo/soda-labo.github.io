@@ -1,4 +1,16 @@
 {
+  "a-benchmark-for-zero-shot-belief-inference-in-large-language.webp": {
+    "h": 336,
+    "mtime": 1779677715.0622034,
+    "optimized": true,
+    "w": 336
+  },
+  "a-model-for-monthly-local-level-airbnb-changes-using-public-.webp": {
+    "h": 336,
+    "mtime": 1779677715.0820465,
+    "optimized": true,
+    "w": 336
+  },
   "acl18_an.webp": {
     "h": 336,
     "mtime": 1779671865.5616527,
@@ -41,9 +53,27 @@
     "optimized": true,
     "w": 336
   },
+  "benchmarking-zero-shot-stance-detection-with-flant5-xxl-insi.webp": {
+    "h": 336,
+    "mtime": 1779677715.1113598,
+    "optimized": true,
+    "w": 336
+  },
   "bigdata22_miyazaki.webp": {
     "h": 336,
     "mtime": 1779671865.6468987,
+    "optimized": true,
+    "w": 336
+  },
+  "breaking-the-news-first-impressions-matter-on-online-news.webp": {
+    "h": 336,
+    "mtime": 1779677715.1418164,
+    "optimized": true,
+    "w": 336
+  },
+  "can-lessons-from-human-teams-be-applied-to-multi-agent-syste.webp": {
+    "h": 336,
+    "mtime": 1779677715.1701689,
     "optimized": true,
     "w": 336
   },
@@ -71,6 +101,36 @@
     "optimized": true,
     "w": 336
   },
+  "cogbias-measuring-and-mitigating-cognitive-bias-in-large-lan.webp": {
+    "h": 336,
+    "mtime": 1779677465.5439956,
+    "optimized": true,
+    "w": 336
+  },
+  "cognitive-linguistic-identity-fusion-score-clifs-a-scalable-.webp": {
+    "h": 336,
+    "mtime": 1779677715.20015,
+    "optimized": true,
+    "w": 336
+  },
+  "connecting-users-with-similar-interests-across-multiple-web-.webp": {
+    "h": 336,
+    "mtime": 1779677715.219355,
+    "optimized": true,
+    "w": 336
+  },
+  "consistent-community-identification-in-complex-networks.webp": {
+    "h": 336,
+    "mtime": 1779677715.2259789,
+    "optimized": true,
+    "w": 336
+  },
+  "consumers-and-suppliers-attention-asymmetries-a-case-study-o.webp": {
+    "h": 336,
+    "mtime": 1779677715.2559683,
+    "optimized": true,
+    "w": 336
+  },
   "dummy.webp": {
     "h": 336,
     "mtime": 1779671865.700064,
@@ -95,6 +155,18 @@
     "optimized": true,
     "w": 336
   },
+  "enhancing-regional-airbnb-trend-forecasting-using-llm-based-.webp": {
+    "h": 336,
+    "mtime": 1779677715.2775545,
+    "optimized": true,
+    "w": 336
+  },
+  "enhancing-stance-classification-on-social-media-using-quanti.webp": {
+    "h": 336,
+    "mtime": 1779677715.309518,
+    "optimized": true,
+    "w": 336
+  },
   "epj24_miyazaki.webp": {
     "h": 336,
     "mtime": 1779671865.7382298,
@@ -104,6 +176,12 @@
   "frontiers22_lee.webp": {
     "h": 336,
     "mtime": 1779671865.7465062,
+    "optimized": true,
+    "w": 336
+  },
+  "greysanatomy-vs-yankees-demographics-and-hashtag-use-on-twit.webp": {
+    "h": 336,
+    "mtime": 1779677715.339589,
     "optimized": true,
     "w": 336
   },
@@ -209,9 +287,27 @@
     "optimized": true,
     "w": 336
   },
+  "llms-can-infer-political-alignment-from-online-conversations.webp": {
+    "h": 336,
+    "mtime": 1779677715.3618336,
+    "optimized": true,
+    "w": 336
+  },
   "lreccoling24_fan.webp": {
     "h": 336,
     "mtime": 1779671865.9530535,
+    "optimized": true,
+    "w": 336
+  },
+  "more-of-a-receiver-than-a-giver-why-do-people-unfollow-in-tw.webp": {
+    "h": 336,
+    "mtime": 1779677715.3916993,
+    "optimized": true,
+    "w": 336
+  },
+  "multiple-areal-feature-aware-transportation-demand-predictio.webp": {
+    "h": 336,
+    "mtime": 1779677465.5832038,
     "optimized": true,
     "w": 336
   },
@@ -245,6 +341,24 @@
     "optimized": true,
     "w": 336
   },
+  "plurule-a-benchmark-for-moderating-pluralistic-communities-o.webp": {
+    "h": 336,
+    "mtime": 1779677715.4196832,
+    "optimized": true,
+    "w": 336
+  },
+  "privacybench-a-conversational-benchmark-for-evaluating-priva.webp": {
+    "h": 336,
+    "mtime": 1779677715.4281194,
+    "optimized": true,
+    "w": 336
+  },
+  "quantifying-gender-stereotypes-in-japan-between-1900-and-199.webp": {
+    "h": 336,
+    "mtime": 1779677715.4485939,
+    "optimized": true,
+    "w": 336
+  },
   "scirep16_shin.webp": {
     "h": 336,
     "mtime": 1779671866.015557,
@@ -254,6 +368,12 @@
   "scirep24_kuni.webp": {
     "h": 336,
     "mtime": 1779671866.0280933,
+    "optimized": true,
+    "w": 336
+  },
+  "sharing-political-news-the-balancing-act-of-intimacy-and-soc.webp": {
+    "h": 336,
+    "mtime": 1779677715.4580398,
     "optimized": true,
     "w": 336
   },
@@ -287,9 +407,39 @@
     "optimized": true,
     "w": 336
   },
+  "somatic-in-the-east-psychological-in-the-west-investigating-.webp": {
+    "h": 336,
+    "mtime": 1779677715.4873312,
+    "optimized": true,
+    "w": 336
+  },
+  "spatio-temporal-road-traffic-prediction-using-real-time-regi.webp": {
+    "h": 336,
+    "mtime": 1779677715.5330412,
+    "optimized": true,
+    "w": 336
+  },
   "sscr20_andreas.webp": {
     "h": 336,
     "mtime": 1779671866.101999,
+    "optimized": true,
+    "w": 336
+  },
+  "synsym-a-synthetic-data-generation-framework-for-psychiatric.webp": {
+    "h": 336,
+    "mtime": 1779677715.6410787,
+    "optimized": true,
+    "w": 336
+  },
+  "toblend-token-level-blending-with-an-ensemble-of-llms-to-att.webp": {
+    "h": 336,
+    "mtime": 1779677715.6725383,
+    "optimized": true,
+    "w": 336
+  },
+  "tower-of-babel-a-crowdsourcing-game-building-sentiment-lexic.webp": {
+    "h": 336,
+    "mtime": 1779677715.702975,
     "optimized": true,
     "w": 336
   },
@@ -317,6 +467,36 @@
     "optimized": true,
     "w": 336
   },
+  "two-tales-of-the-world-comparison-of-widely-used-world-news-.webp": {
+    "h": 336,
+    "mtime": 1779677715.7305152,
+    "optimized": true,
+    "w": 336
+  },
+  "understanding-moral-reasoning-trajectories-in-large-language.webp": {
+    "h": 336,
+    "mtime": 1779677715.7597764,
+    "optimized": true,
+    "w": 336
+  },
+  "understanding-news-geography-and-major-determinants-of-globa.webp": {
+    "h": 336,
+    "mtime": 1779677715.7849905,
+    "optimized": true,
+    "w": 336
+  },
+  "urban-vibrancy-embedding-and-application-on-traffic-predicti.webp": {
+    "h": 336,
+    "mtime": 1779677715.7989137,
+    "optimized": true,
+    "w": 336
+  },
+  "visualizing-media-bias-through-twitter.webp": {
+    "h": 336,
+    "mtime": 1779677715.8109972,
+    "optimized": true,
+    "w": 336
+  },
   "websci20_haewoon.webp": {
     "h": 336,
     "mtime": 1779671866.1622632,
@@ -338,6 +518,24 @@
   "websci23_zhang.webp": {
     "h": 336,
     "mtime": 1779671866.200373,
+    "optimized": true,
+    "w": 336
+  },
+  "what-gets-media-attention-and-how-media-attention-evolves-ov.webp": {
+    "h": 336,
+    "mtime": 1779677715.8275604,
+    "optimized": true,
+    "w": 336
+  },
+  "whom-should-we-sense-in-social-sensing-analyzing-which-users.webp": {
+    "h": 336,
+    "mtime": 1779677715.8531759,
+    "optimized": true,
+    "w": 336
+  },
+  "why-do-i-retweet-it-an-information-propagation-model-for-mic.webp": {
+    "h": 336,
+    "mtime": 1779677715.8739347,
     "optimized": true,
     "w": 336
   },
@@ -398,6 +596,24 @@
   "www23_fan_2.webp": {
     "h": 336,
     "mtime": 1779671866.3025784,
+    "optimized": true,
+    "w": 336
+  },
+  "x-posing-free-speech-examining-the-impact-of-moderation-rela.webp": {
+    "h": 336,
+    "mtime": 1779677715.9040499,
+    "optimized": true,
+    "w": 336
+  },
+  "xchoice-explainable-evaluation-of-ai-human-alignment-in-llm-.webp": {
+    "h": 336,
+    "mtime": 1779677715.9327219,
+    "optimized": true,
+    "w": 336
+  },
+  "younicon-youtube-s-community-of-conspiracy-videos.webp": {
+    "h": 336,
+    "mtime": 1779677715.964175,
     "optimized": true,
     "w": 336
   }

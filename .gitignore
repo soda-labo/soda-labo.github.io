@@ -15,6 +15,7 @@ web/.astro/
 
 # Python venv + bytecode (used by GS refresh scripts)
 web/scripts/.venv/
+web/scripts/.pdf_cache/
 **/__pycache__/
 **/*.pyc
 

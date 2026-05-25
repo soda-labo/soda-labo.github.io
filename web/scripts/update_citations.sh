@@ -58,7 +58,15 @@ fi
 #    Idempotent — skips entries that already have link.url.
 "$VENV/bin/python" "$SCRIPT_DIR/fetch_links.py" --apply
 
-# 5) Optimize any new/oversize publication thumbnails (cached, idempotent)
+# 5) Auto-extract paper thumbnails from open-access PDFs (figure first, fall
+#    back to first-page render). Only runs on entries missing an image and
+#    with a downloadable PDF; results land in public/pubpic/ as raw PNG.
+#    Needs PyMuPDF — `pip install pymupdf` if it's missing in the venv.
+"$VENV/bin/python" -c "import fitz" 2>/dev/null || "$VENV/bin/pip" install --quiet pymupdf
+"$VENV/bin/python" "$SCRIPT_DIR/fetch_thumbnails.py" --apply
+
+# 6) Optimize any new/oversize publication thumbnails (cached, idempotent —
+#    converts the PNGs from step 5 to 336x336 WebP and updates overrides.yml).
 "$VENV/bin/python" "$SCRIPT_DIR/optimize_pubpics.py"
 
 # Commit & push only if anything actually changed
