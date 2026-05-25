@@ -54,7 +54,11 @@ fi
 #    that sync_overrides just added.
 "$VENV/bin/python" "$SCRIPT_DIR/fetch_authors.py" --apply
 
-# 4) Optimize any new/oversize publication thumbnails (cached, idempotent)
+# 4) Backfill missing paper links (publisher landing page, arXiv, DOI).
+#    Idempotent — skips entries that already have link.url.
+"$VENV/bin/python" "$SCRIPT_DIR/fetch_links.py" --apply
+
+# 5) Optimize any new/oversize publication thumbnails (cached, idempotent)
 "$VENV/bin/python" "$SCRIPT_DIR/optimize_pubpics.py"
 
 # Commit & push only if anything actually changed

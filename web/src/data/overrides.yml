@@ -2256,6 +2256,9 @@ benchmarking-zero-shot-stance-detection-with-flant5-xxl-insights-from-training-d
   description: Can LLMs do stance detection on tweets without any fine-tuning? Using FlanT5-XXL with SemEval 2016 and P-Stance, zero-shot prompting matches or beats fine-tuned baselines. We trace how performance
     varies with prompt phrasing, decoding strategy, and prompt perplexity, and identify a positivity bias that partially explains performance differences across decoding strategies.
   authors: Rachith Aiyappa, Shruthi Senthilmani, Jisun An, Haewoon Kwak, Yong-Yeol Ahn
+  link:
+    url: https://arxiv.org/abs/2403.00236
+    venue: arXiv (Cornell University)
 recommender-system-based-on-expert-opinions:
   title: Recommender system based on expert opinions
   tags:
@@ -2298,6 +2301,9 @@ toblend-token-level-blending-with-an-ensemble-of-llms-to-attack-ai-generated-tex
   description: 'Detectors of AI-generated text are quietly competing against attacks that paraphrase or swap words. ToBlend goes further: it samples tokens randomly from an ensemble of LLMs, producing text
     that drops most detectors'' performance significantly while human raters confirm quality holds. We also release a fine-tuned Llama-3.1 detector tuned to catch ToBlend output.'
   authors: Fan Huang, Haewoon Kwak, Jisun An
+  link:
+    url: https://arxiv.org/abs/2402.11167
+    venue: arXiv (Cornell University)
 token-ensemble-text-generation-on-attacking-the-automatic-ai-generated-text-dete:
   title: 'Token-Ensemble Text Generation: On Attacking the Automatic AI-Generated Text Detection'
   tags:
@@ -2308,6 +2314,8 @@ token-ensemble-text-generation-on-attacking-the-automatic-ai-generated-text-dete
   description: Can AI-text detectors survive smarter adversaries? We propose ToBlend, which generates text by randomly sampling next tokens from multiple candidate LLMs. The blended output sharply degrades
     most mainstream detectors while staying fluent to human evaluators, exposing a robustness gap and motivating a fine-tuned Llama3.1 defender.
   authors: Fan Huang, Haewoon Kwak, Jisun An
+  link:
+    url: https://www.semanticscholar.org/paper/727cc936ca812d1c311189babb61db5c7d53d591
 method-system-and-computer-readable-storage-mediums-for-estimating-a-route:
   title: Method, system and computer-readable storage mediums for estimating a route
   tags:
@@ -2350,6 +2358,9 @@ somatic-in-the-east-psychological-in-the-west-investigating-clinically-grounded-
   description: Clinical research finds Western depression patients tend to report psychological symptoms while Eastern patients report somatic ones. We test whether LLMs (now used in mental health) reproduce
     this cultural pattern. They mostly don't in English; prompting in Chinese, Japanese, or Hindi helps somewhat, but a strong culturally-invariant symptom hierarchy overrides the cultural cues.
   authors: Shintaro Sakai, Jisun An, Migyeong Kang, Haewoon Kwak
+  link:
+    url: https://arxiv.org/abs/2508.03247
+    venue: ArXiv.org
 visualizing-a-personal-timeline-by-adding-multiple-social-contexts:
   title: Visualizing a personal timeline by adding multiple social contexts
   tags:
@@ -2417,6 +2428,9 @@ plurule-a-benchmark-for-moderating-pluralistic-communities-on-social-media:
   description: 'Different online communities have different rules: what gets you banned from one subreddit may be the norm in another. PluRule is a multimodal, multilingual benchmark with 13,371 rule violations
     across 1,989 Reddit communities, 2,885 rules, and 9 languages. Even GPT-5.2 performs only slightly better than a trivial baseline, exposing pluralistic moderation as a fundamental challenge.'
   authors: Zoher Kachwala, Bao Tran Truong, Rasika Muralidharan, Haewoon Kwak, Jisun An, Filippo Menczer
+  link:
+    url: https://arxiv.org/abs/2605.17187
+    venue: ArXiv.org
 when-behavior-is-not-enough-identity-biases-in-human-ai-creative-collaboration:
   title: 'When Behavior Is Not Enough: Identity Biases in Human-AI Creative Collaboration'
   tags:
@@ -2429,6 +2443,8 @@ when-behavior-is-not-enough-identity-biases-in-human-ai-creative-collaboration:
     confederate believed to be either human or AI. Cooperative behavior improved overall perceptions, but creativity ratings consistently favored human partners despite identical behavior. Identity bias
     persists.
   authors: Hyunseon Won, Haewoon Kwak, Jisun An, Jinyoung Han
+  link:
+    url: https://doi.org/10.1145/3772363.3799001
 if-i-change-your-eyes-are-you-still-you-identity-thresholds-in-deepfake-percepti:
   title: If I Change Your Eyes, Are You Still You? Identity Thresholds in Deepfake Perception
   tags:
@@ -2442,6 +2458,8 @@ if-i-change-your-eyes-are-you-still-you-identity-thresholds-in-deepfake-percepti
   description: Deepfake harm depends on the moment a viewer perceives the synthetic face as a specific victim, but where that threshold sits is undefined. With 102 participants and 162 manipulated stimuli,
     we find eyes are the dominant identity cue, that pairing eyes with one more feature triggers identity perception, and that human-AI misalignment peaks exactly at that threshold.
   authors: Chaewon Kang, Youjin Lee, Haewoon Kwak, Jisun An, Jinyoung Han
+  link:
+    url: https://doi.org/10.1145/3772363.3798341
 understanding-moral-reasoning-trajectories-in-large-language-models-toward-probi:
   title: 'Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability'
   tags:
@@ -2455,6 +2473,9 @@ understanding-moral-reasoning-trajectories-in-large-language-models-toward-probi
     Over half of consecutive steps switch frameworks; only ~17% of trajectories stay consistent. Unstable trajectories are more vulnerable to persuasive attacks, and linear probes localize framework encoding
     to specific layers.
   authors: Fan Huang, Haewoon Kwak, Jisun An
+  link:
+    url: http://arxiv.org/abs/2603.16017
+    venue: ArXiv.org
 llms-can-infer-political-alignment-from-online-conversations:
   title: LLMs Can Infer Political Alignment from Online Conversations
   tags:
@@ -2467,6 +2488,9 @@ llms-can-infer-political-alignment-from-online-conversations:
   description: Innocuous online preferences (the bands you follow, the slang you use) can reveal sensitive traits. We show that LLMs reliably infer hidden political alignment from DebateOrg and Reddit conversations,
     outperforming traditional ML. Accuracy improves further when text-level inferences aggregate to the user level and when we use politics-adjacent domains, underscoring a serious privacy risk.
   authors: Byunghwee Lee, Sangyeon Kim, Filippo Menczer, Yong-Yeol Ahn, Haewoon Kwak, Jisun An
+  link:
+    url: http://arxiv.org/abs/2603.11253
+    venue: ArXiv.org
 cross-cultural-differences-in-public-discourse-on-covid-19-vaccination-in-the-un:
   title: 'Cross-Cultural Differences in Public Discourse on COVID-19 Vaccination in the United States and South Korea: Cross-Sectional Analysis Using Natural Language Processing'
   tags:
@@ -2478,6 +2502,9 @@ cross-cultural-differences-in-public-discourse-on-covid-19-vaccination-in-the-un
   description: How does public discourse around COVID-19 vaccines differ between the United States and South Korea? Analyzing nearly 8,000 question-answer pairs from Quora and Naver Knowledge-iN, we apply
     NLP to surface topical and sentiment differences. Both countries share concerns about side effects and efficacy, but diverge sharply on which questions get most attention.
   authors: Sangpil Youm, Sou Hyun Jang, Haewoon Kwak, Jaeyoung Choi, Yong Jeong Yi
+  link:
+    url: https://doi.org/10.2196/84791
+    venue: JMIR Formative Research
 zero-shot-stance-detection-in-practice-insights-on-training-prompting-and-decodi:
   title: 'Zero-shot stance detection in practice: insights on training, prompting, and decoding with a capable lightweight LLM'
   tags:
@@ -2491,6 +2518,9 @@ zero-shot-stance-detection-in-practice-insights-on-training-prompting-and-decodi
   description: Can LLMs do stance detection on tweets without any fine-tuning? Using FlanT5-XXL with SemEval 2016 and P-Stance datasets, we find zero-shot prompting matches or beats fine-tuned baselines.
     Performance varies with prompt phrasing, decoding strategy, and a measurable positivity bias, and we surface cases where the LLM over-commits to a stance when none is actually present.
   authors: Rachith Aiyappa, Shruthi Senthilmani, Jisun An, Haewoon Kwak, Yong-Yeol Ahn
+  link:
+    url: https://doi.org/10.7717/peerj-cs.3540
+    venue: PeerJ Computer Science
 vulnerability-of-llms-belief-systems-llms-belief-resistance-check-through-strate:
   title: Vulnerability of LLMs' Belief Systems? LLMs Belief Resistance Check Through Strategic Persuasive Conversation Interventions
   tags:
@@ -2504,6 +2534,8 @@ vulnerability-of-llms-belief-systems-llms-belief-resistance-check-through-strate
     we measure how stable each model's stated beliefs are under persuasive pressure. The smallest model flips on 82.5% of attempts at the first turn. Counterintuitively, asking models to verbalize confidence
     makes them more vulnerable.
   authors: Fan Huang, Haewoon Kwak, Jisun An
+  link:
+    url: https://www.semanticscholar.org/paper/433bd18f35bca2159696aa47146bfbe1e24056ba
 xchoice-explainable-evaluation-of-ai-human-alignment-in-llm-based-constrained-ch:
   title: 'XChoice: Explainable Evaluation of AI-Human Alignment in LLM-based Constrained Choice Decision Making'
   tags:
@@ -2516,6 +2548,9 @@ xchoice-explainable-evaluation-of-ai-human-alignment-in-llm-based-constrained-ch
   description: 'AI-human alignment is usually measured by outcome agreement (accuracy, F1). XChoice fits a mechanism-based decision model to both human and LLM choices, recovering interpretable parameters:
     which factors matter, how sensitive each is to constraints, what trade-offs get made. Applied to U.S. time-use data, XChoice reveals systematic misalignment concentrated in specific demographic subgroups.'
   authors: Weihong Qi, Fan Huang, Rasika Muralidharan, Jisun An, Haewoon Kwak
+  link:
+    url: https://arxiv.org/abs/2601.11286
+    venue: arXiv (Cornell University)
 a-benchmark-for-zero-shot-belief-inference-in-large-language-models:
   title: A Benchmark for Zero-Shot Belief Inference in Large Language Models
   tags:
@@ -2540,6 +2575,9 @@ can-lessons-from-human-teams-be-applied-to-multi-agent-systems-the-role-of-struc
   description: What does team science say about multi-agent LLM systems? We test three core team-science variables (structure, diversity, interaction dynamics) across four reasoning tasks. Flat teams beat
     hierarchical ones, diversity has nuanced effects, and agents are overconfident before tasks but more reflective afterward, with both appreciation for collaboration and difficulty integrating.
   authors: Rasika Muralidharan, Haewoon Kwak, Jisun An
+  link:
+    url: https://arxiv.org/abs/2510.07488
+    venue: ArXiv.org
 quantifying-gender-stereotypes-in-japan-between-1900-and-1999-with-word-embeddin:
   title: Quantifying Gender Stereotypes in Japan between 1900 and 1999 with Word Embeddings
   tags:
@@ -2552,6 +2590,9 @@ quantifying-gender-stereotypes-in-japan-between-1900-and-1999-with-word-embeddin
   description: How did gender stereotypes shift in Japan across the 20th century? We train 100 year-specific word embeddings on Japanese corpora from 1900 to 1999 and trace stereotype strength in the Home,
     Work, and Politics domains. Work and Politics became more female-stereotyped over time, but Home did too, suggesting women came to be seen as occupying multiple roles rather than swapping them.
   authors: Shintaro Sakai, Haewoon Kwak, Jisun An, Akira Matsui
+  link:
+    url: https://arxiv.org/abs/2510.03905
+    venue: ArXiv.org
 a-cross-cultural-comparison-of-llm-based-public-opinion-simulation-evaluating-ch:
   title: 'A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies'
   tags:
@@ -2565,6 +2606,9 @@ a-cross-cultural-comparison-of-llm-based-public-opinion-simulation-evaluating-ch
   description: Can LLMs realistically simulate public opinion across different cultures? Comparing DeepSeek-R1/V3 with Qwen2.5, GPT-4o, and Llama-3.3 against survey data from the U.S. (ANES) and China (Zuobiao),
     we find performance varies sharply by topic and demographic, and that all models over-generalize within demographic groups, defaulting to a 'representative' voice.
   authors: Weihong Qi, Fan Huang, Jisun An, Haewoon Kwak
+  link:
+    url: https://doi.org/10.1109/ICDMW69685.2025.00023
+    venue: 2025 IEEE International Conference on Data Mining Workshops (ICDMW)
 scheduling-broadcasts-in-a-network-of-timelines:
   title: Scheduling Broadcasts in a Network of Timelines
   tags:
@@ -2625,6 +2669,8 @@ x-posing-free-speech-examining-the-impact-of-moderation-relaxation-on-online-soc
   description: What happened to hate speech on Twitter after Elon Musk's takeover and the relaxation of moderation? On 10 million tweets, we document significant increases in hate targeting LGBTQ+ users
     and liberals, with cohesive hate communities forming around influential 'bridge' users. Ironically, embracing free-speech principles enabled hate against the very concept of free speech itself.
   authors: Arvindh Arun, Saurav Chhatani, Jisun An, Ponnurangam Kumaraguru
+  link:
+    url: https://doi.org/10.18653/v1/2024.woah-1.15
 knowledge-and-anxiety-about-covid-19-in-the-state-of-qatar-and-the-middle-east-a:
   title: Knowledge and Anxiety about COVID-19 in the State of Qatar, and the Middle East and North Africa Region—A Cross Sectional Study
   tags:
@@ -2645,6 +2691,9 @@ enhancing-stance-classification-on-social-media-using-quantified-moral-foundatio
   description: Stance detection usually looks at message text alone. We add Moral Foundations Theory features (theoretically-derived dimensions of an individual's moral concerns) on top of standard semantic
     features, using both traditional ML and LLMs. Encoding moral foundations improves classification and illuminates which moral foundations associate with which online stances.
   authors: Hong Zhang, Quoc-Nam Nguyen, Prasanta Bhattacharya, Wei Gao, Liang Ze Wong, Brandon Siyuan Loh, Joseph J. P. Simons, Jisun An
+  link:
+    url: https://arxiv.org/abs/2310.09848
+    venue: arXiv (Cornell University)
 leveraging-social-analytics-data-for-identifying-customer-segments-for-online-ne:
   title: Leveraging Social Analytics Data for Identifying Customer Segments for Online News Media
   tags:
@@ -2686,6 +2735,9 @@ privacybench-a-conversational-benchmark-for-evaluating-privacy-in-personalized-a
   description: Personalized AI agents must access private data (emails, chats, purchases) to be useful, but they can leak it. PrivacyBench is a benchmark with conversational scenarios containing embedded
     secrets. RAG assistants leak secrets in up to 26.6% of conversations; a privacy-aware prompt cuts this to 5.1%, but retrieval still pulls sensitive data indiscriminately.
   authors: Srija Mukhopadhyay, Sathwik Reddy, Shruthi Muthukumar, Jisun An, Ponnurangam Kumaraguru
+  link:
+    url: http://arxiv.org/abs/2512.24848
+    venue: ArXiv.org
 leveraging-online-social-media-data-for-persona-profiling:
   title: Leveraging Online Social Media Data for Persona Profiling
   tags:
@@ -2726,6 +2778,9 @@ multiple-areal-feature-aware-transportation-demand-prediction:
   description: Short-term transportation demand prediction guides scheduling, fleet sizing, and transit-network design. Most models use one or two areal features; cities need many (land use, sociodemographics,
     POI distribution). Our ST-MFGCRN model fuses multiple areal features via sentinel attention, beating state-of-the-art baselines by 7 to 8% on BusDJ and TaxiBJ datasets.
   authors: Sumin Han, Jisun An, Y. Park, Suji Kim, Kitae Jang, Dongman Lee
+  link:
+    url: https://arxiv.org/abs/2408.12890
+    venue: arXiv.org
 improving-real-estate-appraisal-with-poi-integration-and-areal-embedding:
   title: Improving Real Estate Appraisal with POI Integration and Areal Embedding
   tags:
@@ -2749,6 +2804,9 @@ cogbias-measuring-and-mitigating-cognitive-bias-in-large-language-models:
   description: LLMs show cognitive biases in behavior, but where are those biases encoded internally, and can they be removed? We introduce CogBias, a benchmark covering four bias families (Judgment, Information
     Processing, Social, Response), and show via linear probes that biases occupy separable directions in activation space. Activation steering reduces bias 26 to 32% with minimal capability loss.
   authors: Fan Huang, Songheng Zhang, Haewoon Kwak, Jisun An
+  link:
+    url: http://arxiv.org/abs/2604.01366
+    venue: ArXiv.org
 urban-vibrancy-embedding-and-application-on-traffic-prediction:
   title: Urban Vibrancy Embedding and Application on Traffic Prediction
   tags:
@@ -2760,6 +2818,9 @@ urban-vibrancy-embedding-and-application-on-traffic-prediction:
   description: Urban 'vibrancy' (the dynamic human activity in a place) is well-measured by floating-population data but rarely fed into traffic models. We use VAEs to compress floating-population data
     into Urban Vibrancy embeddings, then forecast future embeddings with LSTMs and feed them into traffic models (RNN, DCRNN, GTS, GMAN), improving accuracy and responsiveness across the board.
   authors: Sumin Han, Jisun An, Dongman Lee
+  link:
+    url: https://arxiv.org/abs/2602.21232
+    venue: Open MIND
 cognitive-linguistic-identity-fusion-score-clifs-a-scalable-cognition-informed-a:
   title: 'Cognitive Linguistic Identity Fusion Score (CLIFS): A Scalable Cognition‐Informed Approach to Quantifying Identity Fusion from Text'
   tags:
@@ -2769,6 +2830,9 @@ cognitive-linguistic-identity-fusion-score-clifs-a-scalable-cognition-informed-a
   description: Identity fusion (the psychological merging of self with a group, ideology, or brand) has historically been measured with surveys. CLIFS uses cognitive linguistics and LLMs to detect implicit
     metaphors in text and score fusion automatically, matching survey instruments while scaling. As a proof of concept, it improves violence risk assessment by more than 240%.
   authors: Devin R. Wright, Jisun An, Yong-Yeol Ahn
+  link:
+    url: https://arxiv.org/abs/2509.16813
+    venue: ArXiv.org
 enhancing-regional-airbnb-trend-forecasting-using-llm-based-embeddings-of-access:
   title: Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility
   tags:
@@ -2781,6 +2845,9 @@ enhancing-regional-airbnb-trend-forecasting-using-llm-based-embeddings-of-access
   description: Forecasting regional Airbnb activity matters for housing policy, but typical models look at single listings at single time points. We forecast Revenue, Reservation Days, and Number of Reservations
     at the regional level by combining listing features with LLM-generated embeddings of urban accessibility and human mobility, cutting RMSE and MAE by roughly 48% versus standard baselines.
   authors: Hongju Lee, Youngjun Park, Jisun An, Dongman Lee
+  link:
+    url: http://arxiv.org/abs/2511.14248
+    venue: ArXiv.org
 measuring-capital-with-spatial-media-how-online-popularity-on-instagram-shapes-l:
   title: 'Measuring capital with spatial media: How online popularity on Instagram shapes land value patterns in Seoul'
   tags:
@@ -2792,6 +2859,9 @@ measuring-capital-with-spatial-media-how-online-popularity-on-instagram-shapes-l
   description: Do social-media check-ins reshape urban land value? Modeling three Seoul neighborhoods (Yeonnam-dong, Seongsu-dong, Gyeongridan-gil) that gentrified after going viral on Instagram, we show
     that adding online-popularity features to a spatial capital model outperforms physical-layout-only baselines, quantifying how Instagram visibility now factors into urban property prices.
   authors: Dasom Hong, Sumin Han, Youngjun Park, Jisun An, Dongman Lee
+  link:
+    url: https://doi.org/10.1111/area.70037
+    venue: Area
 proceedings-of-the-nineteenth-international-aaai-conference-on-web-and-social-me:
   title: Proceedings of the Nineteenth International AAAI Conference on Web and Social Media
   tags:
@@ -2819,6 +2889,9 @@ a-model-for-monthly-local-level-airbnb-changes-using-public-dataset:
   description: How do Airbnb listings shift month-to-month across a city's neighborhoods? Using public datasets covering Seoul from 2017 to 2019, we model monthly variation as a function of housing supply,
     lodging density, tourist-attraction proximity, and retail activity, achieving strong fit (avg pseudo R² of 0.79) and identifying which factors drive short-term rental dynamics in each district.
   authors: Youngjun Park, Jisun An, Dongman Lee
+  link:
+    url: https://doi.org/10.34190/ictr.8.1.3475
+    venue: International Conference on Tourism Research
 spatio-temporal-road-traffic-prediction-using-real-time-regional-knowledge:
   title: Spatio-Temporal Road Traffic Prediction using Real-time Regional Knowledge
   tags:
@@ -2828,6 +2901,9 @@ spatio-temporal-road-traffic-prediction-using-real-time-regional-knowledge:
   description: Mid-term road traffic prediction (a few hours out) matters for car-sharing and ride-hailing, but existing models focus on short-term effects between adjacent roads. We embed real-time regional
     knowledge (POIs, satellite images, LTE access traces) into a road-level attention model via dynamic convolution and bipartite spatial-transform attention, beating baseline approaches.
   authors: Sumin Han, Jisun An, Dongman Lee
+  link:
+    url: https://arxiv.org/abs/2408.12882
+    venue: ArXiv.org
 introduction-to-ph-d-symposium:
   title: Introduction to Ph. D. Symposium
   tags:
