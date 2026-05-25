@@ -8,7 +8,7 @@ a-semantic-embedding-space-based-on-large-language-models-for-modelling-human-be
   platforms:
   - reddit
   - multi-platform
-  image: nhb25_lee.png
+  image: nhb25_lee.webp
   highlight: true
   description: How do beliefs interconnect, and what drives a person to adopt new ones? We fine-tune large language models on online debate data to map thousands of beliefs into a semantic space where proximity
     reflects coherence. Position in that space predicts which beliefs an individual is likely to adopt next and quantifies cognitive dissonance via distance between existing and new beliefs.
@@ -29,7 +29,7 @@ a-survey-on-predicting-the-factuality-and-the-bias-of-news-media:
   - bias-fairness
   platforms:
   - news-media
-  image: acl24_preslav.png
+  image: acl24_preslav.webp
   highlight: true
   description: Fact-checking every story is impossible. Instead, this survey reviews how to profile entire news outlets, so any article can be flagged the moment it appears. We argue that factuality and
     political bias should be modeled jointly rather than separately, and survey state-of-the-art across text, social context, and beyond.
@@ -49,7 +49,7 @@ rematch-robust-and-efficient-matching-of-local-knowledge-graphs-to-improve-struc
   methods:
   - nlp
   - networks
-  image: naacl24_zoher.gif
+  image: naacl24_zoher.webp
   highlight: true
   description: 'Comparing knowledge graphs that represent sentence meaning is harder than it sounds: existing metrics are slow and miss semantic nuance. Rematch is a new AMR similarity metric that ranks
     first on semantic benchmarks (1 to 5 percentage points over state of the art) and runs five times faster.'
@@ -68,7 +68,7 @@ chatgpt-rates-natural-language-explanation-quality-like-humans-but-on-which-scal
   - llm
   - nlp
   - crowdsourced
-  image: lreccoling24_fan.png
+  image: lreccoling24_fan.webp
   highlight: true
   description: As AI explains its own decisions in natural language, who should grade those explanations? We compare ChatGPT and human judgments on informativeness and clarity across binary, ternary, and
     7-point scales, finding ChatGPT aligns well with humans on coarse-grained ratings, with paired comparison and dynamic prompting further improving alignment.
@@ -87,7 +87,7 @@ the-impact-of-toxic-trolling-comments-on-anti-vaccine-youtube-videos:
   - online-harm
   platforms:
   - youtube
-  image: scirep24_kuni.png
+  image: scirep24_kuni.webp
   highlight: true
   description: Anti-vaccine YouTube comments are often dismissed as background noise, but do they actually push viewers toward hesitancy? We find that highly-liked toxic comments measurably increase fear
     in later comments, with contagion running in both directions. The result has implications for public health messaging and how moderators handle 'just trolling.'
@@ -107,7 +107,7 @@ public-perception-of-generative-ai-on-twitter-an-empirical-study-based-on-occupa
   - nlp
   platforms:
   - twitter
-  image: epj24_miyazaki.png
+  image: epj24_miyazaki.webp
   highlight: true
   description: 'What does the public actually think of generative AI? We analyze 3M tweets from 2019 to 2023 and find broad interest across occupations, not just tech. Sentiment is generally positive and
     tracks exposure, with one exception: illustrators are notably negative, reflecting concerns over training-data ethics.'
@@ -128,7 +128,7 @@ enhancing-spatiotemporal-traffic-prediction-through-urban-human-activity-analysi
   methods:
   - networks
   - dataset
-  image: cikm23_han.png
+  image: cikm23_han.webp
   highlight: true
   description: Traffic prediction usually relies on sensor networks that miss the human side of urban movement. We add human-activity data from the National Household Travel Survey to graph-convolutional
     traffic models, achieving state-of-the-art accuracy with minimal architectural changes.
@@ -145,7 +145,7 @@ can-we-trust-the-evaluation-on-chatgpt:
   methods:
   - llm
   - nlp
-  image: trustnlp23_rachith.png
+  image: trustnlp23_rachith.webp
   highlight: true
   description: Most ChatGPT evaluations claim impressive numbers, but how trustworthy are they? Through a stance-detection case study, we show that training-set contamination silently inflates ChatGPT's
     apparent performance. We argue that fair evaluation of closed, continuously-trained models needs new conventions.
@@ -167,7 +167,7 @@ wearing-masks-implies-refuting-trump-towards-target-specific-user-stance-predict
   - nlp
   platforms:
   - twitter
-  image: websci23_zhang.png
+  image: websci23_zhang.webp
   highlight: true
   description: 'If you know someone''s view on masks, can you predict their view on Trump? Across three seemingly unrelated COVID-era topics, we train stance-detection models on Twitter and find that opinions
     cluster predictably: past stances on one issue strongly forecast future stances on another.'
@@ -189,7 +189,7 @@ political-honeymoon-effect-on-social-media-characterizing-social-media-reaction-
   - dataset
   platforms:
   - twitter
-  image: websci23_miyazaki.png
+  image: websci23_miyazaki.webp
   highlight: true
   description: Newly-elected leaders typically enjoy a brief 'honeymoon' of high approval. We test this on social media by analyzing 6.6M tweets across 8 Japanese prime-minister transitions over 15 years.
     The honeymoon does appear, but the user base flips dramatically with each change, and sentiment patterns vary by topic and PM.
@@ -205,13 +205,13 @@ political-honeymoon-effect-on-social-media-characterizing-social-media-reaction-
 is-chatgpt-better-than-human-annotators-potential-and-limitations-of-chatgpt-in-:
   title: Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech
   tags:
-  - llms-responsible-ai  
+  - llms-responsible-ai
   - online-harm
   methods:
   - llm
   - nlp
   - crowdsourced
-  image: www23_fan_2.png
+  image: www23_fan_2.webp
   highlight: true
   description: Implicit hate speech is hard for both detectors and explainers. We ask whether ChatGPT can produce useful natural-language explanations of why a subtle hateful post is hateful, and compare
     its output to human annotators through user studies. Promising for routine cases, but with consistent limitations on harder ones.
@@ -227,12 +227,12 @@ is-chatgpt-better-than-human-annotators-potential-and-limitations-of-chatgpt-in-
 chain-of-explanation-new-prompting-method-to-generate-higher-quality-natural-lan:
   title: 'Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech'
   tags:
-  - llms-responsible-ai   
+  - llms-responsible-ai
   - online-harm
   methods:
-  - llm 
+  - llm
   - nlp
-  image: www23_fan.png
+  image: www23_fan.webp
   highlight: true
   description: Generating clear explanations of why a post is hateful is hard, especially when hate is implicit. Our Chain of Explanation prompting method feeds the model heuristic words and the targeted
     group up front, lifting BLEU scores from 44.0 to 62.3 and producing more informative explanations on human evaluation.
@@ -271,7 +271,7 @@ this-is-fake-news-characterizing-the-spontaneous-debunking-from-twitter-users-to
   - digital-health
   platforms:
   - twitter
-  image: icwsm23_miyazaki.png
+  image: icwsm23_miyazaki.webp
   highlight: true
   description: 'Fact-checkers can''t keep up with COVID-19 misinformation. We study spontaneous debunking by regular Twitter users: which fake tweets attract corrections, and who corrects them. Building
     an annotated dataset and a classifier, we find most fake tweets are never debunked, spontaneous corrections are slower than other replies, and political topics show a clear partisan asymmetry.'
@@ -293,7 +293,7 @@ you-have-earned-a-trophy-characterize-in-game-achievements-and-their-completions
   - dataset
   platforms:
   - Game
-  image: websci22_haewoon.png
+  image: websci22_haewoon.webp
   highlight: true
   description: PlayStation 'trophies' are one of gaming's most-discussed achievement systems, but no large-scale study exists. We build the first complete dataset of PlayStation games and their trophies,
     then characterize them from both the designer's and the player's perspectives, uncovering patterns in how trophies are designed and which ones players actually complete.
@@ -314,7 +314,7 @@ maang-manga-characterizing-spontaneous-ideation-contest-on-social-media:
   - twitter
   - facebook
   - multi-platform
-  image: bigdata22_miyazaki.png
+  image: bigdata22_miyazaki.webp
   highlight: true
   description: When Facebook became Meta, Twitter users spontaneously started proposing new acronyms for Big Tech ('MAANG,' 'MANGA,' and many more). We trace how candidates were proposed, spread, and judged,
     finding that early posters had fewer followers than later spreaders, rankings shifted slowly, and replies introduced most new ideas at the first depth.
@@ -332,7 +332,7 @@ modeling-political-activism-around-gun-debate-via-social-media:
   - networks
   platforms:
   - twitter
-  image: tsc22_mejova.png
+  image: tsc22_mejova.webp
   highlight: true
   description: Can social media reveal who will engage politically on contested issues? On the U.S. gun debate, we use Twitter content and network structure to classify user stance, predict state-level
     gun policy, and forecast individual offline political action. Network features (especially the relative size of each side) emerge as strong signals alongside content and demographics.
@@ -351,7 +351,7 @@ storm-the-capitol-linking-offline-political-speech-and-online-twitter-extra-repr
   - online-harm
   platforms:
   - twitter
-  image: frontiers22_lee.png
+  image: frontiers22_lee.webp
   highlight: true
   description: How does offline political speech translate into online mobilization? We combine the text of Trump's speeches leading up to January 6, 2021 with Twitter data from QAnon hashtags over the
     same three days, using mixed quantitative and qualitative analysis. The results show measurable links between specific addresses and online participation.
@@ -377,7 +377,7 @@ measuring-9-emotions-of-news-posts-from-8-news-organizations-across-4-social-med
   - facebook
   - instagram
   - multi-platform
-  image: tsc22_aldous.png
+  image: tsc22_aldous.webp
   highlight: true
   description: How do emotions in news posts ripple into audience reactions? Across 133K posts and 2.8M comments from 8 outlets on 4 platforms over 8 months, we score 9 emotions (Plutchik's wheel) and predict
     reader emotional engagement before and after a post goes live, reaching over 70% F1 for some emotions and revealing systematic platform differences.
@@ -395,7 +395,7 @@ understanding-toxicity-triggers-on-reddit-in-the-context-of-singapore:
   - online-harm
   platforms:
   - reddit
-  image: icwsm22_chong.png
+  image: icwsm22_chong.webp
   highlight: true
   description: Most toxicity research focuses on Western online communities. We extend trigger detection to an Asian context using Reddit conversations from Singapore, showing both that detection is feasible
     and that the triggers themselves can differ markedly from Western patterns. A reminder that 'toxic' is culturally specific.
@@ -412,10 +412,10 @@ who-is-missing-characterizing-the-participation-of-different-demographic-groups-
   title: Who Is Missing? Characterizing the Participation of Different Demographic Groups in a Korean Nationwide Daily Conversation Corpus
   tags:
   - llms-responsible-ai
-  - bias-fairness  
+  - bias-fairness
   methods:
   - dataset
-  image: icwsm22_kwak.png
+  image: icwsm22_kwak.webp
   highlight: true
   description: Conversation corpora power most interactive AI, but who actually contributed to them? Analyzing a Korean nationwide daily conversation corpus from the National Institute of Korean Language,
     we characterize the participation of different demographic groups (age and sex) and identify the voices that are over- and under-represented in this widely-used resource.
@@ -439,7 +439,7 @@ what-really-matters-characterising-and-predicting-user-engagement-of-news-postin
   - facebook
   - instagram
   - multi-platform
-  image: behavior22_aldous.png
+  image: behavior22_aldous.webp
   highlight: true
   description: What makes a news post go viral, and on which platform? Analyzing 3M posts from 53 outlets and 50M comments across 5 platforms over 8 months, we trace how sentiment and topic shape four levels
     of engagement (views, likes, comments, cross-platform sharing) and predict cross-platform diffusion with up to 83% F1.
@@ -459,7 +459,7 @@ predicting-anti-asian-hateful-users-on-twitter-during-covid-19:
   - nlp
   platforms:
   - twitter
-  image: emnlp21_an.png
+  image: emnlp21_an.webp
   highlight: true
   description: Can we tell, before COVID-19 began, who would later post anti-Asian slurs on Twitter? Comparing users who did and didn't post such slurs after the pandemic's onset, we identify pre-pandemic
     features that predict later hate behavior, pointing to the role of news media and polarized communication networks in priming hostility.
@@ -482,7 +482,7 @@ precision-public-health-campaign-delivering-persuasive-messages-to-relevant-segm
   platforms:
   - facebook
   - instagram
-  image: jmir21_an.png
+  image: jmir21_an.webp
   highlight: true
   description: 'Health campaigns usually broadcast one message to everyone. We propose a five-stage framework for precision public health: define goal and metrics, segment the audience, tailor a message
     per segment, pilot, run, and evaluate using social-media ad-targeting tools. Two case studies demonstrate the framework in practice.'
@@ -503,7 +503,7 @@ frameaxis-characterizing-microframe-bias-and-intensity-with-word-embedding:
   methods:
   - nlp
   - dataset
-  image: peerjcs21_kwak.png
+  image: peerjcs21_kwak.webp
   highlight: true
   description: Framing nudges readers toward conclusions without making explicit arguments. FrameAxis identifies the semantic axes ('microframes') that a document leans on, using word embeddings rather
     than manual annotation. The method scales to large datasets and exposes bias and intensity from restaurant reviews to political news.
@@ -525,7 +525,7 @@ populist-supporters-on-reddit-a-comparison-of-content-and-behavioral-patterns-wi
   - beliefs-opinions
   platforms:
   - reddit
-  image: sscr20_andreas.png
+  image: sscr20_andreas.webp
   highlight: true
   description: If digital media empower populist movements, can we see it in distinct usage patterns? Comparing /r/The_Donald and /r/hillaryclinton during the 2016 election, we find Trump supporters expressed
     more anti-elitism and exclusion (but not 'people-centrism'), posted more, used distinctive vocabulary, and built tighter community ties.
@@ -545,7 +545,7 @@ how-to-present-news-on-social-media-a-causal-analysis-of-editing-news-headlines-
   - dataset
   platforms:
   - twitter
-  image: icwsm21_park.png
+  image: icwsm21_park.webp
   highlight: true
   description: When media outlets share an article on Twitter, the edited tweet often departs sharply from the original headline. Does that editing pay off? Using a parallel corpus of articles and tweets
     from 8 outlets, we apply propensity-score matching to estimate the causal effect of editing styles on engagement, surfacing both common and outlet-specific patterns.
@@ -567,7 +567,7 @@ a-systematic-media-frame-analysis-of-1-5-million-new-york-times-articles-from-20
   - nlp
   platforms:
   - news-media
-  image: websci20_haewoon.png
+  image: websci20_haewoon.webp
   highlight: true
   description: Framing is hard to measure at scale because frames usually need hand-coding. We trained a state-of-the-art frame classifier and applied it to 1.5 million New York Times articles spanning
     2000 to 2017. Short-term frame fluctuations track major events; long-term, the 'cultural identity' frame rises sharply, and a case study on mass shootings reveals three distinct patterns.
@@ -590,7 +590,7 @@ identifying-and-characterizing-alternative-news-media-on-facebook:
   - dataset
   platforms:
   - facebook
-  image: asonam20_samuel.png
+  image: asonam20_samuel.webp
   highlight: true
   description: We propose a graph-based semi-supervised method to measure the political bias of Facebook news pages across many countries, separating alternative media, mainstream media, and public-figure
     pages. Validated on a U.S. dataset and applied to Brazil, where right-wing pages dominate generally but alternative news media break the pattern.
@@ -609,7 +609,7 @@ what-was-written-vs-who-read-it-news-media-profiling-using-text-analysis-and-soc
   platforms:
   - news-media
   - twitter
-  image: acl20_ramy.png
+  image: acl20_ramy.webp
   highlight: true
   description: Fact-checking every claim is impossible, so a complementary approach is to profile entire news outlets and flag everything they publish. We argue that bias and factuality should be modeled
     jointly using both the text the outlet produces and the social context it lives in, and we review approaches that combine the two.
@@ -632,7 +632,7 @@ empirical-evaluation-of-three-common-assumptions-in-building-political-media-bia
   - dataset
   platforms:
   - news-media
-  image: icwsm20_soumen.png
+  image: icwsm20_soumen.webp
   highlight: true
   description: 'Many political-bias datasets rest on three common assumptions: labelers'' politics don''t bias their labels, articles follow their outlet''s leaning, and an outlet''s leaning is stable across
     topics. We test all three on a manually annotated dataset and find each can fail even at small scale, a warning for how bias datasets are constructed and trusted.'
@@ -652,7 +652,7 @@ trust-me-i-have-a-ph-d-a-propensity-score-analysis-on-the-halo-effect-of-disclos
   - user-behavior
   platforms:
   - reddit
-  image: icwsm20_park.png
+  image: icwsm20_park.webp
   highlight: true
   description: 'Does showing your offline credentials affect how people respond to you online? On two Reddit science communities that adopted ''degree flairs,'' we find the halo effect varies by community
     culture: in the strict peer-reviewed subreddit, any degree boosts votes and discussion; in the casual one, only PhD or MD flairs do.'
@@ -673,7 +673,7 @@ are-these-comments-triggering-predicting-triggers-of-toxicity-in-online-discussi
   - nlp
   platforms:
   - reddit
-  image: www20_hind.png
+  image: www20_hind.webp
   highlight: true
   description: Toxic replies often have an innocent-looking trigger somewhere up the thread. We define a trigger as a non-toxic comment that provokes a toxic reply, then train a neural model on shifts in
     sentiment, topic, and conversational context. The model identifies triggers with a 0.87 ROC-AUC, suggesting a way to head off escalation before it happens.
@@ -692,7 +692,7 @@ going-beyond-accuracy-estimating-homophily-in-social-networks-using-predictions:
   - networks-influence
   methods:
   - networks
-  image: arxiv20_berry.png
+  image: arxiv20_berry.webp
   highlight: true
   description: Social-network studies often estimate homophily from predicted attributes (gender or ethnicity from names), but high prediction accuracy doesn't guarantee accurate homophily estimates. We
     show estimation works only when dyad-level residuals cancel out, and propose an 'ego-alter' approach that beats standard node and dyad classifiers.
@@ -724,7 +724,7 @@ tanbih-get-to-know-what-you-are-reading:
   - bias-fairness
   platforms:
   - news-media
-  image: emnlp19_yifan.png
+  image: emnlp19_yifan.webp
   highlight: true
   description: 'Behind a news story sits a much larger context: the outlet''s general factuality, partisanship, propaganda style, ideology, framing, and stance on key topics. Tanbih is a news aggregator
     that groups stories by event and generates these media profiles automatically, plus per-article propaganda detection and stance with respect to specific controversial claims.'
@@ -744,7 +744,7 @@ gender-and-racial-diversity-in-commercial-brands-advertising-images-on-social-me
   - facebook
   - instagram
   - multi-platform
-  image: socinfo19_an_2.png
+  image: socinfo19_an_2.webp
   highlight: true
   description: What images do top global brands actually share on Instagram and Facebook, and who shows up in them? Analyzing 85,957 advertising images from 73 international brands, we measure gender and
     racial diversity at scale, working toward an automated 'watchdog' for diversity in online advertisements.
@@ -815,10 +815,10 @@ political-discussions-in-homogeneous-and-cross-cutting-communication-spaces:
   - beliefs-opinions
   methods:
   - nlp
-  - networks  
+  - networks
   platforms:
   - reddit
-  image: icwsm19_an.png
+  image: icwsm19_an.webp
   highlight: true
   description: 'Online political talk happens in two very different settings: groups of like-minded users, and mixed spaces where opposing views meet. We use Reddit to develop an analytical template comparing
     interaction and linguistic patterns within and between politically homogeneous and cross-cutting communication spaces, finding markedly different behaviors in each.'
@@ -843,7 +843,7 @@ view-like-comment-post-analyzing-user-engagement-by-topic-at-4-levels-across-5-s
   - facebook
   - instagram
   - multi-platform
-  image: icwsm19_kholoud.png
+  image: icwsm19_kholoud.webp
   highlight: true
   description: 'Different platforms surface different topics: how does that shape engagement? Across 3.16M posts from 53 news organizations on Facebook, Instagram, Twitter, YouTube, and Reddit over 8 months,
     we map topic distribution by platform and topic-driven engagement at four levels, finding that cross-platform sharing of any given article is predictable with around 80% precision.'
@@ -890,7 +890,7 @@ discursive-power-in-contemporary-media-systems-a-comparative-framework:
   title: 'Discursive Power in Contemporary Media Systems: A Comparative Framework'
   tags:
   - news-journalism
-  image: ijpp19_andrea.png
+  image: ijpp19_andrea.webp
   highlight: true
   description: 'Today''s news ecosystems mix legacy outlets, platforms, influencers, and amateurs in ways that resist easy comparison. We propose ''discursive power'' as a measurable concept: the ability
     to introduce, amplify, and sustain topics, frames, and speakers in interconnected communication spaces, enabling empirical comparative work on hybrid media systems.'
@@ -922,7 +922,7 @@ imaginary-people-representing-real-numbers-generating-personas-from-online-socia
   title: 'Imaginary People Representing Real Numbers: Generating Personas from Online Social Media Data'
   tags:
   - user-behavior
-  image: tweb18_an.png
+  image: tweb18_an.webp
   highlight: true
   description: Marketing personas are hand-crafted, slow, and quickly outdated. We automate them from social-media data through behavioral segmentation, demographic grouping, and auto-generated names and
     photos. Validated on 30M viewer interactions across 198 countries and 4,200 videos, the personas predict content preference and remain stable over time.
@@ -941,7 +941,7 @@ assessing-the-accuracy-of-four-popular-face-recognition-tools-for-inferring-gend
   - bias-fairness
   methods:
   - dataset
-  image: icwsm18_jung.png
+  image: icwsm18_jung.webp
   highlight: true
   description: When computational social scientists infer demographics from photos, which face-recognition tool can they trust? Testing Face++, IBM Bluemix, AWS Rekognition, and Microsoft Azure across multiple
     datasets, we find gender inference works (above 90%, except IBM), race inference is offered by only one tool, and age is consistently inaccurate. Triangulation and manual checks recommended.
@@ -965,7 +965,7 @@ anatomy-of-online-hate-developing-a-taxonomy-and-machine-learning-models-for-ide
   - youtube
   - facebook
   - multi-platform
-  image: icwsm18_joni.png
+  image: icwsm18_joni.webp
   highlight: true
   description: Automatic hate-speech detection is hard partly because 'hate' covers many distinct types and targets. We hand-labeled 5,143 hateful YouTube and Facebook comments, built a granular taxonomy
     capturing both the kind and target of hate, and trained classifiers to detect and categorize new comments. A linear SVM with TF-IDF reaches 0.79 average F1.
@@ -987,7 +987,7 @@ identifying-regional-trends-in-avatar-customization:
   - dataset
   platforms:
   - Game
-  image: ieeegames18_peter.png
+  image: ieeegames18_peter.webp
   highlight: true
   description: 'Avatars are a quiet form of self-expression, but the values built into avatar systems are rarely studied. Using deep learning and clustering on roughly 100,000 avatars from a major creation
     platform, we surface regional trends: realistic (US, mirroring demographics), idealistic (Japan, reflecting media tropes), and creative (community-spread), and link each to user activity.'
@@ -1003,7 +1003,7 @@ semaxis-a-lightweight-framework-to-characterize-domain-specific-word-semantics-b
   - user-behavior
   methods:
   - nlp
-  image: acl18_an.png
+  image: acl18_an.webp
   highlight: true
   description: Word meanings shift across communities and contexts, but most NLP tools collapse that nuance into a single sentiment dimension. SemAxis is a lightweight framework that characterizes words
     along arbitrary semantic axes in vector space, capturing community-specific meaning. On sentiment specifically, SemAxis beats state-of-the-art methods for building domain-specific lexicons.
@@ -1025,7 +1025,7 @@ what-we-read-what-we-search-media-attention-and-public-attention-among-193-count
   - networks
   platforms:
   - news-media
-  image: www18_kwak.png
+  image: www18_kwak.webp
   highlight: true
   description: Do people care about the same countries their national news covers? Across 193 countries over 14 months, we find that media and public attention align regionally but diverge by topic. In
     63% of countries, the two attend to entirely different countries, suggesting audiences seek information their local outlets are not providing.
@@ -1046,7 +1046,7 @@ what-is-gab-a-bastion-of-free-speech-or-an-alt-right-echo-chamber:
   - bias-fairness
   platforms:
   - gab
-  image: www18_savvas.png
+  image: www18_savvas.webp
   highlight: true
   description: Gab launched in 2016 as a free-speech alternative to Twitter, attracting users banned from other platforms. We analyze 22M posts from 336K users (Aug 2016 to Jan 2018) and find Gab is mostly
     used for news and world events, attracts alt-right users, conspiracy theorists, and trolls, with hate-speech prevalence much higher than Twitter but lower than 4chan's /pol/.
@@ -1081,7 +1081,7 @@ is-more-better-impact-of-multiple-photos-on-perception-of-persona-profiles:
   - user-behavior
   methods:
   - user-study
-  image: chi18_joni.png
+  image: chi18_joni.webp
   highlight: true
   description: Does adding photos to a marketing persona make it more informative? Eye-tracking and interviews compare a single headshot, a headshot plus contextual scenes of the persona, and a headshot
     plus images of different people. Contextual images help; mixed people confuse readers, and viewers' own preconceptions shape what they see.
@@ -1107,7 +1107,7 @@ convergence-of-media-attention-across-129-countries:
   title: Convergence of Media Attention Across 129 Countries
   tags:
   - user-behavior
-  image: socinfo17_an.png
+  image: socinfo17_an.webp
   highlight: true
   description: 'Are news outlets across countries converging on the same stories or going their separate ways? Using daily data on the 100 most over-reported topics in each country over 7 months, we find
     two patterns coexisting: globalization (shared attention across regions) and domestication (locally distinct coverage), shaped by geography, history, time, and topic.'
@@ -1124,7 +1124,7 @@ multidimensional-analysis-of-the-news-consumption-of-different-demographic-group
   - news-journalism
   methods:
   - nlp
-  image: socinfo17_an_2.png
+  image: socinfo17_an_2.webp
   highlight: true
   description: 'How differently do men and women, young and old, consume news? Examining 103,133 most-popular articles for different demographic groups in Daum News (Korea''s second-largest portal) over
     2015, we measure differences at four levels: items, sections, topics, and subtopics. Demographic differences appear most sharply at the subtopic level, not at the broader section or topic level.'
@@ -1143,7 +1143,7 @@ multiplex-media-attention-and-disregard-network-among-129-countries:
   - networks-influence
   methods:
   - networks
-  image: asonam17_kwak.png
+  image: asonam17_kwak.webp
   highlight: true
   description: Which countries pay attention to each other in their news coverage, and which deliberately ignore? We build a multiplex Media Attention and Disregard Network across 129 countries over 212
     days. The network is skewed, hierarchical, and asymmetric, but suggests a 'global village' overall, with persistent attention blocks around the Middle East/North Africa and Russia's neighbors.
@@ -1160,7 +1160,7 @@ demographics-of-news-sharing-in-the-us-twittersphere:
   - news-journalism
   platforms:
   - twitter
-  image: ht17_reis.png
+  image: ht17_reis.webp
   highlight: true
   description: Who shares news on Twitter, and what does that mean for what most readers see? In the first detailed study of news sharers' demographics, content, and audience, we find that male and white
     users dominate news sharing, biasing the visible mix toward those groups' interests, with implications for personalized news design.
@@ -1181,7 +1181,7 @@ data-driven-approach-to-measuring-the-level-of-press-freedom-using-media-attenti
   - bias-fairness
   methods:
   - user-study
-  image: neco17_an.png
+  image: neco17_an.webp
   highlight: true
   description: 'The Press Freedom Index, published annually by Reporters Without Borders, is invaluable but expensive and slow because it''s survey-based. We propose an alternative: measure press freedom
     from the diversity of attention an outlet pays, computed automatically from large-scale news data. The result tracks the official PFI while updating in near-real time.'
@@ -1224,7 +1224,7 @@ i-would-not-plant-apple-trees-if-the-world-will-be-wiped-analyzing-hundreds-of-m
   title: 'I Would Not Plant Apple Trees If the World Will Be Wiped: Analyzing Hundreds of Millions of Behavioral Records of Players During an MMORPG Beta Test'
   tags:
   - user-behavior
-  image: www17_kang.png
+  image: www17_kang.webp
   highlight: true
   description: What do people do when they know their work will be erased? Using 270 million records from the final days of the ArcheAge MMO closed beta (where all character data was about to be deleted),
     we find no broad antisocial collapse, but a sharp drop in quest completion, leveling, and ability changes. Most players stopped planting their proverbial apple trees.
@@ -1244,7 +1244,7 @@ achievement-and-friends-key-factors-of-player-retention-vary-across-player-level
   title: 'Achievement and Friends: Key Factors of Player Retention Vary Across Player Levels in Online Multiplayer Games'
   tags:
   - user-behavior
-  image: www17_park.png
+  image: www17_park.webp
   highlight: true
   description: 'Why do players stay or leave a game? Analyzing in-game logs of 51,104 players in an online multiplayer game across their virtual ''life phases,'' we find what predicts retention shifts with
     progression: achievement features matter most early and mid-game, but at the highest level, social ties become the strongest predictor of who keeps playing.'
@@ -1316,7 +1316,7 @@ high-correlation-of-middle-east-respiratory-syndrome-spread-with-google-search-a
   - user-behavior
   platforms:
   - twitter
-  image: scirep16_shin.png
+  image: scirep16_shin.webp
   highlight: true
   description: Can web searches and social-media chatter predict an emerging-disease outbreak? During the 2015 MERS outbreak in Korea, daily Google searches and tweets for four Korean keywords correlated
     strongly (above 0.7) with new and quarantined cases over the next three days, suggesting that simple digital signals can complement traditional epidemiological surveillance.
@@ -1349,7 +1349,7 @@ revealing-the-hidden-patterns-of-news-photos-analysis-of-millions-of-news-photos
   - news-journalism
   methods:
   - nlp
-  image: neco16_kwak.png
+  image: neco16_kwak.webp
   highlight: true
   description: What kinds of objects appear in news photos, and do they tell the same story as the article text? Analyzing over 2 million news photos from January 2016 using deep-learning vision APIs, we
     measure object frequency, photo sentiment, alignment with text tone, gender representation, and visual portrayal of political candidates. The first study of its scale.
@@ -1388,7 +1388,7 @@ are-you-charlie-or-ahmed-cultural-pluralism-in-charlie-hebdo-response-on-twitter
   - user-behavior
   platforms:
   - twitter
-  image: icwsm16_an.png
+  image: icwsm16_an.webp
   highlight: true
   description: 'How did the world respond to the Charlie Hebdo shootings on Twitter? We test whether cultural background alone predicts stance on free speech (Huntington''s ''Clash of Civilizations'') or
     whether local social context matters too. Both: ''civilization'' explains broad patterns, but non-Arabs embedded in mixed networks used #JeSuisAhmed five times more often.'
@@ -1467,7 +1467,7 @@ exploring-cyberbullying-and-other-toxic-behavior-in-team-competition-online-game
   methods:
   - crowdsourced
   - dataset
-  image: chi15_kwak.png
+  image: chi15_kwak.webp
   highlight: true
   description: Toxic behavior in team-based competitive games is widely felt but poorly understood empirically. Using over 10 million player reports on 1.46 million toxic players in League of Legends (with
     crowdsourced verdicts attached), we test hypotheses drawn from theories of toxic behavior at unprecedented scale, providing a foundation for systems to detect, prevent, and counter such acts.
@@ -1515,7 +1515,7 @@ a-first-look-at-global-news-coverage-of-disasters-by-using-the-gdelt-dataset:
   - dataset
   platforms:
   - news-media
-  image: socinfo14_kwak.png
+  image: socinfo14_kwak.webp
   highlight: true
   description: What determines whether the world's news media notice a disaster? Using the GDELT dataset that monitors news in over 100 languages, we fit a hierarchical regression and find population, political
     stability, and damage all matter as expected, but also expose strong regionalism in news geography that's only visible at truly global scale.
@@ -1535,7 +1535,7 @@ linguistic-analysis-of-toxic-behavior-in-an-online-video-game:
   - online-harm
   methods:
   - crowdsourced
-  image: egg14_kwak.png
+  image: egg14_kwak.webp
   highlight: true
   description: What does toxic player chat actually look like, linguistically? Using crowdsourced data on 590,000+ reported toxic players in League of Legends, we trace the language patterns that distinguish
     toxic players from typical ones, and find empirical support for how a player gradually slides from typical into toxic behavior. The findings enable earlier detection and warning.
@@ -1553,7 +1553,7 @@ searching-for-a-unique-style-in-soccer:
   - networks-influence
   methods:
   - networks
-  image: kdd14_laszlo.png
+  image: kdd14_laszlo.webp
   highlight: true
   description: Is there really such a thing as a unique team style in modern soccer? We introduce 'flow motifs' — statistically significant patterns in pass sequences — to compare teams' play. Most teams
     converge on similar structures, but FC Barcelona's tiki-taka turns out to be a genuinely distinctive, tightly constructed pattern rather than a flurry of random passes.
@@ -1590,7 +1590,7 @@ stfu-noob-predicting-crowdsourced-decisions-on-toxic-behavior-in-online-games:
   methods:
   - crowdsourced
   - dataset
-  image: www14_jeremy.png
+  image: www14_jeremy.webp
   highlight: true
   description: League of Legends crowdsources toxicity judgements through the 'Tribunal,' but human review is slow and expensive. We train classifiers on 10M+ player reports covering 1.46M toxic players
     and the corresponding crowdsourced verdicts. The model captures strong-majority cases well and ports across regions, suggesting a practical way to reduce moderation cost.
@@ -1637,7 +1637,7 @@ recommending-investors-for-crowdfunding-projects:
   - user-behavior
   platforms:
   - twitter
-  image: www14_an.png
+  image: www14_an.webp
   highlight: true
   description: Most Kickstarter projects fail because creators can't reach enough investors. We propose ways to recommend Twitter accounts likely to pledge to a given project, translating hypothesis-driven
     analyses of pledging behavior into recommendation strategies. The best strategy predicts a list of plausible investors with 84% accuracy.
@@ -1807,7 +1807,7 @@ fragile-online-relationship-a-first-look-at-unfollow-dynamics-in-twitter:
   - user-study
   platforms:
   - twitter
-  image: chi11_kwak.png
+  image: chi11_kwak.webp
   highlight: true
   description: How often do Twitter users actually unfollow each other? Tracking 1.2M Korean-speaking users daily for 51 days, we find unfollowing is common. Quantitative analysis identifies key factors
     (reciprocity, relationship duration, followees' informativeness, overlap of relationships); 22 interviews reveal users unfollow those who tweet too often, about boring topics, or about mundane life
@@ -1828,7 +1828,7 @@ media-landscape-in-twitter-a-world-of-new-conventions-and-political-diversity:
   - bias-fairness
   platforms:
   - twitter
-  image: icwsm11_an.png
+  image: icwsm11_an.webp
   highlight: true
   description: Who you follow on Twitter shapes which media you see, but indirect exposure (friends who follow outlets, retweets from outside your circle) matters too. Using public follow data, we show
     that indirect exposure expands the political diversity of news a typical user encounters by 60 to 98%, a finding not visible to traditional media research.
@@ -1848,7 +1848,7 @@ what-is-twitter-a-social-network-or-a-news-media:
   - networks
   platforms:
   - twitter
-  image: www10_kwak.png
+  image: www10_kwak.webp
   highlight: true
   description: 'Twitter exploded from a nascent microblogging service to over 41M users in just a few years. We crawl the full Twitter graph (1.47B follow relationships, 4,262 trending topics, 106M tweets)
     and characterize its topology and information dynamics, asking whether Twitter behaves more like a social network or a news medium. The finding: more news than network.'
@@ -2433,7 +2433,7 @@ if-i-change-your-eyes-are-you-still-you-identity-thresholds-in-deepfake-percepti
   title: If I Change Your Eyes, Are You Still You? Identity Thresholds in Deepfake Perception
   tags:
   - user-behavior
-  - online-harm  
+  - online-harm
   methods:
   - user-study
   scholar_ids:
