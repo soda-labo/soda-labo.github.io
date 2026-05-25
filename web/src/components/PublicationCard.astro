@@ -86,10 +86,10 @@ const searchText = [
     </div>
 
     {pub.authors && (
-      <p class="mt-1 text-sm text-zinc-600" set:html={authorsHtml} />
+      <p class="mt-1 text-base text-zinc-600" set:html={authorsHtml} />
     )}
 
-    <p class="mt-1 text-sm text-zinc-500">
+    <p class="mt-1 text-base text-zinc-500">
       {pub.venue && <span class="italic">{pub.venue}</span>}
       {pub.venue && pub.year && <span class="mx-1.5">·</span>}
       {pub.year && <span>{pub.year}</span>}
@@ -108,7 +108,7 @@ const searchText = [
     </p>
 
     {pub.description && (
-      <p class="mt-2 text-sm leading-relaxed text-zinc-700">{pub.description}</p>
+      <p class="mt-2 text-base leading-relaxed text-zinc-700">{pub.description}</p>
     )}
 
     {(pub.tags.length + pub.methods.length + pub.platforms.length) > 0 && (
