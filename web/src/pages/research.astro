@@ -529,14 +529,18 @@ function primaryColor(topics: readonly string[]): string {
   }
 
   .research-paper > *:not(.section-head):not(.horizons):not(.closing) {
-    max-width: 1180px;
+    /* Match Base.astro's max-w-5xl (= 64rem = 1024px) so the research page
+       lines up with the header and the other pages. */
+    max-width: 64rem;
     margin-left: auto;
     margin-right: auto;
   }
   .research-paper .section-head,
   .research-paper .horizons,
   .research-paper .closing {
-    max-width: 1180px;
+    /* Match Base.astro's max-w-5xl (= 64rem = 1024px) so the research page
+       lines up with the header and the other pages. */
+    max-width: 64rem;
     margin-left: auto;
     margin-right: auto;
   }
