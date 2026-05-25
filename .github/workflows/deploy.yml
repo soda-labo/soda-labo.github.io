@@ -1,12 +1,8 @@
 name: Deploy Astro site to GitHub Pages
 
 on:
-  # Production deploys happen on push to main after astro-redesign merges in.
-  # The astro-redesign branch is also wired up so we can validate the workflow
-  # end-to-end before the merge; remove that line once main is the source of
-  # truth.
   push:
-    branches: [main, astro-redesign]
+    branches: [main]
   workflow_dispatch:
 
 # Allow the deploy step to publish to GitHub Pages.
