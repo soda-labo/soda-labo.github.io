@@ -195,20 +195,35 @@ export function loadPublications(): Publication[] {
   const overrides = readOverrides();
   const gsMap = dedupeScholar(readScholarCache());
 
-  // Build override-keyed index back to GS entries (via scholar_ids if present)
+  // Title-normalised index of every GS entry (e.g. "u s" vs "us" still keep
+  // separate keys here — that's why we also build a scholar_id index below).
   const overrideNormToGsKey = new Map<string, string>();
   for (const gsKey of gsMap.keys()) overrideNormToGsKey.set(gsKey, gsKey);
+
+  // scholar_id -> gsKey reverse index. Lets an override claim any GS entries
+  // it lists in `scholar_ids`, even when the GS title drifted (typos, "U.S."
+  // vs "US", renamed preprint, etc.) so the uncurated path doesn't surface
+  // the same paper a second time.
+  const sidToGsKey = new Map<string, string>();
+  for (const [gsKey, gs] of gsMap.entries()) {
+    for (const sid of gs.scholarIds) sidToGsKey.set(sid, gsKey);
+  }
 
   const out: Publication[] = [];
   const consumedGsKeys = new Set<string>();
 
   for (const [id, o] of Object.entries(overrides)) {
     // Always consume the matched GS entry so hidden papers don't reappear
-    // through the uncurated path.
+    // through the uncurated path. Match by normalised title first, then by
+    // any scholar_ids the override carries.
     const norm = normalizeTitle(o.title);
     const gsKey = overrideNormToGsKey.get(norm);
     const gs = gsKey ? gsMap.get(gsKey) : undefined;
     if (gsKey) consumedGsKeys.add(gsKey);
+    for (const sid of o.scholar_ids ?? []) {
+      const k = sidToGsKey.get(sid);
+      if (k) consumedGsKeys.add(k);
+    }
 
     if (o.hide) continue;
 
