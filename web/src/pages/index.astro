@@ -8,21 +8,21 @@ const featured = pubs.filter((p) => p.highlight).slice(0, 4);
 
 const press = [
   {
-    image: "/press/nhb_2025.jpg",
+    image: "/press/nhb_2025.webp",
     venue: "Nature Human Behaviour",
     year: 2025,
     blurb: "Our work on modelling human beliefs with LLMs",
     href: "https://www.nature.com/articles/s41562-025-02228-z",
   },
   {
-    image: "/press/nature_news_2020_jisun.jpg",
+    image: "/press/nature_news_2020_jisun.webp",
     venue: "Nature News",
     year: 2020,
     blurb: "Jisun featured for computational social science research",
     href: "https://media.nature.com/original/magazine-assets/d41586-020-01747-1/d41586-020-01747-1.pdf",
   },
   {
-    image: "/press/nature_news_2016_haewoon.jpg",
+    image: "/press/nature_news_2016_haewoon.webp",
     venue: "Nature News",
     year: 2016,
     blurb: "Haewoon's work covered for toxic behavior in online games",
@@ -94,14 +94,32 @@ const press = [
         class="flex transition-transform duration-700 ease-out"
         style={`width: ${press.length * 100}%`}
       >
-        {press.map((p) => (
+        {press.map((p, i) => (
           <div class="relative shrink-0" style={`width: ${100 / press.length}%`}>
             {p.href ? (
               <a href={p.href} target="_blank" rel="noopener" class="block">
-                <img src={p.image} alt={`${p.venue}, ${p.year}`} class="aspect-[992/1318] w-full bg-zinc-50 object-contain" loading="eager" />
+                <img
+                  src={p.image}
+                  alt={`${p.venue}, ${p.year}`}
+                  width="800"
+                  height="1050"
+                  class="aspect-[992/1318] w-full bg-zinc-50 object-contain"
+                  loading={i === 0 ? "eager" : "lazy"}
+                  fetchpriority={i === 0 ? "high" : "auto"}
+                  decoding="async"
+                />
               </a>
             ) : (
-              <img src={p.image} alt={`${p.venue}, ${p.year}`} class="aspect-[992/1318] w-full bg-zinc-50 object-contain" loading="eager" />
+              <img
+                src={p.image}
+                alt={`${p.venue}, ${p.year}`}
+                width="800"
+                height="1050"
+                class="aspect-[992/1318] w-full bg-zinc-50 object-contain"
+                loading={i === 0 ? "eager" : "lazy"}
+                fetchpriority={i === 0 ? "high" : "auto"}
+                decoding="async"
+              />
             )}
             <div class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/40 to-transparent px-5 pb-5 pt-16 text-white">
               <p class="text-sm sm:text-base">
