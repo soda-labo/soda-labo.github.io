@@ -13,8 +13,10 @@ web/node_modules/
 web/dist/
 web/.astro/
 
-# Python venv (used by GS refresh scripts)
+# Python venv + bytecode (used by GS refresh scripts)
 web/scripts/.venv/
+**/__pycache__/
+**/*.pyc
 
 # Logs
 *.log
