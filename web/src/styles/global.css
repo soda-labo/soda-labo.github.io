@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Spectral", "Newsreader", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* SoDA paper palette — very near white with the faintest warm undertone */
+  --color-paper:      #fdfcf9;
+  --color-paper-2:    #f6f3eb;
+  --color-ink:        #1f1a13;
+  --color-ink-soft:   #4a3f2f;
+  --color-ink-faint:  #98896f;
+  --color-rule:       #ece4d2;
+
+  /* generic accent (focus rings, link hover) — kept blue so it doesn't fight the
+     per-topic colors used on publication chips and the Research page */
+  --color-accent:      oklch(0.55 0.20 250);
+  --color-accent-soft: oklch(0.95 0.04 250);
+}
+
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  background-color: var(--color-paper);
+  /* Subtler grain — a near-white surface shows specks more than cream did. */
+  background-image:
+    radial-gradient(rgba(70, 50, 20, 0.022) 1px, transparent 1.2px),
+    radial-gradient(rgba(70, 50, 20, 0.016) 1px, transparent 1.2px);
+  background-size: 7px 7px, 13px 13px;
+  background-position: 0 0, 3px 4px;
+  background-attachment: fixed;
+  color: var(--color-ink);
+}
+
+/* Headings default to Spectral for the editorial feel; opt-out by adding font-sans */
+h1, h2, h3 {
+  font-family: var(--font-display);
+}
+
+.prose-soda a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-soda a:hover {
+  text-decoration: none;
+}

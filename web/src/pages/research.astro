@@ -1,0 +1,808 @@
+---
+import Base from "../layouts/Base.astro";
+import { topicColor, topicName } from "../lib/tag-colors";
+
+// Each area is anchored by a primary topic from tag-colors.ts and may carry
+// additional related topics. The colour comes straight from the topic palette
+// so the research narrative and publication chips stay visually in sync.
+const areas = [
+  {
+    num: "01",
+    kicker: "Networks, attention & influence",
+    headline: "Computational & social, treated as one system.",
+    topics: ["networks-influence", "user-behavior"] as const,
+    body: `Online platforms are shaped both by algorithms (what gets recommended, who is
+      followed) and by people (what we share, talk about, ignore). We build tools that
+      measure both sides together, so we can see how attention concentrates, how
+      information spreads, and which voices end up loudest, without reducing it all to
+      engagement counts.`,
+    illo: `
+      <g class="stroke thin">
+        <line x1="40" y1="220" x2="320" y2="220"/>
+        <line x1="40" y1="60" x2="40" y2="220"/>
+        <line x1="40" y1="220" x2="40" y2="226"/>
+        <line x1="110" y1="220" x2="110" y2="226"/>
+        <line x1="180" y1="220" x2="180" y2="226"/>
+        <line x1="250" y1="220" x2="250" y2="226"/>
+        <line x1="320" y1="220" x2="320" y2="226"/>
+      </g>
+      <g class="stroke ink">
+        <path d="M80,170 L140,130 L210,145 L260,90 L290,105"/>
+        <path d="M140,130 L170,90 L210,145"/>
+        <path d="M80,170 L100,200 L160,190 L210,145"/>
+      </g>
+      <g fill="var(--ink)">
+        <circle cx="80" cy="170" r="5"/>
+        <circle cx="100" cy="200" r="3.5"/>
+        <circle cx="140" cy="130" r="6"/>
+        <circle cx="160" cy="190" r="3.5"/>
+        <circle cx="170" cy="90" r="4"/>
+        <circle cx="210" cy="145" r="8"/>
+        <circle cx="260" cy="90" r="4.5"/>
+        <circle cx="290" cy="105" r="3.5"/>
+      </g>
+      <g class="stroke thick">
+        <circle cx="210" cy="145" r="42" fill="none"/>
+        <line x1="240" y1="175" x2="285" y2="220"/>
+        <line x1="234" y1="178" x2="278" y2="222" class="thin"/>
+      </g>
+      <g class="stroke thin">
+        <path d="M40,50 C60,45 80,52 90,48"/>
+        <path d="M44,40 C70,42 95,40"/>
+      </g>`,
+  },
+  {
+    num: "02",
+    kicker: "Beliefs, opinions & narratives at scale",
+    headline: "From raw text to a semantic space of human belief.",
+    topics: ["beliefs-opinions"] as const,
+    body: `What do people believe, and how do those beliefs change? Surveys can ask, but
+      they're slow and small. We build computational tools that read meaning (framing,
+      stance, belief) directly from online text. Our recent <em>Nature Human Behaviour</em>
+      paper introduced a "map" of human beliefs that can predict which view a person is
+      likely to adopt next, given the ones they already hold.`,
+    illo: `
+      <g class="dotted">
+        <path d="M85,80 C130,100 170,90 215,70"/>
+        <path d="M85,80 C100,140 140,170 175,160"/>
+        <path d="M215,70 C260,110 280,150 270,200"/>
+        <path d="M175,160 C220,180 260,195 270,200"/>
+        <path d="M175,160 C150,200 110,210 90,200"/>
+        <path d="M85,80 C115,55 145,55 175,160"/>
+      </g>
+      <g class="stroke ink">
+        <path d="M55,60 C55,42 75,32 95,40 C115,30 135,45 130,65 C140,75 130,90 110,90 C95,100 70,95 65,82 C50,80 48,68 55,60 Z" class="fill-paper"/>
+        <ellipse cx="215" cy="65" rx="40" ry="26" class="fill-paper"/>
+        <path d="M140,140 C140,118 165,108 185,118 C210,108 230,125 225,150 C240,165 220,185 195,180 C175,195 145,185 142,170 C125,168 125,148 140,140 Z" class="fill-paper"/>
+        <ellipse cx="280" cy="200" rx="32" ry="22" class="fill-paper"/>
+        <ellipse cx="90" cy="200" rx="35" ry="22" class="fill-paper"/>
+      </g>
+      <g class="stroke thin ink">
+        <line x1="75" y1="60" x2="105" y2="60"/>
+        <line x1="75" y1="72" x2="115" y2="72"/>
+        <line x1="195" y1="60" x2="235" y2="60"/>
+        <line x1="195" y1="72" x2="225" y2="72"/>
+        <line x1="158" y1="140" x2="210" y2="140"/>
+        <line x1="158" y1="152" x2="215" y2="152"/>
+        <line x1="158" y1="164" x2="200" y2="164"/>
+        <line x1="265" y1="195" x2="295" y2="195"/>
+        <line x1="265" y1="207" x2="290" y2="207"/>
+        <line x1="72" y1="195" x2="108" y2="195"/>
+        <line x1="72" y1="207" x2="100" y2="207"/>
+      </g>
+      <g class="stroke">
+        <path d="M225,225 C235,245 260,250 275,228"/>
+        <path class="thin" d="M275,228 L270,236 M275,228 L283,232"/>
+      </g>`,
+  },
+  {
+    num: "03",
+    kicker: "Online safety, harms & platform governance",
+    headline: "Toxicity is not an act; it's an outcome of design.",
+    topics: ["online-harm"] as const,
+    body: `Toxicity, hate, and misinformation are usually not the work of lone bad actors.
+      They are shaped by competition, group norms, and the design of the platform itself.
+      We study toxic behavior in online games and communities, how false stories spread,
+      and how moderation rules change what gets said, including the harder question of
+      what to do when different communities disagree on what should be allowed.`,
+    illo: `
+      <g class="stroke ink">
+        <path d="M30,235 C100,230 200,238 330,232" class="thin"/>
+        <line x1="60" y1="235" x2="60" y2="180"/>
+        <line x1="80" y1="235" x2="80" y2="175"/>
+        <line x1="100" y1="235" x2="100" y2="180"/>
+        <line x1="120" y1="235" x2="120" y2="176"/>
+        <line x1="140" y1="235" x2="140" y2="180"/>
+        <line x1="160" y1="235" x2="160" y2="175"/>
+        <line x1="180" y1="235" x2="180" y2="180"/>
+        <line x1="200" y1="235" x2="200" y2="176"/>
+        <line x1="220" y1="235" x2="220" y2="180"/>
+        <line x1="240" y1="235" x2="240" y2="178"/>
+        <line x1="260" y1="235" x2="260" y2="180"/>
+        <line x1="280" y1="235" x2="280" y2="175"/>
+        <line x1="300" y1="235" x2="300" y2="180"/>
+        <path class="thin" d="M55,195 C150,192 250,196 305,193"/>
+        <path class="thin" d="M55,215 C150,212 250,216 305,213"/>
+        <path class="thin" d="M55,180 L60,170 L65,180"/>
+        <path class="thin" d="M75,180 L80,167 L85,180"/>
+        <path class="thin" d="M95,180 L100,170 L105,180"/>
+        <path class="thin" d="M115,180 L120,167 L125,180"/>
+        <path class="thin" d="M135,180 L140,170 L145,180"/>
+        <path class="thin" d="M155,180 L160,167 L165,180"/>
+        <path class="thin" d="M175,180 L180,170 L185,180"/>
+        <path class="thin" d="M195,180 L200,168 L205,180"/>
+        <path class="thin" d="M215,180 L220,170 L225,180"/>
+        <path class="thin" d="M235,180 L240,167 L245,180"/>
+        <path class="thin" d="M255,180 L260,170 L265,180"/>
+        <path class="thin" d="M275,180 L280,167 L285,180"/>
+        <path class="thin" d="M295,180 L300,170 L305,180"/>
+      </g>
+      <g fill="var(--ink)">
+        <circle cx="110" cy="220" r="4"/>
+        <circle cx="140" cy="225" r="4"/>
+        <circle cx="170" cy="220" r="4"/>
+        <circle cx="200" cy="226" r="4"/>
+        <circle cx="230" cy="220" r="4"/>
+        <circle cx="255" cy="225" r="4"/>
+      </g>
+      <g class="stroke thick ink">
+        <path d="M155,40 C175,30 195,30 215,40 C218,75 200,105 185,118 C170,105 152,75 155,40 Z" class="fill-paper"/>
+        <path class="thin" d="M175,55 C180,70 190,80 198,70"/>
+      </g>
+      <g class="stroke">
+        <path class="thick" d="M40,75 L52,95 L42,105 L60,130 L48,138 L65,160"/>
+      </g>
+      <g class="stroke">
+        <path class="thin" d="M320,80 L330,95 L322,103 L335,120"/>
+      </g>`,
+  },
+  {
+    num: "04",
+    kicker: "LLMs as social & cognitive actors",
+    headline: "Not just how well they perform, but how they reason about us.",
+    topics: ["llms-responsible-ai"] as const,
+    body: `LLMs are increasingly used for moderation, counseling, and policy work, tasks
+      that demand social and cultural judgment, not just accuracy. We test how reliably
+      they detect hate speech, how easily their stated beliefs can be talked out from
+      under them, and whether they can simulate public opinion across different cultures.
+      We also study how trust in AI varies by profession and country, because the
+      same model does not land the same way for everyone.`,
+    illo: `
+      <g class="stroke ink">
+        <line x1="30" y1="200" x2="330" y2="200" class="thick"/>
+        <line x1="60" y1="200" x2="55" y2="240" class="thin"/>
+        <line x1="300" y1="200" x2="305" y2="240" class="thin"/>
+        <circle cx="100" cy="100" r="32" class="fill-paper"/>
+        <path class="thin" d="M88,98 C90,96 94,96 96,98"/>
+        <path class="thin" d="M108,98 C110,96 114,96 116,98"/>
+        <path class="thin" d="M92,115 C98,120 108,120 114,115"/>
+        <path d="M55,200 C60,165 80,140 100,132 C120,140 140,165 145,200"/>
+        <path d="M230,72 C228,68 232,64 238,64 L290,64 C296,64 300,68 298,72 L298,128 C300,132 296,136 290,136 L238,136 C232,136 228,132 230,128 Z" class="fill-paper"/>
+        <g class="thin">
+          <circle cx="245" cy="86" r="3"/>
+          <circle cx="270" cy="86" r="3"/>
+          <circle cx="285" cy="86" r="3"/>
+          <line x1="248" y1="86" x2="267" y2="86"/>
+          <line x1="273" y1="86" x2="282" y2="86"/>
+          <line x1="245" y1="89" x2="245" y2="105"/>
+          <line x1="270" y1="89" x2="270" y2="110"/>
+          <line x1="285" y1="89" x2="285" y2="105"/>
+          <line x1="245" y1="110" x2="270" y2="110"/>
+          <line x1="270" y1="115" x2="285" y2="115"/>
+          <circle cx="245" cy="110" r="2.2"/>
+          <circle cx="285" cy="115" r="2.2"/>
+        </g>
+        <path d="M215,200 C220,168 235,148 264,140 C293,148 308,168 315,200"/>
+      </g>
+      <g class="stroke">
+        <ellipse cx="180" cy="85" rx="32" ry="18" class="fill-paper"/>
+        <path d="M168,100 L162,112 L178,103" class="fill-paper"/>
+        <line x1="170" y1="83" x2="190" y2="83" class="thin"/>
+        <line x1="167" y1="90" x2="193" y2="90" class="thin"/>
+      </g>`,
+  },
+  {
+    num: "05",
+    kicker: "Digital health & wellbeing",
+    headline: "Public conversation as a public-health signal.",
+    topics: ["digital-health"] as const,
+    body: `When something goes wrong with collective wellbeing (a pandemic, a vaccination
+      controversy, a mental-health crisis) it shows up in online discourse before it
+      shows up in clinics. We work with health researchers to read those signals, study
+      how language around illness differs across cultures, and build datasets and models
+      that help campaigns reach the people they're meant to serve.`,
+    illo: `
+      <g class="stroke thin">
+        <line x1="30" y1="140" x2="90" y2="140"/>
+        <line x1="160" y1="140" x2="198" y2="140"/>
+        <line x1="262" y1="140" x2="330" y2="140"/>
+      </g>
+      <g class="stroke thick ink">
+        <path d="M90,140 L100,140 L106,118 L112,170 L118,90 L124,182 L130,140 L160,140"/>
+        <path d="M198,140 L208,140 L214,120 L220,165 L226,98 L232,178 L238,140 L262,140"/>
+      </g>
+      <g class="stroke thick">
+        <path d="M70,55 C62,40 42,42 42,62 C42,84 70,108 70,108 C70,108 98,84 98,62 C98,42 78,40 70,55 Z" class="fill-paper"/>
+      </g>
+      <g class="stroke thin ink">
+        <path d="M52,72 C56,78 78,82 88,72"/>
+      </g>
+      <g class="stroke ink">
+        <rect x="252" y="34" width="62" height="76" rx="3" class="fill-paper"/>
+        <line x1="262" y1="50" x2="306" y2="50" class="thin"/>
+        <line x1="262" y1="58" x2="302" y2="58" class="thin"/>
+        <path class="thin" d="M262,76 L270,72 L277,84 L285,68 L292,80 L300,72 L307,76"/>
+        <circle cx="285" cy="98" r="2.4"/>
+        <line x1="262" y1="103" x2="307" y2="103" class="thin"/>
+      </g>
+      <g class="stroke">
+        <circle cx="80" cy="208" r="14" class="fill-paper"/>
+        <path d="M56,254 C58,228 102,228 104,254" class="thin"/>
+        <circle cx="180" cy="208" r="14" class="fill-paper"/>
+        <path d="M156,254 C158,228 202,228 204,254" class="thin"/>
+        <circle cx="280" cy="208" r="14" class="fill-paper"/>
+        <path d="M256,254 C258,228 302,228 304,254" class="thin"/>
+      </g>
+      <g class="dotted">
+        <line x1="96" y1="208" x2="164" y2="208"/>
+        <line x1="196" y1="208" x2="264" y2="208"/>
+      </g>`,
+  },
+];
+
+const thrusts = [
+  {
+    num: "06",
+    kicker: "Socio-cognitive stability",
+    headline: "Measuring how an AI's beliefs drift across a conversation.",
+    topics: ["llms-responsible-ai"] as const,
+    body: `Most AI evaluations test a single answer to a single question. But real use is
+      back-and-forth. We're developing new ways to measure how an AI's beliefs, norms,
+      and emotional tone shift as a conversation unfolds, so "alignment" becomes
+      something we can check over time, not just at one moment.`,
+    illo: `
+      <g class="stroke ink">
+        <path d="M20,200 C100,196 180,202 260,198" class="thin"/>
+        <path d="M120,200 L140,170 L160,200 Z" class="fill-paper"/>
+        <path d="M60,170 C140,160 180,162 220,170 C180,178 140,178 60,170 Z" class="fill-paper"/>
+        <ellipse cx="100" cy="148" rx="28" ry="14" class="fill-paper"/>
+        <ellipse cx="105" cy="124" rx="22" ry="11" class="fill-paper"/>
+        <ellipse cx="100" cy="104" rx="16" ry="9" class="fill-paper"/>
+        <ellipse cx="102" cy="88" rx="11" ry="6" class="fill-paper"/>
+        <ellipse cx="195" cy="148" rx="22" ry="12" class="fill-paper"/>
+        <ellipse cx="192" cy="128" rx="16" ry="9" class="fill-paper"/>
+        <ellipse cx="195" cy="112" rx="10" ry="6" class="fill-paper"/>
+      </g>
+      <g class="stroke thin">
+        <path d="M60,90 C66,86 74,94 80,90"/>
+        <path d="M55,100 C61,96 69,104 75,100"/>
+        <path d="M220,100 C226,96 234,104 240,100"/>
+      </g>`,
+  },
+  {
+    num: "07",
+    kicker: "Bias & fairness across systems",
+    headline: "When data, media, or models speak louder for some than others.",
+    topics: ["bias-fairness", "news-journalism"] as const,
+    body: `Bias isn't only a model problem. It shows up in which voices news outlets
+      amplify, which faces get recognised by APIs, which jobs an ad reaches.
+      We measure these asymmetries across media, data, and AI systems, and build
+      pipelines and literacy tools that make them visible to the people they affect.`,
+    illo: `
+      <g class="stroke ink">
+        <line x1="140" y1="48" x2="140" y2="172" class="thick"/>
+        <path d="M124,172 L156,172 L150,186 L130,186 Z" class="fill-paper"/>
+        <line x1="60" y1="118" x2="220" y2="84" class="thick"/>
+        <circle cx="140" cy="100" r="3" fill="var(--ink)"/>
+        <line x1="60" y1="118" x2="42" y2="138" class="thin"/>
+        <line x1="60" y1="118" x2="78" y2="138" class="thin"/>
+        <path d="M30,138 L90,138 L82,160 L38,160 Z" class="fill-paper"/>
+        <line x1="220" y1="84" x2="202" y2="64" class="thin"/>
+        <line x1="220" y1="84" x2="238" y2="64" class="thin"/>
+        <path d="M190,64 L250,64 L242,86 L198,86 Z" class="fill-paper"/>
+      </g>
+      <g class="stroke ink">
+        <circle cx="44" cy="148" r="5" class="fill-paper"/>
+        <circle cx="54" cy="145" r="5" class="fill-paper"/>
+        <circle cx="64" cy="148" r="5" class="fill-paper"/>
+        <circle cx="74" cy="145" r="5" class="fill-paper"/>
+        <circle cx="49" cy="138" r="5" class="fill-paper"/>
+        <circle cx="60" cy="136" r="5" class="fill-paper"/>
+        <circle cx="71" cy="138" r="5" class="fill-paper"/>
+      </g>
+      <g class="stroke ink">
+        <circle cx="220" cy="76" r="5" class="fill-paper"/>
+      </g>
+      <g class="stroke thin">
+        <path d="M20,200 C100,196 200,202 270,198"/>
+      </g>`,
+  },
+  {
+    num: "08",
+    kicker: "Socially faithful digital twins",
+    headline: "LLM agents that represent specific populations.",
+    topics: ["llms-responsible-ai", "beliefs-opinions"] as const,
+    body: `Some social experiments are too risky to run on real people. Testing
+      counter-messaging against online radicalization, for example. We're working
+      toward AI agents that realistically represent the beliefs and behaviors of
+      specific communities, so researchers and policymakers can simulate before they
+      intervene.`,
+    illo: `
+      <g class="stroke ink">
+        <circle cx="90" cy="80" r="22" class="fill-paper"/>
+        <path d="M62,180 C66,140 80,118 90,108 C100,118 114,140 118,180"/>
+        <path class="thin" d="M82,78 C84,76 88,76 90,78"/>
+        <path class="thin" d="M94,78 C96,76 100,76 102,78"/>
+        <path class="thin" d="M86,90 C90,93 96,93 100,90"/>
+        <circle cx="190" cy="80" r="22" fill="none" stroke-dasharray="2 3" stroke="var(--ink)"/>
+        <path d="M162,180 C166,140 180,118 190,108 C200,118 214,140 218,180" stroke-dasharray="2 3" fill="none" stroke="var(--ink)"/>
+        <path class="thin" d="M182,78 C184,76 188,76 190,78"/>
+        <path class="thin" d="M194,78 C196,76 200,76 202,78"/>
+        <path class="thin" d="M186,90 C190,93 196,93 200,90"/>
+      </g>
+      <g class="stroke">
+        <line x1="140" y1="30" x2="140" y2="200" class="dotted"/>
+      </g>
+      <g class="stroke thin">
+        <path d="M118,140 C128,144 132,144 138,142"/>
+        <path d="M138,142 L132,140 M138,142 L132,146"/>
+        <path d="M162,140 C152,144 148,144 142,142"/>
+        <path d="M142,142 L148,140 M142,142 L148,146"/>
+      </g>`,
+  },
+  {
+    num: "09",
+    kicker: "Safety in participatory systems",
+    headline: "Keeping games and creator platforms safer.",
+    topics: ["online-harm", "user-behavior"] as const,
+    body: `Online games and user-generated platforms are evolving fast, with AI agents and
+      player-made content blurring the line between user and system. We study the design
+      choices that shape harmful behavior at scale, from toxicity in team-based games
+      to risks in children's media.`,
+    illo: `
+      <g class="stroke ink">
+        <path d="M105,108 C100,98 120,90 140,92 C160,90 180,98 175,108 C188,115 188,130 175,138 C170,150 155,148 150,142 C145,148 135,148 130,142 C125,148 110,150 105,138 C92,130 92,115 105,108 Z" class="fill-paper"/>
+        <circle cx="120" cy="120" r="3" fill="var(--ink)"/>
+        <circle cx="160" cy="120" r="3" fill="var(--ink)"/>
+        <line x1="118" y1="128" x2="124" y2="128" class="thin"/>
+        <line x1="121" y1="125" x2="121" y2="131" class="thin"/>
+        <path class="thin" d="M155,128 C158,125 162,131 165,128"/>
+        <circle cx="140" cy="40" r="12" class="fill-paper"/>
+        <path d="M125,68 C128,58 152,58 155,68" class="thin"/>
+        <circle cx="240" cy="120" r="12" class="fill-paper"/>
+        <path d="M225,148 C228,138 252,138 255,148" class="thin"/>
+        <circle cx="140" cy="200" r="12" class="fill-paper"/>
+        <path d="M125,228 C128,218 152,218 155,228" class="thin"/>
+        <circle cx="40" cy="120" r="12" class="fill-paper"/>
+        <path d="M25,148 C28,138 52,138 55,148" class="thin"/>
+      </g>
+      <g class="stroke thin">
+        <path d="M55,135 C75,110 90,90 130,55"/>
+        <path d="M150,55 C190,90 205,110 225,135"/>
+        <path d="M225,140 C205,165 190,180 150,210"/>
+        <path d="M130,210 C90,180 75,165 55,140"/>
+      </g>`,
+  },
+];
+
+const heroIllo = `
+  <g class="stroke ink">
+    <path d="M70,90 C110,40 220,40 280,90 C320,130 310,200 240,225 C170,250 90,230 60,180 C45,150 50,110 70,90 Z"/>
+    <path class="thin" d="M95,110 C140,80 220,85 260,120"/>
+    <path class="thin" d="M85,150 C135,140 230,150 270,165"/>
+    <path class="thin" d="M100,190 C150,200 220,200 255,185"/>
+    <path class="thin" d="M150,80 C145,140 160,200 170,225"/>
+    <path class="thin" d="M210,80 C215,135 200,195 195,225"/>
+  </g>
+  <g fill="var(--ink)">
+    <circle cx="120" cy="105" r="3.2"/>
+    <circle cx="200" cy="92" r="3.2"/>
+    <circle cx="255" cy="135" r="3.2"/>
+    <circle cx="170" cy="155" r="3.2"/>
+    <circle cx="110" cy="170" r="3.2"/>
+    <circle cx="225" cy="180" r="3.2"/>
+    <circle cx="170" cy="215" r="3.2"/>
+  </g>
+  <g class="stroke ink">
+    <path d="M40,210 C90,250 270,250 320,210 C310,240 270,265 180,265 C90,265 50,240 40,210 Z"/>
+    <path class="thin" d="M60,225 C70,240 90,245 110,245"/>
+    <path class="thin" d="M250,245 C275,243 295,235 305,225"/>
+  </g>
+  <g class="stroke">
+    <path class="thin" d="M295,70 C275,55 245,55 230,75"/>
+    <path class="thin" d="M230,75 L238,68 M230,75 L240,80"/>
+  </g>`;
+
+// The primary topic of each section drives its accent color.
+function primaryColor(topics: readonly string[]): string {
+  return topicColor(topics[0]).bg;
+}
+---
+
+<Base title="Research · SoDA Lab">
+  <div class="research-paper">
+    <section class="hero">
+      <div>
+        <h1 class="hero-title">
+          How <em>people</em> behave online,<br />
+          and how <em>AI</em> is reshaping those spaces.
+        </h1>
+        <p class="hero-lede">
+          We study these dynamics to help design healthier digital spaces.
+        </p>
+      </div>
+      <div class="illo-wrap hero-illo" style="color: #b14a1f">
+        <svg class="illo" viewBox="0 0 360 280" aria-hidden="true" set:html={heroIllo} />
+      </div>
+    </section>
+
+    <div class="section-head">
+      <span class="label">Themes</span>
+      <span class="line"></span>
+      <h2>what we're working on</h2>
+    </div>
+
+    {areas.map((a, i) => (
+      <article class:list={["topic", i % 2 === 1 && "flip"]} style={`color: ${primaryColor(a.topics)}`}>
+        <div class="illo-wrap">
+          <svg class="illo" viewBox="0 0 360 280" aria-hidden="true" set:html={a.illo} />
+        </div>
+        <div class="copy">
+          <div class="kicker"><span class="num">{a.num}</span> {a.kicker}</div>
+          <h3>{a.headline}</h3>
+          <p set:html={a.body} />
+          <div class="topic-chips">
+            <span class="chips-label">explore in publications</span>
+            {a.topics.map((t) => (
+              <a
+                href={`/publications?topic=${t}`}
+                class="topic-chip"
+                style={`border-color:${topicColor(t).bg};color:${topicColor(t).bg};`}
+              >
+                {topicName(t)}
+              </a>
+            ))}
+          </div>
+        </div>
+      </article>
+    ))}
+
+    <div class="section-head" style="margin-top: 80px;">
+      <span class="label">Horizons</span>
+      <span class="line"></span>
+      <h2>where we're headed</h2>
+    </div>
+
+    <div class="horizons">
+      {thrusts.map((t) => (
+        <div class="horizon" style={`color: ${primaryColor(t.topics)}`}>
+          <div class="illo-wrap">
+            <svg class="illo" viewBox="0 0 280 220" aria-hidden="true" set:html={t.illo} />
+          </div>
+          <div class="kicker"><span class="num">{t.num}</span> {t.kicker}</div>
+          <h3>{t.headline}</h3>
+          <p set:html={t.body} />
+          <div class="topic-chips">
+            {t.topics.map((tag) => (
+              <a
+                href={`/publications?topic=${tag}`}
+                class="topic-chip"
+                style={`border-color:${topicColor(tag).bg};color:${topicColor(tag).bg};`}
+              >
+                {topicName(tag)}
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <section class="closing">
+      <p>
+        To see what we have been working on, browse our
+        <a href="/publications">publications</a>.
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style is:global>
+  /* Scoped to the .research-paper container so this page can have its own
+     paper-toned look without leaking into header / footer. */
+  .research-paper {
+    /* alias the global tokens so existing rules below keep working */
+    --paper: var(--color-paper);
+    --paper-2: var(--color-paper-2);
+    --ink: var(--color-ink);
+    --ink-soft: var(--color-ink-soft);
+    --ink-faint: var(--color-ink-faint);
+    --rule: var(--color-rule);
+
+    color: var(--ink);
+    /* break out to full viewport width even though we're inside the Base <main max-w-5xl> */
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding: 56px clamp(20px, 5vw, 64px) 80px;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .research-paper > *:not(.section-head):not(.horizons):not(.closing) {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .research-paper .section-head,
+  .research-paper .horizons,
+  .research-paper .closing {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .research-paper .masthead {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 56px;
+  }
+  .research-paper .crumbs {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .research-paper .crumbs .dot {
+    margin: 0 8px;
+    color: var(--rule);
+  }
+
+  .research-paper .hero {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 64px;
+    align-items: end;
+    margin-bottom: 80px;
+  }
+  .research-paper .hero-title {
+    font-family: "Spectral", "Newsreader", serif;
+    font-weight: 500;
+    font-size: clamp(48px, 7vw, 80px);
+    line-height: 0.98;
+    letter-spacing: -0.02em;
+    margin: 0 0 24px;
+    color: var(--ink);
+  }
+  .research-paper .hero-title em {
+    font-style: italic;
+    font-weight: 400;
+    /* gradient text uses our venn-mark palette: red → yellow → blue */
+    background: linear-gradient(90deg, #ed5765 0%, #f59e0b 50%, #3db7e6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .research-paper .hero-lede {
+    font-family: "Spectral", serif;
+    font-size: 18px;
+    font-style: italic;
+    color: var(--ink-soft);
+    max-width: 36ch;
+    margin: 0;
+  }
+  @media (max-width: 720px) {
+    .research-paper .hero {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .research-paper .section-head {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 48px;
+  }
+  .research-paper .section-head .label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .research-paper .section-head .line {
+    height: 1px;
+    background: var(--rule);
+  }
+  .research-paper .section-head h2 {
+    font-family: "Spectral", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+    color: var(--ink-soft);
+  }
+
+  .research-paper .topic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+    padding: 48px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .research-paper .topic.flip > .illo-wrap {
+    order: 2;
+  }
+  @media (max-width: 720px) {
+    .research-paper .topic {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .research-paper .topic.flip > .illo-wrap {
+      order: 0;
+    }
+  }
+  .research-paper .kicker {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: currentColor;
+    margin-bottom: 16px;
+  }
+  .research-paper .kicker .num {
+    color: var(--ink-faint);
+    margin-right: 10px;
+  }
+  .research-paper .topic h3,
+  .research-paper .horizon h3 {
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 0 0 16px;
+  }
+  .research-paper .horizon h3 {
+    font-size: 22px;
+  }
+  .research-paper .topic p,
+  .research-paper .horizon p {
+    color: var(--ink-soft);
+    margin: 0;
+    font-size: 15px;
+  }
+
+  /* Topic chips that deep-link to publications page filtered by topic */
+  .research-paper .topic-chips {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+  .research-paper .chips-label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-right: 4px;
+  }
+  .research-paper .topic-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    background: white;
+    transition: background-color 120ms ease, color 120ms ease;
+  }
+  .research-paper .topic-chip:hover {
+    background: currentColor;
+    color: white !important;
+  }
+  .research-paper .topic-chip:hover {
+    /* The border stays the same color thanks to currentColor on the parent */
+  }
+  /* The arrow trick: when hovering, the chip fills with its accent color and
+     the text turns white. Achieved with two layered rules so currentColor
+     resolves cleanly. */
+  .research-paper .horizon .topic-chips {
+    margin-top: 12px;
+  }
+
+  /* illustrations */
+  .research-paper .illo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .research-paper .illo {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+  }
+  .research-paper .horizon .illo {
+    max-width: 220px;
+  }
+  /* stroke color uses currentColor (= per-topic accent) */
+  .research-paper .illo .stroke,
+  .research-paper .illo path,
+  .research-paper .illo line,
+  .research-paper .illo circle,
+  .research-paper .illo ellipse {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .research-paper .illo .ink,
+  .research-paper .illo .ink path,
+  .research-paper .illo .ink line,
+  .research-paper .illo .ink circle,
+  .research-paper .illo .ink ellipse {
+    stroke: var(--ink);
+  }
+  .research-paper .illo .thin { stroke-width: 0.9; }
+  .research-paper .illo .thick { stroke-width: 2.2; }
+  .research-paper .illo .fill-paper { fill: var(--paper); }
+  .research-paper .illo .dotted {
+    stroke-dasharray: 0.1 4;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    fill: none;
+  }
+  /* circles with explicit fill should keep their fill */
+  .research-paper .illo [fill]:not([fill="none"]):not([fill="currentColor"]) {
+    fill: var(--ink);
+    stroke: none;
+  }
+
+  .research-paper .horizons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+  }
+  .research-paper .horizon {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    text-align: left;
+  }
+  .research-paper .horizon .illo-wrap {
+    margin-bottom: 16px;
+  }
+  @media (max-width: 720px) {
+    .research-paper .horizons {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .research-paper .closing {
+    margin-top: 64px;
+    padding-top: 32px;
+    border-top: 1px solid var(--rule);
+    font-family: "Spectral", serif;
+    font-style: italic;
+    color: var(--ink-soft);
+  }
+  .research-paper .closing a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--rule);
+    text-underline-offset: 3px;
+  }
+  .research-paper .closing a:hover {
+    text-decoration-color: var(--ink);
+  }
+</style>

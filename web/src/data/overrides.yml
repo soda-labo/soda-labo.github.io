@@ -1,0 +1,2896 @@
+a-semantic-embedding-space-based-on-large-language-models-for-modelling-human-be:
+  title: A semantic embedding space based on large language models for modelling human beliefs
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  - nlp
+  platforms:
+  - reddit
+  - multi-platform
+  image: nhb25_lee.png
+  highlight: true
+  description: How do beliefs interconnect, and what drives a person to adopt new ones? We fine-tune large language models on online debate data to map thousands of beliefs into a semantic space where proximity
+    reflects coherence. Position in that space predicts which beliefs an individual is likely to adopt next and quantifies cognitive dissonance via distance between existing and new beliefs.
+  link:
+    url: https://www.nature.com/articles/s41562-025-02228-z
+    venue: Nature Human Behaviour, 2025
+  news:
+  - Press coverage - [Phys.org Featured Article](https://phys.org/news/2025-06-llms-delve-online-debates-human.html)
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://rdcu.be/epoQJ">View-only without paywall (ReadCube)</a>
+  authors: Byunghwee Lee, Rachith Aiyappa, Yong-Yeol Ahn, Haewoon Kwak, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:JQOojiI6XY0C
+  - FYtw3zkAAAAJ:eJXPG6dFmWUC
+a-survey-on-predicting-the-factuality-and-the-bias-of-news-media:
+  title: A Survey on Predicting the Factuality and the Bias of News Media
+  tags:
+  - news-journalism
+  - bias-fairness
+  platforms:
+  - news-media
+  image: acl24_preslav.png
+  highlight: true
+  description: Fact-checking every story is impossible. Instead, this survey reviews how to profile entire news outlets, so any article can be flagged the moment it appears. We argue that factuality and
+    political bias should be modeled jointly rather than separately, and survey state-of-the-art across text, social context, and beyond.
+  link:
+    url: https://aclanthology.org/2024.findings-acl.944/
+    venue: ACL Findings, 2024
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6603934322056893180">15+ papers citing this work (Google scholar)</a>
+  authors: Preslav Nakov, Jisun An, Haewoon Kwak, Muhammad Arslan Manzoor, Zain Muhammad Mujahid, Husrev Taha Sencar
+  scholar_ids:
+  - dcjrz5MAAAAJ:VOx2b1Wkg3QC
+  - FYtw3zkAAAAJ:zA6iFVUQeVQC
+rematch-robust-and-efficient-matching-of-local-knowledge-graphs-to-improve-struc:
+  title: 'Rematch: Robust and Efficient Matching of Local Knowledge Graphs to Improve Structural and Semantic Similarity'
+  tags:
+  - networks-influence
+  methods:
+  - nlp
+  - networks
+  image: naacl24_zoher.gif
+  highlight: true
+  description: 'Comparing knowledge graphs that represent sentence meaning is harder than it sounds: existing metrics are slow and miss semantic nuance. Rematch is a new AMR similarity metric that ranks
+    first on semantic benchmarks (1 to 5 percentage points over state of the art) and runs five times faster.'
+  link:
+    url: https://arxiv.org/abs/2404.02126
+    venue: NAACL Findings, 2024
+  authors: Zoher Kachwala, Jisun An, Haewoon Kwak, Filippo Menczer
+  scholar_ids:
+  - dcjrz5MAAAAJ:1yQoGdGgb4wC
+  - FYtw3zkAAAAJ:4fKUyHm3Qg0C
+chatgpt-rates-natural-language-explanation-quality-like-humans-but-on-which-scal:
+  title: 'ChatGPT Rates Natural Language Explanation Quality Like Humans: But on Which Scales?'
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  - nlp
+  - crowdsourced
+  image: lreccoling24_fan.png
+  highlight: true
+  description: As AI explains its own decisions in natural language, who should grade those explanations? We compare ChatGPT and human judgments on informativeness and clarity across binary, ternary, and
+    7-point scales, finding ChatGPT aligns well with humans on coarse-grained ratings, with paired comparison and dynamic prompting further improving alignment.
+  link:
+    url: https://aclanthology.org/2024.lrec-main.277/
+    venue: LREC-COLING, 2024
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1284858995869036652">15+ papers citing this work (Google scholar)</a>
+  authors: Fan Huang, Haewoon Kwak, Kunwoo Park, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:PR6Y55bgFSsC
+  - FYtw3zkAAAAJ:B3FOqHPlNUQC
+the-impact-of-toxic-trolling-comments-on-anti-vaccine-youtube-videos:
+  title: The Impact of Toxic Trolling Comments on Anti-vaccine YouTube Videos
+  tags:
+  - online-harm
+  platforms:
+  - youtube
+  image: scirep24_kuni.png
+  highlight: true
+  description: Anti-vaccine YouTube comments are often dismissed as background noise, but do they actually push viewers toward hesitancy? We find that highly-liked toxic comments measurably increase fear
+    in later comments, with contagion running in both directions. The result has implications for public health messaging and how moderators handle 'just trolling.'
+  link:
+    url: https://www.nature.com/articles/s41598-024-54925-w
+    venue: Scientific Reports, 2024
+  authors: Kunihiro Miyazaki, Takayuki Uchiba, Haewoon Kwak, Jisun An, Kazutoshi Sasahara
+  scholar_ids:
+  - dcjrz5MAAAAJ:ZuybSZzF8UAC
+  - FYtw3zkAAAAJ:vRqMK49ujn8C
+public-perception-of-generative-ai-on-twitter-an-empirical-study-based-on-occupa:
+  title: 'Public Perception of Generative AI on Twitter: An Empirical Study Based on Occupation and Usage'
+  tags:
+  - user-behavior
+  methods:
+  - llm
+  - nlp
+  platforms:
+  - twitter
+  image: epj24_miyazaki.png
+  highlight: true
+  description: 'What does the public actually think of generative AI? We analyze 3M tweets from 2019 to 2023 and find broad interest across occupations, not just tech. Sentiment is generally positive and
+    tracks exposure, with one exception: illustrators are notably negative, reflecting concerns over training-data ethics.'
+  link:
+    url: https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00445-y
+    venue: EPJ Data Science, 2024
+  news:
+  - Press coverage-[Blockchain News](https://blockchain.news/analysis/surge-in-generative-ai-interest-insights-from-twitter-discussions)
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7567748626766884591">35+ papers citing this work (Google scholar)</a>
+  authors: Kunihiro Miyazaki, Taichi Murayama, Takayuki Uchiba, Jisun An, Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:9vf0nzSNQJEC
+  - FYtw3zkAAAAJ:Tiz5es2fbqcC
+enhancing-spatiotemporal-traffic-prediction-through-urban-human-activity-analysi:
+  title: Enhancing Spatiotemporal Traffic Prediction through Urban Human Activity Analysis
+  tags:
+  - llms-responsible-ai
+  methods:
+  - networks
+  - dataset
+  image: cikm23_han.png
+  highlight: true
+  description: Traffic prediction usually relies on sensor networks that miss the human side of urban movement. We add human-activity data from the National Household Travel Survey to graph-convolutional
+    traffic models, achieving state-of-the-art accuracy with minimal architectural changes.
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3583780.3614867
+    venue: ACM CIKM, 2023
+  authors: Sumin Han, Youngjun Park, Minji Lee, Jisun An, Dongman Lee
+  scholar_ids:
+  - FYtw3zkAAAAJ:738O_yMBCRsC
+can-we-trust-the-evaluation-on-chatgpt:
+  title: Can We Trust the Evaluation on ChatGPT?
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  - nlp
+  image: trustnlp23_rachith.png
+  highlight: true
+  description: Most ChatGPT evaluations claim impressive numbers, but how trustworthy are they? Through a stance-detection case study, we show that training-set contamination silently inflates ChatGPT's
+    apparent performance. We argue that fair evaluation of closed, continuously-trained models needs new conventions.
+  link:
+    url: https://arxiv.org/abs/2303.12767
+    venue: TrustNLP (Collocated with ACL), 2023
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17922145343580473385">100+ papers citing this work (Google scholar)</a>
+  authors: Rachith Aiyappa, Jisun An, Haewoon Kwak, Yong-Yeol Ahn
+  scholar_ids:
+  - dcjrz5MAAAAJ:PELIpwtuRlgC
+  - FYtw3zkAAAAJ:u9iWguZQMMsC
+wearing-masks-implies-refuting-trump-towards-target-specific-user-stance-predict:
+  title: 'Wearing Masks Implies Refuting Trump?: Towards Target-specific User Stance Prediction across Events in COVID-19 and US Election 2020'
+  tags:
+  - beliefs-opinions
+  - digital-health
+  methods:
+  - nlp
+  platforms:
+  - twitter
+  image: websci23_zhang.png
+  highlight: true
+  description: 'If you know someone''s view on masks, can you predict their view on Trump? Across three seemingly unrelated COVID-era topics, we train stance-detection models on Twitter and find that opinions
+    cluster predictably: past stances on one issue strongly forecast future stances on another.'
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3578503.3583606
+    venue: ACM WebSci, 2023
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16341756351142058803">5+ papers citing this work (Google scholar)</a>
+  authors: Hong Zhang, Haewoon Kwak, Wei Gao, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:JoZmwDi-zQgC
+  - FYtw3zkAAAAJ:p2g8aNsByqUC
+political-honeymoon-effect-on-social-media-characterizing-social-media-reaction-:
+  title: 'Political Honeymoon Effect on Social Media: Characterizing Social Media Reaction to the Changes of Prime Minister in Japan'
+  tags:
+  - user-behavior
+  methods:
+  - nlp
+  - dataset
+  platforms:
+  - twitter
+  image: websci23_miyazaki.png
+  highlight: true
+  description: Newly-elected leaders typically enjoy a brief 'honeymoon' of high approval. We test this on social media by analyzing 6.6M tweets across 8 Japanese prime-minister transitions over 15 years.
+    The honeymoon does appear, but the user base flips dramatically with each change, and sentiment patterns vary by topic and PM.
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3578503.3583594
+    venue: ACM WebSci, 2023
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4138073033257702108">5+ papers citing this work (Google scholar)</a>
+  authors: Kunihiro Miyazaki, Taichi Murayama, Akira Matsui, Masaru Nishikawa, Takayuki Uchiba, Haewoon Kwak, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:Y5dfb0dijaUC
+  - FYtw3zkAAAAJ:uWQEDVKXjbEC
+is-chatgpt-better-than-human-annotators-potential-and-limitations-of-chatgpt-in-:
+  title: Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech
+  tags:
+  - llms-responsible-ai  
+  - online-harm
+  methods:
+  - llm
+  - nlp
+  - crowdsourced
+  image: www23_fan_2.png
+  highlight: true
+  description: Implicit hate speech is hard for both detectors and explainers. We ask whether ChatGPT can produce useful natural-language explanations of why a subtle hateful post is hateful, and compare
+    its output to human annotators through user studies. Promising for routine cases, but with consistent limitations on harder ones.
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3543873.3587368
+    venue: WWW Companion, 2023
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15532512944885500208">340+ papers citing this work (Google scholar)</a>
+  authors: Fan Huang, Haewoon Kwak, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:_B80troHkn4C
+  - FYtw3zkAAAAJ:OU6Ihb5iCvQC
+chain-of-explanation-new-prompting-method-to-generate-higher-quality-natural-lan:
+  title: 'Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech'
+  tags:
+  - llms-responsible-ai   
+  - online-harm
+  methods:
+  - llm 
+  - nlp
+  image: www23_fan.png
+  highlight: true
+  description: Generating clear explanations of why a post is hateful is hard, especially when hate is implicit. Our Chain of Explanation prompting method feeds the model heuristic words and the targeted
+    group up front, lifting BLEU scores from 44.0 to 62.3 and producing more informative explanations on human evaluation.
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3543873.3587320
+    venue: WWW Companion, 2023
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2357413359803665039">35+ papers citing this work (Google scholar)</a>
+  authors: Fan Huang, Haewoon Kwak, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:eMMeJKvmdy0C
+  - FYtw3zkAAAAJ:dshw04ExmUIC
+younicon-youtube-s-community-of-conspiracy-videos:
+  title: 'YouNICon: YouTube''s CommuNIty of Conspiracy Videos'
+  tags:
+  - online-harm
+  methods:
+  - dataset
+  platforms:
+  - youtube
+  description: Conspiracy theories are widely propagated on YouTube, yet the data needed to study them at scale is limited. YouNICon is a dataset of videos from channels previously identified as suspicious,
+    supporting both conspiracy-theory detection and topic classification. The dataset enables studying trends in conspiracy theories and how individuals interact with such channels.
+  link:
+    url: https://ojs.aaai.org/index.php/ICWSM/article/view/22218
+    venue: ICWSM Dataset, 2023
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18310354359615027626">5+ papers citing this work (Google scholar)</a>
+  authors: Shaoyi Liaw, Fan Huang, Fabricio Benevenuto, Haewoon Kwak, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:dTyEYWd-f8wC
+  - FYtw3zkAAAAJ:XiSMed-E-HIC
+this-is-fake-news-characterizing-the-spontaneous-debunking-from-twitter-users-to:
+  title: '''This is Fake News'': Characterizing the Spontaneous Debunking from Twitter Users to COVID-19 False Information'
+  tags:
+  - news-journalism
+  - digital-health
+  platforms:
+  - twitter
+  image: icwsm23_miyazaki.png
+  highlight: true
+  description: 'Fact-checkers can''t keep up with COVID-19 misinformation. We study spontaneous debunking by regular Twitter users: which fake tweets attract corrections, and who corrects them. Building
+    an annotated dataset and a classifier, we find most fake tweets are never debunked, spontaneous corrections are slower than other replies, and political topics show a clear partisan asymmetry.'
+  link:
+    url: https://ojs.aaai.org/index.php/ICWSM/article/view/22176
+    venue: AAAI ICWSM, 2023
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8947197691951002506">10+ papers citing this work (Google scholar)</a>
+  authors: Kunihiro Miyazaki, Takayuki Uchiba, Kenji Tanaka, Jisun An, Haewoon Kwak, Kazutoshi Sasahara
+  scholar_ids:
+  - dcjrz5MAAAAJ:5ugPr518TE4C
+  - FYtw3zkAAAAJ:b0M2c_1WBrUC
+  - FYtw3zkAAAAJ:olpn-zPbct0C
+you-have-earned-a-trophy-characterize-in-game-achievements-and-their-completions:
+  title: 'You Have Earned a Trophy: Characterize In-Game Achievements and Their Completions'
+  tags:
+  - user-behavior
+  methods:
+  - dataset
+  platforms:
+  - Game
+  image: websci22_haewoon.png
+  highlight: true
+  description: PlayStation 'trophies' are one of gaming's most-discussed achievement systems, but no large-scale study exists. We build the first complete dataset of PlayStation games and their trophies,
+    then characterize them from both the designer's and the player's perspectives, uncovering patterns in how trophies are designed and which ones players actually complete.
+  link:
+    url: https://arxiv.org/abs/2205.15163
+    venue: ACM WebSci, 2022
+  authors: Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:WA5NYHcadZ8C
+maang-manga-characterizing-spontaneous-ideation-contest-on-social-media:
+  title: MAANG? MANGA? Characterizing Spontaneous Ideation Contest on Social Media
+  tags:
+  - networks-influence
+  methods:
+  - user-study
+  - dataset
+  platforms:
+  - twitter
+  - facebook
+  - multi-platform
+  image: bigdata22_miyazaki.png
+  highlight: true
+  description: When Facebook became Meta, Twitter users spontaneously started proposing new acronyms for Big Tech ('MAANG,' 'MANGA,' and many more). We trace how candidates were proposed, spread, and judged,
+    finding that early posters had fewer followers than later spreaders, rankings shifted slowly, and replies introduced most new ideas at the first depth.
+  link:
+    url: https://arxiv.org/abs/2204.00910
+    venue: IEEE BigData, 2022 (short)
+  authors: Kunihiro Miyazaki, Takayuki Uchiba, Haewoon Kwak, Jisun An
+  scholar_ids:
+  - FYtw3zkAAAAJ:CHSYGLWDkRkC
+modeling-political-activism-around-gun-debate-via-social-media:
+  title: Modeling Political Activism around Gun Debate via Social Media
+  tags:
+  - beliefs-opinions
+  methods:
+  - networks
+  platforms:
+  - twitter
+  image: tsc22_mejova.png
+  highlight: true
+  description: Can social media reveal who will engage politically on contested issues? On the U.S. gun debate, we use Twitter content and network structure to classify user stance, predict state-level
+    gun policy, and forecast individual offline political action. Network features (especially the relative size of each side) emerge as strong signals alongside content and demographics.
+  link:
+    url: https://dl.acm.org/doi/10.1145/3532102
+    venue: ACM Transactions on Social Computing, 2022
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7687364554053658216">5+ papers citing this work (Google scholar)</a>
+  authors: Yelena Mejova, Jisun An, Gianmarco De Francisci Morales, Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:t6usbXjVLHcC
+  - FYtw3zkAAAAJ:1sJd4Hv_s6UC
+storm-the-capitol-linking-offline-political-speech-and-online-twitter-extra-repr:
+  title: 'Storm the Capitol: Linking Offline Political Speech and Online Twitter Extra-Representational Participation on QAnon and the January 6 Insurrection'
+  tags:
+  - online-harm
+  platforms:
+  - twitter
+  image: frontiers22_lee.png
+  highlight: true
+  description: How does offline political speech translate into online mobilization? We combine the text of Trump's speeches leading up to January 6, 2021 with Twitter data from QAnon hashtags over the
+    same three days, using mixed quantitative and qualitative analysis. The results show measurable links between specific addresses and online participation.
+  link:
+    url: https://www.frontiersin.org/articles/10.3389/fsoc.2022.876070/full
+    venue: Frontiers in Sociology, 2022
+  news:
+  - Press coverage-[PsyPost](https://www.psypost.org/2022/06/new-study-examines-the-link-between-trumps-offline-speeches-and-qanon-related-twitter-discourse-on-january-6-63328)
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7945857859537339749">35+ papers citing this work (Google scholar)</a>
+  authors: Claire Seungeun Lee, Juan Merizalde, John D. Colautti, Jisun An and Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:olpn-zPbct0C
+  - FYtw3zkAAAAJ:P5F9QuxV20EC
+measuring-9-emotions-of-news-posts-from-8-news-organizations-across-4-social-med:
+  title: Measuring 9 Emotions of News Posts from 8 News Organizations across 4 Social Media Platforms for 8 Months
+  tags:
+  - news-journalism
+  methods:
+  - nlp
+  platforms:
+  - twitter
+  - youtube
+  - facebook
+  - instagram
+  - multi-platform
+  image: tsc22_aldous.png
+  highlight: true
+  description: How do emotions in news posts ripple into audience reactions? Across 133K posts and 2.8M comments from 8 outlets on 4 platforms over 8 months, we score 9 emotions (Plutchik's wheel) and predict
+    reader emotional engagement before and after a post goes live, reaching over 70% F1 for some emotions and revealing systematic platform differences.
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3516491
+    venue: ACM Transactions on Social Computing, 2022
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3058342465085048885">10+ papers citing this work (Google scholar)</a>
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
+  scholar_ids:
+  - FYtw3zkAAAAJ:abG-DnoFyZgC
+understanding-toxicity-triggers-on-reddit-in-the-context-of-singapore:
+  title: Understanding Toxicity Triggers on Reddit in the Context of Singapore
+  tags:
+  - online-harm
+  platforms:
+  - reddit
+  image: icwsm22_chong.png
+  highlight: true
+  description: Most toxicity research focuses on Western online communities. We extend trigger detection to an Asian context using Reddit conversations from Singapore, showing both that detection is feasible
+    and that the triggers themselves can differ markedly from Western patterns. A reminder that 'toxic' is culturally specific.
+  link:
+    url: https://arxiv.org/abs/2204.08806
+    venue: Proceedings of the 16th International AAAI Conference on Web and Social Media (ICWSM), 2022 (short)
+  news:
+  - Press coverage-[AI Ethics Brief Newsletter by Montreal AI Ethics Institute](https://montrealethics.ai/understanding-toxicity-triggers-on-reddit-in-the-context-of-singapore/)
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=727372458666163462">20+ papers citing this work (Google scholar)</a>
+  authors: Yun Yu Chong, Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:wbdj-CoPYUoC
+who-is-missing-characterizing-the-participation-of-different-demographic-groups-:
+  title: Who Is Missing? Characterizing the Participation of Different Demographic Groups in a Korean Nationwide Daily Conversation Corpus
+  tags:
+  - llms-responsible-ai
+  - bias-fairness  
+  methods:
+  - dataset
+  image: icwsm22_kwak.png
+  highlight: true
+  description: Conversation corpora power most interactive AI, but who actually contributed to them? Analyzing a Korean nationwide daily conversation corpus from the National Institute of Korean Language,
+    we characterize the participation of different demographic groups (age and sex) and identify the voices that are over- and under-represented in this widely-used resource.
+  link:
+    url: https://arxiv.org/abs/2204.09209
+    venue: Proceedings of the 16th International AAAI Conference on Web and Social Media (ICWSM), 2022 (short)
+  authors: Haewoon Kwak, Jisun An, Kunwoo Park
+  scholar_ids:
+  - dcjrz5MAAAAJ:XiVPGOgt02cC
+  - FYtw3zkAAAAJ:xtRiw3GOFMkC
+what-really-matters-characterising-and-predicting-user-engagement-of-news-postin:
+  title: 'What really matters?: characterising and predicting user engagement of news postings using multiple platforms, sentiments and topics'
+  tags:
+  - news-journalism
+  methods:
+  - nlp
+  platforms:
+  - twitter
+  - reddit
+  - youtube
+  - facebook
+  - instagram
+  - multi-platform
+  image: behavior22_aldous.png
+  highlight: true
+  description: What makes a news post go viral, and on which platform? Analyzing 3M posts from 53 outlets and 50M comments across 5 platforms over 8 months, we trace how sentiment and topic shape four levels
+    of engagement (views, likes, comments, cross-platform sharing) and predict cross-platform diffusion with up to 83% F1.
+  link:
+    url: https://www.tandfonline.com/doi/abs/10.1080/0144929X.2022.2030798
+    venue: Behaviour & Information Technology, 2022
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12740833460145816937">10+ papers citing this work (Google scholar)</a>
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
+  scholar_ids:
+  - FYtw3zkAAAAJ:EUQCXRtRnyEC
+predicting-anti-asian-hateful-users-on-twitter-during-covid-19:
+  title: Predicting Anti-Asian Hateful Users on Twitter during COVID-19
+  tags:
+  - online-harm
+  methods:
+  - nlp
+  platforms:
+  - twitter
+  image: emnlp21_an.png
+  highlight: true
+  description: Can we tell, before COVID-19 began, who would later post anti-Asian slurs on Twitter? Comparing users who did and didn't post such slurs after the pandemic's onset, we identify pre-pandemic
+    features that predict later hate behavior, pointing to the role of news media and polarized communication networks in priming hostility.
+  link:
+    url: https://aclanthology.org/2021.findings-emnlp.398/
+    venue: Findings of the Association for Computational Linguistics EMNLP 2021
+  news:
+  - <a href="https://github.com/anjisun221/anti-asian-slurs">Code repo (github)</a>
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11140553844282277053&as_sdt=800005&sciodt=0,15&hl=en">30+ papers citing this work
+    (Google scholar)</a>
+  authors: Jisun An, Haewoon Kwak, Claire Seungeun Lee, Bogang Jun, Yong-Yeol Ahn
+  scholar_ids:
+  - dcjrz5MAAAAJ:mvPsJ3kp5DgC
+  - FYtw3zkAAAAJ:_xSYboBqXhAC
+precision-public-health-campaign-delivering-persuasive-messages-to-relevant-segm:
+  title: 'Precision Public Health Campaign: Delivering Persuasive Messages to Relevant Segments Through Targeted Advertisements on Social Media'
+  tags:
+  - beliefs-opinions
+  - digital-health
+  platforms:
+  - facebook
+  - instagram
+  image: jmir21_an.png
+  highlight: true
+  description: 'Health campaigns usually broadcast one message to everyone. We propose a five-stage framework for precision public health: define goal and metrics, segment the audience, tailor a message
+    per segment, pilot, run, and evaluate using social-media ad-targeting tools. Two case studies demonstrate the framework in practice.'
+  link:
+    url: https://formative.jmir.org/2021/9/e22313/
+    venue: JMIR Form Res 2021;5(9):e22313, 2021
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6843634899065964255">25+ papers citing this work (Google scholar)</a>
+  authors: Jisun An, Haewoon Kwak, Hanya M Qureshi, Ingmar Weber
+  scholar_ids:
+  - dcjrz5MAAAAJ:kRWSkSYxWN8C
+  - FYtw3zkAAAAJ:bFI3QPDXJZMC
+frameaxis-characterizing-microframe-bias-and-intensity-with-word-embedding:
+  title: 'FrameAxis: characterizing microframe bias and intensity with word embedding'
+  tags:
+  - bias-fairness
+  - news-journalism
+  methods:
+  - nlp
+  - dataset
+  image: peerjcs21_kwak.png
+  highlight: true
+  description: Framing nudges readers toward conclusions without making explicit arguments. FrameAxis identifies the semantic axes ('microframes') that a document leans on, using word embeddings rather
+    than manual annotation. The method scales to large datasets and exposes bias and intensity from restaurant reviews to political news.
+  link:
+    url: https://peerj.com/articles/cs-644/
+    venue: PeerJ Computer Science 7:e644, 2021
+  news:
+  - <a href="https://github.com/haewoon/frameaxis">Code repo (github)</a>
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=16502768133789728719&as_sdt=800005&sciodt=0,15&hl=en">35+ papers citing this work
+    (Google scholar)</a>
+  authors: Haewoon Kwak, Jisun An, Elise Jing, Yong-Yeol Ahn
+  scholar_ids:
+  - dcjrz5MAAAAJ:J-pR_7NvFogC
+  - FYtw3zkAAAAJ:Se3iqnhoufwC
+  - FYtw3zkAAAAJ:nb7KW1ujOQ8C
+populist-supporters-on-reddit-a-comparison-of-content-and-behavioral-patterns-wi:
+  title: 'Populist Supporters on Reddit: A Comparison of Content and Behavioral Patterns Within Publics of Supporters of Donald Trump and Hillary Clinton'
+  tags:
+  - beliefs-opinions
+  platforms:
+  - reddit
+  image: sscr20_andreas.png
+  highlight: true
+  description: If digital media empower populist movements, can we see it in distinct usage patterns? Comparing /r/The_Donald and /r/hillaryclinton during the 2016 election, we find Trump supporters expressed
+    more anti-elitism and exclusion (but not 'people-centrism'), posted more, used distinctive vocabulary, and built tighter community ties.
+  link:
+    url: https://journals.sagepub.com/doi/10.1177/0894439321996130
+    venue: Social Science Computer Review. March 2021.
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5841728549128655445">15+ papers citing this work (Google scholar)</a>
+  authors: Andreas Jungherr, Oliver Posegga, Jisun An
+  scholar_ids:
+  - FYtw3zkAAAAJ:3s1wT3WcHBgC
+how-to-present-news-on-social-media-a-causal-analysis-of-editing-news-headlines-:
+  title: 'How-to Present News on Social Media: A Causal Analysis of Editing News Headlines for Boosting User Engagement'
+  tags:
+  - news-journalism
+  methods:
+  - dataset
+  platforms:
+  - twitter
+  image: icwsm21_park.png
+  highlight: true
+  description: When media outlets share an article on Twitter, the edited tweet often departs sharply from the original headline. Does that editing pay off? Using a parallel corpus of articles and tweets
+    from 8 outlets, we apply propensity-score matching to estimate the causal effect of editing styles on engagement, surfacing both common and outlet-specific patterns.
+  link:
+    url: https://arxiv.org/abs/2009.08100
+    venue: Proceedings of the 15th International AAAI Conference on Web and Social Media (ICWSM), 2021
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4633206445371088214,16671239501329166635">15+ papers citing this
+    work (Google scholar)</a>
+  authors: Kunwoo Park, Haewoon Kwak, Jisun An, Sanjay Chawla
+  scholar_ids:
+  - dcjrz5MAAAAJ:sSrBHYA8nusC
+  - FYtw3zkAAAAJ:cFHS6HbyZ2cC
+a-systematic-media-frame-analysis-of-1-5-million-new-york-times-articles-from-20:
+  title: A Systematic Media Frame Analysis of 1.5 Million New York Times Articles from 2000 to 2017
+  tags:
+  - news-journalism
+  methods:
+  - nlp
+  platforms:
+  - news-media
+  image: websci20_haewoon.png
+  highlight: true
+  description: Framing is hard to measure at scale because frames usually need hand-coding. We trained a state-of-the-art frame classifier and applied it to 1.5 million New York Times articles spanning
+    2000 to 2017. Short-term frame fluctuations track major events; long-term, the 'cultural identity' frame rises sharply, and a case study on mass shootings reveals three distinct patterns.
+  link:
+    url: https://arxiv.org/abs/2005.01803
+    venue: Proceedings of the 12th ACM Conference on Web Science (WebSci), 2020
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=17777991708099251369&as_sdt=800005&sciodt=0,15&hl=en">40+ papers citing this work
+    (Google scholar)</a>
+  authors: Haewoon Kwak, Jisun An, Yong-Yeol Ahn
+  scholar_ids:
+  - dcjrz5MAAAAJ:B3FOqHPlNUQC
+  - FYtw3zkAAAAJ:g5m5HwL7SMYC
+identifying-and-characterizing-alternative-news-media-on-facebook:
+  title: Identifying and Characterizing Alternative News Media on Facebook
+  tags:
+  - news-journalism
+  methods:
+  - networks
+  - dataset
+  platforms:
+  - facebook
+  image: asonam20_samuel.png
+  highlight: true
+  description: We propose a graph-based semi-supervised method to measure the political bias of Facebook news pages across many countries, separating alternative media, mainstream media, and public-figure
+    pages. Validated on a U.S. dataset and applied to Brazil, where right-wing pages dominate generally but alternative news media break the pattern.
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/9381424
+    venue: IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), 2020
+  authors: Samuel S Guimarães, Julio CS Reis, Lucas Lima, Filipe N Ribeiro, Marisa Vasconcelos, Jisun An, Haewoon Kwak, Fabrício Benevenuto
+  scholar_ids:
+  - dcjrz5MAAAAJ:fQNAKQ3IYiAC
+  - FYtw3zkAAAAJ:u_35RYKgDlwC
+what-was-written-vs-who-read-it-news-media-profiling-using-text-analysis-and-soc:
+  title: 'What Was Written vs. Who Read It: News Media Profiling Using Text Analysis and Social Media Context'
+  tags:
+  - news-journalism
+  - bias-fairness
+  platforms:
+  - news-media
+  - twitter
+  image: acl20_ramy.png
+  highlight: true
+  description: Fact-checking every claim is impossible, so a complementary approach is to profile entire news outlets and flag everything they publish. We argue that bias and factuality should be modeled
+    jointly using both the text the outlet produces and the social context it lives in, and we review approaches that combine the two.
+  link:
+    url: https://www.aclweb.org/anthology/2020.acl-main.308/
+    venue: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL) (2020)
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13804595910402473878&as_sdt=800005&sciodt=0,15&hl=en">55+ papers citing this work
+    (Google scholar)</a>
+  authors: Ramy Baly, Georgi Karadzhov, Jisun An, Haewoon Kwak, Yoan Dinkov, Ahmed Ali, James Glass, Preslav Nakov
+  scholar_ids:
+  - dcjrz5MAAAAJ:4fKUyHm3Qg0C
+  - FYtw3zkAAAAJ:JV2RwH3_ST0C
+empirical-evaluation-of-three-common-assumptions-in-building-political-media-bia:
+  title: Empirical Evaluation of Three Common Assumptions in Building Political Media Bias Datasets
+  tags:
+  - bias-fairness
+  - news-journalism
+  methods:
+  - dataset
+  platforms:
+  - news-media
+  image: icwsm20_soumen.png
+  highlight: true
+  description: 'Many political-bias datasets rest on three common assumptions: labelers'' politics don''t bias their labels, articles follow their outlet''s leaning, and an outlet''s leaning is stable across
+    topics. We test all three on a manually annotated dataset and find each can fail even at small scale, a warning for how bias datasets are constructed and trusted.'
+  link:
+    url: https://ojs.aaai.org//index.php/ICWSM/article/view/7362
+    venue: Proceedings of the 14th International AAAI Conference on Web and Social Media (ICWSM), 2020
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=14119564002231419883&as_sdt=800005&sciodt=0,15&hl=en">25+ papers citing this work
+    (Google scholar)</a>
+  authors: Soumen Ganguly, Juhi Kulshrestha, Jisun An, Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:tS2w5q8j5-wC
+  - FYtw3zkAAAAJ:hMod-77fHWUC
+trust-me-i-have-a-ph-d-a-propensity-score-analysis-on-the-halo-effect-of-disclos:
+  title: '“Trust Me, I Have a Ph.D.”: A Propensity Score Analysis on the Halo Effect of Disclosing One''s Offline Social Status in Online Communities'
+  tags:
+  - user-behavior
+  platforms:
+  - reddit
+  image: icwsm20_park.png
+  highlight: true
+  description: 'Does showing your offline credentials affect how people respond to you online? On two Reddit science communities that adopted ''degree flairs,'' we find the halo effect varies by community
+    culture: in the strict peer-reviewed subreddit, any degree boosts votes and discussion; in the casual one, only PhD or MD flairs do.'
+  link:
+    url: https://ojs.aaai.org//index.php/ICWSM/article/view/7321
+    venue: Proceedings of the 14th International AAAI Conference on Web and Social Media (ICWSM), 2020
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11331595344723902053&as_sdt=800005&sciodt=0,15&hl=en">15+ papers citing this work
+    (Google scholar)</a>
+  authors: Kunwoo Park, Haewoon Kwak, Hyunho Song, Meeyoung Cha
+  scholar_ids:
+  - dcjrz5MAAAAJ:tOudhMTPpwUC
+are-these-comments-triggering-predicting-triggers-of-toxicity-in-online-discussi:
+  title: Are These Comments Triggering? Predicting Triggers of Toxicity in Online Discussions
+  tags:
+  - online-harm
+  methods:
+  - nlp
+  platforms:
+  - reddit
+  image: www20_hind.png
+  highlight: true
+  description: Toxic replies often have an innocent-looking trigger somewhere up the thread. We define a trigger as a non-toxic comment that provokes a toxic reply, then train a neural model on shifts in
+    sentiment, topic, and conversational context. The model identifies triggers with a 0.87 ROC-AUC, suggesting a way to head off escalation before it happens.
+  link:
+    url: https://dl.acm.org/doi/10.1145/3366423.3380074?cid=81452618313
+    venue: Proceedings of The Web Conference (WWW),  2020
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=4074253856414814753&as_sdt=800005&sciodt=0,15&hl=en">50+ papers citing this work
+    (Google scholar)</a>
+  authors: Hind Almerekhi, Haewoon Kwak, Bernard Jim Jansen, Joni Salminen (short)
+  scholar_ids:
+  - dcjrz5MAAAAJ:08ZZubdj9fEC
+going-beyond-accuracy-estimating-homophily-in-social-networks-using-predictions:
+  title: 'Going beyond accuracy: estimating homophily in social networks using predictions'
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  image: arxiv20_berry.png
+  highlight: true
+  description: Social-network studies often estimate homophily from predicted attributes (gender or ethnicity from names), but high prediction accuracy doesn't guarantee accurate homophily estimates. We
+    show estimation works only when dyad-level residuals cancel out, and propose an 'ego-alter' approach that beats standard node and dyad classifiers.
+  link:
+    url: https://arxiv.org/abs/2001.11171
+    venue: arXiv preprint arXiv:2001.11171, 2020
+  authors: George Berry, Antonio Sirianni, Ingmar Weber, Jisun An, Michael Macy (preprint)
+  scholar_ids:
+  - FYtw3zkAAAAJ:4DMP91E08xMC
+persona-perception-scale-development-and-exploratory-validation-of-an-instrument:
+  title: 'Persona Perception Scale: Development and Exploratory Validation of an Instrument for Evaluating Individuals’ Perceptions of Personas'
+  tags:
+  - user-behavior
+  methods:
+  - user-study
+  description: Personas are widely used but hard to evaluate because no validated measurement instrument existed. We develop the Persona Perception Scale (PPS), drawing on social psychology, persona studies,
+    and HCI, and validate it with 412 respondents. The scale lets researchers measure how individuals perceive personas (credibility, willingness to use) and improve persona adoption.
+  link:
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1071581920300392
+    venue: International Journal of Human-Computer Studies, 2020
+  authors: Joni Salminen, Joao M. Santos, Haewoon Kwak, Jisun An, Soon-gyo Jung, Bernard J. Jansen
+  scholar_ids:
+  - dcjrz5MAAAAJ:geHnlv5EZngC
+  - FYtw3zkAAAAJ:M05iB0D1s5AC
+tanbih-get-to-know-what-you-are-reading:
+  title: 'Tanbih: Get To Know What You Are Reading'
+  tags:
+  - news-journalism
+  - bias-fairness
+  platforms:
+  - news-media
+  image: emnlp19_yifan.png
+  highlight: true
+  description: 'Behind a news story sits a much larger context: the outlet''s general factuality, partisanship, propaganda style, ideology, framing, and stance on key topics. Tanbih is a news aggregator
+    that groups stories by event and generates these media profiles automatically, plus per-article propaganda detection and stance with respect to specific controversial claims.'
+  link:
+    url: https://www.aclweb.org/anthology/D19-3038/
+    venue: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 2019
+  authors: Yifan Zhang, Giovanni Da San Martino, Alberto Barrón-Cedeño, Salvatore Romeo, Jisun An, Haewoon Kwak, Todor Staykovski, Israa Jaradat, Georgi Karadzhov, Ramy Baly, Kareem Darwish, James Glass,
+    Preslav Nakov (demo)
+  scholar_ids:
+  - dcjrz5MAAAAJ:1sJd4Hv_s6UC
+  - FYtw3zkAAAAJ:_FxGoFyzp5QC
+gender-and-racial-diversity-in-commercial-brands-advertising-images-on-social-me:
+  title: Gender and Racial Diversity in Commercial Brands' Advertising Images on Social Media
+  tags:
+  - bias-fairness
+  platforms:
+  - facebook
+  - instagram
+  - multi-platform
+  image: socinfo19_an_2.png
+  highlight: true
+  description: What images do top global brands actually share on Instagram and Facebook, and who shows up in them? Analyzing 85,957 advertising images from 73 international brands, we measure gender and
+    racial diversity at scale, working toward an automated 'watchdog' for diversity in online advertisements.
+  link:
+    url: https://arxiv.org/abs/1908.01352
+    venue: Proceedings of Social Informatics (SocInfo), 2019
+  news:
+  - Best Paper Award
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=1122163312563204392&as_sdt=800005&sciodt=0,15&hl=en">20+ papers citing this work
+    (Google scholar)</a>
+  authors: Jisun An, Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:b0M2c_1WBrUC
+  - FYtw3zkAAAAJ:qjMakFHDy7sC
+stylistic-features-usage-similarities-and-differences-using-multiple-social-netw:
+  title: 'Stylistic Features Usage: Similarities and Differences Using Multiple Social Networks'
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  platforms:
+  - twitter
+  - youtube
+  - facebook
+  - instagram
+  - multi-platform
+  description: We analyze ten common stylistic features indicative of user engagement for news postings on multiple social media platforms. We display the stylistic features usage differences of news posts
+    from various news sources. Results show that there are differences in the usage of stylistic features across social media platforms (Facebook, Instagram, Twitter, and YouTube).
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-030-34971-4_22
+    venue: Proceedings of Social Informatics (SocInfo), 2019
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
+  scholar_ids:
+  - FYtw3zkAAAAJ:9yKSN-GCB0IC
+predicting-audience-engagement-across-social-media-platforms-in-the-news-domain:
+  title: Predicting Audience Engagement Across Social Media Platforms in the News Domain
+  tags:
+  - news-journalism
+  platforms:
+  - news-media
+  description: Among other findings, results show that content with high engagement on one platform does not guarantee high engagement on another platform, even when news outlets use similar cross-platform
+    posts; however, for some content, cross-sharing posts on a platform will increase overall audience engagement on another platform.
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-030-34971-4_12
+    venue: Proceedings of Social Informatics (SocInfo), 2019
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
+  scholar_ids:
+  - FYtw3zkAAAAJ:u5HHmVD_uO8C
+detecting-toxicity-triggers-in-online-discussions:
+  title: Detecting Toxicity Triggers in Online Discussions
+  tags:
+  - online-harm
+  methods:
+  - nlp
+  description: What sparks a toxic exchange in online discussions? We define toxicity 'triggers' formally, then build an LSTM model combining textual features with measures of topic and sentiment shift
+    across interactions. Trained on diverse Reddit communities, the model detects triggers with 82.5% average accuracy.
+  link:
+    url: https://dl.acm.org/doi/10.1145/3342220.3344933?cid=81452618313
+    venue: Proceedings of the 30th ACM Conference on Hypertext and Social Media (HT),  2019
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9046504524174795947">40+ papers citing this work (Google scholar)</a>
+  authors: Hind Almerekhi, Haewoon Kwak, Bernard Jim Jansen, Joni Salminen (poster)
+  scholar_ids:
+  - dcjrz5MAAAAJ:abG-DnoFyZgC
+political-discussions-in-homogeneous-and-cross-cutting-communication-spaces:
+  title: Political Discussions in Homogeneous and Cross-Cutting Communication Spaces
+  tags:
+  - beliefs-opinions
+  methods:
+  - nlp
+  - networks  
+  platforms:
+  - reddit
+  image: icwsm19_an.png
+  highlight: true
+  description: 'Online political talk happens in two very different settings: groups of like-minded users, and mixed spaces where opposing views meet. We use Reddit to develop an analytical template comparing
+    interaction and linguistic patterns within and between politically homogeneous and cross-cutting communication spaces, finding markedly different behaviors in each.'
+  link:
+    url: https://www.aaai.org/ojs/index.php/ICWSM/article/view/3210/3078/
+    venue: Proceedings of the 13th International AAAI Conference on Web and Social Media (ICWSM), 2019
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=3311929175157727200&as_sdt=800005&sciodt=0,15&hl=en">65+ papers citing this work
+    (Google scholar)</a>
+  authors: Jisun An, Haewoon Kwak, Oliver Posegga, Andreas Jungherr
+  scholar_ids:
+  - dcjrz5MAAAAJ:D03iK_w7-QYC
+  - FYtw3zkAAAAJ:UebtZRa9Y70C
+view-like-comment-post-analyzing-user-engagement-by-topic-at-4-levels-across-5-s:
+  title: 'View, Like, Comment, Post: Analyzing User Engagement by Topic at 4 Levels across 5 Social Media Platforms for 53 News Organizations'
+  tags:
+  - news-journalism
+  platforms:
+  - twitter
+  - reddit
+  - youtube
+  - facebook
+  - instagram
+  - multi-platform
+  image: icwsm19_kholoud.png
+  highlight: true
+  description: 'Different platforms surface different topics: how does that shape engagement? Across 3.16M posts from 53 news organizations on Facebook, Instagram, Twitter, YouTube, and Reddit over 8 months,
+    we map topic distribution by platform and topic-driven engagement at four levels, finding that cross-platform sharing of any given article is predictable with around 80% precision.'
+  link:
+    url: https://www.aaai.org/ojs/index.php/ICWSM/article/view/3208
+    venue: Proceedings of the 13th International AAAI Conference on Web and Social Media (ICWSM), 2019
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2179764910340383755">85+ papers citing this work (Google scholar)</a>
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen
+  scholar_ids:
+  - FYtw3zkAAAAJ:W7OEmFMy1HYC
+the-challenges-of-creating-engaging-content-results-from-a-focus-group-study-of-:
+  title: 'The Challenges of Creating Engaging Content: Results from a Focus Group Study of a Popular News Media Organization'
+  tags:
+  - news-journalism
+  methods:
+  - user-study
+  platforms:
+  - news-media
+  description: Creating 'engaging' content across social-media platforms is a daily grind for editors at serious news organizations, with no clear playbook. Through a focus-group study at a major news org,
+    we find engagement work is effort- and time-intensive across three platforms, and we sketch a system design that would help editors select and adapt engaging passages from articles.
+  link:
+    url: https://dl.acm.org/doi/10.1145/3290607.3312810?cid=99659160512
+    venue: Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (CHI), 2019
+  authors: Kholoud Khalil Aldous, Jisun An, Bernard J. Jansen (Extended Abstracts)
+  scholar_ids:
+  - FYtw3zkAAAAJ:zYLM7Y9cAGgC
+social-media-mining-for-journalism:
+  title: Social media mining for journalism
+  tags:
+  - news-journalism
+  description: Social media now captures and announces breaking news faster than traditional outlets, reshaping the journalistic landscape. We survey how social-media mining is being adopted by professional
+    journalists for newsgathering (drawing on citizen reporting and updates) and as an additional channel for news dissemination, opening both opportunities and challenges for newsrooms.
+  link:
+    url: https://www.emerald.com/insight/content/doi/10.1108/OIR-02-2019-395/full/html
+    venue: Online Information Review, 2019
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12277459732157719168">10+ papers citing this work (Google scholar)</a>
+  authors: Arkaitz Zubiaga, Bahareh Heravi, Jisun An, Haewoon Kwak (Guest editorial)
+  scholar_ids:
+  - dcjrz5MAAAAJ:yD5IFk8b50cC
+  - FYtw3zkAAAAJ:qUcmZB5y_30C
+discursive-power-in-contemporary-media-systems-a-comparative-framework:
+  title: 'Discursive Power in Contemporary Media Systems: A Comparative Framework'
+  tags:
+  - news-journalism
+  image: ijpp19_andrea.png
+  highlight: true
+  description: 'Today''s news ecosystems mix legacy outlets, platforms, influencers, and amateurs in ways that resist easy comparison. We propose ''discursive power'' as a measurable concept: the ability
+    to introduce, amplify, and sustain topics, frames, and speakers in interconnected communication spaces, enabling empirical comparative work on hybrid media systems.'
+  link:
+    url: https://journals.sagepub.com/doi/10.1177/1940161219841543
+    venue: The International Journal of Press/Politics, 24(4), 2019
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17948494310991387682">130+ papers citing this work (Google scholar)</a>
+  authors: Andreas Jungherr, Oliver Posegga, Jisun An
+  scholar_ids:
+  - FYtw3zkAAAAJ:HoB7MX3m0LUC
+reports-of-the-workshops-held-at-the-2018-international-aaai-conference-on-web-a:
+  title: Reports of the Workshops Held at the 2018 International AAAI Conference on Web and Social Media
+  tags:
+  - user-behavior
+  hide: true
+  description: The Workshop Program of the Association for the Advancement of Artificial Intelligence’s 12th International Conference on Web and Social Media (AAAI-18) was held at Stanford University, Stanford,
+    California USA, on Monday, June 25, 2018.
+  link:
+    url: https://ojs.aaai.org//index.php/aimagazine/article/view/2835
+    venue: AI Magazine, 2018
+  authors: Jisun An, Rumi Chunara, David J. Crandall, Darian Frajberg, Megan French, Bernard J. Jansen, Juhi Kulshrestha, Yelena Mejova, Daniel M. Romero, Joni Salminen, Amit Sharma, Amit Sheth, Chenhao
+    Tan, Samuel Hardman Taylor, Sanjaya Wijeratne
+  scholar_ids: &id001
+  - FYtw3zkAAAAJ:hFOr9nPyWt4C
+  - FYtw3zkAAAAJ:QIV2ME_5wuYC
+  - FYtw3zkAAAAJ:mB3voiENLucC
+imaginary-people-representing-real-numbers-generating-personas-from-online-socia:
+  title: 'Imaginary People Representing Real Numbers: Generating Personas from Online Social Media Data'
+  tags:
+  - user-behavior
+  image: tweb18_an.png
+  highlight: true
+  description: Marketing personas are hand-crafted, slow, and quickly outdated. We automate them from social-media data through behavioral segmentation, demographic grouping, and auto-generated names and
+    photos. Validated on 30M viewer interactions across 198 countries and 4,200 videos, the personas predict content preference and remain stable over time.
+  link:
+    url: https://dl.acm.org/doi/10.1145/3265986
+    venue: ACM Transactions on the Web, 12(4), 2018
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6706366699955654851">110+ papers citing this work (Google scholar)</a>
+  authors: Jisun An, Haewoon Kwak, Soon-gyo Jung, Joni Salminen, M. Admad, Bernard J. Jansen
+  scholar_ids:
+  - dcjrz5MAAAAJ:HoB7MX3m0LUC
+  - FYtw3zkAAAAJ:M3ejUd6NZC8C
+assessing-the-accuracy-of-four-popular-face-recognition-tools-for-inferring-gend:
+  title: Assessing the Accuracy of Four Popular Face Recognition Tools for Inferring Gender, Age, and Race
+  tags:
+  - bias-fairness
+  methods:
+  - dataset
+  image: icwsm18_jung.png
+  highlight: true
+  description: When computational social scientists infer demographics from photos, which face-recognition tool can they trust? Testing Face++, IBM Bluemix, AWS Rekognition, and Microsoft Azure across multiple
+    datasets, we find gender inference works (above 90%, except IBM), race inference is offered by only one tool, and age is consistently inaccurate. Triangulation and manual checks recommended.
+  link:
+    url: https://ojs.aaai.org/index.php/ICWSM/article/view/15058
+    venue: Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018  (short)
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13898048059462450046&as_sdt=800005&sciodt=0,15&hl=en">65+ papers citing this work
+    (Google scholar)</a>
+  authors: Soon-gyo Jung, Jisun An, Haewoon Kwak, Joni Salminen, Bernard Jim Jansen
+  scholar_ids:
+  - dcjrz5MAAAAJ:NMxIlDl6LWMC
+  - FYtw3zkAAAAJ:blknAaTinKkC
+anatomy-of-online-hate-developing-a-taxonomy-and-machine-learning-models-for-ide:
+  title: 'Anatomy of Online Hate: Developing a Taxonomy and Machine Learning Models for Identifying and Classifying Hate in Online News Media'
+  tags:
+  - online-harm
+  methods:
+  - dataset
+  platforms:
+  - youtube
+  - facebook
+  - multi-platform
+  image: icwsm18_joni.png
+  highlight: true
+  description: Automatic hate-speech detection is hard partly because 'hate' covers many distinct types and targets. We hand-labeled 5,143 hateful YouTube and Facebook comments, built a granular taxonomy
+    capturing both the kind and target of hate, and trained classifiers to detect and categorize new comments. A linear SVM with TF-IDF reaches 0.79 average F1.
+  link:
+    url: https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17885
+    venue: Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM), 2018
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=4481904402359775293&as_sdt=800005&sciodt=0,15&hl=en">140+ papers citing this work
+    (Google scholar)</a>
+  authors: Joni Salminen, Hind Almerekhi, Milica Milenković, Soon-gyo Jung, Jisun An, Haewoon Kwak, Bernard J. Jansen
+  scholar_ids:
+  - dcjrz5MAAAAJ:0EnyYjriUFMC
+  - FYtw3zkAAAAJ:8k81kl-MbHgC
+identifying-regional-trends-in-avatar-customization:
+  title: Identifying Regional Trends in Avatar Customization
+  tags:
+  - user-behavior
+  methods:
+  - dataset
+  platforms:
+  - Game
+  image: ieeegames18_peter.png
+  highlight: true
+  description: 'Avatars are a quiet form of self-expression, but the values built into avatar systems are rarely studied. Using deep learning and clustering on roughly 100,000 avatars from a major creation
+    platform, we surface regional trends: realistic (US, mirroring demographics), idealistic (Japan, reflecting media tropes), and creative (community-spread), and link each to user activity.'
+  link:
+    url: https://ink.library.smu.edu.sg/sis_research/5328/
+    venue: IEEE Transactions on Games, 10(2), 2018
+  authors: Peter Mawhorter, Sercan Şengün, Haewoon Kwak, D. Fox Harrell
+  scholar_ids:
+  - dcjrz5MAAAAJ:bEWYMUwI8FkC
+semaxis-a-lightweight-framework-to-characterize-domain-specific-word-semantics-b:
+  title: 'SemAxis: A Lightweight Framework to Characterize Domain-Specific Word Semantics Beyond Sentiment'
+  tags:
+  - user-behavior
+  methods:
+  - nlp
+  image: acl18_an.png
+  highlight: true
+  description: Word meanings shift across communities and contexts, but most NLP tools collapse that nuance into a single sentiment dimension. SemAxis is a lightweight framework that characterizes words
+    along arbitrary semantic axes in vector space, capturing community-specific meaning. On sentiment specifically, SemAxis beats state-of-the-art methods for building domain-specific lexicons.
+  link:
+    url: https://www.aclweb.org/anthology/P18-1228/
+    venue: Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL), 2018
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=5820829972914564017&as_sdt=800005&sciodt=0,15&hl=en">50+ papers citing this work
+    (Google scholar)</a>
+  authors: Jisun An, Haewoon Kwak, Yong-Yeol Ahn
+  scholar_ids:
+  - dcjrz5MAAAAJ:kNdYIx-mwKoC
+  - FYtw3zkAAAAJ:YOwf2qJgpHMC
+what-we-read-what-we-search-media-attention-and-public-attention-among-193-count:
+  title: 'What We Read, What We Search: Media Attention and Public Attention among 193 Countries'
+  tags:
+  - user-behavior
+  methods:
+  - networks
+  platforms:
+  - news-media
+  image: www18_kwak.png
+  highlight: true
+  description: Do people care about the same countries their national news covers? Across 193 countries over 14 months, we find that media and public attention align regionally but diverge by topic. In
+    63% of countries, the two attend to entirely different countries, suggesting audiences seek information their local outlets are not providing.
+  link:
+    url: https://www.aclweb.org/anthology/P18-1228/
+    venue: Proceedings of the 2018 World Wide Web Conference (WWW), 2018
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=17215246929545301438&as_sdt=800005&sciodt=0,15&hl=en">20+ papers citing this work
+    (Google scholar)</a>
+  authors: Haewoon Kwak, Jisun An, Joni Salminen, Soon-Gyo Jung, Bernard J. Jansen.
+  scholar_ids:
+  - dcjrz5MAAAAJ:ldfaerwXgEUC
+  - FYtw3zkAAAAJ:70eg2SAEIzsC
+what-is-gab-a-bastion-of-free-speech-or-an-alt-right-echo-chamber:
+  title: What is Gab? A Bastion of Free Speech or an Alt-Right Echo Chamber?
+  tags:
+  - online-harm
+  - bias-fairness
+  platforms:
+  - gab
+  image: www18_savvas.png
+  highlight: true
+  description: Gab launched in 2016 as a free-speech alternative to Twitter, attracting users banned from other platforms. We analyze 22M posts from 336K users (Aug 2016 to Jan 2018) and find Gab is mostly
+    used for news and world events, attracts alt-right users, conspiracy theorists, and trolls, with hate-speech prevalence much higher than Twitter but lower than 4chan's /pol/.
+  link:
+    url: https://dl.acm.org/doi/10.1145/3184558.3191531
+    venue: Companion Proceedings of the The Web Conference (WWW), 2018
+  news:
+  - Press coverage-[New Scientist](https://www.newscientist.com/article/2161933-theres-an-alt-right-alt-twitter-and-its-filled-with-hate/), and [Vice](https://www.vice.com/en/article/ywxb95/gab-is-the-alt-right-social-network-racists-are-moving-to)
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=6824040863997767384&as_sdt=800005&sciodt=0,15&hl=en">280+ papers citing this work
+    (Google scholar)</a>
+  authors: Savvas Zannettou, Barry Bradlyn, Emiliano De Cristofaro, Haewoon Kwak, Michael Sirivianos, Gianluca Stringhini, Jeremy Blackburn
+  scholar_ids:
+  - dcjrz5MAAAAJ:YOwf2qJgpHMC
+fixation-and-confusion-investigating-eye-tracking-participants-exposure-to-infor:
+  title: 'Fixation and Confusion: Investigating Eye-tracking Participants'' Exposure to Information in Personas'
+  tags:
+  - user-behavior
+  methods:
+  - user-study
+  link:
+    url: https://dl.acm.org/doi/10.1145/3176349.3176391?cid=99659160512
+    venue: Proceedings of the 2018 Conference on Human Information Interaction & Retrieval (CHIIR), 2018
+  authors: Joni Salminen, Bernard J. Jansen, Jisun An, Soon-Gyo Jung, Lene Nielsen, Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:QIV2ME_5wuYC
+  - FYtw3zkAAAAJ:7PzlFSSx8tAC
+  description: What confuses users of persona profiles? In a 29-participant eye-tracking and think-aloud study with three persona layouts, we measure where users fixate, what they say, and how the two relate.
+    Inconsistencies between persona elements (especially between photos and quoted social-media voices) drive most confusion. We propose a 'confusion ratio' to flag problematic profile elements.
+is-more-better-impact-of-multiple-photos-on-perception-of-persona-profiles:
+  title: '“Is More Better?”: Impact of Multiple Photos on Perception of Persona Profiles'
+  tags:
+  - user-behavior
+  methods:
+  - user-study
+  image: chi18_joni.png
+  highlight: true
+  description: Does adding photos to a marketing persona make it more informative? Eye-tracking and interviews compare a single headshot, a headshot plus contextual scenes of the persona, and a headshot
+    plus images of different people. Contextual images help; mixed people confuse readers, and viewers' own preconceptions shape what they see.
+  link:
+    url: https://dl.acm.org/doi/10.1145/3173574.3173891?cid=99659160512
+    venue: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI), 2018
+  authors: Joni Salminen, Lene Nielsen, Soon-Gyo Jung, Jisun An, Haewoon Kwak, Bernard J. Jansen
+  scholar_ids:
+  - dcjrz5MAAAAJ:K3LRdlH-MEoC
+  - FYtw3zkAAAAJ:TQgYirikUcIC
+  - FYtw3zkAAAAJ:UxriW0iASnsC
+reports-of-the-workshops-held-at-the-2017-international-aaai-conference-on-web-a:
+  title: Reports of the Workshops Held at the 2017 International AAAI Conference on Web and Social Media
+  tags:
+  - user-behavior
+  hide: true
+  link:
+    url: https://www.aaai.org/ojs/index.php/aimagazine/article/view/2772
+    venue: AI Magazine, 2017
+  authors: Jisun An, Giovanni Luca Ciampaglia, Nir Grinberg, Kenneth Joseph, Alexios Mantzarlis, Gregory Maus, Filippo Menczer, Nicholas Proferes, Brooke Foucault Welles
+  scholar_ids: *id001
+convergence-of-media-attention-across-129-countries:
+  title: Convergence of Media Attention Across 129 Countries
+  tags:
+  - user-behavior
+  image: socinfo17_an.png
+  highlight: true
+  description: 'Are news outlets across countries converging on the same stories or going their separate ways? Using daily data on the 100 most over-reported topics in each country over 7 months, we find
+    two patterns coexisting: globalization (shared attention across regions) and domestication (locally distinct coverage), shaped by geography, history, time, and topic.'
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-319-67256-4_14
+    venue: Proceedings of Social Informatics (SocInfo), 2017 (short)
+  authors: Jisun An, Hassan Aldarbesti,  Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:8k81kl-MbHgC
+  - FYtw3zkAAAAJ:kNdYIx-mwKoC
+multidimensional-analysis-of-the-news-consumption-of-different-demographic-group:
+  title: Multidimensional Analysis of the News Consumption of Different Demographic Groups on a Nationwide Scale
+  tags:
+  - news-journalism
+  methods:
+  - nlp
+  image: socinfo17_an_2.png
+  highlight: true
+  description: 'How differently do men and women, young and old, consume news? Examining 103,133 most-popular articles for different demographic groups in Daum News (Korea''s second-largest portal) over
+    2015, we measure differences at four levels: items, sections, topics, and subtopics. Demographic differences appear most sharply at the subtopic level, not at the broader section or topic level.'
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-319-67217-5_9
+    venue: Proceedings of Social Informatics (SocInfo), 2017
+  authors: Jisun An, Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:j3f4tGmQtD8C
+  - FYtw3zkAAAAJ:j3f4tGmQtD8C
+  - dcjrz5MAAAAJ:hFOr9nPyWt4C
+  - FYtw3zkAAAAJ:e5wmG9Sq2KIC
+multiplex-media-attention-and-disregard-network-among-129-countries:
+  title: Multiplex Media Attention and Disregard Network among 129 Countries
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  image: asonam17_kwak.png
+  highlight: true
+  description: Which countries pay attention to each other in their news coverage, and which deliberately ignore? We build a multiplex Media Attention and Disregard Network across 129 countries over 212
+    days. The network is skewed, hierarchical, and asymmetric, but suggests a 'global village' overall, with persistent attention blocks around the Middle East/North Africa and Russia's neighbors.
+  link:
+    url: https://arxiv.org/abs/1707.04941
+    venue: Proceedings of the IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), 2017
+  authors: Haewoon Kwak, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:3fE2CSJIrl8C
+  - FYtw3zkAAAAJ:Zph67rFs4hoC
+demographics-of-news-sharing-in-the-us-twittersphere:
+  title: Demographics of News Sharing in the US Twittersphere
+  tags:
+  - news-journalism
+  platforms:
+  - twitter
+  image: ht17_reis.png
+  highlight: true
+  description: Who shares news on Twitter, and what does that mean for what most readers see? In the first detailed study of news sharers' demographics, content, and audience, we find that male and white
+    users dominate news sharing, biasing the visible mix toward those groups' interests, with implications for personalized news design.
+  link:
+    url: https://dl.acm.org/doi/10.1145/3078714.3078734
+    venue: Proceedings of the 28th ACM Conference on Hypertext and Social Media (HT), 2017
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=13626524038588543208&as_sdt=800005&sciodt=0,15&hl=en">35+ papers citing this work
+    (Google scholar)</a>
+  authors: Julio Reis, Haewoon Kwak, and Jisun An, Johnnatan Messias, Fabrıcio Benevenuto
+  scholar_ids:
+  - dcjrz5MAAAAJ:JV2RwH3_ST0C
+  - FYtw3zkAAAAJ:maZDTaKrznsC
+data-driven-approach-to-measuring-the-level-of-press-freedom-using-media-attenti:
+  title: Data-driven Approach to Measuring the Level of Press Freedom Using Media Attention Diversity from Unfiltered News
+  tags:
+  - news-journalism
+  - bias-fairness
+  methods:
+  - user-study
+  image: neco17_an.png
+  highlight: true
+  description: 'The Press Freedom Index, published annually by Reporters Without Borders, is invaluable but expensive and slow because it''s survey-based. We propose an alternative: measure press freedom
+    from the diversity of attention an outlet pays, computed automatically from large-scale news data. The result tracks the official PFI while updating in near-real time.'
+  link:
+    url: https://arxiv.org/abs/1704.01422
+    venue: Proceedings of the ICWSM Workshop on NEws and publiC Opinion (NECO), 2017
+  news:
+  - Picked as [The Best of the Physics arXiv (week ending April 15, 2017) in MIT Technology Review](https://www.technologyreview.com/2017/04/15/68625/the-best-of-the-physics-arxiv-week-ending-april-15-2017/)
+  authors: Jisun An, Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:qUcmZB5y_30C
+  - FYtw3zkAAAAJ:R3hNpaxXUhUC
+what-gets-media-attention-and-how-media-attention-evolves-over-time-large-scale-:
+  title: What Gets Media Attention and How Media Attention Evolves Over Time - Large-scale Empirical Evidence from 196 Countries
+  tags:
+  - user-behavior
+  description: Why do some news topics get sustained media attention while others fade? Most prior work was limited to a few countries or topics for lack of global longitudinal data. We use large-scale
+    data from 196 countries to provide empirical analyses of how media attention forms, peaks, and dissipates over time.
+  link:
+    url: https://arxiv.org/abs/1704.01425
+    venue: Proceedings of the 11th International AAAI Conference on Web and Social Media (ICWSM), 2017
+  authors: Jisun An, Haewoon Kwak (short)
+  scholar_ids:
+  - dcjrz5MAAAAJ:MXK_kJrjxJIC
+  - FYtw3zkAAAAJ:KlAtU1dfN6UC
+persona-generation-from-aggregated-social-media-data:
+  title: Persona Generation from Aggregated Social Media Data
+  tags:
+  - user-behavior
+  link:
+    url: https://dl.acm.org/doi/10.1145/3027063.3053120
+    venue: Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI), 2017
+  authors: Soon-Gyo Jung, Jisun An, Haewoon Kwak, Moeed Ahmad, Lene Nielsen, Bernard J. Jansen (Extended Abstract)
+  scholar_ids:
+  - dcjrz5MAAAAJ:IWHjjKOFINEC
+  - FYtw3zkAAAAJ:HDshCWvjkbEC
+  description: 'We demonstrate a real-time persona-generation pipeline on a YouTube channel of a global media corporation: 30M+ interactions, 181 countries, 4,200+ digital products. The system identifies
+    distinct, impactful user segments and decorates each with auto-generated names, photos, and personal attributes, producing believable personas from real-time online data.'
+i-would-not-plant-apple-trees-if-the-world-will-be-wiped-analyzing-hundreds-of-m:
+  title: 'I Would Not Plant Apple Trees If the World Will Be Wiped: Analyzing Hundreds of Millions of Behavioral Records of Players During an MMORPG Beta Test'
+  tags:
+  - user-behavior
+  image: www17_kang.png
+  highlight: true
+  description: What do people do when they know their work will be erased? Using 270 million records from the final days of the ArcheAge MMO closed beta (where all character data was about to be deleted),
+    we find no broad antisocial collapse, but a sharp drop in quest completion, leveling, and ability changes. Most players stopped planting their proverbial apple trees.
+  link:
+    url: https://arxiv.org/abs/1703.01500
+    venue: Proceedings of the 26th International Conference on World Wide Web (WWW) Companion, 2017
+  news:
+  - Press coverage-[New Scientist](https://www.newscientist.com/article/2124199-video-game-beta-test-reveals-how-we-might-act-if-the-world-ends/), [IFL Science](http://www.iflscience.com/editors-blog/video-game-study-suggests-humans-get-more-peaceful-as-the-world-ends/),
+    [PC Gamer](http://www.pcgamer.com/researchers-use-mmo-beta-to-study-how-humanity-will-act-at-the-end-of-the-world/), [Massively OK](http://massivelyop.com/2017/03/14/researchers-study-archeages-beta-wipe-for-real-world-apocalypse-behavior/),
+    [El Confidencial](http://www.elconfidencial.com/tecnologia/2017-03-19/apocalipsis-fin-del-mundo-videojuego_1350357/), [Joongang Ilbo](https://news.joins.com/article/21490870), and so on.
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11642816494490102127,2130483029932134873">10+ papers citing this
+    work (Google scholar)</a>
+  authors: Ah Reum Kang, Jeremy Blackburn, Haewoon Kwak, Huy Kang Kim
+  scholar_ids:
+  - dcjrz5MAAAAJ:RHpTSmoSYBkC
+achievement-and-friends-key-factors-of-player-retention-vary-across-player-level:
+  title: 'Achievement and Friends: Key Factors of Player Retention Vary Across Player Levels in Online Multiplayer Games'
+  tags:
+  - user-behavior
+  image: www17_park.png
+  highlight: true
+  description: 'Why do players stay or leave a game? Analyzing in-game logs of 51,104 players in an online multiplayer game across their virtual ''life phases,'' we find what predicts retention shifts with
+    progression: achievement features matter most early and mid-game, but at the highest level, social ties become the strongest predictor of who keeps playing.'
+  link:
+    url: https://arxiv.org/abs/1702.08005
+    venue: Proceedings of the 26th International Conference on World Wide Web (WWW) Companion, 2017
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11338149565653117533&as_sdt=800005&sciodt=0,15&hl=en">35+ papers citing this work
+    (Google scholar)</a>
+  authors: Kunwoo Park, Meeyoung Cha, Haewoon Kwak, Kuan-Ta Chen
+  scholar_ids:
+  - dcjrz5MAAAAJ:TQgYirikUcIC
+culturally-grounded-analysis-of-everyday-creativity-in-social-media-a-case-study:
+  title: 'Culturally-Grounded Analysis of Everyday Creativity in Social Media: A Case Study in Qatari Context'
+  tags:
+  - user-behavior
+  methods:
+  - user-study
+  link:
+    url: https://dl.acm.org/doi/10.1145/3059454.3059456
+    venue: Proceedings of the 2017 ACM SIGCHI Conference on Creativity and Cognition (C&C), 2017
+  authors: D. Fox Harrell, Sarah Vieweg, Haewoon Kwak, Chong-U Lim, Sercan Sengun, Ali Jahanian, Pablo Ortiz
+  scholar_ids:
+  - dcjrz5MAAAAJ:2P1L_qKh6hAC
+  description: How do MENA-region users (whose cultures rarely shape platform design) creatively adapt social media to express identity? Combining computational analysis of 42,000+ Qatari social profiles
+    with 255 qualitative profile analyses and interviews, we identify five distinct values driving virtual-identity creativity, and propose guidelines for systems that respect those values.
+who-are-your-users-comparing-media-professionals-preconception-of-users-to-data-:
+  title: Who Are Your Users? Comparing Media Professionals' Preconception of Users to Data-Driven Personas
+  tags:
+  - user-behavior
+  link:
+    url: https://dl.acm.org/doi/10.1145/3152771.3156178?cid=99659160512
+    venue: Proceedings of the 29th Australian Conference on Computer-Human Interaction (OZCHI), 2017
+  authors: Lene Nielsen, Soon-Gyo Jung, Jisun An, Joni Salminen, Haewoon Kwak, Bernard J. Jansen
+  scholar_ids:
+  - dcjrz5MAAAAJ:WbkHhVStYXYC
+  - FYtw3zkAAAAJ:9ZlFYXVOiuMC
+  description: Personas are supposed to align cross-team user understanding, but do they? Through 16 qualitative interviews with media producers at Al Jazeera English, we find understandings are highly
+    varied, built from a mix of personal experience, self-projection, assumptions, and company data, and only sometimes match the data-driven personas.
+generating-cultural-personas-from-social-data-a-perspective-of-middle-eastern-us:
+  title: 'Generating Cultural Personas from Social Data: A Perspective of Middle Eastern Users'
+  tags:
+  - user-behavior
+  link:
+    url: https://ieeexplore.ieee.org/document/8113781
+    venue: Proceedings of the 5th International Conference on Future Internet of Things and Cloud Workshops, 2017
+  authors: J. Salminen, S. Sengün, H. Kwak, B. Jansen, J. An, S. Jung, S. Vieweg, D. F. Harrell
+  scholar_ids:
+  - dcjrz5MAAAAJ:Tiz5es2fbqcC
+  - FYtw3zkAAAAJ:mVmsd5A6BfQC
+  description: 'We adapt automatic persona generation for Middle Eastern social-media users, blending computational analysis of millions of YouTube interactions with interview data to enrich personas. The
+    result: culturally adapted personas that capture how different demographic groups in the region actually engage with content, and a methodology that respects cultural context.'
+personas-for-content-creators-via-decomposed-aggregate-audience-statistics:
+  title: Personas for Content Creators via Decomposed Aggregate Audience Statistics
+  tags:
+  - user-behavior
+  link:
+    url: https://dl.acm.org/doi/10.1145/3110025.3110072?cid=99659160512
+    venue: Proceedings of the 2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), 2017
+  authors: Jisun An, Haewoon Kwak, Bernard J. Jansen (short)
+  scholar_ids:
+  - dcjrz5MAAAAJ:dhFuZR0502QC
+  - FYtw3zkAAAAJ:hC7cP41nSMkC
+  description: Content creators distributing on online platforms need to understand their audiences. We generate personas from online user data using non-negative matrix factorization to identify user segments,
+    then add names and photos for personality. The result is data-driven personas that represent real audience groups, replacing manually gathered data.
+high-correlation-of-middle-east-respiratory-syndrome-spread-with-google-search-a:
+  title: High correlation of Middle East respiratory syndrome spread with Google search and Twitter trends in Korea
+  tags:
+  - user-behavior
+  platforms:
+  - twitter
+  image: scirep16_shin.png
+  highlight: true
+  description: Can web searches and social-media chatter predict an emerging-disease outbreak? During the 2015 MERS outbreak in Korea, daily Google searches and tweets for four Korean keywords correlated
+    strongly (above 0.7) with new and quarantined cases over the next three days, suggesting that simple digital signals can complement traditional epidemiological surveillance.
+  link:
+    url: https://www.nature.com/articles/srep32920?WT.feed_name=subjects_signs-and-symptoms
+    venue: Scientific Reports 6, Article number 32920 (2016)
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=779838285815792581&as_sdt=800005&sciodt=0,15&hl=en">130+ papers citing this work
+    (Google scholar)</a>
+  authors: Soo-Yong Shin, Dong-Woo Seo, Jisun An, Haewoon Kwak, Sung-Han Kim, Jin Gwack, Min-Woo Jo
+  scholar_ids:
+  - dcjrz5MAAAAJ:qjMakFHDy7sC
+  - FYtw3zkAAAAJ:2osOgNQ5qMEC
+multidimensional-analysis-of-gender-and-age-differences-in-news-consumption:
+  title: Multidimensional Analysis of Gender and Age Differences in News Consumption
+  tags:
+  - news-journalism
+  - bias-fairness
+  link:
+    url: https://journalism.stanford.edu/cj2016/files/Multidimensional%20Analysis%20of%20Gender%20and%20Age%20Differences%20in%20News%20Consumption.pdf
+    venue: Computation+Journalism (C+J) Symposium (2016)
+  authors: Jisun An, Haewoon Kwak
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:hFOr9nPyWt4C
+  - FYtw3zkAAAAJ:e5wmG9Sq2KIC
+revealing-the-hidden-patterns-of-news-photos-analysis-of-millions-of-news-photos:
+  title: 'Revealing the Hidden Patterns of News Photos: Analysis of Millions of News Photos Using GDELT and Deep Learning-based Vision APIs'
+  tags:
+  - news-journalism
+  methods:
+  - nlp
+  image: neco16_kwak.png
+  highlight: true
+  description: What kinds of objects appear in news photos, and do they tell the same story as the article text? Analyzing over 2 million news photos from January 2016 using deep-learning vision APIs, we
+    measure object frequency, photo sentiment, alignment with text tone, gender representation, and visual portrayal of political candidates. The first study of its scale.
+  link:
+    url: https://arxiv.org/abs/1603.04531
+    venue: ICWSM Workshop on NEws and publiC Opinion (NECO), 2016
+  news:
+  - Picked as [The Best of the Physics arXiv (week ending March 26, 2016) in MIT Technology Review](https://www.technologyreview.com/2016/03/26/161392/the-best-of-the-physics-arxiv-week-ending-march-26-2016/)
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6167789493843489335,2136904492187596392">20+ papers citing this work
+    (Google scholar)</a>
+  authors: Haewoon Kwak, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:Zph67rFs4hoC
+  - FYtw3zkAAAAJ:Tyk-4Ss8FVUC
+  - FYtw3zkAAAAJ:_kc_bZDykSQC
+two-tales-of-the-world-comparison-of-widely-used-world-news-datasets-gdelt-and-e:
+  title: 'Two Tales of the World: Comparison of Widely Used World News Datasets: GDELT and EventRegistry'
+  tags:
+  - news-journalism
+  methods:
+  - dataset
+  link:
+    url: http://arxiv.org/abs/1603.01979
+    venue: Proceeding of the 10th International Conference on Web and Social Media (ICWSM), 2016 (short)
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2718189774630617878">30+ papers citing this work (Google scholar)</a>
+  authors: Haewoon Kwak, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:u_35RYKgDlwC
+  - FYtw3zkAAAAJ:roLk4NBRz8UC
+  description: GDELT and Event Registry are the two big repositories researchers use to study global news. We compare them across scale, news sources, and news geography. They differ sharply in scale and
+    sources but agree closely on news geography — a useful warning and reassurance for anyone choosing between them.
+are-you-charlie-or-ahmed-cultural-pluralism-in-charlie-hebdo-response-on-twitter:
+  title: Are You Charlie or Ahmed? Cultural Pluralism in Charlie Hebdo Response on Twitter
+  tags:
+  - user-behavior
+  platforms:
+  - twitter
+  image: icwsm16_an.png
+  highlight: true
+  description: 'How did the world respond to the Charlie Hebdo shootings on Twitter? We test whether cultural background alone predicts stance on free speech (Huntington''s ''Clash of Civilizations'') or
+    whether local social context matters too. Both: ''civilization'' explains broad patterns, but non-Arabs embedded in mixed networks used #JeSuisAhmed five times more often.'
+  link:
+    url: https://arxiv.org/abs/1603.00646
+    venue: Proceeding of the 10th International Conference on Web and Social Media (ICWSM), 2016
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=14366398750224046048&as_sdt=800005&sciodt=0,15&hl=en">45+ papers citing this work
+    (Google scholar)</a>
+  authors: Jisun An, Haewoon Kwak, Yelena Mejova, Sonia Alonso Saenz De Oger, Braulio Gomez Fortes
+  scholar_ids:
+  - dcjrz5MAAAAJ:GnPB-g6toBAC
+  - FYtw3zkAAAAJ:BqipwSGYUEgC
+greysanatomy-vs-yankees-demographics-and-hashtag-use-on-twitter:
+  title: '#greysanatomy vs. #yankees: Demographics and Hashtag Use on Twitter.'
+  tags:
+  - user-behavior
+  platforms:
+  - twitter
+  link:
+    url: https://arxiv.org/abs/1603.01973
+    venue: Proceeding of the 10th International Conference on Web and Social Media (ICWSM), 2016
+  authors: Jisun An, Ingmar Weber (short)
+  scholar_ids:
+  - FYtw3zkAAAAJ:IjCSPb-OGe4C
+  description: Demographics matter for online behavior, but most social-media studies skip them for lack of data. We use face-analysis software to infer gender, age, and race from profile images of 350K
+    New York Twitter users, then track which hashtags each demographic group uses over a year. Top hashtags overlap broadly, but each group also has its own distinctive set.
+whom-should-we-sense-in-social-sensing-analyzing-which-users-work-best-for-socia:
+  title: Whom should we sense in 'social sensing'-analyzing which users work best for social media now-casting
+  tags:
+  - user-behavior
+  link:
+    url: https://link.springer.com/article/10.1140/epjds/s13688-015-0058-9
+    venue: EPJ Data Science, 4, Article number 22, 2015
+  authors: Jisun An, Ingmar Weber
+  scholar_ids:
+  - FYtw3zkAAAAJ:J_g5lzvAfSwC
+  description: Social media 'now-casting' (predicting flu activity, unemployment) usually counts every tweet equally, but social-media users don't equally represent the offline population. We show that
+    filtering by user characteristics (profile completeness, group membership) substantially improves now-casting accuracy, even when most users are excluded the right subset can outperform the whole.
+consumers-and-suppliers-attention-asymmetries-a-case-study-of-aljazeera-s-news-c:
+  title: 'Consumers and Suppliers: Attention asymmetries. A Case Study of Aljazeera’s News Coverage and Comments'
+  tags:
+  - news-journalism
+  methods:
+  - user-study
+  link:
+    url: http://cj2015.brown.columbia.edu/papers/consumers-and-suppliers.pdf
+    venue: Computation+Journalsim (C+J) Symposium, 2015
+  authors: Sofiane Abbar, Jisun An, Haewoon Kwak, Yacine Messaoui, Javier Borge-Holthoefer
+  scholar_ids:
+  - dcjrz5MAAAAJ:RYcK_YlVTxYC
+  - FYtw3zkAAAAJ:NaGl4SEjCO4C
+  description: News-geography research usually relies on what outlets publish, but what about what audiences actually read and react to? We pair 20,000 Aljazeera articles with 2M+ comments by 90,000 readers
+    (countries inferred from IP) to contrast the producer's lens (coverage) with the consumer's lens (attention), exposing where the two diverge.
+breaking-the-news-first-impressions-matter-on-online-news:
+  title: 'Breaking the News: First Impressions Matter on Online News'
+  tags:
+  - news-journalism
+  link:
+    url: http://arxiv.org/abs/1503.07921
+    venue: Proceeding of the 9th International Conference on Web and Social Media (ICWSM), 2015
+  news:
+  - Picked as [Other Interesting arXiv Papers (Week ending April 11, 2015) in MIT Technology Review](https://www.technologyreview.com/2015/04/13/11478/other-interesting-arxiv-papers-week-ending-april-11-2015/),
+    and [O Globo](https://oglobo.globo.com/economia/tecnologia/pesquisadores-da-ufmg-publicam-estudo-sobre-sentimentos-gerados-por-manchetes-on-line-15858353)
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6242019256705591099">200+ papers citing this work (Google scholar)</a>
+  authors: Julio Reis, Fabrıcio Benevenuto, Pedro Olmo, Raquel Prates, Haewoon Kwak, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:hMod-77fHWUC
+  - FYtw3zkAAAAJ:4TOpqqG69KYC
+  description: News headlines are the first impression in the click economy. Analyzing 69,907 headlines from four major media corporations over 8 months in 2014, we extract sentiment features and find a
+    strong link between a headline's sentiment polarity and both the popularity of the news and the dynamics of its comments. Sentiment shapes how news travels.
+exploring-cyberbullying-and-other-toxic-behavior-in-team-competition-online-game:
+  title: Exploring Cyberbullying and Other Toxic Behavior in Team Competition Online Games
+  tags:
+  - online-harm
+  methods:
+  - crowdsourced
+  - dataset
+  image: chi15_kwak.png
+  highlight: true
+  description: Toxic behavior in team-based competitive games is widely felt but poorly understood empirically. Using over 10 million player reports on 1.46 million toxic players in League of Legends (with
+    crowdsourced verdicts attached), we test hypotheses drawn from theories of toxic behavior at unprecedented scale, providing a foundation for systems to detect, prevent, and counter such acts.
+  link:
+    url: http://dl.acm.org/authorize?N05627
+    venue: Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI), 2015
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?rlz=1C5CHFA_enSG930SG930&um=1&ie=UTF-8&lr&cites=4756016450899538621">310+ papers citing
+    this work (Google scholar)</a>
+  authors: Haewoon Kwak, Jeremy Blackburn, Seungyeop Han
+  scholar_ids:
+  - dcjrz5MAAAAJ:5nxA0vEk-isC
+from-cells-to-streets-estimating-mobile-paths-with-cellular-side-data:
+  title: 'From Cells to Streets: Estimating Mobile Paths with Cellular-Side Data'
+  tags:
+  - user-behavior
+  link:
+    url: https://dl.acm.org/doi/10.1145/2674005.2674982
+    venue: Proceedings of the 10th ACM International on Conference on emerging Networking Experiments and Technologies (CoNEXT), 2014
+  authors: Ilias Leontiadis, Antonio Lima, Haewoon Kwak, Rade Stanojevic, David Wetherall, Konstantina Papagiannaki
+  scholar_ids:
+  - dcjrz5MAAAAJ:IjCSPb-OGe4C
+  description: Cellular networks already log subscribers' coarse location continuously. We ask whether such sparse, irregular data is enough to reconstruct each device's actual daily path. If so, the same
+    approach extends from smartphones to the millions of future connected 'things,' enabling continuous mobility tracking without GPS or dedicated apps.
+understanding-news-geography-and-major-determinants-of-global-news-coverage-of-d:
+  title: Understanding News Geography and Major Determinants of Global News Coverage of Disasters
+  tags:
+  - news-journalism
+  link:
+    url: https://arxiv.org/abs/1410.3710
+    venue: Computation+Journalism (C+J) Symposium, 2014
+  news:
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18047591007233343783">25+ papers citing this work (Google scholar)</a>
+  authors: Haewoon Kwak, Jisun An (extension of SocInfo'14)
+  scholar_ids:
+  - dcjrz5MAAAAJ:g5m5HwL7SMYC
+  - FYtw3zkAAAAJ:ZHo1McVdvXMC
+  description: What determines whether a disaster gets global news coverage? Using the GDELT dataset that monitors news in over 100 languages worldwide, we fit a hierarchical mixed-effect regression model
+    and find that population, political stability, and damage all matter (as prior research suggested), but also expose strong regionalism that shows up only when the dataset is genuinely global.
+a-first-look-at-global-news-coverage-of-disasters-by-using-the-gdelt-dataset:
+  title: A First Look at Global News Coverage of Disasters By Using the GDELT Dataset
+  tags:
+  - news-journalism
+  methods:
+  - dataset
+  platforms:
+  - news-media
+  image: socinfo14_kwak.png
+  highlight: true
+  description: What determines whether the world's news media notice a disaster? Using the GDELT dataset that monitors news in over 100 languages, we fit a hierarchical regression and find population, political
+    stability, and damage all matter as expected, but also expose strong regionalism in news geography that's only visible at truly global scale.
+  link:
+    url: https://soda-labo.github.io/downloads/kwak2014first.pdf
+    venue: Proceedings of Social Informatics, 2014
+  news:
+  - Press Coverage-[MIT Technology Review](https://www.technologyreview.com/2014/10/23/170630/data-mining-reveals-how-news-coverage-varies-around-the-world/), [ACM TechNews](https://cacm.acm.org/news/179842-data-mining-reveals-how-news-coverage-varies-around-the-world/fulltext)
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=15874367282095552332&as_sdt=800005&sciodt=0,15&hl=en">60+ papers citing this work (Google scholar)</a>
+  authors: Haewoon Kwak, Jisun An
+  scholar_ids:
+  - dcjrz5MAAAAJ:ns9cj8rnVeAC
+  - FYtw3zkAAAAJ:ns9cj8rnVeAC
+linguistic-analysis-of-toxic-behavior-in-an-online-video-game:
+  title: Linguistic Analysis of Toxic Behavior in an Online Video Game
+  tags:
+  - online-harm
+  methods:
+  - crowdsourced
+  image: egg14_kwak.png
+  highlight: true
+  description: What does toxic player chat actually look like, linguistically? Using crowdsourced data on 590,000+ reported toxic players in League of Legends, we trace the language patterns that distinguish
+    toxic players from typical ones, and find empirical support for how a player gradually slides from typical into toxic behavior. The findings enable earlier detection and warning.
+  link:
+    url: https://arxiv.org/abs/1410.5185
+    venue: SocInfo Workshop on Exploration on Games and Gamers (EGG), 2014
+  news:
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=11069551978211807412&as_sdt=800005&sciodt=0,15&hl=en">110+ papers citing this work (Google scholar)</a>
+  authors: Haewoon Kwak, Jeremy Blackburn
+  scholar_ids:
+  - dcjrz5MAAAAJ:2osOgNQ5qMEC
+searching-for-a-unique-style-in-soccer:
+  title: Searching for a Unique Style in Soccer
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  image: kdd14_laszlo.png
+  highlight: true
+  description: Is there really such a thing as a unique team style in modern soccer? We introduce 'flow motifs' — statistically significant patterns in pass sequences — to compare teams' play. Most teams
+    converge on similar structures, but FC Barcelona's tiki-taka turns out to be a genuinely distinctive, tightly constructed pattern rather than a flurry of random passes.
+  link:
+    url: https://arxiv.org/abs/1409.0308
+    venue: KDD Workshop on Large-Scale Sports Analytics, 2014
+  news:
+  - Press coverage-[BBC](https://www.bbc.com/future/article/20141024-what-makes-barcelona-so-special?referer=http%3A%2F%2Fhaewoon.io%2F), [MIT Technology Review](https://www.technologyreview.com/2014/09/15/12542/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/),
+    [The Times](https://www.thetimes.co.uk/article/proof-at-last-that-we-are-all-pass-masters-almost-8l8z7tc6fvg), [The Economist](https://www.economist.com/game-theory/2014/09/22/a-different-ball-game),
+    [Slate](http://www.slate.fr/story/92245/graphiques-fc-barcelone-style-jeu-unique), [Pacific Standard](https://psmag.com/social-justice/football-sport-soccer-art-motifs-matter-90256#.ykqwk6ny8), and
+    so on.
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=1764394898914613341&as_sdt=800005&sciodt=0,15&hl=en">110+ papers citing this work (Google scholar)</a>
+  authors: Laszlo Gyarmati, Haewoon Kwak, Pablo Rodriguez
+  scholar_ids:
+  - dcjrz5MAAAAJ:zYLM7Y9cAGgC
+didn-t-you-see-my-message-predicting-attentiveness-to-mobile-instant-messages:
+  title: Didn’t You See My Message? Predicting Attentiveness to Mobile Instant Messages
+  tags:
+  - user-behavior
+  link:
+    url: http://dl.acm.org/authorize?N87787
+    venue: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2014
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11472524438583510373">240+ papers citing this work (Google scholar)</a>
+  authors: Martin Pielot, Rodrigo de Oliveira, Haewoon Kwak, Nuria Oliver
+  scholar_ids:
+  - dcjrz5MAAAAJ:e5wmG9Sq2KIC
+  description: Instant messaging silently signals 'last seen,' creating social pressure to reply fast. We show those signals are also weak predictors of actual attentiveness. Tracking 24 users over 2 weeks,
+    we train a model on phone signals (notifications, screen activity, proximity, ringer mode) that predicts whether a user will view a message within minutes at 70% accuracy.
+stfu-noob-predicting-crowdsourced-decisions-on-toxic-behavior-in-online-games:
+  title: STFU NOOB! Predicting Crowdsourced Decisions on Toxic Behavior in Online Games
+  tags:
+  - online-harm
+  methods:
+  - crowdsourced
+  - dataset
+  image: www14_jeremy.png
+  highlight: true
+  description: League of Legends crowdsources toxicity judgements through the 'Tribunal,' but human review is slow and expensive. We train classifiers on 10M+ player reports covering 1.46M toxic players
+    and the corresponding crowdsourced verdicts. The model captures strong-majority cases well and ports across regions, suggesting a practical way to reduce moderation cost.
+  link:
+    url: https://arxiv.org/abs/1404.5905
+    venue: Proceedings of the 23rd international conference on World wide web (WWW), 2014
+  news:
+  - Press coverage-[Nature](https://www.nature.com/news/can-a-video-game-company-tame-toxic-behaviour-1.19647), [Scientific American](http://www.scientificamerican.com/article/can-a-video-game-company-tame-toxic-behavior/),
+    [Chosun Ilbo](https://www.chosun.com/site/data/html_dir/2016/04/06/2016040603525.html)
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7342817784049546116">190+ papers citing this work (Google scholar)</a>
+  authors: Jeremy Blackburn, Haewoon Kwak
+  scholar_ids:
+  - dcjrz5MAAAAJ:M3ejUd6NZC8C
+has-much-potential-but-biased-exploring-the-scholarly-landscape-in-twitter:
+  title: 'Has Much Potential but Biased: Exploring the Scholarly Landscape in Twitter'
+  tags:
+  - bias-fairness
+  platforms:
+  - twitter
+  link:
+    url: https://dl.acm.org/doi/10.1145/2567948.2576956
+    venue: Proceedings of the 23rd International Conference on World Wide Web Companion, 2014
+  authors: Haewoon Kwak, Jonggun Lee (poster)
+  scholar_ids:
+  - dcjrz5MAAAAJ:k_IJM867U9cC
+  description: Can Twitter measure a paper's scientific impact? We track how 75,677 research papers from the top 100 journals get shared on Twitter (403,165 tweets by 142,743 users over 135 days). Twitter's
+    reach for scholarly content is real, but attention is highly skewed toward a small subset of top journals, limiting its value as a fair impact signal.
+sharing-political-news-the-balancing-act-of-intimacy-and-socialization-in-select:
+  title: 'Sharing political news: the balancing act of intimacy and socialization in selective exposure'
+  tags:
+  - news-journalism
+  link:
+    url: https://link.springer.com/article/10.1140/epjds/s13688-014-0012-2
+    venue: EPJ Data Science volume 3, Article number 12, 2014
+  authors: Jisun An, Daniele Quercia, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft
+  scholar_ids:
+  - FYtw3zkAAAAJ:5nxA0vEk-isC
+  description: Why do people share certain political articles and not others? We propose a Political News Sharing model integrating gratification, selective exposure, socialization, and trust/intimacy.
+    On Twitter data, sharing is driven by what one agrees with (selective exposure) but also by source credibility and informativeness, and users sometimes share opposing articles when those match their
+    followers' leanings.
+recommending-investors-for-crowdfunding-projects:
+  title: Recommending investors for crowdfunding projects
+  tags:
+  - user-behavior
+  platforms:
+  - twitter
+  image: www14_an.png
+  highlight: true
+  description: Most Kickstarter projects fail because creators can't reach enough investors. We propose ways to recommend Twitter accounts likely to pledge to a given project, translating hypothesis-driven
+    analyses of pledging behavior into recommendation strategies. The best strategy predicts a list of plausible investors with 84% accuracy.
+  link:
+    url: https://dl.acm.org/doi/10.1145/2566486.2568005
+    venue: Proceedings of the 23rd international conference on World wide web (WWW), 2014
+  news:
+  - Press coverage-[FastCompany](https://www.fastcompany.com/3037619/how-to-predict-who-will-donate-to-your-kickstarter)
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=1177079957414096999&as_sdt=800005&sciodt=0,15&hl=en">100+ papers citing this work (Google scholar)</a>
+  authors: Jisun An, Daniele Quercia, Jon Crowcroft
+  scholar_ids:
+  - FYtw3zkAAAAJ:UeHWp8X0CEIC
+partisan-sharing-facebook-evidence-and-societal-consequences:
+  title: 'Partisan Sharing: Facebook Evidence and Societal Consequences'
+  tags:
+  - beliefs-opinions
+  platforms:
+  - facebook
+  link:
+    url: https://dl.acm.org/doi/10.1145/2660460.2660469?cid=99659160512
+    venue: Proceedings of the Second ACM Conference on Online Social Networks (COSN), 2014
+  news:
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14234114717665916389">110+ papers citing this work (Google scholar)</a>
+  authors: Jisun An, Daniele Quercia, Jon Crowcroft
+  scholar_ids:
+  - FYtw3zkAAAAJ:NMxIlDl6LWMC
+  description: Even if Facebook users see politically diverse articles, do they only share ones that match their views? We test for 'partisan sharing' across individuals, time, and topic importance, and
+    find strong evidence it exists. A controlled experiment with 70+ BBC viewers shows partisan sharing distorts perception of reality, but is also associated with more political knowledge.
+tower-of-babel-a-crowdsourcing-game-building-sentiment-lexicons-for-resource-sca:
+  title: 'Tower of Babel: A Crowdsourcing Game Building Sentiment Lexicons for Resource-scarce Languages'
+  tags:
+  - user-behavior
+  methods:
+  - nlp
+  - crowdsourced
+  link:
+    url: https://soda-labo.github.io/downloads/hong2013tower.pdf
+    venue: WWW Workshop on Multidisciplinary Approaches to Big Social Data Analysis, 2013
+  news:
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dcjrz5MAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=dcjrz5MAAAAJ:WF5omc3nYNoC">25+
+    papers citing this work (Google scholar)</a>
+  authors: Yoonsung Hong, Haewoon Kwak, Youngmin Baek, Sue Moon
+  scholar_ids:
+  - dcjrz5MAAAAJ:WF5omc3nYNoC
+  description: Sentiment analysis needs language-specific lexicons, but non-English languages often lack them. Tower of Babel is a language-independent crowdsourcing game that builds sentiment lexicons
+    through play. A 135-participant study finds the game produces accurate classifications, faster than manual annotation and rated as more enjoyable.
+structures-of-broken-ties-exploring-unfollow-behavior-on-twitter:
+  title: 'Structures of Broken Ties: Exploring Unfollow Behavior on Twitter'
+  tags:
+  - networks-influence
+  platforms:
+  - twitter
+  link:
+    url: http://dl.acm.org/authorize?6892114
+    venue: Proceedings of the 16th ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW), 2013
+  news:
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16570226745430044928">70+ papers citing this work (Google scholar)</a>
+  authors: Bo Xu, Yun Huang, Haewoon Kwak, Noshir S. Contractor
+  scholar_ids:
+  - dcjrz5MAAAAJ:J_g5lzvAfSwC
+  description: 'What makes a Twitter user stop following another? Using actor-oriented modeling (SIENA) on tightly-knit user groups, we find relational properties dominate: mutual following and shared followees
+    reduce unfollow likelihood, and unfollows tend to be reciprocal (being unfollowed prompts unfollowing back). Surprisingly, homophily of interests and informativeness of interactions show no measurable
+    effect.'
+why-individuals-seek-diverse-opinions-or-why-they-don-t:
+  title: Why Individuals Seek Diverse Opinions (or Why They Don't)
+  tags:
+  - beliefs-opinions
+  link:
+    url: https://dl.acm.org/doi/10.1145/2464464.2464493?cid=99659160512
+    venue: Proceedings of the 5th Annual ACM Web Science Conference (WebSci), 2013
+  authors: Jisun An, Daniele Quercia, Jon Crowcroft
+  scholar_ids:
+  - FYtw3zkAAAAJ:RGFaLdJalmkC
+  description: Tools that expose people to diverse opinions are pitched as a fact-checking aid, but does anyone want them? Through surveys of 60 people and in-depth interviews of 10 in the UK and South
+    Korea, we find people don't equally value opinion diversity, and even the same person benefits only sometimes, depending on prior convictions, emotional state, and social context.
+why-do-i-retweet-it-an-information-propagation-model-for-microblogs:
+  title: Why Do I Retweet It? An Information Propagation Model for Microblogs
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  platforms:
+  - twitter
+  link:
+    url: https://soda-labo.github.io/downloads/pezzoni2013why.pdf
+    venue: Proceedings of the 5th International Conference on Social Informatics (SocInfo), 2013
+  authors: Fabio Pezzoni, Jisun An, Andrea Passarella, Jon Crowcroft, Marco Conti
+  scholar_ids:
+  - FYtw3zkAAAAJ:SeFeTyx0c_EC
+  description: What makes a tweet get retweeted? Combining network structure with user behavior, we find that a message's visibility in a user's incoming flow strongly predicts whether they pass it on,
+    but latent traits of the original poster also matter. We turn these findings into a propagation model whose simulated cascades match the empirical ones.
+traditional-media-seen-from-social-media:
+  title: Traditional Media Seen from Social Media
+  tags:
+  - news-journalism
+  link:
+    url: https://dl.acm.org/doi/10.1145/2464464.2464492?cid=99659160512
+    venue: Proceedings of the 5th Annual ACM Web Science Conference (WebSci), 2013
+  authors: Jisun An, Daniele Quercia, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft
+  scholar_ids:
+  - FYtw3zkAAAAJ:MXK_kJrjxJIC
+  description: 'Twitter exposes who follows which news outlet and how outlets interact through their audiences. Building a map of 77 media outlets from Twitter subscription overlap, we can answer questions
+    previously locked in media databases: how much do NYT and WSJ readers overlap? Are outlets competing or complementary? Do friends subscribe to similar outlets?'
+fragmented-social-media-a-look-into-selective-exposure-to-political-news:
+  title: 'Fragmented Social Media: A Look into Selective Exposure to Political News'
+  tags:
+  - news-journalism
+  link:
+    url: https://dl.acm.org/doi/10.1145/2487788.2487807?cid=99659160512
+    venue: Proceedings of the 22nd International Conference on World Wide Web (WWW) Companion, 2013
+  authors: Jisun An, Daniele Quercia, Jon Crowcroft (poster)
+  scholar_ids:
+  - FYtw3zkAAAAJ:LkGwnXOMwfcC
+  description: Selective exposure has been theoretically promising but hard to test empirically. Looking at news articles shared on Facebook, we find concrete evidence that users predominantly share like-minded
+    articles and avoid conflicting ones, with partisans especially so. Building tools to counter this would require identifying partisan users, but the subgroup is demographically indistinguishable from
+    the average user.
+more-of-a-receiver-than-a-giver-why-do-people-unfollow-in-twitter:
+  title: 'More of a Receiver than a Giver: Why Do People Unfollow in Twitter?'
+  tags:
+  - networks-influence
+  platforms:
+  - twitter
+  link:
+    url: https://soda-labo.github.io/downloads/kwak2012more.pdf
+    venue: Proceedings of the 6th International AAAI Conference on Weblogs and Social Media (ICWSM), 2012
+  news:
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12122812711251833820">50+ papers citing this work (Google scholar)</a>
+  authors: Haewoon Kwak, Sue Moon, Wonjae Lee (4 page poster)
+  scholar_ids:
+  - dcjrz5MAAAAJ:iH-uZ7U-co4C
+  description: 'Why do people unfollow on Twitter? We fit a logistic regression with structural and behavioral features (ego, dyad, and triad properties) on large-scale data, finding 5 structural and 7
+    actional variables that significantly predict unfollows. One striking pattern: people are less likely to unfollow accounts that have acknowledged them, even in lopsided communications.'
+visualizing-media-bias-through-twitter:
+  title: Visualizing Media Bias through Twitter
+  tags:
+  - bias-fairness
+  - news-journalism
+  platforms:
+  - twitter
+  link:
+    url: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/view/4775
+    venue: ICWSM Workshop on the Potential of Social Media Tools and Data for Journalists, 2012
+  authors: Jisun An, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft, Daniele Quercia
+  scholar_ids:
+  - FYtw3zkAAAAJ:RHpTSmoSYBkC
+  description: Tracking political bias in news outlets matters for media literacy. We map media sources onto a left-right political spectrum using Twitter co-subscription (who follows which outlet). Analyzing
+    7M follow links shows the political split naturally emerges from direct subscription data, and we demonstrate a real-time application visualizing the ideological landscape.
+consistent-community-identification-in-complex-networks:
+  title: Consistent Community Identification in Complex Networks
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  link:
+    url: https://soda-labo.github.io/downloads/kwak2011consistent.pdf
+    venue: Journal of Korean Physical Society, Vol. 59, No. 5, November 2011.
+  authors: Haewoon Kwak, Sue Moon, Young-Ho Eom, Yoonchan Choi, Hawoong Jeong
+  scholar_ids:
+  - dcjrz5MAAAAJ:aqlVkmm33-oC
+  description: Community-detection algorithms tend to return different communities each time you change the input node ordering. We propose two metrics (pairwise membership probability, consistency) and
+    use the first as link weights to drive a procedure that converges to consistent communities within six cycles or fewer, without sacrificing modularity.
+fragile-online-relationship-a-first-look-at-unfollow-dynamics-in-twitter:
+  title: 'Fragile Online Relationship: a First Look at Unfollow Dynamics in Twitter'
+  tags:
+  - networks-influence
+  methods:
+  - user-study
+  platforms:
+  - twitter
+  image: chi11_kwak.png
+  highlight: true
+  description: How often do Twitter users actually unfollow each other? Tracking 1.2M Korean-speaking users daily for 51 days, we find unfollowing is common. Quantitative analysis identifies key factors
+    (reciprocity, relationship duration, followees' informativeness, overlap of relationships); 22 interviews reveal users unfollow those who tweet too often, about boring topics, or about mundane life
+    details.
+  link:
+    url: http://dl.acm.org/authorize?419779
+    venue: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2011.
+  news:
+  - Press coverage - [Kyunghyang Shinmun](http://news.khan.co.kr/kh_news/khan_art_view.html?artid=201112132128435&code=960201)
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=5916615019466622068&as_sdt=2005&sciodt=0,5&hl=en">150+ papers citing this work (Google scholar)</a>
+  authors: Haewoon Kwak, Hyunwoo Chun, Sue Moon
+  scholar_ids:
+  - dcjrz5MAAAAJ:KlAtU1dfN6UC
+media-landscape-in-twitter-a-world-of-new-conventions-and-political-diversity:
+  title: 'Media Landscape in Twitter: A World of New Conventions and Political Diversity'
+  tags:
+  - news-journalism
+  - bias-fairness
+  platforms:
+  - twitter
+  image: icwsm11_an.png
+  highlight: true
+  description: Who you follow on Twitter shapes which media you see, but indirect exposure (friends who follow outlets, retweets from outside your circle) matters too. Using public follow data, we show
+    that indirect exposure expands the political diversity of news a typical user encounters by 60 to 98%, a finding not visible to traditional media research.
+  link:
+    url: https://ojs.aaai.org/index.php/ICWSM/article/view/14118
+    venue: Proceedings of the 5th International AAAI Conference on Weblogs and Social Media (ICWSM), 2011.
+  news:
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?cites=14445905738088978601&as_sdt=800005&sciodt=0,15&hl=en">200+ papers citing this work (Google scholar)</a>
+  authors: Jisun An, Meeyoung Cha, Krishna Gummadi, Jon Crowcroft
+  scholar_ids:
+  - FYtw3zkAAAAJ:GnPB-g6toBAC
+what-is-twitter-a-social-network-or-a-news-media:
+  title: What is Twitter, a Social Network or a News Media?
+  tags:
+  - news-journalism
+  methods:
+  - networks
+  platforms:
+  - twitter
+  image: www10_kwak.png
+  highlight: true
+  description: 'Twitter exploded from a nascent microblogging service to over 41M users in just a few years. We crawl the full Twitter graph (1.47B follow relationships, 4,262 trending topics, 106M tweets)
+    and characterize its topology and information dynamics, asking whether Twitter behaves more like a social network or a news medium. The finding: more news than network.'
+  link:
+    url: http://dl.acm.org/authorize?237581
+    venue: Proceedings of the 19th international conference on World wide web (WWW), 2010.
+  news:
+  - Press coverage - [Mashable Op-Ed](https://mashable.com/2010/10/11/facebook-twitter-social/), [ReadWrite](https://readwrite.com/2010/05/11/study_twitter_isnt_very_social/), [The Guardian](https://www.theguardian.com/technology/2010/may/09/john-naughton-twitter-microsoft-research),
+    [PC News](https://www.pcworld.com/article/195374/article.html), [Chosun Ilbo](http://businessnews.chosun.com/site/data/html_dir/2010/05/13/2010051300519.html), [DongA Ilbo](https://www.donga.com/news/Economy/Money/article/all/20111210/42505605/1)
+  - <a style="color:#FF0000; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=420603684741729498">10k+ papers citing this work (Google scholar)</a>
+  authors: Haewoon Kwak, Changhyun Lee, Hosung Park, Sue Moon
+  scholar_ids:
+  - dcjrz5MAAAAJ:d1gkVwhDpl0C
+finding-influentials-based-on-the-temporal-order-of-information-adoption-in-twit:
+  title: Finding Influentials based on the Temporal Order of Information Adoption in Twitter
+  tags:
+  - networks-influence
+  platforms:
+  - twitter
+  link:
+    url: http://dl.acm.org/authorize?235691
+    venue: Proceedings of the 19th international conference on World wide web (WWW), 2010.
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=ko&cites=12907911141919226818&as_sdt=5">200+ papers citing this work (Google
+    scholar)</a>
+  authors: Changhyun Lee, Haewoon Kwak, Hosung Park, Sue Moon (poster)
+  scholar_ids:
+  - dcjrz5MAAAAJ:maZDTaKrznsC
+  description: Many methods identify influential Twitter users from follower or retweet counts, but ignore when information actually gets adopted. We propose a method that incorporates both link structure
+    and the temporal order of adoption, surfacing a distinct class of influentials that previous methods miss.
+understanding-topological-mesoscale-features-in-community-mining:
+  title: Understanding Topological Mesoscale Features in Community Mining
+  tags:
+  - networks-influence
+  link:
+    url: https://ieeexplore.ieee.org/document/5431994
+    venue: Proceedings of the Second International Conference on COMmunication Systems and NETworks (COMSNETS), 2010.
+  authors: Sue Moon, Jinyoung You, Haewoon Kwak, Daniel Kim, and Hawoong Jeong (invited paper)
+  scholar_ids:
+  - dcjrz5MAAAAJ:_Qo2XoVZTnwC
+  description: Community-detection algorithms often disagree on which nodes belong where. Building on an iterative-reinforcement approach across 12 real networks, we find about 40% of nodes are grouped
+    inconsistently in large social graphs (Orkut, Cyworld). Using participation-coefficient analysis, we classify nodes into seven structural roles and compare two AS networks built from different sources.
+analyzing-the-video-popularity-characteristics-of-large-scale-user-generated-con:
+  title: Analyzing the Video Popularity Characteristics of Large-Scale User Generated Content Systems
+  tags:
+  - user-behavior
+  link:
+    url: https://ieeexplore.ieee.org/document/5431994
+    venue: ACM/IEEE Transactions on Networking, Vol 17, Issue 5, 2009
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?rlz=1C5CHFA_enSG927SG927&um=1&ie=UTF-8&lr&cites=11215649147595324791">600+ papers citing
+    this work (Google scholar)</a>
+  authors: Meeyoung Cha, Haewoon Kwak, Pablo Rodriguez, Yong-Yeol Ahn, and Sue Moon
+  scholar_ids:
+  - dcjrz5MAAAAJ:HDshCWvjkbEC
+  description: User-generated video systems differ fundamentally from traditional video-on-demand. Analyzing YouTube and Korea's Daum Videos, we characterize UGC popularity distributions, the lifetime of
+    a video's popularity, and the relationship between requests and content age. We also surface the impact of content aliasing and illegal uploads on ranking accuracy.
+mining-communities-in-networks-a-solution-for-consistency-and-its-evaluation:
+  title: 'Mining Communities in Networks: a Solution for Consistency and Its Evaluation'
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  link:
+    url: http://dl.acm.org/authorize?256322
+    venue: Proceedings of the 9th ACM SIGCOMM conference on Internet measurement (IMC), 2009
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10763467067488276654,16530488223529021728">90+ papers citing this
+    work (Google scholar)</a>
+  authors: Haewoon Kwak, Yoonchan Choi, Young-Ho Eom, Hawoong Jeong, Sue Moon
+  scholar_ids:
+  - dcjrz5MAAAAJ:hC7cP41nSMkC
+  description: Three popular community-detection algorithms (CNM, Wakita, Louvain) all return different communities every time you change input node ordering. We propose pairwise membership probability
+    as a consistency metric, then use it as link weights in an iterative procedure that converges to consistent communities within six cycles without sacrificing modularity.
+the-wisdom-of-the-few-a-collaborative-filtering-approach-based-on-expert-opinion:
+  title: 'The Wisdom of the Few: A Collaborative Filtering Approach based on Expert Opinions from the Web'
+  tags:
+  - beliefs-opinions
+  link:
+    url: http://dl.acm.org/authorize?107602
+    venue: Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval (SIGIR), 2009
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=ko&cites=12105950545188755091">150+ papers citing this work (Google scholar)</a>
+  authors: Xavier Amatriaain, Neal Lathia, Josep M. Pujol, Haewoon Kwak, Nuria Oliver
+  scholar_ids:
+  - dcjrz5MAAAAJ:r0BpntZqJG4C
+  description: Standard collaborative filtering suffers from data sparsity, cold start, and noise. We propose computing recommendations from a separate set of expert reviews (instead of the user-rating
+    graph itself), weighted by similarity to each user. Validated on Netflix data and a user study where participants preferred our recommendations, the method preserves accuracy while avoiding CF's weaknesses.
+connecting-users-with-similar-interests-across-multiple-web-services:
+  title: Connecting Users with Similar Interests Across Multiple Web Services
+  tags:
+  - networks-influence
+  link:
+    url: https://soda-labo.github.io/downloads/kwak2009connecting.pdf
+    venue: Proceedings of the 3rd International AAAI Conference on Weblogs and Social Media (ICWSM), 2009
+  authors: Haewoon Kwak, Hwa-Yong Shin, Jong-Il Yoon, Sue Moon (poster)
+  scholar_ids:
+  - dcjrz5MAAAAJ:M3NEmzRMIkIC
+  description: Online services group users with shared interests, but their group-recommendation signals stay siloed inside each service. We propose connecting users across multiple web services through
+    their user-labeled tags, which carry less privacy risk and stay fresher than profile data. A vector-space model with intra-personomy normalization finds similar users effectively across six services.
+comparison-of-online-social-relations-in-volume-vs-interaction-a-case-study-of-c:
+  title: 'Comparison of Online Social Relations in Volume vs Interaction: A Case Study of Cyworld'
+  tags:
+  - networks-influence
+  methods:
+  - user-study
+  link:
+    url: http://dl.acm.org/authorize?037715
+    venue: Proceedings of the 8th ACM SIGCOMM conference on Internet measurement (IMC), 2008
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16920983580300166416">250+ papers citing this work (Google scholar)</a>
+  authors: Hyunwoo Chun, Haewoon Kwak, Young-Ho Eom, Yong-Yeol Ahn, Sue Moon, and Hawoong Jeong
+  scholar_ids:
+  - dcjrz5MAAAAJ:70eg2SAEIzsC
+  description: 'Is a Cyworld ''friend'' an active relationship or just a declaration? We compare friend-list networks against activity networks formed by actual guestbook comments. The two have similar
+    topology, but only the activity network (with reciprocated comments as edges) behaves like a true social network: more assortative, with fewer artificially dense cores.'
+i-tube-you-tube-everybody-tubes-analyzing-the-world-s-largest-user-generated-con:
+  title: 'I Tube, You Tube, Everybody Tubes: Analyzing the World''s Largest User Generated Content Video System'
+  tags:
+  - user-behavior
+  link:
+    url: http://dl.acm.org/authorize?916072
+    venue: Proceedings of the 7th ACM SIGCOMM conference on Internet measurement (IMC), 2009
+  news:
+  - Best paper award, [The IMC Test of Time Award](https://www.sigcomm.org/awards/IMC-test-of-time-award)
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=10792240042294166454&as_sdt=2005&sciodt=0,5&hl=en">2,200+ papers citing this work
+    (Google scholar)</a>
+  authors: Meeyoung Cha, Haewoon Kwak, Pablo Rodriguez, Yong-Yeol Ahn, Sue Moon
+  scholar_ids:
+  - dcjrz5MAAAAJ:-f6ydRqryjwC
+  description: YouTube reshaped how people make and watch video, and traditional video-on-demand metrics don't apply. We analyze the world's largest user-generated content video system, characterizing the
+    popularity distributions, lifetimes, and request patterns of user-uploaded videos, with implications for caching, monetization, and platform design.
+analysis-of-topological-characteristics-of-huge-online-social-networking-service:
+  title: Analysis of topological characteristics of huge online social networking services
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  link:
+    url: http://dl.acm.org/authorize?968490
+    venue: Proceedings of the 16th international conference on World Wide Web (WWW), 2007
+  news:
+  - <a style="color:#FF0000; font-weight:normal; text-decoration:underline" href="https://scholar.google.com/scholar?cites=9872765684557150192&as_sdt=2005&sciodt=0,5&hl=en">1,400+ papers citing this work
+    (Google scholar)</a>
+  authors: Yong-Yeol Ahn, Seungyeop Han, Haewoon Kwak, Sue Moon, Hawoong Jeong
+  scholar_ids:
+  - dcjrz5MAAAAJ:L8Ckcad2t8MC
+  description: Do online relationships behave like real-life ones? We compare three online social networks of 10M+ users each (Cyworld, MySpace, orkut), analyzing degree distribution, clustering, and degree
+    correlation. Cyworld's distribution shifts toward multi-scaling over time; the three networks differ in scaling exponents, and certain online behaviors diverge from real-life social patterns.
+customer-segmentation-using-online-platforms-isolating-behavioral-and-demographi:
+  title: 'Customer segmentation using online platforms: isolating behavioral and demographic segments for persona creation via aggregated user data'
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:l7t_Zn2s7bgC
+  - FYtw3zkAAAAJ:lSLTfruPkqcC
+are-personas-done-evaluating-the-usefulness-of-personas-in-the-age-of-online-ana:
+  title: 'Are personas done?: Evaluating the usefulness of personas in the age of online analytics'
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:WqliGbK-hY8C
+  - FYtw3zkAAAAJ:3fE2CSJIrl8C
+  description: 'Has the rise of real-time online analytics made personas obsolete? We weigh the arguments for and against persona use in an age of fine-grained user data, and argue that data-driven personas
+    occupy a useful middle ground: capturing the breadth of aggregate analytics while keeping the interpretability of individual-level profiles. We sketch how persona practice must evolve to survive.'
+automatic-persona-generation-apg-a-rationale-and-demonstration:
+  title: Automatic Persona Generation (APG) A Rationale and Demonstration
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:738O_yMBCRsC
+  - FYtw3zkAAAAJ:-f6ydRqryjwC
+  description: How can personas evolve from static descriptive artifacts into living analytics tools? We present a conceptual framework around persona benefits, analytics benefits, and decision-making outcomes,
+    then demonstrate it on digital-marketing use cases, including a working data-driven persona system where each profile serves as an interface to underlying user data.
+persona-perception-scale-developing-and-validating-an-instrument-for-human-like-:
+  title: 'Persona perception scale: Developing and validating an instrument for human-like representations of data'
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:mB3voiENLucC
+  - FYtw3zkAAAAJ:_Qo2XoVZTnwC
+  description: Personas are widely used in HCI and design but lack validated measurement scales. We propose a persona perception scale based on relevant literature and validate it through a pilot study
+    (19 participants, 57 evaluations). Factor loadings (0.60 to 0.95) and Cronbach's alpha indicate the scale performs satisfactorily, the first systematic instrument for measuring persona perception.
+confusion-and-information-triggered-by-photos-in-persona-profiles:
+  title: Confusion and information triggered by photos in persona profiles
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:_xSYboBqXhAC
+  - FYtw3zkAAAAJ:iH-uZ7U-co4C
+  description: 'Do additional photos make a persona profile clearer or just confusing? Through eye-tracking and interviews with content creators, we compare three persona variants: a single headshot, a
+    headshot plus contextual photos of the persona, and a headshot plus photos of different people. Contextual photos add information; photos of different people just confuse.'
+from-2-772-segments-to-five-personas-summarizing-a-diverse-online-audience-by-ge:
+  title: 'From 2,772 segments to five personas: Summarizing a diverse online audience by generating culturally adapted personas'
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:XiSMed-E-HIC
+  - FYtw3zkAAAAJ:hqOjcs7Dif8C
+  description: 'From 2,772 raw audience segments to five recognizable personas: we use computational analysis of millions of YouTube interactions for a Middle Eastern media outlet, then enrich with qualitative
+    interview data to produce culturally adapted persona profiles. The method shows how to summarize complex social analytics into human portraits that real organizations can actually use.'
+towards-automatic-persona-generation-using-social-media:
+  title: Towards automatic persona generation using social media
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:UebtZRa9Y70C
+  - FYtw3zkAAAAJ:0EnyYjriUFMC
+  description: Building on real-time persona generation, we integrate signals from Facebook (link sharing by 54K followers), Twitter (195K follower profiles), and YouTube (188K subscriber profiles plus
+    millions of interactions) for a single media organization. The combined view yields richer personas than any platform alone, useful for marketing, topic interest, and feature prioritization.
+automatic-persona-generation-for-online-content-creators-conceptual-rationale-an:
+  title: 'Automatic persona generation for online content creators: Conceptual rationale and a research agenda'
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:8AbLer7MMksC
+  - FYtw3zkAAAAJ:Wp0gIr-vW9MC
+investigating-toxicity-across-multiple-reddit-communities-users-and-moderators:
+  title: Investigating toxicity across multiple Reddit communities, users, and moderators
+  tags:
+  - online-harm
+  platforms:
+  - reddit
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:ye4kPcJQO24C
+  description: Reddit moderators struggle with toxic comments at scale. We combine state-of-the-art toxic-comment detection with toxicity-trigger detection, then investigate how toxic posting behavior varies
+    across communities, and consolidate our findings with input from Reddit moderators themselves.
+method-for-predicting-reactiveness-of-users-of-mobile-devices-for-mobile-messagi:
+  title: Method for predicting reactiveness of users of mobile devices for mobile messaging
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:TFP_iSt0sucC
+confusion-prediction-from-eye-tracking-data-experiments-with-machine-learning:
+  title: 'Confusion Prediction from Eye-Tracking Data: Experiments with Machine Learning'
+  tags:
+  - user-behavior
+  methods:
+  - user-study
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:KxtntwgDAa4C
+  - FYtw3zkAAAAJ:ULOm3_A8WrAC
+  description: Eye movements may hint at user confusion. We train a random forest on fixation-level features from eye-tracking and think-aloud data, predicting user confusion with over 70% accuracy. Adding
+    age and gender lifts accuracy past 90%, and SMOTE class-balancing provides the strongest boost. Useful for adapting websites, mobile apps, and VR interfaces.
+automatically-conceptualizing-social-media-analytics-data-via-personas:
+  title: Automatically conceptualizing social media analytics data via personas
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:OU6Ihb5iCvQC
+  - FYtw3zkAAAAJ:Y0pCki6q_DkC
+  description: Social-media analytics is data-rich but hard for organizations to act on. APG (Automatic Persona Generation) is an operational system that processes tens of millions of user interactions
+    across Facebook and YouTube into auto-generated persona profiles complete with names, photos, and interests. The system is deployed across multiple industry verticals and online at persona.qcri.org.
+automatic-generation-of-personas-using-youtube-social-media-data:
+  title: Automatic generation of personas using youtube social media data
+  tags:
+  - user-behavior
+  platforms:
+  - youtube
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:M05iB0D1s5AC
+  - FYtw3zkAAAAJ:ldfaerwXgEUC
+  description: 'We build personas in real time from a YouTube channel of a global media corporation, working with 188K+ subscriber profiles and 30M+ interactions. To enrich the personas, we cross-match
+    user data from other social-media channels and merge them. The result: real-time, multi-platform personas that replace laborious manual development.'
+investigating-toxicity-changes-of-cross-community-redditors-from-2-billion-posts:
+  title: Investigating toxicity changes of cross-community redditors from 2 billion posts and comments
+  tags:
+  - online-harm
+  platforms:
+  - reddit
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:Mojj43d5GZwC
+  description: Do Reddit users behave more toxically in some communities than in others? Using a fine-tuned BERT (91% accuracy, AUC 0.96), we score the toxicity of 2.2 billion comments and 87 million posts
+    from 890K users across 16 years. About a third of posters and 81% of commenters change their toxicity across communities, they adapt to local norms.
+validating-social-media-data-for-automatic-persona-generation:
+  title: Validating social media data for automatic persona generation
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:eq2jaN3J8jMC
+  - FYtw3zkAAAAJ:u-x6o8ySG0sC
+  description: Can social-media data reliably generate accurate, distinct personas in real time? We test the approach on 188K subscribers and 30M+ interactions of a global media corporation's YouTube channel,
+    finding that gender and age can be used to create statistically distinct segments, though the resulting personas are biased by the content the channel produces.
+provoke-toxicity-trigger-detection-in-conversations-from-the-top-100-subreddits:
+  title: 'PROVOKE: Toxicity trigger detection in conversations from the top 100 subreddits'
+  tags:
+  - online-harm
+  platforms:
+  - reddit
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:AXPGKjj_ei8C
+  description: What turns a Reddit conversation toxic? We collect 991,806 conversation threads from the top 100 subreddits, label toxicity with a fine-tuned BERT (AUC 0.98), and identify the 'trigger' comments
+    that flip a thread. A trigger-detection model (AUC 0.79) combining sentiment shift, topic shift, and context surfaces both universal trigger words and community-specific ones.
+findings-of-a-user-study-of-automatically-generated-personas:
+  title: Findings of a user study of automatically generated personas
+  tags:
+  - user-behavior
+  methods:
+  - user-study
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:u9iWguZQMMsC
+  - FYtw3zkAAAAJ:WF5omc3nYNoC
+  description: What do decision-makers actually do with an Automatic Persona Generation system at work? In a 13-participant semi-naturalistic study at a major international corporation (using mouse tracking,
+    surveys, and interviews), the system kept personas at the forefront of decisions and met information needs by combining narratives with underlying numerical data.
+inferring-social-media-users-demographics-from-profile-pictures-a-face-analysis-:
+  title: 'Inferring social media users’ demographics from profile pictures: A Face++ analysis on Twitter users'
+  tags:
+  - user-behavior
+  platforms:
+  - twitter
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:YsMSGLbcyi4C
+  - FYtw3zkAAAAJ:eQOLeE2rZwMC
+viewed-by-too-many-or-viewed-too-little-using-information-dissemination-for-audi:
+  title: 'Viewed by too many or viewed too little: Using information dissemination for audience segmentation'
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:VL0QpB8kHFEC
+  - FYtw3zkAAAAJ:35N4QoGY0k4C
+  description: Some online content is so widely seen it tells you nothing about audience segments; other content is highly segment-specific but barely watched. We characterize 4,320 videos and 58M interactions
+    to identify the content that is both discriminating and impactful, useful cutoffs for picking which videos to feed into persona generation and audience analysis.
+impact-of-snowball-sampling-ratios-on-network-characteristics-estimation-a-case-:
+  title: 'Impact of snowball sampling ratios on network characteristics estimation: A case study of cyworld'
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  - user-study
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:ufrVoPGSRksC
+  description: When you can't crawl the whole graph, snowball sampling is a common shortcut. Using Cyworld's complete ilchon network as ground truth, we measure how close key topological characteristics
+    (degree distribution, correlation, assortativity, clustering coefficient) of snowball-sampled networks get to the true values as a function of sampling ratio.
+influentials-ranking-in-social-networks:
+  title: Influentials ranking in social networks
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:ZeXyd9-uunAC
+  description: 'Who really matters in a social network: those with the most followers, or those whose moves trigger others? We propose a Temporal Influence Ranking (TIR) model that combines PageRank with
+    the order in which information is adopted. The biased random walk uses logistic-regression-predicted transitions, identifying more stable, more useful influencers than purely structural baselines.'
+contours-of-virtual-enfreakment-in-fighting-game-characters:
+  title: Contours of virtual enfreakment in fighting game characters
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:HE397vMXCloC
+  description: 'Fighting-game characters (Street Fighter, Tekken) tend toward ''virtual enfreakment'': exaggerated bodies, costumes, and styles meant to be exotic and easily distinguishable. Through crowdsourced
+    surveys and mechanical analyses, we map how that exaggeration differs by gender, national origin, and skin color, and find systematic racism and sexism baked into character design.'
+understanding-toxic-behavior-in-online-games:
+  title: Understanding toxic behavior in online games
+  tags:
+  - online-harm
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:u5HHmVD_uO8C
+  description: Online games have grown into rich social environments with predefined actions (friendship, communication, trade, aggression, punishment) and detailed server logs. These electronic footprints
+    make online games invaluable for studying social dynamics, especially the conditions under which positive interactions tip into negative ones.
+statistical-modeling-of-harassment-against-reddit-moderators:
+  title: Statistical Modeling of Harassment against Reddit Moderators
+  tags:
+  - online-harm
+  platforms:
+  - reddit
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:vRqMK49ujn8C
+  description: Reddit moderators are volunteers, but often become targets of harassment from the very users they manage. Analyzing survey responses from 1,818 Reddit moderators, we build a statistical model
+    that identifies six significant factors driving harassment, with knowledge of community norms (counterintuitively) being the strongest. Vulnerable moderators in toxic communities need direct support.
+benchmarking-zero-shot-stance-detection-with-flant5-xxl-insights-from-training-d:
+  title: 'Benchmarking zero-shot stance detection with FlanT5-XXL: Insights from training data, prompting, and decoding strategies into its near-SoTA performance'
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  - nlp
+  - dataset
+  scholar_ids:
+  - dcjrz5MAAAAJ:hkOj_22Ku90C
+  - FYtw3zkAAAAJ:tS2w5q8j5-wC
+  description: Can LLMs do stance detection on tweets without any fine-tuning? Using FlanT5-XXL with SemEval 2016 and P-Stance, zero-shot prompting matches or beats fine-tuned baselines. We trace how performance
+    varies with prompt phrasing, decoding strategy, and prompt perplexity, and identify a positivity bias that partially explains performance differences across decoding strategies.
+  authors: Rachith Aiyappa, Shruthi Senthilmani, Jisun An, Haewoon Kwak, Yong-Yeol Ahn
+recommender-system-based-on-expert-opinions:
+  title: Recommender system based on expert opinions
+  tags:
+  - beliefs-opinions
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:9yKSN-GCB0IC
+efforts-towards-automatically-generating-personas-in-real-time-using-actual-user:
+  title: Efforts towards automatically generating personas in real-time using actual user data
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:isC4tDSrTZIC
+  - FYtw3zkAAAAJ:TFP_iSt0sucC
+  description: Marketing personas are usually static, hand-built artifacts. We demonstrate an approach to generating and validating personas in real time from live user data, working with AJ+ (Al Jazeera's
+    digital-native news channel). The persona narratives are assembled automatically from behavioral and demographic signals as they arrive.
+novel-aspects-coming-from-the-directionality-of-online-relationships-a-case-stud:
+  title: 'Novel aspects coming from the directionality of online relationships: a case study of Twitter by Haewoon Kwak, Changhyun Lee, Hosung Park, Hyunwoo Chun and Sue Moon with Ching …'
+  tags:
+  - user-behavior
+  methods:
+  - user-study
+  platforms:
+  - twitter
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:NaGl4SEjCO4C
+  description: 'Twitter follows are directional: you can follow anyone without approval. We trace how that single design choice shapes Twitter''s topology (asymmetric, non-power-law), how information spreads
+    via retweet, and how relationships dissolve over time. The article maps these directional dynamics and sketches open questions for information-diffusion research.'
+toblend-token-level-blending-with-an-ensemble-of-llms-to-attack-ai-generated-tex:
+  title: 'ToBlend: Token-Level Blending With an Ensemble of LLMs to Attack AI-Generated Text Detection'
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  scholar_ids:
+  - dcjrz5MAAAAJ:NJ774b8OgUMC
+  - FYtw3zkAAAAJ:fQNAKQ3IYiAC
+  description: 'Detectors of AI-generated text are quietly competing against attacks that paraphrase or swap words. ToBlend goes further: it samples tokens randomly from an ensemble of LLMs, producing text
+    that drops most detectors'' performance significantly while human raters confirm quality holds. We also release a fine-tuned Llama-3.1 detector tuned to catch ToBlend output.'
+  authors: Fan Huang, Haewoon Kwak, Jisun An
+token-ensemble-text-generation-on-attacking-the-automatic-ai-generated-text-dete:
+  title: 'Token-Ensemble Text Generation: On Attacking the Automatic AI-Generated Text Detection'
+  tags:
+  - llms-responsible-ai
+  scholar_ids:
+  - dcjrz5MAAAAJ:5awf1xo2G04C
+  - FYtw3zkAAAAJ:08ZZubdj9fEC
+  description: Can AI-text detectors survive smarter adversaries? We propose ToBlend, which generates text by randomly sampling next tokens from multiple candidate LLMs. The blended output sharply degrades
+    most mainstream detectors while staying fluent to human evaluators, exposing a robustness gap and motivating a fine-tuned Llama3.1 defender.
+  authors: Fan Huang, Haewoon Kwak, Jisun An
+method-system-and-computer-readable-storage-mediums-for-estimating-a-route:
+  title: Method, system and computer-readable storage mediums for estimating a route
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:4JMBOYKVnBMC
+maang-manga-characterizing-spontaneous-ideation-contest-on-social-media-case-stu:
+  title: 'MAANG? MANGA? Characterizing Spontaneous Ideation Contest on Social Media: Case Study on the Name Change of Facebook to Meta'
+  tags:
+  - user-behavior
+  methods:
+  - user-study
+  platforms:
+  - facebook
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:bnK-pcrLprsC
+  - FYtw3zkAAAAJ:SP6oXDckpogC
+  description: When Facebook became Meta, Twitter users spontaneously started proposing new acronyms for Big Tech ('MAANG,' 'MANGA,' and many more). We trace how candidates were proposed, spread, and judged,
+    finding that early posters had fewer followers than later spreaders, rankings shifted slowly, and replies introduced most new ideas at the first depth.
+system-and-method-for-extracting-users-of-similar-interests-between-various-type:
+  title: System and method for extracting users of similar interests between various types of web servers
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:4TOpqqG69KYC
+  - dcjrz5MAAAAJ:LPZeul_q3PIC
+somatic-in-the-east-psychological-in-the-west-investigating-clinically-grounded-:
+  title: 'Somatic in the East, Psychological in the West?: Investigating Clinically-Grounded Cross-Cultural Depression Symptom Expression in LLMs'
+  tags:
+  - llms-responsible-ai
+  - digital-health
+  methods:
+  - llm
+  scholar_ids:
+  - dcjrz5MAAAAJ:_Ybze24A_UAC
+  - FYtw3zkAAAAJ:q3oQSFYPqjQC
+  description: Clinical research finds Western depression patients tend to report psychological symptoms while Eastern patients report somatic ones. We test whether LLMs (now used in mental health) reproduce
+    this cultural pattern. They mostly don't in English; prompting in Chinese, Japanese, or Hindi helps somewhat, but a strong culturally-invariant symptom hierarchy overrides the cultural cues.
+  authors: Shintaro Sakai, Jisun An, Migyeong Kang, Haewoon Kwak
+visualizing-a-personal-timeline-by-adding-multiple-social-contexts:
+  title: Visualizing a personal timeline by adding multiple social contexts
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:ULOm3_A8WrAC
+  description: 'Twitter timelines mix many social contexts: family, classmates, teammates. We add three dimensions of social context (community membership, key persons, interesting tweets) to a personal
+    timeline visualization, so readers can see why a tweet exists in the stream. Our prototype demonstrates how these layers can be woven together.'
+casfi-data-sharing-platform:
+  title: CASFI data sharing platform
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:O3NaXMp0MMsC
+  description: Measurement-based research depends on managing large-scale datasets and their metadata, but existing Internet data archives are siloed across institutions with different interfaces. We present
+    CASFI, a data-sharing platform that consolidates measurement data and metadata to make scattered repositories easier to find and use for the research community.
+synsym-a-synthetic-data-generation-framework-for-psychiatric-symptom-identificat:
+  title: 'SynSym: A Synthetic Data Generation Framework for Psychiatric Symptom Identification'
+  tags:
+  - llms-responsible-ai
+  - digital-health
+  methods:
+  - llm
+  - dataset
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3770854.3785698
+    venue: Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026
+  scholar_ids:
+  - dcjrz5MAAAAJ:_Re3VWB3Y0AC
+  - FYtw3zkAAAAJ:Y5dfb0dijaUC
+  description: Mental-health symptom datasets are slow and expensive to build, limiting how well models generalize to real, diverse user posts. SynSym is an LLM-based framework that generates synthetic
+    symptom training data by expanding each symptom into sub-concepts, varying linguistic style, and modeling co-occurrence. Models trained on SynSym data match or exceed those trained on real data.
+  authors: Migyeong Kang, Jihyun Kim, Hyolim Jeon, Sunwoo Hwang, Jihyun An, Yonghoon Kim, Haewoon Kwak, Jisun An, Jinyoung Han
+combining-behaviors-and-demographics-to-segment-online-audiences-experiments-wit:
+  title: 'Combining behaviors and demographics to segment online audiences: Experiments with a youtube channel'
+  tags:
+  - user-behavior
+  platforms:
+  - youtube
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:N5tVd3kTz84C
+  - FYtw3zkAAAAJ:2P1L_qKh6hAC
+exploring-the-solution-space-of-community-detection-methods:
+  title: Exploring the Solution Space of Community Detection Methods
+  tags:
+  - llms-responsible-ai
+  methods:
+  - networks
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:bFI3QPDXJZMC
+plurule-a-benchmark-for-moderating-pluralistic-communities-on-social-media:
+  title: 'PluRule: A Benchmark for Moderating Pluralistic Communities on Social Media'
+  tags:
+  - online-harm
+  methods:
+  - dataset
+  platforms:
+  - reddit
+  scholar_ids:
+  - dcjrz5MAAAAJ:35r97b3x0nAC
+  description: 'Different online communities have different rules: what gets you banned from one subreddit may be the norm in another. PluRule is a multimodal, multilingual benchmark with 13,371 rule violations
+    across 1,989 Reddit communities, 2,885 rules, and 9 languages. Even GPT-5.2 performs only slightly better than a trivial baseline, exposing pluralistic moderation as a fundamental challenge.'
+  authors: Zoher Kachwala, Bao Tran Truong, Rasika Muralidharan, Haewoon Kwak, Jisun An, Filippo Menczer
+when-behavior-is-not-enough-identity-biases-in-human-ai-creative-collaboration:
+  title: 'When Behavior Is Not Enough: Identity Biases in Human-AI Creative Collaboration'
+  tags:
+  - llms-responsible-ai
+  - bias-fairness
+  scholar_ids:
+  - dcjrz5MAAAAJ:fEOibwPWpKIC
+  - FYtw3zkAAAAJ:_B80troHkn4C
+  description: When AI joins a creative collaboration, does behaving cooperatively erase identity-based bias against it? In a turn-based collaborative drawing study (N=30), participants worked with a human
+    confederate believed to be either human or AI. Cooperative behavior improved overall perceptions, but creativity ratings consistently favored human partners despite identical behavior. Identity bias
+    persists.
+  authors: Hyunseon Won, Haewoon Kwak, Jisun An, Jinyoung Han
+if-i-change-your-eyes-are-you-still-you-identity-thresholds-in-deepfake-percepti:
+  title: If I Change Your Eyes, Are You Still You? Identity Thresholds in Deepfake Perception
+  tags:
+  - user-behavior
+  - online-harm  
+  methods:
+  - user-study
+  scholar_ids:
+  - dcjrz5MAAAAJ:-_dYPAW6P2MC
+  - FYtw3zkAAAAJ:PELIpwtuRlgC
+  description: Deepfake harm depends on the moment a viewer perceives the synthetic face as a specific victim, but where that threshold sits is undefined. With 102 participants and 162 manipulated stimuli,
+    we find eyes are the dominant identity cue, that pairing eyes with one more feature triggers identity perception, and that human-AI misalignment peaks exactly at that threshold.
+  authors: Chaewon Kang, Youjin Lee, Haewoon Kwak, Jisun An, Jinyoung Han
+understanding-moral-reasoning-trajectories-in-large-language-models-toward-probi:
+  title: 'Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability'
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  scholar_ids:
+  - dcjrz5MAAAAJ:evX43VCCuoAC
+  - FYtw3zkAAAAJ:eMMeJKvmdy0C
+  description: How consistently do LLMs apply ethical frameworks across reasoning steps? We introduce moral reasoning trajectories (sequences of framework invocations) and analyze them across six models.
+    Over half of consecutive steps switch frameworks; only ~17% of trajectories stay consistent. Unstable trajectories are more vulnerable to persuasive attacks, and linear probes localize framework encoding
+    to specific layers.
+  authors: Fan Huang, Haewoon Kwak, Jisun An
+llms-can-infer-political-alignment-from-online-conversations:
+  title: LLMs Can Infer Political Alignment from Online Conversations
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  scholar_ids:
+  - dcjrz5MAAAAJ:tzM49s52ZIMC
+  - FYtw3zkAAAAJ:AXPGKjj_ei8C
+  description: Innocuous online preferences (the bands you follow, the slang you use) can reveal sensitive traits. We show that LLMs reliably infer hidden political alignment from DebateOrg and Reddit conversations,
+    outperforming traditional ML. Accuracy improves further when text-level inferences aggregate to the user level and when we use politics-adjacent domains, underscoring a serious privacy risk.
+  authors: Byunghwee Lee, Sangyeon Kim, Filippo Menczer, Yong-Yeol Ahn, Haewoon Kwak, Jisun An
+cross-cultural-differences-in-public-discourse-on-covid-19-vaccination-in-the-un:
+  title: 'Cross-Cultural Differences in Public Discourse on COVID-19 Vaccination in the United States and South Korea: Cross-Sectional Analysis Using Natural Language Processing'
+  tags:
+  - digital-health
+  methods:
+  - nlp
+  scholar_ids:
+  - dcjrz5MAAAAJ:2KloaMYe4IUC
+  description: How does public discourse around COVID-19 vaccines differ between the United States and South Korea? Analyzing nearly 8,000 question-answer pairs from Quora and Naver Knowledge-iN, we apply
+    NLP to surface topical and sentiment differences. Both countries share concerns about side effects and efficacy, but diverge sharply on which questions get most attention.
+  authors: Sangpil Youm, Sou Hyun Jang, Haewoon Kwak, Jaeyoung Choi, Yong Jeong Yi
+zero-shot-stance-detection-in-practice-insights-on-training-prompting-and-decodi:
+  title: 'Zero-shot stance detection in practice: insights on training, prompting, and decoding with a capable lightweight LLM'
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  - nlp
+  scholar_ids:
+  - dcjrz5MAAAAJ:ZfRJV9d4-WMC
+  - FYtw3zkAAAAJ:Mojj43d5GZwC
+  description: Can LLMs do stance detection on tweets without any fine-tuning? Using FlanT5-XXL with SemEval 2016 and P-Stance datasets, we find zero-shot prompting matches or beats fine-tuned baselines.
+    Performance varies with prompt phrasing, decoding strategy, and a measurable positivity bias, and we surface cases where the LLM over-commits to a stance when none is actually present.
+  authors: Rachith Aiyappa, Shruthi Senthilmani, Jisun An, Haewoon Kwak, Yong-Yeol Ahn
+vulnerability-of-llms-belief-systems-llms-belief-resistance-check-through-strate:
+  title: Vulnerability of LLMs' Belief Systems? LLMs Belief Resistance Check Through Strategic Persuasive Conversation Interventions
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  scholar_ids:
+  - dcjrz5MAAAAJ:kzcrU_BdoSEC
+  - FYtw3zkAAAAJ:HE397vMXCloC
+  description: Are LLMs persuaded out of their beliefs? Using the Source–Message–Channel–Receiver (SMCR) communication framework across six mainstream LLMs and three domains (facts, medical QA, social bias),
+    we measure how stable each model's stated beliefs are under persuasive pressure. The smallest model flips on 82.5% of attempts at the first turn. Counterintuitively, asking models to verbalize confidence
+    makes them more vulnerable.
+  authors: Fan Huang, Haewoon Kwak, Jisun An
+xchoice-explainable-evaluation-of-ai-human-alignment-in-llm-based-constrained-ch:
+  title: 'XChoice: Explainable Evaluation of AI-Human Alignment in LLM-based Constrained Choice Decision Making'
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  scholar_ids:
+  - dcjrz5MAAAAJ:7T2F9Uy0os0C
+  - FYtw3zkAAAAJ:bnK-pcrLprsC
+  description: 'AI-human alignment is usually measured by outcome agreement (accuracy, F1). XChoice fits a mechanism-based decision model to both human and LLM choices, recovering interpretable parameters:
+    which factors matter, how sensitive each is to constraints, what trade-offs get made. Applied to U.S. time-use data, XChoice reveals systematic misalignment concentrated in specific demographic subgroups.'
+  authors: Weihong Qi, Fan Huang, Rasika Muralidharan, Jisun An, Haewoon Kwak
+a-benchmark-for-zero-shot-belief-inference-in-large-language-models:
+  title: A Benchmark for Zero-Shot Belief Inference in Large Language Models
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  - dataset
+  scholar_ids:
+  - dcjrz5MAAAAJ:Fu2w8maKXqMC
+  - FYtw3zkAAAAJ:wbdj-CoPYUoC
+  description: How well can an LLM predict what an individual believes, with no fine-tuning? Our zero-shot benchmark uses online-debate data, varying how much demographic context or known prior beliefs
+    the model sees. Background information helps, but accuracy varies sharply by belief domain, exposing both the promise and limits of LLMs as belief modelers.
+  authors: Joseph Malone, Rachith Aiyappa, Byunghwee Lee, Haewoon Kwak, Jisun An, Yong-Yeol Ahn
+can-lessons-from-human-teams-be-applied-to-multi-agent-systems-the-role-of-struc:
+  title: Can Lessons From Human Teams Be Applied to Multi-Agent Systems? The Role of Structure, Diversity, and Interaction Dynamics
+  tags:
+  - user-behavior
+  - bias-fairness
+  scholar_ids:
+  - dcjrz5MAAAAJ:tKAzc9rXhukC
+  - FYtw3zkAAAAJ:V3AGJWp-ZtQC
+  description: What does team science say about multi-agent LLM systems? We test three core team-science variables (structure, diversity, interaction dynamics) across four reasoning tasks. Flat teams beat
+    hierarchical ones, diversity has nuanced effects, and agents are overconfident before tasks but more reflective afterward, with both appreciation for collaboration and difficulty integrating.
+  authors: Rasika Muralidharan, Haewoon Kwak, Jisun An
+quantifying-gender-stereotypes-in-japan-between-1900-and-1999-with-word-embeddin:
+  title: Quantifying Gender Stereotypes in Japan between 1900 and 1999 with Word Embeddings
+  tags:
+  - bias-fairness
+  methods:
+  - nlp
+  scholar_ids:
+  - dcjrz5MAAAAJ:W5xh706n7nkC
+  - FYtw3zkAAAAJ:kRWSkSYxWN8C
+  description: How did gender stereotypes shift in Japan across the 20th century? We train 100 year-specific word embeddings on Japanese corpora from 1900 to 1999 and trace stereotype strength in the Home,
+    Work, and Politics domains. Work and Politics became more female-stereotyped over time, but Home did too, suggesting women came to be seen as occupying multiple roles rather than swapping them.
+  authors: Shintaro Sakai, Haewoon Kwak, Jisun An, Akira Matsui
+a-cross-cultural-comparison-of-llm-based-public-opinion-simulation-evaluating-ch:
+  title: 'A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies'
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  scholar_ids:
+  - dcjrz5MAAAAJ:uLbwQdceFCQC
+  - FYtw3zkAAAAJ:t6usbXjVLHcC
+  - FYtw3zkAAAAJ:BrmTIyaxlBUC
+  description: Can LLMs realistically simulate public opinion across different cultures? Comparing DeepSeek-R1/V3 with Qwen2.5, GPT-4o, and Llama-3.3 against survey data from the U.S. (ANES) and China (Zuobiao),
+    we find performance varies sharply by topic and demographic, and that all models over-generalize within demographic groups, defaulting to a 'representative' voice.
+  authors: Weihong Qi, Fan Huang, Jisun An, Haewoon Kwak
+scheduling-broadcasts-in-a-network-of-timelines:
+  title: Scheduling Broadcasts in a Network of Timelines
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:RGFaLdJalmkC
+  description: 'When should you post to maximize attention across a geographically scattered audience? We formalize the broadcast scheduling problem and characterize three behavioral phenomena that constrain
+    it: information overload, bursty circadian rhythms, and (newly defined) monotony aversion. Together they reveal that timeline posts are consumed in chunks, not piecemeal.'
+egg-2014-exploration-on-games-and-gamers-introduction:
+  title: 'EGG 2014: Exploration on Games and Gamers-Introduction'
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - dcjrz5MAAAAJ:Se3iqnhoufwC
+are-personas-done-evaluating-their-usefulness-in-the-age-of-digital-analytics:
+  title: Are personas done? Evaluating their usefulness in the age of digital analytics
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:YsMSGLbcyi4C
+  description: 'Has the rise of real-time online analytics made personas obsolete? We weigh the arguments for and against persona use in an age of fine-grained user data, and argue that data-driven personas
+    occupy a useful middle ground: capturing the breadth of aggregate analytics while keeping the interpretability of individual-level profiles. We sketch how persona practice must evolve to survive.'
+diversity-in-online-advertising-a-case-study-of-69-brands-on-social-media:
+  title: 'Diversity in online advertising: a case study of 69 brands on social media'
+  tags:
+  - user-behavior
+  - bias-fairness
+  methods:
+  - user-study
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:k_IJM867U9cC
+a-social-relation-aware-routing-protocol-for-mobile-ad-hoc-networks:
+  title: A social relation aware routing protocol for mobile ad hoc networks
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:d1gkVwhDpl0C
+  - FYtw3zkAAAAJ:O3NaXMp0MMsC
+  description: In mobile ad-hoc networks built for content sharing, similar interests are a good predictor of who will consume what. Our routing protocol uses social-relation similarity as a forwarding
+    metric, increasing content-replication utilization at intermediate nodes. Simulations show higher delivery ratio and lower overhead than DSDV.
+x-posing-free-speech-examining-the-impact-of-moderation-relaxation-on-online-soc:
+  title: 'X-posing Free Speech: Examining the Impact of Moderation Relaxation on Online Social Networks'
+  tags:
+  - online-harm
+  methods:
+  - networks
+  scholar_ids:
+  - FYtw3zkAAAAJ:sSrBHYA8nusC
+  description: What happened to hate speech on Twitter after Elon Musk's takeover and the relaxation of moderation? On 10 million tweets, we document significant increases in hate targeting LGBTQ+ users
+    and liberals, with cohesive hate communities forming around influential 'bridge' users. Ironically, embracing free-speech principles enabled hate against the very concept of free speech itself.
+  authors: Arvindh Arun, Saurav Chhatani, Jisun An, Ponnurangam Kumaraguru
+knowledge-and-anxiety-about-covid-19-in-the-state-of-qatar-and-the-middle-east-a:
+  title: Knowledge and Anxiety about COVID-19 in the State of Qatar, and the Middle East and North Africa Region—A Cross Sectional Study
+  tags:
+  - user-behavior
+  - digital-health
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:yD5IFk8b50cC
+  - FYtw3zkAAAAJ:NhqRSupF_l8C
+  description: How well-informed were people about COVID-19 in the early months, and how anxious did the gaps make them? We surveyed 1,658 respondents (general public and healthcare workers) in Qatar and
+    the MENA region in April to June 2020. Healthcare workers had much higher COVID knowledge (63% vs 30%) and lower anxiety. The general public dramatically overestimated their fatality risk.
+enhancing-stance-classification-on-social-media-using-quantified-moral-foundatio:
+  title: Enhancing stance classification on social media using quantified moral foundations
+  tags:
+  - beliefs-opinions
+  scholar_ids:
+  - FYtw3zkAAAAJ:LPZeul_q3PIC
+  description: Stance detection usually looks at message text alone. We add Moral Foundations Theory features (theoretically-derived dimensions of an individual's moral concerns) on top of standard semantic
+    features, using both traditional ML and LLMs. Encoding moral foundations improves classification and illuminates which moral foundations associate with which online stances.
+  authors: Hong Zhang, Quoc-Nam Nguyen, Prasanta Bhattacharya, Wei Gao, Liang Ze Wong, Brandon Siyuan Loh, Joseph J. P. Simons, Jisun An
+leveraging-social-analytics-data-for-identifying-customer-segments-for-online-ne:
+  title: Leveraging Social Analytics Data for Identifying Customer Segments for Online News Media
+  tags:
+  - news-journalism
+  platforms:
+  - news-media
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:aqlVkmm33-oC
+  description: We propose a methodology to extract meaningful customer segments from large-scale social-media interaction data, mapping behavioral segments to demographic ones in near-real time. Implemented
+    as a working system processing tens of millions of interactions, the approach automatically generates personas suitable for marketing strategy, ad planning, and product development.
+apparatus-and-method-for-processing-contents-using-routing-table:
+  title: Apparatus and method for processing contents using routing table
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:M3NEmzRMIkIC
+estimating-homophily-in-social-networks-using-dyadic-predictions:
+  title: Estimating Homophily in Social Networks Using Dyadic Predictions
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:f2IySw72cVMC
+  description: 'Researchers often estimate homophily from node-level predictions (gender or ethnicity from names), but the math doesn''t work: bias in predictions cascades into bias in homophily estimates.
+    We show estimation should be treated as a dyadic prediction problem, propose an ''ego-alter'' approach, and demonstrate that node-classification accuracy is a poor indicator of homophily-estimation
+    accuracy.'
+privacybench-a-conversational-benchmark-for-evaluating-privacy-in-personalized-a:
+  title: 'PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI'
+  tags:
+  - llms-responsible-ai
+  methods:
+  - dataset
+  scholar_ids:
+  - FYtw3zkAAAAJ:5ugPr518TE4C
+  description: Personalized AI agents must access private data (emails, chats, purchases) to be useful, but they can leak it. PrivacyBench is a benchmark with conversational scenarios containing embedded
+    secrets. RAG assistants leak secrets in up to 26.6% of conversations; a privacy-aware prompt cuts this to 5.1%, but retrieval still pulls sensitive data indiscriminately.
+  authors: Srija Mukhopadhyay, Sathwik Reddy, Shruthi Muthukumar, Jisun An, Ponnurangam Kumaraguru
+leveraging-online-social-media-data-for-persona-profiling:
+  title: Leveraging Online Social Media Data for Persona Profiling
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:RYcK_YlVTxYC
+  description: Persona profiles for product or content development are typically hand-crafted, slow, and limited by what creators imagine. We propose a methodology to build personas directly from large-scale
+    online social-media data, integrating demographic and behavioral signals to characterize user segments and represent them as detailed, narrative-style profiles.
+a-social-transitivity-based-data-dissemination-scheme-for-opportunistic-networks:
+  title: A social transitivity-based data dissemination scheme for opportunistic networks
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:qxL8FJ1GzNcC
+  description: Social-based routing in opportunistic networks usually considers only direct delivery, ignoring transitive paths through intermediates. We add social transitivity as a forwarding metric and
+    only forward when total utility crosses a threshold (avoiding useless transmissions). On real-trace simulations, the scheme improves delivery ratio and latency over SimBetTS while cutting overhead 30%.
+interference-aware-routing-protocol-in-multi-radio-wireless-mesh-networks:
+  title: Interference-aware routing protocol in multi-radio wireless mesh networks
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:r0BpntZqJG4C
+  description: Wireless mesh networks gain capacity from using multiple radios per router, but channel assignment is hard when nearby networks also use those channels. We propose an interference-aware channel-assignment
+    algorithm based on a multi-radio conflict graph, and demonstrate over 40% performance gains in an IEEE 802.11 testbed and extensive simulations.
+multiple-areal-feature-aware-transportation-demand-prediction:
+  title: Multiple Areal Feature Aware Transportation Demand Prediction
+  tags:
+  - user-behavior
+  scholar_ids:
+  - FYtw3zkAAAAJ:8AbLer7MMksC
+  description: Short-term transportation demand prediction guides scheduling, fleet sizing, and transit-network design. Most models use one or two areal features; cities need many (land use, sociodemographics,
+    POI distribution). Our ST-MFGCRN model fuses multiple areal features via sentinel attention, beating state-of-the-art baselines by 7 to 8% on BusDJ and TaxiBJ datasets.
+  authors: Sumin Han, Jisun An, Y. Park, Suji Kim, Kitae Jang, Dongman Lee
+improving-real-estate-appraisal-with-poi-integration-and-areal-embedding:
+  title: Improving Real Estate Appraisal with POI Integration and Areal Embedding
+  tags:
+  - user-behavior
+  methods:
+  - nlp
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:tOudhMTPpwUC
+  description: Two underused signals can sharpen house-price prediction. First, Points of Interest (POIs) carry more weight than commonly assumed. Second, road-network-based areal embeddings encode spatial
+    context that pure coordinates miss. Our AMMASI model combines both via masked multi-head attention over geographically and feature-wise similar houses, outperforming existing baselines.
+cogbias-measuring-and-mitigating-cognitive-bias-in-large-language-models:
+  title: 'CogBias: Measuring and Mitigating Cognitive Bias in Large Language Models'
+  tags:
+  - llms-responsible-ai
+  - bias-fairness
+  methods:
+  - llm
+  scholar_ids:
+  - FYtw3zkAAAAJ:tkaPQYYpVKoC
+  description: LLMs show cognitive biases in behavior, but where are those biases encoded internally, and can they be removed? We introduce CogBias, a benchmark covering four bias families (Judgment, Information
+    Processing, Social, Response), and show via linear probes that biases occupy separable directions in activation space. Activation steering reduces bias 26 to 32% with minimal capability loss.
+  authors: Fan Huang, Songheng Zhang, Haewoon Kwak, Jisun An
+urban-vibrancy-embedding-and-application-on-traffic-prediction:
+  title: Urban Vibrancy Embedding and Application on Traffic Prediction
+  tags:
+  - user-behavior
+  methods:
+  - nlp
+  scholar_ids:
+  - FYtw3zkAAAAJ:VOx2b1Wkg3QC
+  description: Urban 'vibrancy' (the dynamic human activity in a place) is well-measured by floating-population data but rarely fed into traffic models. We use VAEs to compress floating-population data
+    into Urban Vibrancy embeddings, then forecast future embeddings with LSTMs and feed them into traffic models (RNN, DCRNN, GTS, GMAN), improving accuracy and responsiveness across the board.
+  authors: Sumin Han, Jisun An, Dongman Lee
+cognitive-linguistic-identity-fusion-score-clifs-a-scalable-cognition-informed-a:
+  title: 'Cognitive Linguistic Identity Fusion Score (CLIFS): A Scalable Cognition‐Informed Approach to Quantifying Identity Fusion from Text'
+  tags:
+  - user-behavior
+  scholar_ids:
+  - FYtw3zkAAAAJ:mvPsJ3kp5DgC
+  description: Identity fusion (the psychological merging of self with a group, ideology, or brand) has historically been measured with surveys. CLIFS uses cognitive linguistics and LLMs to detect implicit
+    metaphors in text and score fusion automatically, matching survey instruments while scaling. As a proof of concept, it improves violence risk assessment by more than 240%.
+  authors: Devin R. Wright, Jisun An, Yong-Yeol Ahn
+enhancing-regional-airbnb-trend-forecasting-using-llm-based-embeddings-of-access:
+  title: Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  - nlp
+  scholar_ids:
+  - FYtw3zkAAAAJ:J-pR_7NvFogC
+  description: Forecasting regional Airbnb activity matters for housing policy, but typical models look at single listings at single time points. We forecast Revenue, Reservation Days, and Number of Reservations
+    at the regional level by combining listing features with LLM-generated embeddings of urban accessibility and human mobility, cutting RMSE and MAE by roughly 48% versus standard baselines.
+  authors: Hongju Lee, Youngjun Park, Jisun An, Dongman Lee
+measuring-capital-with-spatial-media-how-online-popularity-on-instagram-shapes-l:
+  title: 'Measuring capital with spatial media: How online popularity on Instagram shapes land value patterns in Seoul'
+  tags:
+  - user-behavior
+  platforms:
+  - instagram
+  scholar_ids:
+  - FYtw3zkAAAAJ:1qzjygNMrQYC
+  description: Do social-media check-ins reshape urban land value? Modeling three Seoul neighborhoods (Yeonnam-dong, Seongsu-dong, Gyeongridan-gil) that gentrified after going viral on Instagram, we show
+    that adding online-popularity features to a spatial capital model outperforms physical-layout-only baselines, quantifying how Instagram visibility now factors into urban property prices.
+  authors: Dasom Hong, Sumin Han, Youngjun Park, Jisun An, Dongman Lee
+proceedings-of-the-nineteenth-international-aaai-conference-on-web-and-social-me:
+  title: Proceedings of the Nineteenth International AAAI Conference on Web and Social Media
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:eflP2zaiRacC
+is-deepseek-a-new-voice-among-llms-in-public-opinion-simulation:
+  title: Is DeepSeek a New Voice Among LLMs in Public Opinion Simulation?
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  scholar_ids:
+  - FYtw3zkAAAAJ:BrmTIyaxlBUC
+  hide: true
+a-model-for-monthly-local-level-airbnb-changes-using-public-dataset:
+  title: A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset
+  tags:
+  - user-behavior
+  methods:
+  - dataset
+  scholar_ids:
+  - FYtw3zkAAAAJ:D_sINldO8mEC
+  description: How do Airbnb listings shift month-to-month across a city's neighborhoods? Using public datasets covering Seoul from 2017 to 2019, we model monthly variation as a function of housing supply,
+    lodging density, tourist-attraction proximity, and retail activity, achieving strong fit (avg pseudo R² of 0.79) and identifying which factors drive short-term rental dynamics in each district.
+  authors: Youngjun Park, Jisun An, Dongman Lee
+spatio-temporal-road-traffic-prediction-using-real-time-regional-knowledge:
+  title: Spatio-Temporal Road Traffic Prediction using Real-time Regional Knowledge
+  tags:
+  - user-behavior
+  scholar_ids:
+  - FYtw3zkAAAAJ:geHnlv5EZngC
+  description: Mid-term road traffic prediction (a few hours out) matters for car-sharing and ride-hailing, but existing models focus on short-term effects between adjacent roads. We embed real-time regional
+    knowledge (POIs, satellite images, LTE access traces) into a road-level attention model via dynamic convolution and bipartite spatial-transform attention, beating baseline approaches.
+  authors: Sumin Han, Jisun An, Dongman Lee
+introduction-to-ph-d-symposium:
+  title: Introduction to Ph. D. Symposium
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:pyW8ca7W8N0C
+reports-of-the-workshops-held-at-the-2020-international-association-for-the-adva:
+  title: Reports of the Workshops Held at the 2020 International Association for the Advancement of Artificial Intelligence Conference on Web and Social Media
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:rO6llkc54NcC
+characterizing-toxicity-in-facebook-comments:
+  title: Characterizing Toxicity in Facebook Comments
+  tags:
+  - online-harm
+  platforms:
+  - facebook
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:a0OBvERweLwC
+  description: How toxic are the comments under Facebook news posts? Using Google's Perspective API on posts and comments collected around the release of Brazilian President Lula from prison, we quantify
+    toxicity at scale and surface the features that drive it, especially in coverage of public figures. The findings inform better content policies.
+predicting-audience-engagement:
+  title: Predicting Audience Engagement
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:WA5NYHcadZ8C
+  description: Forecasting audience engagement helps creators and brands plan rather than just review. Combining campaign metadata, visual and text features, posting patterns, and user interaction history,
+    we train Random Forest, Gradient Boosting, and LSTM models. A hybrid ensemble reaches 92.6% accuracy and 90.8 F1, with visual quality and posting timing explaining over 45% of engagement variance.
+stylistic-features-usage-similarities-and-differences-using-multiple:
+  title: 'Stylistic Features Usage: Similarities and Differences Using Multiple'
+  tags:
+  - user-behavior
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:XiVPGOgt02cC
+considering-interference-and-li-k-q-lit-f-m-lti-r-di-link-quality-of-multi-radio:
+  title: Considering Interference and Li k Q lit f M lti R di Link Quality of Multi-Radio Wireless Mesh Networks
+  tags:
+  - networks-influence
+  methods:
+  - networks
+  hide: true
+  scholar_ids:
+  - FYtw3zkAAAAJ:dhFuZR0502QC
+encoding-urban-trajectory-as-a-sentence-deep-learning-insights-for-human-mobilit:
+  title: 'ENCODING URBAN TRAJECTORY AS A SENTENCE: DEEP LEARNING INSIGHTS FOR HUMAN MOBILITY PATTERN'
+  tags:
+  - user-behavior
+  scholar_ids:
+  - FYtw3zkAAAAJ:WbkHhVStYXYC
+  hide: true
+understanding-effects-of-editing-tweets-for-news-sharing-by-media-accounts-throu:
+  title: Understanding Effects of Editing Tweets for News Sharing by Media Accounts through a Causal Inference Framework
+  tags:
+  - news-journalism
+  platforms:
+  - twitter
+  scholar_ids:
+  - FYtw3zkAAAAJ:KxtntwgDAa4C
+  hide: true

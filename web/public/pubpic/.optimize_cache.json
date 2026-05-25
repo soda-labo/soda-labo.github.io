@@ -1,0 +1,404 @@
+{
+  "acl18_an.png": {
+    "h": 336,
+    "mtime": 1779596015.4771369,
+    "optimized": true,
+    "w": 336
+  },
+  "acl20_ramy.png": {
+    "h": 336,
+    "mtime": 1779596015.4939046,
+    "optimized": true,
+    "w": 336
+  },
+  "acl24_preslav.png": {
+    "h": 336,
+    "mtime": 1779596015.501845,
+    "optimized": true,
+    "w": 336
+  },
+  "arxiv20_berry.png": {
+    "h": 336,
+    "mtime": 1779596015.5180194,
+    "optimized": true,
+    "w": 336
+  },
+  "asonam17_kwak.png": {
+    "h": 336,
+    "mtime": 1779596015.541189,
+    "optimized": true,
+    "w": 336
+  },
+  "asonam20_samuel.png": {
+    "h": 336,
+    "mtime": 1779596015.5616424,
+    "optimized": true,
+    "w": 336
+  },
+  "behavior22_aldous.png": {
+    "h": 336,
+    "mtime": 1779596015.5917642,
+    "optimized": true,
+    "w": 336
+  },
+  "bigdata22_miyazaki.png": {
+    "h": 336,
+    "mtime": 1779596015.6166017,
+    "optimized": true,
+    "w": 336
+  },
+  "chi11_kwak.png": {
+    "h": 336,
+    "mtime": 1779596015.6385024,
+    "optimized": true,
+    "w": 336
+  },
+  "chi15_kwak.png": {
+    "h": 336,
+    "mtime": 1779596015.653736,
+    "optimized": true,
+    "w": 336
+  },
+  "chi18_joni.png": {
+    "h": 336,
+    "mtime": 1779596015.6781712,
+    "optimized": true,
+    "w": 336
+  },
+  "cikm23_han.png": {
+    "h": 336,
+    "mtime": 1779596015.7018497,
+    "optimized": true,
+    "w": 336
+  },
+  "dummy.png": {
+    "h": 336,
+    "mtime": 1779596015.7082522,
+    "optimized": true,
+    "w": 336
+  },
+  "egg14_kwak.png": {
+    "h": 336,
+    "mtime": 1779596015.7275486,
+    "optimized": true,
+    "w": 336
+  },
+  "emnlp19_yifan.png": {
+    "h": 336,
+    "mtime": 1779596015.7396407,
+    "optimized": true,
+    "w": 336
+  },
+  "emnlp21_an.png": {
+    "h": 336,
+    "mtime": 1779596015.7609196,
+    "optimized": true,
+    "w": 336
+  },
+  "epj24_miyazaki.png": {
+    "h": 336,
+    "mtime": 1779596015.7776155,
+    "optimized": true,
+    "w": 336
+  },
+  "frontiers22_lee.png": {
+    "h": 336,
+    "mtime": 1779596015.7907465,
+    "optimized": true,
+    "w": 336
+  },
+  "ht17_reis.png": {
+    "h": 336,
+    "mtime": 1779596015.8101432,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm11_an.png": {
+    "h": 336,
+    "mtime": 1779596015.82815,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm16_an.png": {
+    "h": 336,
+    "mtime": 1779596015.8522124,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm18_joni.png": {
+    "h": 336,
+    "mtime": 1779596015.8649735,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm18_jung.png": {
+    "h": 336,
+    "mtime": 1779596015.885165,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm19_an.png": {
+    "h": 336,
+    "mtime": 1779596015.9018502,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm19_kholoud.png": {
+    "h": 336,
+    "mtime": 1779596015.92446,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm20_park.png": {
+    "h": 336,
+    "mtime": 1779596015.9339128,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm20_soumen.png": {
+    "h": 336,
+    "mtime": 1779596015.9514503,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm21_park.png": {
+    "h": 336,
+    "mtime": 1779596015.9686244,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm22_chong.png": {
+    "h": 336,
+    "mtime": 1779596016.0090232,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm22_kwak.png": {
+    "h": 336,
+    "mtime": 1779596016.0310473,
+    "optimized": true,
+    "w": 336
+  },
+  "icwsm23_miyazaki.png": {
+    "h": 336,
+    "mtime": 1779596016.055013,
+    "optimized": true,
+    "w": 336
+  },
+  "ieeegames18_peter.png": {
+    "h": 336,
+    "mtime": 1779596016.0714526,
+    "optimized": true,
+    "w": 336
+  },
+  "ijpp19_andrea.png": {
+    "h": 336,
+    "mtime": 1779596016.0883944,
+    "optimized": true,
+    "w": 336
+  },
+  "jmir21_an.png": {
+    "h": 336,
+    "mtime": 1779596016.1452527,
+    "optimized": true,
+    "w": 336
+  },
+  "kdd14_laszlo.png": {
+    "h": 336,
+    "mtime": 1779596016.1569452,
+    "optimized": true,
+    "w": 336
+  },
+  "lreccoling24_fan.png": {
+    "h": 336,
+    "mtime": 1779596016.1750493,
+    "optimized": true,
+    "w": 336
+  },
+  "naacl24_zoher.png": {
+    "h": 336,
+    "mtime": 1779596033.1570542,
+    "optimized": true,
+    "w": 336
+  },
+  "neco16_kwak.png": {
+    "h": 336,
+    "mtime": 1779596016.2139523,
+    "optimized": true,
+    "w": 336
+  },
+  "neco17_an.png": {
+    "h": 336,
+    "mtime": 1779596016.2330549,
+    "optimized": true,
+    "w": 336
+  },
+  "nhb25_lee.png": {
+    "h": 336,
+    "mtime": 1779596016.2522004,
+    "optimized": true,
+    "w": 336
+  },
+  "peerjcs21_kwak.png": {
+    "h": 336,
+    "mtime": 1779596016.2755108,
+    "optimized": true,
+    "w": 336
+  },
+  "scirep16_shin.png": {
+    "h": 336,
+    "mtime": 1779596016.2926168,
+    "optimized": true,
+    "w": 336
+  },
+  "scirep24_kuni.png": {
+    "h": 336,
+    "mtime": 1779596016.312302,
+    "optimized": true,
+    "w": 336
+  },
+  "socinfo14_kwak.png": {
+    "h": 336,
+    "mtime": 1779596016.3337388,
+    "optimized": true,
+    "w": 336
+  },
+  "socinfo17_an.png": {
+    "h": 336,
+    "mtime": 1779596016.3541384,
+    "optimized": true,
+    "w": 336
+  },
+  "socinfo17_an_2.png": {
+    "h": 336,
+    "mtime": 1779596016.3796887,
+    "optimized": true,
+    "w": 336
+  },
+  "socinfo19_an.png": {
+    "h": 336,
+    "mtime": 1779596016.3988707,
+    "optimized": true,
+    "w": 336
+  },
+  "socinfo19_an_2.png": {
+    "h": 336,
+    "mtime": 1779596016.4373932,
+    "optimized": true,
+    "w": 336
+  },
+  "sscr20_andreas.png": {
+    "h": 336,
+    "mtime": 1779596016.455787,
+    "optimized": true,
+    "w": 336
+  },
+  "trustnlp23_rachith.png": {
+    "h": 336,
+    "mtime": 1779596016.476749,
+    "optimized": true,
+    "w": 336
+  },
+  "tsc22_aldous.png": {
+    "h": 336,
+    "mtime": 1779596016.4959452,
+    "optimized": true,
+    "w": 336
+  },
+  "tsc22_mejova.png": {
+    "h": 336,
+    "mtime": 1779596016.5220342,
+    "optimized": true,
+    "w": 336
+  },
+  "tweb18_an.png": {
+    "h": 336,
+    "mtime": 1779596016.5337174,
+    "optimized": true,
+    "w": 336
+  },
+  "websci20_haewoon.png": {
+    "h": 336,
+    "mtime": 1779596016.55589,
+    "optimized": true,
+    "w": 336
+  },
+  "websci22_haewoon.png": {
+    "h": 336,
+    "mtime": 1779596016.5761304,
+    "optimized": true,
+    "w": 336
+  },
+  "websci23_miyazaki.png": {
+    "h": 336,
+    "mtime": 1779596016.6098485,
+    "optimized": true,
+    "w": 336
+  },
+  "websci23_zhang.png": {
+    "h": 336,
+    "mtime": 1779596016.632058,
+    "optimized": true,
+    "w": 336
+  },
+  "www10_kwak.png": {
+    "h": 336,
+    "mtime": 1779596016.6502607,
+    "optimized": true,
+    "w": 336
+  },
+  "www14_an.png": {
+    "h": 336,
+    "mtime": 1779596016.6663237,
+    "optimized": true,
+    "w": 336
+  },
+  "www14_jeremy.png": {
+    "h": 336,
+    "mtime": 1779596016.6814497,
+    "optimized": true,
+    "w": 336
+  },
+  "www17_kang.png": {
+    "h": 336,
+    "mtime": 1779596016.7013953,
+    "optimized": true,
+    "w": 336
+  },
+  "www17_park.png": {
+    "h": 336,
+    "mtime": 1779596016.7205608,
+    "optimized": true,
+    "w": 336
+  },
+  "www18_kwak.png": {
+    "h": 336,
+    "mtime": 1779596016.7390692,
+    "optimized": true,
+    "w": 336
+  },
+  "www18_savvas.png": {
+    "h": 336,
+    "mtime": 1779596016.76523,
+    "optimized": true,
+    "w": 336
+  },
+  "www20_hind.png": {
+    "h": 336,
+    "mtime": 1779596016.7778747,
+    "optimized": true,
+    "w": 336
+  },
+  "www23_fan.png": {
+    "h": 336,
+    "mtime": 1779596016.8055553,
+    "optimized": true,
+    "w": 336
+  },
+  "www23_fan_2.png": {
+    "h": 336,
+    "mtime": 1779596016.819163,
+    "optimized": true,
+    "w": 336
+  }
+}

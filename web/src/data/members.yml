@@ -1,0 +1,72 @@
+faculty:
+  - name: Jisun An
+    role: Assistant Professor
+    photo: jisun.jpg
+    email: jisunan@iu.edu
+    website: http://jisun.me
+    scholar: https://scholar.google.com/citations?user=FYtw3zkAAAAJ
+    cv: /downloads/JisunAn_CV20240218.pdf
+    education:
+      - Assistant Professor, Singapore Management University
+      - Scientist, Qatar Computing Research Institute
+      - Postdoc with <a href="https://ingmarweber.de/">Ingmar Weber</a>, Qatar Computing Research Institute
+      - Ph.D. with <a href="https://www.cl.cam.ac.uk/~jac22/">Jon Crowcroft</a>, Cambridge, UK
+
+  - name: Haewoon Kwak
+    role: Associate Professor
+    photo: haewoon.jpg
+    email: hwkwak@iu.edu
+    website: http://haewoon.github.io
+    scholar: https://scholar.google.com/citations?user=dcjrz5MAAAAJ
+    cv: http://haewoon.github.io/PDFs/haewoon_CV.pdf
+    education:
+      - Associate Professor, Singapore Management University
+      - Senior Scientist, Qatar Computing Research Institute
+      - Researcher, Telefonica Research, Spain
+      - Ph.D. with <a href="http://an.kaist.ac.kr/~sbmoon/">Sue Moon</a>, KAIST, Korea
+
+phd_students:
+  - name: Fan Huang
+    photo: fan.png
+    website: https://sites.google.com/view/fanhuang/
+  - name: Weihong Qi
+  - name: Andrea Chung
+  - name: Shintaro Sakai
+  - name: Rasika Muralidharan
+  - name: Juyoung An
+  - name: Shirui (Olivia) Zhou
+
+visitors:
+  - name: Jihyun Kim
+    affiliation: Sungkyunkwan University
+
+alumni:
+  postdocs:
+    - name: Byunghwee Lee
+      now: University of Virginia
+      website: https://scholar.google.com/citations?user=NjCUroYAAAAJ
+    - name: Kunihiro Miyazaki
+      now: Project Assistant Professor at the University of Tokyo
+      website: https://www.kmiyazaki.com/
+
+  graduate_smu:
+    - name: Shao Yi LIAW
+      year: Fall 2022
+    - name: Hong ZHANG
+      year: Fall 2022
+    - name: Juan CHEN
+      year: Spring 2022
+
+  undergraduate_smu:
+    - name: CHONG Yun Yu
+      year: Fall 2021
+
+  visitors:
+    - name: Chaewon Kang
+      year: Fall 2024
+    - name: Migyeong Kang
+      year: Fall 2024
+    - name: Hyunseon Won
+      year: Fall 2025
+    - name: Sumit Kumar
+      year: Spring 2026

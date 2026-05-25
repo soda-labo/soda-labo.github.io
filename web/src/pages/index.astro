@@ -1,0 +1,224 @@
+---
+import Base from "../layouts/Base.astro";
+import PublicationCard from "../components/PublicationCard.astro";
+import { loadPublications } from "../lib/publications";
+
+const pubs = loadPublications();
+const featured = pubs.filter((p) => p.highlight).slice(0, 4);
+
+const press = [
+  {
+    image: "/press/nhb_2025.jpg",
+    venue: "Nature Human Behaviour",
+    year: 2025,
+    blurb: "Our work on modelling human beliefs with LLMs",
+    href: "https://www.nature.com/articles/s41562-025-02228-z",
+  },
+  {
+    image: "/press/nature_news_2020_jisun.jpg",
+    venue: "Nature News",
+    year: 2020,
+    blurb: "Jisun featured for computational social science research",
+    href: "https://media.nature.com/original/magazine-assets/d41586-020-01747-1/d41586-020-01747-1.pdf",
+  },
+  {
+    image: "/press/nature_news_2016_haewoon.jpg",
+    venue: "Nature News",
+    year: 2016,
+    blurb: "Haewoon's work covered for toxic behavior in online games",
+    href: "https://www.nature.com/articles/531568a",
+  },
+];
+---
+
+<Base>
+  <section class="pb-10">
+    <h1 class="hero-h1 mt-3">
+      Studying social phenomena<br />
+      with <em>large-scale data</em> and <em>AI</em>
+    </h1>
+    <div class="mt-6 flex flex-wrap gap-3 text-sm">
+      <a href="/publications" class="rounded-sm px-4 py-2 font-medium transition hover:opacity-90" style="background-color: var(--color-ink); color: var(--color-paper);">
+        Browse publications →
+      </a>
+      <a href="/openings" class="rounded-sm border px-4 py-2 font-medium transition hover:opacity-80" style="border-color: var(--color-rule); color: var(--color-ink-soft);">
+        Open positions
+      </a>
+    </div>
+  </section>
+
+  <section class="border-t pt-10 pb-4" style="border-color: var(--color-rule);">
+    <p class="max-w-3xl text-base leading-relaxed" style="color: var(--color-ink-soft);">
+      Led by
+      <a href="/team" class="font-medium underline decoration-1 underline-offset-2 hover:decoration-2" style="color: var(--color-ink); text-decoration-color: var(--color-rule);">Haewoon Kwak</a>
+      and
+      <a href="/team" class="font-medium underline decoration-1 underline-offset-2 hover:decoration-2" style="color: var(--color-ink); text-decoration-color: var(--color-rule);">Jisun An</a>,
+      we focus on human behavior on online platforms: its
+      <em>measurement</em>, <em>understanding</em>, <em>design</em>, and the
+      <em>assessment of its implications</em>. Every day we use our devices to read the
+      news, watch videos, search for places to eat, chat with friends, and post on social
+      media. Those electronic footprints make it possible to study both individual and
+      collective behavior, including what people like and dislike, how they feel about
+      different topics, and how they engage with one another. Understanding human behavior
+      on these platforms has become essential.
+    </p>
+  </section>
+
+  <style>
+    .hero-h1 {
+      font-family: "Spectral", serif;
+      font-weight: 500;
+      font-size: clamp(2.4rem, 5vw, 3.6rem);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      color: var(--color-ink);
+    }
+    .hero-h1 em {
+      font-style: italic;
+      font-weight: 400;
+      background: linear-gradient(90deg, #ed5765 0%, #f59e0b 50%, #3db7e6 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  </style>
+
+  <section class="py-10">
+    <div
+      id="press-carousel"
+      class="relative mx-auto max-w-md overflow-hidden rounded-lg ring-1 ring-zinc-200"
+      data-count={press.length}
+    >
+      <div
+        id="press-track"
+        class="flex transition-transform duration-700 ease-out"
+        style={`width: ${press.length * 100}%`}
+      >
+        {press.map((p) => (
+          <div class="relative shrink-0" style={`width: ${100 / press.length}%`}>
+            {p.href ? (
+              <a href={p.href} target="_blank" rel="noopener" class="block">
+                <img src={p.image} alt={`${p.venue}, ${p.year}`} class="aspect-[992/1318] w-full bg-zinc-50 object-contain" loading="eager" />
+              </a>
+            ) : (
+              <img src={p.image} alt={`${p.venue}, ${p.year}`} class="aspect-[992/1318] w-full bg-zinc-50 object-contain" loading="eager" />
+            )}
+            <div class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/40 to-transparent px-5 pb-5 pt-16 text-white">
+              <p class="text-sm sm:text-base">
+                <span class="font-medium italic">{p.venue}</span>
+                <span class="opacity-80">, {p.year}</span>
+              </p>
+              <p class="mt-0.5 text-xs opacity-90 sm:text-sm">{p.blurb}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <button
+        id="press-prev"
+        type="button"
+        aria-label="Previous slide"
+        class="absolute left-3 top-1/2 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-full bg-white/80 text-zinc-700 shadow ring-1 ring-zinc-200 backdrop-blur transition hover:bg-white"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button
+        id="press-next"
+        type="button"
+        aria-label="Next slide"
+        class="absolute right-3 top-1/2 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-full bg-white/80 text-zinc-700 shadow ring-1 ring-zinc-200 backdrop-blur transition hover:bg-white"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+
+      <div id="press-dots" class="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-1.5">
+        {press.map((_, i) => (
+          <button
+            type="button"
+            data-press-dot={i}
+            aria-label={`Go to slide ${i + 1}`}
+            class="h-1.5 w-6 rounded-full bg-white/50 transition hover:bg-white"
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="space-y-5 border-b border-zinc-200 pt-4 pb-12">
+    <p class="max-w-3xl text-base leading-relaxed text-zinc-700">
+      We develop new computational methods and tools for understanding, predicting, and
+      shaping human behavior online. A central challenge is the sheer
+      <em>diversity and complexity</em> of online data. We work across many kinds of
+      large-scale data, examining existing tools, surfacing their limits, and developing
+      new measurements, machine-learning models, and linguistic methods that let us
+      understand online behavior and address real-world problems.
+    </p>
+
+    <p class="max-w-3xl text-base leading-relaxed text-zinc-700">
+      But our goal is not only to solve problems. We also want to improve the online
+      spaces themselves. We are interested in identifying obstacles to a
+      <em>trustworthy public space online</em>, developing methodologies that make those
+      obstacles transparent, building frameworks for real-time large-scale monitoring,
+      and ultimately helping the online public square become more credible.
+    </p>
+
+    <p class="max-w-3xl text-base leading-relaxed text-zinc-700">
+      We are based at the
+      <a href="https://luddy.indiana.edu/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Luddy School of Informatics, Computing, and Engineering</a>
+      at Indiana University Bloomington, and a member of the
+      <a href="https://cnets.indiana.edu/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Center for Complex Networks and Systems Research (CNetS)</a>.
+    </p>
+  </section>
+
+  <script>
+    (() => {
+      const root = document.getElementById("press-carousel") as HTMLElement | null;
+      const track = document.getElementById("press-track") as HTMLElement | null;
+      const dots = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-press-dot]"));
+      const prev = document.getElementById("press-prev") as HTMLButtonElement | null;
+      const next = document.getElementById("press-next") as HTMLButtonElement | null;
+      if (!root || !track) return;
+      const count = parseInt(root.dataset.count || "1", 10);
+      let idx = 0;
+      let timer: number | undefined;
+
+      function render() {
+        track!.style.transform = `translateX(-${(idx * 100) / count}%)`;
+        dots.forEach((d, i) => {
+          d.classList.toggle("bg-white", i === idx);
+          d.classList.toggle("bg-white/50", i !== idx);
+        });
+      }
+      function go(i: number) {
+        idx = (i + count) % count;
+        render();
+        resetTimer();
+      }
+      function resetTimer() {
+        if (timer) window.clearInterval(timer);
+        timer = window.setInterval(() => go(idx + 1), 6000);
+      }
+
+      prev?.addEventListener("click", () => go(idx - 1));
+      next?.addEventListener("click", () => go(idx + 1));
+      for (const d of dots) {
+        d.addEventListener("click", () => go(parseInt(d.dataset.pressDot || "0", 10)));
+      }
+      root.addEventListener("mouseenter", () => { if (timer) window.clearInterval(timer); });
+      root.addEventListener("mouseleave", resetTimer);
+
+      render();
+      resetTimer();
+    })();
+  </script>
+
+  <section class="py-12">
+    <div class="mb-6 flex items-baseline justify-between">
+      <h2 class="text-xl font-semibold tracking-tight">Featured work</h2>
+      <a href="/publications" class="text-sm text-zinc-500 hover:text-zinc-900">All publications →</a>
+    </div>
+    <div>
+      {featured.map((p) => <PublicationCard pub={p} />)}
+    </div>
+  </section>
+</Base>

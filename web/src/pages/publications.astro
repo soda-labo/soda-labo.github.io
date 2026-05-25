@@ -1,0 +1,403 @@
+---
+import Base from "../layouts/Base.astro";
+import PublicationCard from "../components/PublicationCard.astro";
+import {
+  loadPublications, allTags, allMethods, allPlatforms, allYears,
+} from "../lib/publications";
+import {
+  chipStyle, topicName,
+  methodName, methodChipStyle,
+  platformName,
+} from "../lib/tag-colors";
+
+const pubs = loadPublications();
+const tags = allTags(pubs);
+const methods = allMethods(pubs);
+const platforms = allPlatforms(pubs);
+const years = allYears(pubs);
+const featuredCount = pubs.filter((p) => p.highlight).length;
+
+const recentYears = years.slice(0, 5);
+const olderYears = years.slice(5);
+---
+
+<Base title="Publications · SoDA Lab">
+  <header class="mb-8">
+    <h1 class="text-3xl font-semibold tracking-tight">Publications</h1>
+    <p class="mt-2 text-zinc-600">
+      {pubs.length} papers · {featuredCount} featured · citation counts from Google Scholar
+    </p>
+  </header>
+
+  <div class="mb-8 space-y-4">
+    <div class="flex items-center gap-3">
+      <input
+        id="pub-search"
+        type="search"
+        placeholder="Search title, author, venue, year…"
+        class="w-full rounded-md border border-zinc-300 px-3 py-2 text-sm placeholder:text-zinc-400 focus:border-[var(--color-accent)] focus:outline-none focus:ring-2 focus:ring-[var(--color-accent-soft)]"
+        autocomplete="off"
+      />
+      <label class="flex shrink-0 items-center gap-2 text-xs text-zinc-500">
+        <span class="font-mono uppercase tracking-wider">Sort</span>
+        <select
+          id="pub-sort"
+          class="rounded-md border border-zinc-300 bg-white py-2 pl-2 pr-7 text-sm text-zinc-700 focus:border-[var(--color-accent)] focus:outline-none focus:ring-2 focus:ring-[var(--color-accent-soft)]"
+        >
+          <option value="newest">Newest first</option>
+          <option value="most-cited">Most cited</option>
+          <option value="featured">Featured first</option>
+          <option value="title">Title A–Z</option>
+          <option value="oldest">Oldest first</option>
+        </select>
+      </label>
+      <button
+        id="pub-clear"
+        type="button"
+        class="shrink-0 rounded-md border border-zinc-300 px-3 py-2 text-sm text-zinc-600 hover:bg-zinc-50"
+      >
+        Clear
+      </button>
+    </div>
+
+    <div>
+      <div class="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Topic</div>
+      <ul class="flex flex-wrap gap-1.5">
+        {tags.map(({ tag, count }) => (
+          <li>
+            <button
+              type="button"
+              data-tag-filter={tag}
+              data-tag-label={topicName(tag)}
+              data-tag-style={chipStyle(tag)}
+              style={chipStyle(tag) + "background-color:white;border-width:1px;border-style:solid;"}
+              class="rounded-full px-2 py-0.5 text-[11px] font-medium transition hover:opacity-80"
+            >
+              {topicName(tag)} <span class="opacity-60">{count}</span>
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    {methods.length > 0 && (
+      <div>
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Method</div>
+        <ul class="flex flex-wrap gap-1.5">
+          {methods.map(({ method, count }) => (
+            <li>
+              <button
+                type="button"
+                data-method-filter={method}
+                data-method-label={methodName(method)}
+                data-method-style={methodChipStyle(method)}
+                style={methodChipStyle(method)}
+                class="rounded-full px-2 py-0.5 text-[11px] font-medium transition hover:opacity-80"
+              >
+                {methodName(method)} <span class="opacity-60">{count}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {platforms.length > 0 && (
+      <div>
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Platform</div>
+        <ul class="flex flex-wrap gap-1.5">
+          {platforms.map(({ platform, count }) => (
+            <li>
+              <button
+                type="button"
+                data-platform-filter={platform}
+                data-platform-label={platformName(platform)}
+                class="rounded-full bg-zinc-100 px-2 py-0.5 text-[11px] font-medium text-zinc-600 transition hover:bg-zinc-200"
+              >
+                {platformName(platform)} <span class="opacity-60">{count}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <div>
+      <div class="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Year</div>
+      <ul class="flex flex-wrap items-center gap-1.5">
+        {recentYears.map((y) => (
+          <li>
+            <button
+              type="button"
+              data-year-filter={y}
+              class="year-filter rounded-full border border-zinc-300 bg-white px-2 py-0.5 text-[11px] font-medium text-zinc-700 hover:border-[var(--color-accent)]"
+            >
+              {y}
+            </button>
+          </li>
+        ))}
+        {olderYears.length > 0 && (
+          <>
+            <li id="older-years-wrap" class="hidden contents">
+              {olderYears.map((y) => (
+                <button
+                  type="button"
+                  data-year-filter={y}
+                  class="year-filter rounded-full border border-zinc-300 bg-white px-2 py-0.5 text-[11px] font-medium text-zinc-700 hover:border-[var(--color-accent)]"
+                >
+                  {y}
+                </button>
+              ))}
+            </li>
+            <li>
+              <button
+                id="toggle-older-years"
+                type="button"
+                class="rounded-full border border-dashed border-zinc-300 px-2 py-0.5 text-[11px] font-medium text-zinc-500 hover:text-zinc-900"
+              >
+                + {olderYears.length} more years
+              </button>
+            </li>
+          </>
+        )}
+      </ul>
+    </div>
+
+    <div id="pub-status" class="text-xs text-zinc-500"></div>
+    <div id="pub-empty" class="hidden rounded-md border border-zinc-200 bg-zinc-50 p-6 text-center text-sm text-zinc-500">
+      No publications match your filters.
+    </div>
+  </div>
+
+  <div id="pub-list">
+    {pubs.map((p) => <PublicationCard pub={p} />)}
+  </div>
+</Base>
+
+<script>
+  type Sort = "newest" | "oldest" | "most-cited" | "featured" | "title";
+  type State = {
+    q: string;
+    tag: string | null;
+    method: string | null;
+    platform: string | null;
+    year: string | null;
+    sort: Sort;
+  };
+
+  const state: State = { q: "", tag: null, method: null, platform: null, year: null, sort: "newest" };
+
+  const $search = document.getElementById("pub-search") as HTMLInputElement;
+  const $sort = document.getElementById("pub-sort") as HTMLSelectElement;
+  const $clear = document.getElementById("pub-clear") as HTMLButtonElement;
+  const $list = document.getElementById("pub-list") as HTMLDivElement;
+  const $empty = document.getElementById("pub-empty") as HTMLDivElement;
+  const $status = document.getElementById("pub-status") as HTMLDivElement;
+  const $olderWrap = document.getElementById("older-years-wrap");
+  const $toggleOlder = document.getElementById("toggle-older-years");
+  const cards = Array.from(document.querySelectorAll<HTMLElement>(".pub-card"));
+  const tagButtons = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-tag-filter]"));
+  const methodButtons = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-method-filter]"));
+  const platformButtons = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-platform-filter]"));
+  const yearButtons = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-year-filter]"));
+  const tagPills = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-tag-pill]"));
+  const methodPills = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-method-pill]"));
+  const platformPills = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-platform-pill]"));
+
+  function setTagChipStyle(b: HTMLButtonElement) {
+    const base = b.dataset.tagStyle ?? "";
+    if (b.dataset.tagFilter === state.tag) {
+      const m = base.match(/border-color:([^;]+);color:([^;]+);/);
+      if (m) {
+        b.setAttribute("style",
+          `background-color:${m[1]};color:white;border-color:${m[1]};border-width:1px;border-style:solid;`);
+      }
+    } else {
+      b.setAttribute("style", base + "background-color:white;border-width:1px;border-style:solid;");
+    }
+  }
+
+  function setMethodChipStyle(b: HTMLButtonElement) {
+    const base = b.dataset.methodStyle ?? "";
+    if (b.dataset.methodFilter === state.method) {
+      const m = base.match(/border-color:([^;]+)/);
+      if (m) {
+        b.setAttribute("style",
+          `background-color:${m[1]};color:white;border-color:${m[1]};border-width:1px;border-style:solid;`);
+      }
+    } else {
+      b.setAttribute("style", base);
+    }
+  }
+
+  function setPlatformChipStyle(b: HTMLButtonElement) {
+    const active = b.dataset.platformFilter === state.platform;
+    b.classList.toggle("bg-zinc-900", active);
+    b.classList.toggle("text-white", active);
+    b.classList.toggle("bg-zinc-100", !active);
+    b.classList.toggle("text-zinc-600", !active);
+  }
+
+  let currentSort: Sort = "newest";  // last-applied sort, to avoid redundant DOM work
+  function applySort() {
+    if (state.sort === currentSort) return;
+    const sorted = [...cards].sort((a, b) => {
+      const ay = parseInt(a.dataset.year || "-1", 10);
+      const by = parseInt(b.dataset.year || "-1", 10);
+      const ac = parseInt(a.dataset.citations || "0", 10);
+      const bc = parseInt(b.dataset.citations || "0", 10);
+      const ah = a.dataset.highlight === "1" ? 1 : 0;
+      const bh = b.dataset.highlight === "1" ? 1 : 0;
+      const at = a.dataset.titleKey || "";
+      const bt = b.dataset.titleKey || "";
+      switch (state.sort) {
+        case "newest":     return (by - ay) || (bc - ac) || at.localeCompare(bt);
+        case "oldest":     return (ay - by) || (bc - ac) || at.localeCompare(bt);
+        case "most-cited": return (bc - ac) || (by - ay) || at.localeCompare(bt);
+        case "featured":   return (bh - ah) || (by - ay) || (bc - ac);
+        case "title":      return at.localeCompare(bt);
+      }
+    });
+    const frag = document.createDocumentFragment();
+    for (const c of sorted) frag.appendChild(c);
+    $list.appendChild(frag);
+    currentSort = state.sort;
+  }
+
+  function apply() {
+    applySort();
+    const q = state.q.trim().toLowerCase();
+    let visible = 0;
+    for (const card of cards) {
+      const matchesQ = !q || (card.dataset.search ?? "").includes(q);
+      const matchesTag =
+        !state.tag || (card.dataset.tags ?? "").split(",").includes(state.tag);
+      const matchesMethod =
+        !state.method || (card.dataset.methods ?? "").split(",").includes(state.method);
+      const matchesPlatform =
+        !state.platform || (card.dataset.platforms ?? "").split(",").includes(state.platform);
+      const matchesYear = !state.year || card.dataset.year === state.year;
+      const show = matchesQ && matchesTag && matchesMethod && matchesPlatform && matchesYear;
+      card.style.display = show ? "" : "none";
+      if (show) visible++;
+    }
+    $empty.classList.toggle("hidden", visible !== 0);
+
+    const parts = [`${visible} match${visible === 1 ? "" : "es"}`];
+    if (state.tag) {
+      const chip = tagButtons.find((b) => b.dataset.tagFilter === state.tag);
+      parts.push(`topic: ${chip?.dataset.tagLabel ?? state.tag}`);
+    }
+    if (state.method) {
+      const chip = methodButtons.find((b) => b.dataset.methodFilter === state.method);
+      parts.push(`method: ${chip?.dataset.methodLabel ?? state.method}`);
+    }
+    if (state.platform) {
+      const chip = platformButtons.find((b) => b.dataset.platformFilter === state.platform);
+      parts.push(`platform: ${chip?.dataset.platformLabel ?? state.platform}`);
+    }
+    if (state.year) parts.push(`year: ${state.year}`);
+    if (state.q) parts.push(`"${state.q}"`);
+    $status.textContent = parts.join(" · ");
+
+    for (const b of tagButtons) setTagChipStyle(b);
+    for (const b of methodButtons) setMethodChipStyle(b);
+    for (const b of platformButtons) setPlatformChipStyle(b);
+    for (const b of yearButtons) {
+      const active = b.dataset.yearFilter === state.year;
+      b.classList.toggle("bg-[var(--color-accent)]", active);
+      b.classList.toggle("text-white", active);
+      b.classList.toggle("border-[var(--color-accent)]", active);
+    }
+    writeURL();
+  }
+
+  $search.addEventListener("input", () => { state.q = $search.value; apply(); });
+  $sort.addEventListener("change", () => { state.sort = $sort.value as Sort; apply(); });
+  $clear.addEventListener("click", () => {
+    state.q = ""; state.tag = null; state.method = null; state.platform = null; state.year = null;
+    state.sort = "newest";
+    $search.value = "";
+    $sort.value = "newest";
+    apply();
+  });
+
+  function toggle(stateKey: keyof State, value: string | null) {
+    (state as any)[stateKey] = (state as any)[stateKey] === value ? null : value;
+    apply();
+  }
+
+  for (const b of tagButtons)
+    b.addEventListener("click", () => toggle("tag", b.dataset.tagFilter ?? null));
+  for (const b of methodButtons)
+    b.addEventListener("click", () => toggle("method", b.dataset.methodFilter ?? null));
+  for (const b of platformButtons)
+    b.addEventListener("click", () => toggle("platform", b.dataset.platformFilter ?? null));
+  for (const b of yearButtons)
+    b.addEventListener("click", () => toggle("year", b.dataset.yearFilter ?? null));
+
+  // Click-on-card pill → set that as filter and scroll up
+  for (const p of tagPills) {
+    p.addEventListener("click", () => {
+      state.tag = p.dataset.tagPill ?? null;
+      apply();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+  for (const p of methodPills) {
+    p.addEventListener("click", () => {
+      state.method = p.dataset.methodPill ?? null;
+      apply();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+  for (const p of platformPills) {
+    p.addEventListener("click", () => {
+      state.platform = p.dataset.platformPill ?? null;
+      apply();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  if ($toggleOlder && $olderWrap) {
+    $toggleOlder.addEventListener("click", () => {
+      $olderWrap.classList.toggle("hidden");
+      $toggleOlder.classList.add("hidden");
+    });
+  }
+
+  // ─── URL-state sync ────────────────────────────────────────────────────────
+  // Read ?topic=… &method=… &platform=… &year=… &q=… on page load so research
+  // page chips can deep-link here (e.g. /publications?topic=digital-health).
+  // Write back to URL on every filter change so each filter state is shareable
+  // via back/forward and copy-paste.
+  function readURL(): void {
+    const p = new URLSearchParams(window.location.search);
+    state.tag      = p.get("topic")    || null;
+    state.method   = p.get("method")   || null;
+    state.platform = p.get("platform") || null;
+    state.year     = p.get("year")     || null;
+    state.q        = p.get("q")        || "";
+    const s = p.get("sort");
+    if (s === "newest" || s === "oldest" || s === "az" || s === "citations") state.sort = s;
+    $search.value = state.q;
+    $sort.value = state.sort;
+  }
+  function writeURL(): void {
+    const p = new URLSearchParams();
+    if (state.tag)      p.set("topic", state.tag);
+    if (state.method)   p.set("method", state.method);
+    if (state.platform) p.set("platform", state.platform);
+    if (state.year)     p.set("year", state.year);
+    if (state.q)        p.set("q", state.q);
+    if (state.sort !== "newest") p.set("sort", state.sort);
+    const qs = p.toString();
+    const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+    window.history.replaceState(null, "", url);
+  }
+  // Back/forward support
+  window.addEventListener("popstate", () => { readURL(); apply(); });
+
+  readURL();
+  apply();
+</script>

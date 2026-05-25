@@ -1,0 +1,54 @@
+---
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/publications", label: "Publications" },
+  { href: "/team", label: "Team" },
+  { href: "/research", label: "Research" },
+  { href: "/openings", label: "Openings" },
+];
+
+const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+---
+
+<header class="border-b" style="border-color: var(--color-rule); background-color: var(--color-paper);">
+  <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
+    <a href="/" class="flex items-center gap-2.5 whitespace-nowrap">
+      <img src="/sodalab-mark.svg" alt="" class="h-10 w-10 shrink-0" />
+      <span class="font-display text-xl font-semibold tracking-tight" style="color: var(--color-ink);">SoDA Lab</span>
+      <span
+        class="hidden font-mono text-[10px] tracking-wider uppercase md:inline"
+        style="color: var(--color-ink-faint);"
+      >Social Data &amp; AI</span>
+    </a>
+    <nav>
+      <ul class="flex gap-1 font-mono text-xs uppercase tracking-wider">
+        {navItems.map((item) => {
+          const isActive = path === item.href || (item.href !== "/" && path.startsWith(item.href));
+          return (
+            <li>
+              <a
+                href={item.href}
+                class:list={[
+                  "rounded-sm px-3 py-1.5 transition",
+                  isActive ? "is-active" : "nav-link",
+                ]}
+                style={isActive
+                  ? "background-color: var(--color-ink); color: var(--color-paper);"
+                  : "color: var(--color-ink-soft);"}
+              >
+                {item.label}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .nav-link:hover {
+    background-color: var(--color-paper-2);
+    color: var(--color-ink);
+  }
+</style>

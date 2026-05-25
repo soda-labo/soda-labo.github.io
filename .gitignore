@@ -1,8 +1,27 @@
-_site
-.sass-cache
-.jekyll-metadata
-.jekyll-cache
-._*
-Gemfile.lock
+# OS
 .DS_Store
-images/.DS_Store
+._*
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Dependencies & build outputs
+web/node_modules/
+web/dist/
+web/.astro/
+
+# Python venv (used by GS refresh scripts)
+web/scripts/.venv/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Env files
+.env
+.env.local
+.env.*.local

@@ -1,0 +1,74 @@
+---
+import Base from "../layouts/Base.astro";
+import Email from "../components/Email.astro";
+---
+
+<Base title="Openings · SoDA Lab">
+  <header class="mb-10">
+    <h1 class="text-3xl font-semibold tracking-tight">Openings</h1>
+    <p class="mt-2 max-w-2xl text-zinc-600">
+      We're looking for PhD students and researchers interested in studying social phenomena
+      through data and AI.
+    </p>
+  </header>
+
+  <section class="mb-12">
+    <h2 class="mb-3 text-lg font-semibold text-zinc-900">Research directions</h2>
+    <p class="text-sm leading-relaxed text-zinc-700">
+      We study social phenomena through large-scale data and AI/computational tools, aiming to
+      tackle big <em>societal problems</em>. If our
+      <a href="/research" class="text-[var(--color-accent)] hover:underline">research directions</a>
+      resonate with you, we'd love to hear from you.
+    </p>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="mb-3 text-lg font-semibold text-zinc-900">How to apply</h2>
+    <p class="text-sm leading-relaxed text-zinc-700">
+      Email <Email user="soda.sci.lab" host="gmail.com" class="font-medium text-[var(--color-accent)] hover:underline" /> with:
+    </p>
+    <ul class="mt-3 list-disc space-y-1 pl-5 text-sm text-zinc-700">
+      <li>Your CV</li>
+      <li>A short research statement: your interests, academic and career goals, and relevant skills</li>
+      <li>Which research direction interests you most, and why</li>
+    </ul>
+    <p class="mt-4 text-sm leading-relaxed text-zinc-700">
+      For PhD program details at the Luddy School of Informatics, Computing, and Engineering at IU
+      Bloomington, see the
+      <a href="https://luddy.indiana.edu/admissions/index.html" class="text-[var(--color-accent)] hover:underline" target="_blank" rel="noopener">Admissions page</a>.
+    </p>
+    <p class="mt-4 rounded-md bg-amber-50 px-4 py-3 text-sm text-amber-900">
+      <strong>Note:</strong> The official application deadline is typically mid-December. Email us as
+      early as possible so we can arrange a Zoom meeting if needed.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="mb-3 text-lg font-semibold text-zinc-900">FAQ</h2>
+    <dl class="space-y-5 text-sm">
+      <div>
+        <dt class="font-medium text-zinc-900">I'm interested in a CS PhD. Can I apply to SoDA Lab?</dt>
+        <dd class="mt-1 text-zinc-700">
+          SoDA Lab is affiliated with the Department of Informatics in the Luddy School. If you're
+          specifically interested in a Computer Science major, we recommend exploring opportunities
+          within the CS department.
+        </dd>
+      </div>
+      <div>
+        <dt class="font-medium text-zinc-900">I want to develop new AI systems / ML algorithms. Is this a good fit?</dt>
+        <dd class="mt-1 text-zinc-700">
+          These are interesting research directions, but our lab puts strong emphasis on the human
+          and societal aspects. If your main interests are on the systems side, we recommend
+          looking elsewhere.
+        </dd>
+      </div>
+      <div>
+        <dt class="font-medium text-zinc-900">Will I receive an RA-ship or TA-ship?</dt>
+        <dd class="mt-1 text-zinc-700">
+          New incoming students typically enter with a TA-ship. RA-ships may be available based on
+          specific projects and available funds.
+        </dd>
+      </div>
+    </dl>
+  </section>
+</Base>

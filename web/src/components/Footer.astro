@@ -1,0 +1,38 @@
+---
+import Email from "./Email.astro";
+const year = new Date().getFullYear();
+---
+
+<footer class="mt-20 border-t" style="border-color: var(--color-rule); background-color: var(--color-paper);">
+  <div class="mx-auto grid max-w-5xl gap-8 px-6 py-10 text-sm sm:grid-cols-3" style="color: var(--color-ink-soft);">
+    <div>
+      <div class="font-display font-semibold" style="color: var(--color-ink);">SoDA Lab</div>
+      <p class="mt-1 leading-relaxed">
+        Social Data and AI Lab<br />
+        Luddy School of Informatics, Computing, and Engineering<br />
+        Indiana University Bloomington
+      </p>
+    </div>
+    <div>
+      <div class="font-display font-semibold" style="color: var(--color-ink);">Contact</div>
+      <p class="mt-1 space-y-0.5">
+        <Email user="hwkwak" host="iu.edu" class="hover:underline" /><br />
+        <Email user="jisunan" host="iu.edu" class="hover:underline" />
+      </p>
+    </div>
+    <div>
+      <div class="font-display font-semibold" style="color: var(--color-ink);">Links</div>
+      <ul class="mt-1 space-y-1">
+        <li>
+          <a href="https://luddy.indiana.edu/" class="hover:underline" target="_blank" rel="noopener">
+            Luddy School
+          </a>
+        </li>
+        <li><a href="/openings" class="hover:underline">Join us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="mx-auto max-w-5xl px-6 pb-8 font-mono text-[11px] uppercase tracking-wider" style="color: var(--color-ink-faint);">
+    © {year} SoDA Lab
+  </div>
+</footer>

@@ -1,0 +1,30 @@
+---
+// Spam-resistant email. Renders "user [at] host" in source/HTML.
+// A small inline script rewrites it to a real mailto: link after page load.
+interface Props {
+  user: string;
+  host: string;
+  class?: string;
+}
+const { user, host, class: className = "" } = Astro.props;
+---
+<a
+  href="#"
+  data-email-user={user}
+  data-email-host={host}
+  class={`email-link ${className}`}
+>{user}<span aria-hidden="true" class="select-none"> [at] </span>{host}</a>
+
+<script is:inline>
+  // Idempotent: safe to re-run on view transitions.
+  document.querySelectorAll('a.email-link[data-email-user]').forEach((a) => {
+    const u = a.getAttribute('data-email-user');
+    const h = a.getAttribute('data-email-host');
+    if (u && h) {
+      a.setAttribute('href', 'mailto:' + u + '@' + h);
+      a.textContent = u + '@' + h;
+      a.removeAttribute('data-email-user');
+      a.removeAttribute('data-email-host');
+    }
+  });
+</script>
