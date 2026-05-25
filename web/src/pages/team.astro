@@ -62,7 +62,10 @@ const members = loadMembers();
       {members.phd_students.map((s) => (
         <li class="flex items-center gap-3">
           <div class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-zinc-100 text-xs font-medium text-zinc-500">
-            {s.name.split(/\s+/).map((w) => w[0]).slice(0, 2).join("")}
+            {/* Strip parenthetical nicknames like "Shirui (Olivia) Zhou" so
+                the initials don't include "(". Then take the first letter of
+                each remaining word, up to two. */}
+            {s.name.replace(/\([^)]*\)/g, " ").split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join("")}
           </div>
           <div class="min-w-0">
             <div class="text-sm font-medium text-zinc-900">{s.name}</div>
