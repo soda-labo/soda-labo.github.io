@@ -66,6 +66,10 @@ type OverrideEntry = {
   news?: string[];
   authors?: string;
   scholar_ids?: string[];
+  /** Explicit publication year. Wins over venue-extracted and GS year.
+   *  Useful when GS only knows the arXiv preprint year (e.g. 2025) but the
+   *  paper was officially published the following year (e.g. C3NLP 2026). */
+  year?: number;
 };
 
 type ScholarPub = {
@@ -227,7 +231,10 @@ export function loadPublications(): Publication[] {
 
     if (o.hide) continue;
 
-    const year = gs?.year ?? parseOverrideYear(o);
+    // Year priority: explicit override > venue-extracted (curated) > GS (often
+    // just the arXiv preprint year, which is wrong once the paper is formally
+    // published the following year).
+    const year = o.year ?? parseOverrideYear(o) ?? gs?.year ?? null;
     out.push({
       id,
       title: o.title,

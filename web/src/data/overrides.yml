@@ -2360,7 +2360,7 @@ somatic-in-the-east-psychological-in-the-west-investigating-clinically-grounded-
   authors: Shintaro Sakai, Jisun An, Migyeong Kang, Haewoon Kwak
   link:
     url: https://arxiv.org/abs/2508.03247
-    venue: ArXiv.org
+    venue: ACL Workshop on Cross-Cultural Considerations in NLP (C3NLP), 2026
 visualizing-a-personal-timeline-by-adding-multiple-social-contexts:
   title: Visualizing a personal timeline by adding multiple social contexts
   tags:
@@ -2430,7 +2430,7 @@ plurule-a-benchmark-for-moderating-pluralistic-communities-on-social-media:
   authors: Zoher Kachwala, Bao Tran Truong, Rasika Muralidharan, Haewoon Kwak, Jisun An, Filippo Menczer
   link:
     url: https://arxiv.org/abs/2605.17187
-    venue: ArXiv.org
+    venue: ACL
 when-behavior-is-not-enough-identity-biases-in-human-ai-creative-collaboration:
   title: 'When Behavior Is Not Enough: Identity Biases in Human-AI Creative Collaboration'
   tags:
@@ -2536,6 +2536,7 @@ vulnerability-of-llms-belief-systems-llms-belief-resistance-check-through-strate
   authors: Fan Huang, Haewoon Kwak, Jisun An
   link:
     url: https://www.semanticscholar.org/paper/433bd18f35bca2159696aa47146bfbe1e24056ba
+    venue: ACL Findings
 xchoice-explainable-evaluation-of-ai-human-alignment-in-llm-based-constrained-ch:
   title: 'XChoice: Explainable Evaluation of AI-Human Alignment in LLM-based Constrained Choice Decision Making'
   tags:
