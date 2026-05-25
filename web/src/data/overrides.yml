@@ -2552,7 +2552,7 @@ xchoice-explainable-evaluation-of-ai-human-alignment-in-llm-based-constrained-ch
     url: https://arxiv.org/abs/2601.11286
     venue: arXiv (Cornell University)
 a-benchmark-for-zero-shot-belief-inference-in-large-language-models:
-  title: A Benchmark for Zero-Shot Belief Inference in Large Language Models
+  title: 'What Helps Language Models Predict Human Beliefs: Demographics or Prior Stances?'
   tags:
   - llms-responsible-ai
   methods:
@@ -2561,9 +2561,12 @@ a-benchmark-for-zero-shot-belief-inference-in-large-language-models:
   scholar_ids:
   - dcjrz5MAAAAJ:Fu2w8maKXqMC
   - FYtw3zkAAAAJ:wbdj-CoPYUoC
-  description: How well can an LLM predict what an individual believes, with no fine-tuning? Our zero-shot benchmark uses online-debate data, varying how much demographic context or known prior beliefs
-    the model sees. Background information helps, but accuracy varies sharply by belief domain, exposing both the promise and limits of LLMs as belief modelers.
+  description: 'When an LLM predicts someone''s beliefs, what matters more: who they are (demographics) or what else they believe (prior stances)? Testing open-weight LLMs on online-debate data under four
+    conditions, we find both signals improve prediction, but their relative value varies sharply across belief domains.'
   authors: Joseph Malone, Rachith Aiyappa, Byunghwee Lee, Haewoon Kwak, Jisun An, Yong-Yeol Ahn
+  link:
+    url: https://arxiv.org/abs/2511.18616
+    venue: arXiv preprint arXiv:2511.18616, 2025
 can-lessons-from-human-teams-be-applied-to-multi-agent-systems-the-role-of-struc:
   title: Can Lessons From Human Teams Be Applied to Multi-Agent Systems? The Role of Structure, Diversity, and Interaction Dynamics
   tags:

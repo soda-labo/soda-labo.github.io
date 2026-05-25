@@ -209,10 +209,15 @@ def main() -> int:
 
     # Build a normalized-title → slug index of existing overrides for fast match
     existing_index: dict[str, str] = {}
+    # Plus a scholar_id → slug index so we can match arXiv-v2-renamed or
+    # otherwise drifted titles whenever the override already carries the GS id.
+    sid_index: dict[str, str] = {}
     for slug, entry in overrides.items():
         nt = normalize_title(entry.get("title") or "")
         if nt:
             existing_index[nt] = slug
+        for sid in (entry.get("scholar_ids") or []):
+            sid_index[sid] = slug
 
     added: list[tuple[str, str, int | None, bool]] = []
     updated_scholar_ids = 0
@@ -220,9 +225,15 @@ def main() -> int:
     for gs in gs_pubs:
         nt = normalize_title(gs["title"])
 
-        # Exact normalized match
-        match_slug = existing_index.get(nt)
-        # Fuzzy fallback
+        # 1. scholar_id match — survives title renames (e.g. arXiv v2)
+        match_slug = None
+        for sid in gs["scholar_ids"]:
+            if sid in sid_index:
+                match_slug = sid_index[sid]; break
+        # 2. Exact normalized title match
+        if not match_slug:
+            match_slug = existing_index.get(nt)
+        # 3. Fuzzy title fallback
         if not match_slug:
             for ex_nt, ex_slug in existing_index.items():
                 if SequenceMatcher(None, nt, ex_nt).ratio() >= 0.92:
