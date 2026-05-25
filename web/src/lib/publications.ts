@@ -152,8 +152,12 @@ function parseYear(y: string | null | undefined, fallbackVenue?: string): number
 }
 
 function parseOverrideYear(o: OverrideEntry): number | null {
-  const m = o.link?.venue?.match(/\b(19|20)\d{2}\b/);
-  return m ? parseInt(m[0], 10) : null;
+  // Pick the LAST 4-digit year in the venue string. The publication year is
+  // almost always at the end (e.g. "ICWSM, 2024"), and matching the first
+  // year wrongly picks up arXiv IDs whose first 4 chars look like a year:
+  // "arXiv preprint arXiv:2001.11171, 2020" would otherwise return 2001.
+  const matches = o.link?.venue?.match(/\b(19|20)\d{2}\b/g);
+  return matches?.length ? parseInt(matches[matches.length - 1], 10) : null;
 }
 
 /** Dedupe GS publications across authors by fuzzy(ish) title equivalence. */
