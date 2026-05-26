@@ -85,3 +85,23 @@ git add "$DATA_FILE" "$OVERRIDES" "$PUBPIC_DIR"
 git commit -m "chore: refresh Scholar citations, sync overrides, optimize images ($(date +%Y-%m-%d))"
 git push origin "$BRANCH"
 echo "Pushed update to origin/$BRANCH."
+
+# ── Sync Haewoon's personal site stats from the same scholar cache ───────────
+# Reads scholar_cache.json (just updated above) and rewrites the
+# data-stat="..." spans on the personal site's index.html, then pushes if
+# anything changed. No extra GS fetch — same cache, two sites.
+PERSONAL_REPO="$HOME/Projects/haewoon.github.io"
+if [[ -f "$PERSONAL_REPO/update_stats.py" ]]; then
+  echo
+  echo "Syncing personal site stats…"
+  /usr/bin/env python3 "$PERSONAL_REPO/update_stats.py"
+  cd "$PERSONAL_REPO" || exit 0
+  if ! git diff --quiet -- index.html; then
+    git add index.html
+    git commit -m "chore: refresh Scholar stats ($(date +%Y-%m-%d))"
+    git push origin master
+    echo "Pushed personal site update."
+  else
+    echo "Personal site already up to date."
+  fi
+fi
