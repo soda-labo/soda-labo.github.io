@@ -2,9 +2,11 @@
 import Base from "../layouts/Base.astro";
 import PublicationCard from "../components/PublicationCard.astro";
 import { loadPublications } from "../lib/publications";
+import { loadNews } from "../lib/news";
 
 const pubs = loadPublications();
 const featured = pubs.filter((p) => p.highlight).slice(0, 4);
+const news = loadNews().slice(0, 8);
 
 const press = [
   {
@@ -47,21 +49,41 @@ const press = [
     </div>
   </section>
 
-  <section class="border-t pt-10 pb-4" style="border-color: var(--color-rule);">
-    <p class="text-base leading-relaxed" style="color: var(--color-ink-soft);">
-      Led by
-      <a href="/team" class="font-medium underline decoration-1 underline-offset-2 hover:decoration-2" style="color: var(--color-ink); text-decoration-color: var(--color-rule);">Haewoon Kwak</a>
-      and
-      <a href="/team" class="font-medium underline decoration-1 underline-offset-2 hover:decoration-2" style="color: var(--color-ink); text-decoration-color: var(--color-rule);">Jisun An</a>,
-      we focus on human behavior on online platforms: its
-      <em>measurement</em>, <em>understanding</em>, <em>design</em>, and the
-      <em>assessment of its implications</em>. Every day we use our devices to read the
-      news, watch videos, search for places to eat, chat with friends, and post on social
-      media. Those electronic footprints make it possible to study both individual and
-      collective behavior, including what people like and dislike, how they feel about
-      different topics, and how they engage with one another. Understanding human behavior
-      on these platforms has become essential.
-    </p>
+  <section class="grid gap-10 border-t pt-10 pb-4 lg:grid-cols-[minmax(0,1fr)_18rem] lg:gap-12" style="border-color: var(--color-rule);">
+    <div>
+      <p class="text-base leading-relaxed" style="color: var(--color-ink-soft);">
+        Led by
+        <a href="/team" class="font-medium underline decoration-1 underline-offset-2 hover:decoration-2" style="color: var(--color-ink); text-decoration-color: var(--color-rule);">Haewoon Kwak</a>
+        and
+        <a href="/team" class="font-medium underline decoration-1 underline-offset-2 hover:decoration-2" style="color: var(--color-ink); text-decoration-color: var(--color-rule);">Jisun An</a>,
+        we focus on human behavior on online platforms: its
+        <em>measurement</em>, <em>understanding</em>, <em>design</em>, and the
+        <em>assessment of its implications</em>. Every day we use our devices to read the
+        news, watch videos, search for places to eat, chat with friends, and post on social
+        media. Those electronic footprints make it possible to study both individual and
+        collective behavior, including what people like and dislike, how they feel about
+        different topics, and how they engage with one another. Understanding human behavior
+        on these platforms has become essential.
+      </p>
+    </div>
+
+    {news.length > 0 && (
+      <aside aria-labelledby="news-heading">
+        <h2 id="news-heading" class="font-mono text-xs uppercase tracking-wider" style="color: var(--color-ink-faint);">
+          News
+        </h2>
+        <ul class="mt-3 space-y-3 border-t pt-3" style="border-color: var(--color-rule);">
+          {news.map((n) => (
+            <li class="text-sm leading-relaxed">
+              <div class="font-mono text-[11px] uppercase tracking-wider" style="color: var(--color-ink-faint);">
+                {n.date}
+              </div>
+              <div class="mt-0.5 news-item" set:html={n.headline} style="color: var(--color-ink-soft);" />
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )}
   </section>
 
   <style>
@@ -82,6 +104,17 @@ const press = [
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
+    }
+    /* Anchors inside the news sidebar (rendered via set:html, so Tailwind
+       class hooks don't reach them). */
+    .news-item a {
+      color: var(--color-ink);
+      text-decoration: underline;
+      text-decoration-color: var(--color-rule);
+      text-underline-offset: 2px;
+    }
+    .news-item a:hover {
+      text-decoration-color: var(--color-ink);
     }
   </style>
 
