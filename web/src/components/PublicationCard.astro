@@ -113,39 +113,43 @@ const searchText = [
 
     {(pub.tags.length + pub.methods.length + pub.platforms.length) > 0 && (
       <ul class="mt-3 flex flex-wrap items-center gap-1.5">
+        {/* Chips are <a> tags so they navigate to a filtered /publications
+            from anywhere (home, research, etc.). On the publications page
+            itself, the inline JS intercepts the click and toggles the
+            filter in place without a reload. */}
         {pub.tags.map((tag) => (
           <li>
-            <button
-              type="button"
+            <a
+              href={`/publications?topic=${tag}`}
               data-tag-pill={tag}
               style={pillStyle(tag)}
               class="rounded-full px-2 py-0.5 text-[11px] font-medium opacity-90 hover:opacity-100"
             >
               {topicName(tag)}
-            </button>
+            </a>
           </li>
         ))}
         {pub.methods.map((m) => (
           <li>
-            <button
-              type="button"
+            <a
+              href={`/publications?method=${m}`}
               data-method-pill={m}
               style={methodChipStyle(m)}
               class="rounded-full px-2 py-0.5 text-[11px] font-medium hover:opacity-80"
             >
               {methodName(m)}
-            </button>
+            </a>
           </li>
         ))}
         {pub.platforms.map((p) => (
           <li>
-            <button
-              type="button"
+            <a
+              href={`/publications?platform=${p}`}
               data-platform-pill={p}
               class="rounded-full bg-zinc-100 px-2 py-0.5 text-[11px] font-medium text-zinc-600 hover:bg-zinc-200"
             >
               {platformName(p)}
-            </button>
+            </a>
           </li>
         ))}
       </ul>

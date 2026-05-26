@@ -200,9 +200,11 @@ const olderYears = years.slice(5);
   const methodButtons = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-method-filter]"));
   const platformButtons = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-platform-filter]"));
   const yearButtons = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-year-filter]"));
-  const tagPills = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-tag-pill]"));
-  const methodPills = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-method-pill]"));
-  const platformPills = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-platform-pill]"));
+  // Card chips are <a> tags so they navigate to /publications?... from
+  // other pages (home, research). On this page we intercept and toggle.
+  const tagPills = Array.from(document.querySelectorAll<HTMLAnchorElement>("[data-tag-pill]"));
+  const methodPills = Array.from(document.querySelectorAll<HTMLAnchorElement>("[data-method-pill]"));
+  const platformPills = Array.from(document.querySelectorAll<HTMLAnchorElement>("[data-platform-pill]"));
 
   function setTagChipStyle(b: HTMLButtonElement) {
     const base = b.dataset.tagStyle ?? "";
@@ -336,23 +338,28 @@ const olderYears = years.slice(5);
   for (const b of yearButtons)
     b.addEventListener("click", () => toggle("year", b.dataset.yearFilter ?? null));
 
-  // Click-on-card pill → set that as filter and scroll up
+  // Click-on-card pill → set that as filter and scroll up. The pills are
+  // <a> tags with hrefs (so they navigate to /publications?... when clicked
+  // from other pages). On this page we preventDefault and toggle in place.
   for (const p of tagPills) {
-    p.addEventListener("click", () => {
+    p.addEventListener("click", (e) => {
+      e.preventDefault();
       state.tag = p.dataset.tagPill ?? null;
       apply();
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
   for (const p of methodPills) {
-    p.addEventListener("click", () => {
+    p.addEventListener("click", (e) => {
+      e.preventDefault();
       state.method = p.dataset.methodPill ?? null;
       apply();
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
   for (const p of platformPills) {
-    p.addEventListener("click", () => {
+    p.addEventListener("click", (e) => {
+      e.preventDefault();
       state.platform = p.dataset.platformPill ?? null;
       apply();
       window.scrollTo({ top: 0, behavior: "smooth" });
