@@ -2274,7 +2274,7 @@ benchmarking-zero-shot-stance-detection-with-flant5-xxl-insights-from-training-d
   authors: Rachith Aiyappa, Shruthi Senthilmani, Jisun An, Haewoon Kwak, Yong-Yeol Ahn
   link:
     url: https://arxiv.org/abs/2403.00236
-    venue: arXiv (Cornell University)
+    venue: arXiv preprint arXiv:2403.00236, 2024
   image: benchmarking-zero-shot-stance-detection-with-flant5-xxl-insi.webp
 recommender-system-based-on-expert-opinions:
   title: Recommender system based on expert opinions
@@ -2320,7 +2320,7 @@ toblend-token-level-blending-with-an-ensemble-of-llms-to-attack-ai-generated-tex
   authors: Fan Huang, Haewoon Kwak, Jisun An
   link:
     url: https://arxiv.org/abs/2402.11167
-    venue: arXiv (Cornell University)
+    venue: arXiv preprint arXiv:2402.11167, 2024
   image: toblend-token-level-blending-with-an-ensemble-of-llms-to-att.webp
 token-ensemble-text-generation-on-attacking-the-automatic-ai-generated-text-dete:
   title: 'Token-Ensemble Text Generation: On Attacking the Automatic AI-Generated Text Detection'
@@ -2443,6 +2443,7 @@ plurule-a-benchmark-for-moderating-pluralistic-communities-on-social-media:
   - dataset
   platforms:
   - reddit
+  highlight: true
   scholar_ids:
   - dcjrz5MAAAAJ:35r97b3x0nAC
   description: 'Different online communities have different rules: what gets you banned from one subreddit may be the norm in another. PluRule is a multimodal, multilingual benchmark with 13,371 rule violations
@@ -2502,7 +2503,7 @@ understanding-moral-reasoning-trajectories-in-large-language-models-toward-probi
   authors: Fan Huang, Haewoon Kwak, Jisun An
   link:
     url: http://arxiv.org/abs/2603.16017
-    venue: ArXiv.org
+    venue: arXiv preprint arXiv:2603.16017, 2026
   image: understanding-moral-reasoning-trajectories-in-large-language.webp
 llms-can-infer-political-alignment-from-online-conversations:
   title: LLMs Can Infer Political Alignment from Online Conversations
@@ -2518,7 +2519,7 @@ llms-can-infer-political-alignment-from-online-conversations:
   authors: Byunghwee Lee, Sangyeon Kim, Filippo Menczer, Yong-Yeol Ahn, Haewoon Kwak, Jisun An
   link:
     url: http://arxiv.org/abs/2603.11253
-    venue: ArXiv.org
+    venue: arXiv preprint arXiv:2603.11253, 2026
   image: llms-can-infer-political-alignment-from-online-conversations.webp
 cross-cultural-differences-in-public-discourse-on-covid-19-vaccination-in-the-un:
   title: 'Cross-Cultural Differences in Public Discourse on COVID-19 Vaccination in the United States and South Korea: Cross-Sectional Analysis Using Natural Language Processing'
@@ -2583,7 +2584,7 @@ xchoice-explainable-evaluation-of-ai-human-alignment-in-llm-based-constrained-ch
   authors: Weihong Qi, Fan Huang, Rasika Muralidharan, Jisun An, Haewoon Kwak
   link:
     url: https://arxiv.org/abs/2601.11286
-    venue: arXiv (Cornell University)
+    venue: arXiv preprint arXiv:2601.11286, 2026
   image: xchoice-explainable-evaluation-of-ai-human-alignment-in-llm-.webp
 a-benchmark-for-zero-shot-belief-inference-in-large-language-models:
   title: 'What Helps Language Models Predict Human Beliefs: Demographics or Prior Stances?'
@@ -2614,7 +2615,7 @@ can-lessons-from-human-teams-be-applied-to-multi-agent-systems-the-role-of-struc
   authors: Rasika Muralidharan, Haewoon Kwak, Jisun An
   link:
     url: https://arxiv.org/abs/2510.07488
-    venue: ArXiv.org
+    venue: arXiv preprint arXiv:2510.07488, 2025
   image: can-lessons-from-human-teams-be-applied-to-multi-agent-syste.webp
 quantifying-gender-stereotypes-in-japan-between-1900-and-1999-with-word-embeddin:
   title: Quantifying Gender Stereotypes in Japan between 1900 and 1999 with Word Embeddings
@@ -2630,7 +2631,7 @@ quantifying-gender-stereotypes-in-japan-between-1900-and-1999-with-word-embeddin
   authors: Shintaro Sakai, Haewoon Kwak, Jisun An, Akira Matsui
   link:
     url: https://arxiv.org/abs/2510.03905
-    venue: ArXiv.org
+    venue: arXiv preprint arXiv:2510.03905, 2025
   image: quantifying-gender-stereotypes-in-japan-between-1900-and-199.webp
 a-cross-cultural-comparison-of-llm-based-public-opinion-simulation-evaluating-ch:
   title: 'A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies'
@@ -2734,7 +2735,7 @@ enhancing-stance-classification-on-social-media-using-quantified-moral-foundatio
   authors: Hong Zhang, Quoc-Nam Nguyen, Prasanta Bhattacharya, Wei Gao, Liang Ze Wong, Brandon Siyuan Loh, Joseph J. P. Simons, Jisun An
   link:
     url: https://arxiv.org/abs/2310.09848
-    venue: arXiv (Cornell University)
+    venue: arXiv preprint arXiv:2310.09848, 2024
   image: enhancing-stance-classification-on-social-media-using-quanti.webp
 leveraging-social-analytics-data-for-identifying-customer-segments-for-online-ne:
   title: Leveraging Social Analytics Data for Identifying Customer Segments for Online News Media
@@ -2779,7 +2780,7 @@ privacybench-a-conversational-benchmark-for-evaluating-privacy-in-personalized-a
   authors: Srija Mukhopadhyay, Sathwik Reddy, Shruthi Muthukumar, Jisun An, Ponnurangam Kumaraguru
   link:
     url: http://arxiv.org/abs/2512.24848
-    venue: ArXiv.org
+    venue: arXiv preprint arXiv:2512.24848, 2025
   image: privacybench-a-conversational-benchmark-for-evaluating-priva.webp
 leveraging-online-social-media-data-for-persona-profiling:
   title: Leveraging Online Social Media Data for Persona Profiling
@@ -2823,7 +2824,7 @@ multiple-areal-feature-aware-transportation-demand-prediction:
   authors: Sumin Han, Jisun An, Y. Park, Suji Kim, Kitae Jang, Dongman Lee
   link:
     url: https://arxiv.org/abs/2408.12890
-    venue: arXiv.org
+    venue: arXiv preprint arXiv:2408.12890, 2024
   image: multiple-areal-feature-aware-transportation-demand-predictio.webp
 improving-real-estate-appraisal-with-poi-integration-and-areal-embedding:
   title: Improving Real Estate Appraisal with POI Integration and Areal Embedding
@@ -2850,7 +2851,7 @@ cogbias-measuring-and-mitigating-cognitive-bias-in-large-language-models:
   authors: Fan Huang, Songheng Zhang, Haewoon Kwak, Jisun An
   link:
     url: http://arxiv.org/abs/2604.01366
-    venue: ArXiv.org
+    venue: arXiv preprint arXiv:2604.01366, 2026
   image: cogbias-measuring-and-mitigating-cognitive-bias-in-large-lan.webp
 urban-vibrancy-embedding-and-application-on-traffic-prediction:
   title: Urban Vibrancy Embedding and Application on Traffic Prediction
@@ -2878,7 +2879,7 @@ cognitive-linguistic-identity-fusion-score-clifs-a-scalable-cognition-informed-a
   authors: Devin R. Wright, Jisun An, Yong-Yeol Ahn
   link:
     url: https://arxiv.org/abs/2509.16813
-    venue: ArXiv.org
+    venue: arXiv preprint arXiv:2509.16813, 2025
   image: cognitive-linguistic-identity-fusion-score-clifs-a-scalable-.webp
 enhancing-regional-airbnb-trend-forecasting-using-llm-based-embeddings-of-access:
   title: Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility
@@ -2894,7 +2895,7 @@ enhancing-regional-airbnb-trend-forecasting-using-llm-based-embeddings-of-access
   authors: Hongju Lee, Youngjun Park, Jisun An, Dongman Lee
   link:
     url: http://arxiv.org/abs/2511.14248
-    venue: ArXiv.org
+    venue: arXiv preprint arXiv:2511.14248, 2025
   image: enhancing-regional-airbnb-trend-forecasting-using-llm-based-.webp
 measuring-capital-with-spatial-media-how-online-popularity-on-instagram-shapes-l:
   title: 'Measuring capital with spatial media: How online popularity on Instagram shapes land value patterns in Seoul'
@@ -2952,7 +2953,7 @@ spatio-temporal-road-traffic-prediction-using-real-time-regional-knowledge:
   authors: Sumin Han, Jisun An, Dongman Lee
   link:
     url: https://arxiv.org/abs/2408.12882
-    venue: ArXiv.org
+    venue: arXiv preprint arXiv:2408.12882, 2024
   image: spatio-temporal-road-traffic-prediction-using-real-time-regi.webp
 introduction-to-ph-d-symposium:
   title: Introduction to Ph. D. Symposium
