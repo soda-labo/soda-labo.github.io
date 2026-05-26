@@ -102,7 +102,20 @@ const members = loadMembers();
               {a.website ? (
                 <a href={a.website} class="hover:text-[var(--color-accent)]" target="_blank" rel="noopener">{a.name}</a>
               ) : a.name}
-              {a.now && <span class="text-zinc-500"> · now {a.now}</span>}
+              {a.now && <span class="text-zinc-500"> · {a.now}</span>}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="mb-2 font-medium text-zinc-900">Visitors</h3>
+        <ul class="space-y-1 text-zinc-700">
+          {members.alumni.visitors.map((a) => (
+            <li>
+              {a.name}
+              {a.affiliation && <span class="text-zinc-500"> · {a.affiliation}</span>}
+              {a.year && <span class="text-zinc-500"> · {a.year}</span>}
             </li>
           ))}
         </ul>
@@ -121,15 +134,6 @@ const members = loadMembers();
         <h3 class="mb-2 font-medium text-zinc-900">Undergraduate students (SMU)</h3>
         <ul class="space-y-1 text-zinc-700">
           {members.alumni.undergraduate_smu.map((a) => (
-            <li>{a.name}{a.year && <span class="text-zinc-500"> · {a.year}</span>}</li>
-          ))}
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="mb-2 font-medium text-zinc-900">Visitors</h3>
-        <ul class="space-y-1 text-zinc-700">
-          {members.alumni.visitors.map((a) => (
             <li>{a.name}{a.year && <span class="text-zinc-500"> · {a.year}</span>}</li>
           ))}
         </ul>

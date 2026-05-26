@@ -30,9 +30,12 @@ phd_students:
     photo: fan.jpg
     website: https://sites.google.com/view/fanhuang/
   - name: Weihong Qi
+    website: https://weihongq.github.io/
   - name: Andrea Chung
   - name: Shintaro Sakai
+    website: https://shinshinsakasaka.github.io/
   - name: Rasika Muralidharan
+    website: https://rasikamurali.github.io/rasikamuralidharan.github.io/
   - name: Juyoung An
   - name: Shirui (Olivia) Zhou
 
@@ -49,6 +52,20 @@ alumni:
       now: Project Assistant Professor at the University of Tokyo
       website: https://www.kmiyazaki.com/
 
+  visitors:
+    - name: Chaewon Kang
+      affiliation: Sungkyunkwan University
+      year: Fall 2024
+    - name: Migyeong Kang
+      affiliation: Sungkyunkwan University
+      year: Fall 2024
+    - name: Hyunseon Won
+      affiliation: Sungkyunkwan University
+      year: Fall 2025
+    - name: Sumit Kumar
+      affiliation: IIIT-Hyderabad
+      year: Spring 2026
+
   graduate_smu:
     - name: Shao Yi LIAW
       year: Fall 2022
@@ -60,13 +77,3 @@ alumni:
   undergraduate_smu:
     - name: CHONG Yun Yu
       year: Fall 2021
-
-  visitors:
-    - name: Chaewon Kang
-      year: Fall 2024
-    - name: Migyeong Kang
-      year: Fall 2024
-    - name: Hyunseon Won
-      year: Fall 2025
-    - name: Sumit Kumar
-      year: Spring 2026

@@ -27,6 +27,7 @@ export type Alumni = {
   now?: string;
   year?: string;
   website?: string;
+  affiliation?: string;
 };
 
 export type Members = {
