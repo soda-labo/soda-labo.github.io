@@ -209,15 +209,16 @@ const press = [
       color: transparent;
     }
     /* Anchors inside the news sidebar (rendered via set:html, so Tailwind
-       class hooks don't reach them). */
+       class hooks don't reach them). Use the site accent so links read as
+       clickable against the ink-soft body text. */
     .news-item a {
-      color: var(--color-ink);
+      color: var(--color-accent);
       text-decoration: underline;
-      text-decoration-color: var(--color-rule);
+      text-decoration-color: color-mix(in oklch, var(--color-accent) 35%, transparent);
       text-underline-offset: 2px;
     }
     .news-item a:hover {
-      text-decoration-color: var(--color-ink);
+      text-decoration-color: var(--color-accent);
     }
   </style>
 
