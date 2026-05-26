@@ -2566,6 +2566,7 @@ vulnerability-of-llms-belief-systems-llms-belief-resistance-check-through-strate
     we measure how stable each model's stated beliefs are under persuasive pressure. The smallest model flips on 82.5% of attempts at the first turn. Counterintuitively, asking models to verbalize confidence
     makes them more vulnerable.
   authors: Fan Huang, Haewoon Kwak, Jisun An
+  highlight: true
   link:
     url: https://arxiv.org/abs/2601.13590
     venue: ACL Findings
