@@ -1,10 +1,13 @@
 ---
+// Each nav item carries its own accent (drawn from the venn-mark logo's
+// red/amber/blue plus a teal and violet from the topic palette). The active
+// item paints with that colour; hover and inactive stay neutral.
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/publications", label: "Publications" },
-  { href: "/team", label: "Team" },
-  { href: "/research", label: "Research" },
-  { href: "/openings", label: "Openings" },
+  { href: "/",             label: "Home",         color: "#ed5765" }, // brand red
+  { href: "/publications", label: "Publications", color: "#f59e0b" }, // brand amber
+  { href: "/team",         label: "Team",         color: "#0d9488" }, // teal
+  { href: "/research",     label: "Research",     color: "#3db7e6" }, // brand blue
+  { href: "/openings",     label: "Openings",     color: "#7c3aed" }, // violet
 ];
 
 const path = Astro.url.pathname.replace(/\/$/, "") || "/";
@@ -56,8 +59,8 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
                   isActive ? "is-active" : "nav-link",
                 ]}
                 style={isActive
-                  ? "background-color: var(--color-ink); color: var(--color-paper);"
-                  : "color: var(--color-ink-soft);"}
+                  ? `background-color: ${item.color}; color: white;`
+                  : `color: var(--color-ink-soft); --accent: ${item.color};`}
               >
                 {item.label}
               </a>
@@ -82,8 +85,8 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
                 isActive ? "is-active" : "nav-link",
               ]}
               style={isActive
-                ? "background-color: var(--color-ink); color: var(--color-paper);"
-                : "color: var(--color-ink-soft);"}
+                ? `background-color: ${item.color}; color: white;`
+                : `color: var(--color-ink-soft); --accent: ${item.color};`}
             >
               {item.label}
             </a>
@@ -95,9 +98,11 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
 </header>
 
 <style>
+  /* Inactive nav links tint to their per-item accent on hover (the inline
+     style above sets --accent for each link). Falls back to ink if unset. */
   .nav-link:hover {
-    background-color: var(--color-paper-2);
-    color: var(--color-ink);
+    color: var(--accent, var(--color-ink));
+    background-color: color-mix(in oklch, var(--accent, var(--color-ink)) 10%, transparent);
   }
 </style>
 
