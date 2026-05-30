@@ -522,7 +522,9 @@ function primaryColor(topics: readonly string[]): string {
     /* break out to full viewport width even though we're inside the Base <main max-w-5xl> */
     width: 100vw;
     margin-left: calc(50% - 50vw);
-    padding: 56px clamp(20px, 5vw, 64px) 80px;
+    /* top padding kept light so the hero starts at the same offset as the
+       home page's hero (Base.astro main.py-10 + home's h1.mt-3 ≈ 52px) */
+    padding: 12px clamp(20px, 5vw, 64px) 80px;
     font-family: "Inter", system-ui, sans-serif;
     font-size: 16px;
     line-height: 1.6;
