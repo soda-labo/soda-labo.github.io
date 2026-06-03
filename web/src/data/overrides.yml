@@ -2446,6 +2446,7 @@ plurule-a-benchmark-for-moderating-pluralistic-communities-on-social-media:
   highlight: true
   scholar_ids:
   - dcjrz5MAAAAJ:35r97b3x0nAC
+  - FYtw3zkAAAAJ:JoZmwDi-zQgC
   description: 'Different online communities have different rules: what gets you banned from one subreddit may be the norm in another. PluRule is a multimodal, multilingual benchmark with 13,371 rule violations
     across 1,989 Reddit communities, 2,885 rules, and 9 languages. Even GPT-5.2 performs only slightly better than a trivial baseline, exposing pluralistic moderation as a fundamental challenge.'
   authors: Zoher Kachwala, Bao Tran Truong, Rasika Muralidharan, Haewoon Kwak, Jisun An, Filippo Menczer
