@@ -26,10 +26,31 @@ if [[ -f "$REPO_ROOT/.env" ]]; then
   echo "Loaded $REPO_ROOT/.env"
 fi
 
-# Make sure venv exists (auto-bootstrap on first run)
+# Make sure venv exists (auto-bootstrap on first run). Some of our scripts
+# use PEP 604 union syntax (X | None) which needs Python 3.10+, so prefer
+# a modern Homebrew interpreter and fall back to /usr/bin/python3 only when
+# nothing else is around.
+PYBIN=""
+for candidate in /opt/homebrew/bin/python3.14 /opt/homebrew/bin/python3.13 /opt/homebrew/bin/python3 python3 /usr/bin/python3; do
+  if command -v "$candidate" >/dev/null 2>&1; then
+    PYBIN="$candidate"; break
+  fi
+done
+if [[ -z "$PYBIN" ]]; then
+  echo "No python3 found on PATH." >&2
+  exit 1
+fi
+
+# If the existing venv is on Python <3.10, rebuild it.
+if [[ -x "$VENV/bin/python" ]]; then
+  if ! "$VENV/bin/python" -c 'import sys; sys.exit(0 if sys.version_info >= (3,10) else 1)' 2>/dev/null; then
+    echo "Existing venv is Python <3.10, rebuilding with $PYBIN"
+    rm -rf "$VENV"
+  fi
+fi
 if [[ ! -x "$VENV/bin/python" ]]; then
-  echo "Creating venv at $VENV"
-  /usr/bin/python3 -m venv "$VENV" || python3 -m venv "$VENV"
+  echo "Creating venv at $VENV (using $PYBIN)"
+  "$PYBIN" -m venv "$VENV"
   "$VENV/bin/pip" install --quiet --upgrade pip
   "$VENV/bin/pip" install --quiet scholarly
 fi
