@@ -4,24 +4,24 @@
     "scholar_id": "dcjrz5MAAAAJ",
     "display_name": "Haewoon Kwak",
     "affiliation": "Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington",
-    "total_citations": 22928,
+    "total_citations": 22960,
     "h_index": 48,
-    "i10_index": 98,
-    "num_publications": 142,
-    "fetched_in_seconds": 5.3,
+    "i10_index": 99,
+    "num_publications": 141,
+    "fetched_in_seconds": 6.0,
     "publications": [
       {
         "title": "What is Twitter, a social network or a news media?",
         "year": "2010",
         "venue": "Proceedings of the 19th international conference on World wide web, 591-600, 2010",
-        "citations": 10638,
+        "citations": 10650,
         "scholar_id": "dcjrz5MAAAAJ:d1gkVwhDpl0C"
       },
       {
         "title": "I tube, you tube, everybody tubes: analyzing the world's largest user generated content video system",
         "year": "2007",
         "venue": "Proceedings of the 7th ACM SIGCOMM conference on Internet measurement, 1-14, 2007",
-        "citations": 2235,
+        "citations": 2238,
         "scholar_id": "dcjrz5MAAAAJ:-f6ydRqryjwC"
       },
       {
@@ -42,14 +42,14 @@
         "title": "Exploring cyberbullying and other toxic behavior in team competition online games",
         "year": "2015",
         "venue": "Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing …, 2015",
-        "citations": 496,
+        "citations": 495,
         "scholar_id": "dcjrz5MAAAAJ:5nxA0vEk-isC"
       },
       {
         "title": "Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech",
         "year": "2023",
         "venue": "WWW '23 Companion: Companion Proceedings of the ACM Web Conference 2023, 2023",
-        "citations": 462,
+        "citations": 466,
         "scholar_id": "dcjrz5MAAAAJ:_B80troHkn4C"
       },
       {
@@ -63,7 +63,7 @@
         "title": "Stfu noob!: predicting crowdsourced decisions on toxic behavior in online games",
         "year": "2014",
         "venue": "Proceedings of the 23rd international conference on World wide web, 877-888, 2014",
-        "citations": 312,
+        "citations": 311,
         "scholar_id": "dcjrz5MAAAAJ:M3ejUd6NZC8C"
       },
       {
@@ -77,7 +77,7 @@
         "title": "Didn't you see my message?: predicting attentiveness to mobile instant messages",
         "year": "2014",
         "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems …, 2014",
-        "citations": 272,
+        "citations": 273,
         "scholar_id": "dcjrz5MAAAAJ:e5wmG9Sq2KIC"
       },
       {
@@ -91,7 +91,7 @@
         "title": "Fragile online relationship: a first look at unfollow dynamics in twitter",
         "year": "2011",
         "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems …, 2011",
-        "citations": 233,
+        "citations": 234,
         "scholar_id": "dcjrz5MAAAAJ:KlAtU1dfN6UC"
       },
       {
@@ -112,7 +112,7 @@
         "title": "Anatomy of online hate: developing a taxonomy and machine learning models for identifying and classifying hate in online news media",
         "year": "2018",
         "venue": "Proceedings of the International AAAI Conference on Web and Social Media 12 (1), 2018",
-        "citations": 210,
+        "citations": 211,
         "scholar_id": "dcjrz5MAAAAJ:0EnyYjriUFMC"
       },
       {
@@ -133,7 +133,7 @@
         "title": "Are personas done?: Evaluating the usefulness of personas in the age of online analytics",
         "year": "2018",
         "venue": "Persona Studies 4 (2), 47-65, 2018",
-        "citations": 169,
+        "citations": 171,
         "scholar_id": "dcjrz5MAAAAJ:WqliGbK-hY8C"
       },
       {
@@ -168,21 +168,21 @@
         "title": "Persona generation from aggregated social media data",
         "year": "2017",
         "venue": "Proceedings of the 2017 CHI conference extended abstracts on human factors …, 2017",
-        "citations": 125,
+        "citations": 126,
         "scholar_id": "dcjrz5MAAAAJ:IWHjjKOFINEC"
       },
       {
         "title": "SemAxis: A Lightweight Framework to Characterize Domain-Specific Word Semantics Beyond Sentiment",
         "year": "2018",
         "venue": "56th Annual Meeting of the Association for Computational Linguistics (ACL), 2018",
-        "citations": 106,
+        "citations": 107,
         "scholar_id": "dcjrz5MAAAAJ:kNdYIx-mwKoC"
       },
       {
         "title": "Persona Perception Scale: Development and Exploratory Validation of an Instrument for Evaluating Individuals’ Perceptions of Personas",
         "year": "2020",
         "venue": "International Journal of Human-Computer Studies, 102437, 2020",
-        "citations": 104,
+        "citations": 105,
         "scholar_id": "dcjrz5MAAAAJ:geHnlv5EZngC"
       },
       {
@@ -210,7 +210,7 @@
         "title": "Public Perception of Generative AI on Twitter: An Empirical Study Based on Occupation and Usage",
         "year": "2024",
         "venue": "EPJ Data Science, 2024",
-        "citations": 87,
+        "citations": 88,
         "scholar_id": "dcjrz5MAAAAJ:9vf0nzSNQJEC"
       },
       {
@@ -280,14 +280,14 @@
         "title": "A Systematic Media Frame Analysis of 1.5 Million New York Times Articles from 2000 to 2017",
         "year": "2020",
         "venue": "Proceedings of the 12th International ACM Conference on Web Science, 2020",
-        "citations": 67,
+        "citations": 68,
         "scholar_id": "dcjrz5MAAAAJ:B3FOqHPlNUQC"
       },
       {
         "title": "Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech",
         "year": "2023",
         "venue": "WWW '23 Companion: Companion Proceedings of the ACM Web Conference 2023, 2023",
-        "citations": 60,
+        "citations": 61,
         "scholar_id": "dcjrz5MAAAAJ:eMMeJKvmdy0C"
       },
       {
@@ -312,6 +312,13 @@
         "scholar_id": "dcjrz5MAAAAJ:TQgYirikUcIC"
       },
       {
+        "title": "FrameAxis: characterizing microframe bias and intensity with word embedding",
+        "year": "2021",
+        "venue": "PeerJ Computer Science 7, e644, 2021",
+        "citations": 54,
+        "scholar_id": "dcjrz5MAAAAJ:J-pR_7NvFogC"
+      },
+      {
         "title": "From 2,772 segments to five personas: Summarizing a diverse online audience by generating culturally adapted personas",
         "year": "2018",
         "venue": "First Monday 23 (6), 2018",
@@ -319,11 +326,11 @@
         "scholar_id": "dcjrz5MAAAAJ:XiSMed-E-HIC"
       },
       {
-        "title": "FrameAxis: characterizing microframe bias and intensity with word embedding",
-        "year": "2021",
-        "venue": "PeerJ Computer Science 7, e644, 2021",
+        "title": "Storm the Capitol: Linking Offline Political Speech and Online Twitter Extra-Representational Participation on QAnon and the January 6 Insurrection",
+        "year": "2022",
+        "venue": "Frontiers in Sociology 7, 2022",
         "citations": 53,
-        "scholar_id": "dcjrz5MAAAAJ:J-pR_7NvFogC"
+        "scholar_id": "dcjrz5MAAAAJ:olpn-zPbct0C"
       },
       {
         "title": "Towards automatic persona generation using social media",
@@ -331,13 +338,6 @@
         "venue": "2016 IEEE 4th International Conference on Future Internet of Things and …, 2016",
         "citations": 52,
         "scholar_id": "dcjrz5MAAAAJ:UebtZRa9Y70C"
-      },
-      {
-        "title": "Storm the Capitol: Linking Offline Political Speech and Online Twitter Extra-Representational Participation on QAnon and the January 6 Insurrection",
-        "year": "2022",
-        "venue": "Frontiers in Sociology 7, 2022",
-        "citations": 51,
-        "scholar_id": "dcjrz5MAAAAJ:olpn-zPbct0C"
       },
       {
         "title": "Confusion Prediction from Eye-Tracking Data: Experiments with Machine Learning",
@@ -420,7 +420,7 @@
         "title": "Predicting Anti-Asian Hateful Users on Twitter during COVID-19",
         "year": "2021",
         "venue": "EMNLP 2021 Findings, 2021",
-        "citations": 41,
+        "citations": 42,
         "scholar_id": "dcjrz5MAAAAJ:mvPsJ3kp5DgC"
       },
       {
@@ -441,7 +441,7 @@
         "title": "A Survey on Predicting the Factuality and the Bias of News Media",
         "year": "2024",
         "venue": "Findings of the Association for Computational Linguistics: ACL 2024, 15947–15962, 2024",
-        "citations": 36,
+        "citations": 35,
         "scholar_id": "dcjrz5MAAAAJ:VOx2b1Wkg3QC"
       },
       {
@@ -473,6 +473,13 @@
         "scholar_id": "dcjrz5MAAAAJ:tS2w5q8j5-wC"
       },
       {
+        "title": "ChatGPT Rates Natural Language Explanation Quality Like Humans: But on Which Scales?",
+        "year": "2024",
+        "venue": "LREC-COLING 2024: Proceedings of the 2024 Joint International Conference on …, 2024",
+        "citations": 31,
+        "scholar_id": "dcjrz5MAAAAJ:PR6Y55bgFSsC"
+      },
+      {
         "title": "Fixation and Confusion: Investigating Eye-tracking Participants' Exposure to Information in Personas",
         "year": "2018",
         "venue": "Proceedings of the 2018 Conference on Human Information Interaction …, 2018",
@@ -485,13 +492,6 @@
         "venue": "The workshop on News and Public Opinion co-located with Tenth International …, 2016",
         "citations": 31,
         "scholar_id": "dcjrz5MAAAAJ:Zph67rFs4hoC"
-      },
-      {
-        "title": "ChatGPT Rates Natural Language Explanation Quality Like Humans: But on Which Scales?",
-        "year": "2024",
-        "venue": "LREC-COLING 2024: Proceedings of the 2024 Joint International Conference on …, 2024",
-        "citations": 30,
-        "scholar_id": "dcjrz5MAAAAJ:PR6Y55bgFSsC"
       },
       {
         "title": "PROVOKE: Toxicity trigger detection in conversations from the top 100 subreddits",
@@ -662,6 +662,13 @@
         "scholar_id": "dcjrz5MAAAAJ:MXK_kJrjxJIC"
       },
       {
+        "title": "ToBlend: Token-Level Blending With an Ensemble of LLMs to Attack AI-Generated Text Detection",
+        "year": "2024",
+        "venue": "arXiv preprint arXiv:2402.11167, 2024",
+        "citations": 11,
+        "scholar_id": "dcjrz5MAAAAJ:NJ774b8OgUMC"
+      },
+      {
         "title": "I Would Not Plant Apple Trees If the World Will Be Wiped: Analyzing Hundreds of Millions of Behavioral Records of Players During an MMORPG Beta Test",
         "year": "2017",
         "venue": "Proceedings of the 26th International Conference on World Wide Web Companion …, 2017",
@@ -753,13 +760,6 @@
         "scholar_id": "dcjrz5MAAAAJ:9yKSN-GCB0IC"
       },
       {
-        "title": "ToBlend: Token-Level Blending With an Ensemble of LLMs to Attack AI-Generated Text Detection",
-        "year": "2024",
-        "venue": "arXiv preprint arXiv:2402.11167, 2024",
-        "citations": 6,
-        "scholar_id": "dcjrz5MAAAAJ:NJ774b8OgUMC"
-      },
-      {
         "title": "Efforts towards automatically generating personas in real-time using actual user data",
         "year": "2016",
         "venue": "Qatar Foundation Annual Research Conference Proceedings Volume 2016 Issue 1 …, 2016",
@@ -772,13 +772,6 @@
         "venue": "ACM SIGWEB Newsletter, 5, 2011",
         "citations": 6,
         "scholar_id": "dcjrz5MAAAAJ:NaGl4SEjCO4C"
-      },
-      {
-        "title": "Token-Ensemble Text Generation: On Attacking the Automatic AI-Generated Text Detection",
-        "year": "2024",
-        "venue": "arXiv preprint arXiv:2402.11167, 2024",
-        "citations": 5,
-        "scholar_id": "dcjrz5MAAAAJ:5awf1xo2G04C"
       },
       {
         "title": "Method, system and computer-readable storage mediums for estimating a route",
@@ -1011,17 +1004,17 @@
     "scholar_id": "FYtw3zkAAAAJ",
     "display_name": "Jisun AN",
     "affiliation": "Assistant Professor at Luddy School of Informatics, Computing, and Engineering",
-    "total_citations": 6043,
+    "total_citations": 6065,
     "h_index": 43,
     "i10_index": 85,
     "num_publications": 153,
-    "fetched_in_seconds": 4.7,
+    "fetched_in_seconds": 4.8,
     "publications": [
       {
         "title": "Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech",
         "year": "2023",
         "venue": "Companion Proceedings of the ACM Web Conference 2023, 2023",
-        "citations": 462,
+        "citations": 466,
         "scholar_id": "FYtw3zkAAAAJ:OU6Ihb5iCvQC"
       },
       {
@@ -1042,14 +1035,14 @@
         "title": "Discursive power in contemporary media systems: A comparative framework",
         "year": "2019",
         "venue": "The International Journal of Press/Politics 24 (4), 404-425, 2019",
-        "citations": 237,
+        "citations": 239,
         "scholar_id": "FYtw3zkAAAAJ:HoB7MX3m0LUC"
       },
       {
         "title": "Anatomy of Online Hate: Developing a Taxonomy and Machine Learning Models for Identifying and Classifying Hate in Online News Media.",
         "year": "2018",
         "venue": "ICWSM, 330-339, 2018",
-        "citations": 210,
+        "citations": 211,
         "scholar_id": "FYtw3zkAAAAJ:8k81kl-MbHgC"
       },
       {
@@ -1074,18 +1067,18 @@
         "scholar_id": "FYtw3zkAAAAJ:W7OEmFMy1HYC"
       },
       {
+        "title": "Are personas done? Evaluating their usefulness in the age of digital analytics",
+        "year": "2018",
+        "venue": "Persona Studies 4 (2), 47-65, 2018",
+        "citations": 152,
+        "scholar_id": "FYtw3zkAAAAJ:YsMSGLbcyi4C"
+      },
+      {
         "title": "High correlation of Middle East respiratory syndrome spread with Google search and Twitter trends in Korea",
         "year": "2016",
         "venue": "Scientific reports 6 (1), 32920, 2016",
         "citations": 151,
         "scholar_id": "FYtw3zkAAAAJ:2osOgNQ5qMEC"
-      },
-      {
-        "title": "Are personas done? Evaluating their usefulness in the age of digital analytics",
-        "year": "2018",
-        "venue": "Persona Studies 4 (2), 47-65, 2018",
-        "citations": 150,
-        "scholar_id": "FYtw3zkAAAAJ:YsMSGLbcyi4C"
       },
       {
         "title": "Partisan sharing: Facebook evidence and societal consequences",
@@ -1112,7 +1105,7 @@
         "title": "Persona generation from aggregated social media data",
         "year": "2017",
         "venue": "Proceedings of the 2017 CHI conference extended abstracts on human factors …, 2017",
-        "citations": 125,
+        "citations": 126,
         "scholar_id": "FYtw3zkAAAAJ:HDshCWvjkbEC"
       },
       {
@@ -1133,14 +1126,14 @@
         "title": "Semaxis: A lightweight framework to characterize domain-specific word semantics beyond sentiment",
         "year": "2018",
         "venue": "ACL 2018, 2018",
-        "citations": 106,
+        "citations": 107,
         "scholar_id": "FYtw3zkAAAAJ:YOwf2qJgpHMC"
       },
       {
         "title": "Persona Perception Scale: Development and Exploratory Validation of an Instrument for Evaluating Individuals’ Perceptions of Personas",
         "year": "2020",
         "venue": "International Journal of Human-Computer Studies 141, 102437, 2020",
-        "citations": 104,
+        "citations": 105,
         "scholar_id": "FYtw3zkAAAAJ:M05iB0D1s5AC"
       },
       {
@@ -1158,18 +1151,18 @@
         "scholar_id": "FYtw3zkAAAAJ:TQgYirikUcIC"
       },
       {
+        "title": "Public perception of generative AI on Twitter: an empirical study based on occupation and usage",
+        "year": "2024",
+        "venue": "EPJ Data Science 13 (1), 1-20, 2024",
+        "citations": 88,
+        "scholar_id": "FYtw3zkAAAAJ:Tiz5es2fbqcC"
+      },
+      {
         "title": "Fragmented social media: a look into selective exposure to political news",
         "year": "2013",
         "venue": "Proceedings of the 22nd international conference on world wide web, 51-52, 2013",
         "citations": 88,
         "scholar_id": "FYtw3zkAAAAJ:LkGwnXOMwfcC"
-      },
-      {
-        "title": "Public perception of generative AI on Twitter: an empirical study based on occupation and usage",
-        "year": "2024",
-        "venue": "EPJ Data Science 13 (1), 1-20, 2024",
-        "citations": 87,
-        "scholar_id": "FYtw3zkAAAAJ:Tiz5es2fbqcC"
       },
       {
         "title": "Automatic Persona Generation (APG) A Rationale and Demonstration",
@@ -1217,15 +1210,22 @@
         "title": "A Systematic Media Frame Analysis of 1.5 Million New York Times Articles from 2000 to 2017",
         "year": "2020",
         "venue": "WebSci-2020, 2020",
-        "citations": 67,
+        "citations": 68,
         "scholar_id": "FYtw3zkAAAAJ:g5m5HwL7SMYC"
       },
       {
         "title": "Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech",
         "year": "2023",
         "venue": "Companion Proceedings of the ACM Web Conference 2023, 2023",
-        "citations": 60,
+        "citations": 61,
         "scholar_id": "FYtw3zkAAAAJ:dshw04ExmUIC"
+      },
+      {
+        "title": "What really matters?: characterising and predicting user engagement of news postings using multiple platforms, sentiments and topics",
+        "year": "2023",
+        "venue": "Behaviour & Information Technology 42 (5), 545-568, 2023",
+        "citations": 59,
+        "scholar_id": "FYtw3zkAAAAJ:EUQCXRtRnyEC"
       },
       {
         "title": "Confusion and information triggered by photos in persona profiles",
@@ -1235,11 +1235,11 @@
         "scholar_id": "FYtw3zkAAAAJ:iH-uZ7U-co4C"
       },
       {
-        "title": "What really matters?: characterising and predicting user engagement of news postings using multiple platforms, sentiments and topics",
-        "year": "2023",
-        "venue": "Behaviour & Information Technology 42 (5), 545-568, 2023",
-        "citations": 58,
-        "scholar_id": "FYtw3zkAAAAJ:EUQCXRtRnyEC"
+        "title": "FrameAxis: characterizing microframe bias and intensity with word embedding",
+        "year": "2021",
+        "venue": "PeerJ Computer Science 7, e644, 2021",
+        "citations": 54,
+        "scholar_id": "FYtw3zkAAAAJ:Se3iqnhoufwC"
       },
       {
         "title": "From 2,772 segments to five personas: Summarizing a diverse online audience by generating culturally adapted personas",
@@ -1249,11 +1249,11 @@
         "scholar_id": "FYtw3zkAAAAJ:hqOjcs7Dif8C"
       },
       {
-        "title": "FrameAxis: characterizing microframe bias and intensity with word embedding",
-        "year": "2021",
-        "venue": "PeerJ Computer Science 7, e644, 2021",
+        "title": "Storm the capitol: linking offline political speech and online Twitter extra-representational participation on QAnon and the January 6 insurrection",
+        "year": "2022",
+        "venue": "Frontiers in Sociology 7, 876070, 2022",
         "citations": 53,
-        "scholar_id": "FYtw3zkAAAAJ:Se3iqnhoufwC"
+        "scholar_id": "FYtw3zkAAAAJ:P5F9QuxV20EC"
       },
       {
         "title": "Towards automatic persona generation using social media",
@@ -1261,13 +1261,6 @@
         "venue": "2016 IEEE 4th International Conference on Future Internet of Things and …, 2016",
         "citations": 52,
         "scholar_id": "FYtw3zkAAAAJ:0EnyYjriUFMC"
-      },
-      {
-        "title": "Storm the capitol: linking offline political speech and online Twitter extra-representational participation on QAnon and the January 6 insurrection",
-        "year": "2022",
-        "venue": "Frontiers in Sociology 7, 876070, 2022",
-        "citations": 51,
-        "scholar_id": "FYtw3zkAAAAJ:P5F9QuxV20EC"
       },
       {
         "title": "Why do I retweet it? An information propagation model for microblogs",
@@ -1343,7 +1336,7 @@
         "title": "Predicting Anti-Asian Hateful Users on Twitter during COVID-19",
         "year": "2021",
         "venue": "EMNLP Findings 2021, 2021",
-        "citations": 41,
+        "citations": 42,
         "scholar_id": "FYtw3zkAAAAJ:_xSYboBqXhAC"
       },
       {
@@ -1361,13 +1354,6 @@
         "scholar_id": "FYtw3zkAAAAJ:roLk4NBRz8UC"
       },
       {
-        "title": "A Survey on Predicting the Factuality and the Bias of News Media",
-        "year": "2024",
-        "venue": "Findings of the Association for Computational Linguistics: ACL 2024, 2024",
-        "citations": 36,
-        "scholar_id": "FYtw3zkAAAAJ:zA6iFVUQeVQC"
-      },
-      {
         "title": "Populist supporters on Reddit: A comparison of content and behavioral patterns within publics of supporters of Donald Trump and Hillary Clinton",
         "year": "2022",
         "venue": "Social Science Computer Review 40 (3), 809-830, 2022",
@@ -1375,11 +1361,25 @@
         "scholar_id": "FYtw3zkAAAAJ:3s1wT3WcHBgC"
       },
       {
+        "title": "A Survey on Predicting the Factuality and the Bias of News Media",
+        "year": "2024",
+        "venue": "Findings of the Association for Computational Linguistics: ACL 2024, 2024",
+        "citations": 35,
+        "scholar_id": "FYtw3zkAAAAJ:zA6iFVUQeVQC"
+      },
+      {
         "title": "Gender and racial diversity in commercial brands’ advertising images on social media",
         "year": "2019",
         "venue": "International Conference on Social Informatics, 79-94, 2019",
         "citations": 35,
         "scholar_id": "FYtw3zkAAAAJ:qjMakFHDy7sC"
+      },
+      {
+        "title": "Measuring 9 Emotions of News Posts from 8 News Organizations across 4 Social Media Platforms for 8 Months",
+        "year": "2022",
+        "venue": "ACM Transactions on Social Computing (TSC) 4 (4), 1-31, 2022",
+        "citations": 33,
+        "scholar_id": "FYtw3zkAAAAJ:abG-DnoFyZgC"
       },
       {
         "title": "Understanding news geography and major determinants of global news coverage of disasters",
@@ -1396,11 +1396,11 @@
         "scholar_id": "FYtw3zkAAAAJ:hMod-77fHWUC"
       },
       {
-        "title": "Measuring 9 Emotions of News Posts from 8 News Organizations across 4 Social Media Platforms for 8 Months",
-        "year": "2022",
-        "venue": "ACM Transactions on Social Computing (TSC) 4 (4), 1-31, 2022",
+        "title": "ChatGPT Rates Natural Language Explanation Quality Like Humans: But on Which Scales?",
+        "year": "2024",
+        "venue": "LREC-COLING, 2024",
         "citations": 31,
-        "scholar_id": "FYtw3zkAAAAJ:abG-DnoFyZgC"
+        "scholar_id": "FYtw3zkAAAAJ:B3FOqHPlNUQC"
       },
       {
         "title": "Fixation and Confusion: Investigating Eye-tracking Participants' Exposure to Information in Personas",
@@ -1415,13 +1415,6 @@
         "venue": "Proceedings of the International AAAI Conference on Web and Social Media 10 …, 2016",
         "citations": 31,
         "scholar_id": "FYtw3zkAAAAJ:Tyk-4Ss8FVUC"
-      },
-      {
-        "title": "ChatGPT Rates Natural Language Explanation Quality Like Humans: But on Which Scales?",
-        "year": "2024",
-        "venue": "LREC-COLING, 2024",
-        "citations": 30,
-        "scholar_id": "FYtw3zkAAAAJ:B3FOqHPlNUQC"
       },
       {
         "title": "Who are your users? comparing media professionals' preconception of users to data-driven personas",
