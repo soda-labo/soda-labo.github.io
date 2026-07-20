@@ -2563,6 +2563,8 @@ vulnerability-of-llms-belief-systems-llms-belief-resistance-check-through-strate
   scholar_ids:
   - dcjrz5MAAAAJ:kzcrU_BdoSEC
   - FYtw3zkAAAAJ:HE397vMXCloC
+  - dcjrz5MAAAAJ:9Nmd_mFXekcC
+  - FYtw3zkAAAAJ:dTyEYWd-f8wC
   description: Are LLMs persuaded out of their beliefs? Using the Source–Message–Channel–Receiver (SMCR) communication framework across six mainstream LLMs and three domains (facts, medical QA, social bias),
     we measure how stable each model's stated beliefs are under persuasive pressure. The smallest model flips on 82.5% of attempts at the first turn. Counterintuitively, asking models to verbalize confidence
     makes them more vulnerable.
@@ -3023,3 +3025,11 @@ understanding-effects-of-editing-tweets-for-news-sharing-by-media-accounts-throu
   scholar_ids:
   - FYtw3zkAAAAJ:KxtntwgDAa4C
   hide: true
+somatic-in-the-east-psychological-in-the-west-a-clinically-grounded-evaluation-o:
+  title: 'Somatic in the East, Psychological in the West?: A Clinically-Grounded Evaluation of Cross-Cultural Depression Symptoms in LLMs'
+  tags:
+  - digital-health
+  methods:
+  - llm
+  scholar_ids:
+  - FYtw3zkAAAAJ:9vf0nzSNQJEC
