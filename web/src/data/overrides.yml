@@ -2600,6 +2600,7 @@ a-benchmark-for-zero-shot-belief-inference-in-large-language-models:
   scholar_ids:
   - dcjrz5MAAAAJ:Fu2w8maKXqMC
   - FYtw3zkAAAAJ:wbdj-CoPYUoC
+  - dcjrz5MAAAAJ:nrtMV_XWKgEC
   description: 'When an LLM predicts someone''s beliefs, what matters more: who they are (demographics) or what else they believe (prior stances)? Testing open-weight LLMs on online-debate data under four
     conditions, we find both signals improve prediction, but their relative value varies sharply across belief domains.'
   authors: Joseph Malone, Rachith Aiyappa, Byunghwee Lee, Haewoon Kwak, Jisun An, Yong-Yeol Ahn
@@ -3033,3 +3034,24 @@ somatic-in-the-east-psychological-in-the-west-a-clinically-grounded-evaluation-o
   - llm
   scholar_ids:
   - FYtw3zkAAAAJ:9vf0nzSNQJEC
+  - dcjrz5MAAAAJ:yB1At4FlUx8C
+respmultimodal-2026-responsible-multimodal-foundation-models-for-knowledge-disco:
+  title: 'RespMultimodal 2026: Responsible Multimodal Foundation Models for Knowledge Discovery'
+  tags:
+  - user-behavior
+  scholar_ids:
+  - dcjrz5MAAAAJ:uc_IGeMz5qoC
+when-ai-becomes-routine-a-decade-of-public-ai-mediation-in-korean-go-commentary:
+  title: 'When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary'
+  tags:
+  - user-behavior
+  scholar_ids:
+  - dcjrz5MAAAAJ:0KyAp5RtaNEC
+leadership-as-coordination-control-behavioral-signatures-and-the-recovery-advant:
+  title: 'Leadership as Coordination Control: Behavioral Signatures and the Recovery-Advantage Boundary in Multi-Agent LLM Teams'
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  scholar_ids:
+  - dcjrz5MAAAAJ:ipzZ9siozwsC
