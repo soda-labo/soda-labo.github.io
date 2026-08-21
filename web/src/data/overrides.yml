@@ -3041,12 +3041,16 @@ somatic-in-the-east-psychological-in-the-west-a-clinically-grounded-evaluation-o
 respmultimodal-2026-responsible-multimodal-foundation-models-for-knowledge-disco:
   title: 'RespMultimodal 2026: Responsible Multimodal Foundation Models for Knowledge Discovery'
   tags:
-  - user-behavior
+  - llms-responsible-ai
+  - bias-fairness
   scholar_ids:
   - dcjrz5MAAAAJ:uc_IGeMz5qoC
   authors: Seungbae Kim, Jinyoung Han, S. Shyam Sundar, Wei Wang, Haewoon Kwak, Jisun An, Sungeun Hong, YunSeok Choi, Soyoung Park, Seunghyun Lee
   link:
     url: https://doi.org/10.1145/3770855.3818262
+    venue: KDD Workshop on Responsible Multimodal Foundation Models for Knowledge Discovery (RespMultimodal), 2026
+  description: What happens to a discovered pattern once you also demand fairness, transparency, and regulatory compliance? This KDD workshop treats bias, interpretability, and robustness as data mining
+    problems rather than model-level patches, and asks which correlations found through multimodal LLMs still hold up in high-stakes settings.
 when-ai-becomes-routine-a-decade-of-public-ai-mediation-in-korean-go-commentary:
   title: 'When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary'
   tags:
@@ -3057,6 +3061,8 @@ when-ai-becomes-routine-a-decade-of-public-ai-mediation-in-korean-go-commentary:
     url: https://arxiv.org/abs/2607.28332
     venue: AAAI/ACM Conference on AI, Ethics, and Society (AIES), 2026
   authors: Haewoon Kwak
+  description: AlphaGo was a spectacle, but what happens once AI becomes ordinary? Across a decade of Korean Go commentary on YouTube, roughly 1,900 hours, winrate graphs fill 98 percent of late broadcast
+    time while only 2.63 percent of sentences mention AI. The metric stays, the source label goes unsaid, and with it the hooks for questioning it.
 leadership-as-coordination-control-behavioral-signatures-and-the-recovery-advant:
   title: 'Leadership as Coordination Control: Behavioral Signatures and the Recovery-Advantage Boundary in Multi-Agent LLM Teams'
   tags:
@@ -3069,3 +3075,5 @@ leadership-as-coordination-control-behavioral-signatures-and-the-recovery-advant
   link:
     url: https://arxiv.org/abs/2606.19111
     venue: arXiv preprint arXiv:2606.19111, 2026
+  description: Does a team of LLM agents need a leader? We turn transactional, transformational, and situational leadership into explicit controllers over a shared action set, tested across four task regimes
+    and three model families. No controller dominates. Control pays off only when the round-0 majority is wrong and the task is recoverable.

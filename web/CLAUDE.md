@@ -123,15 +123,12 @@ place. Filter state syncs back to the URL so any view is shareable.
 
 ## Current state
 
-201 override entries, 140 visible. All 140 have authors and a link; 137 have
-a description; 107 have a thumbnail. 44 news entries. Haewoon ~23.0k
+201 override entries, 140 visible. All 140 have authors, a link, and a
+description; 107 have a thumbnail. 44 news entries. Haewoon ~23.0k
 citations (h 48), Jisun ~6.1k (h 43).
 
 ## Open items
 
-- Three new papers still need a hand-written description: RespMultimodal
-  2026, "When AI Becomes Routine" (AIES), and "Leadership as Coordination
-  Control". They have authors and links already.
 - Press carousel on the home page still has only the three Nature covers —
   adding more needs outlet, year, blurb, URL, and an image from Haewoon.
 - `/publications` renders all ~140 papers in one page. Year-collapse or
