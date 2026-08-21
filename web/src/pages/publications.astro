@@ -4,11 +4,7 @@ import PublicationCard from "../components/PublicationCard.astro";
 import {
   loadPublications, allTags, allMethods, allPlatforms, allYears,
 } from "../lib/publications";
-import {
-  chipStyle, topicName,
-  methodName, methodChipStyle,
-  platformName,
-} from "../lib/tag-colors";
+import { topicColor, topicName, methodName, platformName } from "../lib/tag-colors";
 
 const pubs = loadPublications();
 const tags = allTags(pubs);
@@ -22,28 +18,25 @@ const olderYears = years.slice(5);
 ---
 
 <Base title="Publications · SoDA Lab">
-  <header class="mb-8">
+  <header class="mb-7 border-b pb-4" style="border-color: var(--color-rule);">
     <h1 class="text-3xl font-semibold tracking-tight">Publications</h1>
-    <p class="mt-2 text-zinc-600">
-      {pubs.length} papers · {featuredCount} featured · citation counts from Google Scholar
+    <p class="mt-1.5 text-sm" style="color: var(--color-ink-soft);">
+      {pubs.length} boards. Size follows citations, refreshed weekly from Google Scholar.
     </p>
   </header>
 
-  <div class="mb-8 space-y-4">
-    <div class="flex items-center gap-3">
+  <div class="mb-8 space-y-3">
+    <div class="flex flex-wrap items-center gap-2 sm:flex-nowrap">
       <input
         id="pub-search"
         type="search"
         placeholder="Search title, author, venue, year…"
-        class="w-full rounded-md border border-zinc-300 px-3 py-2 text-sm placeholder:text-zinc-400 focus:border-[var(--color-accent)] focus:outline-none focus:ring-2 focus:ring-[var(--color-accent-soft)]"
+        class="filter-field w-full min-w-0 sm:w-auto sm:flex-1"
         autocomplete="off"
       />
-      <label class="flex shrink-0 items-center gap-2 text-xs text-zinc-500">
-        <span class="font-mono uppercase tracking-wider">Sort</span>
-        <select
-          id="pub-sort"
-          class="rounded-md border border-zinc-300 bg-white py-2 pl-2 pr-7 text-sm text-zinc-700 focus:border-[var(--color-accent)] focus:outline-none focus:ring-2 focus:ring-[var(--color-accent-soft)]"
-        >
+      <label class="flex shrink-0 items-center gap-2 text-xs" style="color: var(--color-ink-faint);">
+        <span class="font-semibold uppercase tracking-[0.14em]">Sort</span>
+        <select id="pub-sort" class="filter-field">
           <option value="newest">Newest first</option>
           <option value="most-cited">Most cited</option>
           <option value="featured">Featured first</option>
@@ -51,120 +44,72 @@ const olderYears = years.slice(5);
           <option value="oldest">Oldest first</option>
         </select>
       </label>
-      <button
-        id="pub-clear"
-        type="button"
-        class="shrink-0 rounded-md border border-zinc-300 px-3 py-2 text-sm text-zinc-600 hover:bg-zinc-50"
-      >
-        Clear
-      </button>
+      <button id="pub-clear" type="button" class="filter-field shrink-0 font-semibold">Clear</button>
     </div>
 
-    <div>
-      <div class="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Topic</div>
-      <ul class="flex flex-wrap gap-1.5">
-        {tags.map(({ tag, count }) => (
-          <li>
-            <button
-              type="button"
-              data-tag-filter={tag}
-              data-tag-label={topicName(tag)}
-              data-tag-style={chipStyle(tag)}
-              style={chipStyle(tag) + "background-color:white;border-width:1px;border-style:solid;"}
-              class="rounded-full px-2 py-0.5 text-[11px] font-medium transition hover:opacity-80"
-            >
-              {topicName(tag)} <span class="ml-0.5 text-zinc-500">{count}</span>
-            </button>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul class="flex flex-wrap gap-1.5">
+      {tags.map(({ tag, count }) => (
+        <li>
+          <button type="button" data-tag-filter={tag} class="track-btn">
+            <span class="track-btn-swatch" style={`background-color: ${topicColor(tag).bg}`} aria-hidden="true"></span>
+            {topicName(tag)}
+            <span class="track-btn-count">{count}</span>
+          </button>
+        </li>
+      ))}
+    </ul>
 
-    {methods.length > 0 && (
-      <div>
-        <div class="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Method</div>
-        <ul class="flex flex-wrap gap-1.5">
-          {methods.map(({ method, count }) => (
-            <li>
-              <button
-                type="button"
-                data-method-filter={method}
-                data-method-label={methodName(method)}
-                data-method-style={methodChipStyle(method)}
-                style={methodChipStyle(method)}
-                class="rounded-full px-2 py-0.5 text-[11px] font-medium transition hover:opacity-80"
-              >
-                {methodName(method)} <span class="ml-0.5 text-zinc-500">{count}</span>
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
-    )}
-
-    {platforms.length > 0 && (
-      <div>
-        <div class="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Platform</div>
-        <ul class="flex flex-wrap gap-1.5">
-          {platforms.map(({ platform, count }) => (
-            <li>
-              <button
-                type="button"
-                data-platform-filter={platform}
-                data-platform-label={platformName(platform)}
-                class="rounded-full bg-zinc-100 px-2 py-0.5 text-[11px] font-medium text-zinc-600 transition hover:bg-zinc-200"
-              >
-                {platformName(platform)} <span class="ml-0.5 text-zinc-500">{count}</span>
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
-    )}
-
-    <div>
-      <div class="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Year</div>
-      <ul class="flex flex-wrap items-center gap-1.5">
-        {recentYears.map((y) => (
-          <li>
-            <button
-              type="button"
-              data-year-filter={y}
-              class="year-filter rounded-full border border-zinc-300 bg-white px-2 py-0.5 text-[11px] font-medium text-zinc-700 hover:border-[var(--color-accent)]"
-            >
-              {y}
-            </button>
-          </li>
-        ))}
-        {olderYears.length > 0 && (
-          <>
-            <li id="older-years-wrap" class="hidden contents">
-              {olderYears.map((y) => (
-                <button
-                  type="button"
-                  data-year-filter={y}
-                  class="year-filter rounded-full border border-zinc-300 bg-white px-2 py-0.5 text-[11px] font-medium text-zinc-700 hover:border-[var(--color-accent)]"
-                >
-                  {y}
+    <details class="more-filters">
+      <summary>Method, platform, and year</summary>
+      <div class="space-y-3 pt-3">
+        {methods.length > 0 && (
+          <ul class="flex flex-wrap gap-1.5">
+            {methods.map(({ method, count }) => (
+              <li>
+                <button type="button" data-method-filter={method} class="plain-btn">
+                  {methodName(method)} <span class="track-btn-count">{count}</span>
                 </button>
-              ))}
-            </li>
-            <li>
-              <button
-                id="toggle-older-years"
-                type="button"
-                class="rounded-full border border-dashed border-zinc-300 px-2 py-0.5 text-[11px] font-medium text-zinc-500 hover:text-zinc-900"
-              >
-                + {olderYears.length} more years
-              </button>
-            </li>
-          </>
+              </li>
+            ))}
+          </ul>
         )}
-      </ul>
-    </div>
 
-    <div id="pub-status" class="text-xs text-zinc-500"></div>
-    <div id="pub-empty" class="hidden rounded-md border border-zinc-200 bg-zinc-50 p-6 text-center text-base text-zinc-500">
+        {platforms.length > 0 && (
+          <ul class="flex flex-wrap gap-1.5">
+            {platforms.map(({ platform, count }) => (
+              <li>
+                <button type="button" data-platform-filter={platform} class="plain-btn">
+                  {platformName(platform)} <span class="track-btn-count">{count}</span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        <ul class="flex flex-wrap items-center gap-1.5">
+          {recentYears.map((y) => (
+            <li><button type="button" data-year-filter={y} class="year-filter plain-btn">{y}</button></li>
+          ))}
+          {olderYears.length > 0 && (
+            <>
+              <li id="older-years-wrap" class="hidden contents">
+                {olderYears.map((y) => (
+                  <button type="button" data-year-filter={y} class="year-filter plain-btn">{y}</button>
+                ))}
+              </li>
+              <li>
+                <button id="toggle-older-years" type="button" class="plain-btn is-dashed">
+                  + {olderYears.length} more years
+                </button>
+              </li>
+            </>
+          )}
+        </ul>
+      </div>
+    </details>
+
+    <div id="pub-status" class="text-xs" style="color: var(--color-ink-faint);"></div>
+    <div id="pub-empty" class="stock hidden p-6 text-center text-base" style="color: var(--color-ink-soft);">
       No publications match your filters.
     </div>
   </div>
@@ -173,6 +118,79 @@ const olderYears = years.slice(5);
     {pubs.map((p) => <PublicationCard pub={p} />)}
   </div>
 </Base>
+
+<style>
+  /* The directory board. Every control is a printed square: no pills, no
+     rounded chrome, and never a track colour behind text. The colour lives in
+     the swatch, so contrast is always ink on stock or paper on ink. */
+  .filter-field {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    border: 1px solid var(--color-rule);
+    padding: 0.5rem 0.7rem;
+    font-size: 0.875rem;
+  }
+  .filter-field::placeholder { color: var(--color-ink-faint); }
+  .filter-field:hover { border-color: var(--color-ink-faint); }
+
+  .track-btn,
+  .plain-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    border: 1px solid var(--color-rule);
+    padding: 0.3rem 0.6rem;
+    font-size: 12px;
+    font-weight: 500;
+    transition: border-color 0.12s ease, background-color 0.12s ease, color 0.12s ease;
+  }
+  .track-btn:hover,
+  .plain-btn:hover { border-color: var(--color-ink); }
+
+  .track-btn-swatch {
+    width: 0.65rem;
+    height: 0.65rem;
+    flex-shrink: 0;
+  }
+  .track-btn-count {
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-ink-faint);
+  }
+
+  .track-btn.is-on,
+  .plain-btn.is-on {
+    background-color: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .track-btn.is-on .track-btn-count,
+  .plain-btn.is-on .track-btn-count {
+    color: color-mix(in srgb, var(--color-paper) 70%, transparent);
+  }
+
+  .plain-btn.is-dashed {
+    border-style: dashed;
+    color: var(--color-ink-faint);
+  }
+
+  /* Method, platform, and year are a second question. They stay folded so the
+     first board is visible without scrolling. */
+  .more-filters > summary {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-ink-faint);
+    padding: 0.25rem 0;
+  }
+  .more-filters > summary:hover { color: var(--color-ink); }
+  .more-filters[open] > summary { color: var(--color-ink); }
+</style>
 
 <script>
   type Sort = "newest" | "oldest" | "most-cited" | "featured" | "title";
@@ -207,37 +225,15 @@ const olderYears = years.slice(5);
   const platformPills = Array.from(document.querySelectorAll<HTMLAnchorElement>("[data-platform-pill]"));
 
   function setTagChipStyle(b: HTMLButtonElement) {
-    const base = b.dataset.tagStyle ?? "";
-    if (b.dataset.tagFilter === state.tag) {
-      const m = base.match(/border-color:([^;]+);color:([^;]+);/);
-      if (m) {
-        b.setAttribute("style",
-          `background-color:${m[1]};color:white;border-color:${m[1]};border-width:1px;border-style:solid;`);
-      }
-    } else {
-      b.setAttribute("style", base + "background-color:white;border-width:1px;border-style:solid;");
-    }
+    b.classList.toggle("is-on", b.dataset.tagFilter === state.tag);
   }
 
   function setMethodChipStyle(b: HTMLButtonElement) {
-    const base = b.dataset.methodStyle ?? "";
-    if (b.dataset.methodFilter === state.method) {
-      const m = base.match(/border-color:([^;]+)/);
-      if (m) {
-        b.setAttribute("style",
-          `background-color:${m[1]};color:white;border-color:${m[1]};border-width:1px;border-style:solid;`);
-      }
-    } else {
-      b.setAttribute("style", base);
-    }
+    b.classList.toggle("is-on", b.dataset.methodFilter === state.method);
   }
 
   function setPlatformChipStyle(b: HTMLButtonElement) {
-    const active = b.dataset.platformFilter === state.platform;
-    b.classList.toggle("bg-zinc-900", active);
-    b.classList.toggle("text-white", active);
-    b.classList.toggle("bg-zinc-100", !active);
-    b.classList.toggle("text-zinc-600", !active);
+    b.classList.toggle("is-on", b.dataset.platformFilter === state.platform);
   }
 
   let currentSort: Sort = "newest";  // last-applied sort, to avoid redundant DOM work
@@ -306,10 +302,7 @@ const olderYears = years.slice(5);
     for (const b of methodButtons) setMethodChipStyle(b);
     for (const b of platformButtons) setPlatformChipStyle(b);
     for (const b of yearButtons) {
-      const active = b.dataset.yearFilter === state.year;
-      b.classList.toggle("bg-[var(--color-accent)]", active);
-      b.classList.toggle("text-white", active);
-      b.classList.toggle("border-[var(--color-accent)]", active);
+      b.classList.toggle("is-on", b.dataset.yearFilter === state.year);
     }
     writeURL();
   }

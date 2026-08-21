@@ -12,6 +12,14 @@ const {
   title = "SoDA Lab · Social Data and AI",
   description = "The Social Data and AI Lab at Indiana University Bloomington, led by Haewoon Kwak and Jisun An.",
 } = Astro.props;
+
+// Google Analytics 4. The measurement ID is not a secret (it ships in the page
+// source), so it lives here rather than in .env, which keeps the GitHub Actions
+// build from needing a new secret. Leave it as the placeholder to disable.
+// Only loads in a production build, so `npm run dev` never touches the stats.
+const GA_MEASUREMENT_ID = "G-DF3QY4S455";
+const analyticsEnabled =
+  import.meta.env.PROD && GA_MEASUREMENT_ID.startsWith("G-");
 ---
 
 <html lang="en">
@@ -23,7 +31,21 @@ const {
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
     <title>{title}</title>
-    <link rel="preconnect" href="https://rsms.me/" />
+    {analyticsEnabled && (
+      <>
+        <script
+          is:inline
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        <script is:inline define:vars={{ GA_MEASUREMENT_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', GA_MEASUREMENT_ID, { anonymize_ip: true });
+        </script>
+      </>
+    )}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     {/* Load font CSS without render-blocking: preload as style, then swap rel
@@ -33,24 +55,35 @@ const {
     <link
       rel="preload"
       as="style"
-      href="https://rsms.me/inter/inter.css"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <link
-      rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&display=swap"
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript>
-      <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       <link
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&display=swap"
       />
     </noscript>
   </head>
   <body class="min-h-screen antialiased">
+    <!--
+      THESIS: The corpus is a poster hall, not a ledger. Refuses the lab-site
+      publication list where a Nature paper and a workshop preprint are set at
+      identical size.
+      OWN-WORLD: Slate board fabric (#46525c) carrying white poster stock
+      (#f6f6f3); ink #14181b; IU crimson (#990000) board tags; Archivo signage
+      caps over Literata reading text; the eight topics demoted from decoration
+      to track colors that say which section of the hall a board stands in.
+      STORY: A visitor walks the aisle, sees which work the lab stops at, and
+      finds the board that is theirs.
+      FIRST VIEWPORT: Board 01 full-bleed on fabric, the lab's own poster at
+      poster scale, crimson board tag at the corner, both PI names as the author
+      strip, openings standing beside it as the one action.
+      FORM: Poster Session, candidate 6 of 7, seed f6bd662d.
+      FINISH: unreviewed and undocumented is unfinished; this build ends with
+      the finish review, the verdict, DESIGN.md, and every shipping raster
+      carrying its provenance.
+    -->
     <Header />
     <main class="mx-auto max-w-5xl px-6 py-10">
       <slot />

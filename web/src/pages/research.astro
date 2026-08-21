@@ -48,7 +48,7 @@ const areas = [
       </g>
       <g class="stroke thin">
         <path d="M40,50 C60,45 80,52 90,48"/>
-        <path d="M44,40 C70,42 95,40"/>
+        <path d="M44,40 Q70,42 95,40"/>
       </g>`,
   },
   {
@@ -431,24 +431,23 @@ function primaryColor(topics: readonly string[]): string {
           We study these dynamics to help design healthier digital spaces.
         </p>
       </div>
-      <div class="illo-wrap hero-illo" style="color: #b14a1f">
+      <div class="illo-wrap hero-illo" style="--track: #b14a1f">
         <svg class="illo" viewBox="0 0 360 280" aria-hidden="true" set:html={heroIllo} />
       </div>
     </section>
 
     <div class="section-head">
-      <span class="label">Themes</span>
+      <h2>What we're working on</h2>
       <span class="line"></span>
-      <h2>what we're working on</h2>
     </div>
 
     {areas.map((a, i) => (
-      <article class:list={["topic", i % 2 === 1 && "flip"]} style={`color: ${primaryColor(a.topics)}`}>
+      <article class:list={["topic", i % 2 === 1 && "flip"]} style={`--track: ${primaryColor(a.topics)}`}>
         <div class="illo-wrap">
           <svg class="illo" viewBox="0 0 360 280" aria-hidden="true" set:html={a.illo} />
         </div>
         <div class="copy">
-          <div class="kicker"><span class="num">{a.num}</span> {a.kicker}</div>
+          <div class="kicker"><span class="num">{a.num}</span><span class="track">{a.kicker}</span></div>
           <h3>{a.headline}</h3>
           <p set:html={a.body} />
           <div class="topic-chips">
@@ -457,7 +456,7 @@ function primaryColor(topics: readonly string[]): string {
               <a
                 href={`/publications?topic=${t}`}
                 class="topic-chip"
-                style={`border-color:${topicColor(t).bg};color:${topicColor(t).bg};`}
+                style={`--swatch:${topicColor(t).bg}`}
               >
                 {topicName(t)}
               </a>
@@ -475,11 +474,11 @@ function primaryColor(topics: readonly string[]): string {
 
     <div class="horizons">
       {thrusts.map((t) => (
-        <div class="horizon" style={`color: ${primaryColor(t.topics)}`}>
+        <div class="horizon" style={`--track: ${primaryColor(t.topics)}`}>
           <div class="illo-wrap">
             <svg class="illo" viewBox="0 0 280 220" aria-hidden="true" set:html={t.illo} />
           </div>
-          <div class="kicker"><span class="num">{t.num}</span> {t.kicker}</div>
+          <div class="kicker"><span class="num">{t.num}</span><span class="track">{t.kicker}</span></div>
           <h3>{t.headline}</h3>
           <p set:html={t.body} />
           <div class="topic-chips">
@@ -525,7 +524,7 @@ function primaryColor(topics: readonly string[]): string {
     /* top padding kept light so the hero starts at the same offset as the
        home page's hero (Base.astro main.py-10 + home's h1.mt-3 ≈ 52px) */
     padding: 12px clamp(20px, 5vw, 64px) 80px;
-    font-family: "Inter", system-ui, sans-serif;
+    font-family: var(--font-sans);
     font-size: 16px;
     line-height: 1.6;
   }
@@ -556,7 +555,7 @@ function primaryColor(topics: readonly string[]): string {
     margin-bottom: 56px;
   }
   .research-paper .crumbs {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: var(--font-sans);
     font-size: 11px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -575,25 +574,21 @@ function primaryColor(topics: readonly string[]): string {
     margin-bottom: 80px;
   }
   .research-paper .hero-title {
-    font-family: "Spectral", "Newsreader", serif;
-    font-weight: 500;
-    font-size: clamp(48px, 7vw, 80px);
-    line-height: 0.98;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(44px, 6.2vw, 72px);
+    line-height: 1.06;
     letter-spacing: -0.02em;
     margin: 0 0 24px;
     color: var(--ink);
   }
   .research-paper .hero-title em {
-    font-style: italic;
-    font-weight: 400;
-    /* gradient text uses our venn-mark palette: red → yellow → blue */
-    background: linear-gradient(90deg, #ed5765 0%, #f59e0b 50%, #3db7e6 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--ink);
   }
   .research-paper .hero-lede {
-    font-family: "Spectral", serif;
+    font-family: var(--font-read);
     font-size: 18px;
     font-style: italic;
     color: var(--ink-soft);
@@ -614,7 +609,7 @@ function primaryColor(topics: readonly string[]): string {
     margin-bottom: 48px;
   }
   .research-paper .section-head .label {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: var(--font-sans);
     font-size: 11px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -625,12 +620,13 @@ function primaryColor(topics: readonly string[]): string {
     background: var(--rule);
   }
   .research-paper .section-head h2 {
-    font-family: "Spectral", serif;
-    font-style: italic;
-    font-weight: 500;
+    font-family: var(--font-display);
+    font-weight: 600;
     font-size: 22px;
+    letter-spacing: -0.02em;
     margin: 0;
-    color: var(--ink-soft);
+    color: var(--ink);
+    white-space: nowrap;
   }
 
   .research-paper .topic {
@@ -644,6 +640,10 @@ function primaryColor(topics: readonly string[]): string {
   .research-paper .topic.flip > .illo-wrap {
     order: 2;
   }
+  /* Only the drawing wears the track colour; text stays ink. */
+  .research-paper .topic,
+  .research-paper .horizon { color: var(--ink); }
+  .research-paper .illo-wrap { color: var(--track, var(--ink)); }
   @media (max-width: 720px) {
     .research-paper .topic {
       grid-template-columns: 1fr;
@@ -654,23 +654,29 @@ function primaryColor(topics: readonly string[]): string {
     }
   }
   .research-paper .kicker {
-    font-family: "IBM Plex Mono", monospace;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-sans);
     font-size: 11px;
+    font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: currentColor;
     margin-bottom: 16px;
   }
   .research-paper .kicker .num {
-    color: var(--ink-faint);
-    margin-right: 10px;
+    background-color: var(--ink);
+    color: var(--paper);
+    font-weight: 700;
+    padding: 3px 6px;
   }
+  .research-paper .kicker .track { color: var(--ink-faint); }
   .research-paper .topic h3,
   .research-paper .horizon h3 {
-    font-family: "Spectral", serif;
-    font-weight: 500;
+    font-family: var(--font-display);
+    font-weight: 600;
     font-size: 30px;
-    line-height: 1.15;
+    line-height: 1.3;
     letter-spacing: -0.01em;
     color: var(--ink);
     margin: 0 0 16px;
@@ -694,35 +700,36 @@ function primaryColor(topics: readonly string[]): string {
     gap: 8px;
   }
   .research-paper .chips-label {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: var(--font-sans);
     font-size: 10px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--ink-faint);
     margin-right: 4px;
   }
+  /* Same vocabulary as the publication boards: the track colour is a printed
+     swatch, the text stays ink, so contrast never depends on the hue. */
   .research-paper .topic-chip {
     display: inline-flex;
     align-items: center;
+    gap: 7px;
     padding: 4px 10px;
-    border: 1px solid currentColor;
-    border-radius: 999px;
+    border: 1px solid var(--color-rule);
     font-size: 12px;
     font-weight: 500;
     text-decoration: none;
-    background: white;
-    transition: background-color 120ms ease, color 120ms ease;
+    color: var(--ink);
+    background: var(--paper);
+    transition: border-color 120ms ease;
   }
-  .research-paper .topic-chip:hover {
-    background: currentColor;
-    color: white !important;
+  .research-paper .topic-chip::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-color: var(--swatch, var(--ink-faint));
   }
-  .research-paper .topic-chip:hover {
-    /* The border stays the same color thanks to currentColor on the parent */
-  }
-  /* The arrow trick: when hovering, the chip fills with its accent color and
-     the text turns white. Achieved with two layered rules so currentColor
-     resolves cleanly. */
+  .research-paper .topic-chip:hover { border-color: var(--ink); }
+
   .research-paper .horizon .topic-chips {
     margin-top: 12px;
   }
@@ -798,7 +805,7 @@ function primaryColor(topics: readonly string[]): string {
     margin-top: 64px;
     padding-top: 32px;
     border-top: 1px solid var(--rule);
-    font-family: "Spectral", serif;
+    font-family: var(--font-read);
     font-style: italic;
     color: var(--ink-soft);
   }

@@ -31,3 +31,7 @@ yarn-debug.log*
 
 # Generated each sync run; regenerate locally instead of tracking churn.
 web/scripts/sync_report.md
+
+# Impeccable working files. Review captures are regenerated on demand and run
+# to tens of MB; only a config, if one is ever written, belongs in the repo.
+web/.impeccable/review/

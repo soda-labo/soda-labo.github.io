@@ -1,45 +1,94 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-display: "Spectral", "Newsreader", Georgia, serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  /* Poster hall. Archivo carries signage and board tags, Literata carries
+     reading. No mono: citation counts and years are measurement, and Archivo's
+     tabular figures do that job without the technical costume. */
+  --font-sans: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Archivo", system-ui, sans-serif;
+  --font-read: "Literata", Georgia, "Times New Roman", serif;
 
-  /* SoDA paper palette — very near white with the faintest warm undertone */
-  --color-paper:      #fdfcf9;
-  --color-paper-2:    #f6f3eb;
-  --color-ink:        #1f1a13;
-  --color-ink-soft:   #4a3f2f;
-  --color-ink-faint:  #98896f;
-  --color-rule:       #ece4d2;
+  /* The hall you stand in, the board you face, the stock pinned to it.
+     Token names are kept from the previous world so every page keeps
+     resolving; the values are what changed. */
+  --color-hall:       #eaeae7;  /* convention floor, the page ground */
+  --color-paper:      #f6f6f3;  /* poster stock */
+  --color-paper-2:    #e2e2dd;  /* stock in shadow */
+  --color-board:      #46525c;  /* board fabric */
+  --color-board-deep: #38424b;  /* fabric in the fold */
+  --color-ink:        #14181b;
+  --color-ink-soft:   #4a545c;
+  --color-ink-faint:  #7d8891;
+  --color-rule:       #d5d3cc;
 
-  /* generic accent (focus rings, link hover) — kept blue so it doesn't fight the
-     per-topic colors used on publication chips and the Research page */
-  --color-accent:      oklch(0.55 0.20 250);
-  --color-accent-soft: oklch(0.95 0.04 250);
+  /* IU crimson. It is the board number tag and the one action colour, and it
+     is the institution's own, not a decorative pick. */
+  --color-accent:      #990000;
+  --color-accent-soft: #f2e4e4;
 }
 
 html {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  /* Every figure in this site is a measurement: years, citation counts, board
+     numbers. Tabular by default so columns of them line up. */
+  font-variant-numeric: tabular-nums;
 }
 
 body {
   text-rendering: optimizeLegibility;
-  background-color: var(--color-paper);
-  /* Subtler grain — a near-white surface shows specks more than cream did. */
-  background-image:
-    radial-gradient(rgba(70, 50, 20, 0.022) 1px, transparent 1.2px),
-    radial-gradient(rgba(70, 50, 20, 0.016) 1px, transparent 1.2px);
-  background-size: 7px 7px, 13px 13px;
-  background-position: 0 0, 3px 4px;
-  background-attachment: fixed;
+  /* Boards break the reading column to the full width of the hall. `clip`
+     rather than `hidden` so no new scroll container is created. */
+  overflow-x: clip;
+  background-color: var(--color-hall);
   color: var(--color-ink);
 }
 
-/* Headings default to Spectral for the editorial feel; opt-out by adding font-sans */
+/* Board fabric. A real weave, tight enough to read as material at arm's length
+   and to disappear into a flat field from further back. Applied only where a
+   board actually is, never as a page-wide grain. */
+.board {
+  background-color: var(--color-board);
+  background-image:
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(0deg, rgba(0,0,0,0.05) 0 1px, transparent 1px 3px);
+  color: var(--color-paper);
+}
+
+/* Poster stock pinned to a board: the sheet sits slightly off the fabric, so
+   the shadow carries a real offset and blur rather than a coloured halo. */
+.stock {
+  background-color: var(--color-paper);
+  box-shadow:
+    0 1px 2px rgba(20, 24, 27, 0.10),
+    0 8px 20px -6px rgba(20, 24, 27, 0.22);
+}
+
 h1, h2, h3 {
   font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* Reading text on a poster is set in a serif at a real measure. */
+.read {
+  font-family: var(--font-read);
+  max-width: 68ch;
+  line-height: 1.6;
+}
+
+/* The parts we did not draw still carry the design. */
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-paper);
+}
+html {
+  caret-color: var(--color-accent);
+  scrollbar-color: var(--color-ink-faint) var(--color-hall);
+}
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 1px;
 }
 
 .prose-soda a {
@@ -49,4 +98,11 @@ h1, h2, h3 {
 }
 .prose-soda a:hover {
   text-decoration: none;
+}
+
+/* A board is as wide as the hall, even where the reading column is not. */
+.board-bleed {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
 }

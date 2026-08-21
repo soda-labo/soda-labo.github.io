@@ -1,38 +1,47 @@
 ---
-// Each nav item carries its own accent (drawn from the venn-mark logo's
-// red/amber/blue plus a teal and violet from the topic palette). The active
-// item paints with that colour; hover and inactive stay neutral.
+// The hall's directory strip. One board fabric bar across the top, the lab's
+// badge pinned to it, destinations set as signage. The previous header gave
+// every nav item its own colour, which made the palette decorative; here the
+// only colour is the crimson tag, and it means "you are at this board".
 const navItems = [
-  { href: "/",             label: "Home",         color: "#ed5765" }, // brand red
-  { href: "/publications", label: "Publications", color: "#f59e0b" }, // brand amber
-  { href: "/team",         label: "Team",         color: "#0d9488" }, // teal
-  { href: "/research",     label: "Research",     color: "#3db7e6" }, // brand blue
-  { href: "/openings",     label: "Openings",     color: "#7c3aed" }, // violet
+  { href: "/",             label: "Home" },
+  { href: "/publications", label: "Publications" },
+  { href: "/team",         label: "Team" },
+  { href: "/research",     label: "Research" },
+  { href: "/openings",     label: "Openings" },
 ];
 
 const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+const isCurrent = (href: string) =>
+  path === href || (href !== "/" && path.startsWith(href));
 ---
 
-<header class="border-b" style="border-color: var(--color-rule); background-color: var(--color-paper);">
-  <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
-    <a href="/" class="flex items-center gap-2.5 whitespace-nowrap">
-      <img src="/sodalab-mark.svg" alt="" class="h-10 w-10 shrink-0" />
-      <span class="font-display text-xl font-semibold tracking-tight" style="color: var(--color-ink);">SoDA Lab</span>
-      <span
-        class="hidden font-mono text-[10px] tracking-wider uppercase md:inline"
-        style="color: var(--color-ink-faint);"
-      >Social Data &amp; AI</span>
+<header class="board">
+  <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+    <a href="/" class="flex items-center gap-3 whitespace-nowrap">
+      {/* The mark is a Venn of three sets. On fabric it reads as a badge
+          printed on stock and pinned up, which is how anything paper gets
+          onto a board in this world. */}
+      <span class="stock grid h-11 w-11 shrink-0 place-items-center">
+        <img src="/sodalab-mark.svg" alt="" class="h-8 w-8" />
+      </span>
+      <span class="flex flex-col leading-none">
+        <span class="text-xl font-semibold tracking-tight" style="color: var(--color-paper);">SoDA Lab</span>
+        <span
+          class="mt-1 hidden text-[11px] font-medium tracking-[0.14em] uppercase sm:inline"
+          style="color: color-mix(in srgb, var(--color-paper) 62%, transparent);"
+        >Social Data &amp; AI</span>
+      </span>
     </a>
 
-    {/* Hamburger button — only visible below md */}
     <button
       id="nav-toggle"
       type="button"
       aria-label="Toggle navigation"
       aria-expanded="false"
       aria-controls="primary-nav"
-      class="grid h-10 w-10 place-items-center rounded-md md:hidden"
-      style="color: var(--color-ink);"
+      class="grid h-10 w-10 place-items-center md:hidden"
+      style="color: var(--color-paper);"
     >
       <svg id="nav-icon-open" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <line x1="3" y1="6" x2="21" y2="6"/>
@@ -45,64 +54,57 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
       </svg>
     </button>
 
-    {/* Desktop nav — inline from md up */}
-    <nav class="hidden md:block">
-      <ul class="flex gap-1 font-mono text-xs uppercase tracking-wider">
-        {navItems.map((item) => {
-          const isActive = path === item.href || (item.href !== "/" && path.startsWith(item.href));
-          return (
-            <li>
-              <a
-                href={item.href}
-                class:list={[
-                  "rounded-sm px-3 py-1.5 transition",
-                  isActive ? "is-active" : "nav-link",
-                ]}
-                style={isActive
-                  ? `background-color: ${item.color}; color: white;`
-                  : `color: var(--color-ink-soft); --accent: ${item.color};`}
-              >
-                {item.label}
-              </a>
-            </li>
-          );
-        })}
-      </ul>
-    </nav>
-  </div>
-
-  {/* Mobile dropdown — stacked, hidden by default, toggled by hamburger */}
-  <nav id="primary-nav" class="hidden border-t md:hidden" style="border-color: var(--color-rule);">
-    <ul class="mx-auto max-w-5xl px-6 py-2 font-mono text-sm uppercase tracking-wider">
-      {navItems.map((item) => {
-        const isActive = path === item.href || (item.href !== "/" && path.startsWith(item.href));
-        return (
+    <nav class="hidden md:block" aria-label="Primary">
+      <ul class="flex items-stretch gap-0.5 text-[11px] font-semibold tracking-[0.14em] uppercase">
+        {navItems.map((item) => (
           <li>
             <a
               href={item.href}
-              class:list={[
-                "block rounded-sm px-3 py-3 transition",
-                isActive ? "is-active" : "nav-link",
-              ]}
-              style={isActive
-                ? `background-color: ${item.color}; color: white;`
-                : `color: var(--color-ink-soft); --accent: ${item.color};`}
+              aria-current={isCurrent(item.href) ? "page" : undefined}
+              class:list={["nav-dest px-3 py-2.5 block transition", isCurrent(item.href) && "is-here"]}
             >
               {item.label}
             </a>
           </li>
-        );
-      })}
+        ))}
+      </ul>
+    </nav>
+  </div>
+
+  <nav id="primary-nav" class="hidden md:hidden" aria-label="Primary">
+    <ul
+      class="mx-auto max-w-5xl px-6 text-[13px] font-semibold tracking-[0.14em] uppercase"
+      style="border-top: 1px solid color-mix(in srgb, var(--color-paper) 18%, transparent); padding-top: 0.75rem; padding-bottom: 0.75rem;"
+    >
+      {navItems.map((item) => (
+        <li>
+          <a
+            href={item.href}
+            aria-current={isCurrent(item.href) ? "page" : undefined}
+            class:list={["nav-dest mt-2 block px-3 py-3 transition", isCurrent(item.href) && "is-here"]}
+          >
+            {item.label}
+          </a>
+        </li>
+      ))}
     </ul>
   </nav>
 </header>
 
 <style>
-  /* Inactive nav links tint to their per-item accent on hover (the inline
-     style above sets --accent for each link). Falls back to ink if unset. */
-  .nav-link:hover {
-    color: var(--accent, var(--color-ink));
-    background-color: color-mix(in oklch, var(--accent, var(--color-ink)) 10%, transparent);
+  .nav-dest {
+    color: color-mix(in srgb, var(--color-paper) 72%, transparent);
+  }
+  .nav-dest:hover {
+    color: var(--color-paper);
+    background-color: color-mix(in srgb, var(--color-paper) 10%, transparent);
+  }
+  /* The crimson tag is the hall's "you are here". It is the only colour the
+     directory strip is allowed. */
+  .nav-dest.is-here,
+  .nav-dest.is-here:hover {
+    background-color: var(--color-accent);
+    color: var(--color-paper);
   }
 </style>
 
@@ -121,10 +123,8 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
       iClose?.classList.toggle("hidden", !open);
     }
     btn.addEventListener("click", () => {
-      const open = btn!.getAttribute("aria-expanded") !== "true";
-      setOpen(open);
+      setOpen(btn!.getAttribute("aria-expanded") !== "true");
     });
-    // Close the menu if the viewport grows past mobile.
     const mq = window.matchMedia("(min-width: 768px)");
     mq.addEventListener("change", (e) => { if (e.matches) setOpen(false); });
   })();

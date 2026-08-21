@@ -6,61 +6,66 @@ import Email from "../components/Email.astro";
 <Base title="Openings · SoDA Lab">
   <header class="mb-10">
     <h1 class="text-3xl font-semibold tracking-tight">Openings</h1>
-    <p class="mt-2 max-w-2xl text-zinc-600">
+    <p class="mt-2 max-w-2xl text-[var(--color-ink-soft)]">
       We're looking for PhD students, postdocs, and visiting researchers
       interested in studying social phenomena through data and AI.
     </p>
   </header>
 
   <section class="mb-12">
-    <h2 class="mb-3 text-lg font-semibold text-zinc-900">Research directions</h2>
-    <p class="text-base leading-relaxed text-zinc-700">
+    <h2 class="mb-3 text-lg font-semibold text-[var(--color-ink)]">Research directions</h2>
+    <p class="text-base leading-relaxed text-[var(--color-ink-soft)]">
       We study social phenomena through large-scale data and AI/computational tools, aiming to
       tackle big <em>societal problems</em>. If our
       <a href="/research" class="text-[var(--color-accent)] hover:underline">research directions</a>
       resonate with you, we'd love to hear from you. We welcome applicants from all backgrounds and
-      perspectives — including those traditionally underrepresented in computing and social
+      perspectives, including those traditionally underrepresented in computing and social
       science research.
     </p>
   </section>
 
   <section class="mb-12">
-    <h2 class="mb-3 text-lg font-semibold text-zinc-900">Who we're looking for</h2>
+    <h2 class="mb-3 text-lg font-semibold text-[var(--color-ink)]">Who we're looking for</h2>
 
     {/* Current availability — one place to edit when the status changes.
         The role bullets below stay generic; check here for what's open. */}
-    <div class="mb-5 rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-base text-amber-900">
-      <p class="font-medium">Current availability</p>
-      <ul class="mt-2 list-disc space-y-1 pl-5">
+    <div class="notice mb-6">
+      <p class="notice-head">Current availability</p>
+      <ul class="notice-list">
         <li>
-          We are on parental leave through <strong>Fall 2026</strong>. The earliest semester we can
-          host new visiting scholars, visiting students, and IU undergraduate / master's
-          collaborations is <strong>Spring 2027</strong>.
+          <span class="stamp is-closed">Closed</span>
+          Visiting scholars, visiting students, and IU undergraduate / master's
+          collaborations. We are on parental leave through <strong>Fall 2026</strong>;
+          the earliest semester we can host is <strong>Spring 2027</strong>.
         </li>
-        <li>Postdoc positions are <strong>not currently available</strong>.</li>
         <li>
-          PhD admissions continue on the regular Luddy cycle — email anytime to chat about fit.
+          <span class="stamp is-closed">Closed</span>
+          Postdoc positions.
+        </li>
+        <li>
+          <span class="stamp is-open">Open</span>
+          PhD admissions, on the regular Luddy cycle. Email anytime to chat about fit.
         </li>
       </ul>
     </div>
 
-    <ul class="space-y-3 text-base leading-relaxed text-zinc-700">
+    <ul class="space-y-3 text-base leading-relaxed text-[var(--color-ink-soft)]">
       <li>
-        <strong class="text-zinc-900">PhD students</strong> — admitted through the
+        <strong class="text-[var(--color-ink)]">PhD students</strong>: admitted through the
         <a href="https://luddy.indiana.edu/admissions/index.html" class="text-[var(--color-accent)] hover:underline" target="_blank" rel="noopener">Luddy School</a>
         (Informatics program). Email us before applying so we can chat about fit.
       </li>
       <li>
-        <strong class="text-zinc-900">Postdocs</strong> — opportunities open up periodically as
+        <strong class="text-[var(--color-ink)]">Postdocs</strong>: opportunities open up periodically as
         funding becomes available. Email us with your CV and a one-page research statement.
       </li>
       <li>
-        <strong class="text-zinc-900">Visiting scholars and students</strong> — short-term visits
+        <strong class="text-[var(--color-ink)]">Visiting scholars and students</strong>: short-term visits
         (one semester to one year) from researchers at other institutions are possible. Please
         reach out at least four months in advance.
       </li>
       <li>
-        <strong class="text-zinc-900">IU undergraduate and master's students</strong> — we
+        <strong class="text-[var(--color-ink)]">IU undergraduate and master's students</strong>: we
         occasionally take on motivated students for undergraduate research programs and
         independent study. Email us with a specific direction you'd like to explore.
       </li>
@@ -68,13 +73,13 @@ import Email from "../components/Email.astro";
   </section>
 
   <section class="mb-12">
-    <h2 class="mb-3 text-lg font-semibold text-zinc-900">Background that helps</h2>
-    <p class="text-base leading-relaxed text-zinc-700">
+    <h2 class="mb-3 text-lg font-semibold text-[var(--color-ink)]">Background that helps</h2>
+    <p class="text-base leading-relaxed text-[var(--color-ink-soft)]">
       We've worked with students trained in computer science, statistics, sociology,
       communication, and psychology. We don't require any specific degree, but the
       following make the transition smoother:
     </p>
-    <ul class="mt-3 list-disc space-y-1 pl-5 text-base text-zinc-700">
+    <ul class="mt-3 list-disc space-y-1 pl-5 text-base text-[var(--color-ink-soft)]">
       <li>Comfort with AI-assisted Coding Tools (e.g., Claude Code)</li>
       <li>Some prior exposure to statistical or computational methods</li>
       <li>An interest in real-world social phenomena, not just methods for their own sake</li>
@@ -82,8 +87,8 @@ import Email from "../components/Email.astro";
   </section>
 
   <section class="mb-12">
-    <h2 class="mb-3 text-lg font-semibold text-zinc-900">What to expect</h2>
-    <p class="text-base leading-relaxed text-zinc-700">
+    <h2 class="mb-3 text-lg font-semibold text-[var(--color-ink)]">What to expect</h2>
+    <p class="text-base leading-relaxed text-[var(--color-ink-soft)]">
       We meet weekly as a group and individually with each student. We share works-in-progress
       early. Students are encouraged to attend top venues in the
       field. We expect curiosity, careful reading, and steady writing more than raw speed.
@@ -91,16 +96,16 @@ import Email from "../components/Email.astro";
   </section>
 
   <section class="mb-12">
-    <h2 class="mb-3 text-lg font-semibold text-zinc-900">How to apply</h2>
-    <p class="text-base leading-relaxed text-zinc-700">
+    <h2 class="mb-3 text-lg font-semibold text-[var(--color-ink)]">How to apply</h2>
+    <p class="text-base leading-relaxed text-[var(--color-ink-soft)]">
       Email <Email user="soda.sci.lab" host="gmail.com" class="font-medium text-[var(--color-accent)] hover:underline" /> with:
     </p>
-    <ul class="mt-3 list-disc space-y-1 pl-5 text-base text-zinc-700">
+    <ul class="mt-3 list-disc space-y-1 pl-5 text-base text-[var(--color-ink-soft)]">
       <li>Your CV</li>
       <li>A short research statement: your interests, academic and career goals, and relevant skills</li>
       <li>Which research direction interests you most, and why</li>
     </ul>
-    <p class="mt-4 text-base leading-relaxed text-zinc-700">
+    <p class="mt-4 text-base leading-relaxed text-[var(--color-ink-soft)]">
       For PhD program details at the Luddy School of Informatics, Computing, and Engineering at IU
       Bloomington, see the
       <a href="https://luddy.indiana.edu/admissions/index.html" class="text-[var(--color-accent)] hover:underline" target="_blank" rel="noopener">Admissions page</a>.
@@ -108,84 +113,84 @@ import Email from "../components/Email.astro";
   </section>
 
   <section class="mb-12">
-    <h2 class="mb-3 text-lg font-semibold text-zinc-900">Timeline</h2>
-    <p class="text-base leading-relaxed text-zinc-700">
+    <h2 class="mb-3 text-lg font-semibold text-[var(--color-ink)]">Timeline</h2>
+    <p class="text-base leading-relaxed text-[var(--color-ink-soft)]">
       Our PhD admissions cycle for the following Fall typically runs on this schedule:
     </p>
-    <ol class="mt-4 space-y-3 text-base leading-relaxed text-zinc-700">
+    <ol class="mt-4 space-y-3 text-base leading-relaxed text-[var(--color-ink-soft)]">
       <li class="flex gap-4">
-        <span class="w-44 shrink-0 font-mono text-xs uppercase tracking-wider text-zinc-500">Through mid-October</span>
+        <span class="w-44 shrink-0 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--color-ink-faint)]">Through mid-October</span>
         <span>Email us your CV, research statement, and the direction you're most interested in.</span>
       </li>
       <li class="flex gap-4">
-        <span class="w-44 shrink-0 font-mono text-xs uppercase tracking-wider text-zinc-500">Mid- to late October</span>
+        <span class="w-44 shrink-0 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--color-ink-faint)]">Mid- to late October</span>
         <span>We reply and shortlist candidates we'd like to talk with.</span>
       </li>
       <li class="flex gap-4">
-        <span class="w-44 shrink-0 font-mono text-xs uppercase tracking-wider text-zinc-500">November</span>
+        <span class="w-44 shrink-0 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--color-ink-faint)]">November</span>
         <span>Zoom conversations with shortlisted candidates.</span>
       </li>
       <li class="flex gap-4">
-        <span class="w-44 shrink-0 font-mono text-xs uppercase tracking-wider text-zinc-500">Mid-December</span>
+        <span class="w-44 shrink-0 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--color-ink-faint)]">Mid-December</span>
         <span>Submit the formal application through the Luddy School.</span>
       </li>
       <li class="flex gap-4">
-        <span class="w-44 shrink-0 font-mono text-xs uppercase tracking-wider text-zinc-500">February – March</span>
+        <span class="w-44 shrink-0 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--color-ink-faint)]">February – March</span>
         <span>Admissions decisions are issued by the Luddy School.</span>
       </li>
     </ol>
-    <p class="mt-4 rounded-md bg-amber-50 px-4 py-3 text-base text-amber-900">
+    <p class="notice mt-4 px-[1.15rem] py-3 text-base">
       <strong>Earlier is better.</strong> Inquiries that arrive after mid-November are unlikely to
       get a Zoom meeting before the December deadline.
     </p>
   </section>
 
   <section>
-    <h2 class="mb-3 text-lg font-semibold text-zinc-900">FAQ</h2>
+    <h2 class="mb-3 text-lg font-semibold text-[var(--color-ink)]">FAQ</h2>
     <dl class="space-y-5 text-base">
       <div>
-        <dt class="font-medium text-zinc-900">I'm interested in a CS PhD. Can I apply to SoDA Lab?</dt>
-        <dd class="mt-1 text-zinc-700">
+        <dt class="font-medium text-[var(--color-ink)]">I'm interested in a CS PhD. Can I apply to SoDA Lab?</dt>
+        <dd class="mt-1 text-[var(--color-ink-soft)]">
           SoDA Lab is affiliated with the Department of Informatics in the Luddy School. If you're
           specifically interested in a Computer Science major, we recommend exploring opportunities
           within the CS department.
         </dd>
       </div>
       <div>
-        <dt class="font-medium text-zinc-900">I want to develop new AI systems / ML algorithms. Is this a good fit?</dt>
-        <dd class="mt-1 text-zinc-700">
+        <dt class="font-medium text-[var(--color-ink)]">I want to develop new AI systems / ML algorithms. Is this a good fit?</dt>
+        <dd class="mt-1 text-[var(--color-ink-soft)]">
           These are interesting research directions, but our lab puts strong emphasis on the human
           and societal aspects. If your main interests are on the systems side, we recommend
           looking elsewhere.
         </dd>
       </div>
       <div>
-        <dt class="font-medium text-zinc-900">My background isn't in CS. Is that a problem?</dt>
-        <dd class="mt-1 text-zinc-700">
+        <dt class="font-medium text-[var(--color-ink)]">My background isn't in CS. Is that a problem?</dt>
+        <dd class="mt-1 text-[var(--color-ink-soft)]">
           No. We've successfully worked with students from sociology, communication, and psychology, among others. 
           What matters more is your curiosity about social phenomena and
           your willingness to learn the methods you'll need.
         </dd>
       </div>
       <div>
-        <dt class="font-medium text-zinc-900">Are international applicants welcome?</dt>
-        <dd class="mt-1 text-zinc-700">
+        <dt class="font-medium text-[var(--color-ink)]">Are international applicants welcome?</dt>
+        <dd class="mt-1 text-[var(--color-ink-soft)]">
           Yes. Many of our students and visitors have come from outside the U.S. The
           <a href="https://luddy.indiana.edu/admissions/index.html" class="text-[var(--color-accent)] hover:underline" target="_blank" rel="noopener">Luddy Admissions page</a>
           has program-level requirements, including English-proficiency tests.
         </dd>
       </div>
       <div>
-        <dt class="font-medium text-zinc-900">Can I do this PhD remotely?</dt>
-        <dd class="mt-1 text-zinc-700">
+        <dt class="font-medium text-[var(--color-ink)]">Can I do this PhD remotely?</dt>
+        <dd class="mt-1 text-[var(--color-ink-soft)]">
           No. We expect students to be based in Bloomington and present in lab activities. Most of
           our work depends on in-person collaboration, both within the lab and across the Luddy
           school.
         </dd>
       </div>
       <div>
-        <dt class="font-medium text-zinc-900">Will I receive an RA-ship or TA-ship?</dt>
-        <dd class="mt-1 text-zinc-700">
+        <dt class="font-medium text-[var(--color-ink)]">Will I receive an RA-ship or TA-ship?</dt>
+        <dd class="mt-1 text-[var(--color-ink-soft)]">
           New incoming students typically enter with a TA-ship. RA-ships may be available based on
           specific projects and available funds.
         </dd>
@@ -193,3 +198,53 @@ import Email from "../components/Email.astro";
     </dl>
   </section>
 </Base>
+
+<style>
+  /* A pinned notice on the board: ink rule, stock ground, and a stamp per row
+     so a closed door reads closed instead of being quietly absent. */
+  /* A coloured left bar is the category's default callout, so the notice is
+     built the way this world builds anything official: a printed head bar on
+     stock, and the stamps carry the status. */
+  .notice {
+    background-color: var(--color-paper);
+    box-shadow: inset 0 0 0 1px var(--color-rule);
+    padding: 0;
+  }
+  .notice-head {
+    background-color: var(--color-ink);
+    color: var(--color-paper);
+    padding: 0.45rem 1.15rem;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .notice-list { padding: 0 1.15rem 1rem; }
+  .notice-list {
+    margin-top: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--color-ink-soft);
+  }
+  .stamp {
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding: 0.1rem 0.4rem;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    vertical-align: 0.1em;
+  }
+  .stamp.is-closed {
+    background-color: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .stamp.is-open {
+    background-color: var(--color-accent);
+    color: var(--color-paper);
+  }
+</style>

@@ -34,24 +34,31 @@ const press = [
 ---
 
 <Base>
-  <section class="pb-10">
-    <h1 class="hero-h1 mt-3">
-      Studying social phenomena<br />
-      with <em>large-scale data</em> and <em>AI</em>
-    </h1>
-    <div class="mt-6 flex flex-wrap gap-3 text-sm">
-      <a href="/publications" class="rounded-sm px-4 py-2 font-medium transition hover:opacity-90" style="background-color: var(--color-ink); color: var(--color-paper);">
-        Browse publications →
-      </a>
-      <a href="/openings" class="rounded-sm border px-4 py-2 font-medium transition hover:opacity-80" style="border-color: var(--color-rule); color: var(--color-ink-soft);">
-        Open positions
-      </a>
+  {/* Board 01. The lab's own poster, at the scale a poster has in life: you
+      read the title from across the aisle and the rest when you stop. */}
+  <section class="board board-bleed relative -mt-10 py-14 sm:py-20">
+    <div class="mx-auto max-w-5xl px-6">
+      <div class="stock relative mx-auto max-w-3xl px-7 py-10 sm:px-12 sm:py-14">
+        <h1 class="poster-title">
+          Studying social phenomena with <strong>large-scale data</strong> and <strong>AI</strong>
+        </h1>
+        <p class="author-strip mt-7">
+          Haewoon Kwak &nbsp;·&nbsp; Jisun An
+          <span class="block mt-1 font-normal normal-case tracking-normal" style="color: var(--color-ink-faint);">
+            Luddy School of Informatics, Computing, and Engineering &nbsp;·&nbsp; Indiana University Bloomington
+          </span>
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3 text-sm">
+          <a href="/publications" class="act-primary">Browse all papers</a>
+          <a href="/openings" class="act-secondary">Join the lab</a>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="grid gap-10 border-t pt-10 pb-12 lg:grid-cols-[minmax(0,1fr)_18rem] lg:gap-12" style="border-color: var(--color-rule);">
-    <div class="space-y-10">
-      <p class="text-base leading-relaxed" style="color: var(--color-ink-soft);">
+  <section class="grid gap-8 pt-12 pb-12 lg:grid-cols-[minmax(0,1fr)_19rem] lg:gap-10">
+    <div class="stock space-y-10 px-7 py-9 sm:px-9">
+      <p class="read text-base" style="color: var(--color-ink-soft);">
         Led by
         <a href="/team" class="font-medium underline decoration-1 underline-offset-2 hover:decoration-2" style="color: var(--color-ink); text-decoration-color: var(--color-rule);">Haewoon Kwak</a>
         and
@@ -66,85 +73,74 @@ const press = [
         on these platforms has become essential.
       </p>
 
-      <div
+      {/* Press the lab actually earned: three covers, pinned. There is no
+          fourth, so the frame does not pretend otherwise. The caption is a
+          printed strip under the clipping, not a scrim over it. */}
+      <figure
         id="press-carousel"
-        class="relative mx-auto max-w-md overflow-hidden rounded-lg ring-1 ring-zinc-200"
+        class="relative mx-auto max-w-md"
         data-count={press.length}
       >
-        <div
-          id="press-track"
-          class="flex transition-transform duration-700 ease-out"
-          style={`width: ${press.length * 100}%`}
-        >
-          {press.map((p, i) => (
-            <div class="relative shrink-0" style={`width: ${100 / press.length}%`}>
-              {p.href ? (
-                <a href={p.href} target="_blank" rel="noopener" class="block">
+        <div class="overflow-hidden" style="box-shadow: inset 0 0 0 1px var(--color-rule);">
+          <div
+            id="press-track"
+            class="flex transition-transform duration-500 ease-out"
+            style={`width: ${press.length * 100}%`}
+          >
+            {press.map((p, i) => (
+              <div class="shrink-0" style={`width: ${100 / press.length}%`}>
+                {p.href ? (
+                  <a href={p.href} target="_blank" rel="noopener" class="block">
+                    <img
+                      src={p.image}
+                      alt={`${p.venue}, ${p.year}`}
+                      width="800" height="1050"
+                      class="aspect-[992/1318] w-full object-contain"
+                      style="background-color: var(--color-paper-2);"
+                      loading={i === 0 ? "eager" : "lazy"}
+                      fetchpriority={i === 0 ? "high" : "auto"}
+                      decoding="async"
+                    />
+                  </a>
+                ) : (
                   <img
                     src={p.image}
                     alt={`${p.venue}, ${p.year}`}
-                    width="800"
-                    height="1050"
-                    class="aspect-[992/1318] w-full bg-zinc-50 object-contain"
-                    loading={i === 0 ? "eager" : "lazy"}
-                    fetchpriority={i === 0 ? "high" : "auto"}
-                    decoding="async"
+                    width="800" height="1050"
+                    class="aspect-[992/1318] w-full object-contain"
+                    style="background-color: var(--color-paper-2);"
+                    loading="lazy" decoding="async"
                   />
-                </a>
-              ) : (
-                <img
-                  src={p.image}
-                  alt={`${p.venue}, ${p.year}`}
-                  width="800"
-                  height="1050"
-                  class="aspect-[992/1318] w-full bg-zinc-50 object-contain"
-                  loading={i === 0 ? "eager" : "lazy"}
-                  fetchpriority={i === 0 ? "high" : "auto"}
-                  decoding="async"
-                />
-              )}
-              <div class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/40 to-transparent px-5 pb-5 pt-16 text-white">
-                <p class="text-sm sm:text-base">
-                  <span class="font-medium italic">{p.venue}</span>
-                  <span class="opacity-80">, {p.year}</span>
-                </p>
-                <p class="mt-0.5 text-xs opacity-90 sm:text-sm">{p.blurb}</p>
+                )}
               </div>
+            ))}
+          </div>
+        </div>
+
+        <figcaption class="press-strip">
+          <div class="flex items-baseline justify-between gap-4">
+            <p>
+              {press.map((p, i) => (
+                <span data-press-caption={i} class={i === 0 ? "" : "hidden"}>
+                  <span class="press-venue">{p.venue}</span>, {p.year}
+                  <span class="press-blurb">{p.blurb}</span>
+                </span>
+              ))}
+            </p>
+            <div class="flex shrink-0 gap-px">
+              <button id="press-prev" type="button" aria-label="Previous clipping" class="press-step">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+              </button>
+              <button id="press-next" type="button" aria-label="Next clipping" class="press-step">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
             </div>
-          ))}
-        </div>
+          </div>
+        </figcaption>
+      </figure>
 
-        <button
-          id="press-prev"
-          type="button"
-          aria-label="Previous slide"
-          class="absolute left-3 top-1/2 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-full bg-white/80 text-zinc-700 shadow ring-1 ring-zinc-200 backdrop-blur transition hover:bg-white"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-        </button>
-        <button
-          id="press-next"
-          type="button"
-          aria-label="Next slide"
-          class="absolute right-3 top-1/2 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-full bg-white/80 text-zinc-700 shadow ring-1 ring-zinc-200 backdrop-blur transition hover:bg-white"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-        </button>
-
-        <div id="press-dots" class="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-1.5">
-          {press.map((_, i) => (
-            <button
-              type="button"
-              data-press-dot={i}
-              aria-label={`Go to slide ${i + 1}`}
-              class="h-1.5 w-6 rounded-full bg-white/50 transition hover:bg-white"
-            />
-          ))}
-        </div>
-      </div>
-
-      <div class="space-y-5">
-        <p class="text-base leading-relaxed text-zinc-700">
+      <div class="space-y-5 read">
+        <p class="text-base" style="color: var(--color-ink-soft);">
           We develop new computational methods and tools for understanding, predicting, and
           shaping human behavior online. A central challenge is the sheer
           <em>diversity and complexity</em> of online data. We work across many kinds of
@@ -153,7 +149,7 @@ const press = [
           understand online behavior and address real-world problems.
         </p>
 
-        <p class="text-base leading-relaxed text-zinc-700">
+        <p class="text-base" style="color: var(--color-ink-soft);">
           But our goal is not only to solve problems. We also want to improve the online
           spaces themselves. We are interested in identifying obstacles to a
           <em>trustworthy public space online</em>, developing methodologies that make those
@@ -161,7 +157,7 @@ const press = [
           and ultimately helping the online public square become more credible.
         </p>
 
-        <p class="text-base leading-relaxed text-zinc-700">
+        <p class="text-base" style="color: var(--color-ink-soft);">
           We are based at the
           <a href="https://luddy.indiana.edu/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Luddy School of Informatics, Computing, and Engineering</a>
           at Indiana University Bloomington, and a member of the
@@ -171,14 +167,14 @@ const press = [
     </div>
 
     {news.length > 0 && (
-      <aside aria-labelledby="news-heading">
-        <h2 id="news-heading" class="font-mono text-xs uppercase tracking-wider" style="color: var(--color-ink-faint);">
+      <aside aria-labelledby="news-heading" class="stock self-start px-6 py-6">
+        <h2 id="news-heading" class="text-[11px] font-semibold uppercase tracking-[0.14em]" style="color: var(--color-ink-faint);">
           News
         </h2>
         <ul class="mt-3 space-y-3 border-t pt-3" style="border-color: var(--color-rule);">
           {news.map((n) => (
             <li class="text-sm leading-relaxed">
-              <div class="font-mono text-[11px] uppercase tracking-wider" style="color: var(--color-ink-faint);">
+              <div class="text-[10px] font-semibold uppercase tracking-[0.14em]" style="color: var(--color-ink-faint);">
                 {n.date}
               </div>
               <div class="mt-0.5 news-item" set:html={n.headline} style="color: var(--color-ink-soft);" />
@@ -190,31 +186,77 @@ const press = [
   </section>
 
   <style>
-    .hero-h1 {
-      /* Match research-page hero (clamp(48px, 7vw, 80px), line-height 0.98)
-         so the brand voice is consistent across landing pages. */
-      font-family: "Spectral", "Newsreader", serif;
-      font-weight: 500;
-      font-size: clamp(48px, 7vw, 80px);
-      line-height: 0.98;
-      letter-spacing: -0.02em;
+    .poster-title {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: clamp(38px, 5.6vw, 68px);
+      line-height: 1.06;
+      letter-spacing: -0.035em;
       color: var(--color-ink);
+      text-wrap: balance;
     }
-    .hero-h1 em {
-      font-style: italic;
-      font-weight: 400;
-      background: linear-gradient(90deg, #ed5765 0%, #f59e0b 50%, #3db7e6 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
+    .poster-title strong { font-weight: 700; }
+
+    .author-strip {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-ink-soft);
     }
+
+    .act-primary,
+    .act-secondary {
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      padding: 0.7rem 1.15rem;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+    .act-primary {
+      background-color: var(--color-accent);
+      color: var(--color-paper);
+    }
+    .act-primary:hover { background-color: #7d0000; }
+    .act-secondary {
+      background-color: transparent;
+      color: var(--color-ink);
+      box-shadow: inset 0 0 0 1.5px var(--color-ink);
+    }
+    .act-secondary:hover {
+      background-color: var(--color-ink);
+      color: var(--color-paper);
+    }
+
     /* Anchors inside the news sidebar are rendered via set:html, so they
        don't get Astro's data-astro-cid scope attribute. Wrap the `a`
        selector in :global() so the rule still matches. */
+    .press-strip {
+      background-color: var(--color-ink);
+      color: var(--color-paper);
+      padding: 0.6rem 0.85rem;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .press-venue { font-weight: 700; }
+    .press-blurb {
+      display: block;
+      color: color-mix(in srgb, var(--color-paper) 66%, transparent);
+    }
+    .press-step {
+      display: grid;
+      place-items: center;
+      width: 1.9rem;
+      height: 1.9rem;
+      background-color: color-mix(in srgb, var(--color-paper) 14%, transparent);
+      color: var(--color-paper);
+      transition: background-color 0.15s ease;
+    }
+    .press-step:hover { background-color: var(--color-accent); }
+
     .news-item :global(a) {
       color: var(--color-accent);
       text-decoration: underline;
-      text-decoration-color: color-mix(in oklch, var(--color-accent) 35%, transparent);
+      text-decoration-color: color-mix(in srgb, var(--color-accent) 35%, transparent);
       text-underline-offset: 2px;
     }
     .news-item :global(a:hover) {
@@ -226,7 +268,7 @@ const press = [
     (() => {
       const root = document.getElementById("press-carousel") as HTMLElement | null;
       const track = document.getElementById("press-track") as HTMLElement | null;
-      const dots = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-press-dot]"));
+      const captions = Array.from(document.querySelectorAll<HTMLElement>("[data-press-caption]"));
       const prev = document.getElementById("press-prev") as HTMLButtonElement | null;
       const next = document.getElementById("press-next") as HTMLButtonElement | null;
       if (!root || !track) return;
@@ -236,10 +278,7 @@ const press = [
 
       function render() {
         track!.style.transform = `translateX(-${(idx * 100) / count}%)`;
-        dots.forEach((d, i) => {
-          d.classList.toggle("bg-white", i === idx);
-          d.classList.toggle("bg-white/50", i !== idx);
-        });
+        captions.forEach((c, i) => c.classList.toggle("hidden", i !== idx));
       }
       function go(i: number) {
         idx = (i + count) % count;
@@ -253,9 +292,6 @@ const press = [
 
       prev?.addEventListener("click", () => go(idx - 1));
       next?.addEventListener("click", () => go(idx + 1));
-      for (const d of dots) {
-        d.addEventListener("click", () => go(parseInt(d.dataset.pressDot || "0", 10)));
-      }
       root.addEventListener("mouseenter", () => { if (timer) window.clearInterval(timer); });
       root.addEventListener("mouseleave", resetTimer);
 
@@ -264,13 +300,13 @@ const press = [
     })();
   </script>
 
-  <section class="py-12">
-    <div class="mb-6 flex items-baseline justify-between">
-      <h2 class="text-xl font-semibold tracking-tight">Featured work</h2>
-      <a href="/publications" class="text-sm text-zinc-500 hover:text-zinc-900">All publications →</a>
+  <section class="pt-4 pb-12">
+    <div class="mb-7 flex items-baseline justify-between border-b pb-3" style="border-color: var(--color-rule);">
+      <h2 class="text-2xl font-semibold tracking-tight">Featured work</h2>
+      <a href="/publications" class="text-sm font-semibold" style="color: var(--color-accent);">All papers &rarr;</a>
     </div>
     <div>
-      {featured.map((p) => <PublicationCard pub={p} />)}
+      {featured.map((p, i) => <PublicationCard pub={p} board={i + 1} />)}
     </div>
   </section>
 </Base>
