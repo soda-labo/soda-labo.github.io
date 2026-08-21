@@ -1,0 +1,37 @@
+---
+// The hall sign at the head of a section. Fabric runs the full width of the
+// hall while the words stay in the reading column, so a page announces itself
+// the way the entrance does instead of opening on a bare heading.
+interface Props {
+  title: string;
+  lede?: string;
+}
+const { title, lede } = Astro.props;
+---
+
+<section class="board board-bleed -mt-10 mb-9 py-10 sm:py-12">
+  <div class="mx-auto max-w-5xl px-6">
+    <h1 class="masthead-title">{title}</h1>
+    {lede && <p class="masthead-lede"><slot name="lede">{lede}</slot></p>}
+  </div>
+</section>
+
+<style>
+  .masthead-title {
+    font-family: var(--font-display);
+    font-size: clamp(30px, 4.2vw, 46px);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    color: var(--color-paper);
+  }
+  .masthead-lede {
+    margin-top: 0.6rem;
+    max-width: 52ch;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    /* Tinted from the fabric's own foreground, never gray, and above the AA
+       floor against #46525c. */
+    color: color-mix(in srgb, var(--color-paper) 78%, transparent);
+  }
+</style>

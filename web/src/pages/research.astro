@@ -447,12 +447,11 @@ function primaryColor(topics: readonly string[]): string {
           <svg class="illo" viewBox="0 0 360 280" aria-hidden="true" set:html={a.illo} />
         </div>
         <div class="copy">
-          <div class="kicker"><span class="num">{a.num}</span><span class="track">{a.kicker}</span></div>
           <h3>{a.headline}</h3>
+          <div class="kicker"><span class="num">{a.num}</span><span class="track">{a.kicker}</span></div>
           <p set:html={a.body} />
           <div class="topic-chips">
-            <span class="chips-label">explore in publications</span>
-            {a.topics.map((t) => (
+                        {a.topics.map((t) => (
               <a
                 href={`/publications?topic=${t}`}
                 class="topic-chip"
@@ -478,15 +477,15 @@ function primaryColor(topics: readonly string[]): string {
           <div class="illo-wrap">
             <svg class="illo" viewBox="0 0 280 220" aria-hidden="true" set:html={t.illo} />
           </div>
-          <div class="kicker"><span class="num">{t.num}</span><span class="track">{t.kicker}</span></div>
           <h3>{t.headline}</h3>
+          <div class="kicker"><span class="num">{t.num}</span><span class="track">{t.kicker}</span></div>
           <p set:html={t.body} />
           <div class="topic-chips">
             {t.topics.map((tag) => (
               <a
                 href={`/publications?topic=${tag}`}
                 class="topic-chip"
-                style={`border-color:${topicColor(tag).bg};color:${topicColor(tag).bg};`}
+                style={`--swatch:${topicColor(tag).bg}`}
               >
                 {topicName(tag)}
               </a>
@@ -544,26 +543,6 @@ function primaryColor(topics: readonly string[]): string {
     max-width: 64rem;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .research-paper .masthead {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    padding-bottom: 22px;
-    border-bottom: 1px solid var(--rule);
-    margin-bottom: 56px;
-  }
-  .research-paper .crumbs {
-    font-family: var(--font-sans);
-    font-size: 11px;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--ink-faint);
-  }
-  .research-paper .crumbs .dot {
-    margin: 0 8px;
-    color: var(--rule);
   }
 
   .research-paper .hero {
@@ -653,6 +632,8 @@ function primaryColor(topics: readonly string[]): string {
       order: 0;
     }
   }
+  /* The board address sits under the headline, not over it: a small label
+     above a heading is the one thing the craft floor bans outright. */
   .research-paper .kicker {
     display: flex;
     align-items: center;
@@ -662,7 +643,8 @@ function primaryColor(topics: readonly string[]): string {
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-top: 14px;
+    margin-bottom: 4px;
   }
   .research-paper .kicker .num {
     background-color: var(--ink);
@@ -698,14 +680,6 @@ function primaryColor(topics: readonly string[]): string {
     flex-wrap: wrap;
     align-items: center;
     gap: 8px;
-  }
-  .research-paper .chips-label {
-    font-family: var(--font-sans);
-    font-size: 10px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--ink-faint);
-    margin-right: 4px;
   }
   /* Same vocabulary as the publication boards: the track colour is a printed
      swatch, the text stays ink, so contrast never depends on the hue. */

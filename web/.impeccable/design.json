@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-21T00:00:00Z",
+  "title": "Design System: SoDA Lab",
+  "extensions": {
+    "colorMeta": {
+      "hall": { "role": "neutral", "displayName": "Hall Floor", "canonical": "#eaeae7", "tonalRamp": ["#292924","#48483f","#67675a","#868675","#a1a194","#bdbdb3","#d8d8d2","#f3f3f1"] },
+      "paper": { "role": "neutral", "displayName": "Poster Stock", "canonical": "#f6f6f3", "tonalRamp": ["#2c2c21","#4d4d3a","#6e6e53","#90906c","#a9a98d","#c2c2ae","#dbdbcf","#f4f4f0"] },
+      "paper-2": { "role": "neutral", "displayName": "Stock in Shadow", "canonical": "#e2e2dd", "tonalRamp": ["#292923","#49493e","#686859","#888874","#a3a393","#bebeb2","#d8d8d2","#f3f3f1"] },
+      "board": { "role": "neutral", "displayName": "Board Fabric", "canonical": "#46525c", "tonalRamp": ["#21272b","#3a444d","#53626e","#6d7f8f","#8d9ca8","#aeb9c2","#cfd6db","#f1f2f4"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#14181b", "tonalRamp": ["#21272c","#39454d","#52636f","#6b8090","#8c9daa","#adb9c3","#cfd6db","#f0f3f4"] },
+      "ink-soft": { "role": "neutral", "displayName": "Ink Soft", "canonical": "#4a545c", "tonalRamp": ["#22272a","#3c444b","#56626b","#707f8b","#909ca6","#b0b9c0","#d1d6da","#f1f2f4"] },
+      "ink-faint": { "role": "neutral", "displayName": "Ink Faint", "canonical": "#5e6870", "tonalRamp": ["#23272a","#3e4449","#586169","#737f89","#929ca4","#b2b9be","#d1d6d9","#f1f2f3"] },
+      "rule": { "role": "neutral", "displayName": "Rule", "canonical": "#d5d3cc", "tonalRamp": ["#2a2823","#4a473d","#6a6657","#8a8472","#a5a091","#bfbcb1","#d9d7d1","#f3f3f1"] },
+      "accent": { "role": "primary", "displayName": "IU Crimson", "canonical": "#990000", "tonalRamp": ["#4c0000","#870000","#c10000","#fb0000","#ff3737","#ff7171","#ffabab","#ffe5e5"] },
+      "accent-deep": { "role": "primary", "displayName": "IU Crimson Deep", "canonical": "#7d0000", "tonalRamp": ["#4c0000","#870000","#c10000","#fb0000","#ff3737","#ff7171","#ffabab","#ffe5e5"] },
+      "topic-online-harm": { "role": "tertiary", "displayName": "Track: Online Harm", "canonical": "#dc2626", "tonalRamp": ["#420b0b","#741313","#a61b1b","#d82323","#e35252","#eb8585","#f3b7b7","#fbe9e9"] },
+      "topic-news-journalism": { "role": "tertiary", "displayName": "Track: News & Journalism", "canonical": "#57534e", "tonalRamp": ["#282624","#474440","#66615b","#857e77","#a09b95","#bcb8b4","#d7d5d3","#f3f2f2"] },
+      "topic-user-behavior": { "role": "tertiary", "displayName": "Track: User Behavior", "canonical": "#d97706", "tonalRamp": ["#4a2902","#834804","#bc6705","#f58607","#faa23c","#fbbd75","#fdd8ad","#fef3e6"] },
+      "topic-beliefs-opinions": { "role": "tertiary", "displayName": "Track: Beliefs & Opinions", "canonical": "#7c3aed", "tonalRamp": ["#1e0646","#350b7c","#4b10b1","#6215e6","#8547ee","#a87df3","#ccb2f8","#efe8fd"] },
+      "topic-llms-responsible-ai": { "role": "tertiary", "displayName": "Track: LLMs & Responsible AI", "canonical": "#4f46e5", "tonalRamp": ["#0d0943","#161176","#2018a9","#2a1fdc","#584fe6","#8882ed","#b9b6f5","#eae9fc"] },
+      "topic-bias-fairness": { "role": "tertiary", "displayName": "Track: Bias & Fairness", "canonical": "#0d9488", "tonalRamp": ["#064641","#0b7c72","#10b1a3","#14e7d4","#47efe0","#7cf4e9","#b2f8f2","#e8fdfb"] },
+      "topic-networks-influence": { "role": "tertiary", "displayName": "Track: Networks & Influence", "canonical": "#0284c7", "tonalRamp": ["#01324c","#015985","#027fbf","#03a5f9","#39bafd","#72cefe","#ace2fe","#e6f6ff"] },
+      "topic-digital-health": { "role": "tertiary", "displayName": "Track: Digital Health", "canonical": "#db2777", "tonalRamp": ["#420b23","#74133e","#a51c59","#d72474","#e25393","#eb85b2","#f3b7d2","#fbe9f1"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Poster Display", "purpose": "The home hero statement only. Archivo 600 with -0.035em tracking and text-wrap: balance. The research page runs its own hero at clamp(44px, 6.2vw, 72px)." },
+      "headline": { "displayName": "Masthead Headline", "purpose": "The page name printed in paper on the full-bleed fabric masthead." },
+      "title": { "displayName": "Board Title", "purpose": "Publication board titles. 19/24/32px desktop and 17/22/30px mobile by tier (standard/major/landmark)." },
+      "body": { "displayName": "Reading Body (Literata)", "purpose": "Anything read in sentences. Applied via .read, capped at 68ch, line-height 1.6. Landmark boards raise it to 18px." },
+      "body-ui": { "displayName": "UI Body (Archivo)", "purpose": "Scanned text: lists, metadata, author strings, controls. Tabular figures inherited from html." },
+      "label": { "displayName": "Signage Label", "purpose": "11px uppercase at 0.14em: nav destinations, section labels, dates, notice heads, footer copyright. Inline variants drop to 0.1em (author strip, track tag), 0.12em (research kicker, stamps), 0.08em (board tag)." }
+    },
+    "shadows": [
+      { "name": "pinned-sheet", "value": "0 1px 2px rgba(20,24,27,0.10), 0 8px 20px -6px rgba(20,24,27,0.22)", "purpose": "The only depth in the system: a sheet of poster stock pinned to board fabric. Applied by .stock. Never on a control, chip, or fabric band." },
+      { "name": "hairline-ring", "value": "inset 0 0 0 1px var(--color-rule)", "purpose": "Image frames and bordered blocks, so a hairline never changes an element's box size." },
+      { "name": "hairline-ring-strong", "value": "inset 0 0 0 1.5px var(--color-ink)", "purpose": "The secondary action's outline before it inverts on hover." },
+      { "name": "press-frame", "value": "inset 0 0 0 1px rgba(0,0,0,0.25)", "purpose": "The frame around a press clipping on fabric." }
+    ],
+    "motion": [
+      { "name": "state-fast", "value": "120ms ease", "purpose": "Filter chip and control border/background changes." },
+      { "name": "state-standard", "value": "150ms ease", "purpose": "Button colour changes, chevron rotation, press step buttons." },
+      { "name": "carousel-slide", "value": "500ms ease-out", "purpose": "Press clipping track translate. Autoplay is suppressed entirely under prefers-reduced-motion: reduce." }
+    ],
+    "breakpoints": [
+      { "name": "board-figure", "value": "640px" },
+      { "name": "sm", "value": "640px" },
+      { "name": "research-collapse", "value": "720px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "container", "value": "1024px" }
+    ],
+    "materials": [
+      { "name": "board-fabric", "value": "background-color: #46525c; background-image: repeating-linear-gradient(90deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 3px), repeating-linear-gradient(0deg, rgba(0,0,0,0.05) 0 1px, transparent 1px 3px);", "purpose": "A 3px weave applied only where a board actually stands. Never a page-wide grain." },
+      { "name": "board-bleed", "value": "margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw); width: 100vw;", "purpose": "Escapes the 64rem reading column to the full width of the hall. Paired with body { overflow-x: clip }." }
+    ],
+    "contrast": [
+      { "pair": "ink on paper", "ratio": 16.49 },
+      { "pair": "ink-soft on paper", "ratio": 7.15 },
+      { "pair": "ink-faint on paper", "ratio": 5.26 },
+      { "pair": "ink-faint on hall", "ratio": 4.72 },
+      { "pair": "accent on paper", "ratio": 8.24 },
+      { "pair": "accent on hall", "ratio": 7.4 },
+      { "pair": "paper 72% on board fabric (nav, tagline)", "ratio": 4.76 },
+      { "pair": "paper 78% on board fabric (masthead lede)", "ratio": 5.26 }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "action-primary",
+      "description": "The one action colour. Crimson ground, paper text, square.",
+      "html": "<a class=\"ds-act-primary\" href=\"#\">Browse all papers</a>",
+      "css": ".ds-act-primary { display: inline-block; background-color: var(--color-accent, #990000); color: var(--color-paper, #f6f6f3); font-family: Archivo, system-ui, sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.04em; text-decoration: none; padding: 0.7rem 1.15rem; border: none; border-radius: 0; transition: background-color 0.15s ease, color 0.15s ease; } .ds-act-primary:hover { background-color: #7d0000; } .ds-act-primary:focus-visible { outline: 2px solid var(--color-accent, #990000); outline-offset: 2px; border-radius: 1px; }"
+    },
+    {
+      "name": "Secondary Action",
+      "kind": "button",
+      "refersTo": "action-secondary",
+      "description": "Inset ink ring that inverts on hover. No shadow, no radius.",
+      "html": "<a class=\"ds-act-secondary\" href=\"#\">Join the lab</a>",
+      "css": ".ds-act-secondary { display: inline-block; background-color: transparent; color: var(--color-ink, #14181b); font-family: Archivo, system-ui, sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.04em; text-decoration: none; padding: 0.7rem 1.15rem; border-radius: 0; box-shadow: inset 0 0 0 1.5px var(--color-ink, #14181b); transition: background-color 0.15s ease, color 0.15s ease; } .ds-act-secondary:hover { background-color: var(--color-ink, #14181b); color: var(--color-paper, #f6f6f3); } .ds-act-secondary:focus-visible { outline: 2px solid var(--color-accent, #990000); outline-offset: 2px; }"
+    },
+    {
+      "name": "Publication Board (standard)",
+      "kind": "card",
+      "refersTo": "board-standard",
+      "description": "A sheet of poster stock pinned to the fabric. Tier is set by citation count; this is the >=0 tier.",
+      "html": "<article class=\"ds-board\"><span class=\"ds-board-tag\">01</span><h2 class=\"ds-board-title\"><a href=\"#\">Modeling human beliefs with language models</a></h2><p class=\"ds-board-authors\"><strong>Haewoon Kwak</strong>, <span>Jisun An</span></p><p class=\"ds-board-meta\"><span class=\"ds-board-venue\">Nature Human Behaviour</span> &middot; 2025 &middot; 128 citations</p><p class=\"ds-board-track\"><a class=\"ds-track-tag\" href=\"#\"><span class=\"ds-track-swatch\" style=\"background-color:#7c3aed\"></span>Beliefs &amp; opinions</a></p></article>",
+      "css": ".ds-board { position: relative; background-color: var(--color-paper, #f6f6f3); color: var(--color-ink, #14181b); font-family: Archivo, system-ui, sans-serif; border-radius: 0; padding: 1.5rem 1.5rem 1.4rem; box-shadow: 0 1px 2px rgba(20,24,27,0.10), 0 8px 20px -6px rgba(20,24,27,0.22); } .ds-board-tag { position: absolute; top: 0; left: 0; transform: translate(-0.4rem, -0.6rem); background-color: var(--color-accent, #990000); color: var(--color-paper, #f6f6f3); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; padding: 0.2rem 0.45rem; } .ds-board-title { margin: 0; font-size: 1.1875rem; font-weight: 600; line-height: 1.32; letter-spacing: -0.02em; text-wrap: balance; } .ds-board-title a { color: inherit; text-decoration: none; } .ds-board-title a:hover { color: var(--color-accent, #990000); } .ds-board-authors { margin: 0.35rem 0 0; font-size: 0.8125rem; line-height: 1.5; color: var(--color-ink-soft, #4a545c); } .ds-board-authors strong { font-weight: 700; color: var(--color-ink, #14181b); } .ds-board-meta { margin: 0.15rem 0 0; font-size: 0.8125rem; color: var(--color-ink-faint, #5e6870); font-variant-numeric: tabular-nums; } .ds-board-venue { font-style: italic; } .ds-board-track { margin: 0.8rem 0 0; display: flex; flex-wrap: wrap; gap: 0.9rem; } .ds-track-tag { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-ink-faint, #5e6870); text-decoration: none; } .ds-track-tag:hover { color: var(--color-ink, #14181b); } .ds-track-swatch { width: 0.6rem; height: 0.6rem; display: inline-block; }"
+    },
+    {
+      "name": "Publication Board (landmark)",
+      "kind": "card",
+      "refersTo": "board-landmark",
+      "description": "The >=500-citation tier. Same colour and shape, more room and a 32px title.",
+      "html": "<article class=\"ds-board ds-board-landmark\"><h2 class=\"ds-board-title\">What is Twitter, a social network or a news media?</h2><p class=\"ds-board-meta\">WWW &middot; 2010 &middot; 12,480 citations</p></article>",
+      "css": ".ds-board-landmark { padding: 2.4rem 2.4rem 2.2rem; } .ds-board-landmark .ds-board-title { font-size: 2rem; line-height: 1.3; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Square printed control. The track colour lives in the swatch; the label is always ink on stock or paper on ink.",
+      "html": "<button class=\"ds-chip\" type=\"button\"><span class=\"ds-chip-swatch\" style=\"background-color:#0284c7\"></span>Networks &amp; influence<span class=\"ds-chip-count\">18</span></button> <button class=\"ds-chip ds-chip-on\" type=\"button\"><span class=\"ds-chip-swatch\" style=\"background-color:#dc2626\"></span>Online harm<span class=\"ds-chip-count\">31</span></button>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; gap: 0.45rem; background-color: var(--color-paper, #f6f6f3); color: var(--color-ink, #14181b); font-family: Archivo, system-ui, sans-serif; border: 1px solid var(--color-rule, #d5d3cc); border-radius: 0; padding: 0.3rem 0.6rem; font-size: 12px; font-weight: 500; cursor: pointer; transition: border-color 0.12s ease, background-color 0.12s ease, color 0.12s ease; } .ds-chip:hover { border-color: var(--color-ink, #14181b); } .ds-chip:focus-visible { outline: 2px solid var(--color-accent, #990000); outline-offset: 2px; } .ds-chip-swatch { width: 0.65rem; height: 0.65rem; flex-shrink: 0; } .ds-chip-count { font-size: 11px; font-variant-numeric: tabular-nums; color: var(--color-ink-faint, #5e6870); } .ds-chip-on { background-color: var(--color-ink, #14181b); border-color: var(--color-ink, #14181b); color: var(--color-paper, #f6f6f3); } .ds-chip-on .ds-chip-count { color: color-mix(in srgb, var(--color-paper, #f6f6f3) 70%, transparent); }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": null,
+      "description": "Square stock rectangle with a rule-coloured hairline. Focus uses the global crimson ring, not a per-field treatment.",
+      "html": "<input class=\"ds-field\" type=\"search\" placeholder=\"Search title, author, venue, year…\" />",
+      "css": ".ds-field { background-color: var(--color-paper, #f6f6f3); color: var(--color-ink, #14181b); font-family: Archivo, system-ui, sans-serif; border: 1px solid var(--color-rule, #d5d3cc); border-radius: 0; padding: 0.5rem 0.7rem; font-size: 0.875rem; } .ds-field::placeholder { color: var(--color-ink-faint, #5e6870); } .ds-field:hover { border-color: var(--color-ink-faint, #5e6870); } .ds-field:focus-visible { outline: 2px solid var(--color-accent, #990000); outline-offset: 2px; border-radius: 1px; }"
+    },
+    {
+      "name": "Directory Strip (navigation)",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Fabric bar carrying signage. The current destination is a solid crimson block — the strip's only colour.",
+      "html": "<header class=\"ds-strip\"><a class=\"ds-strip-badge\" href=\"#\">SoDA</a><nav><a class=\"ds-dest\" href=\"#\">Home</a><a class=\"ds-dest ds-dest-here\" href=\"#\">Publications</a><a class=\"ds-dest\" href=\"#\">Team</a></nav></header>",
+      "css": ".ds-strip { display: flex; align-items: center; justify-content: space-between; gap: 1rem; background-color: #46525c; background-image: repeating-linear-gradient(90deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 3px), repeating-linear-gradient(0deg, rgba(0,0,0,0.05) 0 1px, transparent 1px 3px); padding: 1rem 1.5rem; font-family: Archivo, system-ui, sans-serif; } .ds-strip-badge { display: grid; place-items: center; width: 2.75rem; height: 2.75rem; background-color: var(--color-paper, #f6f6f3); color: var(--color-ink, #14181b); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-decoration: none; box-shadow: 0 1px 2px rgba(20,24,27,0.10), 0 8px 20px -6px rgba(20,24,27,0.22); } .ds-dest { display: inline-block; padding: 0.625rem 0.75rem; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; color: color-mix(in srgb, var(--color-paper, #f6f6f3) 72%, transparent); transition: color 0.15s ease, background-color 0.15s ease; } .ds-dest:hover { color: var(--color-paper, #f6f6f3); background-color: color-mix(in srgb, var(--color-paper, #f6f6f3) 10%, transparent); } .ds-dest-here, .ds-dest-here:hover { background-color: var(--color-accent, #990000); color: var(--color-paper, #f6f6f3); } .ds-dest:focus-visible { outline: 2px solid var(--color-paper, #f6f6f3); outline-offset: 2px; }"
+    },
+    {
+      "name": "Page Masthead",
+      "kind": "custom",
+      "refersTo": "masthead",
+      "description": "Full-bleed fabric band at the head of a page. Words stay in the reading column; the fabric runs the width of the hall.",
+      "html": "<section class=\"ds-masthead\"><div class=\"ds-masthead-inner\"><h1 class=\"ds-masthead-title\">Publications</h1><p class=\"ds-masthead-lede\">140 boards. Size follows citations, refreshed weekly from Google Scholar.</p></div></section>",
+      "css": ".ds-masthead { background-color: #46525c; background-image: repeating-linear-gradient(90deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 3px), repeating-linear-gradient(0deg, rgba(0,0,0,0.05) 0 1px, transparent 1px 3px); padding: 2.5rem 0; font-family: Archivo, system-ui, sans-serif; } .ds-masthead-inner { max-width: 64rem; margin: 0 auto; padding: 0 1.5rem; } .ds-masthead-title { margin: 0; font-size: clamp(30px, 4.2vw, 46px); font-weight: 600; letter-spacing: -0.03em; line-height: 1.1; color: var(--color-paper, #f6f6f3); } .ds-masthead-lede { margin: 0.6rem 0 0; max-width: 52ch; font-size: 0.9375rem; line-height: 1.6; color: color-mix(in srgb, var(--color-paper, #f6f6f3) 78%, transparent); }"
+    },
+    {
+      "name": "Notice with Stamps",
+      "kind": "custom",
+      "refersTo": "notice-head",
+      "description": "A pinned official notice. Ink head bar, hairline ring, one stamp per row so a closed door reads closed instead of being quietly absent.",
+      "html": "<div class=\"ds-notice\"><p class=\"ds-notice-head\">Current availability</p><ul class=\"ds-notice-list\"><li><span class=\"ds-stamp ds-stamp-closed\">Closed</span>Postdoc positions.</li><li><span class=\"ds-stamp ds-stamp-open\">Open</span>PhD admissions, on the regular Luddy cycle.</li></ul></div>",
+      "css": ".ds-notice { background-color: var(--color-paper, #f6f6f3); box-shadow: inset 0 0 0 1px var(--color-rule, #d5d3cc); border-radius: 0; padding: 0; font-family: Archivo, system-ui, sans-serif; } .ds-notice-head { margin: 0; background-color: var(--color-ink, #14181b); color: var(--color-paper, #f6f6f3); padding: 0.45rem 1.15rem; font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; } .ds-notice-list { margin: 0; padding: 0.7rem 1.15rem 1rem; list-style: none; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.9375rem; line-height: 1.6; color: var(--color-ink-soft, #4a545c); } .ds-stamp { display: inline-block; margin-right: 0.5rem; padding: 0.1rem 0.4rem; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; vertical-align: 0.1em; } .ds-stamp-closed { background-color: var(--color-ink, #14181b); color: var(--color-paper, #f6f6f3); } .ds-stamp-open { background-color: var(--color-accent, #990000); color: var(--color-paper, #f6f6f3); }"
+    },
+    {
+      "name": "Reading Column",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "The .read treatment: Literata at a real measure, used for anything a visitor reads in sentences.",
+      "html": "<p class=\"ds-read\">We focus on human behavior on online platforms: its measurement, understanding, design, and the assessment of its implications.</p>",
+      "css": ".ds-read { font-family: Literata, Georgia, 'Times New Roman', serif; max-width: 68ch; line-height: 1.6; font-size: 1rem; color: var(--color-ink-soft, #4a545c); margin: 0; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Poster Hall",
+    "overview": "The site is a conference poster session, not a publication ledger. Three materials carry everything: the hall floor (#eaeae7) you stand on, the board fabric (#46525c) you face, and the poster stock (#f6f6f3) pinned to it. Nothing else is a surface. The page ground is always the floor; a .board is only applied where a board actually stands (the header strip, a page masthead, the home hero); .stock is only applied to a sheet that is pinned to something. The fabric carries a real 3px weave built from two repeating-linear-gradient layers, tight enough to read as material up close and to flatten into a field from a distance — it is a material, never a page-wide grain.\n\nThe system's one structural claim is that size is meaning. A publication board's physical size is set by its citation count, so a landmark paper and a workshop preprint are visibly not the same object from down the aisle. That replaces the size ladder inside a single card: page-level hierarchy is carried by the tier, not by stacking five type sizes inside one board.\n\nColour is rationed hard. IU crimson (#990000) is the only action colour and the only colour the navigation strip is allowed; the eight research-topic hues were demoted from decoration to data and appear exclusively as small printed squares. Every corner is square. There is no monospace anywhere.",
+    "keyCharacteristics": [
+      "Three materials only: hall floor, board fabric, poster stock.",
+      "Citation count sets board size (landmark / major / standard).",
+      "One accent (IU crimson) for actions, board tags, and \"you are here\".",
+      "Topic hues are swatches, never text.",
+      "Zero border-radius; hairlines are inset rings, not borders.",
+      "Archivo for signage and headings, Literata for reading. No monospace.",
+      "Tabular figures globally — every number on the site is a measurement."
+    ],
+    "rules": [
+      { "name": "The Swatch-Only Rule", "body": "A track colour may only be a filled square of at most 0.65rem, or the stroke of a line illustration. It is never text colour, never a border, never a ground behind text. Audit test: five of the eight hues fail WCAG AA as text on stock (#d97706 2.94:1, #0d9488 3.46:1, #0284c7 3.78:1, #db2777 4.25:1, #dc2626 4.46:1), so the rule is not a preference — it is the only way the taxonomy stays legible.", "section": "colors" },
+      { "name": "The One Crimson Rule", "body": "Crimson is the site's only chromatic accent. If a new element needs to look important and is not an action, a board address, or the current destination, it gets weight or inversion, not colour.", "section": "colors" },
+      { "name": "The 4.5 Floor", "body": "Every text-on-ground pair ships at 4.5:1 or better and the measured number is recorded. Paper at 72% over fabric (#c5c8c9, used for nav destinations and the header tagline) sits at 4.76:1; the masthead lede uses 78% (5.26:1). An earlier tint failed AA and had to be replaced, so treat these percentages as floors, not as styling knobs.", "section": "colors" },
+      { "name": "The No-Mono Rule", "body": "Years, citation counts, board numbers, and filter counts are measurements, not code. font-variant-numeric: tabular-nums is set on html, so Archivo's tabular figures align them in columns. Never introduce a monospace face to make something look technical.", "section": "typography" },
+      { "name": "The Two-Voice Rule", "body": "Archivo speaks for the hall (signage, headings, labels, controls); Literata speaks for the sheet (anything set with .read). A block does not switch voice mid-way, and a caption never gets the serif.", "section": "typography" },
+      { "name": "The 68ch Rule", "body": "Reading text is capped at 68ch by .read; the masthead lede at 52ch; the research hero lede at 36ch. A paragraph that has no measure cap is a bug.", "section": "typography" },
+      { "name": "The Pinned-Sheet Rule", "body": "Depth exists only where paper meets fabric. If a surface is not a sheet, it is flat: filter chips, buttons, stamps, and nav destinations get inversion or a 1px rule, never a shadow.", "section": "elevation" },
+      { "name": "The Square Rule", "body": "Border-radius is 0. A rounded pill or a rounded card is out of world; if an element needs to feel lighter, reduce its weight or its contrast, not its corners.", "section": "shapes" },
+      { "name": "The Crowd Rule", "body": "A board's size is its citation count and nothing else. Never resize a board to promote it editorially — use highlight to feature it and let the tier stand.", "section": "components" },
+      { "name": "The Unnumbered Host Rule", "body": "The crimson 01-style tag addresses the work. The lab's own board on the home page deliberately carries no number; featured boards are addressed from 01 upward.", "section": "components" },
+      { "name": "The Sub-Head Address Rule", "body": "The numbered kicker (an inverted-ink number plus the track name) sits below its h3, never above it. A small label above a heading is banned outright; the same content reads as an address when it follows the headline.", "section": "components" }
+    ],
+    "dos": [
+      "Do put a new surface on one of the three materials: hall floor, .board fabric, or .stock paper. Anything else is out of world.",
+      "Do bleed fabric to 100vw with .board-bleed and keep its words in a nested max-w-5xl px-6 wrapper.",
+      "Do express a topic colour as a filled square of at most 0.65rem, with the label beside it in --color-ink or --color-ink-faint.",
+      "Do record the measured contrast ratio when introducing a new text/ground pair, and keep it at 4.5:1 or better.",
+      "Do use .read for anything a visitor reads in sentences, and leave scanned text in Archivo.",
+      "Do reach for weight, size, or inversion (ink ground / paper text) when something needs emphasis — that is this system's entire emphasis vocabulary.",
+      "Do use an inset ring (inset 0 0 0 1px) for hairlines so a border never shifts layout.",
+      "Do gate any autoplay or transform behind prefers-reduced-motion."
+    ],
+    "donts": [
+      "Don't use a track colour as text, as a border, or as a ground behind text.",
+      "Don't add a second accent. Crimson is the only chromatic action colour.",
+      "Don't introduce a monospace face. Tabular Archivo figures are already the answer for numbers.",
+      "Don't put a small uppercase label or eyebrow above a heading. If the content is needed, it goes below the heading as a kicker.",
+      "Don't round anything. No pills, no rounded cards, no rounded buttons.",
+      "Don't ship gradient text, a coloured border-left callout, or any glass / backdrop-blur decoration.",
+      "Don't apply the .stock shadow to a control, a chip, or a fabric band.",
+      "Don't apply the fabric weave as a page-wide texture; it belongs only where a board actually is.",
+      "Don't resize a publication board by hand. Tier follows citations.",
+      "Don't stack four or five type sizes inside a single board to create hierarchy. Hierarchy across the page is the tier's job."
+    ]
+  }
+}

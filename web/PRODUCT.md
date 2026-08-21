@@ -101,8 +101,9 @@ hand-edited and changes rarely.
 - Name: SoDA Lab, the Social Data and AI Lab at Indiana University Bloomington.
   Mark at `public/sodalab-mark.svg`.
 - **No em dashes anywhere in site copy.** Confirmed as a site-wide rule, not
-  just a rule for publication descriptions. `src/pages/openings.astro` currently
-  violates it in four places.
+  just a rule for publication descriptions. Site copy is currently clean; the
+  only remaining em dashes in the tree are inside JSX comments, which never
+  render.
 - Publication descriptions follow a fixed voice: 200 to 350 characters, opening
   with a question or hook, then what the work did and what it found.
 - The eight-topic taxonomy is product terminology, not decoration: online-harm,

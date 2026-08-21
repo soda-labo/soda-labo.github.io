@@ -15,16 +15,14 @@
   --color-paper:      #f6f6f3;  /* poster stock */
   --color-paper-2:    #e2e2dd;  /* stock in shadow */
   --color-board:      #46525c;  /* board fabric */
-  --color-board-deep: #38424b;  /* fabric in the fold */
   --color-ink:        #14181b;
   --color-ink-soft:   #4a545c;
-  --color-ink-faint:  #7d8891;
+  --color-ink-faint:  #5e6870;
   --color-rule:       #d5d3cc;
 
   /* IU crimson. It is the board number tag and the one action colour, and it
      is the institution's own, not a decorative pick. */
   --color-accent:      #990000;
-  --color-accent-soft: #f2e4e4;
 }
 
 html {

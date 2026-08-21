@@ -62,24 +62,6 @@ export function topicName(t: string): string {
   return (TOPIC_NAMES as Record<string, string>)[t] ?? t;
 }
 
-/** Solid pill — used on cards. */
-export function pillStyle(t: string): string {
-  const c = topicColor(t);
-  return `background-color:${c.bg};color:${c.fg};`;
-}
-
-/** Outlined chip — used in the filter row when inactive. */
-export function chipStyle(t: string): string {
-  const c = topicColor(t);
-  return `border-color:${c.bg};color:${c.bg};`;
-}
-
-/** Filled chip — used in the filter row when active. */
-export function chipActiveStyle(t: string): string {
-  const c = topicColor(t);
-  return `background-color:${c.bg};color:${c.fg};border-color:${c.bg};`;
-}
-
 // ─── Title-rule classification (used for uncurated 2024+ papers) ────────────
 
 type Rule = { re: RegExp; topic: Topic };
@@ -142,30 +124,10 @@ export const METHOD_NAMES: Record<Method, string> = {
   "dataset":      "Dataset",
 };
 
-const METHOD_COLORS: Record<Method, string> = {
-  "llm":          "#0d9488", // teal — matches AI vibe
-  "nlp":          "#475569", // slate — text/NLP
-  "networks":     "#0284c7", // sky — networks
-  "crowdsourced": "#c2410c", // orange — human labor
-  "user-study":   "#65a30d", // lime — empirical
-  "dataset":      "#a16207", // mustard — resources
-};
 
 export function methodName(m: string): string {
   return (METHOD_NAMES as Record<string, string>)[m] ?? m;
 }
-export function methodColor(m: string): string {
-  return (METHOD_COLORS as Record<string, string>)[m] ?? "#6b7280";
-}
-export function methodChipStyle(m: string): string {
-  const c = methodColor(m);
-  return `border-color:${c};color:${c};background-color:white;border-width:1px;border-style:solid;`;
-}
-export function methodChipActiveStyle(m: string): string {
-  const c = methodColor(m);
-  return `background-color:${c};color:white;border-color:${c};border-width:1px;border-style:solid;`;
-}
-
 // Methods detection rules. Multiple can match per paper.
 const METHOD_RULES: { re: RegExp; method: Method }[] = [
   { re: /\b(LLM|LLMs|ChatGPT|GPT[- ]?\d|GPT-?[345]|FlanT5|DeepSeek|large language model|generative AI)/i, method: "llm" },

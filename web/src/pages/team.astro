@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Masthead from "../components/Masthead.astro";
 import Email from "../components/Email.astro";
 import { loadMembers } from "../lib/members";
 
@@ -7,10 +8,7 @@ const members = loadMembers();
 ---
 
 <Base title="Team · SoDA Lab">
-  <header class="mb-10">
-    <h1 class="text-3xl font-semibold tracking-tight">Team</h1>
-    <p class="mt-2 text-[var(--color-ink-soft)]">The people behind SoDA Lab.</p>
-  </header>
+  <Masthead title="Team" lede="The people behind SoDA Lab." />
 
   <section class="mb-14">
     <h2 class="mb-5 border-b pb-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--color-ink-faint)]" style="border-color: var(--color-rule);">Faculty</h2>

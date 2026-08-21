@@ -114,7 +114,7 @@ const searchText = [
     position: absolute;
     top: 0; left: 0;
     transform: translate(-0.4rem, -0.6rem);
-    background-color: var(--color-ink);
+    background-color: var(--color-accent);
     color: var(--color-paper);
     font-size: 11px;
     font-weight: 700;
@@ -194,11 +194,24 @@ const searchText = [
   .is-landmark .pub-abstract { font-size: 1.125rem; }
 
   @media (max-width: 640px) {
-    .pub-board { padding: 1.15rem 1.15rem 1.1rem; }
-    .is-major { padding: 1.35rem 1.35rem 1.3rem; }
-    .is-landmark { padding: 1.6rem 1.6rem 1.5rem; }
+    .pub-board { padding: 1.1rem 1.1rem 1rem; }
+    .pub-title { font-size: 1.0625rem; }
+    /* A standard board's 72px figure crop is unreadable and steals the title
+       its measure, so only boards that earned the room keep one. */
     .pub-figure { display: none; }
-    .is-landmark .pub-title { font-size: 1.5rem; }
-    .is-major .pub-title { font-size: 1.3125rem; }
+
+    .is-major { padding: 1.5rem 1.4rem 1.4rem; }
+    .is-major .pub-title { font-size: 1.375rem; }
+
+    .is-landmark { padding: 2rem 1.6rem 1.8rem; }
+    .is-landmark .pub-title { font-size: 1.875rem; }
+    .is-landmark .pub-abstract { font-size: 1.0625rem; }
+    .is-landmark .pub-body { flex-direction: column; }
+    .is-landmark .pub-figure {
+      display: block;
+      width: 100%;
+      height: 11rem;
+      margin-bottom: 1rem;
+    }
   }
 </style>
