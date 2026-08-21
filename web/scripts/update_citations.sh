@@ -70,6 +70,12 @@ fi
 # 2) Sync overrides.yml with any new GS papers (additive, preserves edits)
 "$VENV/bin/python" "$SCRIPT_DIR/sync_overrides.py"
 
+# 2.5) Cache OpenAlex/Semantic Scholar IDs + abstracts for any new papers.
+#      Steps 3 and 4 look up openalex_id / s2_id from scripts/abstracts.json,
+#      so without this a freshly synced paper can never get authors or a link.
+#      Default mode only fetches entries that are missing or low-quality.
+"$VENV/bin/python" "$SCRIPT_DIR/fetch_abstracts.py"
+
 # 3) Backfill missing author lists via OpenAlex/Semantic Scholar (idempotent —
 #    skips entries that already have authors). Only hits the API for new papers
 #    that sync_overrides just added.
@@ -104,8 +110,20 @@ git status --short -- "$PUBPIC_DIR"
 
 git add "$DATA_FILE" "$OVERRIDES" "$PUBPIC_DIR"
 git commit -m "chore: refresh Scholar citations, sync overrides, optimize images ($(date +%Y-%m-%d))"
-git push origin "$BRANCH"
-echo "Pushed update to origin/$BRANCH."
+
+# Rebase onto whatever landed on the remote since last week (edits pushed from
+# another machine, bot commits, etc.), then push. Report honestly: a silent
+# "Pushed" line on a rejected push hid a month of failures once already.
+git pull --rebase --quiet origin "$BRANCH" || {
+  echo "WARN: rebase onto origin/$BRANCH failed; resolve by hand. Not pushing." >&2
+  exit 1
+}
+if git push origin "$BRANCH"; then
+  echo "Pushed update to origin/$BRANCH."
+else
+  echo "FAIL: could not push to origin/$BRANCH (commit is local only)." >&2
+  exit 1
+fi
 
 # ── Sync Haewoon's personal site stats from the same scholar cache ───────────
 # Reads scholar_cache.json (just updated above) and rewrites the
@@ -120,8 +138,18 @@ if [[ -f "$PERSONAL_REPO/update_stats.py" ]]; then
   if ! git diff --quiet -- index.html; then
     git add index.html
     git commit -m "chore: refresh Scholar stats ($(date +%Y-%m-%d))"
-    git push origin master
-    echo "Pushed personal site update."
+    # A GitHub Action in the CV repo pushes updated PDFs/haewoon_CV.pdf here,
+    # so the remote moves on its own — always rebase before pushing.
+    git pull --rebase --quiet origin master || {
+      echo "WARN: rebase onto origin/master failed in personal repo; resolve by hand." >&2
+      exit 1
+    }
+    if git push origin master; then
+      echo "Pushed personal site update."
+    else
+      echo "FAIL: could not push personal site (commit is local only)." >&2
+      exit 1
+    fi
   else
     echo "Personal site already up to date."
   fi

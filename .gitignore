@@ -28,3 +28,6 @@ yarn-debug.log*
 .env
 .env.local
 .env.*.local
+
+# Generated each sync run; regenerate locally instead of tracking churn.
+web/scripts/sync_report.md

@@ -417,11 +417,12 @@
   },
   "the-challenges-of-creating-engaging-content-results-from-a-focus-group-study-of-": {
     "title": "The Challenges of Creating Engaging Content: Results from a Focus Group Study of a Popular News Media Organization",
-    "abstract": null,
-    "method": "fail-mismatch",
     "matched_title": "The Challenges of Creating Engaging Content",
-    "doi": null,
-    "openalex_id": null
+    "abstract": "The process of content creation for distribution via social media platforms is not a trivial one for social media editors as the goal of creating both serious and engaging content is challenging, with no clear or differing guidelines or rules across and between platforms. For creators of serious content, such as news organizations, advertisers, or educational institutions, engagement has a deeper meaning beyond likes, shares, etc. that is aimed at the audience actually processing the underlying content associated with a social media post. In this research, we report findings from a group study that aimed to understand the process and challenges of creating engaging content across three social media platforms in a major news organization. The findings from the study indicate that creating engaging content is effort- and time-consuming, and they highlight the need to support the process of creating engaging content across multiple social media platforms. Our longer-term goal is to develop a system design to support social media editors' creation of engaging content with which they can select engaging passages from news articles and select platforms on which to publish the content.",
+    "method": "openalex-doi",
+    "doi": "https://doi.org/10.1145/3290607.3312810",
+    "openalex_id": "https://openalex.org/W2943525125",
+    "overlap": 0.8
   },
   "social-media-mining-for-journalism": {
     "title": "Social media mining for journalism",
@@ -525,19 +526,21 @@
   },
   "fixation-and-confusion-investigating-eye-tracking-participants-exposure-to-infor": {
     "title": "Fixation and Confusion: Investigating Eye-tracking Participants' Exposure to Information in Personas",
-    "abstract": null,
-    "method": "fail-mismatch",
     "matched_title": "Fixation and Confusion",
-    "doi": null,
-    "openalex_id": null
+    "abstract": "To more effectively convey relevant information to end users of persona profiles, we conducted a user study consisting of 29 participants engaging with three persona layout treatments. We were interested in confusion engendered by the treatments on the participants, and conducted a within-subjects study in the actual work environment, using eye-tracking and talk-aloud data collection. We coded the verbal data into classes of informativeness and confusion and correlated it with fixations and durations on the Areas of Interests recorded by the eye-tracking device. We used various analysis techniques, including Mann-Whitney, regression, and Levenshtein distance, to investigate how confused users differed from non-confused users, what information of the personas caused confusion, and what were the predictors of confusion of end users of personas. We consolidate our various findings into a confusion ratio measure, which highlights in a succinct manner the most confusing elements of the personas. Findings show that inconsistencies among the informational elements of the persona generate the most confusion, especially with the elements of images and social media quotes. The research has implications for the design of personas and related information products, such as user profiling and customer segmentation.",
+    "method": "openalex-doi",
+    "doi": "https://doi.org/10.1145/3176349.3176391",
+    "openalex_id": "https://openalex.org/W2792010632",
+    "overlap": 0.62
   },
   "is-more-better-impact-of-multiple-photos-on-perception-of-persona-profiles": {
     "title": "“Is More Better?”: Impact of Multiple Photos on Perception of Persona Profiles",
-    "abstract": null,
-    "method": "fail-mismatch",
     "matched_title": "“Is More Better?”",
-    "doi": null,
-    "openalex_id": null
+    "abstract": "In this research, we investigate if and how more photos than a single headshot can heighten the level of information provided by persona profiles. We conduct eye-tracking experiments and qualitative interviews with variations in the photos: a single headshot, a headshot and images of the persona in different contexts, and a headshot with pictures of different people representing key persona attributes. The results show that more contextual photos significantly improve the information end users derive from a persona profile; however, showing images of different people creates confusion and lowers the informativeness. Moreover, we discover that choice of pictures results in various interpretations of the persona that are biased by the end users' experiences and preconceptions. The results imply that persona creators should consider the design power of photos when creating persona profiles.",
+    "method": "openalex-doi",
+    "doi": "https://doi.org/10.1145/3173574.3173891",
+    "openalex_id": "https://openalex.org/W2795366572",
+    "overlap": 0.43
   },
   "reports-of-the-workshops-held-at-the-2017-international-aaai-conference-on-web-a": {
     "title": "Reports of the Workshops Held at the 2017 International AAAI Conference on Web and Social Media",
@@ -651,11 +654,12 @@
   },
   "who-are-your-users-comparing-media-professionals-preconception-of-users-to-data-": {
     "title": "Who Are Your Users? Comparing Media Professionals' Preconception of Users to Data-Driven Personas",
-    "abstract": null,
-    "method": "fail-mismatch",
     "matched_title": "Who are your users?",
-    "doi": null,
-    "openalex_id": null
+    "abstract": "1One of the reasons for using personas is to align user understandings across project teams and sites. As part of a larger persona study, at Al Jazeera English (AJE), we conducted 16 qualitative interviews with media producers, the end users of persona descriptions. We asked the participants about their understanding of a typical AJE media consumer, and the variety of answers shows that the understandings are not aligned and are built on a mix of own experiences, own self, assumptions, and data given by the company. The answers are sometimes aligned with the data-driven personas and sometimes not. The end users are divided in two groups: news producers who have little interest in having data-based insights of news consumers and producers for social media platforms who have more interest in this information.",
+    "method": "openalex-doi",
+    "doi": "https://doi.org/10.1145/3152771.3156178",
+    "openalex_id": "https://openalex.org/W2780782197",
+    "overlap": 0.5
   },
   "generating-cultural-personas-from-social-data-a-perspective-of-middle-eastern-us": {
     "title": "Generating Cultural Personas from Social Data: A Perspective of Middle Eastern Users",
@@ -689,11 +693,12 @@
   },
   "multidimensional-analysis-of-gender-and-age-differences-in-news-consumption": {
     "title": "Multidimensional Analysis of Gender and Age Differences in News Consumption",
-    "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "How artificial intelligence will change the future of marketing",
-    "doi": null,
-    "openalex_id": null
+    "matched_title": "Perfectionism is increasing over time: A meta-analysis of birth cohort differences from 1989 to 2016.",
+    "abstract": "From the 1980s onward, neoliberal governance in the United States, Canada, and the United Kingdom has emphasized competitive individualism and people have seemingly responded, in kind, by agitating to perfect themselves and their lifestyles. In this study, the authors examine whether cultural changes have coincided with an increase in multidimensional perfectionism in college students over the last 27 years. Their analyses are based on 164 samples and 41,641 American, Canadian, and British college students, who completed the Multidimensional Perfectionism Scale (Hewitt & Flett, 1991) between 1989 and 2016 (70.92% female, Mage = 20.66). Cross-temporal meta-analysis revealed that levels of self-oriented perfectionism, socially prescribed perfectionism, and other-oriented perfectionism have linearly increased. These trends remained when controlling for gender and between-country differences in perfectionism scores. Overall, in order of magnitude of the observed increase, the findings indicate that recent generations of young people perceive that others are more demanding of them, are more demanding of others, and are more demanding of themselves. (PsycINFO Database Record (c) 2019 APA, all rights reserved).",
+    "method": "openalex-title",
+    "doi": "https://doi.org/10.1037/bul0000138",
+    "openalex_id": "https://openalex.org/W2775780184",
+    "overlap": 0.6
   },
   "revealing-the-hidden-patterns-of-news-photos-analysis-of-millions-of-news-photos": {
     "title": "Revealing the Hidden Patterns of News Photos: Analysis of Millions of News Photos Using GDELT and Deep Learning-based Vision APIs",
@@ -749,7 +754,7 @@
     "title": "Consumers and Suppliers: Attention asymmetries. A Case Study of Aljazeera’s News Coverage and Comments",
     "abstract": null,
     "method": "fail-mismatch",
-    "matched_title": "Imaginary People Representing Real Numbers",
+    "matched_title": "Measuring, understanding, and classifying news media sympathy on Twitter after crisis events",
     "doi": null,
     "openalex_id": null
   },
@@ -775,11 +780,12 @@
   },
   "from-cells-to-streets-estimating-mobile-paths-with-cellular-side-data": {
     "title": "From Cells to Streets: Estimating Mobile Paths with Cellular-Side Data",
-    "abstract": null,
-    "method": "fail-mismatch",
     "matched_title": "From Cells to Streets",
-    "doi": null,
-    "openalex_id": null
+    "abstract": "Through their normal operation, cellular networks are a repository of continuous location information from their subscribed devices. Such information, however, comes at a coarse granularity both in terms of space, as well as time. For otherwise inactive devices, location information can be obtained at the granularity of the associated cellular sector, and at infrequent points in time, that are sensitive to the structure of the network itself, and the level of mobility of the device. In this paper, we are asking the question of whether such sparse information can help to identify the paths followed by mobile connected devices throughout the day. If such a task is possible, then we would not only enable continuous mobility path estimation for smartphones, but also for the millions of future connected \"things\".",
+    "method": "openalex-doi",
+    "doi": "https://doi.org/10.1145/2674005.2674982",
+    "openalex_id": "https://openalex.org/W2112352770",
+    "overlap": 0.43
   },
   "understanding-news-geography-and-major-determinants-of-global-news-coverage-of-d": {
     "title": "Understanding News Geography and Major Determinants of Global News Coverage of Disasters",
@@ -843,11 +849,12 @@
   },
   "has-much-potential-but-biased-exploring-the-scholarly-landscape-in-twitter": {
     "title": "Has Much Potential but Biased: Exploring the Scholarly Landscape in Twitter",
-    "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "Setting the future of digital and social media marketing research: Perspectives and research propositions",
-    "doi": null,
-    "openalex_id": null
+    "matched_title": "Has much potential but biased",
+    "abstract": "We explore how research papers are shared in Twitter to understand its potential and limitation of the current practice that measures or predicts the scientific impact of research papers from the web. We track 54 second-level domains offering the top 100 journals listed in Google Scholar and collect 403,165 tweets sharing 75,677 unique research papers by 142,743 users over the course of 135 days. Our findings show the great potential of Twitter as a platform for paper sharing, but at the same time, indicate the limitations of measuring scientific impact through the lens of social media mainly due to the highly skewed and limited attention to few number of top journals.",
+    "method": "openalex-doi",
+    "doi": "https://doi.org/10.1145/2567948.2576956",
+    "openalex_id": "https://openalex.org/W51093743",
+    "overlap": 0.33
   },
   "sharing-political-news-the-balancing-act-of-intimacy-and-socialization-in-select": {
     "title": "Sharing political news: the balancing act of intimacy and socialization in selective exposure",
@@ -871,11 +878,12 @@
   },
   "partisan-sharing-facebook-evidence-and-societal-consequences": {
     "title": "Partisan Sharing: Facebook Evidence and Societal Consequences",
-    "abstract": null,
-    "method": "fail-mismatch",
     "matched_title": "Partisan sharing",
-    "doi": null,
-    "openalex_id": null
+    "abstract": "The hypothesis of selective exposure assumes that people seek out information that supports their views and eschew information that conflicts with their beliefs, and that has negative consequences on our society. Few researchers have recently found counter evidence of selective exposure in social media: users are exposed to politically diverse articles. No work has looked at what happens after exposure, particularly how individuals react to such exposure, though. Users might well be exposed to diverse articles but share only the partisan ones. To test this, we study partisan sharing on Facebook: the tendency for users to predominantly share like-minded news articles and avoid conflicting ones. We verified four main hypotheses. That is, whether partisan sharing: 1) exists at all; 2) changes across individuals (e.g., depending on their interest in politics); 3) changes over time (e.g., around elections); and 4) changes depending on perceived importance of topics. We indeed find strong evidence for partisan sharing. To test whether it has any consequence in the real world, we built a web application for BBC viewers of a popular political program, resulting in a controlled experiment involving more than 70 individuals. Based on what they share and on survey data, we find that partisan sharing has negative consequences: distorted perception of reality. However, we do also find positive aspects of partisan sharing: it is associated with people who are more knowledgeable about politics and engage more with it as they are more likely to vote in the general elections.",
+    "method": "openalex-doi",
+    "doi": "https://doi.org/10.1145/2660460.2660469",
+    "openalex_id": "https://openalex.org/W2075000550",
+    "overlap": 0.83
   },
   "tower-of-babel-a-crowdsourcing-game-building-sentiment-lexicons-for-resource-sca": {
     "title": "Tower of Babel: A Crowdsourcing Game Building Sentiment Lexicons for Resource-scarce Languages",
@@ -927,11 +935,12 @@
   },
   "fragmented-social-media-a-look-into-selective-exposure-to-political-news": {
     "title": "Fragmented Social Media: A Look into Selective Exposure to Political News",
-    "abstract": null,
-    "method": "fail-mismatch",
     "matched_title": "Fragmented social media",
-    "doi": null,
-    "openalex_id": null
+    "abstract": "The hypothesis of selective exposure assumes that people crave like-minded information and eschew information that conflicts with their beliefs, and that has negative consequences on political life. Yet, despite decades of research, this hypothesis remains theoretically promising but empirically difficult to test. We look into news articles shared on Facebook and examine whether selective exposure exists or not in social media. We find a concrete evidence for a tendency that users predominantly share like-minded news articles and avoid conflicting ones, and partisans are more likely to do that. Building tools to counter partisanship on social media would require the ability to identify partisan users first. We will show that those users cannot be distinguished from the average user as the two subgroups do not show any demographic difference.",
+    "method": "openalex-doi",
+    "doi": "https://doi.org/10.1145/2487788.2487807",
+    "openalex_id": "https://openalex.org/W134656973",
+    "overlap": 0.88
   },
   "more-of-a-receiver-than-a-giver-why-do-people-unfollow-in-twitter": {
     "title": "More of a Receiver than a Giver: Why Do People Unfollow in Twitter?",
@@ -1173,7 +1182,7 @@
     "title": "Method for predicting reactiveness of users of mobile devices for mobile messaging",
     "abstract": null,
     "method": "fail-mismatch",
-    "matched_title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+    "matched_title": "Fast Handovers for Mobile IPv6",
     "doi": null,
     "openalex_id": null
   },
@@ -1379,7 +1388,7 @@
     "title": "Method, system and computer-readable storage mediums for estimating a route",
     "abstract": null,
     "method": "fail-mismatch",
-    "matched_title": "jvenn: an interactive Venn diagram viewer",
+    "matched_title": "Recent developments in the general atomic and molecular electronic structure system",
     "doi": null,
     "openalex_id": null
   },
@@ -1396,8 +1405,8 @@
   "system-and-method-for-extracting-users-of-similar-interests-between-various-type": {
     "title": "System and method for extracting users of similar interests between various types of web servers",
     "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
+    "method": "fail",
+    "matched_title": null,
     "doi": null,
     "openalex_id": null
   },
@@ -1444,18 +1453,19 @@
   "combining-behaviors-and-demographics-to-segment-online-audiences-experiments-wit": {
     "title": "Combining behaviors and demographics to segment online audiences: Experiments with a youtube channel",
     "abstract": null,
-    "method": "fail",
-    "matched_title": null,
+    "method": "fail-mismatch",
+    "matched_title": "An experiment of campaign effects during the YouTube election",
     "doi": null,
     "openalex_id": null
   },
   "exploring-the-solution-space-of-community-detection-methods": {
     "title": "Exploring the Solution Space of Community Detection Methods",
-    "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "Gradient-based learning applied to document recognition",
-    "doi": null,
-    "openalex_id": null
+    "matched_title": "From Louvain to Leiden: guaranteeing well-connected communities",
+    "abstract": "Community detection is often used to understand the structure of large and complex networks. One of the most popular algorithms for uncovering community structure is the so-called Louvain algorithm. We show that this algorithm has a major defect that largely went unnoticed until now: the Louvain algorithm may yield arbitrarily badly connected communities. In the worst case, communities may even be disconnected, especially when running the algorithm iteratively. In our experimental analysis, we observe that up to 25% of the communities are badly connected and up to 16% are disconnected. To address this problem, we introduce the Leiden algorithm. We prove that the Leiden algorithm yields communities that are guaranteed to be connected. In addition, we prove that, when the Leiden algorithm is applied iteratively, it converges to a partition in which all subsets of all communities are locally optimally assigned. Furthermore, by relying on a fast local move approach, the Leiden algorithm runs faster than the Louvain algorithm. We demonstrate the performance of the Leiden algorithm for several benchmark and real-world networks. We find that the Leiden algorithm is faster than the Louvain algorithm and uncovers better partitions, in addition to providing explicit guarantees.",
+    "method": "openalex-title",
+    "doi": "https://doi.org/10.1038/s41598-019-41695-z",
+    "openalex_id": "https://openalex.org/W2897249806",
+    "overlap": 0.4
   },
   "plurule-a-benchmark-for-moderating-pluralistic-communities-on-social-media": {
     "title": "PluRule: A Benchmark for Moderating Pluralistic Communities on Social Media",
@@ -1548,12 +1558,14 @@
     "overlap": 0.78
   },
   "a-benchmark-for-zero-shot-belief-inference-in-large-language-models": {
-    "title": "A Benchmark for Zero-Shot Belief Inference in Large Language Models",
-    "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "QuBE: Question-based Belief Enhancement for Agentic LLM Reasoning",
+    "title": "What Helps Language Models Predict Human Beliefs: Demographics or Prior Stances?",
+    "matched_title": "What Helps Language Models Predict Human Beliefs: Demographics or Prior Stances?",
+    "abstract": "Beliefs shape how people reason, communicate, and behave. Rather than existing in isolation, they exhibit a rich correlational structure--some connected through logical dependencies, others through indirect associations or social processes. As usage of large language models (LLMs) becomes more ubiquitous in our society, LLMs'ability to understand and reason through human beliefs has many implications from privacy issues to personalized persuasion and the potential for stereotyping. Yet how LLMs capture this interrelated landscape of beliefs remains unclear. For instance, when predicting someone's beliefs, what information affects the prediction most--who they are (demographics), what else they believe (prior stances), or a combination of both? We address these questions using data from an online debate platform, evaluating the ability of off-the-shelf open-weight LLMs to predict individuals'stance under four conditions: no context, demographics only, prior beliefs only, and both combined. We find that both types of information improve predictions over a blind baseline, with their combination yielding the best performance in most cases. However, the relative value of each varies substantially across belief domains. These findings reveal how current LLMs leverage different types of social information when reasoning about human beliefs, highlighting both their capabilities and limitations.",
+    "method": "s2-title",
     "doi": null,
-    "openalex_id": null
+    "openalex_id": null,
+    "s2_id": "db456e11fb79056b7d5cc83d6fcd05f6eb3509e8",
+    "overlap": 0.88
   },
   "can-lessons-from-human-teams-be-applied-to-multi-agent-systems-the-role-of-struc": {
     "title": "Can Lessons From Human Teams Be Applied to Multi-Agent Systems? The Role of Structure, Diversity, and Interaction Dynamics",
@@ -1598,8 +1610,8 @@
   "egg-2014-exploration-on-games-and-gamers-introduction": {
     "title": "EGG 2014: Exploration on Games and Gamers-Introduction",
     "abstract": null,
-    "method": "fail",
-    "matched_title": null,
+    "method": "fail-mismatch",
+    "matched_title": "Introduction—Platforms and Infrastructures in the Digital Age",
     "doi": null,
     "openalex_id": null
   },
@@ -1803,15 +1815,15 @@
     "title": "Proceedings of the Nineteenth International AAAI Conference on Web and Social Media",
     "abstract": null,
     "method": "fail-mismatch",
-    "matched_title": "Interactive machine learning for health informatics: when do we need the human-in-the-loop?",
+    "matched_title": "Rapid assessment of disaster damage using social media activity",
     "doi": null,
     "openalex_id": null
   },
   "is-deepseek-a-new-voice-among-llms-in-public-opinion-simulation": {
     "title": "Is DeepSeek a New Voice Among LLMs in Public Opinion Simulation?",
     "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "Artificial Intelligence Adoption in SMEs: Survey Based on TOE–DOI Framework, Primary Methodology and Challenges",
+    "method": "fail",
+    "matched_title": null,
     "doi": null,
     "openalex_id": null
   },
@@ -1837,11 +1849,12 @@
   },
   "introduction-to-ph-d-symposium": {
     "title": "Introduction to Ph. D. Symposium",
-    "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
-    "doi": null,
-    "openalex_id": null
+    "matched_title": "36th International Symposium on Intensive Care and Emergency Medicine",
+    "abstract": "Introduction: Intravenous(IV) immunoglobulin(Ig) treatment is known to alleviate behavioral deficits in the experimentally induced model of sepsis. To delineate the mechanisms by which IVIg treatment prevents neuronal dysfunction, an array of immunological and apoptosis markers was investigated. Methods: Sepsis was induced by cecal ligation perforation(CLP) in rats. The animals were divided into five groups; sham, control, CLP + saline, CLP + immunoglobulin G IgG(250 mg/kg,iv), and CLP + immunoglobulins enriched with immunoglobulin M-IgGAM(250 mg/kg,iv). Blood and brain samples were taken in two sets of experiments after CLP to see the early(24 hrs) and late(10 days) effects of treatment. Total complement activity, complement 3(C3) and soluble complement C5b-9 levels were measured in sera of rats using ELISA-based methods. Cerebral complement content was analyzed by Western Blot. Immune cell infiltration and gliosis were examined by immunohistochemistry using cluster of differentiation 3, CD4, CD8, CD11b, CD19 and glial fibrillary acidic protein antibodies. Apoptotic neuronal death was investigated by TUNEL staining and Western Blot-based semi-quantitative evaluation of brain homogenates by bax and bcl-2 antibodies. Results: IV IgG and IgGAM administration significantly reduced systemic complement activity but increased serum C3 and soluble C5b-9 levels. Likewise, Western Blot data showed slightly increased C5b-9 expression and significantly reduced C1q expression in brain samples of IgGAM-treated but not IgG-treated septic rats especially in the first day of administration. No cerebral cellular infiltrates were observed in treated and non-treated septic rats. By contrast, IV IgG and IgGAM treatment induced considerable amelioration in glial cell proliferation which was increased in non-treated rats. IgG and IgGAM treated rats exhibited significantly reduced numbers of apoptotic neurons and cerebral expression levels of bax and bcl-2 as compared to nontreated rats. Conclusions: We suggest that IV IgG and IgGAM administration ameliorates neuronal dysfunction and behavioral deficits by reducing apoptotic cell death and glial cell proliferation. IgGAM treatment might be suppressing classical complement pathway by reducing C1q expression.",
+    "method": "openalex-title",
+    "doi": "https://doi.org/10.1186/s13054-016-1208-6",
+    "openalex_id": "https://openalex.org/W2541851166",
+    "overlap": 0.5
   },
   "reports-of-the-workshops-held-at-the-2020-international-association-for-the-adva": {
     "title": "Reports of the Workshops Held at the 2020 International Association for the Advancement of Artificial Intelligence Conference on Web and Social Media",
@@ -1893,16 +1906,54 @@
     "title": "ENCODING URBAN TRAJECTORY AS A SENTENCE: DEEP LEARNING INSIGHTS FOR HUMAN MOBILITY PATTERN",
     "abstract": null,
     "method": "fail-mismatch",
-    "matched_title": "Language and Superdiversity",
+    "matched_title": "Deep Learning in Mobile and Wireless Networking: A Survey",
     "doi": null,
     "openalex_id": null
   },
   "understanding-effects-of-editing-tweets-for-news-sharing-by-media-accounts-throu": {
-    "title": "Understanding Effects of Editing Tweets for News Sharing by Media Accounts through a Causal Inference Framework [Please cite our ICWSM’21 version of this paper]",
-    "abstract": null,
-    "method": "fail",
-    "matched_title": null,
+    "title": "Understanding Effects of Editing Tweets for News Sharing by Media Accounts through a Causal Inference Framework",
+    "matched_title": "Understanding Effects of Editing Tweets for News Sharing by Media Accounts through a Causal Inference Framework.",
+    "abstract": "To reach a broader audience and optimize traffic toward news articles, media outlets commonly run social media accounts and share their content with a short text summary. Despite its importance of writing a compelling message in sharing articles, research community does not own a sufficient level of understanding of what kinds of editing strategies are effective in promoting audience engagement. In this study, we aim to fill the gap by analyzing the current practices of media outlets using a data-driven approach. We first build a parallel corpus of original news articles and their corresponding tweets that were shared by eight media outlets. Then, we explore how those media edited tweets against original headlines, and the effects would be. To estimate the effects of editing news headlines for social media sharing in audience engagement, we present a systematic analysis that incorporates a causal inference technique with deep learning; using propensity score matching, it allows for estimating potential (dis-)advantages of an editing style compared to counterfactual cases where a similar news article is shared with a different style. According to the analyses of various editing styles, we report common and differing effects of the styles across the outlets. To understand the effects of various editing styles, media outlets could apply our easy-to-use tool by themselves.",
+    "method": "openalex-title",
     "doi": null,
-    "openalex_id": null
+    "openalex_id": "https://openalex.org/W3085393897",
+    "overlap": 0.91
+  },
+  "somatic-in-the-east-psychological-in-the-west-a-clinically-grounded-evaluation-o": {
+    "title": "Somatic in the East, Psychological in the West?: A Clinically-Grounded Evaluation of Cross-Cultural Depression Symptoms in LLMs",
+    "matched_title": "Somatic in the East, Psychological in the West?: A Clinically-Grounded Evaluation of Cross-Cultural Depression Symptoms in LLMs",
+    "abstract": "Large language models (LLMs) are increasingly used for mental health applications, raising questions about whether they reflect established clinical knowledge. Clinical psychology has documented systematic cultural differences in the presentation of depression symptoms, with Western populations emphasizing emotional symptoms and many East Asian populations reporting more somatic symptoms. We evaluate whether general-purpose LLMs reproduce these clinically established cross-cultural patterns using prompts grounded in clinical descriptions of depression. We examine model responses under different cultural personas and languages. We find that LLMs struggle to reproduce expected cultural patterns when prompted in English. Prompting in major Eastern languages improves alignment in some configurations, suggesting that language cues partially activate cultural knowledge. However, model behavior remains dominated by a strong, culture-invariant hierarchy of depression symptoms that often overrides cultural cues, high-lighting limitations of current LLMs for mental health applications.",
+    "method": "s2-title",
+    "doi": "10.18653/v1/2026.c3nlp-1.2",
+    "openalex_id": null,
+    "s2_id": "d5603e43a797d692dac4d8254d706f760bb93576",
+    "overlap": 0.75
+  },
+  "respmultimodal-2026-responsible-multimodal-foundation-models-for-knowledge-disco": {
+    "title": "RespMultimodal 2026: Responsible Multimodal Foundation Models for Knowledge Discovery",
+    "matched_title": "RespMultimodal 2026: Responsible Multimodal Foundation Models for Knowledge Discovery",
+    "abstract": "As multimodal large language models (MLLMs) increasingly act as intermediate reasoning layers in data mining pipelines, they fundamentally reshape how latent structures, frequent patterns, and causal hypotheses are discovered across data streams. Enforcing responsible AI constraints—such as fairness requirements, transparency demands, and regulatory considerations—creates an emerging tension where responsibility protocols may alter, obscure, or invalidate discovered correlations. Rather than presenting isolated model-level debiasing techniques, this workshop frames bias, interpretability, and robustness as core data mining challenges that dictate what can be reliably discovered from data in high-stakes settings. By bridging advanced multimodal fusion with human agency, ethical trade-offs, and policy constraints, this curated program explores the fundamental validity of mediated patterns and establishes a shared research agenda for trustworthy knowledge discovery.",
+    "method": "openalex-title",
+    "doi": "https://doi.org/10.1145/3770855.3818262",
+    "openalex_id": "https://openalex.org/W7197034276",
+    "overlap": 0.67
+  },
+  "when-ai-becomes-routine-a-decade-of-public-ai-mediation-in-korean-go-commentary": {
+    "title": "When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary",
+    "matched_title": "When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary",
+    "abstract": "When AI systems surpass elite human performance and settle into everyday expert practice, the question that follows is how machine judgment is made publicly intelligible and attributable. We study Korean Go commentary on YouTube, where AI systems such as KataGo became standard analytic tools after AlphaGo. Our corpus spans a decade (2016--2025) and approximately $1{,}900$ hours of footage across institutional broadcasters and creator-led channels, in four phases of AI availability. We document a widening asymmetry between visual and verbal AI presence: AI winrate graphs are visible for about $98\\%$ of late-period institutional broadcast time, yet AI-salient talk accounts for only $2.63\\%$ of sentences. What recedes is the source label, not the metric: winrate and point-gap talk persists while ``AI'' itself goes unsaid. We read this recession as the communicative signature of domestication. Our strongest evidence is a compositional shift in verbal mediation: explicit naming gives way to interface rendering, and creator-led commentary leans further toward it than institutional commentary. We develop a typology distinguishing source-foregrounding from source-receding mediation, and argue that the two preserve different hooks of contestability: discursive anchors through which audiences can recognize and question the machine source. The stakes of that difference rise in domains where AI is less reliable than in Go.",
+    "method": "openalex-title",
+    "doi": null,
+    "openalex_id": "https://openalex.org/W7172173401",
+    "overlap": 0.57
+  },
+  "leadership-as-coordination-control-behavioral-signatures-and-the-recovery-advant": {
+    "title": "Leadership as Coordination Control: Behavioral Signatures and the Recovery-Advantage Boundary in Multi-Agent LLM Teams",
+    "matched_title": "Leadership as Coordination Control: Behavioral Signatures and the Recovery-Advantage Boundary in Multi-Agent LLM Teams",
+    "abstract": "Team science holds that leadership is contingent: it helps only under specific conditions, and capable, autonomous teams may need none at all. We ask the analogous question for multi-agent LLM teams: under what measurable conditions does process-level coordination control add value, and do those conditions match what team science predicts? We use behavioral signatures (majority lock-in, exploration, recovery from an incorrect round-0 consensus) and per-action ablations, clean because each controller is an explicit action set, not a monolithic prompt. We operationalize three classical leadership styles (transactional, transformational, situational) as controllers over a shared action vocabulary (explore, revise, accept, synthesize). A matched controller with the same actions but an arbitrary rule recovers no better than majority voting, so the theory-derived rule, not the vocabulary, does the work. Across four task regimes and three open-weight model families, no controller dominates by accuracy, as the contingency view predicts: transactional control matches a shared round-0 vote on all 12 (model, regime) combinations to within 1.3pp, and gains appear only on the one combination where the round-0 majority is unreliable (llama-4-scout social; situational +8pp over flat). A recovery-advantage account, tested with four boundary probes, says a controller beats plain interaction only where the round-0 majority is unreliable, the task is recoverable, and undirected interaction does not already repair it. These regions map onto contingency theory (leadership substitutes, path-goal redundancy, the situational readiness gap), so a largely null accuracy result is what the theory predicts, not a failure of the controllers. We read process-level coordination control as a contingency to be measured and theory-mapped, not a leaderboard to be topped.",
+    "method": "openalex-title",
+    "doi": "https://doi.org/10.48550/arxiv.2606.19111",
+    "openalex_id": "https://openalex.org/W7165170335",
+    "overlap": 1.0
   }
 }
