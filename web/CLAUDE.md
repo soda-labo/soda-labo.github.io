@@ -21,7 +21,7 @@ remote) and `pre-minimal-2026` (full personal site before slimming).
 
 ```
 web/
-├── src/pages/        index · publications · research · team · openings
+├── src/pages/        index · publications · research · team · openings · news
 ├── src/components/   Header · Footer · PublicationCard · Email
 ├── src/layouts/      Base.astro  (max-w-5xl, py-10)
 ├── src/data/
@@ -78,7 +78,12 @@ of them** — without it new papers can never get authors or links.
   replacing them by hand is normal.
 - **News** — prepend to `news.yml`. Anchors inside `headline` pick up the
   accent styling automatically (the CSS uses `:global(a)` because the
-  headline is injected with `set:html`).
+  headline is injected with `set:html`). Paper titles are wrapped in escaped
+  double quotes that sit *outside* the anchor, so the link text is exactly the
+  title; venue and conference links are not titles and stay unquoted. The home
+  page shows the last twelve months or six entries, whichever is more
+  (`recentNews()`), and `/news` carries everything grouped by year, so nothing
+  needs pruning as the file grows.
 - **Descriptions** — 200–350 chars, lab voice: open with a question or hook,
   then what we did and what we found. No em dashes anywhere on the site.
   To draft one, paste the raw abstract into `description:` and ask for a
@@ -124,7 +129,7 @@ place. Filter state syncs back to the URL so any view is shareable.
 ## Current state
 
 201 override entries, 139 visible. All 139 have authors, a link, and a
-description; 107 have a thumbnail. 44 news entries. Haewoon ~23.0k
+description; 107 have a thumbnail. 45 news entries. Haewoon ~23.0k
 citations (h 48), Jisun ~6.1k (h 43).
 
 ## Open items

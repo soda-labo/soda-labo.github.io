@@ -466,6 +466,23 @@ Each row carries its own `border-top`, and the last row adds a `border-bottom`.
 The rule does not live on the `<ul>`: a bordered wrapper leaves its first child
 flush against the line.
 
+### News sheet and the news archive (`/news`)
+The home column carries the last twelve months, or six entries if twelve months
+holds fewer (`recentNews()` in `src/lib/news.ts`). The floor is not cosmetic:
+2025 carries a single entry, and a strict window would empty this column beside
+the reading sheet it balances. At the current corpus the window yields six and
+the two columns land within 17px of each other.
+
+`/news` is the same material at full length: a fabric masthead, then one stock
+sheet per year with a `8.5rem` date column beside the entry, collapsing to a
+single column below 768px. Entries are separated by a hairline that belongs to
+the row, never to the sheet. Headlines arrive through `set:html`, so their
+anchor styling has to be wrapped in `:global(...)` or it silently never matches.
+
+The archive is evidence, not filler: it is the record that the lab has published
+without a gap since 2020, which is exactly what the prospective-member audience
+is reading for. Do not prune it to shorten the file.
+
 **The Unnumbered Host Rule.** The crimson `01`-style tag addresses *the work*.
 The lab's own board on the home page deliberately carries no number; featured
 boards are addressed from `01` upward.

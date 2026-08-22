@@ -54,6 +54,34 @@ function parseDate(raw: string): number {
   return Date.UTC(year, month, day || 1);
 }
 
+/** Entries from the last `months`, but never fewer than `min`.
+ *
+ *  A strict window alone is wrong for this lab: 2025 carries a single entry,
+ *  and a quiet year would leave the home page's news column nearly empty next
+ *  to the reading column it is meant to balance. The floor keeps the column
+ *  standing; the window keeps a busy year from running long.
+ */
+export function recentNews(items: NewsItem[], months = 12, min = 6): NewsItem[] {
+  const cutoff = new Date();
+  cutoff.setMonth(cutoff.getMonth() - months);
+  const within = items.filter((n) => n.sortKey >= cutoff.getTime());
+  return within.length >= min ? within : items.slice(0, min);
+}
+
+/** Newest-first years, each with its entries, for the archive page. */
+export function newsByYear(items: NewsItem[]): { year: number; items: NewsItem[] }[] {
+  const buckets = new Map<number, NewsItem[]>();
+  for (const n of items) {
+    const year = new Date(n.sortKey).getUTCFullYear();
+    const bucket = buckets.get(year);
+    if (bucket) bucket.push(n);
+    else buckets.set(year, [n]);
+  }
+  return [...buckets.entries()]
+    .sort((a, b) => b[0] - a[0])
+    .map(([year, items]) => ({ year, items }));
+}
+
 export function loadNews(): NewsItem[] {
   const file = path.join(DATA_DIR, "news.yml");
   if (!fs.existsSync(file)) return [];

@@ -3,11 +3,13 @@ import Base from "../layouts/Base.astro";
 import PublicationCard from "../components/PublicationCard.astro";
 import { loadPublications, allTags } from "../lib/publications";
 import { topicColor, topicName } from "../lib/tag-colors";
-import { loadNews } from "../lib/news";
+import { loadNews, recentNews } from "../lib/news";
 
 const pubs = loadPublications();
 const featured = pubs.filter((p) => p.highlight).slice(0, 4);
-const news = loadNews().slice(0, 8);
+// Last twelve months, but never fewer than six: a quiet year would leave
+// this column empty beside the reading sheet it balances.
+const news = recentNews(loadNews());
 // The hall directory: which tracks stand in this hall and how many boards each
 // holds. Counts come from the corpus, so the cron keeps them true.
 const tracks = allTags(pubs);
@@ -206,6 +208,7 @@ const press = [
             </li>
           ))}
         </ul>
+        <a href="/news" class="news-all">All news &rarr;</a>
       </aside>
     )}
   </section>
@@ -311,6 +314,15 @@ const press = [
       font-variant-numeric: tabular-nums;
       color: var(--color-ink-faint);
     }
+
+    .news-all {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--color-accent);
+    }
+    .news-all:hover { text-decoration: underline; }
 
     .press-pos {
       flex-shrink: 0;

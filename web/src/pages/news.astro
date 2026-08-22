@@ -1,0 +1,84 @@
+---
+import Base from "../layouts/Base.astro";
+import Masthead from "../components/Masthead.astro";
+import { loadNews, newsByYear } from "../lib/news";
+
+const years = newsByYear(loadNews());
+const total = years.reduce((n, y) => n + y.items.length, 0);
+---
+
+<Base title="News · SoDA Lab" description="Everything the SoDA Lab has announced, newest first.">
+  <Masthead
+    title="News"
+    lede={`${total} entries since ${years[years.length - 1]?.year}. The home page carries the last twelve months; this is all of it.`}
+  />
+
+  {years.map(({ year, items }) => (
+    <section class="year">
+      <h2 class="year-head">{year}</h2>
+      <ul class="stock year-sheet">
+        {items.map((n) => (
+          <li class="entry">
+            <div class="entry-date">{n.date}</div>
+            <div class="entry-body news-item" set:html={n.headline} />
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .year { margin-bottom: 2.5rem; }
+
+  .year-head {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-ink);
+    margin-bottom: 0.75rem;
+  }
+
+  .year-sheet { padding: 0.4rem 1.5rem 1.5rem; }
+
+  .entry {
+    display: grid;
+    gap: 0.2rem 1.5rem;
+    padding-top: 1.1rem;
+    margin-top: 1.1rem;
+    border-top: 1px solid var(--color-rule);
+  }
+  .entry:first-child { border-top: 0; }
+
+  @media (min-width: 768px) {
+    .entry { grid-template-columns: 8.5rem minmax(0, 1fr); }
+  }
+
+  .entry-date {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-ink-faint);
+    padding-top: 0.2rem;
+  }
+
+  .entry-body {
+    font-family: var(--font-read);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--color-ink-soft);
+  }
+
+  /* Headlines arrive through set:html, so the anchor rule needs :global or it
+     silently never matches. */
+  .entry-body :global(a) {
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--color-accent) 35%, transparent);
+    text-underline-offset: 2px;
+  }
+  .entry-body :global(a:hover) { text-decoration-color: var(--color-accent); }
+</style>
