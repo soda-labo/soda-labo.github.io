@@ -426,8 +426,8 @@ separated by an 18%-paper hairline.
 
 ### Publication board (signature component)
 The system's defining object. Tier is chosen from citation count —
-`>= 500` landmark, `>= 100` major, otherwise standard — currently 5 / 25 / 110
-of 140 boards. The tier changes padding, title size, figure size, and (on
+`>= 500` landmark, `>= 100` major, otherwise standard — currently 5 / 25 / 109
+of 139 boards. The tier changes padding, title size, figure size, and (on
 landmark) author and abstract size; it does not change colour or shape. Lab
 members' names inside the author string are bolded to ink; the venue is
 italic; the metadata line is a single ink-faint run of venue · year · citations

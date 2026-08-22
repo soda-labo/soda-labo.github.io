@@ -123,7 +123,7 @@ place. Filter state syncs back to the URL so any view is shareable.
 
 ## Current state
 
-201 override entries, 140 visible. All 140 have authors, a link, and a
+201 override entries, 139 visible. All 139 have authors, a link, and a
 description; 107 have a thumbnail. 44 news entries. Haewoon ~23.0k
 citations (h 48), Jisun ~6.1k (h 43).
 

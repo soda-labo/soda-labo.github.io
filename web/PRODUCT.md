@@ -115,8 +115,9 @@ hand-edited and changes rarely.
 
 ## Evidence on Hand
 
-- 140 visible publications, all with authors, a working link, and a description.
-  107 have a thumbnail. 61 further entries are hidden or tombstoned.
+- 139 visible publications, all with authors, a working link, and a description.
+  107 have a thumbnail. 62 further entries are hidden or tombstoned, which
+  includes workshop summaries and organiser notes that Scholar files as papers.
 - 44 news entries, newest first.
 - Press: exactly three items, all covers or features (Nature Human Behaviour
   2025, Nature News 2020 on Jisun, Nature News 2016 on Haewoon). There is no

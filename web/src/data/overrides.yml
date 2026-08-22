@@ -3051,6 +3051,7 @@ respmultimodal-2026-responsible-multimodal-foundation-models-for-knowledge-disco
     venue: KDD Workshop on Responsible Multimodal Foundation Models for Knowledge Discovery (RespMultimodal), 2026
   description: What happens to a discovered pattern once you also demand fairness, transparency, and regulatory compliance? This KDD workshop treats bias, interpretability, and robustness as data mining
     problems rather than model-level patches, and asks which correlations found through multimodal LLMs still hold up in high-stakes settings.
+  hide: true
 when-ai-becomes-routine-a-decade-of-public-ai-mediation-in-korean-go-commentary:
   title: 'When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary'
   tags:
