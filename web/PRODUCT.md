@@ -88,11 +88,19 @@ hand-edited and changes rarely.
 - Five pages: index, publications, research, team, openings.
 - Content lives in YAML (`overrides.yml`, `members.yml`, `news.yml`) plus one
   Scholar cache. Adding data is editing a file, not a CMS.
-- **No analytics are installed.** None of the three success criteria are
-  currently measurable, so design decisions cannot be settled with site data.
+- **Analytics measure traffic, not people.** Google Analytics 4 runs in
+  production only, with Consent Mode denied by default, so it writes no cookies
+  and no browser storage and there is no consent banner. The trade is that
+  without a client id a returning visitor is counted fresh each time, so "users"
+  reads closer to "visits" and anything longitudinal is modelled. Pageviews,
+  referrers, and which pages get read are reliable.
+- **Two of the three success criteria are still not measurable.** Analytics can
+  show that `/openings` was read, never that a good-fit person emailed, and
+  never that the lab's position was remembered. Design decisions about those two
+  cannot be settled with site data.
 - Email addresses render as `user [at] host` and are rewritten to a real
   `mailto:` by inline JS for spam resistance. The primary conversion action is
-  therefore JS-gated and produces no on-site signal.
+  therefore JS-gated and produces no on-site signal at all.
 - Open decision: `/publications` renders all ~140 papers in one page.
   Year-collapse or load-more was discussed and deferred.
 

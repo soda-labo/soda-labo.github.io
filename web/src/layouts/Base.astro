@@ -13,10 +13,11 @@ const {
   description = "The Social Data and AI Lab at Indiana University Bloomington, led by Haewoon Kwak and Jisun An.",
 } = Astro.props;
 
-// Google Analytics 4. The measurement ID is not a secret (it ships in the page
-// source), so it lives here rather than in .env, which keeps the GitHub Actions
-// build from needing a new secret. Leave it as the placeholder to disable.
-// Only loads in a production build, so `npm run dev` never touches the stats.
+// Google Analytics 4, running cookieless. The measurement ID is not a secret
+// (it ships in the page source), so it lives here rather than in .env, which
+// keeps the GitHub Actions build from needing a new secret. Leave it as the
+// placeholder to disable. Only loads in a production build, so `npm run dev`
+// never touches the stats.
 const GA_MEASUREMENT_ID = "G-DF3QY4S455";
 const analyticsEnabled =
   import.meta.env.PROD && GA_MEASUREMENT_ID.startsWith("G-");
@@ -41,8 +42,28 @@ const analyticsEnabled =
         <script is:inline define:vars={{ GA_MEASUREMENT_ID }}>
           window.dataLayer = window.dataLayer || [];
           function gtag() { dataLayer.push(arguments); }
+
+          // Consent Mode, denied by default and never asked. GA4 then sends
+          // cookieless pings: no _ga identifier is written, so there is no
+          // consent banner to show and nothing to remember between visits.
+          // The trade is real and deliberate: without a client id, returning
+          // visitors are counted fresh each time, so "users" reads closer to
+          // "visits" and anything longitudinal is modelled rather than
+          // measured. Pageviews, referrers, and which pages get read are
+          // unaffected, and those are what this site is asking about.
+          // Do not "restore" the default consent state to fix a user count.
+          gtag('consent', 'default', {
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            analytics_storage: 'denied',
+          });
+
           gtag('js', new Date());
-          gtag('config', GA_MEASUREMENT_ID, { anonymize_ip: true });
+          gtag('config', GA_MEASUREMENT_ID, {
+            anonymize_ip: true,
+            client_storage: 'none',
+          });
         </script>
       </>
     )}
