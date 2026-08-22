@@ -2,6 +2,7 @@ a-semantic-embedding-space-based-on-large-language-models-for-modelling-human-be
   title: A semantic embedding space based on large language models for modelling human beliefs
   tags:
   - llms-responsible-ai
+  - beliefs-opinions
   methods:
   - llm
   - nlp
@@ -2596,6 +2597,7 @@ a-benchmark-for-zero-shot-belief-inference-in-large-language-models:
   title: 'What Helps Language Models Predict Human Beliefs: Demographics or Prior Stances?'
   tags:
   - llms-responsible-ai
+  - beliefs-opinions
   methods:
   - llm
   - dataset
@@ -2644,6 +2646,7 @@ a-cross-cultural-comparison-of-llm-based-public-opinion-simulation-evaluating-ch
   title: 'A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies'
   tags:
   - llms-responsible-ai
+  - beliefs-opinions
   methods:
   - llm
   scholar_ids:
@@ -3056,6 +3059,7 @@ when-ai-becomes-routine-a-decade-of-public-ai-mediation-in-korean-go-commentary:
   title: 'When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary'
   tags:
   - user-behavior
+  - llms-responsible-ai
   scholar_ids:
   - dcjrz5MAAAAJ:0KyAp5RtaNEC
   link:
