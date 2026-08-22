@@ -437,6 +437,17 @@ in tabular figures.
 Never resize a board to promote it editorially — use `highlight` to feature it
 and let the tier stand.
 
+**The Unprinted Plate Rule.** 32 of 139 boards have no usable figure: the cron
+lifts the first plate out of the PDF and sometimes there is nothing worth
+lifting. Those boards render `.pub-figure.is-blank` at the tier's figure size —
+stock in shadow, the same hairline ring, and the board's track swatch centred —
+never a missing element. A board with no plate at all shunts its title left and
+breaks the column every other board shares. The plate stays plain: an earlier
+version hatched it with a repeating gradient, which the detector correctly
+called a generated-UI signature. On mobile the plate follows the figure rule and
+disappears except on landmark boards, where it sits at 6rem rather than the
+11rem a real figure earns.
+
 **The Unnumbered Host Rule.** The crimson `01`-style tag addresses *the work*.
 The lab's own board on the home page deliberately carries no number; featured
 boards are addressed from `01` upward.
