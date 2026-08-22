@@ -4,7 +4,7 @@ Astro 6 + Tailwind v4 site for the Social Data and AI Lab (Haewoon Kwak,
 Jisun An) at Indiana University Bloomington. Live at
 https://soda-labo.github.io/. Start sessions from this `web/` directory.
 
-Last substantive update: 2026-08-21.
+Last substantive update: 2026-08-22.
 
 ## Repos on disk
 
@@ -22,7 +22,7 @@ remote) and `pre-minimal-2026` (full personal site before slimming).
 ```
 web/
 ├── src/pages/        index · publications · research · team · openings · news
-├── src/components/   Header · Footer · PublicationCard · Email
+├── src/components/   Header · Footer · Masthead · PublicationCard · Email
 ├── src/layouts/      Base.astro  (max-w-5xl, py-10)
 ├── src/data/
 │   ├── overrides.yml       hand-curated paper metadata (source of truth)
@@ -32,8 +32,17 @@ web/
 ├── src/lib/          publications.ts · members.ts · news.ts · tag-colors.ts
 ├── public/           pubpic/ (336×336 WebP) · teampic/ · press/ · sodalab-mark.svg
 ├── scripts/          Python pipeline (below)
+├── PRODUCT.md        product truth: audiences, constraints, what is measurable
+├── DESIGN.md         the visual system as built, + .impeccable/design.json
 └── .env              SEMANTIC_SCHOLAR_API_KEY — gitignored, do not commit
 ```
+
+**Read `DESIGN.md` before touching anything visual.** It records the poster-hall
+system the site was rebuilt into in August 2026: the three materials, the two
+type voices, why topic colours may only ever be swatches, and a list of accepted
+deviations that look like bugs and are not. `PRODUCT.md` holds the product facts
+the design answers to. The direction contract is the HTML comment at the top of
+`<body>` in `Base.astro` and it ships in the built pages on purpose.
 
 Deploy: `.github/workflows/deploy.yml` runs `npm ci && npm run build` in
 `web/` then `actions/deploy-pages@v4`. Only `main` may deploy (GitHub
@@ -72,10 +81,24 @@ of them** — without it new papers can never get authors or links.
 - **arXiv venue** — canonical form is `arXiv preprint arXiv:<id>, <year>`.
   `fetch_links.py` sometimes writes OpenAlex's `arXiv (Cornell University)`
   or `ArXiv.org`; normalise by hand.
-- **Thumbnail** — drop any format at `public/pubpic/<slug>.png` and run
-  `optimize_pubpics.py`; it converts to WebP and rewrites the `image:` field.
-  Roughly 20 % of auto-extracted figures grab a logo or stock photo, so
-  replacing them by hand is normal.
+- **Thumbnail** — roughly 20 % of auto-extracted figures grab a logo or a
+  stock photo, so replacing them by hand is normal. Two cases, and they are
+  not the same:
+  - *Replacing* one: overwrite `public/pubpic/<existing>.webp` in place and run
+    `optimize_pubpics.py`. Nothing else. The cache is keyed on mtime, so the
+    new file is re-cropped on the next run and `image:` already points at it.
+  - *Adding* one where the paper has none: save the image at
+    `public/pubpic/<slug>.png`, **then set `image: <slug>.png` on the entry
+    yourself**, then run the script. `optimize_pubpics.py` will not create the
+    field: `sync_overrides_image_refs()` only rewrites entries whose `image:`
+    already names the file it just renamed. The only thing that writes a fresh
+    `image:` is `fetch_thumbnails.py`, and it skips any entry that has one.
+
+  Either way the script center-crops to 336×336, converts to WebP, deletes the
+  original, and rewrites `image:` to the `.webp` name. To retry the automatic
+  extraction for a single paper:
+  `fetch_thumbnails.py --apply --slug=<slug>`. Remember the slug is the
+  `overrides.yml` key, which for a retitled paper is still the old title's.
 - **News** — prepend to `news.yml`. Anchors inside `headline` pick up the
   accent styling automatically (the CSS uses `:global(a)` because the
   headline is injected with `set:html`). Paper titles are wrapped in escaped
