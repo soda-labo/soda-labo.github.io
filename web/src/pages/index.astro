@@ -1,12 +1,16 @@
 ---
 import Base from "../layouts/Base.astro";
 import PublicationCard from "../components/PublicationCard.astro";
-import { loadPublications } from "../lib/publications";
+import { loadPublications, allTags } from "../lib/publications";
+import { topicColor, topicName } from "../lib/tag-colors";
 import { loadNews } from "../lib/news";
 
 const pubs = loadPublications();
 const featured = pubs.filter((p) => p.highlight).slice(0, 4);
 const news = loadNews().slice(0, 8);
+// The hall directory: which tracks stand in this hall and how many boards each
+// holds. Counts come from the corpus, so the cron keeps them true.
+const tracks = allTags(pubs);
 
 const press = [
   {
@@ -170,6 +174,21 @@ const press = [
           <a href="https://cnets.indiana.edu/" target="_blank" rel="noopener" class="text-[var(--color-accent)] hover:underline">Center for Complex Networks and Systems Research (CNetS)</a>.
         </p>
       </div>
+
+      <section class="tracks" aria-labelledby="tracks-head">
+        <h2 id="tracks-head" class="tracks-head">What we work on</h2>
+        <ul class="tracks-list">
+          {tracks.map(({ tag, count }) => (
+            <li>
+              <a href={`/publications?topic=${tag}`} class="tracks-row">
+                <span class="tracks-swatch" style={`background-color: ${topicColor(tag).bg}`} aria-hidden="true"></span>
+                <span class="tracks-name">{topicName(tag)}</span>
+                <span class="tracks-count">{count}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
 
     {news.length > 0 && (
@@ -248,6 +267,51 @@ const press = [
       display: block;
       color: color-mix(in srgb, var(--color-paper) 66%, transparent);
     }
+    /* A hall directory: every track, and how many boards stand under it. The
+       row is the whole target, and the count is the point of the row, so both
+       sit on one baseline with the rule doing the separating. */
+    .tracks-head {
+      font-family: var(--font-display);
+      font-size: 1.125rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--color-ink);
+    }
+    .tracks-list {
+      margin-top: 0.75rem;
+    }
+    .tracks-row {
+      display: flex;
+      align-items: baseline;
+      gap: 0.7rem;
+      padding: 0.6rem 0.2rem;
+      /* The rule belongs to the row, not the list: a bordered wrapper leaves
+         its first child flush against the line. */
+      border-top: 1px solid var(--color-rule);
+      transition: background-color 0.12s ease;
+    }
+    .tracks-list li:last-child .tracks-row {
+      border-bottom: 1px solid var(--color-rule);
+    }
+    .tracks-row:hover { background-color: var(--color-paper-2); }
+    .tracks-swatch {
+      width: 0.65rem;
+      height: 0.65rem;
+      flex-shrink: 0;
+      transform: translateY(0.05rem);
+    }
+    .tracks-name {
+      flex: 1;
+      font-size: 0.9375rem;
+      color: var(--color-ink);
+    }
+    .tracks-row:hover .tracks-name { color: var(--color-accent); }
+    .tracks-count {
+      font-size: 0.8125rem;
+      font-variant-numeric: tabular-nums;
+      color: var(--color-ink-faint);
+    }
+
     .press-pos {
       flex-shrink: 0;
       font-size: 11px;

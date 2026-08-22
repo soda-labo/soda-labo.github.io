@@ -448,6 +448,24 @@ called a generated-UI signature. On mobile the plate follows the figure rule and
 disappears except on landmark boards, where it sits at 6rem rather than the
 11rem a real figure earns.
 
+### Hall directory (home)
+A ruled list of the eight tracks with the number of boards standing under each,
+in the home page's reading sheet. Same grammar as the board's track tag: a
+0.65rem swatch, the name in ink, the count in ink-faint tabular figures, the
+whole row a link into `/publications?topic=`. Counts come from the corpus, so
+they follow the cron rather than being typed.
+
+It exists for balance as much as for navigation. The reading sheet is
+`self-start` (see the Pinned-Sheet Rule) and ran 668px shorter than the news
+column beside it. The directory closes that to about 250px with content that
+does a job, which is the only acceptable way to lengthen a column: the earlier
+attempt let the grid stretch the sheet instead and shipped 704px of blank paper.
+Never pad this column with a decorative block to even the columns up.
+
+Each row carries its own `border-top`, and the last row adds a `border-bottom`.
+The rule does not live on the `<ul>`: a bordered wrapper leaves its first child
+flush against the line.
+
 **The Unnumbered Host Rule.** The crimson `01`-style tag addresses *the work*.
 The lab's own board on the home page deliberately carries no number; featured
 boards are addressed from `01` upward.
