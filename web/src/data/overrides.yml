@@ -3068,6 +3068,7 @@ when-ai-becomes-routine-a-decade-of-public-ai-mediation-in-korean-go-commentary:
   authors: Haewoon Kwak
   description: AlphaGo was a spectacle, but what happens once AI becomes ordinary? Across a decade of Korean Go commentary on YouTube, roughly 1,900 hours, winrate graphs fill 98 percent of late broadcast
     time while only 2.63 percent of sentences mention AI. The metric stays, the source label goes unsaid, and with it the hooks for questioning it.
+  image: when-ai-becomes-routine-a-decade-of-public-ai-mediation-in-k.webp
 leadership-as-coordination-control-behavioral-signatures-and-the-recovery-advant:
   title: 'Leadership as Coordination Control: Behavioral Signatures and the Recovery-Advantage Boundary in Multi-Agent LLM Teams'
   tags:
@@ -3082,3 +3083,4 @@ leadership-as-coordination-control-behavioral-signatures-and-the-recovery-advant
     venue: arXiv preprint arXiv:2606.19111, 2026
   description: Does a team of LLM agents need a leader? We turn transactional, transformational, and situational leadership into explicit controllers over a shared action set, tested across four task regimes
     and three model families. No controller dominates. Control pays off only when the round-0 majority is wrong and the task is recoverable.
+  image: leadership-as-coordination-control-behavioral-signatures-and.webp
