@@ -2627,7 +2627,7 @@ can-lessons-from-human-teams-be-applied-to-multi-agent-systems-the-role-of-struc
     venue: arXiv preprint arXiv:2510.07488, 2025
   image: can-lessons-from-human-teams-be-applied-to-multi-agent-syste.webp
 quantifying-gender-stereotypes-in-japan-between-1900-and-1999-with-word-embeddin:
-  title: Quantifying Gender Stereotypes in Japan between 1900 and 1999 with Word Embeddings
+  title: 'Gendered cultural discourse in Japan across the prewar–postwar transition: evidence from historical word embeddings'
   tags:
   - bias-fairness
   methods:
@@ -2639,8 +2639,8 @@ quantifying-gender-stereotypes-in-japan-between-1900-and-1999-with-word-embeddin
     Work, and Politics domains. Work and Politics became more female-stereotyped over time, but Home did too, suggesting women came to be seen as occupying multiple roles rather than swapping them.
   authors: Shintaro Sakai, Haewoon Kwak, Jisun An, Akira Matsui
   link:
-    url: https://arxiv.org/abs/2510.03905
-    venue: arXiv preprint arXiv:2510.03905, 2025
+    url: https://link.springer.com/article/10.1140/epjds/s13688-026-00688-5
+    venue: EPJ Data Science, 2026
   image: quantifying-gender-stereotypes-in-japan-between-1900-and-199.webp
 a-cross-cultural-comparison-of-llm-based-public-opinion-simulation-evaluating-ch:
   title: 'A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies'
