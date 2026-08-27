@@ -124,7 +124,7 @@ hand-edited and changes rarely.
 ## Evidence on Hand
 
 - 139 visible publications, all with authors, a working link, and a description.
-  107 have a thumbnail. 62 further entries are hidden or tombstoned, which
+  109 have a thumbnail. 62 further entries are hidden or tombstoned, which
   includes workshop summaries and organiser notes that Scholar files as papers.
 - 44 news entries, newest first.
 - Press: exactly three items, all covers or features (Nature Human Behaviour

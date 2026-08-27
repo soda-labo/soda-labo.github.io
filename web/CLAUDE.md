@@ -152,8 +152,9 @@ place. Filter state syncs back to the URL so any view is shareable.
 ## Current state
 
 201 override entries, 139 visible. All 139 have authors, a link, and a
-description; 107 have a thumbnail. 45 news entries. Haewoon ~23.0k
-citations (h 48), Jisun ~6.1k (h 43).
+description; 109 have a thumbnail. 47 news entries. Haewoon ~23.1k
+citations (h 48), Jisun ~6.1k (h 43). These figures drift with every cron
+run; treat them as a rough snapshot, not something to keep exact.
 
 ## Open items
 

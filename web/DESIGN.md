@@ -437,9 +437,9 @@ in tabular figures.
 Never resize a board to promote it editorially — use `highlight` to feature it
 and let the tier stand.
 
-**The Unprinted Plate Rule.** 32 of 139 boards have no usable figure: the cron
-lifts the first plate out of the PDF and sometimes there is nothing worth
-lifting. Those boards render `.pub-figure.is-blank` at the tier's figure size —
+**The Unprinted Plate Rule.** Roughly a fifth of boards have no usable figure
+at any given time: the cron lifts the first plate out of the PDF and sometimes
+there is nothing worth lifting, and the count moves every week. Those boards render `.pub-figure.is-blank` at the tier's figure size —
 stock in shadow, the same hairline ring, and the board's track swatch centred —
 never a missing element. A board with no plate at all shunts its title left and
 breaks the column every other board shares. The plate stays plain: an earlier
