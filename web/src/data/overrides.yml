@@ -2635,8 +2635,8 @@ quantifying-gender-stereotypes-in-japan-between-1900-and-1999-with-word-embeddin
   scholar_ids:
   - dcjrz5MAAAAJ:W5xh706n7nkC
   - FYtw3zkAAAAJ:kRWSkSYxWN8C
-  description: How did gender stereotypes shift in Japan across the 20th century? We train 100 year-specific word embeddings on Japanese corpora from 1900 to 1999 and trace stereotype strength in the Home,
-    Work, and Politics domains. Work and Politics became more female-stereotyped over time, but Home did too, suggesting women came to be seen as occupying multiple roles rather than swapping them.
+  description: Did 1945 change how Japan talked about gender? We train a word embedding for every year from 1900 to 1998 and trace stereotype strength across Home, Work, and Politics. Work and Politics
+    reverse direction around 1945, turning female-associated after decades of drifting the other way, while Home stays flat throughout.
   authors: Shintaro Sakai, Haewoon Kwak, Jisun An, Akira Matsui
   link:
     url: https://link.springer.com/article/10.1140/epjds/s13688-026-00688-5
