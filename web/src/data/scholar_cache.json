@@ -4,59 +4,59 @@
     "scholar_id": "dcjrz5MAAAAJ",
     "display_name": "Haewoon Kwak",
     "affiliation": "Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington",
-    "total_citations": 23088,
+    "total_citations": 23130,
     "h_index": 49,
     "i10_index": 99,
     "num_publications": 144,
-    "fetched_in_seconds": 5.1,
+    "fetched_in_seconds": 5.7,
     "publications": [
       {
         "title": "What is Twitter, a social network or a news media?",
         "year": "2010",
         "venue": "Proceedings of the 19th international conference on World wide web, 591-600, 2010",
-        "citations": 10666,
+        "citations": 10686,
         "scholar_id": "dcjrz5MAAAAJ:d1gkVwhDpl0C"
       },
       {
         "title": "I tube, you tube, everybody tubes: analyzing the world's largest user generated content video system",
         "year": "2007",
         "venue": "Proceedings of the 7th ACM SIGCOMM conference on Internet measurement, 1-14, 2007",
-        "citations": 2255,
+        "citations": 2259,
         "scholar_id": "dcjrz5MAAAAJ:-f6ydRqryjwC"
       },
       {
         "title": "Analysis of topological characteristics of huge online social networking services",
         "year": "2007",
         "venue": "Proceedings of the 16th international conference on World Wide Web, 835-844, 2007",
-        "citations": 1423,
+        "citations": 1424,
         "scholar_id": "dcjrz5MAAAAJ:L8Ckcad2t8MC"
       },
       {
         "title": "Analyzing the video popularity characteristics of large-scale user generated content systems",
         "year": "2009",
         "venue": "IEEE/ACM Transactions on networking 17 (5), 1357-1370, 2009",
-        "citations": 674,
+        "citations": 676,
         "scholar_id": "dcjrz5MAAAAJ:HDshCWvjkbEC"
       },
       {
         "title": "Exploring cyberbullying and other toxic behavior in team competition online games",
         "year": "2015",
         "venue": "Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing …, 2015",
-        "citations": 500,
+        "citations": 501,
         "scholar_id": "dcjrz5MAAAAJ:5nxA0vEk-isC"
       },
       {
         "title": "Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech",
         "year": "2023",
         "venue": "WWW '23 Companion: Companion Proceedings of the ACM Web Conference 2023, 2023",
-        "citations": 480,
+        "citations": 483,
         "scholar_id": "dcjrz5MAAAAJ:_B80troHkn4C"
       },
       {
         "title": "What is gab: A bastion of free speech or an alt-right echo chamber",
         "year": "2018",
         "venue": "Companion Proceedings of the The Web Conference 2018, 1007-1014, 2018",
-        "citations": 410,
+        "citations": 411,
         "scholar_id": "dcjrz5MAAAAJ:YOwf2qJgpHMC"
       },
       {
@@ -77,7 +77,7 @@
         "title": "Didn't you see my message?: predicting attentiveness to mobile instant messages",
         "year": "2014",
         "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems …, 2014",
-        "citations": 277,
+        "citations": 278,
         "scholar_id": "dcjrz5MAAAAJ:e5wmG9Sq2KIC"
       },
       {
@@ -105,7 +105,7 @@
         "title": "Finding influentials based on the temporal order of information adoption in twitter",
         "year": "2010",
         "venue": "Proceedings of the 19th international conference on World wide web, 1137-1138, 2010",
-        "citations": 216,
+        "citations": 217,
         "scholar_id": "dcjrz5MAAAAJ:maZDTaKrznsC"
       },
       {
@@ -126,7 +126,7 @@
         "title": "Imaginary people representing real numbers: Generating personas from online social media data",
         "year": "2018",
         "venue": "ACM Transactions on the Web (TWEB) 12 (4), 1-26, 2018",
-        "citations": 183,
+        "citations": 184,
         "scholar_id": "dcjrz5MAAAAJ:HoB7MX3m0LUC"
       },
       {
@@ -154,7 +154,7 @@
         "title": "Can we trust the evaluation on ChatGPT?",
         "year": "2023",
         "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing …, 2023",
-        "citations": 142,
+        "citations": 143,
         "scholar_id": "dcjrz5MAAAAJ:PELIpwtuRlgC"
       },
       {
@@ -186,18 +186,18 @@
         "scholar_id": "dcjrz5MAAAAJ:kNdYIx-mwKoC"
       },
       {
+        "title": "Public Perception of Generative AI on Twitter: An Empirical Study Based on Occupation and Usage",
+        "year": "2024",
+        "venue": "EPJ Data Science, 2024",
+        "citations": 96,
+        "scholar_id": "dcjrz5MAAAAJ:9vf0nzSNQJEC"
+      },
+      {
         "title": "Assessing the accuracy of four popular face recognition tools for inferring gender, age, and race",
         "year": "2018",
         "venue": "Proceedings of the International AAAI Conference on Web and Social Media 12 (1), 2018",
         "citations": 95,
         "scholar_id": "dcjrz5MAAAAJ:NMxIlDl6LWMC"
-      },
-      {
-        "title": "Public Perception of Generative AI on Twitter: An Empirical Study Based on Occupation and Usage",
-        "year": "2024",
-        "venue": "EPJ Data Science, 2024",
-        "citations": 94,
-        "scholar_id": "dcjrz5MAAAAJ:9vf0nzSNQJEC"
       },
       {
         "title": "Mining communities in networks: a solution for consistency and its evaluation",
@@ -231,14 +231,14 @@
         "title": "Political Discussions in Homogeneous and Cross-Cutting Communication Spaces",
         "year": "2019",
         "venue": "13th International AAAI Conference on Web and Social Media (ICWSM), 2019",
-        "citations": 80,
+        "citations": 81,
         "scholar_id": "dcjrz5MAAAAJ:D03iK_w7-QYC"
       },
       {
         "title": "Detecting Toxicity Triggers in Online Discussions",
         "year": "2019",
         "venue": "Proceedings of the 30th ACM Conference on Hypertext and Social Media, 291-292, 2019",
-        "citations": 77,
+        "citations": 78,
         "scholar_id": "dcjrz5MAAAAJ:abG-DnoFyZgC"
       },
       {
@@ -601,7 +601,7 @@
       {
         "title": "A semantic embedding space based on large language models for modelling human beliefs",
         "year": "2025",
-        "venue": "Nature Human Behaviour, 1-13, 2025",
+        "venue": "Nature Human Behaviour 9 (9), 1928-1940, 2025",
         "citations": 16,
         "scholar_id": "dcjrz5MAAAAJ:JQOojiI6XY0C"
       },
@@ -634,6 +634,13 @@
         "scholar_id": "dcjrz5MAAAAJ:HE397vMXCloC"
       },
       {
+        "title": "Influentials ranking in social networks",
+        "year": "2010",
+        "venue": "Communications of the Korean Institute of Information Scientists and …, 2010",
+        "citations": 14,
+        "scholar_id": "dcjrz5MAAAAJ:ZeXyd9-uunAC"
+      },
+      {
         "title": "Culturally-grounded analysis of everyday creativity in social media: A case study in Qatari context",
         "year": "2017",
         "venue": "Proceedings of the 2017 ACM SIGCHI Conference on Creativity and Cognition …, 2017",
@@ -646,13 +653,6 @@
         "venue": "Proceedings of the International AAAI Conference on Web and Social Media 11 (1), 2017",
         "citations": 13,
         "scholar_id": "dcjrz5MAAAAJ:MXK_kJrjxJIC"
-      },
-      {
-        "title": "Influentials ranking in social networks",
-        "year": "2010",
-        "venue": "Communications of the Korean Institute of Information Scientists and …, 2010",
-        "citations": 13,
-        "scholar_id": "dcjrz5MAAAAJ:ZeXyd9-uunAC"
       },
       {
         "title": "Social media mining for journalism",
@@ -837,6 +837,13 @@
         "scholar_id": "dcjrz5MAAAAJ:yB1At4FlUx8C"
       },
       {
+        "title": "Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability",
+        "year": "2026",
+        "venue": "Accepted to EMNLP'26 Findings, 2026",
+        "citations": 3,
+        "scholar_id": "dcjrz5MAAAAJ:evX43VCCuoAC"
+      },
+      {
         "title": "MAANG? MANGA? Characterizing Spontaneous Ideation Contest on Social Media: Case Study on the Name Change of Facebook to Meta",
         "year": "2022",
         "venue": "2022 IEEE International Conference on Big Data (Big Data), 2022",
@@ -856,13 +863,6 @@
         "venue": "Proceedings of the International AAAI Conference on Web and Social Media 6 (1), 2012",
         "citations": 3,
         "scholar_id": "dcjrz5MAAAAJ:ULOm3_A8WrAC"
-      },
-      {
-        "title": "Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability",
-        "year": "2026",
-        "venue": "arXiv preprint arXiv:2603.16017, 2026",
-        "citations": 2,
-        "scholar_id": "dcjrz5MAAAAJ:evX43VCCuoAC"
       },
       {
         "title": "You Have Earned a Trophy: Characterize In-Game Achievements and Their Completions",
@@ -993,7 +993,7 @@
       {
         "title": "A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies",
         "year": "2025",
-        "venue": "arXiv preprint arXiv:2506.21587, 2025",
+        "venue": "2025 IEEE International Conference on Data Mining Workshops (ICDMW), 2025",
         "citations": 0,
         "scholar_id": "dcjrz5MAAAAJ:uLbwQdceFCQC"
       },
@@ -1025,18 +1025,25 @@
     "scholar_id": "FYtw3zkAAAAJ",
     "display_name": "Jisun AN",
     "affiliation": "Assistant Professor at Luddy School of Informatics, Computing, and Engineering",
-    "total_citations": 6166,
+    "total_citations": 6184,
     "h_index": 43,
     "i10_index": 85,
-    "num_publications": 153,
-    "fetched_in_seconds": 4.6,
+    "num_publications": 155,
+    "fetched_in_seconds": 4.4,
     "publications": [
       {
         "title": "Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech",
         "year": "2023",
         "venue": "Companion Proceedings of the ACM Web Conference 2023, 2023",
-        "citations": 480,
+        "citations": 483,
         "scholar_id": "FYtw3zkAAAAJ:OU6Ihb5iCvQC"
+      },
+      {
+        "title": "Discursive power in contemporary media systems: A comparative framework",
+        "year": "2019",
+        "venue": "The International Journal of Press/Politics 24 (4), 404-425, 2019",
+        "citations": 255,
+        "scholar_id": "FYtw3zkAAAAJ:HoB7MX3m0LUC"
       },
       {
         "title": "Breaking the news: First impressions matter on online news",
@@ -1044,13 +1051,6 @@
         "venue": "ICWSM-2015, 2015",
         "citations": 253,
         "scholar_id": "FYtw3zkAAAAJ:4TOpqqG69KYC"
-      },
-      {
-        "title": "Discursive power in contemporary media systems: A comparative framework",
-        "year": "2019",
-        "venue": "The International Journal of Press/Politics 24 (4), 404-425, 2019",
-        "citations": 252,
-        "scholar_id": "FYtw3zkAAAAJ:HoB7MX3m0LUC"
       },
       {
         "title": "Media landscape in Twitter: A world of new conventions and political diversity",
@@ -1077,14 +1077,14 @@
         "title": "Imaginary people representing real numbers: Generating personas from online social media data",
         "year": "2018",
         "venue": "ACM Transactions on the Web (TWEB) 12 (4), 1-26, 2018",
-        "citations": 183,
+        "citations": 184,
         "scholar_id": "FYtw3zkAAAAJ:M3ejUd6NZC8C"
       },
       {
         "title": "View, like, comment, post: Analyzing user engagement by topic at 4 levels across 5 social media platforms for 53 news organizations",
         "year": "2019",
         "venue": "Proceedings of the International AAAI Conference on Web and Social Media 13 …, 2019",
-        "citations": 160,
+        "citations": 162,
         "scholar_id": "FYtw3zkAAAAJ:W7OEmFMy1HYC"
       },
       {
@@ -1112,7 +1112,7 @@
         "title": "Can we trust the evaluation on ChatGPT?",
         "year": "2023",
         "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing …, 2023",
-        "citations": 142,
+        "citations": 143,
         "scholar_id": "FYtw3zkAAAAJ:u9iWguZQMMsC"
       },
       {
@@ -1158,18 +1158,18 @@
         "scholar_id": "FYtw3zkAAAAJ:YOwf2qJgpHMC"
       },
       {
+        "title": "Public perception of generative AI on Twitter: an empirical study based on occupation and usage",
+        "year": "2024",
+        "venue": "EPJ Data Science 13 (1), 1-20, 2024",
+        "citations": 96,
+        "scholar_id": "FYtw3zkAAAAJ:Tiz5es2fbqcC"
+      },
+      {
         "title": "Assessing the Accuracy of Four Popular Face Recognition Tools for Inferring Gender, Age, and Race.",
         "year": "2018",
         "venue": "ICWSM, 624-627, 2018",
         "citations": 95,
         "scholar_id": "FYtw3zkAAAAJ:blknAaTinKkC"
-      },
-      {
-        "title": "Public perception of generative AI on Twitter: an empirical study based on occupation and usage",
-        "year": "2024",
-        "venue": "EPJ Data Science 13 (1), 1-20, 2024",
-        "citations": 94,
-        "scholar_id": "FYtw3zkAAAAJ:Tiz5es2fbqcC"
       },
       {
         "title": "“Is More Better?” Impact of Multiple Photos on Perception of Persona Profiles",
@@ -1203,7 +1203,7 @@
         "title": "Political discussions in homogeneous and cross-cutting communication spaces",
         "year": "2019",
         "venue": "Proceedings of the International AAAI Conference on Web and Social Media 13 …, 2019",
-        "citations": 80,
+        "citations": 81,
         "scholar_id": "FYtw3zkAAAAJ:UebtZRa9Y70C"
       },
       {
@@ -1245,7 +1245,7 @@
         "title": "What really matters?: characterising and predicting user engagement of news postings using multiple platforms, sentiments and topics",
         "year": "2023",
         "venue": "Behaviour & Information Technology 42 (5), 545-568, 2023",
-        "citations": 61,
+        "citations": 62,
         "scholar_id": "FYtw3zkAAAAJ:EUQCXRtRnyEC"
       },
       {
@@ -1494,6 +1494,13 @@
         "scholar_id": "FYtw3zkAAAAJ:k_IJM867U9cC"
       },
       {
+        "title": "Predicting audience engagement across social media platforms in the news domain",
+        "year": "2019",
+        "venue": "International Conference on Social Informatics, 173-187, 2019",
+        "citations": 22,
+        "scholar_id": "FYtw3zkAAAAJ:u5HHmVD_uO8C"
+      },
+      {
         "title": "Are personas done?: Evaluating the usefulness of personas in the age of online analytics",
         "year": "2018",
         "venue": "Persona Studies 4 (2), 47-65, 2018",
@@ -1506,13 +1513,6 @@
         "venue": "Proceedings of the International AAAI Conference on Web and Social Media 17 …, 2023",
         "citations": 21,
         "scholar_id": "FYtw3zkAAAAJ:XiSMed-E-HIC"
-      },
-      {
-        "title": "Predicting audience engagement across social media platforms in the news domain",
-        "year": "2019",
-        "venue": "International Conference on Social Informatics, 173-187, 2019",
-        "citations": 21,
-        "scholar_id": "FYtw3zkAAAAJ:u5HHmVD_uO8C"
       },
       {
         "title": "The challenges of creating engaging content: Results from a focus group study of a popular news media organization",
@@ -1548,13 +1548,6 @@
         "venue": "2009 IEEE International Conference on Pervasive Computing and Communications …, 2009",
         "citations": 17,
         "scholar_id": "FYtw3zkAAAAJ:d1gkVwhDpl0C"
-      },
-      {
-        "title": "Social-relation Aware Routing Protocol in Mobile Ad hoc Network",
-        "year": "2008",
-        "venue": "Journal of the Korean Institute of Information Scientists and Engineers …, 2008",
-        "citations": 17,
-        "scholar_id": "FYtw3zkAAAAJ:O3NaXMp0MMsC"
       },
       {
         "title": "A semantic embedding space based on large language models for modelling human beliefs",
@@ -1648,18 +1641,18 @@
         "scholar_id": "FYtw3zkAAAAJ:9yKSN-GCB0IC"
       },
       {
+        "title": "Enhancing stance classification on social media using quantified moral foundations",
+        "year": "2024",
+        "venue": "International Conference on Advances in Social Networks Analysis and Mining …, 2024",
+        "citations": 8,
+        "scholar_id": "FYtw3zkAAAAJ:LPZeul_q3PIC"
+      },
+      {
         "title": "Benchmarking zero-shot stance detection with FlanT5-XXL: Insights from training data, prompting, and decoding strategies into its near-SoTA performance",
         "year": "2024",
         "venue": "arXiv preprint arXiv:2403.00236, 2024",
         "citations": 8,
         "scholar_id": "FYtw3zkAAAAJ:tS2w5q8j5-wC"
-      },
-      {
-        "title": "Enhancing stance classification on social media using quantified moral foundations",
-        "year": "2024",
-        "venue": "International Conference on Advances in Social Networks Analysis and Mining …, 2024",
-        "citations": 7,
-        "scholar_id": "FYtw3zkAAAAJ:LPZeul_q3PIC"
       },
       {
         "title": "Political Honeymoon Effect on Social Media: Characterizing Social Media Reaction to the Changes of Prime Minister in Japan",
@@ -1699,7 +1692,7 @@
       {
         "title": "Efforts towards automatically generating personas in real-time using actual user data",
         "year": "2016",
-        "venue": "Qatar Foundation Annual Research Conference Proceedings 2016 (1), ICTPP3230, 2016",
+        "venue": "Qatar Foundation Annual Research Conference Proceedings 2016 (1), 2016",
         "citations": 6,
         "scholar_id": "FYtw3zkAAAAJ:TFP_iSt0sucC"
       },
@@ -1781,6 +1774,13 @@
         "scholar_id": "FYtw3zkAAAAJ:tkaPQYYpVKoC"
       },
       {
+        "title": "Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability",
+        "year": "2026",
+        "venue": "arXiv preprint arXiv:2603.16017, 2026",
+        "citations": 3,
+        "scholar_id": "FYtw3zkAAAAJ:eMMeJKvmdy0C"
+      },
+      {
         "title": "PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI",
         "year": "2025",
         "venue": "arXiv preprint arXiv:2512.24848, 2025",
@@ -1816,13 +1816,6 @@
         "scholar_id": "FYtw3zkAAAAJ:Zph67rFs4hoC"
       },
       {
-        "title": "Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability",
-        "year": "2026",
-        "venue": "arXiv preprint arXiv:2603.16017, 2026",
-        "citations": 2,
-        "scholar_id": "FYtw3zkAAAAJ:eMMeJKvmdy0C"
-      },
-      {
         "title": "Improving Real Estate Appraisal with POI Integration and Areal Embedding",
         "year": "2023",
         "venue": "arXiv preprint arXiv:2311.11812, 2023",
@@ -1839,7 +1832,7 @@
       {
         "title": "Leveraging Online Social Media Data for Persona Profiling",
         "year": "2018",
-        "venue": "Qatar Foundation Annual Research Conference Proceedings 2018 (3), ICTPP78, 2018",
+        "venue": "Qatar Foundation Annual Research Conference Proceedings 2018 (3), 2018",
         "citations": 2,
         "scholar_id": "FYtw3zkAAAAJ:RYcK_YlVTxYC"
       },
@@ -1879,6 +1872,13 @@
         "scholar_id": "FYtw3zkAAAAJ:Mojj43d5GZwC"
       },
       {
+        "title": "What Helps Language Models Predict Human Beliefs: Demographics or Prior Stances?",
+        "year": "2025",
+        "venue": "arXiv preprint arXiv:2511.18616, 2025",
+        "citations": 1,
+        "scholar_id": "FYtw3zkAAAAJ:SdhP9T11ey4C"
+      },
+      {
         "title": "Can Lessons From Human Teams Be Applied to Multi-Agent Systems? The Role of Structure, Diversity, and Interaction Dynamics",
         "year": "2025",
         "venue": "arXiv preprint arXiv:2510.07488, 2025",
@@ -1905,6 +1905,20 @@
         "venue": "AI Magazine 38 (4), 93-98, 2017",
         "citations": 1,
         "scholar_id": "FYtw3zkAAAAJ:hFOr9nPyWt4C"
+      },
+      {
+        "title": "Gendered cultural discourse in Japan across the prewar–postwar transition: evidence from historical word embeddings",
+        "year": "2026",
+        "venue": "EPJ Data Science, 2026",
+        "citations": 0,
+        "scholar_id": "FYtw3zkAAAAJ:eq2jaN3J8jMC"
+      },
+      {
+        "title": "RespMultimodal 2026: Responsible Multimodal Foundation Models for Knowledge Discovery",
+        "year": "2026",
+        "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and …, 2026",
+        "citations": 0,
+        "scholar_id": "FYtw3zkAAAAJ:5awf1xo2G04C"
       },
       {
         "title": "Somatic in the East, Psychological in the West?: A Clinically-Grounded Evaluation of Cross-Cultural Depression Symptoms in LLMs",
@@ -1942,9 +1956,16 @@
         "scholar_id": "FYtw3zkAAAAJ:bnK-pcrLprsC"
       },
       {
+        "title": "A Cross-Cultural Comparison of LLM-Based Public Opinion Simulation: Evaluating Chinese and US Models on Diverse Societies",
+        "year": "2025",
+        "venue": "2025 IEEE International Conference on Data Mining Workshops (ICDMW), 147-156, 2025",
+        "citations": 0,
+        "scholar_id": "FYtw3zkAAAAJ:t6usbXjVLHcC"
+      },
+      {
         "title": "A Benchmark for Zero-Shot Belief Inference in Large Language Models",
         "year": "2025",
-        "venue": "arXiv preprint arXiv:2511.18616, 2025",
+        "venue": "arXiv e-prints, arXiv: 2511.18616, 2025",
         "citations": 0,
         "scholar_id": "FYtw3zkAAAAJ:wbdj-CoPYUoC"
       },
@@ -1975,13 +1996,6 @@
         "venue": "Area, e70037, 2025",
         "citations": 0,
         "scholar_id": "FYtw3zkAAAAJ:1qzjygNMrQYC"
-      },
-      {
-        "title": "A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and US Models on Diverse Societies",
-        "year": "2025",
-        "venue": "arXiv preprint arXiv:2506.21587, 2025",
-        "citations": 0,
-        "scholar_id": "FYtw3zkAAAAJ:t6usbXjVLHcC"
       },
       {
         "title": "Proceedings of the Nineteenth International AAAI Conference on Web and Social Media",

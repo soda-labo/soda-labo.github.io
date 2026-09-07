@@ -2605,6 +2605,7 @@ a-benchmark-for-zero-shot-belief-inference-in-large-language-models:
   - dcjrz5MAAAAJ:Fu2w8maKXqMC
   - FYtw3zkAAAAJ:wbdj-CoPYUoC
   - dcjrz5MAAAAJ:nrtMV_XWKgEC
+  - FYtw3zkAAAAJ:SdhP9T11ey4C
   description: 'When an LLM predicts someone''s beliefs, what matters more: who they are (demographics) or what else they believe (prior stances)? Testing open-weight LLMs on online-debate data under four
     conditions, we find both signals improve prediction, but their relative value varies sharply across belief domains.'
   authors: Joseph Malone, Rachith Aiyappa, Byunghwee Lee, Haewoon Kwak, Jisun An, Yong-Yeol Ahn
@@ -2636,6 +2637,7 @@ quantifying-gender-stereotypes-in-japan-between-1900-and-1999-with-word-embeddin
   - dcjrz5MAAAAJ:W5xh706n7nkC
   - FYtw3zkAAAAJ:kRWSkSYxWN8C
   - dcjrz5MAAAAJ:EkHepimYqZsC
+  - FYtw3zkAAAAJ:eq2jaN3J8jMC
   description: Did 1945 change how Japan talked about gender? We train a word embedding for every year from 1900 to 1998 and trace stereotype strength across Home, Work, and Politics. Work and Politics
     reverse direction around 1945, turning female-associated after decades of drifting the other way, while Home stays flat throughout.
   authors: Shintaro Sakai, Haewoon Kwak, Jisun An, Akira Matsui
@@ -3049,6 +3051,7 @@ respmultimodal-2026-responsible-multimodal-foundation-models-for-knowledge-disco
   - bias-fairness
   scholar_ids:
   - dcjrz5MAAAAJ:uc_IGeMz5qoC
+  - FYtw3zkAAAAJ:5awf1xo2G04C
   authors: Seungbae Kim, Jinyoung Han, S. Shyam Sundar, Wei Wang, Haewoon Kwak, Jisun An, Sungeun Hong, YunSeok Choi, Soyoung Park, Seunghyun Lee
   link:
     url: https://doi.org/10.1145/3770855.3818262
