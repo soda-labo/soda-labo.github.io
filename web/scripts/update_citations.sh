@@ -99,16 +99,20 @@ fi
 # Commit & push only if anything actually changed
 cd "$REPO_ROOT" || exit 1
 PUBPIC_DIR="$REPO_ROOT/public/pubpic"
-if git diff --quiet -- "$DATA_FILE" "$OVERRIDES" "$PUBPIC_DIR" 2>/dev/null \
+# Step 2.5 rewrites this cache on any run that sees a new paper. It is tracked,
+# so leaving it unstaged makes `git pull --rebase` below refuse to run and the
+# whole push is skipped. That is exactly what happened on 2026-09-07.
+ABSTRACTS="$SCRIPT_DIR/abstracts.json"
+if git diff --quiet -- "$DATA_FILE" "$OVERRIDES" "$ABSTRACTS" "$PUBPIC_DIR" 2>/dev/null \
    && [ -z "$(git status --porcelain -- "$PUBPIC_DIR")" ]; then
   echo "Nothing changed — nothing to commit."
   exit 0
 fi
 
-git diff --stat -- "$DATA_FILE" "$OVERRIDES" 2>/dev/null
+git diff --stat -- "$DATA_FILE" "$OVERRIDES" "$ABSTRACTS" 2>/dev/null
 git status --short -- "$PUBPIC_DIR"
 
-git add "$DATA_FILE" "$OVERRIDES" "$PUBPIC_DIR"
+git add "$DATA_FILE" "$OVERRIDES" "$ABSTRACTS" "$PUBPIC_DIR"
 git commit -m "chore: refresh Scholar citations, sync overrides, optimize images ($(date +%Y-%m-%d))"
 
 # Rebase onto whatever landed on the remote since last week (edits pushed from
