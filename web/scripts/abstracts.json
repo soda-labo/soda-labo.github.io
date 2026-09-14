@@ -1453,8 +1453,8 @@
   "combining-behaviors-and-demographics-to-segment-online-audiences-experiments-wit": {
     "title": "Combining behaviors and demographics to segment online audiences: Experiments with a youtube channel",
     "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "An experiment of campaign effects during the YouTube election",
+    "method": "fail",
+    "matched_title": null,
     "doi": null,
     "openalex_id": null
   },
