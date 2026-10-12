@@ -3090,3 +3090,16 @@ leadership-as-coordination-control-behavioral-signatures-and-the-recovery-advant
   description: Does a team of LLM agents need a leader? We turn transactional, transformational, and situational leadership into explicit controllers over a shared action set, tested across four task regimes
     and three model families. No controller dominates. Control pays off only when the round-0 majority is wrong and the task is recoverable.
   image: leadership-as-coordination-control-behavioral-signatures-and.webp
+behavior-is-not-enough-a-mechanism-based-evaluation-of-social-norm-emergence-in-:
+  title: 'Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies'
+  tags:
+  - llms-responsible-ai
+  methods:
+  - llm
+  scholar_ids:
+  - FYtw3zkAAAAJ:WqliGbK-hY8C
+  authors: Rasika Muralidharan, Haewoon Kwak, Jisun An
+  link:
+    url: https://arxiv.org/abs/2609.26481
+    venue: arXiv (Cornell University)
+  image: behavior-is-not-enough-a-mechanism-based-evaluation-of-socia.webp

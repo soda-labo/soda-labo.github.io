@@ -1181,8 +1181,8 @@
   "method-for-predicting-reactiveness-of-users-of-mobile-devices-for-mobile-messagi": {
     "title": "Method for predicting reactiveness of users of mobile devices for mobile messaging",
     "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "Sending messages to mobile users in disconnected ad-hoc wireless networks",
+    "method": "fail",
+    "matched_title": null,
     "doi": null,
     "openalex_id": null
   },
@@ -1387,8 +1387,8 @@
   "method-system-and-computer-readable-storage-mediums-for-estimating-a-route": {
     "title": "Method, system and computer-readable storage mediums for estimating a route",
     "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "Copyright in computer-readable works",
+    "method": "fail",
+    "matched_title": null,
     "doi": null,
     "openalex_id": null
   },
@@ -1815,7 +1815,7 @@
     "title": "Proceedings of the Nineteenth International AAAI Conference on Web and Social Media",
     "abstract": null,
     "method": "fail-mismatch",
-    "matched_title": "Rapid assessment of disaster damage using social media activity",
+    "matched_title": "SocialQuotes: Learning Contextual Roles of Social Media Quotes on the Web",
     "doi": null,
     "openalex_id": null
   },
@@ -1956,5 +1956,14 @@
     "doi": "https://doi.org/10.48550/arxiv.2606.19111",
     "openalex_id": "https://openalex.org/W7165170335",
     "overlap": 1.0
+  },
+  "behavior-is-not-enough-a-mechanism-based-evaluation-of-social-norm-emergence-in-": {
+    "title": "Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies",
+    "matched_title": "Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies",
+    "abstract": "Social norms cannot be identified from behavior alone: the same cooperative equilibrium may reflect shared expectations, strategic incentives, or simple imitation. Yet in multi-agent large language model systems, prior work largely treats behavioral convergence as evidence of norm emergence. In this work, we introduce an evaluation framework that measures agents' reported empirical and normative expectations in addition to behavioral convergence. Through controlled ablations, we test the effect of expectation elicitation and isolate two collective mechanisms central to theories of norm formation---social learning through interaction and social selection through network-based group formation. We further test the stability of these resulting dynamics under adversarial disruption across four LLM families. We find that eliciting expectations increases cooperative contributions, while social learning stabilizes behavior, and social selection reliably identifies cooperators but provides limited behavioral reinforcement. Following disruption, normative expectations and behavioral coordination recover differently. Together, these results show that similar cooperative outcomes can arise from different underlying social processes. By making expectations observable, our framework allows us to attribute each mechanism's contribution separately, offering designers of multi-agent systems a principled basis for selecting the social processes that sustain cooperation.",
+    "method": "openalex-title",
+    "doi": "https://doi.org/10.48550/arxiv.2609.26481",
+    "openalex_id": "https://openalex.org/W7214121099",
+    "overlap": 0.75
   }
 }
