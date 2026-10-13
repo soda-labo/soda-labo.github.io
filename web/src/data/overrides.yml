@@ -2508,8 +2508,8 @@ understanding-moral-reasoning-trajectories-in-large-language-models-toward-probi
     to specific layers.
   authors: Fan Huang, Haewoon Kwak, Jisun An
   link:
-    url: http://arxiv.org/abs/2603.16017
-    venue: arXiv preprint arXiv:2603.16017, 2026
+    url: https://arxiv.org/abs/2603.16017
+    venue: EMNLP Findings, 2026
   image: understanding-moral-reasoning-trajectories-in-large-language.webp
 llms-can-infer-political-alignment-from-online-conversations:
   title: LLMs Can Infer Political Alignment from Online Conversations
@@ -3086,7 +3086,7 @@ leadership-as-coordination-control-behavioral-signatures-and-the-recovery-advant
   authors: Haewoon Kwak
   link:
     url: https://arxiv.org/abs/2606.19111
-    venue: arXiv preprint arXiv:2606.19111, 2026
+    venue: Transactions on Machine Learning Research (TMLR), 2026
   description: Does a team of LLM agents need a leader? We turn transactional, transformational, and situational leadership into explicit controllers over a shared action set, tested across four task regimes
     and three model families. No controller dominates. Control pays off only when the round-0 majority is wrong and the task is recoverable.
   image: leadership-as-coordination-control-behavioral-signatures-and.webp
