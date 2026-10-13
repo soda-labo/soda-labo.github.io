@@ -158,6 +158,12 @@ run; treat them as a rough snapshot, not something to keep exact.
 
 ## Open items
 
+- **Links waiting on publishers.** "Same Symptoms, Different Severity?"
+  (EMNLP 2026 Findings) has no URL until EMNLP releases its proceedings, so
+  its title in the August 2026 news entry is plain text and it is not in
+  `overrides.yml`; Scholar has not picked it up either. "Leadership as
+  Coordination Control" (TMLR) still links to arXiv 2606.19111 in both the
+  news entry and the card until the camera-ready lands on OpenReview.
 - Press carousel on the home page still has only the three Nature covers —
   adding more needs outlet, year, blurb, URL, and an image from Haewoon.
 - `/publications` renders all ~140 papers in one page. Year-collapse or
