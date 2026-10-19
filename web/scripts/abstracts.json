@@ -1181,8 +1181,8 @@
   "method-for-predicting-reactiveness-of-users-of-mobile-devices-for-mobile-messagi": {
     "title": "Method for predicting reactiveness of users of mobile devices for mobile messaging",
     "abstract": null,
-    "method": "fail",
-    "matched_title": null,
+    "method": "fail-mismatch",
+    "matched_title": "Sending messages to mobile users in disconnected ad-hoc wireless networks",
     "doi": null,
     "openalex_id": null
   },
@@ -1387,8 +1387,8 @@
   "method-system-and-computer-readable-storage-mediums-for-estimating-a-route": {
     "title": "Method, system and computer-readable storage mediums for estimating a route",
     "abstract": null,
-    "method": "fail",
-    "matched_title": null,
+    "method": "fail-mismatch",
+    "matched_title": "Copyright in computer-readable works",
     "doi": null,
     "openalex_id": null
   },
@@ -1965,5 +1965,23 @@
     "doi": "https://doi.org/10.48550/arxiv.2609.26481",
     "openalex_id": "https://openalex.org/W7214121099",
     "overlap": 0.75
+  },
+  "when-the-rule-maker-runs-the-world-championship-late-patches-and-procedural-acco": {
+    "title": "When the Rule-Maker Runs the World Championship: Late Patches and Procedural Accountability in League of Legends",
+    "matched_title": "When the Rule-Maker Runs the World Championship: Late Patches and Procedural Accountability in League of Legends",
+    "abstract": "Riot Games, which runs the League of Legends World Championship (Worlds), also changes the game shortly before each tournament. This concentration of authority raises a governance question: Who scrutinizes how the benefits and burdens of late rule changes are distributed? We examine all ten championships from 2016 to 2025, combining 1,097 games, 215 team-years, and LLM coding of 1,090 champion changes across 40 patches. On average, 33% of a team's prior picks were on champions with net nerfs in the patches it had not played before Worlds, and 8% were on champions with net buffs. Within a year, the median gap between the most and least affected teams was 23 percentage points for nerfed picks and 12 for buffed picks. Nerfs fell mainly on the most-contested champions and buffs on less-contested ones, as Riot's published balancing criteria anticipate. Pools concentrated on the prevailing meta therefore had more negative net exposure, and even the winners of a year's four major regional leagues differed in net exposure about as much as four randomly drawn teams. Higher buff exposure was associated with additional opponent bans on buffed champions, although its size depends on the model. Among quarterfinalists, the most buff-exposed team of each year reached six of ten finals and won four titles. The team with the most negative net exposure reached two finals and won one. These exploratory descriptions identify unequal exposure, not causal gains or losses. The association between net exposure and winning remains uncertain, at +1.3 percentage points per standard deviation with a 95% interval from -0.9 to +3.7. We argue that scrutiny of late rulemaking should not depend on proving that a patch changed who won Worlds. Earlier patch commitments, team-level impact disclosure, independent review, and a formal opportunity to challenge decisions would make publisher authority more accountable.",
+    "method": "openalex-title",
+    "doi": "https://doi.org/10.48550/arxiv.2610.07427",
+    "openalex_id": "https://openalex.org/W7221017348",
+    "overlap": 0.73
+  },
+  "narrative-entropy": {
+    "title": "Narrative Entropy",
+    "matched_title": "Narrative Entropy",
+    "abstract": "Narrative Entropy Theory (NET) proposes that we inhabit narrative environments: ecosystems of cultures, communities, and personal histories constructed from overlapping stories. Narrative entropy is a dynamic, relational property of these ecosystems: the degree of constraint and uncertainty over the interpretive possibility space available within them. At relatively lower entropy, interpretive activity concentrates around recurrent structures, makes narrative and shared worlds easier to navigate and facilitates shared meaning and experience. At relatively higher entropy, more possibilities remain available, which makes interpretation less anticipable and preserves opportunities for interpretive plurality, perspective-taking, and the generation of new meaning. In this way, narrative environments shape how meaning is interpreted and shared and which experiences and perspectives become available for recognition. NET connects the structure of these environments to cognition, communication, and social coordination while treating narrative as both organized structure and embodied activity. We provide an initial empirical demonstration using 475,716 English-language news articles from sources in 65 countries. We operationalize narrative entropy through topic attention, microframe complexity, and narrative fluency (the compressibility of traversal through narrative networks) and compare these measures with national indices of expressive freedom. All measures covary with these indices in the predicted directions and together account for more than one-third of the cross-national variance in the World Press Freedom Index. Together, these results show that narrative environments leave measurable traces in the artifacts they produce, making their structure empirically tractable for scientific inquiry.",
+    "method": "openalex-title",
+    "doi": "https://doi.org/10.31234/osf.io/5xvyd_v1",
+    "openalex_id": "https://openalex.org/W7213403084",
+    "overlap": 1.0
   }
 }
