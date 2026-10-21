@@ -159,12 +159,13 @@ export type Platform =
   | "instagram"
   | "tiktok"
   | "gab"
+  | "games"
   | "news-media"
   | "multi-platform";
 
 export const PLATFORMS: Platform[] = [
   "twitter", "reddit", "youtube", "facebook", "instagram",
-  "tiktok", "gab", "news-media", "multi-platform",
+  "tiktok", "gab", "games", "news-media", "multi-platform",
 ];
 
 export const PLATFORM_NAMES: Record<Platform, string> = {
@@ -175,6 +176,7 @@ export const PLATFORM_NAMES: Record<Platform, string> = {
   "instagram":      "Instagram",
   "tiktok":         "TikTok",
   "gab":            "Gab",
+  "games":          "Games",
   "news-media":     "News media",
   "multi-platform": "Multi-platform",
 };
@@ -191,6 +193,7 @@ const PLATFORM_RULES: { re: RegExp; platform: Platform }[] = [
   { re: /\bInstagram/i,                            platform: "instagram" },
   { re: /\bTikTok/i,                               platform: "tiktok" },
   { re: /\bGab\b/,                                 platform: "gab" },
+  { re: /\b(online games?|video games?|gaming|e-?sports|League of Legends|multiplayer|in-game)\b/i, platform: "games" },
 ];
 
 export function classifyPlatforms(text: string | null | undefined): Platform[] {

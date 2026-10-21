@@ -73,6 +73,7 @@ PLATFORM_RULES: list[tuple[re.Pattern, str]] = [
     (re.compile(r"\bInstagram", re.I),                            "instagram"),
     (re.compile(r"\bTikTok", re.I),                               "tiktok"),
     (re.compile(r"\bGab\b"),                                      "gab"),
+    (re.compile(r"\b(online games?|video games?|gaming|e-?sports|League of Legends|multiplayer|in-game)\b", re.I), "games"),
 ]
 
 HIDE_PATTERNS: list[re.Pattern] = [

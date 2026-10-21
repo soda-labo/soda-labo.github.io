@@ -3108,7 +3108,9 @@ behavior-is-not-enough-a-mechanism-based-evaluation-of-social-norm-emergence-in-
 when-the-rule-maker-runs-the-world-championship-late-patches-and-procedural-acco:
   title: 'When the Rule-Maker Runs the World Championship: Late Patches and Procedural Accountability in League of Legends'
   tags:
-  - user-behavior
+  - bias-fairness
+  platforms:
+  - games
   scholar_ids:
   - dcjrz5MAAAAJ:zLWjf1WUPmwC
   authors: Haewoon Kwak
