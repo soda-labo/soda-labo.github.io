@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Masthead from "../components/Masthead.astro";
 import { topicColor, topicName } from "../lib/tag-colors";
 
 // Each area is anchored by a primary topic from tag-colors.ts and may carry
@@ -376,33 +377,6 @@ const thrusts = [
   },
 ];
 
-const heroIllo = `
-  <g class="stroke ink">
-    <path d="M70,90 C110,40 220,40 280,90 C320,130 310,200 240,225 C170,250 90,230 60,180 C45,150 50,110 70,90 Z"/>
-    <path class="thin" d="M95,110 C140,80 220,85 260,120"/>
-    <path class="thin" d="M85,150 C135,140 230,150 270,165"/>
-    <path class="thin" d="M100,190 C150,200 220,200 255,185"/>
-    <path class="thin" d="M150,80 C145,140 160,200 170,225"/>
-    <path class="thin" d="M210,80 C215,135 200,195 195,225"/>
-  </g>
-  <g fill="var(--ink)">
-    <circle cx="120" cy="105" r="3.2"/>
-    <circle cx="200" cy="92" r="3.2"/>
-    <circle cx="255" cy="135" r="3.2"/>
-    <circle cx="170" cy="155" r="3.2"/>
-    <circle cx="110" cy="170" r="3.2"/>
-    <circle cx="225" cy="180" r="3.2"/>
-    <circle cx="170" cy="215" r="3.2"/>
-  </g>
-  <g class="stroke ink">
-    <path d="M40,210 C90,250 270,250 320,210 C310,240 270,265 180,265 C90,265 50,240 40,210 Z"/>
-    <path class="thin" d="M60,225 C70,240 90,245 110,245"/>
-    <path class="thin" d="M250,245 C275,243 295,235 305,225"/>
-  </g>
-  <g class="stroke">
-    <path class="thin" d="M295,70 C275,55 245,55 230,75"/>
-    <path class="thin" d="M230,75 L238,68 M230,75 L240,80"/>
-  </g>`;
 
 // The primary topic of each section drives its accent color.
 function primaryColor(topics: readonly string[]): string {
@@ -411,21 +385,15 @@ function primaryColor(topics: readonly string[]): string {
 ---
 
 <Base title="Research · SoDA Lab" description="What the SoDA Lab studies: attention and influence on platforms, beliefs and narratives at scale, online harms, LLMs as social actors, digital health, and fairness.">
+  {/* Same opening as every other page: a fabric masthead naming the page.
+      The statement that used to be a 72px hero h1 is the lede now; at that
+      size a 63-character sentence took half the first screen. */}
+  <Masthead
+    title="Research"
+    lede="How people behave online, and how AI is reshaping those spaces. We study these dynamics to help design healthier digital spaces."
+  />
+
   <div class="research-paper">
-    <section class="hero">
-      <div>
-        <h1 class="hero-title">
-          How <em>people</em> behave online,<br />
-          and how <em>AI</em> is reshaping those spaces.
-        </h1>
-        <p class="hero-lede">
-          We study these dynamics to help design healthier digital spaces.
-        </p>
-      </div>
-      <div class="illo-wrap hero-illo" style="--track: var(--color-illo)">
-        <svg class="illo" viewBox="0 0 360 280" aria-hidden="true" set:html={heroIllo} />
-      </div>
-    </section>
 
     <div class="section-head">
       <h2>What we're working on</h2>
@@ -508,12 +476,11 @@ function primaryColor(topics: readonly string[]): string {
     --rule: var(--color-rule);
 
     color: var(--ink);
-    /* break out to full viewport width even though we're inside the Base <main max-w-5xl> */
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    /* top padding kept light so the hero starts at the same offset as the
-       home page's hero (Base.astro main.py-10 + home's h1.mt-3 ≈ 52px) */
-    padding: 12px clamp(20px, 5vw, 64px) 80px;
+    /* Lives in Base's main column (max-w-5xl, px-6) like every other page.
+       It used to break out to 100vw with its own 5vw padding, which put the
+       body 24px off the header's alignment and let the section head and the
+       horizons grid run wider than everything else. */
+    padding-bottom: 80px;
     font-family: var(--font-sans);
     font-size: 16px;
     line-height: 1.6;
@@ -536,44 +503,11 @@ function primaryColor(topics: readonly string[]): string {
     margin-right: auto;
   }
 
-  .research-paper .hero {
-    display: grid;
-    grid-template-columns: 1.15fr 0.85fr;
-    gap: 64px;
-    align-items: end;
-    margin-bottom: 80px;
-  }
-  .research-paper .hero-title {
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: clamp(44px, 6.2vw, 72px);
-    line-height: 1.06;
-    letter-spacing: -0.02em;
-    margin: 0 0 24px;
-    color: var(--ink);
-  }
-  .research-paper .hero-title em {
-    font-style: normal;
-    font-weight: 700;
-    color: var(--ink);
-  }
-  .research-paper .hero-lede {
-    font-family: var(--font-read);
-    font-size: 18px;
-    font-style: italic;
-    color: var(--ink-soft);
-    max-width: 36ch;
-    margin: 0;
-  }
-  @media (max-width: 720px) {
-    .research-paper .hero {
-      grid-template-columns: 1fr;
-    }
-  }
-
   .research-paper .section-head {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    /* Heading, then a rule to the column's edge. A third, empty track used to
+       stop the rule one gap short of every other divider on the page. */
+    grid-template-columns: auto 1fr;
     align-items: center;
     gap: 18px;
     margin-bottom: 48px;
