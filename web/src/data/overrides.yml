@@ -295,7 +295,7 @@ you-have-earned-a-trophy-characterize-in-game-achievements-and-their-completions
   methods:
   - dataset
   platforms:
-  - Game
+  - games
   image: websci22_haewoon.webp
   highlight: true
   description: PlayStation 'trophies' are one of gaming's most-discussed achievement systems, but no large-scale study exists. We build the first complete dataset of PlayStation games and their trophies,
@@ -989,7 +989,7 @@ identifying-regional-trends-in-avatar-customization:
   methods:
   - dataset
   platforms:
-  - Game
+  - games
   image: ieeegames18_peter.webp
   highlight: true
   description: 'Avatars are a quiet form of self-expression, but the values built into avatar systems are rarely studied. Using deep learning and clustering on roughly 100,000 avatars from a major creation
