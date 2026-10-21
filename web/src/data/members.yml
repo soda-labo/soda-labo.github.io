@@ -38,9 +38,7 @@ phd_students:
   - name: Juyoung An
   - name: Shirui (Olivia) Zhou
 
-visitors:
-  - name: Jihyun Kim
-    affiliation: Sungkyunkwan University
+visitors: []
 
 alumni:
   postdocs:
@@ -63,6 +61,9 @@ alumni:
       year: Fall 2025
     - name: Sumit Kumar
       affiliation: IIIT-Hyderabad
+      year: Spring 2026
+    - name: Jihyun Kim
+      affiliation: Sungkyunkwan University
       year: Spring 2026
 
   graduate_smu:
