@@ -3,7 +3,7 @@ faculty:
     role: Assistant Professor
     photo: jisun.jpg
     email: jisunan@iu.edu
-    website: http://jisun.me
+    website: https://jisun.me
     scholar: https://scholar.google.com/citations?user=FYtw3zkAAAAJ
     cv: /downloads/JisunAn_CV20240218.pdf
     education:
@@ -16,9 +16,9 @@ faculty:
     role: Associate Professor
     photo: haewoon.jpg
     email: hwkwak@iu.edu
-    website: http://haewoon.github.io
+    website: https://haewoon.github.io
     scholar: https://scholar.google.com/citations?user=dcjrz5MAAAAJ
-    cv: http://haewoon.github.io/PDFs/haewoon_CV.pdf
+    cv: https://haewoon.github.io/PDFs/haewoon_CV.pdf
     education:
       - Associate Professor, Singapore Management University
       - Senior Scientist, Qatar Computing Research Institute
