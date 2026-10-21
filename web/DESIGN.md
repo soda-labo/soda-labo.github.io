@@ -206,17 +206,17 @@ palette on purpose — they encode data, not mood.
   crimson board-number tag, the active nav destination, links inside prose and
   news items, the `Open` stamp, `::selection`, the caret, and the focus ring.
   It measures 8.24:1 on stock and 7.40:1 on the hall floor. Hover deepens to
-  `#7d0000` (10.36:1).
+  `#7d0000` (10.36:1), as `--color-accent-deep`.
 
 ### Neutral
 - **Hall Floor** (`#eaeae7`): the page ground. `body` background, nothing else.
 - **Poster Stock** (`#f6f6f3`): every sheet — publication boards, team cards,
-  the news sidebar, filter controls, the footer, and the badge behind the lab
+  the news sidebar, filter controls, and the badge behind the lab
   mark. Also the type colour on fabric.
 - **Stock in Shadow** (`#e2e2dd`): the empty bed behind an image that has not
   loaded or does not fill its frame (publication figures, press clippings).
 - **Board Fabric** (`#46525c`): the header strip, the page masthead, the home
-  hero band. Always full-bleed, never a container inside the reading column.
+  hero band, and the footer, so every page opens and closes on it. Always full-bleed, never a container inside the reading column.
 - **Ink** (`#14181b`): headings, board titles, lab-author names, and the ground
   of an inverted control (active filter chip, notice head, `Closed` stamp,
   the press caption strip). 16.49:1 on stock.
@@ -498,10 +498,25 @@ Section heads are a single horizontal row (`auto 1fr auto`): an optional 11px
 uppercase label, a 1px rule that fills the gap, and the heading — laid out
 across, never stacked.
 
-**The Sub-Head Address Rule.** The numbered kicker (`<span class="num">` in
-inverted ink plus the track name) sits *below* its `h3`, never above it. A small
-label above a heading is banned outright; the same content reads as an address
-when it follows the headline.
+**The Unnumbered Area Rule.** Each research area carries a track label below
+its `h3`: a 9px swatch in the area's primary track colour (`--track`) and the
+area name in label type. No number. The areas were numbered 01–09 until
+October 2026, when a design audit pointed out the obvious: nine research areas
+are not a sequence, so an ordinal claims an order that does not exist and reads
+as decoration. Numbers stay only where something is genuinely addressed, the
+featured boards on the home page. A small label above a heading is still banned
+outright.
+
+### Footer
+The page closes the way it opens, on board fabric. A colophon rather than a
+sitemap, since the header already lists every destination: the lab name, one
+sentence of affiliation with the Luddy link inline, both faculty emails, and
+the one action the site exists for, "Join the lab", as the same crimson block
+as the home page's primary action. Links in the colophon are underlined at rest
+because they sit inside a sentence. Paper at 78% carries the body (5.26:1 on
+fabric), 72% the copyright line (4.76:1). Until October 2026 the footer was a
+three-column paper band with a "Links" column holding two links: the one surface
+the poster-hall rebuild never reached.
 
 ### Notice and stamps (openings)
 A pinned official notice: stock ground with a hairline ring, a solid ink head

@@ -7,7 +7,6 @@ import { topicColor, topicName } from "../lib/tag-colors";
 // so the research narrative and publication chips stay visually in sync.
 const areas = [
   {
-    num: "01",
     kicker: "Networks, attention & influence",
     headline: "Computational & social, treated as one system.",
     topics: ["networks-influence", "user-behavior"] as const,
@@ -52,7 +51,6 @@ const areas = [
       </g>`,
   },
   {
-    num: "02",
     kicker: "Beliefs, opinions & narratives at scale",
     headline: "From raw text to a semantic space of human belief.",
     topics: ["beliefs-opinions"] as const,
@@ -96,7 +94,6 @@ const areas = [
       </g>`,
   },
   {
-    num: "03",
     kicker: "Online safety, harms & platform governance",
     headline: "Toxicity is not an act; it's an outcome of design.",
     topics: ["online-harm"] as const,
@@ -157,7 +154,6 @@ const areas = [
       </g>`,
   },
   {
-    num: "04",
     kicker: "LLMs as social & cognitive actors",
     headline: "Not just how well they perform, but how they reason about us.",
     topics: ["llms-responsible-ai"] as const,
@@ -202,7 +198,6 @@ const areas = [
       </g>`,
   },
   {
-    num: "05",
     kicker: "Digital health & wellbeing",
     headline: "Public conversation as a public-health signal.",
     topics: ["digital-health"] as const,
@@ -252,7 +247,6 @@ const areas = [
 
 const thrusts = [
   {
-    num: "06",
     kicker: "Socio-cognitive stability",
     headline: "Measuring how an AI's beliefs drift across a conversation.",
     topics: ["llms-responsible-ai"] as const,
@@ -280,7 +274,6 @@ const thrusts = [
       </g>`,
   },
   {
-    num: "07",
     kicker: "Bias & fairness across systems",
     headline: "When data, media, or models speak louder for some than others.",
     topics: ["bias-fairness", "news-journalism"] as const,
@@ -318,7 +311,6 @@ const thrusts = [
       </g>`,
   },
   {
-    num: "08",
     kicker: "Socially faithful digital twins",
     headline: "LLM agents that represent specific populations.",
     topics: ["llms-responsible-ai", "beliefs-opinions"] as const,
@@ -351,7 +343,6 @@ const thrusts = [
       </g>`,
   },
   {
-    num: "09",
     kicker: "Safety in participatory systems",
     headline: "Keeping games and creator platforms safer.",
     topics: ["online-harm", "user-behavior"] as const,
@@ -431,7 +422,7 @@ function primaryColor(topics: readonly string[]): string {
           We study these dynamics to help design healthier digital spaces.
         </p>
       </div>
-      <div class="illo-wrap hero-illo" style="--track: #b14a1f">
+      <div class="illo-wrap hero-illo" style="--track: var(--color-illo)">
         <svg class="illo" viewBox="0 0 360 280" aria-hidden="true" set:html={heroIllo} />
       </div>
     </section>
@@ -448,7 +439,7 @@ function primaryColor(topics: readonly string[]): string {
         </div>
         <div class="copy">
           <h3>{a.headline}</h3>
-          <div class="kicker"><span class="num">{a.num}</span><span class="track">{a.kicker}</span></div>
+          <div class="kicker"><span class="track">{a.kicker}</span></div>
           <p set:html={a.body} />
           <div class="topic-chips">
                         {a.topics.map((t) => (
@@ -478,7 +469,7 @@ function primaryColor(topics: readonly string[]): string {
             <svg class="illo" viewBox="0 0 280 220" aria-hidden="true" set:html={t.illo} />
           </div>
           <h3>{t.headline}</h3>
-          <div class="kicker"><span class="num">{t.num}</span><span class="track">{t.kicker}</span></div>
+          <div class="kicker"><span class="track">{t.kicker}</span></div>
           <p set:html={t.body} />
           <div class="topic-chips">
             {t.topics.map((tag) => (
@@ -644,13 +635,17 @@ function primaryColor(topics: readonly string[]): string {
     letter-spacing: 0.12em;
     text-transform: uppercase;
     margin-top: 14px;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
   }
-  .research-paper .kicker .num {
-    background-color: var(--ink);
-    color: var(--paper);
-    font-weight: 700;
-    padding: 3px 6px;
+  /* No number: the nine areas are not a sequence, so an ordinal would claim an
+     order that does not exist. The swatch is the area's primary track colour,
+     the same mark a publication board carries. */
+  .research-paper .kicker::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    flex-shrink: 0;
+    background-color: var(--track, var(--ink-faint));
   }
   .research-paper .kicker .track { color: var(--ink-faint); }
   .research-paper .topic h3,

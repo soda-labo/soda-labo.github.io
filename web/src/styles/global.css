@@ -23,9 +23,17 @@
   /* IU crimson. It is the board number tag and the one action colour, and it
      is the institution's own, not a decorative pick. */
   --color-accent:      #990000;
+  --color-accent-deep: #7d0000;  /* hover/pressed crimson, 10.36:1 on stock */
+
+  /* The research hero's line drawing. The one illustration colour that is not
+     a topic track, so it gets a name rather than living inline. */
+  --color-illo:        #b14a1f;
 }
 
 html {
+  /* Boards bleed to 100vw. Clipping here as well as on body stops the bleed
+     from creating a horizontal scroll on desktops with a visible scrollbar. */
+  overflow-x: clip;
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   /* Every figure in this site is a measurement: years, citation counts, board
@@ -108,7 +116,7 @@ html {
 /* A link that sits inside a sentence. Crimson against the body ink is only
    1.15:1 in luminance, so colour alone cannot mark it as a link for a reader
    who does not see the hue; the underline is what does. Matches the news
-   column's link treatment. Standalone links (team lists, the footer) are
+   column's link treatment. Standalone links (the team page's lists) are
    identifiable by position and keep their hover-only underline. */
 .inline-link {
   color: var(--color-accent);

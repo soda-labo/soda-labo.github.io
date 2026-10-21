@@ -3,36 +3,89 @@ import Email from "./Email.astro";
 const year = new Date().getFullYear();
 ---
 
-<footer class="mt-20 border-t" style="border-color: var(--color-rule); background-color: var(--color-paper);">
-  <div class="mx-auto grid max-w-5xl gap-8 px-6 py-10 text-sm sm:grid-cols-3" style="color: var(--color-ink-soft);">
-    <div>
-      <div class="font-display font-semibold" style="color: var(--color-ink);">SoDA Lab</div>
-      <p class="mt-1 leading-relaxed">
-        Social Data and AI Lab<br />
-        Luddy School of Informatics, Computing, and Engineering<br />
+{/* The page closes the way it opens: on board fabric, like the directory strip
+    at the top. A colophon, not a sitemap. The header already lists every
+    destination, so the footer carries only who we are, how to reach us, and
+    the one action the site exists for. */}
+<footer class="board mt-12">
+  <div class="mx-auto flex max-w-5xl flex-col gap-8 px-6 pt-10 pb-6 md:flex-row md:items-end md:justify-between md:gap-12">
+    <div class="colophon">
+      <p class="colophon-name">SoDA Lab</p>
+      <p class="colophon-line">
+        Social Data and AI Lab at the
+        <a href="https://luddy.indiana.edu/" target="_blank" rel="noopener" class="footer-link">Luddy School of Informatics, Computing, and Engineering</a>,
         Indiana University Bloomington
       </p>
-    </div>
-    <div>
-      <div class="font-display font-semibold" style="color: var(--color-ink);">Contact</div>
-      <p class="mt-1 space-y-0.5">
-        <Email user="hwkwak" host="iu.edu" class="hover:underline" /><br />
-        <Email user="jisunan" host="iu.edu" class="hover:underline" />
+      <p class="colophon-line">
+        <Email user="hwkwak" host="iu.edu" class="footer-link" />
+        <span aria-hidden="true">&ensp;·&ensp;</span>
+        <Email user="jisunan" host="iu.edu" class="footer-link" />
       </p>
     </div>
-    <div>
-      <div class="font-display font-semibold" style="color: var(--color-ink);">Links</div>
-      <ul class="mt-1 space-y-1">
-        <li>
-          <a href="https://luddy.indiana.edu/" class="hover:underline" target="_blank" rel="noopener">
-            Luddy School
-          </a>
-        </li>
-        <li><a href="/openings" class="hover:underline">Join us</a></li>
-      </ul>
-    </div>
+    <a href="/openings" class="footer-action">Join the lab</a>
   </div>
-  <div class="mx-auto max-w-5xl px-6 pb-8 text-[11px] font-semibold uppercase tracking-[0.14em]" style="color: var(--color-ink-faint);">
-    © {year} SoDA Lab
+  <div class="mx-auto max-w-5xl px-6 pb-8">
+    <p class="colophon-fine">© {year} SoDA Lab</p>
   </div>
 </footer>
+
+<style>
+  .colophon { max-width: 62ch; }
+
+  .colophon-name {
+    font-family: var(--font-display);
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--color-paper);
+  }
+
+  /* Paper at 78% on fabric is 5.26:1, comfortably above the 4.5 floor. */
+  .colophon-line {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: color-mix(in srgb, var(--color-paper) 78%, transparent);
+  }
+
+  /* These links sit inside a sentence, so they are underlined at rest, not on
+     hover only. The email anchors are rendered by Email.astro and carry its
+     scope, not this one, hence :global. */
+  .colophon :global(.footer-link) {
+    color: var(--color-paper);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--color-paper) 40%, transparent);
+    text-underline-offset: 2px;
+  }
+  .colophon :global(.footer-link:hover) {
+    text-decoration-color: var(--color-paper);
+  }
+
+  /* The same crimson block as the home page's primary action and the
+     header's "you are here" tag: the one colour that means "go". */
+  .footer-action {
+    align-self: flex-start;
+    flex-shrink: 0;
+    white-space: nowrap;
+    background-color: var(--color-accent);
+    color: var(--color-paper);
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 0.7rem 1.15rem;
+    transition: background-color 0.15s ease;
+  }
+  .footer-action:hover { background-color: var(--color-accent-deep); }
+  @media (min-width: 768px) { .footer-action { align-self: auto; } }
+
+  /* Paper at 72% on fabric, 4.76:1. */
+  .colophon-fine {
+    padding-top: 1rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-paper) 18%, transparent);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--color-paper) 72%, transparent);
+  }
+</style>

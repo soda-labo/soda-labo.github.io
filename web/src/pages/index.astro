@@ -69,7 +69,7 @@ const press = [
           class="relative mx-auto w-full max-w-[17rem] lg:mx-0"
           data-count={press.length}
         >
-          <div class="overflow-hidden" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.25);">
+          <div class="overflow-hidden" style="box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--color-ink) 25%, transparent);">
             <div
                 id="press-track"
                 class="flex transition-transform duration-500 ease-out"
@@ -134,7 +134,7 @@ const press = [
   </section>
 
   <section class="grid gap-8 pt-12 pb-12 lg:grid-cols-[minmax(0,1fr)_19rem] lg:gap-10">
-    <div class="stock self-start space-y-10 px-7 py-9 sm:px-9">
+    <div class="stock self-start space-y-10 px-5 py-8 sm:px-9 sm:py-9">
       <p class="read text-base" style="color: var(--color-ink-soft);">
         Led by
         <a href="/team" class="font-medium underline decoration-1 underline-offset-2 hover:decoration-2" style="color: var(--color-ink); text-decoration-color: var(--color-rule);">Haewoon Kwak</a>
@@ -244,7 +244,7 @@ const press = [
       background-color: var(--color-accent);
       color: var(--color-paper);
     }
-    .act-primary:hover { background-color: #7d0000; }
+    .act-primary:hover { background-color: var(--color-accent-deep); }
     .act-secondary {
       background-color: transparent;
       color: var(--color-ink);
