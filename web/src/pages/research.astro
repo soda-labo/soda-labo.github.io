@@ -8,58 +8,60 @@ import { topicColor, topicName } from "../lib/tag-colors";
 // so the research narrative and publication chips stay visually in sync.
 const areas = [
   {
-    kicker: "Networks, attention & influence",
-    headline: "Computational & social, treated as one system.",
-    topics: ["networks-influence", "user-behavior"] as const,
-    body: `Online platforms are shaped both by algorithms (what gets recommended, who is
-      followed) and by people (what we share, talk about, ignore). We build tools that
-      measure both sides together, so we can see how attention concentrates, how
-      information spreads, and which voices end up loudest, without reducing it all to
-      engagement counts.`,
+    kicker: "LLMs as social & cognitive actors",
+    headline: "Not just what LLMs answer, but how they reason about us.",
+    topics: ["llms-responsible-ai", "bias-fairness"] as const,
+    body: `LLMs now sit in counseling, moderation, and policy work, where how a model reasons
+      matters as much as what it answers. We trace how its moral reasoning switches
+      framework from one step to the next, where its cognitive biases live inside the
+      network and how far they can be steered out, how easily persuasion talks it out of
+      its stated beliefs, and how much it can infer about the people it talks to, from
+      their politics to the secrets in their inbox.`,
     illo: `
-      <g class="stroke thin">
-        <line x1="40" y1="220" x2="320" y2="220"/>
-        <line x1="40" y1="60" x2="40" y2="220"/>
-        <line x1="40" y1="220" x2="40" y2="226"/>
-        <line x1="110" y1="220" x2="110" y2="226"/>
-        <line x1="180" y1="220" x2="180" y2="226"/>
-        <line x1="250" y1="220" x2="250" y2="226"/>
-        <line x1="320" y1="220" x2="320" y2="226"/>
-      </g>
       <g class="stroke ink">
-        <path d="M80,170 L140,130 L210,145 L260,90 L290,105"/>
-        <path d="M140,130 L170,90 L210,145"/>
-        <path d="M80,170 L100,200 L160,190 L210,145"/>
+        <line x1="30" y1="200" x2="330" y2="200" class="thick"/>
+        <line x1="60" y1="200" x2="55" y2="240" class="thin"/>
+        <line x1="300" y1="200" x2="305" y2="240" class="thin"/>
+        <circle cx="100" cy="100" r="32" class="fill-paper"/>
+        <path class="thin" d="M88,98 C90,96 94,96 96,98"/>
+        <path class="thin" d="M108,98 C110,96 114,96 116,98"/>
+        <path class="thin" d="M92,115 C98,120 108,120 114,115"/>
+        <path d="M55,200 C60,165 80,140 100,132 C120,140 140,165 145,200"/>
+        <path d="M230,72 C228,68 232,64 238,64 L290,64 C296,64 300,68 298,72 L298,128 C300,132 296,136 290,136 L238,136 C232,136 228,132 230,128 Z" class="fill-paper"/>
+        <g class="thin">
+          <circle cx="245" cy="86" r="3"/>
+          <circle cx="270" cy="86" r="3"/>
+          <circle cx="285" cy="86" r="3"/>
+          <line x1="248" y1="86" x2="267" y2="86"/>
+          <line x1="273" y1="86" x2="282" y2="86"/>
+          <line x1="245" y1="89" x2="245" y2="105"/>
+          <line x1="270" y1="89" x2="270" y2="110"/>
+          <line x1="285" y1="89" x2="285" y2="105"/>
+          <line x1="245" y1="110" x2="270" y2="110"/>
+          <line x1="270" y1="115" x2="285" y2="115"/>
+          <circle cx="245" cy="110" r="2.2"/>
+          <circle cx="285" cy="115" r="2.2"/>
+        </g>
+        <path d="M215,200 C220,168 235,148 264,140 C293,148 308,168 315,200"/>
       </g>
-      <g fill="var(--ink)">
-        <circle cx="80" cy="170" r="5"/>
-        <circle cx="100" cy="200" r="3.5"/>
-        <circle cx="140" cy="130" r="6"/>
-        <circle cx="160" cy="190" r="3.5"/>
-        <circle cx="170" cy="90" r="4"/>
-        <circle cx="210" cy="145" r="8"/>
-        <circle cx="260" cy="90" r="4.5"/>
-        <circle cx="290" cy="105" r="3.5"/>
-      </g>
-      <g class="stroke thick">
-        <circle cx="210" cy="145" r="42" fill="none"/>
-        <line x1="240" y1="175" x2="285" y2="220"/>
-        <line x1="234" y1="178" x2="278" y2="222" class="thin"/>
-      </g>
-      <g class="stroke thin">
-        <path d="M40,50 C60,45 80,52 90,48"/>
-        <path d="M44,40 Q70,42 95,40"/>
+      <g class="stroke">
+        <ellipse cx="180" cy="85" rx="32" ry="18" class="fill-paper"/>
+        <path d="M168,100 L162,112 L178,103" class="fill-paper"/>
+        <line x1="170" y1="83" x2="190" y2="83" class="thin"/>
+        <line x1="167" y1="90" x2="193" y2="90" class="thin"/>
       </g>`,
   },
   {
     kicker: "Beliefs, opinions & narratives at scale",
     headline: "From raw text to a semantic space of human belief.",
-    topics: ["beliefs-opinions"] as const,
+    topics: ["beliefs-opinions", "llms-responsible-ai"] as const,
     body: `What do people believe, and how do those beliefs change? Surveys can ask, but
       they're slow and small. We build computational tools that read meaning (framing,
-      stance, belief) directly from online text. Our recent <em>Nature Human Behaviour</em>
+      stance, belief) directly from online text. Our <em>Nature Human Behaviour</em>
       paper introduced a "map" of human beliefs that can predict which view a person is
-      likely to adopt next, given the ones they already hold.`,
+      likely to adopt next. We also ask what helps a model predict someone's beliefs,
+      how faithfully LLMs simulate public opinion in different societies, and how much
+      interpretive room a country's news leaves open.`,
     illo: `
       <g class="dotted">
         <path d="M85,80 C130,100 170,90 215,70"/>
@@ -95,14 +97,63 @@ const areas = [
       </g>`,
   },
   {
+    kicker: "Societies of AI agents",
+    headline: "When agents work together, what holds them together?",
+    topics: ["llms-responsible-ai"] as const,
+    body: `Teams of LLM agents are being put to work on problems no single model solves alone.
+      We bring team science and social theory to them: whether flat teams beat
+      hierarchies, when a leader actually helps, and whether agents that settle into
+      cooperation have formed a norm or merely converged. The answer keeps coming back
+      the same: similar behavior can rest on very different social processes, so we
+      measure the process, not just the outcome.`,
+    illo: `
+      <g class="stroke thin">
+        <path d="M180,50 L265.6,112.2 L232.9,212.8 L127.1,212.8 L94.4,112.2 Z"/>
+      </g>
+      <g class="dotted">
+        <line x1="180" y1="62" x2="180" y2="114"/>
+        <line x1="254" y1="116" x2="204" y2="132"/>
+        <line x1="226" y1="202" x2="196" y2="161"/>
+        <line x1="134" y1="202" x2="164" y2="161"/>
+        <line x1="106" y1="116" x2="156" y2="132"/>
+      </g>
+      <g class="stroke thick">
+        <circle cx="180" cy="140" r="26"/>
+      </g>
+      <g class="stroke thin">
+        <circle cx="180" cy="140" r="9"/>
+        <circle cx="180" cy="50" r="19"/>
+      </g>
+      <g class="stroke ink">
+        <circle cx="180" cy="50" r="11"/>
+        <circle cx="265.6" cy="112.2" r="11"/>
+        <circle cx="232.9" cy="212.8" r="11"/>
+        <circle cx="127.1" cy="212.8" r="11"/>
+        <circle cx="94.4" cy="112.2" r="11"/>
+      </g>
+      <g fill="var(--ink)">
+        <circle cx="180" cy="50" r="3.5"/>
+        <circle cx="265.6" cy="112.2" r="3.5"/>
+        <circle cx="232.9" cy="212.8" r="3.5"/>
+        <circle cx="127.1" cy="212.8" r="3.5"/>
+        <circle cx="94.4" cy="112.2" r="3.5"/>
+      </g>
+      <g class="stroke thin">
+        <path d="M284,92 C292,88 300,93 308,88"/>
+        <path d="M288,82 Q300,84 312,80"/>
+        <path d="M52,92 C60,88 68,93 76,88"/>
+      </g>`,
+  },
+  {
     kicker: "Online safety, harms & platform governance",
     headline: "Toxicity is not an act; it's an outcome of design.",
-    topics: ["online-harm"] as const,
-    body: `Toxicity, hate, and misinformation are usually not the work of lone bad actors.
-      They are shaped by competition, group norms, and the design of the platform itself.
-      We study toxic behavior in online games and communities, how false stories spread,
-      and how moderation rules change what gets said, including the harder question of
-      what to do when different communities disagree on what should be allowed.`,
+    topics: ["online-harm", "user-behavior"] as const,
+    body: `Toxicity, hate, and misinformation are rarely the work of lone bad actors. They are
+      shaped by competition, group norms, and the rules a platform chooses. We have
+      measured what happened to hate on Twitter once moderation was relaxed, built a
+      benchmark showing that even frontier models struggle when communities disagree on
+      what should be allowed, and asked when an altered face starts to count as a
+      specific person, the point where deepfake harm begins.`,
     illo: `
       <g class="stroke ink">
         <path d="M30,235 C100,230 200,238 330,232" class="thin"/>
@@ -155,58 +206,15 @@ const areas = [
       </g>`,
   },
   {
-    kicker: "LLMs as social & cognitive actors",
-    headline: "Not just how well they perform, but how they reason about us.",
-    topics: ["llms-responsible-ai"] as const,
-    body: `LLMs are increasingly used for moderation, counseling, and policy work, tasks
-      that demand social and cultural judgment, not just accuracy. We test how reliably
-      they detect hate speech, how easily their stated beliefs can be talked out from
-      under them, and whether they can simulate public opinion across different cultures.
-      We also study how trust in AI varies by profession and country, because the
-      same model does not land the same way for everyone.`,
-    illo: `
-      <g class="stroke ink">
-        <line x1="30" y1="200" x2="330" y2="200" class="thick"/>
-        <line x1="60" y1="200" x2="55" y2="240" class="thin"/>
-        <line x1="300" y1="200" x2="305" y2="240" class="thin"/>
-        <circle cx="100" cy="100" r="32" class="fill-paper"/>
-        <path class="thin" d="M88,98 C90,96 94,96 96,98"/>
-        <path class="thin" d="M108,98 C110,96 114,96 116,98"/>
-        <path class="thin" d="M92,115 C98,120 108,120 114,115"/>
-        <path d="M55,200 C60,165 80,140 100,132 C120,140 140,165 145,200"/>
-        <path d="M230,72 C228,68 232,64 238,64 L290,64 C296,64 300,68 298,72 L298,128 C300,132 296,136 290,136 L238,136 C232,136 228,132 230,128 Z" class="fill-paper"/>
-        <g class="thin">
-          <circle cx="245" cy="86" r="3"/>
-          <circle cx="270" cy="86" r="3"/>
-          <circle cx="285" cy="86" r="3"/>
-          <line x1="248" y1="86" x2="267" y2="86"/>
-          <line x1="273" y1="86" x2="282" y2="86"/>
-          <line x1="245" y1="89" x2="245" y2="105"/>
-          <line x1="270" y1="89" x2="270" y2="110"/>
-          <line x1="285" y1="89" x2="285" y2="105"/>
-          <line x1="245" y1="110" x2="270" y2="110"/>
-          <line x1="270" y1="115" x2="285" y2="115"/>
-          <circle cx="245" cy="110" r="2.2"/>
-          <circle cx="285" cy="115" r="2.2"/>
-        </g>
-        <path d="M215,200 C220,168 235,148 264,140 C293,148 308,168 315,200"/>
-      </g>
-      <g class="stroke">
-        <ellipse cx="180" cy="85" rx="32" ry="18" class="fill-paper"/>
-        <path d="M168,100 L162,112 L178,103" class="fill-paper"/>
-        <line x1="170" y1="83" x2="190" y2="83" class="thin"/>
-        <line x1="167" y1="90" x2="193" y2="90" class="thin"/>
-      </g>`,
-  },
-  {
     kicker: "Digital health & wellbeing",
     headline: "Public conversation as a public-health signal.",
     topics: ["digital-health"] as const,
     body: `When something goes wrong with collective wellbeing (a pandemic, a vaccination
       controversy, a mental-health crisis) it shows up in online discourse before it
-      shows up in clinics. We work with health researchers to read those signals, study
-      how language around illness differs across cultures, and build datasets and models
-      that help campaigns reach the people they're meant to serve.`,
+      shows up in clinics. We work with health researchers to read those signals, test
+      whether the LLMs entering mental-health care recognise that depression presents
+      differently across cultures, and build synthetic training data that helps symptom
+      models generalise to real posts.`,
     illo: `
       <g class="stroke thin">
         <line x1="30" y1="140" x2="90" y2="140"/>
@@ -244,6 +252,50 @@ const areas = [
         <line x1="196" y1="208" x2="264" y2="208"/>
       </g>`,
   },
+  {
+    kicker: "Attention, news & networks",
+    headline: "Where we started: who gets seen, and who gets heard.",
+    topics: ["news-journalism", "networks-influence"] as const,
+    body: `Much of our earlier work asked how attention is distributed: which countries the
+      world's news covers, how audiences engage with news across platforms, and how
+      information travels through networks. It runs back to asking whether Twitter is a
+      social network or a news medium, and the habit it built, measuring the algorithm
+      and the people together, still runs through everything above.`,
+    illo: `
+      <g class="stroke thin">
+        <line x1="40" y1="220" x2="320" y2="220"/>
+        <line x1="40" y1="60" x2="40" y2="220"/>
+        <line x1="40" y1="220" x2="40" y2="226"/>
+        <line x1="110" y1="220" x2="110" y2="226"/>
+        <line x1="180" y1="220" x2="180" y2="226"/>
+        <line x1="250" y1="220" x2="250" y2="226"/>
+        <line x1="320" y1="220" x2="320" y2="226"/>
+      </g>
+      <g class="stroke ink">
+        <path d="M80,170 L140,130 L210,145 L260,90 L290,105"/>
+        <path d="M140,130 L170,90 L210,145"/>
+        <path d="M80,170 L100,200 L160,190 L210,145"/>
+      </g>
+      <g fill="var(--ink)">
+        <circle cx="80" cy="170" r="5"/>
+        <circle cx="100" cy="200" r="3.5"/>
+        <circle cx="140" cy="130" r="6"/>
+        <circle cx="160" cy="190" r="3.5"/>
+        <circle cx="170" cy="90" r="4"/>
+        <circle cx="210" cy="145" r="8"/>
+        <circle cx="260" cy="90" r="4.5"/>
+        <circle cx="290" cy="105" r="3.5"/>
+      </g>
+      <g class="stroke thick">
+        <circle cx="210" cy="145" r="42" fill="none"/>
+        <line x1="240" y1="175" x2="285" y2="220"/>
+        <line x1="234" y1="178" x2="278" y2="222" class="thin"/>
+      </g>
+      <g class="stroke thin">
+        <path d="M40,50 C60,45 80,52 90,48"/>
+        <path d="M44,40 Q70,42 95,40"/>
+      </g>`,
+  },
 ];
 
 const thrusts = [
@@ -277,11 +329,12 @@ const thrusts = [
   {
     kicker: "Bias & fairness across systems",
     headline: "When data, media, or models speak louder for some than others.",
-    topics: ["bias-fairness", "news-journalism"] as const,
-    body: `Bias isn't only a model problem. It shows up in which voices news outlets
-      amplify, which faces get recognised by APIs, which jobs an ad reaches.
-      We measure these asymmetries across media, data, and AI systems, and build
-      pipelines and literacy tools that make them visible to the people they affect.`,
+    topics: ["bias-fairness", "llms-responsible-ai"] as const,
+    body: `Bias isn't only a model problem. It shows up in how people rate an AI partner's
+      work even when it behaves exactly like a human, and in how a culture's language
+      genders work and politics across a century. We measure these asymmetries across
+      models, people, and media, and build tools that make them visible to the people
+      they affect.`,
     illo: `
       <g class="stroke ink">
         <line x1="140" y1="48" x2="140" y2="172" class="thick"/>
@@ -315,11 +368,11 @@ const thrusts = [
     kicker: "Socially faithful digital twins",
     headline: "LLM agents that represent specific populations.",
     topics: ["llms-responsible-ai", "beliefs-opinions"] as const,
-    body: `Some social experiments are too risky to run on real people. Testing
-      counter-messaging against online radicalization, for example. We're working
-      toward AI agents that realistically represent the beliefs and behaviors of
-      specific communities, so researchers and policymakers can simulate before they
-      intervene.`,
+    body: `We have started testing how well LLMs simulate public opinion across societies, and
+      found that they flatten each demographic group into one "representative" voice.
+      The goal is agents that faithfully represent the beliefs and behaviors of specific
+      communities, so researchers and policymakers can test risky interventions, such as
+      counter-messaging against online radicalization, before trying them on people.`,
     illo: `
       <g class="stroke ink">
         <circle cx="90" cy="80" r="22" class="fill-paper"/>
@@ -345,12 +398,12 @@ const thrusts = [
   },
   {
     kicker: "Safety in participatory systems",
-    headline: "Keeping games and creator platforms safer.",
-    topics: ["online-harm", "user-behavior"] as const,
-    body: `Online games and user-generated platforms are evolving fast, with AI agents and
-      player-made content blurring the line between user and system. We study the design
-      choices that shape harmful behavior at scale, from toxicity in team-based games
-      to risks in children's media.`,
+    headline: "Keeping games and creator platforms accountable.",
+    topics: ["user-behavior", "online-harm"] as const,
+    body: `Games and creator platforms are where AI turns ordinary fastest. We study who checks
+      the rules when the company that writes them also runs the championship, what is
+      lost when an AI metric fills the screen and nobody names its source, and the design
+      choices behind toxicity at scale and risks in children's media.`,
     illo: `
       <g class="stroke ink">
         <path d="M105,108 C100,98 120,90 140,92 C160,90 180,98 175,108 C188,115 188,130 175,138 C170,150 155,148 150,142 C145,148 135,148 130,142 C125,148 110,150 105,138 C92,130 92,115 105,108 Z" class="fill-paper"/>
@@ -384,7 +437,7 @@ function primaryColor(topics: readonly string[]): string {
 }
 ---
 
-<Base title="Research · SoDA Lab" description="What the SoDA Lab studies: attention and influence on platforms, beliefs and narratives at scale, online harms, LLMs as social actors, digital health, and fairness.">
+<Base title="Research · SoDA Lab" description="What the SoDA Lab studies: LLMs as social and cognitive actors, societies of AI agents, beliefs and narratives at scale, online harms and platform governance, digital health, and the attention research the lab grew from.">
   {/* Same opening as every other page: a fabric masthead naming the page.
       The statement that used to be a 72px hero h1 is the lede now; at that
       size a 63-character sentence took half the first screen. */}
