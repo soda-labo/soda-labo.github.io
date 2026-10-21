@@ -17,6 +17,9 @@
   headline: "Three of our papers accepted at <a href='https://2026.aclweb.org/'>ACL 2026</a>: \"<a href='https://arxiv.org/abs/2605.17187'>PluRule: A Benchmark for Moderating Pluralistic Communities on Social Media</a>\" (main conference); \"<a href='https://arxiv.org/abs/2601.13590'>Vulnerability of LLMs' Belief Systems? LLMs Belief Resistance Check Through Strategic Persuasive Conversation Interventions</a>\" (Findings); and \"<a href='https://arxiv.org/abs/2508.03247'>Somatic in the East, Psychological in the West?: Investigating Clinically-Grounded Cross-Cultural Depression Symptom Expression in LLMs</a>\" (C3NLP workshop)."
 
 - date: April 2026
+  headline: "Our work \"<a href='https://dl.acm.org/doi/abs/10.1145/3770854.3785698'>SynSym: A Synthetic Data Generation Framework for Psychiatric Symptom Identification</a>\" is published at <a href='https://kdd2026.kdd.org/'>KDD 2026</a>."
+
+- date: April 2026
   headline: "Three parallel talks and one poster from the lab were accepted at <a href='https://ic2s2-2026.org/'>IC2S2 2026</a> (International Conference on Computational Social Science)."
 
 - date: April 2026
@@ -25,14 +28,26 @@
 - date: April 2026
   headline: "Congratulations to Rasika Muralidharan and Andrea Chung on passing their qualifying exams!"
 
+- date: January 2026
+  headline: "Sumit Kumar (IIIT-Hyderabad) and Jihyun Kim (Sungkyunkwan University) are visiting the lab this spring. Welcome!"
+
 - date: November 2025
   headline: "Our work \"<a href='https://doi.org/10.1109/ICDMW69685.2025.00023'>A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies</a>\" is presented at the IEEE ICDM 2025 workshops."
+
+- date: September 2025
+  headline: "Welcome to Juyoung An and Shirui (Olivia) Zhou, who join the lab as PhD students this fall!"
+
+- date: September 2025
+  headline: "Hyunseon Won (Sungkyunkwan University) is visiting the lab this fall. Welcome!"
 
 - date: June 2025
   headline: "Our work \"<a href='https://www.nature.com/articles/s41562-025-02228-z'>A semantic embedding space based on large language models for modelling human beliefs</a>\" is published in Nature Human Behaviour! Read it here: <a href='https://rdcu.be/epoQJ'>https://rdcu.be/epoQJ</a>"
 
 - date: September 2024
   headline: "We are part of the research team studying \"<a href='https://news.iu.edu/live/news/37791-75-million-grant-to-guard-against-ai-driven'>BRAIN (Belief Resonance and AI Narratives): Understanding Belief-Narrative Resonance in the Era of Generative AI.</a>\" This five-year, $7.5 million project is funded by the U.S. Department of Defense."
+
+- date: September 2024
+  headline: "Chaewon Kang and Migyeong Kang (Sungkyunkwan University) are visiting the lab this fall. Welcome!"
 
 - date: June 2024
   headline: "Our work \"<a href='https://aclanthology.org/2024.woah-1.15/'>X-posing Free Speech: Examining the Impact of Moderation Relaxation on Online Social Networks</a>\" is presented at the 8th Workshop on Online Abuse and Harms (WOAH) at NAACL 2024."
