@@ -27,7 +27,6 @@ faculty:
 
 phd_students:
   - name: Fan Huang
-    photo: fan.jpg
     website: https://sites.google.com/view/fanhuang/
   - name: Weihong Qi
     website: https://weihongq.github.io/
@@ -43,7 +42,7 @@ visitors: []
 alumni:
   postdocs:
     - name: Byunghwee Lee
-      now: University of Virginia
+      now: Postdoctoral Researcher at the University of Virginia
       website: https://scholar.google.com/citations?user=NjCUroYAAAAJ
     - name: Kunihiro Miyazaki
       now: Project Assistant Professor at the University of Tokyo
