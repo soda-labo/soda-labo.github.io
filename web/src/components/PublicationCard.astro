@@ -11,12 +11,6 @@ interface Props {
 
 const { pub, labMembers = ["haewoon kwak", "jisun an"], board } = Astro.props;
 
-// A poster hall is not a list: some boards draw a crowd and you can see which
-// from down the aisle. Citation count is the honest stand-in for that, so it
-// sets the board's physical size instead of sitting in the metadata line.
-const tier =
-  pub.citations >= 500 ? "landmark" : pub.citations >= 100 ? "major" : "standard";
-
 function boldifyAuthors(authors: string): string {
   if (!authors) return "";
   return authors
@@ -39,7 +33,7 @@ const searchText = [
 ---
 
 <article
-  class:list={["pub-card pub-board stock", `is-${tier}`]}
+  class="pub-card pub-board stock"
   data-tags={pub.tags.join(",")}
   data-methods={pub.methods.join(",")}
   data-platforms={pub.platforms.join(",")}
@@ -154,8 +148,6 @@ const searchText = [
     width: 0.85rem;
     height: 0.85rem;
   }
-  .is-major .blank-mark { width: 1.1rem; height: 1.1rem; }
-  .is-landmark .blank-mark { width: 1.5rem; height: 1.5rem; }
 
   .pub-title {
     font-family: var(--font-display);
@@ -208,40 +200,11 @@ const searchText = [
   .track-tag:hover { color: var(--color-ink); }
   .track-swatch { width: 0.6rem; height: 0.6rem; display: inline-block; }
 
-  /* Boards that draw a crowd are physically bigger. */
-  .is-major { padding: 1.9rem 1.9rem 1.75rem; }
-  .is-major .pub-figure { width: 7.5rem; height: 7.5rem; }
-  .is-major .pub-title { font-size: 1.5rem; }
-
-  .is-landmark { padding: 2.4rem 2.4rem 2.2rem; }
-  .is-landmark .pub-figure { width: 10rem; height: 10rem; }
-  .is-landmark .pub-title { font-size: 2rem; line-height: 1.3; }
-  .is-landmark .pub-authors { font-size: 0.875rem; }
-  .is-landmark .pub-abstract { font-size: 1.125rem; }
-
   @media (max-width: 640px) {
     .pub-board { padding: 1.1rem 1.1rem 1rem; }
     .pub-title { font-size: 1.0625rem; }
-    /* A standard board's 72px figure crop is unreadable and steals the title
-       its measure, so only boards that earned the room keep one. */
+    /* At 72px a figure crop is unreadable and steals the title its measure,
+       so on a phone a board is its title, finding, and track. */
     .pub-figure, .pub-figure.is-blank { display: none; }
-
-    .is-major { padding: 1.5rem 1.4rem 1.4rem; }
-    .is-major .pub-title { font-size: 1.375rem; }
-
-    .is-landmark { padding: 2rem 1.6rem 1.8rem; }
-    .is-landmark .pub-title { font-size: 1.875rem; }
-    .is-landmark .pub-abstract { font-size: 1.0625rem; }
-    .is-landmark .pub-body { flex-direction: column; }
-    .is-landmark .pub-figure {
-      display: block;
-      width: 100%;
-      height: 11rem;
-      margin-bottom: 1rem;
-    }
-    .is-landmark .pub-figure.is-blank {
-      display: grid;
-      height: 6rem;
-    }
   }
 </style>

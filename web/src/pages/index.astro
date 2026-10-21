@@ -10,8 +10,8 @@ const featured = pubs.filter((p) => p.highlight).slice(0, 4);
 // Last twelve months, but never fewer than six: a quiet year would leave
 // this column empty beside the reading sheet it balances.
 const news = recentNews(loadNews());
-// The hall directory: which tracks stand in this hall and how many boards each
-// holds. Counts come from the corpus, so the cron keeps them true.
+// The hall directory: each track and how many papers it holds. Counts come
+// from the corpus, so the cron keeps them true.
 const tracks = allTags(pubs);
 
 const press = [
@@ -270,7 +270,7 @@ const press = [
       display: block;
       color: color-mix(in srgb, var(--color-paper) 66%, transparent);
     }
-    /* A hall directory: every track, and how many boards stand under it. The
+    /* A hall directory: every track, and how many papers sit under it. The
        row is the whole target, and the count is the point of the row, so both
        sit on one baseline with the rule doing the separating. */
     .tracks-head {

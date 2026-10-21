@@ -68,27 +68,15 @@ rounded:
 spacing:
   page-x: "24px"
   page-y: "40px"
-  board-standard: "24px"
-  board-major: "30px"
-  board-landmark: "38px"
+  board: "24px"
   masthead-y: "40px"
 components:
-  board-standard:
+  board:
     backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
     typography: "{typography.title}"
     rounded: "{rounded.none}"
     padding: "24px 24px 22px"
-  board-major:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.none}"
-    padding: "30px 30px 28px"
-  board-landmark:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.none}"
-    padding: "38px 38px 35px"
   board-tag:
     backgroundColor: "{colors.accent}"
     textColor: "{colors.paper}"
@@ -178,11 +166,13 @@ pattern generated UIs reach for; noise is what board cloth looks like, and
 dark-only flecks can only deepen the ground, so text on fabric never loses
 contrast to it.
 
-The system's one structural claim is that **size is meaning**. A publication
-board's physical size is set by its citation count, so a landmark paper and a
-workshop preprint are visibly not the same object from down the aisle. That
-replaces the size ladder inside a single card: page-level hierarchy is carried
-by the tier, not by stacking five type sizes inside one board.
+Every publication board is the same size. The rebuild originally sized boards
+by citation count (landmark / major / standard), on the claim that a landmark
+paper and a workshop preprint should not look like the same object; the lab
+removed that in October 2026, so a board's prominence no longer encodes its
+citations. What distinguishes papers now is track (the swatch), order (newest
+first by default, or by citations through the sort control), and the home
+page's featured boards.
 
 Colour is rationed hard. IU crimson (`#990000`) is the only action colour and
 the only colour the navigation strip is allowed; the eight research-topic hues
@@ -191,7 +181,7 @@ printed squares. Every corner is square. There is no monospace anywhere.
 
 **Key Characteristics:**
 - Three materials only: hall floor, board fabric, poster stock.
-- Citation count sets board size (landmark / major / standard).
+- Every publication board is one size; citations are a sort, not a scale.
 - One accent (IU crimson) for actions, board tags, and "you are here".
 - Topic hues are swatches, never text.
 - Zero border-radius; hairlines are inset rings, not borders.
@@ -274,12 +264,12 @@ measure, for text a visitor stops to read. Both load from Google Fonts with
   hero; research opens on a masthead like the rest.
 - **Masthead headline** (600, `clamp(30px, 4.2vw, 46px)`, 1.1, `-0.03em`): the
   page name on fabric, in paper.
-- **Board title** (600, `-0.02em`, 1.32): 19px standard / 24px major / 32px
-  landmark on desktop; 17 / 22 / 30px below 640px. `text-wrap: balance`.
+- **Board title** (600, `-0.02em`, 1.32): 19px on desktop, 17px below 640px.
+  `text-wrap: balance`.
 - **Section heading** (600, 18–24px, `tracking-tight`): in-page section names
   on team, openings, and the home featured strip.
 - **Reading body** (`.read`, Literata 400, 16px, 1.6, `max-width: 68ch`): lab
-  statement, abstracts, research copy. Landmark boards raise the abstract to 18px.
+  statement, abstracts, research copy.
 - **UI body** (Archivo 400, 16px / 15px / 13px, 1.6): lists, metadata, author
   strings — anything that is scanned rather than read.
 - **Label** (600–700, 11px, `0.14em`, uppercase): nav destinations, section
@@ -320,18 +310,17 @@ a nested `max-w-5xl` wrapper. `body` uses `overflow-x: clip` rather than
 `hidden` so no new scroll container is created. A masthead or hero pulls itself
 up with `-mt-10` to sit flush under the header.
 
-Spacing follows Tailwind's 4px scale. Board padding is the density signal:
-24px standard, 30px major, 38px landmark; boards stack with 20px between them.
+Spacing follows Tailwind's 4px scale. Boards take 24px of padding (about 18px
+below 640px) and stack with 20px between them.
 
 Breakpoints in use: 640px (`sm`, and the publication-board media query), 720px
 (the research page's own collapse to one column), 768px (`md`, where the nav
 switches from a horizontal strip to a disclosure panel), 1024px (`lg`, where the
 home page splits into content plus a 17rem press rail or a 19rem news rail).
 
-Responsive behaviour worth knowing: below 640px every board hides its figure
-except a landmark, which promotes its figure to a full-width 11rem band above
-the title. A standard board's 72px crop was unreadable and stole the title's
-measure, so only boards that earned the room keep one.
+Responsive behaviour worth knowing: below 640px every board hides its figure.
+A 72px crop was unreadable and stole the title's measure, so on a phone a board
+is its title, its finding, and its track.
 
 ## Elevation & Depth
 
@@ -410,8 +399,8 @@ Two distinct chips, both square, both text-in-ink:
 - **Background:** `.stock` poster stock.
 - **Shadow:** the pinned-sheet shadow (see Elevation).
 - **Border:** none; images inside carry an inset hairline ring instead.
-- **Internal padding:** 24 / 30 / 38px by tier for publication boards;
-  20px for team cards and the news rail; 28–36px for the home statement sheet.
+- **Internal padding:** 24px for publication boards; 20px for team cards and
+  the news rail; 20–36px for the home statement sheet.
 
 ### Inputs / Fields
 `.filter-field` — stock ground, 1px `--color-rule` border, 0.875rem ink text,
@@ -431,28 +420,27 @@ Below 768px the strip collapses to a hamburger toggle and a stacked panel
 separated by an 18%-paper hairline.
 
 ### Publication board (signature component)
-The system's defining object. Tier is chosen from citation count —
-`>= 500` landmark, `>= 100` major, otherwise standard — currently 5 / 25 / 109
-of 139 boards. The tier changes padding, title size, figure size, and (on
-landmark) author and abstract size; it does not change colour or shape. Lab
-members' names inside the author string are bolded to ink; the venue is
-italic; the metadata line is a single ink-faint run of venue · year · citations
-in tabular figures.
+The system's defining object. One size for every paper: a 5.5rem figure,
+a 19px title, the author string, a metadata line, the abstract, and the track
+tags. Lab members' names inside the author string are bolded to ink; the venue
+is italic; the metadata line is a single ink-faint run of venue · year ·
+citations in tabular figures.
 
-**The Crowd Rule.** A board's size is its citation count and nothing else.
-Never resize a board to promote it editorially — use `highlight` to feature it
-and let the tier stand.
+**The One Size Rule.** Every board is the same size. Until October 2026 boards
+were sized by citation count (>= 500 landmark, >= 100 major); the lab removed
+it. Do not bring it back, and do not resize a board by hand to promote it:
+feature a paper with `highlight`, and let readers who want impact use the
+"Most cited" sort.
 
 **The Unprinted Plate Rule.** Roughly a fifth of boards have no usable figure
 at any given time: the cron lifts the first plate out of the PDF and sometimes
-there is nothing worth lifting, and the count moves every week. Those boards render `.pub-figure.is-blank` at the tier's figure size —
+there is nothing worth lifting, and the count moves every week. Those boards render `.pub-figure.is-blank` at the figure's size —
 stock in shadow, the same hairline ring, and the board's track swatch centred —
 never a missing element. A board with no plate at all shunts its title left and
 breaks the column every other board shares. The plate stays plain: an earlier
 version hatched it with a repeating gradient, which the detector correctly
 called a generated-UI signature. On mobile the plate follows the figure rule and
-disappears except on landmark boards, where it sits at 6rem rather than the
-11rem a real figure earns.
+disappears with it.
 
 ### Hall directory (home)
 A ruled list of the eight tracks with the number of boards standing under each,
@@ -576,9 +564,10 @@ the only autoplaying thing on the site checks the reduced-motion query first.
 - **Don't** apply the fabric texture as a page-wide grain; it belongs only
   where a board actually is. And don't bring back repeating-gradient stripes
   for it: that is the pattern the felt replaced.
-- **Don't** resize a publication board by hand. Tier follows citations.
+- **Don't** resize a publication board, by hand or by citations. Every board
+  is one size.
 - **Don't** stack four or five type sizes inside a single board to create
-  hierarchy. Hierarchy across the page is the tier's job.
+  hierarchy.
 
 ### Accepted deviations
 Recorded so a future editor does not "fix" them blindly:
@@ -589,7 +578,7 @@ Recorded so a future editor does not "fix" them blindly:
   the swatch-only rule makes their hue irrelevant to legibility.
 - **No size ladder inside a board.** A board sets a title, an author line, a
   metadata line, and an abstract — four steps, not more. The missing ladder is
-  intentional; the tiers carry hierarchy instead.
+  intentional; a list this long reads by scanning titles, not by type scale.
 - **Token names inherited from the previous world.** `--color-paper`,
   `--color-board`, `--color-hall` and friends kept their names when the values
   changed, so every page kept resolving. Do not rename them for tidiness.
