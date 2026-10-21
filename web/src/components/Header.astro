@@ -2,7 +2,7 @@
 // The hall's directory strip. One board fabric bar across the top, the lab's
 // badge pinned to it, destinations set as signage. The previous header gave
 // every nav item its own colour, which made the palette decorative; here the
-// only colour is the crimson tag, and it means "you are at this board".
+// only colour is the navy tag, and it means "you are at this board".
 const navItems = [
   { href: "/",             label: "Home" },
   { href: "/publications", label: "Publications" },
@@ -99,7 +99,7 @@ const isCurrent = (href: string) =>
     color: var(--color-on-board);
     background-color: color-mix(in srgb, var(--color-on-board) 7%, transparent);
   }
-  /* The crimson tag is the hall's "you are here". It is the only colour the
+  /* The navy tag is the hall's "you are here". It is the only colour the
      directory strip is allowed. */
   .nav-dest.is-here,
   .nav-dest.is-here:hover {

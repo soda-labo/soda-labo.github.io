@@ -248,9 +248,14 @@ import Email from "../components/Email.astro";
     text-transform: uppercase;
     vertical-align: 0.1em;
   }
+  /* Closed and Open differ by form, not only by hue. With a navy accent a
+     solid ink Closed and a solid navy Open were two dark blocks a reader
+     could not tell apart at a glance; an outlined, muted stamp reads as
+     void, and the one filled stamp is the door that is open. */
   .stamp.is-closed {
-    background-color: var(--color-ink);
-    color: var(--color-paper);
+    background-color: transparent;
+    color: var(--color-ink-faint);
+    box-shadow: inset 0 0 0 1.5px var(--color-ink-faint);
   }
   /* The one action the page exists for. It gets the weight of an action
      instead of sitting inline in a sentence. */

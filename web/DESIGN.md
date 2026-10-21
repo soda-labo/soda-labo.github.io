@@ -2,9 +2,9 @@
 name: SoDA Lab
 description: A conference poster hall — pale mint board felt carrying white poster stock on a light hall floor.
 colors:
-  hall: "#f5f5f0"
-  paper: "#fffefb"
-  paper-2: "#eef0ec"
+  hall: "#eef5f1"
+  paper: "#fbfdfc"
+  paper-2: "#e6eeea"
   board: "#d9ebe1"
   on-board: "#14181b"
   on-board-soft: "#4a545c"
@@ -12,9 +12,9 @@ colors:
   ink: "#14181b"
   ink-soft: "#4a545c"
   ink-faint: "#5e6870"
-  rule: "#dcdbd3"
-  accent: "#990000"
-  accent-deep: "#7d0000"
+  rule: "#d6e0db"
+  accent: "#1d4a73"
+  accent-deep: "#153857"
   topic-online-harm: "#dc2626"
   topic-news-journalism: "#57534e"
   topic-user-behavior: "#d97706"
@@ -156,9 +156,9 @@ components:
 **Creative North Star: "The Poster Hall"**
 
 The site is a conference poster session, not a publication ledger. Three
-materials carry everything: the **hall floor** (`#f5f5f0`) you stand on, the
+materials carry everything: the **hall floor** (`#eef5f1`, mint mist) you stand on, the
 **board fabric** (`#d9ebe1`, pale mint felt) you face, and the **poster stock**
-(`#fffefb`)
+(`#fbfdfc`)
 pinned to it. Nothing else is a surface. The page ground is always the floor;
 a `.board` is only applied where a board actually stands (the header strip,
 a page masthead, the home hero, the footer); `.stock` is only applied to a
@@ -184,7 +184,7 @@ citations. What distinguishes papers now is track (the swatch), order (newest
 first by default, or by citations through the sort control), and the home
 page's featured boards.
 
-Colour is rationed hard. IU crimson (`#990000`) is the only action colour and
+Colour is rationed hard. Harbor navy (`#1d4a73`) is the only action colour and
 the only colour the navigation strip is allowed; the eight research-topic hues
 were demoted from decoration to **data** and appear exclusively as small
 printed squares. Every corner is square. There is no monospace anywhere.
@@ -192,7 +192,7 @@ printed squares. Every corner is square. There is no monospace anywhere.
 **Key Characteristics:**
 - Three materials only: hall floor, board fabric, poster stock.
 - Every publication board is one size; citations are a sort, not a scale.
-- One accent (IU crimson) for actions, board tags, and "you are here".
+- One accent (harbor navy) for actions, board tags, and "you are here".
 - Topic hues are swatches, never text.
 - Zero border-radius; hairlines are inset rings, not borders.
 - Archivo for signage and headings, Literata for reading. No monospace.
@@ -200,25 +200,31 @@ printed squares. Every corner is square. There is no monospace anywhere.
 
 ## Colors
 
-A light palette: an off-white room, pale mint felt, near-black ink, and a
-single institutional crimson. The eight topic hues sit outside this
+A light palette: a mint-mist room, pale mint felt, near-black ink, and a
+single harbor navy. The eight topic hues sit outside this
 palette on purpose — they encode data, not mood.
 
 ### Primary
-- **IU Crimson** (`#990000`): the one action colour. Primary buttons, the
-  crimson board-number tag, the active nav destination, links inside prose and
+- **Harbor Navy** (`#1d4a73`): the one action colour. Primary buttons, the
+  navy board-number tag, the active nav destination, links inside prose and
   news items, the `Open` stamp, `::selection`, the caret, and the focus ring.
-  It measures 8.84:1 on stock, 8.16:1 on the hall floor, and 6.7:1 on the
-  felt. Hover deepens to `#7d0000` (11.12:1), as `--color-accent-deep`.
+  It measures 9.02:1 on stock, 8.32:1 on the hall floor, and 6.95:1 on the
+  felt. Hover deepens to `#153857` (11.85:1), as `--color-accent-deep`.
+  Until October 2026 the accent was IU crimson (`#990000`). Once the felt went
+  mint, red sat as mint's complement and every tag vibrated against the board;
+  a cool navy stays in the felt's family and keeps the action colour quiet.
 
 ### Neutral
-- **Hall Floor** (`#f5f5f0`): the page ground. `body` background, nothing else.
-- **Poster Stock** (`#fffefb`): every sheet — publication boards, team cards,
+- **Hall Floor** (`#eef5f1`): the page ground. `body` background, nothing else.
+  A whisper of the felt's hue, so the floor under the header strip reads as the
+  same room rather than a warm off-white beside a cool board. It was `#f5f5f0`
+  until October 2026.
+- **Poster Stock** (`#fbfdfc`, cool white): every sheet — publication boards, team cards,
   the news sidebar, filter controls, and the badge behind the lab mark. Also
-  the type colour on crimson and on ink (buttons, stamps, the press strip).
-  Sheets sit close to the floor in value; the pinned-sheet shadow is what
-  separates them.
-- **Stock in Shadow** (`#eef0ec`): the empty bed behind an image that has not
+  the type colour on navy and on ink (buttons, stamps, the press strip).
+  Sheets sit close to the floor in value (1.08:1); the pinned-sheet shadow is
+  what separates them.
+- **Stock in Shadow** (`#e6eeea`): the empty bed behind an image that has not
   loaded or does not fill its frame (publication figures, press clippings).
 - **Board Fabric** (`#d9ebe1`, measured `#d2e4da` with the felt): the header
   strip, the page masthead, the home hero band, and the footer, so every page
@@ -230,13 +236,13 @@ palette on purpose — they encode data, not mood.
   felt, under the floor, which is why the fabric has its own faint step.
   Change the fabric, and these are the tokens to re-verify.
 - **Ink** (`#14181b`): headings, board titles, lab-author names, and the ground
-  of an inverted control (active filter chip, notice head, `Closed` stamp,
-  the press caption strip). 17.70:1 on stock.
-- **Ink Soft** (`#4a545c`): body copy, abstracts, author lists. 7.67:1 on stock.
+  of an inverted control (active filter chip, notice head, the
+  press caption strip). 17.48:1 on stock, 16.12:1 on the floor.
+- **Ink Soft** (`#4a545c`): body copy, abstracts, author lists. 7.58:1 on stock, 6.99:1 on the floor.
 - **Ink Faint** (`#5e6870`): metadata, counts, section labels, dates,
-  placeholders. 5.64:1 on stock and 5.20:1 on the hall floor. Not for use on
+  placeholders. 5.57:1 on stock and 5.14:1 on the hall floor. Not for use on
   the felt (4.30:1); see On-board inks.
-- **Rule** (`#dcdbd3`): hairlines, control borders, section dividers, and the
+- **Rule** (`#d6e0db`): hairlines, control borders, section dividers, and the
   underline colour of a de-emphasised prose link.
 
 ### Tertiary — the eight track colours
@@ -251,11 +257,11 @@ section of the hall a board stands in.
 **The Swatch-Only Rule.** A track colour may only be a filled square of at most
 `0.65rem`, or the stroke of a line illustration. It is never text colour, never
 a border, never a ground behind text. Audit test: five of the eight hues fail
-WCAG AA as text on stock (`#d97706` 2.94:1, `#0d9488` 3.46:1, `#0284c7` 3.78:1,
-`#db2777` 4.25:1, `#dc2626` 4.46:1), so the rule is not a preference — it is the
+WCAG AA as text on the hall floor (`#d97706` 2.88:1, `#0d9488` 3.38:1, `#0284c7` 3.70:1,
+`#db2777` 4.15:1, `#dc2626` 4.36:1), so the rule is not a preference — it is the
 only way the taxonomy stays legible.
 
-**The One Crimson Rule.** Crimson is the site's only chromatic accent. If a new
+**The One Accent Rule.** Navy is the site's only chromatic accent. If a new
 element needs to look important and is not an action, a board address, or the
 current destination, it gets weight or inversion, not colour.
 
@@ -373,12 +379,12 @@ destinations get inversion or a 1px rule, never a shadow.
 
 Everything is square. No component in the system sets a border-radius; the one
 rounded value in the codebase is `border-radius: 1px` on `:focus-visible`, so
-the 2px crimson outline does not clip a corner. Forms follow the same grammar:
+the 2px navy outline does not clip a corner. Forms follow the same grammar:
 the search field, sort select, filter buttons, and the "more filters" summary
 are all 1px `--color-rule` rectangles on stock that darken their border to ink
 on hover and invert to ink-on-paper when active.
 
-The recurring silhouettes are printed objects: a crimson number tag offset
+The recurring silhouettes are printed objects: a navy number tag offset
 `-0.4rem / -0.6rem` past the board's top-left corner so it reads as applied
 rather than contained; a solid ink head bar across the top of a notice; an
 inline stamp before a status line; a caption strip printed in ink beneath a
@@ -394,11 +400,11 @@ contrast, not its corners.
 
 ### Buttons
 - **Shape:** square (0 radius), 600 weight, `0.04em` tracking.
-- **Primary** (`.act-primary`, `.apply-action`): crimson ground, paper text,
-  `0.7rem 1.15rem` padding. Hover deepens to `#7d0000` over 0.15s.
+- **Primary** (`.act-primary`, `.apply-action`): navy ground, paper text,
+  `0.7rem 1.15rem` padding. Hover deepens to `#153857` over 0.15s.
 - **Secondary** (`.act-secondary`): transparent with a 1.5px inset ink ring and
   ink text; hover inverts to ink ground / paper text.
-- **Focus:** the global 2px crimson `:focus-visible` outline at 2px offset.
+- **Focus:** the global 2px navy `:focus-visible` outline at 2px offset.
   Components do not define their own focus treatment.
 
 ### Chips
@@ -424,7 +430,7 @@ Two distinct chips, both square, both text-in-ink:
 ### Inputs / Fields
 `.filter-field` — stock ground, 1px `--color-rule` border, 0.875rem ink text,
 `0.5rem 0.7rem` padding, square. Placeholder in ink-faint. Hover darkens the
-border to ink-faint. Focus uses the global crimson ring. The disclosure for
+border to ink-faint. Focus uses the global navy ring. The disclosure for
 secondary filters is a `<details>` whose summary is styled as a label-cased
 control with a CSS triangle chevron that rotates 180° when open; the native
 marker is suppressed.
@@ -433,7 +439,7 @@ marker is suppressed.
 The header is a full-width fabric strip. The lab mark sits on a `2.75rem`
 stock square — a badge printed on paper and pinned up. Destinations are 11px
 uppercase `0.14em` labels in on-board-soft; hover raises them to full ink over
-a 7% ink wash; the current destination gets a solid crimson block with paper
+a 7% ink wash; the current destination gets a solid navy block with paper
 text, which is the hall's "you are here" and the only colour the strip carries.
 Below 768px the strip collapses to a hamburger toggle and a stacked panel
 separated by a 14%-ink hairline.
@@ -496,7 +502,7 @@ The archive is evidence, not filler: it is the record that the lab has published
 without a gap since 2020, which is exactly what the prospective-member audience
 is reading for. Do not prune it to shorten the file.
 
-**The Unnumbered Host Rule.** The crimson `01`-style tag addresses *the work*.
+**The Unnumbered Host Rule.** The navy `01`-style tag addresses *the work*.
 The lab's own board on the home page deliberately carries no number; featured
 boards are addressed from `01` upward.
 
@@ -524,7 +530,7 @@ outright.
 The page closes the way it opens, on board fabric. A colophon rather than a
 sitemap, since the header already lists every destination: the lab name, one
 sentence of affiliation with the Luddy link inline, both faculty emails, and
-the one action the site exists for, "Join the lab", as the same crimson block
+the one action the site exists for, "Join the lab", as the same navy block
 as the home page's primary action. Links in the colophon are underlined at rest
 because they sit inside a sentence. On-board-soft carries the body (5.8:1),
 on-board-faint the copyright line (5.0:1). Until October 2026 the footer was a
@@ -533,14 +539,16 @@ the poster-hall rebuild never reached.
 
 ### Notice and stamps (openings)
 A pinned official notice: stock ground with a hairline ring, a solid ink head
-bar in label type, and one stamp per row — `Closed` in inverted ink, `Open` in
-crimson. Status is stamped, never implied by absence and never by a coloured
-left bar.
+bar in label type, and one stamp per row: `Closed` as a 1.5px ink-faint
+outline on stock, `Open` solid navy. Filled against outlined is what tells
+them apart; with a navy accent, a solid ink `Closed` beside a solid navy
+`Open` read as the same stamp. Status is stamped, never implied by absence
+and never by a coloured left bar.
 
 ### Press clipping (home)
 A clipping in an inset-ringed frame with an ink caption strip printed beneath
 it: venue in 700, blurb in 66% paper, a tabular `n / N` position, and two
-square 1.9rem step buttons that turn crimson on hover. It auto-advances every
+square 1.9rem step buttons that turn navy on hover. It auto-advances every
 6s, pauses on `mouseenter` **and** `focusin`, and does not start at all under
 `prefers-reduced-motion: reduce`.
 
@@ -571,7 +579,7 @@ the only autoplaying thing on the site checks the reduced-motion query first.
 
 ### Don't:
 - **Don't** use a track colour as text, as a border, or as a ground behind text.
-- **Don't** add a second accent. Crimson is the only chromatic action colour.
+- **Don't** add a second accent. Navy is the only chromatic action colour.
 - **Don't** introduce a monospace face. Tabular Archivo figures are already the
   answer for numbers.
 - **Don't** put a small uppercase label or eyebrow above a heading. If the

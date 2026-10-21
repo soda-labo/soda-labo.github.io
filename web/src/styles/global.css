@@ -11,9 +11,9 @@
   /* The hall you stand in, the board you face, the stock pinned to it.
      Token names are kept from the previous world so every page keeps
      resolving; the values are what changed. */
-  --color-hall:       #f5f5f0;  /* convention floor, the page ground */
-  --color-paper:      #fffefb;  /* poster stock */
-  --color-paper-2:    #eef0ec;  /* stock in shadow */
+  --color-hall:       #eef5f1;  /* the page ground: mint mist, the felt's hue at a whisper */
+  --color-paper:      #fbfdfc;  /* poster stock, cool white to match */
+  --color-paper-2:    #e6eeea;  /* stock in shadow */
   --color-board:      #d9ebe1;  /* board fabric: pale mint felt */
 
   /* Text that sits on the fabric. The board was dark slate until October
@@ -28,16 +28,14 @@
   --color-ink:        #14181b;
   --color-ink-soft:   #4a545c;
   --color-ink-faint:  #5e6870;
-  --color-rule:       #dcdbd3;
+  --color-rule:       #d6e0db;
 
-  /* IU crimson. It is the board number tag and the one action colour, and it
-     is the institution's own, not a decorative pick. */
-  --color-accent:      #990000;
-  --color-accent-deep: #7d0000;  /* hover/pressed crimson, 10.36:1 on stock */
-
-  /* The research hero's line drawing. The one illustration colour that is not
-     a topic track, so it gets a name rather than living inline. */
-  --color-illo:        #b14a1f;
+  /* Harbor navy: the one action colour, board number tags, and "you are
+     here". It was IU crimson (#990000) until October 2026; red is mint's
+     complement and fought it, so the accent moved to a navy that sits in the
+     same cool register. 9.02:1 on stock, 8.32:1 on the floor. */
+  --color-accent:      #1d4a73;
+  --color-accent-deep: #153857;  /* hover/pressed, 11.85:1 on stock */
 }
 
 html {
@@ -60,9 +58,8 @@ body {
   color: var(--color-ink);
 }
 
-/* Board fabric. A real weave, tight enough to read as material at arm's length
-   and to disappear into a flat field from further back. Applied only where a
-   board actually is, never as a page-wide grain. */
+/* Board fabric. Applied only where a board actually is, never as a
+   page-wide grain. */
 .board {
   background-color: var(--color-board);
   /* Felt, not a grid: fractal noise in dark flecks only. On the pale mint
@@ -136,8 +133,8 @@ html {
   width: 100vw;
 }
 
-/* A link that sits inside a sentence. Crimson against the body ink is only
-   1.15:1 in luminance, so colour alone cannot mark it as a link for a reader
+/* A link that sits inside a sentence. The accent against the body ink is only
+   about 1.2:1 in luminance, so colour alone cannot mark it as a link for a reader
    who does not see the hue; the underline is what does. Matches the news
    column's link treatment. Standalone links (the team page's lists) are
    identifiable by position and keep their hover-only underline. */
