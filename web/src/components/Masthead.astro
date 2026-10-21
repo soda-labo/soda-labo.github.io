@@ -23,15 +23,14 @@ const { title, lede } = Astro.props;
     font-weight: 600;
     letter-spacing: -0.03em;
     line-height: 1.1;
-    color: var(--color-paper);
+    color: var(--color-on-board);
   }
   .masthead-lede {
     margin-top: 0.6rem;
     max-width: 52ch;
     font-size: 0.9375rem;
     line-height: 1.6;
-    /* Tinted from the fabric's own foreground, never gray, and above the AA
-       floor against #46525c. */
-    color: color-mix(in srgb, var(--color-paper) 78%, transparent);
+    /* 5.8:1 on the mint felt. */
+    color: var(--color-on-board-soft);
   }
 </style>

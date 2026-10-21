@@ -1,15 +1,18 @@
 ---
 name: SoDA Lab
-description: A conference poster hall — slate board fabric carrying white poster stock, where a paper's size is its citation count.
+description: A conference poster hall — pale mint board felt carrying white poster stock on a light hall floor.
 colors:
-  hall: "#eaeae7"
-  paper: "#f6f6f3"
-  paper-2: "#e2e2dd"
-  board: "#46525c"
+  hall: "#f5f5f0"
+  paper: "#fffefb"
+  paper-2: "#eef0ec"
+  board: "#d9ebe1"
+  on-board: "#14181b"
+  on-board-soft: "#4a545c"
+  on-board-faint: "#535e66"
   ink: "#14181b"
   ink-soft: "#4a545c"
   ink-faint: "#5e6870"
-  rule: "#d5d3cc"
+  rule: "#dcdbd3"
   accent: "#990000"
   accent-deep: "#7d0000"
   topic-online-harm: "#dc2626"
@@ -100,7 +103,7 @@ components:
     textColor: "{colors.paper}"
   nav-item:
     backgroundColor: "transparent"
-    textColor: "color-mix(in srgb, #f6f6f3 72%, transparent)"
+    textColor: "{colors.on-board-soft}"
     typography: "{typography.label}"
     rounded: "{rounded.none}"
     padding: "10px 12px"
@@ -153,8 +156,9 @@ components:
 **Creative North Star: "The Poster Hall"**
 
 The site is a conference poster session, not a publication ledger. Three
-materials carry everything: the **hall floor** (`#eaeae7`) you stand on, the
-**board fabric** (`#46525c`) you face, and the **poster stock** (`#f6f6f3`)
+materials carry everything: the **hall floor** (`#f5f5f0`) you stand on, the
+**board fabric** (`#d9ebe1`, pale mint felt) you face, and the **poster stock**
+(`#fffefb`)
 pinned to it. Nothing else is a surface. The page ground is always the floor;
 a `.board` is only applied where a board actually stands (the header strip,
 a page masthead, the home hero, the footer); `.stock` is only applied to a
@@ -163,8 +167,14 @@ texture in dark flecks only, readable as material up close and flat from a
 distance. It is a material, never a page-wide grain. Until October 2026 it was
 a 3px weave of two `repeating-linear-gradient` layers, which is the stripe
 pattern generated UIs reach for; noise is what board cloth looks like, and
-dark-only flecks can only deepen the ground, so text on fabric never loses
-contrast to it.
+dark-only flecks can only deepen the ground. On the light felt they are kept to
+6% alpha; the 14% the old dark fabric used made pale felt look grubby.
+
+**The palette was lightened in October 2026.** It had been a dark slate fabric
+(`#46525c`) with paper-coloured text on a grey hall floor (`#eaeae7`), and read
+as heavy. The lab asked for something fresher; of six pale felts compared side
+by side (sky, mint, aqua, butter, sand, cool grey), mint was chosen. Text on
+fabric flipped from paper to ink with it.
 
 Every publication board is the same size. The rebuild originally sized boards
 by citation count (landmark / major / standard), on the claim that a landmark
@@ -190,34 +200,43 @@ printed squares. Every corner is square. There is no monospace anywhere.
 
 ## Colors
 
-A quarry palette: warm greys for the room, slate for the fabric, near-black
-ink, and a single institutional crimson. The eight topic hues sit outside this
+A light palette: an off-white room, pale mint felt, near-black ink, and a
+single institutional crimson. The eight topic hues sit outside this
 palette on purpose — they encode data, not mood.
 
 ### Primary
 - **IU Crimson** (`#990000`): the one action colour. Primary buttons, the
   crimson board-number tag, the active nav destination, links inside prose and
   news items, the `Open` stamp, `::selection`, the caret, and the focus ring.
-  It measures 8.24:1 on stock and 7.40:1 on the hall floor. Hover deepens to
-  `#7d0000` (10.36:1), as `--color-accent-deep`.
+  It measures 8.84:1 on stock, 8.16:1 on the hall floor, and 6.7:1 on the
+  felt. Hover deepens to `#7d0000` (11.12:1), as `--color-accent-deep`.
 
 ### Neutral
-- **Hall Floor** (`#eaeae7`): the page ground. `body` background, nothing else.
-- **Poster Stock** (`#f6f6f3`): every sheet — publication boards, team cards,
-  the news sidebar, filter controls, and the badge behind the lab
-  mark. Also the type colour on fabric.
-- **Stock in Shadow** (`#e2e2dd`): the empty bed behind an image that has not
+- **Hall Floor** (`#f5f5f0`): the page ground. `body` background, nothing else.
+- **Poster Stock** (`#fffefb`): every sheet — publication boards, team cards,
+  the news sidebar, filter controls, and the badge behind the lab mark. Also
+  the type colour on crimson and on ink (buttons, stamps, the press strip).
+  Sheets sit close to the floor in value; the pinned-sheet shadow is what
+  separates them.
+- **Stock in Shadow** (`#eef0ec`): the empty bed behind an image that has not
   loaded or does not fill its frame (publication figures, press clippings).
-- **Board Fabric** (`#46525c`): the header strip, the page masthead, the home
-  hero band, and the footer, so every page opens and closes on it. Always full-bleed, never a container inside the reading column.
+- **Board Fabric** (`#d9ebe1`, measured `#d2e4da` with the felt): the header
+  strip, the page masthead, the home hero band, and the footer, so every page
+  opens and closes on it. Always full-bleed, never a container inside the
+  reading column.
+- **On-board inks** (`--color-on-board` `#14181b` 13.5:1, `-soft` `#4a545c`
+  5.8:1, `-faint` `#535e66` 5.0:1, all measured on the felt): the only text
+  colours header, masthead and footer use. Ink Faint itself is 4.30:1 on the
+  felt, under the floor, which is why the fabric has its own faint step.
+  Change the fabric, and these are the tokens to re-verify.
 - **Ink** (`#14181b`): headings, board titles, lab-author names, and the ground
   of an inverted control (active filter chip, notice head, `Closed` stamp,
-  the press caption strip). 16.49:1 on stock.
-- **Ink Soft** (`#4a545c`): body copy, abstracts, author lists. 7.15:1 on stock.
+  the press caption strip). 17.70:1 on stock.
+- **Ink Soft** (`#4a545c`): body copy, abstracts, author lists. 7.67:1 on stock.
 - **Ink Faint** (`#5e6870`): metadata, counts, section labels, dates,
-  placeholders. 5.26:1 on stock and 4.72:1 on the hall floor — the lightest
-  ink that survives on both grounds.
-- **Rule** (`#d5d3cc`): hairlines, control borders, section dividers, and the
+  placeholders. 5.64:1 on stock and 5.20:1 on the hall floor. Not for use on
+  the felt (4.30:1); see On-board inks.
+- **Rule** (`#dcdbd3`): hairlines, control borders, section dividers, and the
   underline colour of a de-emphasised prose link.
 
 ### Tertiary — the eight track colours
@@ -241,10 +260,10 @@ element needs to look important and is not an action, a board address, or the
 current destination, it gets weight or inversion, not colour.
 
 **The 4.5 Floor.** Every text-on-ground pair ships at 4.5:1 or better and the
-measured number is recorded here. Paper at 72% over fabric (`#c5c8c9`, used for
-nav destinations and the header tagline) sits at 4.76:1; the masthead lede uses
-78% (5.26:1). An earlier tint failed AA and had to be replaced, so treat these
-percentages as floors, not as styling knobs.
+measured number is recorded here. On the felt, that is the three on-board
+inks above. Twice now a colour has looked fine and measured under the floor
+(a grey ink-faint on the old hall, and ink-faint on the new felt), so measure
+the rendered ground, felt included, rather than trusting the token.
 
 ## Typography
 
@@ -263,7 +282,7 @@ measure, for text a visitor stops to read. Both load from Google Fonts with
   home hero statement only. `text-wrap: balance`. No other page has a display
   hero; research opens on a masthead like the rest.
 - **Masthead headline** (600, `clamp(30px, 4.2vw, 46px)`, 1.1, `-0.03em`): the
-  page name on fabric, in paper.
+  page name on fabric, in ink.
 - **Board title** (600, `-0.02em`, 1.32): 19px on desktop, 17px below 640px.
   `text-wrap: balance`.
 - **Section heading** (600, 18–24px, `tracking-tight`): in-page section names
@@ -413,11 +432,11 @@ marker is suppressed.
 ### Navigation
 The header is a full-width fabric strip. The lab mark sits on a `2.75rem`
 stock square — a badge printed on paper and pinned up. Destinations are 11px
-uppercase `0.14em` labels in paper at 72%; hover raises them to full paper over
-a 10% paper wash; the current destination gets a solid crimson block with paper
+uppercase `0.14em` labels in on-board-soft; hover raises them to full ink over
+a 7% ink wash; the current destination gets a solid crimson block with paper
 text, which is the hall's "you are here" and the only colour the strip carries.
 Below 768px the strip collapses to a hamburger toggle and a stacked panel
-separated by an 18%-paper hairline.
+separated by a 14%-ink hairline.
 
 ### Publication board (signature component)
 The system's defining object. One size for every paper: a 5.5rem figure,
@@ -483,8 +502,8 @@ boards are addressed from `01` upward.
 
 ### Masthead (signature component)
 A full-bleed fabric band at the head of every page but home: the
-page name in paper at `clamp(30px, 4.2vw, 46px)`, an optional lede at `52ch` in
-paper at 78%. A page announces itself the way the hall entrance does, never
+page name in ink at `clamp(30px, 4.2vw, 46px)`, an optional lede at `52ch` in
+on-board-soft. A page announces itself the way the hall entrance does, never
 with a bare heading on the floor.
 
 ### Research section head and kicker
@@ -507,8 +526,8 @@ sitemap, since the header already lists every destination: the lab name, one
 sentence of affiliation with the Luddy link inline, both faculty emails, and
 the one action the site exists for, "Join the lab", as the same crimson block
 as the home page's primary action. Links in the colophon are underlined at rest
-because they sit inside a sentence. Paper at 78% carries the body (5.26:1 on
-fabric), 72% the copyright line (4.76:1). Until October 2026 the footer was a
+because they sit inside a sentence. On-board-soft carries the body (5.8:1),
+on-board-faint the copyright line (5.0:1). Until October 2026 the footer was a
 three-column paper band with a "Links" column holding two links: the one surface
 the poster-hall rebuild never reached.
 

@@ -26,10 +26,10 @@ const isCurrent = (href: string) =>
         <img src="/sodalab-mark.svg" alt="" class="h-8 w-8" />
       </span>
       <span class="flex flex-col leading-none">
-        <span class="text-xl font-semibold tracking-tight" style="color: var(--color-paper);">SoDA Lab</span>
+        <span class="text-xl font-semibold tracking-tight" style="color: var(--color-on-board);">SoDA Lab</span>
         <span
           class="mt-1 hidden text-[11px] font-medium tracking-[0.14em] uppercase sm:inline"
-          style="color: color-mix(in srgb, var(--color-paper) 72%, transparent);"
+          style="color: var(--color-on-board-faint);"
         >Social Data &amp; AI</span>
       </span>
     </a>
@@ -41,7 +41,7 @@ const isCurrent = (href: string) =>
       aria-expanded="false"
       aria-controls="primary-nav"
       class="grid h-10 w-10 place-items-center md:hidden"
-      style="color: var(--color-paper);"
+      style="color: var(--color-on-board);"
     >
       <svg id="nav-icon-open" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <line x1="3" y1="6" x2="21" y2="6"/>
@@ -74,7 +74,7 @@ const isCurrent = (href: string) =>
   <nav id="primary-nav" class="hidden md:hidden" aria-label="Primary">
     <ul
       class="mx-auto max-w-5xl px-6 text-[13px] font-semibold tracking-[0.14em] uppercase"
-      style="border-top: 1px solid color-mix(in srgb, var(--color-paper) 18%, transparent); padding-top: 0.75rem; padding-bottom: 0.75rem;"
+      style="border-top: 1px solid color-mix(in srgb, var(--color-on-board) 14%, transparent); padding-top: 0.75rem; padding-bottom: 0.75rem;"
     >
       {navItems.map((item) => (
         <li>
@@ -93,11 +93,11 @@ const isCurrent = (href: string) =>
 
 <style>
   .nav-dest {
-    color: color-mix(in srgb, var(--color-paper) 72%, transparent);
+    color: var(--color-on-board-soft);
   }
   .nav-dest:hover {
-    color: var(--color-paper);
-    background-color: color-mix(in srgb, var(--color-paper) 10%, transparent);
+    color: var(--color-on-board);
+    background-color: color-mix(in srgb, var(--color-on-board) 7%, transparent);
   }
   /* The crimson tag is the hall's "you are here". It is the only colour the
      directory strip is allowed. */

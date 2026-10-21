@@ -11,14 +11,24 @@
   /* The hall you stand in, the board you face, the stock pinned to it.
      Token names are kept from the previous world so every page keeps
      resolving; the values are what changed. */
-  --color-hall:       #eaeae7;  /* convention floor, the page ground */
-  --color-paper:      #f6f6f3;  /* poster stock */
-  --color-paper-2:    #e2e2dd;  /* stock in shadow */
-  --color-board:      #46525c;  /* board fabric */
+  --color-hall:       #f5f5f0;  /* convention floor, the page ground */
+  --color-paper:      #fffefb;  /* poster stock */
+  --color-paper-2:    #eef0ec;  /* stock in shadow */
+  --color-board:      #d9ebe1;  /* board fabric: pale mint felt */
+
+  /* Text that sits on the fabric. The board was dark slate until October
+     2026 and carried paper-coloured text; it is pale mint now, so these are
+     ink. Header, masthead and footer read only these, so a future change of
+     fabric is a change here, not a hunt through three components.
+     ink-faint (#5e6870) is 4.30:1 on the felt, under the AA floor, so the
+     faint step on fabric is one notch darker. */
+  --color-on-board:       #14181b;  /* 13.5:1 on the felt */
+  --color-on-board-soft:  #4a545c;  /*  5.8:1 */
+  --color-on-board-faint: #535e66;  /*  5.0:1 */
   --color-ink:        #14181b;
   --color-ink-soft:   #4a545c;
   --color-ink-faint:  #5e6870;
-  --color-rule:       #d5d3cc;
+  --color-rule:       #dcdbd3;
 
   /* IU crimson. It is the board number tag and the one action colour, and it
      is the institution's own, not a decorative pick. */
@@ -55,17 +65,14 @@ body {
    board actually is, never as a page-wide grain. */
 .board {
   background-color: var(--color-board);
-  /* Felt, not a grid: fractal noise in dark flecks only, at a low enough alpha
-     that the field still reads as #46525c from arm's length. The earlier
-     version drew a 3px weave out of two repeating-linear-gradients, which is
-     the stripe pattern generated UIs reach for; noise is what board cloth
-     actually looks like. Dark-only flecks can only deepen the ground, so text
-     on fabric keeps at least the contrast it had on the flat colour.
-     The SVG paints its own #46525c ground (keep it equal to --color-board) so
-     the image is opaque: contrast checkers that sample a background-image
-     without its background-color then read the real fabric, not white. */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' fill='%2346525c'/%3E%3Crect width='100%25' height='100%25' filter='url(%23f)'/%3E%3C/svg%3E");
-  color: var(--color-paper);
+  /* Felt, not a grid: fractal noise in dark flecks only. On the pale mint
+     ground the flecks are kept to 6% alpha; at the 14% the dark slate used,
+     they turned the light felt grubby. The SVG paints its own #d9ebe1 ground
+     (keep it equal to --color-board) so the image is opaque and contrast
+     checkers that sample a background-image without its background-color
+     read the real fabric, not white. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' fill='%23d9ebe1'/%3E%3Crect width='100%25' height='100%25' filter='url(%23f)'/%3E%3C/svg%3E");
+  color: var(--color-on-board);
 }
 
 /* Poster stock pinned to a board: the sheet sits slightly off the fabric, so

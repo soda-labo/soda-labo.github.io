@@ -37,28 +37,27 @@ const year = new Date().getFullYear();
     font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: -0.02em;
-    color: var(--color-paper);
+    color: var(--color-on-board);
   }
 
-  /* Paper at 78% on fabric is 5.26:1, comfortably above the 4.5 floor. */
   .colophon-line {
     margin-top: 0.5rem;
     font-size: 0.875rem;
     line-height: 1.6;
-    color: color-mix(in srgb, var(--color-paper) 78%, transparent);
+    color: var(--color-on-board-soft);
   }
 
   /* These links sit inside a sentence, so they are underlined at rest, not on
      hover only. The email anchors are rendered by Email.astro and carry its
      scope, not this one, hence :global. */
   .colophon :global(.footer-link) {
-    color: var(--color-paper);
+    color: var(--color-on-board);
     text-decoration: underline;
-    text-decoration-color: color-mix(in srgb, var(--color-paper) 40%, transparent);
+    text-decoration-color: color-mix(in srgb, var(--color-on-board) 35%, transparent);
     text-underline-offset: 2px;
   }
   .colophon :global(.footer-link:hover) {
-    text-decoration-color: var(--color-paper);
+    text-decoration-color: var(--color-on-board);
   }
 
   /* The same crimson block as the home page's primary action and the
@@ -78,14 +77,13 @@ const year = new Date().getFullYear();
   .footer-action:hover { background-color: var(--color-accent-deep); }
   @media (min-width: 768px) { .footer-action { align-self: auto; } }
 
-  /* Paper at 72% on fabric, 4.76:1. */
   .colophon-fine {
     padding-top: 1rem;
-    border-top: 1px solid color-mix(in srgb, var(--color-paper) 18%, transparent);
+    border-top: 1px solid color-mix(in srgb, var(--color-on-board) 14%, transparent);
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: color-mix(in srgb, var(--color-paper) 72%, transparent);
+    color: var(--color-on-board-faint);
   }
 </style>
