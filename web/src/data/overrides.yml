@@ -1387,7 +1387,7 @@ two-tales-of-the-world-comparison-of-widely-used-world-news-datasets-gdelt-and-e
   - dcjrz5MAAAAJ:u_35RYKgDlwC
   - FYtw3zkAAAAJ:roLk4NBRz8UC
   description: GDELT and Event Registry are the two big repositories researchers use to study global news. We compare them across scale, news sources, and news geography. They differ sharply in scale and
-    sources but agree closely on news geography — a useful warning and reassurance for anyone choosing between them.
+    sources but agree closely on news geography, which is both a warning and a reassurance for anyone choosing between them.
   image: two-tales-of-the-world-comparison-of-widely-used-world-news-.webp
 are-you-charlie-or-ahmed-cultural-pluralism-in-charlie-hebdo-response-on-twitter:
   title: Are You Charlie or Ahmed? Cultural Pluralism in Charlie Hebdo Response on Twitter
@@ -1567,8 +1567,8 @@ searching-for-a-unique-style-in-soccer:
   - networks
   image: kdd14_laszlo.webp
   highlight: true
-  description: Is there really such a thing as a unique team style in modern soccer? We introduce 'flow motifs' — statistically significant patterns in pass sequences — to compare teams' play. Most teams
-    converge on similar structures, but FC Barcelona's tiki-taka turns out to be a genuinely distinctive, tightly constructed pattern rather than a flurry of random passes.
+  description: Is there really such a thing as a unique team style in modern soccer? We introduce 'flow motifs', statistically significant patterns in pass sequences, to compare teams' play. Most teams
+    converge on similar structures, but FC Barcelona's tiki-taka proves a genuinely distinctive, tightly built pattern, not a flurry of random passes.
   link:
     url: https://arxiv.org/abs/1409.0308
     venue: KDD Workshop on Large-Scale Sports Analytics, 2014
@@ -3101,8 +3101,10 @@ behavior-is-not-enough-a-mechanism-based-evaluation-of-social-norm-emergence-in-
   authors: Rasika Muralidharan, Haewoon Kwak, Jisun An
   link:
     url: https://arxiv.org/abs/2609.26481
-    venue: arXiv (Cornell University)
+    venue: arXiv preprint arXiv:2609.26481, 2026
   image: behavior-is-not-enough-a-mechanism-based-evaluation-of-socia.webp
+  description: When LLM agents settle into cooperation, have they formed a norm or merely converged? We measure what agents expect of each other, not just what they do, and isolate social learning and social
+    selection across four LLM families. Similar cooperative outcomes turn out to rest on different social processes that behavior alone cannot tell apart.
 when-the-rule-maker-runs-the-world-championship-late-patches-and-procedural-acco:
   title: 'When the Rule-Maker Runs the World Championship: Late Patches and Procedural Accountability in League of Legends'
   tags:
@@ -3112,8 +3114,10 @@ when-the-rule-maker-runs-the-world-championship-late-patches-and-procedural-acco
   authors: Haewoon Kwak
   link:
     url: https://arxiv.org/abs/2610.07427
-    venue: arXiv (Cornell University)
+    venue: arXiv preprint arXiv:2610.07427, 2026
   image: when-the-rule-maker-runs-the-world-championship-late-patches.webp
+  description: Riot Games runs the League of Legends World Championship and also patches the game just before it. Who checks where those late changes land? Across ten Worlds and 1,090 champion changes,
+    nerfs fell hardest on teams built around the prevailing meta, with a median 23-point gap between the most and least affected teams each year.
 narrative-entropy:
   title: Narrative Entropy
   tags:
@@ -3123,3 +3127,6 @@ narrative-entropy:
   authors: Devin R Wright, Fritz Breithaupt, Anthony F. Beavers, Jacob G. Foster, Jisun An
   link:
     url: https://doi.org/10.31234/osf.io/5xvyd_v1
+    venue: PsyArXiv preprint, 2026
+  description: How much interpretive room do a society's stories leave open? Narrative Entropy Theory treats narrative environments as ecosystems with more or less possibility for meaning. Across 475,716
+    news articles from 65 countries, our entropy measures track national indices of expressive freedom and explain over a third of the cross-national variation.
