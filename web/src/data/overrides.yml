@@ -1249,6 +1249,8 @@ achievement-and-friends-key-factors-of-player-retention-vary-across-player-level
   title: 'Achievement and Friends: Key Factors of Player Retention Vary Across Player Levels in Online Multiplayer Games'
   tags:
   - user-behavior
+  platforms:
+  - games
   image: www17_park.webp
   highlight: true
   description: 'Why do players stay or leave a game? Analyzing in-game logs of 51,104 players in an online multiplayer game across their virtual ''life phases,'' we find what predicts retention shifts with
@@ -1475,6 +1477,8 @@ exploring-cyberbullying-and-other-toxic-behavior-in-team-competition-online-game
   title: Exploring Cyberbullying and Other Toxic Behavior in Team Competition Online Games
   tags:
   - online-harm
+  platforms:
+  - games
   methods:
   - crowdsourced
   - dataset
@@ -1545,6 +1549,8 @@ linguistic-analysis-of-toxic-behavior-in-an-online-video-game:
   title: Linguistic Analysis of Toxic Behavior in an Online Video Game
   tags:
   - online-harm
+  platforms:
+  - games
   methods:
   - crowdsourced
   image: egg14_kwak.webp
@@ -1599,6 +1605,8 @@ stfu-noob-predicting-crowdsourced-decisions-on-toxic-behavior-in-online-games:
   title: STFU NOOB! Predicting Crowdsourced Decisions on Toxic Behavior in Online Games
   tags:
   - online-harm
+  platforms:
+  - games
   methods:
   - crowdsourced
   - dataset
@@ -3066,6 +3074,8 @@ when-ai-becomes-routine-a-decade-of-public-ai-mediation-in-korean-go-commentary:
   tags:
   - user-behavior
   - llms-responsible-ai
+  platforms:
+  - games
   scholar_ids:
   - dcjrz5MAAAAJ:0KyAp5RtaNEC
   link:
