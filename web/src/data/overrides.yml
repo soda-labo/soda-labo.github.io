@@ -1,8 +1,8 @@
 a-semantic-embedding-space-based-on-large-language-models-for-modelling-human-be:
   title: A semantic embedding space based on large language models for modelling human beliefs
   tags:
-  - llms-responsible-ai
   - beliefs-opinions
+  - llms-responsible-ai
   methods:
   - llm
   - nlp
@@ -86,6 +86,9 @@ the-impact-of-toxic-trolling-comments-on-anti-vaccine-youtube-videos:
   title: The Impact of Toxic Trolling Comments on Anti-vaccine YouTube Videos
   tags:
   - online-harm
+  - digital-health
+  methods:
+  - nlp
   platforms:
   - youtube
   image: scirep24_kuni.webp
@@ -102,7 +105,7 @@ the-impact-of-toxic-trolling-comments-on-anti-vaccine-youtube-videos:
 public-perception-of-generative-ai-on-twitter-an-empirical-study-based-on-occupa:
   title: 'Public Perception of Generative AI on Twitter: An Empirical Study Based on Occupation and Usage'
   tags:
-  - user-behavior
+  - beliefs-opinions
   - llms-responsible-ai
   methods:
   - llm
@@ -126,10 +129,9 @@ public-perception-of-generative-ai-on-twitter-an-empirical-study-based-on-occupa
 enhancing-spatiotemporal-traffic-prediction-through-urban-human-activity-analysi:
   title: Enhancing Spatiotemporal Traffic Prediction through Urban Human Activity Analysis
   tags:
-  - llms-responsible-ai
+  - user-behavior
   methods:
   - networks
-  - dataset
   image: cikm23_han.webp
   highlight: true
   description: Traffic prediction usually relies on sensor networks that miss the human side of urban movement. We add human-activity data from the National Household Travel Survey to graph-convolutional
@@ -185,6 +187,7 @@ wearing-masks-implies-refuting-trump-towards-target-specific-user-stance-predict
 political-honeymoon-effect-on-social-media-characterizing-social-media-reaction-:
   title: 'Political Honeymoon Effect on Social Media: Characterizing Social Media Reaction to the Changes of Prime Minister in Japan'
   tags:
+  - beliefs-opinions
   - user-behavior
   methods:
   - nlp
@@ -213,6 +216,7 @@ is-chatgpt-better-than-human-annotators-potential-and-limitations-of-chatgpt-in-
   - llm
   - nlp
   - crowdsourced
+  - user-study
   image: www23_fan_2.webp
   highlight: true
   description: Implicit hate speech is hard for both detectors and explainers. We ask whether ChatGPT can produce useful natural-language explanations of why a subtle hateful post is hateful, and compare
@@ -251,6 +255,7 @@ younicon-youtube-s-community-of-conspiracy-videos:
   title: 'YouNICon: YouTube''s CommuNIty of Conspiracy Videos'
   tags:
   - online-harm
+  - beliefs-opinions
   methods:
   - dataset
   platforms:
@@ -272,6 +277,9 @@ this-is-fake-news-characterizing-the-spontaneous-debunking-from-twitter-users-to
   tags:
   - news-journalism
   - digital-health
+  methods:
+  - nlp
+  - dataset
   platforms:
   - twitter
   image: icwsm23_miyazaki.webp
@@ -311,12 +319,9 @@ maang-manga-characterizing-spontaneous-ideation-contest-on-social-media:
   tags:
   - networks-influence
   methods:
-  - user-study
-  - dataset
+  - networks
   platforms:
   - twitter
-  - facebook
-  - multi-platform
   image: bigdata22_miyazaki.webp
   highlight: true
   description: When Facebook became Meta, Twitter users spontaneously started proposing new acronyms for Big Tech ('MAANG,' 'MANGA,' and many more). We trace how candidates were proposed, spread, and judged,
@@ -332,6 +337,7 @@ modeling-political-activism-around-gun-debate-via-social-media:
   tags:
   - beliefs-opinions
   methods:
+  - nlp
   - networks
   platforms:
   - twitter
@@ -351,7 +357,10 @@ modeling-political-activism-around-gun-debate-via-social-media:
 storm-the-capitol-linking-offline-political-speech-and-online-twitter-extra-repr:
   title: 'Storm the Capitol: Linking Offline Political Speech and Online Twitter Extra-Representational Participation on QAnon and the January 6 Insurrection'
   tags:
+  - beliefs-opinions
   - online-harm
+  methods:
+  - nlp
   platforms:
   - twitter
   image: frontiers22_lee.webp
@@ -396,6 +405,8 @@ understanding-toxicity-triggers-on-reddit-in-the-context-of-singapore:
   title: Understanding Toxicity Triggers on Reddit in the Context of Singapore
   tags:
   - online-harm
+  methods:
+  - nlp
   platforms:
   - reddit
   image: icwsm22_chong.webp
@@ -414,10 +425,8 @@ understanding-toxicity-triggers-on-reddit-in-the-context-of-singapore:
 who-is-missing-characterizing-the-participation-of-different-demographic-groups-:
   title: Who Is Missing? Characterizing the Participation of Different Demographic Groups in a Korean Nationwide Daily Conversation Corpus
   tags:
-  - llms-responsible-ai
   - bias-fairness
-  methods:
-  - dataset
+  - llms-responsible-ai
   image: icwsm22_kwak.webp
   highlight: true
   description: Conversation corpora power most interactive AI, but who actually contributed to them? Analyzing a Korean nationwide daily conversation corpus from the National Institute of Korean Language,
@@ -480,11 +489,12 @@ predicting-anti-asian-hateful-users-on-twitter-during-covid-19:
 precision-public-health-campaign-delivering-persuasive-messages-to-relevant-segm:
   title: 'Precision Public Health Campaign: Delivering Persuasive Messages to Relevant Segments Through Targeted Advertisements on Social Media'
   tags:
-  - beliefs-opinions
   - digital-health
+  - beliefs-opinions
   platforms:
   - facebook
   - instagram
+  - multi-platform
   image: jmir21_an.webp
   highlight: true
   description: 'Health campaigns usually broadcast one message to everyone. We propose a five-stage framework for precision public health: define goal and metrics, segment the audience, tailor a message
@@ -505,7 +515,6 @@ frameaxis-characterizing-microframe-bias-and-intensity-with-word-embedding:
   - news-journalism
   methods:
   - nlp
-  - dataset
   image: peerjcs21_kwak.webp
   highlight: true
   description: Framing nudges readers toward conclusions without making explicit arguments. FrameAxis identifies the semantic axes ('microframes') that a document leans on, using word embeddings rather
@@ -526,6 +535,8 @@ populist-supporters-on-reddit-a-comparison-of-content-and-behavioral-patterns-wi
   title: 'Populist Supporters on Reddit: A Comparison of Content and Behavioral Patterns Within Publics of Supporters of Donald Trump and Hillary Clinton'
   tags:
   - beliefs-opinions
+  methods:
+  - nlp
   platforms:
   - reddit
   image: sscr20_andreas.webp
@@ -546,8 +557,10 @@ how-to-present-news-on-social-media-a-causal-analysis-of-editing-news-headlines-
   - news-journalism
   methods:
   - dataset
+  - nlp
   platforms:
   - twitter
+  - news-media
   image: icwsm21_park.webp
   highlight: true
   description: When media outlets share an article on Twitter, the edited tweet often departs sharply from the original headline. Does that editing pay off? Using a parallel corpus of articles and tweets
@@ -590,7 +603,6 @@ identifying-and-characterizing-alternative-news-media-on-facebook:
   - news-journalism
   methods:
   - networks
-  - dataset
   platforms:
   - facebook
   image: asonam20_samuel.webp
@@ -609,6 +621,8 @@ what-was-written-vs-who-read-it-news-media-profiling-using-text-analysis-and-soc
   tags:
   - news-journalism
   - bias-fairness
+  methods:
+  - nlp
   platforms:
   - news-media
   - twitter
@@ -632,6 +646,7 @@ empirical-evaluation-of-three-common-assumptions-in-building-political-media-bia
   - bias-fairness
   - news-journalism
   methods:
+  - crowdsourced
   - dataset
   platforms:
   - news-media
@@ -725,6 +740,8 @@ tanbih-get-to-know-what-you-are-reading:
   tags:
   - news-journalism
   - bias-fairness
+  methods:
+  - nlp
   platforms:
   - news-media
   image: emnlp19_yifan.webp
@@ -765,9 +782,10 @@ gender-and-racial-diversity-in-commercial-brands-advertising-images-on-social-me
 stylistic-features-usage-similarities-and-differences-using-multiple-social-netw:
   title: 'Stylistic Features Usage: Similarities and Differences Using Multiple Social Networks'
   tags:
-  - networks-influence
+  - news-journalism
+  - user-behavior
   methods:
-  - networks
+  - nlp
   platforms:
   - twitter
   - youtube
@@ -788,6 +806,7 @@ predicting-audience-engagement-across-social-media-platforms-in-the-news-domain:
   - news-journalism
   platforms:
   - news-media
+  - multi-platform
   description: Among other findings, results show that content with high engagement on one platform does not guarantee high engagement on another platform, even when news outlets use similar cross-platform
     posts; however, for some content, cross-sharing posts on a platform will increase overall audience engagement on another platform.
   link:
@@ -802,6 +821,8 @@ detecting-toxicity-triggers-in-online-discussions:
   - online-harm
   methods:
   - nlp
+  platforms:
+  - reddit
   description: What sparks a toxic exchange in online discussions? We define toxicity 'triggers' formally, then build an LSTM model combining textual features with measures of topic and sentiment shift
     across interactions. Trained on diverse Reddit communities, the model detects triggers with 82.5% average accuracy.
   link:
@@ -839,6 +860,8 @@ view-like-comment-post-analyzing-user-engagement-by-topic-at-4-levels-across-5-s
   title: 'View, Like, Comment, Post: Analyzing User Engagement by Topic at 4 Levels across 5 Social Media Platforms for 53 News Organizations'
   tags:
   - news-journalism
+  methods:
+  - nlp
   platforms:
   - twitter
   - reddit
@@ -942,8 +965,6 @@ assessing-the-accuracy-of-four-popular-face-recognition-tools-for-inferring-gend
   title: Assessing the Accuracy of Four Popular Face Recognition Tools for Inferring Gender, Age, and Race
   tags:
   - bias-fairness
-  methods:
-  - dataset
   image: icwsm18_jung.webp
   highlight: true
   description: When computational social scientists infer demographics from photos, which face-recognition tool can they trust? Testing Face++, IBM Bluemix, AWS Rekognition, and Microsoft Azure across multiple
@@ -964,6 +985,7 @@ anatomy-of-online-hate-developing-a-taxonomy-and-machine-learning-models-for-ide
   - online-harm
   methods:
   - dataset
+  - nlp
   platforms:
   - youtube
   - facebook
@@ -1023,6 +1045,7 @@ semaxis-a-lightweight-framework-to-characterize-domain-specific-word-semantics-b
 what-we-read-what-we-search-media-attention-and-public-attention-among-193-count:
   title: 'What We Read, What We Search: Media Attention and Public Attention among 193 Countries'
   tags:
+  - news-journalism
   - user-behavior
   methods:
   - networks
@@ -1046,7 +1069,9 @@ what-is-gab-a-bastion-of-free-speech-or-an-alt-right-echo-chamber:
   title: What is Gab? A Bastion of Free Speech or an Alt-Right Echo Chamber?
   tags:
   - online-harm
-  - bias-fairness
+  - beliefs-opinions
+  methods:
+  - nlp
   platforms:
   - gab
   image: www18_savvas.webp
@@ -1110,7 +1135,9 @@ reports-of-the-workshops-held-at-the-2017-international-aaai-conference-on-web-a
 convergence-of-media-attention-across-129-countries:
   title: Convergence of Media Attention Across 129 Countries
   tags:
-  - user-behavior
+  - news-journalism
+  platforms:
+  - news-media
   image: socinfo17_an.webp
   highlight: true
   description: 'Are news outlets across countries converging on the same stories or going their separate ways? Using daily data on the 100 most over-reported topics in each country over 7 months, we find
@@ -1128,6 +1155,8 @@ multidimensional-analysis-of-the-news-consumption-of-different-demographic-group
   - news-journalism
   methods:
   - nlp
+  platforms:
+  - news-media
   image: socinfo17_an_2.webp
   highlight: true
   description: 'How differently do men and women, young and old, consume news? Examining 103,133 most-popular articles for different demographic groups in Daum News (Korea''s second-largest portal) over
@@ -1145,6 +1174,7 @@ multiplex-media-attention-and-disregard-network-among-129-countries:
   title: Multiplex Media Attention and Disregard Network among 129 Countries
   tags:
   - networks-influence
+  - news-journalism
   methods:
   - networks
   image: asonam17_kwak.webp
@@ -1162,6 +1192,7 @@ demographics-of-news-sharing-in-the-us-twittersphere:
   title: Demographics of News Sharing in the US Twittersphere
   tags:
   - news-journalism
+  - bias-fairness
   platforms:
   - twitter
   image: ht17_reis.webp
@@ -1183,8 +1214,8 @@ data-driven-approach-to-measuring-the-level-of-press-freedom-using-media-attenti
   tags:
   - news-journalism
   - bias-fairness
-  methods:
-  - user-study
+  platforms:
+  - news-media
   image: neco17_an.webp
   highlight: true
   description: 'The Press Freedom Index, published annually by Reporters Without Borders, is invaluable but expensive and slow because it''s survey-based. We propose an alternative: measure press freedom
@@ -1201,7 +1232,7 @@ data-driven-approach-to-measuring-the-level-of-press-freedom-using-media-attenti
 what-gets-media-attention-and-how-media-attention-evolves-over-time-large-scale-:
   title: What Gets Media Attention and How Media Attention Evolves Over Time - Large-scale Empirical Evidence from 196 Countries
   tags:
-  - user-behavior
+  - news-journalism
   description: Why do some news topics get sustained media attention while others fade? Most prior work was limited to a few countries or topics for lack of global longitudinal data. We use large-scale
     data from 196 countries to provide empirical analyses of how media attention forms, peaks, and dissipates over time.
   link:
@@ -1216,6 +1247,8 @@ persona-generation-from-aggregated-social-media-data:
   title: Persona Generation from Aggregated Social Media Data
   tags:
   - user-behavior
+  platforms:
+  - youtube
   link:
     url: https://dl.acm.org/doi/10.1145/3027063.3053120
     venue: Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI), 2017
@@ -1229,6 +1262,8 @@ i-would-not-plant-apple-trees-if-the-world-will-be-wiped-analyzing-hundreds-of-m
   title: 'I Would Not Plant Apple Trees If the World Will Be Wiped: Analyzing Hundreds of Millions of Behavioral Records of Players During an MMORPG Beta Test'
   tags:
   - user-behavior
+  platforms:
+  - games
   image: www17_kang.webp
   highlight: true
   description: What do people do when they know their work will be erased? Using 270 million records from the final days of the ArcheAge MMO closed beta (where all character data was about to be deleted),
@@ -1282,6 +1317,9 @@ who-are-your-users-comparing-media-professionals-preconception-of-users-to-data-
   title: Who Are Your Users? Comparing Media Professionals' Preconception of Users to Data-Driven Personas
   tags:
   - user-behavior
+  - news-journalism
+  methods:
+  - user-study
   link:
     url: https://dl.acm.org/doi/10.1145/3152771.3156178?cid=99659160512
     venue: Proceedings of the 29th Australian Conference on Computer-Human Interaction (OZCHI), 2017
@@ -1296,6 +1334,10 @@ generating-cultural-personas-from-social-data-a-perspective-of-middle-eastern-us
   title: 'Generating Cultural Personas from Social Data: A Perspective of Middle Eastern Users'
   tags:
   - user-behavior
+  methods:
+  - user-study
+  platforms:
+  - youtube
   link:
     url: https://ieeexplore.ieee.org/document/8113781
     venue: Proceedings of the 5th International Conference on Future Internet of Things and Cloud Workshops, 2017
@@ -1321,6 +1363,7 @@ personas-for-content-creators-via-decomposed-aggregate-audience-statistics:
 high-correlation-of-middle-east-respiratory-syndrome-spread-with-google-search-a:
   title: High correlation of Middle East respiratory syndrome spread with Google search and Twitter trends in Korea
   tags:
+  - digital-health
   - user-behavior
   platforms:
   - twitter
@@ -1355,8 +1398,11 @@ revealing-the-hidden-patterns-of-news-photos-analysis-of-millions-of-news-photos
   title: 'Revealing the Hidden Patterns of News Photos: Analysis of Millions of News Photos Using GDELT and Deep Learning-based Vision APIs'
   tags:
   - news-journalism
+  - bias-fairness
   methods:
   - nlp
+  platforms:
+  - news-media
   image: neco16_kwak.webp
   highlight: true
   description: What kinds of objects appear in news photos, and do they tell the same story as the article text? Analyzing over 2 million news photos from January 2016 using deep-learning vision APIs, we
@@ -1394,7 +1440,10 @@ two-tales-of-the-world-comparison-of-widely-used-world-news-datasets-gdelt-and-e
 are-you-charlie-or-ahmed-cultural-pluralism-in-charlie-hebdo-response-on-twitter:
   title: Are You Charlie or Ahmed? Cultural Pluralism in Charlie Hebdo Response on Twitter
   tags:
-  - user-behavior
+  - beliefs-opinions
+  - networks-influence
+  methods:
+  - networks
   platforms:
   - twitter
   image: icwsm16_an.webp
@@ -1430,6 +1479,8 @@ whom-should-we-sense-in-social-sensing-analyzing-which-users-work-best-for-socia
   title: Whom should we sense in 'social sensing'-analyzing which users work best for social media now-casting
   tags:
   - user-behavior
+  platforms:
+  - twitter
   link:
     url: https://link.springer.com/article/10.1140/epjds/s13688-015-0058-9
     venue: EPJ Data Science, 4, Article number 22, 2015
@@ -1443,8 +1494,8 @@ consumers-and-suppliers-attention-asymmetries-a-case-study-of-aljazeera-s-news-c
   title: 'Consumers and Suppliers: Attention asymmetries. A Case Study of Aljazeera’s News Coverage and Comments'
   tags:
   - news-journalism
-  methods:
-  - user-study
+  platforms:
+  - news-media
   link:
     url: http://cj2015.brown.columbia.edu/papers/consumers-and-suppliers.pdf
     venue: Computation+Journalsim (C+J) Symposium, 2015
@@ -1459,6 +1510,8 @@ breaking-the-news-first-impressions-matter-on-online-news:
   title: 'Breaking the News: First Impressions Matter on Online News'
   tags:
   - news-journalism
+  methods:
+  - nlp
   link:
     url: http://arxiv.org/abs/1503.07921
     venue: Proceeding of the 9th International Conference on Web and Social Media (ICWSM), 2015
@@ -1549,10 +1602,11 @@ linguistic-analysis-of-toxic-behavior-in-an-online-video-game:
   title: Linguistic Analysis of Toxic Behavior in an Online Video Game
   tags:
   - online-harm
-  platforms:
-  - games
   methods:
   - crowdsourced
+  - nlp
+  platforms:
+  - games
   image: egg14_kwak.webp
   highlight: true
   description: What does toxic player chat actually look like, linguistically? Using crowdsourced data on 590,000+ reported toxic players in League of Legends, we trace the language patterns that distinguish
@@ -1591,6 +1645,8 @@ didn-t-you-see-my-message-predicting-attentiveness-to-mobile-instant-messages:
   title: Didn’t You See My Message? Predicting Attentiveness to Mobile Instant Messages
   tags:
   - user-behavior
+  methods:
+  - user-study
   link:
     url: http://dl.acm.org/authorize?N87787
     venue: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2014
@@ -1605,11 +1661,10 @@ stfu-noob-predicting-crowdsourced-decisions-on-toxic-behavior-in-online-games:
   title: STFU NOOB! Predicting Crowdsourced Decisions on Toxic Behavior in Online Games
   tags:
   - online-harm
-  platforms:
-  - games
   methods:
   - crowdsourced
-  - dataset
+  platforms:
+  - games
   image: www14_jeremy.webp
   highlight: true
   description: League of Legends crowdsources toxicity judgements through the 'Tribunal,' but human review is slow and expensive. We train classifiers on 10M+ player reports covering 1.46M toxic players
@@ -1642,6 +1697,9 @@ sharing-political-news-the-balancing-act-of-intimacy-and-socialization-in-select
   title: 'Sharing political news: the balancing act of intimacy and socialization in selective exposure'
   tags:
   - news-journalism
+  - beliefs-opinions
+  platforms:
+  - twitter
   link:
     url: https://link.springer.com/article/10.1140/epjds/s13688-014-0012-2
     venue: EPJ Data Science volume 3, Article number 12, 2014
@@ -1675,6 +1733,9 @@ partisan-sharing-facebook-evidence-and-societal-consequences:
   title: 'Partisan Sharing: Facebook Evidence and Societal Consequences'
   tags:
   - beliefs-opinions
+  - news-journalism
+  methods:
+  - user-study
   platforms:
   - facebook
   link:
@@ -1710,6 +1771,8 @@ structures-of-broken-ties-exploring-unfollow-behavior-on-twitter:
   title: 'Structures of Broken Ties: Exploring Unfollow Behavior on Twitter'
   tags:
   - networks-influence
+  methods:
+  - networks
   platforms:
   - twitter
   link:
@@ -1727,6 +1790,8 @@ why-individuals-seek-diverse-opinions-or-why-they-don-t:
   title: Why Individuals Seek Diverse Opinions (or Why They Don't)
   tags:
   - beliefs-opinions
+  methods:
+  - user-study
   link:
     url: https://dl.acm.org/doi/10.1145/2464464.2464493?cid=99659160512
     venue: Proceedings of the 5th Annual ACM Web Science Conference (WebSci), 2013
@@ -1756,6 +1821,10 @@ traditional-media-seen-from-social-media:
   title: Traditional Media Seen from Social Media
   tags:
   - news-journalism
+  methods:
+  - networks
+  platforms:
+  - twitter
   link:
     url: https://dl.acm.org/doi/10.1145/2464464.2464492?cid=99659160512
     venue: Proceedings of the 5th Annual ACM Web Science Conference (WebSci), 2013
@@ -1767,7 +1836,10 @@ traditional-media-seen-from-social-media:
 fragmented-social-media-a-look-into-selective-exposure-to-political-news:
   title: 'Fragmented Social Media: A Look into Selective Exposure to Political News'
   tags:
+  - beliefs-opinions
   - news-journalism
+  platforms:
+  - facebook
   link:
     url: https://dl.acm.org/doi/10.1145/2487788.2487807?cid=99659160512
     venue: Proceedings of the 22nd International Conference on World Wide Web (WWW) Companion, 2013
@@ -1781,6 +1853,8 @@ more-of-a-receiver-than-a-giver-why-do-people-unfollow-in-twitter:
   title: 'More of a Receiver than a Giver: Why Do People Unfollow in Twitter?'
   tags:
   - networks-influence
+  methods:
+  - networks
   platforms:
   - twitter
   link:
@@ -1799,6 +1873,8 @@ visualizing-media-bias-through-twitter:
   tags:
   - bias-fairness
   - news-journalism
+  methods:
+  - networks
   platforms:
   - twitter
   link:
@@ -1852,6 +1928,8 @@ media-landscape-in-twitter-a-world-of-new-conventions-and-political-diversity:
   tags:
   - news-journalism
   - bias-fairness
+  methods:
+  - networks
   platforms:
   - twitter
   image: icwsm11_an.webp
@@ -1870,6 +1948,7 @@ what-is-twitter-a-social-network-or-a-news-media:
   title: What is Twitter, a Social Network or a News Media?
   tags:
   - news-journalism
+  - networks-influence
   methods:
   - networks
   platforms:
@@ -1892,6 +1971,8 @@ finding-influentials-based-on-the-temporal-order-of-information-adoption-in-twit
   title: Finding Influentials based on the Temporal Order of Information Adoption in Twitter
   tags:
   - networks-influence
+  methods:
+  - networks
   platforms:
   - twitter
   link:
@@ -1909,6 +1990,8 @@ understanding-topological-mesoscale-features-in-community-mining:
   title: Understanding Topological Mesoscale Features in Community Mining
   tags:
   - networks-influence
+  methods:
+  - networks
   link:
     url: https://ieeexplore.ieee.org/document/5431994
     venue: Proceedings of the Second International Conference on COMmunication Systems and NETworks (COMSNETS), 2010.
@@ -1921,6 +2004,9 @@ analyzing-the-video-popularity-characteristics-of-large-scale-user-generated-con
   title: Analyzing the Video Popularity Characteristics of Large-Scale User Generated Content Systems
   tags:
   - user-behavior
+  platforms:
+  - youtube
+  - multi-platform
   link:
     url: https://ieeexplore.ieee.org/document/5431994
     venue: ACM/IEEE Transactions on Networking, Vol 17, Issue 5, 2009
@@ -1952,7 +2038,9 @@ mining-communities-in-networks-a-solution-for-consistency-and-its-evaluation:
 the-wisdom-of-the-few-a-collaborative-filtering-approach-based-on-expert-opinion:
   title: 'The Wisdom of the Few: A Collaborative Filtering Approach based on Expert Opinions from the Web'
   tags:
-  - beliefs-opinions
+  - user-behavior
+  methods:
+  - user-study
   link:
     url: http://dl.acm.org/authorize?107602
     venue: Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval (SIGIR), 2009
@@ -1981,7 +2069,7 @@ comparison-of-online-social-relations-in-volume-vs-interaction-a-case-study-of-c
   tags:
   - networks-influence
   methods:
-  - user-study
+  - networks
   link:
     url: http://dl.acm.org/authorize?037715
     venue: Proceedings of the 8th ACM SIGCOMM conference on Internet measurement (IMC), 2008
@@ -1996,6 +2084,8 @@ i-tube-you-tube-everybody-tubes-analyzing-the-world-s-largest-user-generated-con
   title: 'I Tube, You Tube, Everybody Tubes: Analyzing the World''s Largest User Generated Content Video System'
   tags:
   - user-behavior
+  platforms:
+  - youtube
   link:
     url: http://dl.acm.org/authorize?916072
     venue: Proceedings of the 7th ACM SIGCOMM conference on Internet measurement (IMC), 2009
@@ -2014,6 +2104,8 @@ analysis-of-topological-characteristics-of-huge-online-social-networking-service
   - networks-influence
   methods:
   - networks
+  platforms:
+  - multi-platform
   link:
     url: http://dl.acm.org/authorize?968490
     venue: Proceedings of the 16th international conference on World Wide Web (WWW), 2007
@@ -2271,6 +2363,7 @@ statistical-modeling-of-harassment-against-reddit-moderators:
     that identifies six significant factors driving harassment, with knowledge of community norms (counterintuitively) being the strongest. Vulnerable moderators in toxic communities need direct support.
 benchmarking-zero-shot-stance-detection-with-flant5-xxl-insights-from-training-d:
   title: 'Benchmarking zero-shot stance detection with FlanT5-XXL: Insights from training data, prompting, and decoding strategies into its near-SoTA performance'
+  hide: true
   tags:
   - llms-responsible-ai
   methods:
@@ -2323,9 +2416,12 @@ toblend-token-level-blending-with-an-ensemble-of-llms-to-attack-ai-generated-tex
   - llms-responsible-ai
   methods:
   - llm
+  - nlp
   scholar_ids:
   - dcjrz5MAAAAJ:NJ774b8OgUMC
   - FYtw3zkAAAAJ:fQNAKQ3IYiAC
+  - dcjrz5MAAAAJ:5awf1xo2G04C
+  - FYtw3zkAAAAJ:08ZZubdj9fEC
   description: 'Detectors of AI-generated text are quietly competing against attacks that paraphrase or swap words. ToBlend goes further: it samples tokens randomly from an ensemble of LLMs, producing text
     that drops most detectors'' performance significantly while human raters confirm quality holds. We also release a fine-tuned Llama-3.1 detector tuned to catch ToBlend output.'
   authors: Fan Huang, Haewoon Kwak, Jisun An
@@ -2335,6 +2431,7 @@ toblend-token-level-blending-with-an-ensemble-of-llms-to-attack-ai-generated-tex
   image: toblend-token-level-blending-with-an-ensemble-of-llms-to-att.webp
 token-ensemble-text-generation-on-attacking-the-automatic-ai-generated-text-dete:
   title: 'Token-Ensemble Text Generation: On Attacking the Automatic AI-Generated Text Detection'
+  hide: true
   tags:
   - llms-responsible-ai
   scholar_ids:
@@ -2454,6 +2551,7 @@ plurule-a-benchmark-for-moderating-pluralistic-communities-on-social-media:
   - online-harm
   methods:
   - dataset
+  - llm
   platforms:
   - reddit
   highlight: true
@@ -2488,8 +2586,8 @@ when-behavior-is-not-enough-identity-biases-in-human-ai-creative-collaboration:
 if-i-change-your-eyes-are-you-still-you-identity-thresholds-in-deepfake-percepti:
   title: If I Change Your Eyes, Are You Still You? Identity Thresholds in Deepfake Perception
   tags:
-  - user-behavior
   - online-harm
+  - user-behavior
   methods:
   - user-study
   scholar_ids:
@@ -2506,6 +2604,7 @@ understanding-moral-reasoning-trajectories-in-large-language-models-toward-probi
   title: 'Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability'
   tags:
   - llms-responsible-ai
+  - beliefs-opinions
   methods:
   - llm
   scholar_ids:
@@ -2523,8 +2622,12 @@ llms-can-infer-political-alignment-from-online-conversations:
   title: LLMs Can Infer Political Alignment from Online Conversations
   tags:
   - llms-responsible-ai
+  - beliefs-opinions
   methods:
   - llm
+  - nlp
+  platforms:
+  - reddit
   scholar_ids:
   - dcjrz5MAAAAJ:tzM49s52ZIMC
   - FYtw3zkAAAAJ:AXPGKjj_ei8C
@@ -2541,6 +2644,8 @@ cross-cultural-differences-in-public-discourse-on-covid-19-vaccination-in-the-un
   - digital-health
   methods:
   - nlp
+  platforms:
+  - multi-platform
   scholar_ids:
   - dcjrz5MAAAAJ:2KloaMYe4IUC
   description: How does public discourse around COVID-19 vaccines differ between the United States and South Korea? Analyzing nearly 8,000 question-answer pairs from Quora and Naver Knowledge-iN, we apply
@@ -2554,23 +2659,29 @@ zero-shot-stance-detection-in-practice-insights-on-training-prompting-and-decodi
   title: 'Zero-shot stance detection in practice: insights on training, prompting, and decoding with a capable lightweight LLM'
   tags:
   - llms-responsible-ai
+  - beliefs-opinions
   methods:
   - llm
   - nlp
+  platforms:
+  - twitter
   scholar_ids:
   - dcjrz5MAAAAJ:ZfRJV9d4-WMC
   - FYtw3zkAAAAJ:Mojj43d5GZwC
+  - dcjrz5MAAAAJ:hkOj_22Ku90C
+  - FYtw3zkAAAAJ:tS2w5q8j5-wC
   description: Can LLMs do stance detection on tweets without any fine-tuning? Using FlanT5-XXL with SemEval 2016 and P-Stance datasets, we find zero-shot prompting matches or beats fine-tuned baselines.
     Performance varies with prompt phrasing, decoding strategy, and a measurable positivity bias, and we surface cases where the LLM over-commits to a stance when none is actually present.
   authors: Rachith Aiyappa, Shruthi Senthilmani, Jisun An, Haewoon Kwak, Yong-Yeol Ahn
   link:
     url: https://doi.org/10.7717/peerj-cs.3540
-    venue: PeerJ Computer Science
+    venue: PeerJ Computer Science 12, e3540, 2026
   image: zero-shot-stance-detection-in-practice.webp
 vulnerability-of-llms-belief-systems-llms-belief-resistance-check-through-strate:
   title: Vulnerability of LLMs' Belief Systems? LLMs Belief Resistance Check Through Strategic Persuasive Conversation Interventions
   tags:
   - llms-responsible-ai
+  - beliefs-opinions
   methods:
   - llm
   scholar_ids:
@@ -2627,6 +2738,8 @@ can-lessons-from-human-teams-be-applied-to-multi-agent-systems-the-role-of-struc
   title: Can Lessons From Human Teams Be Applied to Multi-Agent Systems? The Role of Structure, Diversity, and Interaction Dynamics
   tags:
   - llms-responsible-ai
+  methods:
+  - llm
   scholar_ids:
   - dcjrz5MAAAAJ:tKAzc9rXhukC
   - FYtw3zkAAAAJ:V3AGJWp-ZtQC
@@ -2728,6 +2841,9 @@ x-posing-free-speech-examining-the-impact-of-moderation-relaxation-on-online-soc
   - online-harm
   methods:
   - networks
+  - nlp
+  platforms:
+  - twitter
   scholar_ids:
   - FYtw3zkAAAAJ:sSrBHYA8nusC
   description: What happened to hate speech on Twitter after Elon Musk's takeover and the relaxation of moderation? On 10 million tweets, we document significant increases in hate targeting LGBTQ+ users
@@ -2751,6 +2867,9 @@ enhancing-stance-classification-on-social-media-using-quantified-moral-foundatio
   title: Enhancing stance classification on social media using quantified moral foundations
   tags:
   - beliefs-opinions
+  methods:
+  - nlp
+  - llm
   scholar_ids:
   - FYtw3zkAAAAJ:LPZeul_q3PIC
   description: Stance detection usually looks at message text alone. We add Moral Foundations Theory features (theoretically-derived dimensions of an individual's moral concerns) on top of standard semantic
@@ -2796,6 +2915,7 @@ privacybench-a-conversational-benchmark-for-evaluating-privacy-in-personalized-a
   - llms-responsible-ai
   methods:
   - dataset
+  - llm
   scholar_ids:
   - FYtw3zkAAAAJ:5ugPr518TE4C
   description: Personalized AI agents must access private data (emails, chats, purchases) to be useful, but they can leak it. PrivacyBench is a benchmark with conversational scenarios containing embedded
@@ -2867,6 +2987,7 @@ cogbias-measuring-and-mitigating-cognitive-bias-in-large-language-models:
   - bias-fairness
   methods:
   - llm
+  - dataset
   scholar_ids:
   - FYtw3zkAAAAJ:tkaPQYYpVKoC
   description: LLMs show cognitive biases in behavior, but where are those biases encoded internally, and can they be removed? We introduce CogBias, a benchmark covering four bias families (Judgment, Information
@@ -2880,8 +3001,6 @@ urban-vibrancy-embedding-and-application-on-traffic-prediction:
   title: Urban Vibrancy Embedding and Application on Traffic Prediction
   tags:
   - user-behavior
-  methods:
-  - nlp
   scholar_ids:
   - FYtw3zkAAAAJ:VOx2b1Wkg3QC
   description: Urban 'vibrancy' (the dynamic human activity in a place) is well-measured by floating-population data but rarely fed into traffic models. We use VAEs to compress floating-population data
@@ -2894,7 +3013,10 @@ urban-vibrancy-embedding-and-application-on-traffic-prediction:
 cognitive-linguistic-identity-fusion-score-clifs-a-scalable-cognition-informed-a:
   title: 'Cognitive Linguistic Identity Fusion Score (CLIFS): A Scalable Cognition‐Informed Approach to Quantifying Identity Fusion from Text'
   tags:
-  - user-behavior
+  - beliefs-opinions
+  methods:
+  - llm
+  - nlp
   scholar_ids:
   - FYtw3zkAAAAJ:mvPsJ3kp5DgC
   description: Identity fusion (the psychological merging of self with a group, ideology, or brand) has historically been measured with surveys. CLIFS uses cognitive linguistics and LLMs to detect implicit
@@ -2907,6 +3029,7 @@ cognitive-linguistic-identity-fusion-score-clifs-a-scalable-cognition-informed-a
 enhancing-regional-airbnb-trend-forecasting-using-llm-based-embeddings-of-access:
   title: Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility
   tags:
+  - user-behavior
   - llms-responsible-ai
   methods:
   - llm
@@ -2954,8 +3077,6 @@ a-model-for-monthly-local-level-airbnb-changes-using-public-dataset:
   title: A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset
   tags:
   - user-behavior
-  methods:
-  - dataset
   scholar_ids:
   - FYtw3zkAAAAJ:D_sINldO8mEC
   description: How do Airbnb listings shift month-to-month across a city's neighborhoods? Using public datasets covering Seoul from 2017 to 2019, we model monthly variation as a function of housing supply,
@@ -3074,7 +3195,10 @@ when-ai-becomes-routine-a-decade-of-public-ai-mediation-in-korean-go-commentary:
   tags:
   - user-behavior
   - llms-responsible-ai
+  methods:
+  - nlp
   platforms:
+  - youtube
   - games
   scholar_ids:
   - dcjrz5MAAAAJ:0KyAp5RtaNEC
@@ -3133,7 +3257,12 @@ when-the-rule-maker-runs-the-world-championship-late-patches-and-procedural-acco
 narrative-entropy:
   title: Narrative Entropy
   tags:
-  - user-behavior
+  - beliefs-opinions
+  - news-journalism
+  methods:
+  - nlp
+  platforms:
+  - news-media
   scholar_ids:
   - FYtw3zkAAAAJ:LjlpjdlvIbIC
   authors: Devin R Wright, Fritz Breithaupt, Anthony F. Beavers, Jacob G. Foster, Jisun An
