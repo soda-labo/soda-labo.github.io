@@ -104,3 +104,16 @@ html {
   margin-right: calc(50% - 50vw);
   width: 100vw;
 }
+
+/* A link that sits inside a sentence. Crimson against the body ink is only
+   1.15:1 in luminance, so colour alone cannot mark it as a link for a reader
+   who does not see the hue; the underline is what does. Matches the news
+   column's link treatment. Standalone links (team lists, the footer) are
+   identifiable by position and keep their hover-only underline. */
+.inline-link {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 35%, transparent);
+  text-underline-offset: 2px;
+}
+.inline-link:hover { text-decoration-color: var(--color-accent); }

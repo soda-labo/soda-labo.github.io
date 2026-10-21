@@ -7,7 +7,7 @@ import { loadMembers } from "../lib/members";
 const members = loadMembers();
 ---
 
-<Base title="Team · SoDA Lab">
+<Base title="Team · SoDA Lab" description="Faculty, PhD students, visitors, and alumni of the Social Data and AI Lab at Indiana University Bloomington.">
   <Masthead title="Team" lede="The people behind SoDA Lab." />
 
   <section class="mb-14">
@@ -19,8 +19,9 @@ const members = loadMembers();
             <img
               src={`/teampic/${f.photo}`}
               alt={f.name}
+              width="128" height="128"
               class="h-32 w-32 shrink-0 object-cover" style="box-shadow: inset 0 0 0 1px var(--color-rule);"
-              loading="lazy"
+              decoding="async"
             />
           )}
           <div class="min-w-0">

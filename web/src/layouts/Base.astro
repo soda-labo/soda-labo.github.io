@@ -13,6 +13,13 @@ const {
   description = "The Social Data and AI Lab at Indiana University Bloomington, led by Haewoon Kwak and Jisun An.",
 } = Astro.props;
 
+// Link previews (Slack, KakaoTalk, X, LinkedIn) read these. Without them a
+// shared link shows a bare URL, which matters for a site whose main job is
+// recruiting. The card image is the home page's first screen, so a preview
+// looks like the place it opens.
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const shareImage = new URL("/og-image.jpg", Astro.site).href;
+
 // Google Analytics 4, running cookieless. The measurement ID is not a secret
 // (it ships in the page source), so it lives here rather than in .env, which
 // keeps the GitHub Actions build from needing a new secret. Leave it as the
@@ -32,6 +39,21 @@ const analyticsEnabled =
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
     <title>{title}</title>
+    <link rel="canonical" href={canonical} />
+    <meta name="theme-color" content="#46525c" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SoDA Lab" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={shareImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="SoDA Lab: studying social phenomena with large-scale data and AI" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={shareImage} />
     {analyticsEnabled && (
       <>
         <script
