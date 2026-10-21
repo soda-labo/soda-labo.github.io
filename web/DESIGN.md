@@ -169,11 +169,14 @@ materials carry everything: the **hall floor** (`#eaeae7`) you stand on, the
 **board fabric** (`#46525c`) you face, and the **poster stock** (`#f6f6f3`)
 pinned to it. Nothing else is a surface. The page ground is always the floor;
 a `.board` is only applied where a board actually stands (the header strip,
-a page masthead, the home hero); `.stock` is only applied to a sheet that is
-pinned to something. The fabric carries a real 3px weave built from two
-`repeating-linear-gradient` layers, tight enough to read as material up close
-and to flatten into a field from a distance — it is a material, never a
-page-wide grain.
+a page masthead, the home hero, the footer); `.stock` is only applied to a
+sheet that is pinned to something. The fabric is felt: an SVG fractal-noise
+texture in dark flecks only, readable as material up close and flat from a
+distance. It is a material, never a page-wide grain. Until October 2026 it was
+a 3px weave of two `repeating-linear-gradient` layers, which is the stripe
+pattern generated UIs reach for; noise is what board cloth looks like, and
+dark-only flecks can only deepen the ground, so text on fabric never loses
+contrast to it.
 
 The system's one structural claim is that **size is meaning**. A publication
 board's physical size is set by its citation count, so a landmark paper and a
@@ -267,8 +270,8 @@ measure, for text a visitor stops to read. Both load from Google Fonts with
 
 ### Hierarchy
 - **Poster display** (600, `clamp(38px, 5.6vw, 68px)`, 1.06, `-0.035em`): the
-  home hero statement only. `text-wrap: balance`. The research page runs its own
-  hero at `clamp(44px, 6.2vw, 72px)` / `-0.02em`.
+  home hero statement only. `text-wrap: balance`. No other page has a display
+  hero; research opens on a masthead like the rest.
 - **Masthead headline** (600, `clamp(30px, 4.2vw, 46px)`, 1.1, `-0.03em`): the
   page name on fabric, in paper.
 - **Board title** (600, `-0.02em`, 1.32): 19px standard / 24px major / 32px
@@ -297,9 +300,12 @@ monospace face to make something look technical.
 controls); Literata speaks for the sheet (anything set with `.read`). A block
 does not switch voice mid-way, and a caption never gets the serif.
 
-**The 68ch Rule.** Reading text is capped at `68ch` by `.read`; the masthead
-lede at `52ch`; the research hero lede at `36ch`. A paragraph that has no measure
-cap is a bug.
+**The Measure Rule.** Literata reading text is capped at `64ch` by `.read`
+(about 78 characters; `68ch` ran to 83, past the ~80 ceiling); Archivo body
+text on /openings at `60ch` (about 78; Archivo's wide `0` makes `68ch` run to 88); news archive entries at `64ch`; the
+masthead lede at `52ch`. A paragraph with no measure cap is a bug. Running text
+(`p`, `li`, `dd`) sets `text-wrap: pretty` so a paragraph never ends on one
+word, and every `h1`–`h3` sets `text-wrap: balance`.
 
 ## Layout
 
@@ -488,15 +494,15 @@ The lab's own board on the home page deliberately carries no number; featured
 boards are addressed from `01` upward.
 
 ### Masthead (signature component)
-A full-bleed fabric band at the head of publications, team, and openings: the
+A full-bleed fabric band at the head of every page but home: the
 page name in paper at `clamp(30px, 4.2vw, 46px)`, an optional lede at `52ch` in
 paper at 78%. A page announces itself the way the hall entrance does, never
 with a bare heading on the floor.
 
 ### Research section head and kicker
-Section heads are a single horizontal row (`auto 1fr auto`): an optional 11px
-uppercase label, a 1px rule that fills the gap, and the heading — laid out
-across, never stacked.
+Section heads are a single horizontal row (`auto 1fr`): the heading, then a
+1px rule running to the column's edge, aligned with every other divider on the
+page. Laid out across, never stacked.
 
 **The Unnumbered Area Rule.** Each research area carries a track label below
 its `h3`: a 9px swatch in the area's primary track colour (`--track`) and the
@@ -567,8 +573,9 @@ the only autoplaying thing on the site checks the reduced-motion query first.
 - **Don't** ship gradient text, a coloured `border-left` callout, or any
   glass / backdrop-blur decoration.
 - **Don't** apply the `.stock` shadow to a control, a chip, or a fabric band.
-- **Don't** apply the fabric weave as a page-wide texture; it belongs only where
-  a board actually is.
+- **Don't** apply the fabric texture as a page-wide grain; it belongs only
+  where a board actually is. And don't bring back repeating-gradient stripes
+  for it: that is the pattern the felt replaced.
 - **Don't** resize a publication board by hand. Tier follows citations.
 - **Don't** stack four or five type sizes inside a single board to create
   hierarchy. Hierarchy across the page is the tier's job.

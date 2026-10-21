@@ -67,6 +67,9 @@ const total = years.reduce((n, y) => n + y.items.length, 0);
 
   .entry-body {
     font-family: var(--font-read);
+    /* The entry column is ~50rem beside the date, which ran headlines to
+       ~105 characters a line. Same measure as .read. */
+    max-width: 64ch;
     font-size: 0.9375rem;
     line-height: 1.6;
     color: var(--color-ink-soft);

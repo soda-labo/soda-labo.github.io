@@ -55,9 +55,16 @@ body {
    board actually is, never as a page-wide grain. */
 .board {
   background-color: var(--color-board);
-  background-image:
-    repeating-linear-gradient(90deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 3px),
-    repeating-linear-gradient(0deg, rgba(0,0,0,0.05) 0 1px, transparent 1px 3px);
+  /* Felt, not a grid: fractal noise in dark flecks only, at a low enough alpha
+     that the field still reads as #46525c from arm's length. The earlier
+     version drew a 3px weave out of two repeating-linear-gradients, which is
+     the stripe pattern generated UIs reach for; noise is what board cloth
+     actually looks like. Dark-only flecks can only deepen the ground, so text
+     on fabric keeps at least the contrast it had on the flat colour.
+     The SVG paints its own #46525c ground (keep it equal to --color-board) so
+     the image is opaque: contrast checkers that sample a background-image
+     without its background-color then read the real fabric, not white. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' fill='%2346525c'/%3E%3Crect width='100%25' height='100%25' filter='url(%23f)'/%3E%3C/svg%3E");
   color: var(--color-paper);
 }
 
@@ -73,12 +80,21 @@ body {
 h1, h2, h3 {
   font-family: var(--font-display);
   letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+/* Running text never ends on a lone word. Browsers that ignore this simply
+   wrap as before. */
+p, li, dd {
+  text-wrap: pretty;
 }
 
 /* Reading text on a poster is set in a serif at a real measure. */
 .read {
   font-family: var(--font-read);
-  max-width: 68ch;
+  /* 64ch of Literata is about 78 characters a line. 68ch was 83, past the
+     ~80 ceiling at which the eye starts losing its way back to the margin. */
+  max-width: 64ch;
   line-height: 1.6;
 }
 

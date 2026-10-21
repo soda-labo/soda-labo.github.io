@@ -199,6 +199,15 @@ import Email from "../components/Email.astro";
 </Base>
 
 <style>
+  /* The page column is 64rem wide, so unconstrained body text ran to ~135
+     characters a line. Archivo's "0" is wide, so 1ch overstates an average
+     character: 68ch rendered ~88 characters, 60ch lands under 80. */
+  section > p,
+  section > ul,
+  section > dl {
+    max-width: 60ch;
+  }
+
   /* A pinned notice on the board: ink rule, stock ground, and a stamp per row
      so a closed door reads closed instead of being quietly absent. */
   /* A coloured left bar is the category's default callout, so the notice is
