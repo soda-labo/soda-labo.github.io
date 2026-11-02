@@ -1822,8 +1822,8 @@
   "is-deepseek-a-new-voice-among-llms-in-public-opinion-simulation": {
     "title": "Is DeepSeek a New Voice Among LLMs in Public Opinion Simulation?",
     "abstract": null,
-    "method": "fail",
-    "matched_title": null,
+    "method": "fail-mismatch",
+    "matched_title": "The Law of DeepSeek",
     "doi": null,
     "openalex_id": null
   },
