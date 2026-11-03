@@ -316,9 +316,9 @@ controls); Literata speaks for the sheet (anything set with `.read`). A block
 does not switch voice mid-way, and a caption never gets the serif.
 
 **The Measure Rule.** Literata reading text is capped at `64ch` by `.read`
-(about 78 characters; `68ch` ran to 83, past the ~80 ceiling); Archivo body
-text on /openings at `72ch`, widened from `60ch` so the page does not feel
-unusually narrow while still avoiding the unconstrained 64rem column; news archive entries at `64ch`; the
+(about 78 characters; `68ch` ran to 83, past the ~80 ceiling); the Archivo
+body on /openings uses the full page column so its copy aligns with the
+availability and application panels; news archive entries are capped at `64ch`; the
 masthead lede at `52ch`. A paragraph with no measure cap is a bug. Running text
 (`p`, `li`, `dd`) sets `text-wrap: pretty` so a paragraph never ends on one
 word, and every `h1`–`h3` sets `text-wrap: balance`.

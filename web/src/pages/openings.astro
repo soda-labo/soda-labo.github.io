@@ -199,16 +199,6 @@ import Email from "../components/Email.astro";
 </Base>
 
 <style>
-  /* Keep the recruiting copy readable without making this page feel notably
-     narrower than the rest of the site. The old 60ch measure rendered at
-     about 550px on desktop; 72ch uses the page more comfortably while still
-     avoiding the ~135-character lines of the unconstrained 64rem column. */
-  section > p,
-  section > ul,
-  section > dl {
-    max-width: 72ch;
-  }
-
   /* A pinned notice on the board: ink rule, stock ground, and a stamp per row
      so a closed door reads closed instead of being quietly absent. */
   /* A coloured left bar is the category's default callout, so the notice is
