@@ -3271,3 +3271,20 @@ narrative-entropy:
     venue: PsyArXiv preprint, 2026
   description: How much interpretive room do a society's stories leave open? Narrative Entropy Theory treats narrative environments as ecosystems with more or less possibility for meaning. Across 475,716
     news articles from 65 countries, our entropy measures track national indices of expressive freedom and explain over a third of the cross-national variation.
+instruction-conditioned-motion-control-for-robotic-arms-language-to-code-decompo:
+  title: 'Instruction-Conditioned Motion Control for Robotic Arms: Language-to-Code Decomposition and Reinforcement Learning'
+  tags:
+  - user-behavior
+  scholar_ids:
+  - FYtw3zkAAAAJ:VL0QpB8kHFEC
+  authors: Fan Huang, De-Zhong Tong, Chang-Yu Chen, Haewoon Kwak, Ji-Sun An
+  link:
+    url: https://www.semanticscholar.org/paper/54bdc0130bda44469d5edf486d559e29c16caf7f
+same-symptoms-different-severity-investigating-gendered-cue-effects-on-llms-in-d:
+  title: 'Same Symptoms, Different Severity?: Investigating Gendered Cue Effects on LLMs in Depression Severity Assessment'
+  tags:
+  - digital-health
+  methods:
+  - llm
+  scholar_ids:
+  - FYtw3zkAAAAJ:ye4kPcJQO24C

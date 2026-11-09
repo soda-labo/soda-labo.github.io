@@ -1405,8 +1405,8 @@
   "system-and-method-for-extracting-users-of-similar-interests-between-various-type": {
     "title": "System and method for extracting users of similar interests between various types of web servers",
     "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "SyntTax: a web server linking synteny to prokaryotic taxonomy",
+    "method": "fail",
+    "matched_title": null,
     "doi": null,
     "openalex_id": null
   },
@@ -1815,17 +1815,18 @@
     "title": "Proceedings of the Nineteenth International AAAI Conference on Web and Social Media",
     "abstract": null,
     "method": "fail-mismatch",
-    "matched_title": "SocialQuotes: Learning Contextual Roles of Social Media Quotes on the Web",
+    "matched_title": "A Survey of Prediction Using Social Media",
     "doi": null,
     "openalex_id": null
   },
   "is-deepseek-a-new-voice-among-llms-in-public-opinion-simulation": {
     "title": "Is DeepSeek a New Voice Among LLMs in Public Opinion Simulation?",
-    "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "The Law of DeepSeek",
-    "doi": null,
-    "openalex_id": null
+    "matched_title": "Synthesizing Public Opinions with LLMs: Role Creation, Impacts, and the Future to eDemorcacy",
+    "abstract": "This paper investigates the use of Large Language Models (LLMs) to synthesize public opinion data, addressing challenges in traditional survey methods like declining response rates and non-response bias. We introduce a novel technique: role creation based on knowledge injection, a form of in-context learning that leverages RAG and specified personality profiles from the HEXACO model and demographic information, and uses that for dynamically generated prompts. This method allows LLMs to simulate diverse opinions more accurately than existing prompt engineering approaches. We compare our results with pre-trained models with standard few-shot prompts. Experiments using questions from the Cooperative Election Study (CES) demonstrate that our role-creation approach significantly improves the alignment of LLM-generated opinions with real-world human survey responses, increasing answer adherence. In addition, we discuss challenges, limitations and future research directions.",
+    "method": "openalex-title",
+    "doi": "https://doi.org/10.48550/arxiv.2504.00241",
+    "openalex_id": "https://openalex.org/W4417224595",
+    "overlap": 0.43
   },
   "a-model-for-monthly-local-level-airbnb-changes-using-public-dataset": {
     "title": "A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset",
@@ -1983,5 +1984,23 @@
     "doi": "https://doi.org/10.31234/osf.io/5xvyd_v1",
     "openalex_id": "https://openalex.org/W7213403084",
     "overlap": 1.0
+  },
+  "instruction-conditioned-motion-control-for-robotic-arms-language-to-code-decompo": {
+    "title": "Instruction-Conditioned Motion Control for Robotic Arms: Language-to-Code Decomposition and Reinforcement Learning",
+    "matched_title": "Instruction-Conditioned Motion Control for Robotic Arms: Language-to-Code Decomposition and Reinforcement Learning",
+    "abstract": "Instruction-Conditioned Motion Control (ICMC) separates parameter specification, instruction generation, and code synthesis for language-driven robot control, making execution outcomes traceable to instructions and programs. We compare one-shot generation with ICMC under o1 and o4-mini on cube pick-and-place and letter-reshaping tasks for a UR5e arm in MuJoCo. We then train an open-weight instruction policy by GRPO through a frozen code generator on cube placement onto two- and five-cube letter layouts, averaging the rewards of five programs per instruction. The logged positive-reward rate rose from 31.6% to 35.3% (253/800 to 282/800) between the first and last five training steps. A log audit identifies positive binary labels associated with geometric-failure messages: at least 19 in that run, 18 in the dense-reward run, and 5 in the run with one program per instruction. In one case, all five rewards were 1.0 while the log reports a 0.9515 m miss against a 0.05 m tolerance; the verdict came from the program's own output stream. We distinguish logged reward rates from independently verified task success and report descriptive results for each configuration's single training trajectory. We introduce an independent evaluation protocol that checks task completion against fixed specifications, separating robot control from success assessment to support reproducible evaluation.",
+    "method": "s2-title",
+    "doi": null,
+    "openalex_id": null,
+    "s2_id": "54bdc0130bda44469d5edf486d559e29c16caf7f",
+    "overlap": 0.55
+  },
+  "same-symptoms-different-severity-investigating-gendered-cue-effects-on-llms-in-d": {
+    "title": "Same Symptoms, Different Severity?: Investigating Gendered Cue Effects on LLMs in Depression Severity Assessment",
+    "abstract": null,
+    "method": "fail",
+    "matched_title": null,
+    "doi": null,
+    "openalex_id": null
   }
 }
