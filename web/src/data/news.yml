@@ -11,7 +11,7 @@
   headline: "Our work \"<a href='https://dl.acm.org/doi/abs/10.1145/3770854.3785698'>SynSym: A Synthetic Data Generation Framework for Psychiatric Symptom Identification</a>\" is presented at <a href='https://kdd2026.kdd.org/'>KDD 2026</a> in Jeju."
 
 - date: August 2026
-  headline: "Two of our papers accepted at <a href='https://2026.emnlp.org/'>EMNLP 2026</a> Findings: \"Same Symptoms, Different Severity? Investigating Gendered Cue Effects on LLMs in Depression Severity Assessment\"; and \"<a href='https://arxiv.org/abs/2603.16017'>Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability</a>\"."
+  headline: "Two of our papers accepted at <a href='https://2026.emnlp.org/'>EMNLP 2026</a> Findings: \"<a href='https://aclanthology.org/2026.findings-emnlp.1031/'>Same Symptoms, Different Severity?: Investigating Gendered Cue Effects on LLMs in Depression Severity Assessment</a>\"; and \"<a href='https://arxiv.org/abs/2603.16017'>Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability</a>\"."
 
 - date: August 2026
   headline: "Our work \"<a href='https://link.springer.com/article/10.1140/epjds/s13688-026-00688-5'>Gendered cultural discourse in Japan across the prewar\u2013postwar transition: evidence from historical word embeddings</a>\" is published in EPJ Data Science."
