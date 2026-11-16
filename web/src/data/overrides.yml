@@ -3284,8 +3284,11 @@ same-symptoms-different-severity-investigating-gendered-cue-effects-on-llms-in-d
   title: 'Same Symptoms, Different Severity?: Investigating Gendered Cue Effects on LLMs in Depression Severity Assessment'
   tags:
   - digital-health
+  - bias-fairness
+  - llms-responsible-ai
   methods:
   - llm
+  - nlp
   scholar_ids:
   - FYtw3zkAAAAJ:ye4kPcJQO24C
   authors: Migyeong Kang, Sihyeon Yang, Minseok Kim, Jisun An, Haewoon Kwak, Jinyoung Han
@@ -3293,3 +3296,4 @@ same-symptoms-different-severity-investigating-gendered-cue-effects-on-llms-in-d
     url: https://aclanthology.org/2026.findings-emnlp.1031/
     venue: 'Findings of the Association for Computational Linguistics: EMNLP 2026'
   image: same-symptoms-different-severity-investigating-gendered-cue-.webp
+  description: If the same depressive post signals a different gender, does an LLM rate its severity differently? Injecting explicit and implicit gender cues into social media posts, we find they systematically shift LLM severity predictions, raising the risk of missing severe cases. FairDep, a symptom-grounded reasoning scaffold, makes predictions steadier.
