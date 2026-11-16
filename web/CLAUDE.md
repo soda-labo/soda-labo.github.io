@@ -10,9 +10,17 @@ Last substantive update: 2026-08-22.
 
 | Path | Branch | What |
 |---|---|---|
-| `~/Projects/soda-labo-astro/` | `main` | **This repo.** Site source lives in `web/`. Push to `main` → GitHub Actions builds and deploys. |
+| `/Volumes/T9/Projects/soda-labo.github.io/` | `main` | **This repo.** A plain clone on the external T9 drive. Site source lives in `web/`. Push to `main` → GitHub Actions builds and deploys. |
 | `~/Projects/haewoon.github.io/` | `master` | Haewoon's personal landing card (single-file HTML, ~140 KB). Classic GitHub Pages. |
-| `~/Projects/soda-labo.github.io/` | `gh-pages` | Dead Jekyll checkout. Only still around for the Python venv at `scripts/prototype-citations/.venv/` used for ad-hoc script runs. |
+
+Until November 2026 the site lived in `~/Projects/soda-labo-astro/`, which
+was not a clone but a `git worktree` of the old Jekyll checkout at
+`~/Projects/soda-labo.github.io/`, so its history sat in that folder's
+`.git`. Both were retired when the repo moved to T9.
+
+The repo, the launchd job's script, and `scripts/.venv` are all on T9, so
+**the Monday cron only works while T9 is mounted.** If the log shows
+"no such file" for `update_citations.sh`, the drive was not attached.
 
 Backup tags: `jekyll-archive` (old Jekyll site, on the `soda-labo.github.io`
 remote) and `pre-minimal-2026` (full personal site before slimming).
@@ -176,8 +184,9 @@ npm run build                    # static build → dist/
 ./scripts/update_citations.sh    # run the weekly pipeline by hand
 tail -f ~/Library/Logs/sodalab-citations.log
 
-# ad-hoc script runs use the old prototype venv (has pyyaml/Pillow/pymupdf)
-PY=~/Projects/soda-labo.github.io/scripts/prototype-citations/.venv/bin/python
+# ad-hoc script runs use the pipeline's own venv (scholarly/pyyaml/Pillow/pymupdf;
+# bibtexparser must stay 1.x, 2.x breaks scholarly's import)
+PY=scripts/.venv/bin/python
 $PY scripts/fetch_links.py            # dry-run; add --apply to write
 $PY scripts/optimize_pubpics.py
 
