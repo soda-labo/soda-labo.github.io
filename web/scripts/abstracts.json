@@ -1181,8 +1181,8 @@
   "method-for-predicting-reactiveness-of-users-of-mobile-devices-for-mobile-messagi": {
     "title": "Method for predicting reactiveness of users of mobile devices for mobile messaging",
     "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "Sending messages to mobile users in disconnected ad-hoc wireless networks",
+    "method": "fail",
+    "matched_title": null,
     "doi": null,
     "openalex_id": null
   },
@@ -1387,8 +1387,8 @@
   "method-system-and-computer-readable-storage-mediums-for-estimating-a-route": {
     "title": "Method, system and computer-readable storage mediums for estimating a route",
     "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "Copyright in computer-readable works",
+    "method": "fail",
+    "matched_title": null,
     "doi": null,
     "openalex_id": null
   },
@@ -1898,8 +1898,8 @@
   "considering-interference-and-li-k-q-lit-f-m-lti-r-di-link-quality-of-multi-radio": {
     "title": "Considering Interference and Li k Q lit f M lti R di Link Quality of Multi-Radio Wireless Mesh Networks",
     "abstract": null,
-    "method": "fail-mismatch",
-    "matched_title": "Performance Limits of Outdoor Wireless Optical Communication Links through Scattering and Turbulent Channels",
+    "method": "fail",
+    "matched_title": null,
     "doi": null,
     "openalex_id": null
   },
@@ -1997,10 +1997,11 @@
   },
   "same-symptoms-different-severity-investigating-gendered-cue-effects-on-llms-in-d": {
     "title": "Same Symptoms, Different Severity?: Investigating Gendered Cue Effects on LLMs in Depression Severity Assessment",
-    "abstract": null,
-    "method": "fail",
-    "matched_title": null,
-    "doi": null,
-    "openalex_id": null
+    "matched_title": "Same Symptoms, Different Severity?: Investigating Gendered Cue Effects on LLMs in Depression Severity Assessment",
+    "abstract": "While prior studies have shown that gendered stereotypes can influence LLMs' outputs, little attention has been paid to how gendered cues affect depression severity assessment in mental health contexts.In this paper, we systematically investigate the impact of gendered cues on LLM-based depression severity prediction, focusing on depressive disorder.To this end, we introduce a counterfactual evaluation framework, where we inject two types of gendered cues, explicit and implicit, into social media posts and analyze how they shift LLMs' severity predictions.Our results reveal that gendered cues systematically shift LLMs' severity predictions, increasing the risk of underestimating severe cases that may involve suicidal ideation or self-harm.To explore a possible mitigation direction, we propose FAIRDEP, a symptomgrounded reasoning scaffold designed to reduce LLM sensitivity to gendered cues in depression severity prediction.By guiding models to focus on symptom-level evidence, FAIRDEP improves prediction consistency under gender cue perturbations while preserving sensitivity to severe cases.Our findings show that gender cue sensitivity is not merely a fairness concern, but a safety concern in LLM-based mental health assessment, where even small prediction shifts can reduce sensitivity to severe cases involving suicidal ideation or self-harm.Our code and resources are publicly available.",
+    "method": "openalex-title",
+    "doi": "https://doi.org/10.18653/2026.findings-emnlp.1031",
+    "openalex_id": "https://openalex.org/W7224599007",
+    "overlap": 0.5
   }
 }
