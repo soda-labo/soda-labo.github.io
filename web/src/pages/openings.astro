@@ -41,8 +41,8 @@ import Email from "../components/Email.astro";
           Postdoc positions.
         </li>
         <li>
-          <span class="stamp is-open">Open</span>
-          PhD admissions, on the regular Luddy cycle. Email anytime to chat about fit.
+          <span class="stamp is-closed">Closed</span>
+          PhD admissions, on the regular Luddy cycle.
         </li>
       </ul>
     </div>
@@ -117,11 +117,12 @@ import Email from "../components/Email.astro";
       Our PhD admissions cycle for the following Fall typically runs on this schedule:
     </p>
     <ol class="mt-4 space-y-3 text-base leading-relaxed text-[var(--color-ink-soft)]">
-      <li class="flex flex-col gap-1 sm:flex-row sm:gap-4">
+      {/* Past steps of the current cycle: struck through. Remove line-through when the next cycle starts. */}
+      <li class="flex flex-col gap-1 line-through sm:flex-row sm:gap-4">
         <span class="shrink-0 pt-1 sm:w-44 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--color-ink-faint)]">Through October</span>
         <span>Email us your CV, research statement, and the direction you're most interested in.</span>
       </li>
-      <li class="flex flex-col gap-1 sm:flex-row sm:gap-4">
+      <li class="flex flex-col gap-1 line-through sm:flex-row sm:gap-4">
         <span class="shrink-0 pt-1 sm:w-44 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--color-ink-faint)]">Early November</span>
         <span>We reply and shortlist candidates we'd like to talk with.</span>
       </li>
