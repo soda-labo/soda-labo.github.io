@@ -41,8 +41,9 @@ import Email from "../components/Email.astro";
           Postdoc positions.
         </li>
         <li>
-          <span class="stamp is-closed">Closed</span>
-          PhD admissions, on the regular Luddy cycle.
+          <span class="stamp is-progress">In progress</span>
+          PhD admissions for Fall 2027: interviews with shortlisted candidates are under way.
+          New inquiries will be considered for the next cycle.
         </li>
       </ul>
     </div>
@@ -283,5 +284,12 @@ import Email from "../components/Email.astro";
   .stamp.is-open {
     background-color: var(--color-accent);
     color: var(--color-paper);
+  }
+  /* Between the two: the cycle is still running for people already in it,
+     but the door is shut to new ones. Accent outline, no fill. */
+  .stamp.is-progress {
+    background-color: transparent;
+    color: var(--color-accent);
+    box-shadow: inset 0 0 0 1.5px var(--color-accent);
   }
 </style>
